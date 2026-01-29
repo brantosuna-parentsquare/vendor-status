@@ -100,12 +100,20 @@
                 
                     // Handle RSS-based vendors (Slack & ParentSquare)
                     if (v.key === "slack" || v.key === "parentsquare") {
-                        const isOk = data.status === "ok";
-                        result.status = isOk ? "Operational" : (data.status === "incident" ? "Incident Active" : "Status Unknown");
-                        result.color = isOk ? "emerald" : (data.status === "incident" ? "rose" : "slate");
+                        const status = data.status;
+                        if (status === "ok") {
+                            result.status = "Operational";
+                            result.color = "emerald";
+                        } else if (status === "incident") {
+                            result.status = "Incident Active";
+                            result.color = "rose";
+                        } else {
+                            result.status = "Fetch Error"; // This helps you see it's an automation issue
+                            result.color = "amber";
+                        }
                         result.incidents = []; 
                     } 
-                    // Handle JSON-based vendors (HubSpot, Asana, Zoom)
+                    // Handle JSON-based vendors
                     else if (v.type === "statuspage" && data.status) {
                         result.status = data.status.description || "Unknown";
                         const ind = data.status.indicator || "none";
