@@ -68,11 +68,11 @@
 
     <script>
         const vendors = [
-            { name: "ParentSquare", key: "parentsquare", type: "statuspage" },
-            { name: "Slack", key: "slack", type: "statuspage" }, // Type 'statuspage' works now with our custom logic
-            { name: "HubSpot", key: "hubspot", type: "statuspage" },
-            { name: "Asana", key: "asana", type: "statuspage" },
-            { name: "Zoom", key: "zoom", type: "statuspage" }
+            { name: "ParentSquare", key: "parentsquare", type: "statuspage", url: "https://status.parentsquare.com" },
+            { name: "Slack", key: "slack", type: "statuspage", url: "https://status.slack.com" },
+            { name: "HubSpot", key: "hubspot", type: "statuspage", url: "https://status.hubspot.com" },
+            { name: "Asana", key: "asana", type: "statuspage", url: "https://status.asana.com" },
+            { name: "Zoom", key: "zoom", type: "statuspage", url: "https://www.zoomstatus.com" }
         ];
 
         function toggleDebug() {
@@ -100,6 +100,7 @@
                         color: "slate", 
                         incidents: [],
                         updated: data ? data.updated : null 
+                        url: v.url
                     };
                 
                     if (!data) return result;
@@ -160,18 +161,21 @@
             const historyContainer = document.getElementById('history-container');
 
             statusContainer.innerHTML = results.map(res => `
-                <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col justify-between min-h-[120px]">
+                <a href="${res.url}" target="_blank" class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col justify-between min-h-[120px] transition-all hover:border-slate-600 hover:bg-slate-800/50 group">
                     <div>
-                        <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">${res.name}</span>
+                        <div class="flex justify-between items-start">
+                            <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest group-hover:text-slate-300 transition-colors">${res.name}</span>
+                            <span class="text-slate-700 group-hover:text-slate-500 text-[10px]">↗</span>
+                        </div>
                         <div class="flex items-center mt-2">
-                            <span class="h-2 w-2 rounded-full bg-${res.color}-500 mr-2 shadow-[0_0_8px_rgba(0,0,0,0.5)]"></span>
+                            <span class="h-2 w-2 rounded-full bg-${res.color}-500 mr-2 shadow-[0_0_8px_rgba(0,0,0,0.5)] ${res.color === 'rose' ? 'pulse-red' : ''}"></span>
                             <span class="text-${res.color}-400 font-mono text-[10px] font-bold uppercase tracking-widest">${res.status}</span>
                         </div>
                     </div>
                     <div class="text-[9px] font-mono text-slate-700 mt-4 italic uppercase tracking-tighter">
                         Check: ${res.updated ? new Date(res.updated).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) : 'N/A'}
                     </div>
-                </div>
+                </a>
             `).join('');
 
             const allIncidents = results.flatMap(r => r.incidents);
