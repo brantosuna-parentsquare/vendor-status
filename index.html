@@ -64,92 +64,82 @@
     </div>
 
     <script>
-        const PROXY = "https://api.allorigins.win/get?url=";
-        const vendors = [
-            { name: "Slack", url: "https://status.slack.com/api/v2/status.json", type: "statuspage" },
-            { name: "HubSpot", url: "https://status.hubspot.com/api/v2/status.json", type: "statuspage" },
-            { name: "Asana", url: "https://status.asana.com/api/v2/status.json", type: "statuspage" },
-            { name: "Google Cloud", url: "https://status.cloud.google.com/index.json", type: "google" },
-            { name: "Zoom", url: "https://status.zoom.us/api/v2/status.json", type: "statuspage" }
-        ];
+        // We define a few proxies in case one is down or blocked
+const PROXIES = [
+    "https://api.allorigins.win/get?url=",
+    "https://corsproxy.io/?"
+];
 
-        async function fetchAllData() {
-            const btn = document.getElementById('refresh-btn');
-            const icon = document.getElementById('refresh-icon');
-            btn.disabled = true;
-            icon.classList.add('loading-spin');
+const vendors = [
+    { name: "Slack", url: "https://status.slack.com/api/v2/status.json", type: "statuspage" },
+    { name: "HubSpot", url: "https://status.hubspot.com/api/v2/status.json", type: "statuspage" },
+    { name: "Asana", url: "https://status.asana.com/api/v2/status.json", type: "statuspage" },
+    { name: "Google Cloud", url: "https://status.cloud.google.com/index.json", type: "google" },
+    { name: "Zoom", url: "https://status.zoom.us/api/v2/status.json", type: "statuspage" }
+];
 
-            try {
-                const allResults = await Promise.all(vendors.map(async (vendor) => {
-                    try {
-                        const response = await fetch(`${PROXY}${encodeURIComponent(vendor.url)}`);
-                        const wrapper = await response.json();
-                        const data = JSON.parse(wrapper.contents);
-                        
-                        let result = { name: vendor.name, status: "Unknown", color: "slate", incidents: [] };
+async function fetchWithFallback(vendorUrl) {
+    // Try Proxy A first, then Proxy B
+    for (let proxy of PROXIES) {
+        try {
+            const targetUrl = proxy === PROXIES[0] ? `${proxy}${encodeURIComponent(vendorUrl)}` : `${proxy}${vendorUrl}`;
+            const response = await fetch(targetUrl);
+            if (!response.ok) throw new Error();
+            
+            const data = await response.json();
+            // AllOrigins wraps the result in a .contents string, corsproxy.io returns direct JSON
+            return data.contents ? JSON.parse(data.contents) : data;
+        } catch (e) {
+            console.warn(`Proxy ${proxy} failed, trying next...`);
+            continue;
+        }
+    }
+    throw new Error("All proxies failed");
+}
 
-                        if (vendor.type === "statuspage") {
-                            result.status = data.status.description;
-                            const ind = data.status.indicator;
-                            result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
-                            result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
-                                title: i.name,
-                                date: new Date(i.created_at).toLocaleDateString(),
-                                impact: i.impact,
-                                vendor: vendor.name
-                            }));
-                        } else if (vendor.type === "google") {
-                            const active = data.filter(i => !i.resolved);
-                            result.status = active.length === 0 ? "Operational" : "Incident";
-                            result.color = active.length === 0 ? "emerald" : "rose";
-                            result.incidents = data.slice(0, 2).map(i => ({
-                                title: i.external_desc,
-                                date: i.begin.split('T')[0], 
-                                impact: i.severity,
-                                vendor: vendor.name
-                            }));
-                        }
-                        return result;
-                    } catch (err) {
-                        return { name: vendor.name, status: "Fetch Error", color: "rose", incidents: [] };
-                    }
+async function fetchAllData() {
+    const btn = document.getElementById('refresh-btn');
+    const icon = document.getElementById('refresh-icon');
+    btn.disabled = true;
+    icon.classList.add('loading-spin');
+
+    const results = await Promise.all(vendors.map(async (vendor) => {
+        try {
+            const data = await fetchWithFallback(vendor.url);
+            
+            let result = { name: vendor.name, status: "Unknown", color: "slate", incidents: [] };
+
+            if (vendor.type === "statuspage") {
+                result.status = data.status.description;
+                const ind = data.status.indicator;
+                result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
+                result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
+                    title: i.name,
+                    date: new Date(i.created_at).toLocaleDateString(),
+                    vendor: vendor.name
                 }));
-                renderDashboard(allResults);
-            } finally {
-                btn.disabled = false;
-                icon.classList.remove('loading-spin');
-                document.getElementById('last-update').innerText = `Updated: ${new Date().toLocaleTimeString()}`;
+            } else if (vendor.type === "google") {
+                // Google JSON parsing fix
+                const active = data.filter(i => !i.resolved);
+                result.status = active.length === 0 ? "Operational" : "Incident";
+                result.color = active.length === 0 ? "emerald" : "rose";
+                result.incidents = data.slice(0, 2).map(i => ({
+                    title: i.external_desc,
+                    date: i.begin ? i.begin.split('T')[0] : 'Recent', 
+                    vendor: vendor.name
+                }));
             }
+            return result;
+        } catch (err) {
+            return { name: vendor.name, status: "Proxy Blocked", color: "rose", incidents: [] };
         }
+    }));
 
-        function renderDashboard(results) {
-            const statusContainer = document.getElementById('status-container');
-            const historyContainer = document.getElementById('history-container');
-
-            statusContainer.innerHTML = results.map(res => `
-                <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex justify-between items-center shadow-sm">
-                    <span class="text-lg font-bold tracking-tight">${res.name}</span>
-                    <div class="flex items-center bg-black/40 px-3 py-1.5 rounded-full border border-white/5">
-                        <span class="h-2 w-2 rounded-full bg-${res.color}-500 mr-2"></span>
-                        <span class="text-${res.color}-400 font-mono text-[10px] font-bold uppercase tracking-wider">${res.status}</span>
-                    </div>
-                </div>
-            `).join('');
-
-            const allIncidents = results.flatMap(r => r.incidents);
-            historyContainer.innerHTML = allIncidents.length ? allIncidents.map(inc => `
-                <div class="p-5 hover:bg-slate-800/30 transition-colors">
-                    <div class="flex justify-between items-center mb-1">
-                        <span class="text-[10px] font-black uppercase text-blue-400">${inc.vendor}</span>
-                        <span class="text-[10px] font-mono text-slate-500">${inc.date}</span>
-                    </div>
-                    <p class="text-sm font-semibold text-slate-200">${inc.title}</p>
-                </div>
-            `).join('') : `<div class="p-8 text-center text-slate-600 italic">No recent incidents found.</div>`;
-        }
-
-        fetchAllData();
-        setInterval(fetchAllData, 300000);
+    renderDashboard(results);
+    btn.disabled = false;
+    icon.classList.remove('loading-spin');
+    document.getElementById('last-update').innerText = `Sync: ${new Date().toLocaleTimeString()}`;
+}
     </script>
 </body>
 </html>
