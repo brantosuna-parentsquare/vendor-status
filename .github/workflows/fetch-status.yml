@@ -16,33 +16,37 @@ jobs:
       - name: Fetch Data
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           
-          # 1. ParentSquare RSS Check (Updated URL)
+          # ParentSquare RSS (Atom)
           curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.atom > ps_rss.txt || echo "Offline" > ps_rss.txt
-          
-          # Logic: If 'Active Incident' or 'Investigating' is found, it's an incident.
-          # If we can't find 'ParentSquare', the fetch failed.
           if grep -qiE "Active Incident|Investigating|Identified" ps_rss.txt; then
-             echo '{"status":"incident"}' > parentsquare.json
+             echo "{\"status\":\"incident\", \"updated\":\"$NOW\"}" > parentsquare.json
           elif grep -qi "ParentSquare" ps_rss.txt; then
-             echo '{"status":"ok"}' > parentsquare.json
+             echo "{\"status\":\"ok\", \"updated\":\"$NOW\"}" > parentsquare.json
           else
-             echo '{"status":"error"}' > parentsquare.json
+             echo "{\"status\":\"error\", \"updated\":\"$NOW\"}" > parentsquare.json
           fi
 
-          # 2. Slack RSS Check
+          # Slack RSS
           curl -H "User-Agent: $UA" -L -s https://status.slack.com/feed/rss > slack_rss.txt || echo "Offline" > slack_rss.txt
-          if grep -qi "Active Incident" slack_rss.txt; then echo '{"status":"incident"}' > slack.json; else echo '{"status":"ok"}' > slack.json; fi
+          if grep -qi "Active Incident" slack_rss.txt; then 
+             echo "{\"status\":\"incident\", \"updated\":\"$NOW\"}" > slack.json
+          else 
+             echo "{\"status\":\"ok\", \"updated\":\"$NOW\"}" > slack.json
+          fi
           
-          # 3. Standard JSON fetches
+          # Standard JSON fetches (with injected timestamp)
           fetch_vendor() {
             curl -H "User-Agent: $UA" -L -s -f "$1" > "$2" || echo '{"status":{"description":"Error"}}' > "$2"
+            # Injecting the timestamp into the JSON
+            jq --arg now "$NOW" '. + {updated: $now}' "$2" > "${2}.tmp" && mv "${2}.tmp" "$2"
           }
           fetch_vendor "https://status.hubspot.com/api/v2/summary.json" "hubspot.json"
           fetch_vendor "https://status.asana.com/api/v2/summary.json" "asana.json"
           fetch_vendor "https://www.zoomstatus.com/api/v2/summary.json" "zoom.json"
 
-          # 4. Final Assembly
+          # Final Assembly
           jq -n \
             --slurpfile ps parentsquare.json \
             --slurpfile slack slack.json \
