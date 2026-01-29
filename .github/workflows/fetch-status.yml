@@ -50,6 +50,16 @@ jobs:
           fetch_vendor "https://status.asana.com/api/v2/summary.json" "asana.json"
           fetch_vendor "https://www.zoomstatus.com/api/v2/summary.json" "zoom.json"
 
+          # Count incidents from the last 24 hours
+          # We check the 'created_at' field in the JSON files
+          YESTERDAY=$(date -u -d "24 hours ago" +"%Y-%m-%dT%H:%M:%SZ")
+          
+          RECENT_COUNT=$(jq -s "[.[] | .incidents? // [] | .[] | select(.created_at > \"$YESTERDAY\")] | length" hubspot.json asana.json zoom.json)
+          
+          # Add ParentSquare/Slack to the count if they are currently in 'incident' state
+          if [ "$(jq -r .status parentsquare.json)" == "incident" ]; then RECENT_COUNT=$((RECENT_COUNT+1)); fi
+          if [ "$(jq -r .status slack.json)" == "incident" ]; then RECENT_COUNT=$((RECENT_COUNT+1)); fi
+
           # Final Assembly
           jq -n \
             --slurpfile ps parentsquare.json \
@@ -58,12 +68,14 @@ jobs:
             --slurpfile asana asana.json \
             --slurpfile zoom zoom.json \
             --arg now "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" \
+            --arg count "$RECENT_COUNT" \
             '{
               parentsquare: ($ps[0] + {updated: $now}),
               slack: ($slack[0] + {updated: $now}),
               hubspot: $hubspot[0],
               asana: $asana[0],
-              zoom: $zoom[0]
+              zoom: $zoom[0],
+              summary: { recent_incidents: $count }
             }' > data.json
 
       - name: Commit and Push
