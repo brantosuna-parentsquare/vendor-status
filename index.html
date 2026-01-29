@@ -98,12 +98,14 @@
                 
                     if (!data) return result;
                 
-                    if (v.key === "slack") {
+                    // Handle RSS-based vendors (Slack & ParentSquare)
+                    if (v.key === "slack" || v.key === "parentsquare") {
                         const isOk = data.status === "ok";
-                        result.status = isOk ? "Operational" : "Incident Active";
-                        result.color = isOk ? "emerald" : "rose";
+                        result.status = isOk ? "Operational" : (data.status === "incident" ? "Incident Active" : "Status Unknown");
+                        result.color = isOk ? "emerald" : (data.status === "incident" ? "rose" : "slate");
+                        result.incidents = []; 
                     } 
-                    // This part covers ParentSquare, HubSpot, Asana, and Zoom
+                    // Handle JSON-based vendors (HubSpot, Asana, Zoom)
                     else if (v.type === "statuspage" && data.status) {
                         result.status = data.status.description || "Unknown";
                         const ind = data.status.indicator || "none";
