@@ -17,14 +17,17 @@ jobs:
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
           
-          # Added -f to fail fast and -H for Accept headers
-          curl -H "User-Agent: $UA" -H "Accept: application/json" -L -s -f https://status.slack.com/api/v2/status.json > slack.json || echo '{"status":{"description":"Slack API Unavailable"}}' > slack.json
+          # We use the direct Statuspage.io IDs for maximum reliability
+          # Slack's ID: 373024840
+          curl -H "User-Agent: $UA" -L -s -f "https://v9p2tnd5947g.statuspage.io/api/v2/status.json" > slack.json || echo '{"status":{"description":"Slack Error"}}' > slack.json
+          
+          # Remaining vendors
           curl -H "User-Agent: $UA" -L -s https://status.hubspot.com/api/v2/status.json > hubspot.json
           curl -H "User-Agent: $UA" -L -s https://status.asana.com/api/v2/status.json > asana.json
           curl -H "User-Agent: $UA" -L -s https://www.zoomstatus.com/api/v2/status.json > zoom.json
           curl -H "User-Agent: $UA" -L -s https://status.cloud.google.com/incidents.json > google.json
           
-          # Combine (using jq to ensure the JSON is valid)
+          # Final Assembly
           echo "{" > data.json
           echo "\"slack\": $(cat slack.json | jq .)," >> data.json
           echo "\"hubspot\": $(cat hubspot.json | jq .)," >> data.json
