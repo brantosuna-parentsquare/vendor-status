@@ -18,14 +18,18 @@ jobs:
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
           NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           
-          # ParentSquare RSS (Atom)
-          curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.atom > ps_rss.txt || echo "Offline" > ps_rss.txt
-          if grep -qiE "Active Incident|Investigating|Identified" ps_rss.txt; then
-             echo "{\"status\":\"incident\", \"updated\":\"$NOW\"}" > parentsquare.json
-          elif grep -qi "ParentSquare" ps_rss.txt; then
-             echo "{\"status\":\"ok\", \"updated\":\"$NOW\"}" > parentsquare.json
+          # 1. ParentSquare Atom Feed Check (First Entry Only)
+          curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.atom > ps_full.txt || echo "Offline" > ps_full.txt
+          
+          # Isolate only the first <entry> block (the most recent update)
+          sed -n '/<entry>/,/<\/entry>/p' ps_full.txt | head -n 20 > ps_current.txt
+
+          # If the latest entry contains 'Investigating' or 'Identified' 
+          # AND does NOT contain 'Resolved', it's a live issue.
+          if grep -qiE "Investigating|Identified|Active Incident" ps_current.txt && ! grep -qi "Resolved" ps_current.txt; then
+             echo '{"status":"incident"}' > parentsquare.json
           else
-             echo "{\"status\":\"error\", \"updated\":\"$NOW\"}" > parentsquare.json
+             echo '{"status":"ok"}' > parentsquare.json
           fi
 
           # Slack RSS
@@ -53,9 +57,10 @@ jobs:
             --slurpfile hubspot hubspot.json \
             --slurpfile asana asana.json \
             --slurpfile zoom zoom.json \
+            --arg now "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" \
             '{
-              parentsquare: $ps[0],
-              slack: $slack[0],
+              parentsquare: ($ps[0] + {updated: $now}),
+              slack: ($slack[0] + {updated: $now}),
               hubspot: $hubspot[0],
               asana: $asana[0],
               zoom: $zoom[0]
