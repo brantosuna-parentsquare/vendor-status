@@ -1,9 +1,11 @@
 {
   "parentsquare": {
-    "status": "incident"
+    "status": "incident",
+    "updated": "2026-01-29T18:05:27Z"
   },
   "slack": {
-    "status": "ok"
+    "status": "ok",
+    "updated": "2026-01-29T18:05:27Z"
   },
   "hubspot": {
     "page": {
@@ -185,7 +187,8 @@
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
-    }
+    },
+    "updated": "2026-01-29T18:05:27Z"
   },
   "asana": {
     "page": {
@@ -767,7 +770,8 @@
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
-    }
+    },
+    "updated": "2026-01-29T18:05:27Z"
   },
   "zoom": {
     "page": {
@@ -5586,6 +5590,7 @@
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
-    }
+    },
+    "updated": "2026-01-29T18:05:27Z"
   }
 }
