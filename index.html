@@ -153,6 +153,8 @@
         }
 
         fetchAllData();
+        // Automatically refresh the dashboard data every 10 minutes
+        setInterval(fetchAllData, 600000);
     </script>
 </body>
 </html>
