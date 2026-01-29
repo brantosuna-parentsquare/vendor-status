@@ -94,7 +94,13 @@
                 
                 const results = vendors.map(v => {
                     const data = allData[v.key];
-                    let result = { name: v.name, status: "Unknown", color: "slate", incidents: [] };
+                    let result = { 
+                        name: v.name, 
+                        status: "Unknown", 
+                        color: "slate", 
+                        incidents: [],
+                        updated: data ? data.updated : null // This line captures the timestamp
+                    };
                 
                     if (!data) return result;
                 
@@ -108,12 +114,11 @@
                             result.status = "Incident Active";
                             result.color = "rose";
                         } else {
-                            result.status = "Fetch Error"; // This helps you see it's an automation issue
+                            result.status = "Fetch Error";
                             result.color = "amber";
                         }
-                        result.incidents = []; 
                     } 
-                    // Handle JSON-based vendors
+                    // Handle JSON-based vendors (HubSpot, Asana, Zoom)
                     else if (v.type === "statuspage" && data.status) {
                         result.status = data.status.description || "Unknown";
                         const ind = data.status.indicator || "none";
