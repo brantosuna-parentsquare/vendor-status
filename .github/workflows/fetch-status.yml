@@ -25,20 +25,21 @@ jobs:
             if ! jq . "$file" > /dev/null 2>&1; then
               echo "$fallback" > "$file"
             fi
+            sleep 1 # Small pause to prevent rate limiting
           }
 
-          # Fetch ParentSquare using their Statuspage ID
+          # ParentSquare Direct Summary
           fetch_vendor "https://69v448m71630.statuspage.io/api/v2/summary.json" "parentsquare.json" '{"status":{"description":"Error"}}'
           
-          # Your existing vendors
+          # Slack RSS fallback
           curl -H "User-Agent: $UA" -L -s https://status.slack.com/feed/rss > slack_rss.txt || echo "Offline" > slack_rss.txt
           if grep -q "Active Incident" slack_rss.txt; then echo '{"status":"incident"}' > slack.json; else echo '{"status":"ok"}' > slack.json; fi
           
+          # Others
           fetch_vendor "https://status.hubspot.com/api/v2/summary.json" "hubspot.json" '{"status":{"description":"Error"}}'
           fetch_vendor "https://status.asana.com/api/v2/summary.json" "asana.json" '{"status":{"description":"Error"}}'
           fetch_vendor "https://www.zoomstatus.com/api/v2/summary.json" "zoom.json" '{"status":{"description":"Error"}}'
 
-          # Combine all 5 into data.json
           jq -n \
             --slurpfile ps parentsquare.json \
             --slurpfile slack slack.json \
