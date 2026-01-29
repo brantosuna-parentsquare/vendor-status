@@ -120,17 +120,19 @@
         
                     // Handle RSS Vendors (Slack & ParentSquare)
                     if (v.key === "slack" || v.key === "parentsquare") {
-                        if (data.status === "ok") {
-                            result.status = "Operational";
-                            result.color = "emerald";
-                        } else if (data.status === "incident") {
-                            result.status = "Issue Detected";
-                            result.color = "amber";
-                        } else {
-                            result.status = "Fetch Error";
-                            result.color = "slate";
+                        const status = data.status;
+                        result.status = (status === "ok") ? "Operational" : "Issue Detected";
+                        result.color = (status === "ok") ? "emerald" : "amber";
+                        
+                        // ADD THIS: Push the title we extracted into the history list
+                        if (data.latest_title && data.latest_title !== "No recent incidents") {
+                            result.incidents.push({
+                                title: data.latest_title,
+                                date: new Date(result.updated).toLocaleDateString(),
+                                vendor: v.name
+                            });
                         }
-                    } 
+                    }
                     // Handle JSON Vendors (HubSpot, Asana, Zoom)
                     else if (v.type === "statuspage" && data.status) {
                         const ind = data.status.indicator || "none";
