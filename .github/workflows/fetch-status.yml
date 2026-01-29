@@ -2,8 +2,11 @@ name: Sync Vendor Status
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Runs every 10 minutes
+    - cron: '*/10 * * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   fetch-status:
@@ -20,9 +23,7 @@ jobs:
           
           # 1. ParentSquare Atom Feed
           curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.atom > ps_full.txt
-          # Extract first entry only for status check
           sed -n '/<entry>/,/<\/entry>/p' ps_full.txt | head -n 20 > ps_current.txt
-          # Extract latest title for history list
           PS_TITLE=$(grep -m 1 "<title>" ps_full.txt | sed -e 's/<[^>]*>//g' | sed 's/^[[:space:]]*//' || echo "No recent incidents")
           
           if grep -qiE "Investigating|Identified|Active Incident" ps_current.txt && ! grep -qi "Resolved" ps_current.txt; then
@@ -33,7 +34,6 @@ jobs:
 
           # 2. Slack RSS Feed
           curl -H "User-Agent: $UA" -L -s https://status.slack.com/feed/rss > slack_full.txt
-          # Extract latest title for history list
           SLACK_TITLE=$(grep -m 2 "<title>" slack_full.txt | tail -n 1 | sed -e 's/<[^>]*>//g' | sed 's/^[[:space:]]*//' || echo "No recent incidents")
           
           if grep -qi "Active Incident" slack_full.txt; then 
@@ -42,10 +42,9 @@ jobs:
              echo "{\"status\":\"ok\", \"latest_title\":\"$SLACK_TITLE\", \"updated\":\"$NOW\"}" > slack.json
           fi
           
-          # 3. Standard JSON fetches (HubSpot, Asana, Zoom)
+          # 3. Standard JSON fetches
           fetch_vendor() {
             curl -H "User-Agent: $UA" -L -s -f "$1" > "$2" || echo '{"status":{"description":"Error"}}' > "$2"
-            # Inject updated timestamp into the vendor object
             jq --arg now "$NOW" '. + {updated: $now}' "$2" > "${2}.tmp" && mv "${2}.tmp" "$2"
           }
           fetch_vendor "https://status.hubspot.com/api/v2/summary.json" "hubspot.json"
@@ -54,7 +53,6 @@ jobs:
 
           # 4. Count Incidents in last 24h
           RECENT_COUNT=$(jq -s "[.[] | .incidents? // [] | .[] | select(.created_at > \"$YESTERDAY\")] | length" hubspot.json asana.json zoom.json)
-          # Add RSS vendors to count if they aren't 'ok'
           if [ "$(jq -r .status parentsquare.json)" != "ok" ]; then RECENT_COUNT=$((RECENT_COUNT+1)); fi
           if [ "$(jq -r .status slack.json)" != "ok" ]; then RECENT_COUNT=$((RECENT_COUNT+1)); fi
 
@@ -76,9 +74,11 @@ jobs:
             }' > data.json
 
       - name: Commit and Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "Update status data [skip ci]" || exit 0
+          git diff-index --quiet HEAD || git commit -m "Update status data [skip ci]"
           git push
