@@ -15,18 +15,22 @@ jobs:
 
       - name: Fetch Data
         run: |
-          curl -s https://status.slack.com/api/v2/status.json > slack.json
-          curl -s https://status.hubspot.com/api/v2/status.json > hubspot.json
-          curl -s https://status.asana.com/api/v2/status.json > asana.json
-          curl -s https://status.zoom.us/api/v2/status.json > zoom.json
-          curl -s https://status.cloud.google.com/index.json > google.json
+          # We add a User-Agent header to prevent being blocked as a bot
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
           
+          curl -H "User-Agent: $UA" -s https://status.slack.com/api/v2/status.json > slack.json
+          curl -H "User-Agent: $UA" -s https://status.hubspot.com/api/v2/status.json > hubspot.json
+          curl -H "User-Agent: $UA" -s https://status.asana.com/api/v2/status.json > asana.json
+          curl -H "User-Agent: $UA" -s https://status.zoom.us/api/v2/status.json > zoom.json
+          curl -H "User-Agent: $UA" -s https://status.cloud.google.com/index.json > google.json
+          
+          # Combine carefully into a single object
           echo "{" > data.json
-          echo "\"slack\": $(cat slack.json)," >> data.json
-          echo "\"hubspot\": $(cat hubspot.json)," >> data.json
-          echo "\"asana\": $(cat asana.json)," >> data.json
-          echo "\"zoom\": $(cat zoom.json)," >> data.json
-          echo "\"google\": $(cat google.json)" >> data.json
+          echo "\"slack\": $(cat slack.json || echo '{"status":{"description":"Error"}}')," >> data.json
+          echo "\"hubspot\": $(cat hubspot.json || echo '{"status":{"description":"Error"}}')," >> data.json
+          echo "\"asana\": $(cat asana.json || echo '{"status":{"description":"Error"}}')," >> data.json
+          echo "\"zoom\": $(cat zoom.json || echo '{"status":{"description":"Error"}}')," >> data.json
+          echo "\"google\": $(cat google.json || echo '[]')" >> data.json
           echo "}" >> data.json
 
       - name: Commit and Push
