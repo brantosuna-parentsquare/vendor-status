@@ -15,21 +15,21 @@ jobs:
 
       - name: Fetch Data
         run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
           
-          # -L follows redirects, -s is silent
-          curl -H "User-Agent: $UA" -L -s https://status.slack.com/api/v2/status.json > slack.json
+          # Added -f to fail fast and -H for Accept headers
+          curl -H "User-Agent: $UA" -H "Accept: application/json" -L -s -f https://status.slack.com/api/v2/status.json > slack.json || echo '{"status":{"description":"Slack API Unavailable"}}' > slack.json
           curl -H "User-Agent: $UA" -L -s https://status.hubspot.com/api/v2/status.json > hubspot.json
           curl -H "User-Agent: $UA" -L -s https://status.asana.com/api/v2/status.json > asana.json
           curl -H "User-Agent: $UA" -L -s https://www.zoomstatus.com/api/v2/status.json > zoom.json
           curl -H "User-Agent: $UA" -L -s https://status.cloud.google.com/incidents.json > google.json
           
-          # Create a safe data.json. If a fetch fails, it inserts an empty valid JSON object.
+          # Combine (using jq to ensure the JSON is valid)
           echo "{" > data.json
-          echo "\"slack\": $(cat slack.json | jq . || echo '{"status":{"description":"Error"}}')," >> data.json
-          echo "\"hubspot\": $(cat hubspot.json | jq . || echo '{"status":{"description":"Error"}}')," >> data.json
-          echo "\"asana\": $(cat asana.json | jq . || echo '{"status":{"description":"Error"}}')," >> data.json
-          echo "\"zoom\": $(cat zoom.json | jq . || echo '{"status":{"description":"Error"}}')," >> data.json
+          echo "\"slack\": $(cat slack.json | jq .)," >> data.json
+          echo "\"hubspot\": $(cat hubspot.json | jq .)," >> data.json
+          echo "\"asana\": $(cat asana.json | jq .)," >> data.json
+          echo "\"zoom\": $(cat zoom.json | jq .)," >> data.json
           echo "\"google\": $(cat google.json | jq . || echo '[]')" >> data.json
           echo "}" >> data.json
 
