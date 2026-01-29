@@ -18,26 +18,24 @@ jobs:
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
           NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           
-          # 1. ParentSquare Atom Feed Check (First Entry Only)
-          curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.atom > ps_full.txt || echo "Offline" > ps_full.txt
+          # 1. ParentSquare (Extracting the latest title)
+          curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.atom > ps_full.txt
+          PS_TITLE=$(grep -m 1 "<title>" ps_full.txt | sed -e 's/<[^>]*>//g' | xindex 1 || echo "No recent incidents")
           
-          # Isolate only the first <entry> block (the most recent update)
-          sed -n '/<entry>/,/<\/entry>/p' ps_full.txt | head -n 20 > ps_current.txt
-
-          # If the latest entry contains 'Investigating' or 'Identified' 
-          # AND does NOT contain 'Resolved', it's a live issue.
           if grep -qiE "Investigating|Identified|Active Incident" ps_current.txt && ! grep -qi "Resolved" ps_current.txt; then
-             echo '{"status":"incident"}' > parentsquare.json
+             echo "{\"status\":\"incident\", \"latest_title\":\"$PS_TITLE\"}" > parentsquare.json
           else
-             echo '{"status":"ok"}' > parentsquare.json
+             echo "{\"status\":\"ok\", \"latest_title\":\"$PS_TITLE\"}" > parentsquare.json
           fi
 
-          # Slack RSS
-          curl -H "User-Agent: $UA" -L -s https://status.slack.com/feed/rss > slack_rss.txt || echo "Offline" > slack_rss.txt
-          if grep -qi "Active Incident" slack_rss.txt; then 
-             echo "{\"status\":\"incident\", \"updated\":\"$NOW\"}" > slack.json
+          # 2. Slack (Extracting the latest title)
+          curl -H "User-Agent: $UA" -L -s https://status.slack.com/feed/rss > slack_full.txt
+          SLACK_TITLE=$(grep -m 2 "<title>" slack_full.txt | tail -n 1 | sed -e 's/<[^>]*>//g' || echo "No recent incidents")
+          
+          if grep -qi "Active Incident" slack_full.txt; then 
+             echo "{\"status\":\"incident\", \"latest_title\":\"$SLACK_TITLE\"}" > slack.json
           else 
-             echo "{\"status\":\"ok\", \"updated\":\"$NOW\"}" > slack.json
+             echo "{\"status\":\"ok\", \"latest_title\":\"$SLACK_TITLE\"}" > slack.json
           fi
           
           # Standard JSON fetches (with injected timestamp)
