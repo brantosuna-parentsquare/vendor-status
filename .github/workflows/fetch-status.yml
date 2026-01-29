@@ -27,10 +27,11 @@ jobs:
             fi
           }
 
-          fetch_vendor "https://v9p2tnd5947g.statuspage.io/api/v2/status.json" "slack.json" '{"status":{"description":"Error"}}'
-          fetch_vendor "https://status.hubspot.com/api/v2/status.json" "hubspot.json" '{"status":{"description":"Error"}}'
-          fetch_vendor "https://status.asana.com/api/v2/status.json" "asana.json" '{"status":{"description":"Error"}}'
-          fetch_vendor "https://www.zoomstatus.com/api/v2/status.json" "zoom.json" '{"status":{"description":"Error"}}'
+          # Using the summary endpoint for Slack - it contains both status and incidents
+          fetch_vendor "https://v9p2tnd5947g.statuspage.io/api/v2/summary.json" "slack.json" '{"status":{"description":"Error"}}'
+          fetch_vendor "https://status.hubspot.com/api/v2/summary.json" "hubspot.json" '{"status":{"description":"Error"}}'
+          fetch_vendor "https://status.asana.com/api/v2/summary.json" "asana.json" '{"status":{"description":"Error"}}'
+          fetch_vendor "https://www.zoomstatus.com/api/v2/summary.json" "zoom.json" '{"status":{"description":"Error"}}'
 
           jq -n \
             --slurpfile slack slack.json \
