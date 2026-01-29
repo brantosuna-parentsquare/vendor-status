@@ -100,10 +100,10 @@
                 
                     if (v.key === "slack") {
                         const isOk = data.status === "ok";
-                        result.status = isOk ? "Operational" : (data.status === "incident" ? "Incident Active" : "Unknown");
-                        result.color = isOk ? "emerald" : (data.status === "incident" ? "rose" : "slate");
-                        result.incidents = []; 
+                        result.status = isOk ? "Operational" : "Incident Active";
+                        result.color = isOk ? "emerald" : "rose";
                     } 
+                    // This part covers ParentSquare, HubSpot, Asana, and Zoom
                     else if (v.type === "statuspage" && data.status) {
                         result.status = data.status.description || "Unknown";
                         const ind = data.status.indicator || "none";
