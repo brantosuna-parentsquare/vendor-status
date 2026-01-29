@@ -63,14 +63,13 @@ jobs:
             --slurpfile hubspot hubspot.json \
             --slurpfile asana asana.json \
             --slurpfile zoom zoom.json \
-            --arg count "$RECENT_COUNT" \
+            --arg now "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" \
             '{
-              parentsquare: $ps[0],
-              slack: $slack[0],
+              parentsquare: ($ps[0] + {updated: $now}),
+              slack: ($slack[0] + {updated: $now}),
               hubspot: $hubspot[0],
               asana: $asana[0],
-              zoom: $zoom[0],
-              summary: { recent_incidents: $count }
+              zoom: $zoom[0]
             }' > data.json
 
       - name: Commit and Push
