@@ -99,30 +99,41 @@
                         status: "Unknown", 
                         color: "slate", 
                         incidents: [],
-                        updated: data ? data.updated : null // This line captures the timestamp
+                        updated: data ? data.updated : null 
                     };
                 
                     if (!data) return result;
                 
-                    // Handle RSS-based vendors (Slack & ParentSquare)
+                    // RSS Vendors (Slack & ParentSquare)
                     if (v.key === "slack" || v.key === "parentsquare") {
-                        const status = data.status;
-                        if (status === "ok") {
+                        if (data.status === "ok") {
                             result.status = "Operational";
                             result.color = "emerald";
-                        } else if (status === "incident") {
-                            result.status = "Incident Active";
-                            result.color = "rose";
+                        } else if (data.status === "incident") {
+                            // RSS doesn't give us severity easily, so we default RSS incidents to Amber (Minor)
+                            // as they are usually investigation notices.
+                            result.status = "Issue Detected";
+                            result.color = "amber";
                         } else {
                             result.status = "Fetch Error";
-                            result.color = "amber";
+                            result.color = "slate";
                         }
                     } 
-                    // Handle JSON-based vendors (HubSpot, Asana, Zoom)
+                    // JSON Vendors (HubSpot, Asana, Zoom)
                     else if (v.type === "statuspage" && data.status) {
-                        result.status = data.status.description || "Unknown";
                         const ind = data.status.indicator || "none";
-                        result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
+                        result.status = data.status.description || "Unknown";
+                
+                        // Color Logic: none = green, minor = amber, major/critical = rose
+                        if (ind === "none") {
+                            result.color = "emerald";
+                        } else if (ind === "minor" || ind === "degraded") {
+                            result.color = "amber";
+                            result.status = "Minor Issue: " + result.status;
+                        } else {
+                            result.color = "rose";
+                            result.status = "Major Outage: " + result.status;
+                        }
                         
                         result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
                             title: i.name,
