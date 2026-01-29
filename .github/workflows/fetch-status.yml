@@ -27,8 +27,10 @@ jobs:
             fi
           }
 
-          # Using the summary endpoint for Slack - it contains both status and incidents
-          fetch_vendor "https://v9p2tnd5947g.statuspage.io/api/v2/summary.json" "slack.json" '{"status":{"description":"Error"}}'
+          # Official Slack Public API Health Endpoint
+          fetch_vendor "https://status.slack.com/api/v2.0.0/status" "slack.json" '{"status":"error"}'
+          
+          # Standard Summary Endpoints for others
           fetch_vendor "https://status.hubspot.com/api/v2/summary.json" "hubspot.json" '{"status":{"description":"Error"}}'
           fetch_vendor "https://status.asana.com/api/v2/summary.json" "asana.json" '{"status":{"description":"Error"}}'
           fetch_vendor "https://www.zoomstatus.com/api/v2/summary.json" "zoom.json" '{"status":{"description":"Error"}}'
