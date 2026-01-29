@@ -1,8 +1,8 @@
 name: Fetch Vendor Status
 on:
   schedule:
-    - cron: '*/10 * * * *' # Runs every 10 minutes
-  workflow_dispatch: # Allows you to run it manually
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 jobs:
   fetch:
@@ -15,14 +15,12 @@ jobs:
 
       - name: Fetch Data
         run: |
-          # Fetch each API and save to a temporary file
           curl -s https://status.slack.com/api/v2/status.json > slack.json
           curl -s https://status.hubspot.com/api/v2/status.json > hubspot.json
           curl -s https://status.asana.com/api/v2/status.json > asana.json
           curl -s https://status.zoom.us/api/v2/status.json > zoom.json
           curl -s https://status.cloud.google.com/index.json > google.json
           
-          # Combine them into one big data.json
           echo "{" > data.json
           echo "\"slack\": $(cat slack.json)," >> data.json
           echo "\"hubspot\": $(cat hubspot.json)," >> data.json
@@ -33,8 +31,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config user.name "Status Bot"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data.json
           git commit -m "Update vendor status data" || exit 0
           git push
