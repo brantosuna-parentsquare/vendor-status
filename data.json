@@ -1,11 +1,11 @@
 {
   "parentsquare": {
     "status": "ok",
-    "updated": "2026-01-29T19:12:56Z"
+    "updated": "2026-01-29T19:23:29Z"
   },
   "slack": {
     "status": "ok",
-    "updated": "2026-01-29T19:12:56Z"
+    "updated": "2026-01-29T19:23:29Z"
   },
   "hubspot": {
     "page": {
@@ -188,7 +188,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-29T19:12:54Z"
+    "updated": "2026-01-29T19:23:28Z"
   },
   "asana": {
     "page": {
@@ -771,7 +771,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-29T19:12:54Z"
+    "updated": "2026-01-29T19:23:28Z"
   },
   "zoom": {
     "page": {
@@ -5591,6 +5591,9 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-29T19:12:54Z"
+    "updated": "2026-01-29T19:23:28Z"
+  },
+  "summary": {
+    "recent_incidents": "0"
   }
 }
