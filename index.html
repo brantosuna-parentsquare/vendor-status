@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vendor Monitor</title>
+    <title>Vendor Health Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
@@ -15,48 +15,37 @@
     <div class="max-w-4xl mx-auto">
         <header class="flex justify-between items-center mb-10 border-b border-slate-800 pb-6">
             <div>
-                <h1 class="text-4xl font-black tracking-tight text-white italic uppercase">Service Health</h1>
-                <p class="text-slate-400 mt-1">Real-time API monitoring</p>
+                <h1 class="text-4xl font-black tracking-tight text-white uppercase italic">System Health</h1>
+                <p class="text-slate-400 mt-1">Automated Vendor Monitoring</p>
             </div>
             <div class="flex flex-col items-end">
-                <button onclick="fetchAllData()" id="refresh-btn" class="mb-2 bg-slate-800 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded-lg transition-all flex items-center gap-2 text-sm active:scale-95">
-                    <span id="refresh-icon">🔄</span> Refresh
+                <button onclick="fetchAllData()" id="refresh-btn" class="mb-2 bg-slate-800 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded-lg transition-all flex items-center gap-2 text-sm">
+                    <span id="refresh-icon">🔄</span> Sync Data
                 </button>
-                <div id="last-update" class="text-xs font-mono text-slate-500 uppercase">Initializing...</div>
+                <div id="last-update" class="text-xs font-mono text-slate-500">Initializing...</div>
             </div>
         </header>
         
-        <div id="status-container" class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+        <div id="status-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
             </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <section class="md:col-span-2">
-                <h2 class="text-sm font-black mb-4 text-slate-500 uppercase tracking-widest flex items-center">
-                    <span class="mr-2">🕒</span> Incident Log
-                </h2>
-                <div id="history-container" class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden divide-y divide-slate-800">
-                    <div class="p-8 text-center text-slate-500 italic">Loading history...</div>
-                </div>
+                <h2 class="text-sm font-black mb-4 text-slate-500 uppercase tracking-widest">Incident History</h2>
+                <div id="history-container" class="bg-slate-900 border border-slate-800 rounded-2xl divide-y divide-slate-800 overflow-hidden text-sm">
+                    </div>
             </section>
 
             <aside>
-                <h2 class="text-sm font-black mb-4 text-slate-500 uppercase tracking-widest flex items-center">
-                    <span class="mr-2">🔗</span> External Status
-                </h2>
+                <h2 class="text-sm font-black mb-4 text-slate-500 uppercase tracking-widest">Resources</h2>
                 <div class="space-y-3">
-                    <a href="https://health.aws.amazon.com/" target="_blank" class="block p-4 bg-slate-900 border border-slate-800 rounded-xl hover:border-amber-500/50 transition-colors group">
-                        <div class="flex justify-between items-center">
-                            <span class="font-bold text-slate-300">AWS Dashboard</span>
-                            <span class="text-slate-600 group-hover:text-amber-500">↗</span>
-                        </div>
-                        <p class="text-[10px] text-slate-500 mt-1">Regional & Service Health</p>
+                    <a href="https://health.aws.amazon.com/" target="_blank" class="block p-4 bg-slate-900 border border-slate-800 rounded-xl hover:border-amber-500/50 transition-colors">
+                        <span class="font-bold text-slate-300">AWS Health</span>
+                        <p class="text-[10px] text-slate-500 mt-1">Regional Dashboard</p>
                     </a>
-                    <a href="https://www.cloudflarestatus.com/" target="_blank" class="block p-4 bg-slate-900 border border-slate-800 rounded-xl hover:border-orange-500/50 transition-colors group">
-                        <div class="flex justify-between items-center">
-                            <span class="font-bold text-slate-300">Cloudflare</span>
-                            <span class="text-slate-600 group-hover:text-orange-500">↗</span>
-                        </div>
-                        <p class="text-[10px] text-slate-500 mt-1">Network & Edge Status</p>
+                    <a href="https://www.cloudflarestatus.com/" target="_blank" class="block p-4 bg-slate-900 border border-slate-800 rounded-xl hover:border-orange-500/50 transition-colors">
+                        <span class="font-bold text-slate-300">Cloudflare</span>
+                        <p class="text-[10px] text-slate-500 mt-1">Edge Network Status</p>
                     </a>
                 </div>
             </aside>
@@ -64,82 +53,89 @@
     </div>
 
     <script>
-        // We define a few proxies in case one is down or blocked
-const PROXIES = [
-    "https://api.allorigins.win/get?url=",
-    "https://corsproxy.io/?"
-];
+        const vendors = [
+            { name: "Slack", key: "slack", type: "statuspage" },
+            { name: "HubSpot", key: "hubspot", type: "statuspage" },
+            { name: "Asana", key: "asana", type: "statuspage" },
+            { name: "Zoom", key: "zoom", type: "statuspage" },
+            { name: "Google Cloud", key: "google", type: "google" }
+        ];
 
-const vendors = [
-    { name: "Slack", url: "https://status.slack.com/api/v2/status.json", type: "statuspage" },
-    { name: "HubSpot", url: "https://status.hubspot.com/api/v2/status.json", type: "statuspage" },
-    { name: "Asana", url: "https://status.asana.com/api/v2/status.json", type: "statuspage" },
-    { name: "Google Cloud", url: "https://status.cloud.google.com/index.json", type: "google" },
-    { name: "Zoom", url: "https://status.zoom.us/api/v2/status.json", type: "statuspage" }
-];
+        async function fetchAllData() {
+            const btn = document.getElementById('refresh-btn');
+            const icon = document.getElementById('refresh-icon');
+            btn.disabled = true;
+            icon.classList.add('loading-spin');
 
-async function fetchWithFallback(vendorUrl) {
-    // Try Proxy A first, then Proxy B
-    for (let proxy of PROXIES) {
-        try {
-            const targetUrl = proxy === PROXIES[0] ? `${proxy}${encodeURIComponent(vendorUrl)}` : `${proxy}${vendorUrl}`;
-            const response = await fetch(targetUrl);
-            if (!response.ok) throw new Error();
-            
-            const data = await response.json();
-            // AllOrigins wraps the result in a .contents string, corsproxy.io returns direct JSON
-            return data.contents ? JSON.parse(data.contents) : data;
-        } catch (e) {
-            console.warn(`Proxy ${proxy} failed, trying next...`);
-            continue;
-        }
-    }
-    throw new Error("All proxies failed");
-}
+            try {
+                // Fetching the data.json file created by GitHub Actions
+                const response = await fetch('./data.json?t=' + new Date().getTime());
+                const allData = await response.json();
+                
+                const results = vendors.map(v => {
+                    const data = allData[v.key];
+                    let result = { name: v.name, status: "Unknown", color: "slate", incidents: [] };
 
-async function fetchAllData() {
-    const btn = document.getElementById('refresh-btn');
-    const icon = document.getElementById('refresh-icon');
-    btn.disabled = true;
-    icon.classList.add('loading-spin');
+                    if (v.type === "statuspage" && data.status) {
+                        result.status = data.status.description;
+                        const ind = data.status.indicator;
+                        result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
+                        result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
+                            title: i.name,
+                            date: new Date(i.created_at).toLocaleDateString(),
+                            vendor: v.name
+                        }));
+                    } else if (v.type === "google" && Array.isArray(data)) {
+                        const active = data.filter(i => !i.resolved);
+                        result.status = active.length === 0 ? "Operational" : "Incident";
+                        result.color = active.length === 0 ? "emerald" : "rose";
+                        result.incidents = data.slice(0, 2).map(i => ({
+                            title: i.external_desc,
+                            date: i.begin ? i.begin.split('T')[0] : 'Recent', 
+                            vendor: v.name
+                        }));
+                    }
+                    return result;
+                });
 
-    const results = await Promise.all(vendors.map(async (vendor) => {
-        try {
-            const data = await fetchWithFallback(vendor.url);
-            
-            let result = { name: vendor.name, status: "Unknown", color: "slate", incidents: [] };
-
-            if (vendor.type === "statuspage") {
-                result.status = data.status.description;
-                const ind = data.status.indicator;
-                result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
-                result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
-                    title: i.name,
-                    date: new Date(i.created_at).toLocaleDateString(),
-                    vendor: vendor.name
-                }));
-            } else if (vendor.type === "google") {
-                // Google JSON parsing fix
-                const active = data.filter(i => !i.resolved);
-                result.status = active.length === 0 ? "Operational" : "Incident";
-                result.color = active.length === 0 ? "emerald" : "rose";
-                result.incidents = data.slice(0, 2).map(i => ({
-                    title: i.external_desc,
-                    date: i.begin ? i.begin.split('T')[0] : 'Recent', 
-                    vendor: vendor.name
-                }));
+                renderDashboard(results);
+            } catch (err) {
+                console.error("Dashboard failed to load data:", err);
+                document.getElementById('status-container').innerHTML = `<p class="text-rose-500 font-mono">Check GitHub Actions: data.json not found.</p>`;
+            } finally {
+                btn.disabled = false;
+                icon.classList.remove('loading-spin');
+                document.getElementById('last-update').innerText = `Refreshed: ${new Date().toLocaleTimeString()}`;
             }
-            return result;
-        } catch (err) {
-            return { name: vendor.name, status: "Proxy Blocked", color: "rose", incidents: [] };
         }
-    }));
 
-    renderDashboard(results);
-    btn.disabled = false;
-    icon.classList.remove('loading-spin');
-    document.getElementById('last-update').innerText = `Sync: ${new Date().toLocaleTimeString()}`;
-}
+        function renderDashboard(results) {
+            const statusContainer = document.getElementById('status-container');
+            const historyContainer = document.getElementById('history-container');
+
+            statusContainer.innerHTML = results.map(res => `
+                <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col gap-3">
+                    <span class="text-sm font-black uppercase text-slate-500 tracking-widest">${res.name}</span>
+                    <div class="flex items-center">
+                        <span class="h-2.5 w-2.5 rounded-full bg-${res.color}-500 mr-2 shadow-[0_0_8px_rgba(0,0,0,0.3)]"></span>
+                        <span class="text-${res.color}-400 font-mono text-xs font-bold uppercase tracking-widest">${res.status}</span>
+                    </div>
+                </div>
+            `).join('');
+
+            const allIncidents = results.flatMap(r => r.incidents);
+            historyContainer.innerHTML = allIncidents.length ? allIncidents.map(inc => `
+                <div class="p-4 hover:bg-slate-800/30 transition-colors">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="text-[10px] font-bold text-blue-400 uppercase">${inc.vendor}</span>
+                        <span class="text-[10px] font-mono text-slate-600">${inc.date}</span>
+                    </div>
+                    <p class="text-slate-300 font-medium">${inc.title}</p>
+                </div>
+            `).join('') : `<div class="p-8 text-center text-slate-700">All systems quiet.</div>`;
+        }
+
+        fetchAllData();
     </script>
 </body>
 </html>
