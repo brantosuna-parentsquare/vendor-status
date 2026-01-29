@@ -14,13 +14,6 @@
         #debug-log.active { display: block; }
     </style>
 </head>
-
-<footer class="max-w-6xl mx-auto px-4 py-8 mt-8 border-t border-slate-900">
-    <div class="flex items-center justify-between text-[10px] font-mono uppercase tracking-widest text-slate-600">
-        <div id="incident-summary">Scanning for recent history...</div>
-        <div>Monitoring Node: GitHub-US-East</div>
-    </div>
-</footer>
     
 <body class="bg-slate-950 text-slate-100 p-6 md:p-12">
 
@@ -217,14 +210,6 @@
                 `).join('');
             } else {
                 historyContainer.innerHTML = `<div class="p-8 text-center text-slate-700 italic text-sm">No recent incidents recorded in history.</div>`;
-            }
-        
-            // 3. Update Footer Summary
-            if (summaryElement && summary) {
-                const count = summary.recent_incidents;
-                summaryElement.innerHTML = count > 0 
-                    ? `<span class="text-amber-500">${count} Incidents reported in last 24h</span>`
-                    : `<span class="text-emerald-500">0 Incidents reported in last 24h</span>`;
             }
         }
         
