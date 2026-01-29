@@ -93,10 +93,13 @@
                     const data = allData[v.key];
                     let result = { name: v.name, status: "Unknown", color: "slate", incidents: [] };
 
-                    if (v.type === "statuspage" && data && data.status) {
-                        result.status = data.status.description;
-                        const ind = data.status.indicator;
+                    if (v.type === "statuspage" && data) {
+                        // This line checks multiple possible locations for the status text
+                        result.status = (data.status && data.status.description) || (data.page && data.status.description) || "Unknown";
+    
+                        const ind = (data.status && data.status.indicator) || "none";
                         result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
+    
                         result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
                             title: i.name,
                             date: new Date(i.created_at).toLocaleDateString(),
