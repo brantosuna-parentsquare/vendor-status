@@ -1,14 +1,13 @@
-name: Fetch Vendor Status
+name: Sync Vendor Status
+
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/10 * * * *' # Runs every 10 minutes
   workflow_dispatch:
 
 jobs:
-  fetch:
+  fetch-status:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -17,59 +16,59 @@ jobs:
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
           NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          YESTERDAY=$(date -u -d "24 hours ago" +"%Y-%m-%dT%H:%M:%SZ")
           
-          # 1. ParentSquare (Extracting the latest title)
+          # 1. ParentSquare Atom Feed
           curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.atom > ps_full.txt
-          PS_TITLE=$(grep -m 1 "<title>" ps_full.txt | sed -e 's/<[^>]*>//g' | xindex 1 || echo "No recent incidents")
+          # Extract first entry only for status check
+          sed -n '/<entry>/,/<\/entry>/p' ps_full.txt | head -n 20 > ps_current.txt
+          # Extract latest title for history list
+          PS_TITLE=$(grep -m 1 "<title>" ps_full.txt | sed -e 's/<[^>]*>//g' | sed 's/^[[:space:]]*//' || echo "No recent incidents")
           
           if grep -qiE "Investigating|Identified|Active Incident" ps_current.txt && ! grep -qi "Resolved" ps_current.txt; then
-             echo "{\"status\":\"incident\", \"latest_title\":\"$PS_TITLE\"}" > parentsquare.json
+             echo "{\"status\":\"incident\", \"latest_title\":\"$PS_TITLE\", \"updated\":\"$NOW\"}" > parentsquare.json
           else
-             echo "{\"status\":\"ok\", \"latest_title\":\"$PS_TITLE\"}" > parentsquare.json
+             echo "{\"status\":\"ok\", \"latest_title\":\"$PS_TITLE\", \"updated\":\"$NOW\"}" > parentsquare.json
           fi
 
-          # 2. Slack (Extracting the latest title)
+          # 2. Slack RSS Feed
           curl -H "User-Agent: $UA" -L -s https://status.slack.com/feed/rss > slack_full.txt
-          SLACK_TITLE=$(grep -m 2 "<title>" slack_full.txt | tail -n 1 | sed -e 's/<[^>]*>//g' || echo "No recent incidents")
+          # Extract latest title for history list
+          SLACK_TITLE=$(grep -m 2 "<title>" slack_full.txt | tail -n 1 | sed -e 's/<[^>]*>//g' | sed 's/^[[:space:]]*//' || echo "No recent incidents")
           
           if grep -qi "Active Incident" slack_full.txt; then 
-             echo "{\"status\":\"incident\", \"latest_title\":\"$SLACK_TITLE\"}" > slack.json
+             echo "{\"status\":\"incident\", \"latest_title\":\"$SLACK_TITLE\", \"updated\":\"$NOW\"}" > slack.json
           else 
-             echo "{\"status\":\"ok\", \"latest_title\":\"$SLACK_TITLE\"}" > slack.json
+             echo "{\"status\":\"ok\", \"latest_title\":\"$SLACK_TITLE\", \"updated\":\"$NOW\"}" > slack.json
           fi
           
-          # Standard JSON fetches (with injected timestamp)
+          # 3. Standard JSON fetches (HubSpot, Asana, Zoom)
           fetch_vendor() {
             curl -H "User-Agent: $UA" -L -s -f "$1" > "$2" || echo '{"status":{"description":"Error"}}' > "$2"
-            # Injecting the timestamp into the JSON
+            # Inject updated timestamp into the vendor object
             jq --arg now "$NOW" '. + {updated: $now}' "$2" > "${2}.tmp" && mv "${2}.tmp" "$2"
           }
           fetch_vendor "https://status.hubspot.com/api/v2/summary.json" "hubspot.json"
           fetch_vendor "https://status.asana.com/api/v2/summary.json" "asana.json"
           fetch_vendor "https://www.zoomstatus.com/api/v2/summary.json" "zoom.json"
 
-          # Count incidents from the last 24 hours
-          # We check the 'created_at' field in the JSON files
-          YESTERDAY=$(date -u -d "24 hours ago" +"%Y-%m-%dT%H:%M:%SZ")
-          
+          # 4. Count Incidents in last 24h
           RECENT_COUNT=$(jq -s "[.[] | .incidents? // [] | .[] | select(.created_at > \"$YESTERDAY\")] | length" hubspot.json asana.json zoom.json)
-          
-          # Add ParentSquare/Slack to the count if they are currently in 'incident' state
-          if [ "$(jq -r .status parentsquare.json)" == "incident" ]; then RECENT_COUNT=$((RECENT_COUNT+1)); fi
-          if [ "$(jq -r .status slack.json)" == "incident" ]; then RECENT_COUNT=$((RECENT_COUNT+1)); fi
+          # Add RSS vendors to count if they aren't 'ok'
+          if [ "$(jq -r .status parentsquare.json)" != "ok" ]; then RECENT_COUNT=$((RECENT_COUNT+1)); fi
+          if [ "$(jq -r .status slack.json)" != "ok" ]; then RECENT_COUNT=$((RECENT_COUNT+1)); fi
 
-          # Final Assembly
+          # 5. Final Assembly
           jq -n \
             --slurpfile ps parentsquare.json \
             --slurpfile slack slack.json \
             --slurpfile hubspot hubspot.json \
             --slurpfile asana asana.json \
             --slurpfile zoom zoom.json \
-            --arg now "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" \
             --arg count "$RECENT_COUNT" \
             '{
-              parentsquare: ($ps[0] + {updated: $now}),
-              slack: ($slack[0] + {updated: $now}),
+              parentsquare: $ps[0],
+              slack: $slack[0],
               hubspot: $hubspot[0],
               asana: $asana[0],
               zoom: $zoom[0],
@@ -78,8 +77,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           git add data.json
-          git commit -m "Update vendor status data" || exit 0
+          git commit -m "Update status data [skip ci]" || exit 0
           git push
