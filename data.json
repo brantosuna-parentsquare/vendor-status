@@ -1,11 +1,13 @@
 {
   "parentsquare": {
     "status": "ok",
-    "updated": "2026-01-29T19:23:29Z"
+    "latest_title": "No recent incidents",
+    "updated": "2026-01-29T19:45:45Z"
   },
   "slack": {
     "status": "ok",
-    "updated": "2026-01-29T19:23:29Z"
+    "latest_title": "                Incident: Issues with Changing Appearance Preferences in Slack",
+    "updated": "2026-01-29T19:45:45Z"
   },
   "hubspot": {
     "page": {
@@ -188,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-29T19:23:28Z"
+    "updated": "2026-01-29T19:45:43Z"
   },
   "asana": {
     "page": {
@@ -771,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-29T19:23:28Z"
+    "updated": "2026-01-29T19:45:43Z"
   },
   "zoom": {
     "page": {
@@ -5591,7 +5593,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-29T19:23:28Z"
+    "updated": "2026-01-29T19:45:43Z"
   },
   "summary": {
     "recent_incidents": "0"
