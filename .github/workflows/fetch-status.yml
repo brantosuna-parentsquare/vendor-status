@@ -17,29 +17,23 @@ jobs:
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
           
-          fetch_vendor() {
-            local url=$1
-            local file=$2
-            local fallback=$3
-            curl -H "User-Agent: $UA" -L -s -f "$url" > "$file" || echo "$fallback" > "$file"
-            if ! jq . "$file" > /dev/null 2>&1; then
-              echo "$fallback" > "$file"
-            fi
-            sleep 1 # Small pause to prevent rate limiting
-          }
+          # 1. ParentSquare RSS Check
+          curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.rss > ps_rss.txt || echo "Offline" > ps_rss.txt
+          if grep -q "Active Incident" ps_rss.txt; then echo '{"status":"incident"}' > parentsquare.json; else echo '{"status":"ok"}' > parentsquare.json; fi
 
-          # ParentSquare Direct Summary
-          fetch_vendor "https://69v448m71630.statuspage.io/api/v2/summary.json" "parentsquare.json" '{"status":{"description":"Error"}}'
-          
-          # Slack RSS fallback
+          # 2. Slack RSS Check
           curl -H "User-Agent: $UA" -L -s https://status.slack.com/feed/rss > slack_rss.txt || echo "Offline" > slack_rss.txt
           if grep -q "Active Incident" slack_rss.txt; then echo '{"status":"incident"}' > slack.json; else echo '{"status":"ok"}' > slack.json; fi
           
-          # Others
-          fetch_vendor "https://status.hubspot.com/api/v2/summary.json" "hubspot.json" '{"status":{"description":"Error"}}'
-          fetch_vendor "https://status.asana.com/api/v2/summary.json" "asana.json" '{"status":{"description":"Error"}}'
-          fetch_vendor "https://www.zoomstatus.com/api/v2/summary.json" "zoom.json" '{"status":{"description":"Error"}}'
+          # 3. Standard JSON fetches for the others
+          fetch_vendor() {
+            curl -H "User-Agent: $UA" -L -s -f "$1" > "$2" || echo '{"status":{"description":"Error"}}' > "$2"
+          }
+          fetch_vendor "https://status.hubspot.com/api/v2/summary.json" "hubspot.json"
+          fetch_vendor "https://status.asana.com/api/v2/summary.json" "asana.json"
+          fetch_vendor "https://www.zoomstatus.com/api/v2/summary.json" "zoom.json"
 
+          # 4. Final Assembly
           jq -n \
             --slurpfile ps parentsquare.json \
             --slurpfile slack slack.json \
