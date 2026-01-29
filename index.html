@@ -54,88 +54,103 @@
 
     <script>
         const vendors = [
-            { name: "Slack", key: "slack", type: "statuspage" },
-            { name: "HubSpot", key: "hubspot", type: "statuspage" },
-            { name: "Asana", key: "asana", type: "statuspage" },
-            { name: "Zoom", key: "zoom", type: "statuspage" },
-            { name: "Google Cloud", key: "google", type: "google" }
-        ];
+    { name: "Slack", key: "slack", type: "statuspage" },
+    { name: "HubSpot", key: "hubspot", type: "statuspage" },
+    { name: "Asana", key: "asana", type: "statuspage" },
+    { name: "Zoom", key: "zoom", type: "statuspage" },
+    { name: "Google Cloud", key: "google", type: "google" }
+];
 
-        async function fetchAllData() {
-            const btn = document.getElementById('refresh-btn');
-            const icon = document.getElementById('refresh-icon');
-            btn.disabled = true;
-            icon.classList.add('loading-spin');
+async function fetchAllData() {
+    const btn = document.getElementById('refresh-btn');
+    const icon = document.getElementById('refresh-icon');
+    btn.disabled = true;
+    icon.classList.add('loading-spin');
 
-            try {
-                // Fetching the data.json file created by GitHub Actions
-                const response = await fetch('./data.json?t=' + new Date().getTime());
-                const allData = await response.json();
+    try {
+        // Fetch your generated file (cache-busting with timestamp)
+        const response = await fetch('./data.json?t=' + new Date().getTime());
+        const allData = await response.json();
+        
+        // This is the "map" function that connects your list to the JSON data
+        const results = vendors.map(v => {
+            const data = allData[v.key];
+            let result = { name: v.name, status: "Unknown", color: "slate", incidents: [] };
+
+            // Handle Statuspage.io vendors (Slack, HubSpot, Asana, Zoom)
+            if (v.type === "statuspage" && data && data.status) {
+                result.status = data.status.description;
+                const ind = data.status.indicator;
+                result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
                 
-                const results = vendors.map(v => {
-                    const data = allData[v.key];
-                    let result = { name: v.name, status: "Unknown", color: "slate", incidents: [] };
-
-                    if (v.type === "statuspage" && data.status) {
-                        result.status = data.status.description;
-                        const ind = data.status.indicator;
-                        result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
-                        result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
-                            title: i.name,
-                            date: new Date(i.created_at).toLocaleDateString(),
-                            vendor: v.name
-                        }));
-                    } else if (v.type === "google" && Array.isArray(data)) {
-                        const active = data.filter(i => !i.resolved);
-                        result.status = active.length === 0 ? "Operational" : "Incident";
-                        result.color = active.length === 0 ? "emerald" : "rose";
-                        result.incidents = data.slice(0, 2).map(i => ({
-                            title: i.external_desc,
-                            date: i.begin ? i.begin.split('T')[0] : 'Recent', 
-                            vendor: v.name
-                        }));
-                    }
-                    return result;
-                });
-
-                renderDashboard(results);
-            } catch (err) {
-                console.error("Dashboard failed to load data:", err);
-                document.getElementById('status-container').innerHTML = `<p class="text-rose-500 font-mono">Check GitHub Actions: data.json not found.</p>`;
-            } finally {
-                btn.disabled = false;
-                icon.classList.remove('loading-spin');
-                document.getElementById('last-update').innerText = `Refreshed: ${new Date().toLocaleTimeString()}`;
+                // Fetching the incidents (resolved or active)
+                result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
+                    title: i.name,
+                    date: new Date(i.created_at).toLocaleDateString(),
+                    vendor: v.name
+                }));
+            } 
+            // Handle Google's specific array format
+            else if (v.type === "google" && Array.isArray(data)) {
+                const active = data.filter(i => !i.resolved);
+                result.status = active.length === 0 ? "Operational" : "Incident";
+                result.color = active.length === 0 ? "emerald" : "rose";
+                
+                result.incidents = data.slice(0, 2).map(i => ({
+                    title: i.external_desc || "Maintenance/Issue",
+                    date: i.begin ? i.begin.split('T')[0] : 'Recent', 
+                    vendor: v.name
+                }));
             }
-        }
+            return result;
+        });
 
-        function renderDashboard(results) {
-            const statusContainer = document.getElementById('status-container');
-            const historyContainer = document.getElementById('history-container');
+        renderDashboard(results);
+    } catch (err) {
+        console.error("Dashboard failed to load data:", err);
+        document.getElementById('status-container').innerHTML = `<p class="text-rose-500 font-mono text-xs">Error: data.json not ready or invalid. Run GitHub Action first.</p>`;
+    } finally {
+        btn.disabled = false;
+        icon.classList.remove('loading-spin');
+        document.getElementById('last-update').innerText = `Sync: ${new Date().toLocaleTimeString()}`;
+    }
+}
 
-            statusContainer.innerHTML = results.map(res => `
-                <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col gap-3">
-                    <span class="text-sm font-black uppercase text-slate-500 tracking-widest">${res.name}</span>
-                    <div class="flex items-center">
-                        <span class="h-2.5 w-2.5 rounded-full bg-${res.color}-500 mr-2 shadow-[0_0_8px_rgba(0,0,0,0.3)]"></span>
-                        <span class="text-${res.color}-400 font-mono text-xs font-bold uppercase tracking-widest">${res.status}</span>
-                    </div>
+function renderDashboard(results) {
+    const statusContainer = document.getElementById('status-container');
+    const historyContainer = document.getElementById('history-container');
+
+    // Render the top grid cards
+    statusContainer.innerHTML = results.map(res => `
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col gap-3">
+            <span class="text-xs font-black uppercase text-slate-500 tracking-widest">${res.name}</span>
+            <div class="flex items-center">
+                <span class="h-2.5 w-2.5 rounded-full bg-${res.color}-500 mr-2"></span>
+                <span class="text-${res.color}-400 font-mono text-[10px] font-bold uppercase tracking-widest">${res.status}</span>
+            </div>
+        </div>
+    `).join('');
+
+    // Flatten all incidents into one list and show them
+    const allIncidents = results.flatMap(r => r.incidents);
+    
+    if (allIncidents.length > 0) {
+        historyContainer.innerHTML = allIncidents.map(inc => `
+            <div class="p-4 hover:bg-slate-800/30 transition-colors">
+                <div class="flex justify-between items-center mb-1">
+                    <span class="text-[10px] font-bold text-blue-400 uppercase">${inc.vendor}</span>
+                    <span class="text-[10px] font-mono text-slate-600">${inc.date}</span>
                 </div>
-            `).join('');
+                <p class="text-slate-300 font-medium text-sm">${inc.title}</p>
+            </div>
+        `).join('');
+    } else {
+        historyContainer.innerHTML = `<div class="p-8 text-center text-slate-700 italic">No recent incidents recorded.</div>`;
+    }
+}
 
-            const allIncidents = results.flatMap(r => r.incidents);
-            historyContainer.innerHTML = allIncidents.length ? allIncidents.map(inc => `
-                <div class="p-4 hover:bg-slate-800/30 transition-colors">
-                    <div class="flex justify-between items-center mb-1">
-                        <span class="text-[10px] font-bold text-blue-400 uppercase">${inc.vendor}</span>
-                        <span class="text-[10px] font-mono text-slate-600">${inc.date}</span>
-                    </div>
-                    <p class="text-slate-300 font-medium">${inc.title}</p>
-                </div>
-            `).join('') : `<div class="p-8 text-center text-slate-700">All systems quiet.</div>`;
-        }
-
-        fetchAllData();
+// Initial Call
+fetchAllData();
     </script>
 </body>
 </html>
