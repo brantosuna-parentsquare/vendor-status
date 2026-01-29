@@ -1,8 +1,6 @@
 {
   "parentsquare": {
-    "status": {
-      "description": "Error"
-    }
+    "status": "ok"
   },
   "slack": {
     "status": "ok"
