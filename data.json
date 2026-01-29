@@ -1,5 +1,9 @@
 {
-"slack": {"status":{"description":"Error"}},
+"slack": {
+  "status": {
+    "description": "Slack API Unavailable"
+  }
+},
 "hubspot": {
   "page": {
     "id": "8b9w1wwq3g7d",
