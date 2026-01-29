@@ -95,15 +95,12 @@
                 
                     if (!data) return result;
                 
-                    // SPECIAL CASE: Slack's Official API
                     if (v.key === "slack") {
                         const isOk = data.status === "ok";
-                        result.status = isOk ? "All Systems Operational" : (data.status || "Error");
-                        result.color = isOk ? "emerald" : "rose";
-                        // Slack's API v2.0.0 doesn't always provide incidents in the simple status call
+                        result.status = isOk ? "Operational" : (data.status === "incident" ? "Incident Active" : "Unknown");
+                        result.color = isOk ? "emerald" : (data.status === "incident" ? "rose" : "slate");
                         result.incidents = []; 
                     } 
-                    // STANDARD CASE: Statuspage.io (HubSpot, Asana, Zoom)
                     else if (v.type === "statuspage" && data.status) {
                         result.status = data.status.description || "Unknown";
                         const ind = data.status.indicator || "none";
