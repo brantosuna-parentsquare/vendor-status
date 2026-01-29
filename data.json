@@ -1,8 +1,6 @@
 {
   "slack": {
-    "status": {
-      "description": "Error"
-    }
+    "status": "error"
   },
   "hubspot": {
     "page": {
