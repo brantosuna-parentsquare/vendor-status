@@ -1,4 +1,9 @@
 {
+  "parentsquare": {
+    "status": {
+      "description": "Error"
+    }
+  },
   "slack": {
     "status": "ok"
   },
