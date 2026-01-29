@@ -17,15 +17,24 @@ jobs:
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
           
-          # 1. ParentSquare RSS Check
-          curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.rss > ps_rss.txt || echo "Offline" > ps_rss.txt
-          if grep -q "Active Incident" ps_rss.txt; then echo '{"status":"incident"}' > parentsquare.json; else echo '{"status":"ok"}' > parentsquare.json; fi
+          # 1. ParentSquare RSS Check (Updated URL)
+          curl -H "User-Agent: $UA" -L -s https://status.parentsquare.com/history.atom > ps_rss.txt || echo "Offline" > ps_rss.txt
+          
+          # Logic: If 'Active Incident' or 'Investigating' is found, it's an incident.
+          # If we can't find 'ParentSquare', the fetch failed.
+          if grep -qiE "Active Incident|Investigating|Identified" ps_rss.txt; then
+             echo '{"status":"incident"}' > parentsquare.json
+          elif grep -qi "ParentSquare" ps_rss.txt; then
+             echo '{"status":"ok"}' > parentsquare.json
+          else
+             echo '{"status":"error"}' > parentsquare.json
+          fi
 
           # 2. Slack RSS Check
           curl -H "User-Agent: $UA" -L -s https://status.slack.com/feed/rss > slack_rss.txt || echo "Offline" > slack_rss.txt
-          if grep -q "Active Incident" slack_rss.txt; then echo '{"status":"incident"}' > slack.json; else echo '{"status":"ok"}' > slack.json; fi
+          if grep -qi "Active Incident" slack_rss.txt; then echo '{"status":"incident"}' > slack.json; else echo '{"status":"ok"}' > slack.json; fi
           
-          # 3. Standard JSON fetches for the others
+          # 3. Standard JSON fetches
           fetch_vendor() {
             curl -H "User-Agent: $UA" -L -s -f "$1" > "$2" || echo '{"status":{"description":"Error"}}' > "$2"
           }
