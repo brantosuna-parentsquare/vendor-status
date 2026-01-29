@@ -92,26 +92,26 @@
                 const results = vendors.map(v => {
                     const data = allData[v.key];
                     let result = { name: v.name, status: "Unknown", color: "slate", incidents: [] };
-
-                    if (v.type === "statuspage" && data) {
-                        // This line checks multiple possible locations for the status text
-                        result.status = (data.status && data.status.description) || (data.page && data.status.description) || "Unknown";
-    
-                        const ind = (data.status && data.status.indicator) || "none";
+                
+                    if (!data) return result;
+                
+                    // SPECIAL CASE: Slack's Official API
+                    if (v.key === "slack") {
+                        const isOk = data.status === "ok";
+                        result.status = isOk ? "All Systems Operational" : (data.status || "Error");
+                        result.color = isOk ? "emerald" : "rose";
+                        // Slack's API v2.0.0 doesn't always provide incidents in the simple status call
+                        result.incidents = []; 
+                    } 
+                    // STANDARD CASE: Statuspage.io (HubSpot, Asana, Zoom)
+                    else if (v.type === "statuspage" && data.status) {
+                        result.status = data.status.description || "Unknown";
+                        const ind = data.status.indicator || "none";
                         result.color = ind === "none" ? "emerald" : (ind === "minor" ? "amber" : "rose");
-    
+                        
                         result.incidents = (data.incidents || []).slice(0, 2).map(i => ({
                             title: i.name,
                             date: new Date(i.created_at).toLocaleDateString(),
-                            vendor: v.name
-                        }));
-                    } else if (v.type === "google" && Array.isArray(data)) {
-                        const active = data.filter(i => !i.resolved);
-                        result.status = active.length === 0 ? "Operational" : "Incident";
-                        result.color = active.length === 0 ? "emerald" : "rose";
-                        result.incidents = data.slice(0, 3).map(i => ({
-                            title: i.external_desc || "Infrastructure Issue",
-                            date: i.begin ? i.begin.split('T')[0] : 'Recent', 
                             vendor: v.name
                         }));
                     }
