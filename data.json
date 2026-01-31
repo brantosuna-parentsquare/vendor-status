@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-01-31T10:54:48Z"
+    "updated": "2026-01-31T11:40:11Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues with Changing Appearance Preferences in Slack",
-    "updated": "2026-01-31T10:54:48Z"
+    "updated": "2026-01-31T11:40:11Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T10:54:46Z"
+    "updated": "2026-01-31T11:40:10Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T10:54:46Z"
+    "updated": "2026-01-31T11:40:10Z"
   },
   "zoom": {
     "page": {
@@ -5593,6 +5593,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T10:54:46Z"
+    "updated": "2026-01-31T11:40:10Z"
   }
 }
