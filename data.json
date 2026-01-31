@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-01-31T09:01:01Z"
+    "updated": "2026-01-31T09:54:52Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues with Changing Appearance Preferences in Slack",
-    "updated": "2026-01-31T09:01:01Z"
+    "updated": "2026-01-31T09:54:52Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-01-30T22:25:48.708-05:00"
+      "updated_at": "2026-01-31T04:20:58.888-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T09:01:00Z"
+    "updated": "2026-01-31T09:54:50Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-01-31T03:25:52.241Z"
+      "updated_at": "2026-01-31T09:21:01.548Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T09:01:00Z"
+    "updated": "2026-01-31T09:54:50Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-01-30T22:29:43.388-08:00"
+      "updated_at": "2026-01-31T01:21:01.301-08:00"
     },
     "components": [
       {
@@ -5593,6 +5593,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T09:01:00Z"
+    "updated": "2026-01-31T09:54:50Z"
   }
 }
