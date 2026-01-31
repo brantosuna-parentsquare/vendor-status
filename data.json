@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-01-31T06:04:28Z"
+    "updated": "2026-01-31T07:42:40Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues with Changing Appearance Preferences in Slack",
-    "updated": "2026-01-31T06:04:28Z"
+    "updated": "2026-01-31T07:42:40Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T06:04:26Z"
+    "updated": "2026-01-31T07:42:39Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T06:04:26Z"
+    "updated": "2026-01-31T07:42:39Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-01-30T20:08:17.184-08:00"
+      "updated_at": "2026-01-30T22:29:43.388-08:00"
     },
     "components": [
       {
@@ -1282,9 +1282,9 @@
       {
         "id": "hx06zxqdrsxl",
         "name": "Calling (Inbound/Outbound)",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:43:45.536-07:00",
-        "updated_at": "2026-01-30T04:39:36.978-08:00",
+        "updated_at": "2026-01-30T22:29:43.323-08:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -4630,7 +4630,7 @@
       {
         "id": "8sq44v6xhj9v",
         "name": "Zoom Phone - EMEA",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:43:27.170-07:00",
         "updated_at": "2024-08-14T13:40:39.026-07:00",
         "position": 21,
@@ -5139,141 +5139,7 @@
         ]
       }
     ],
-    "incidents": [
-      {
-        "id": "2zz9x4y4j0mn",
-        "name": "Issue affecting a subset of Zoom Phone outbound calls in United Kingdom.",
-        "status": "identified",
-        "created_at": "2026-01-30T04:39:36.929-08:00",
-        "updated_at": "2026-01-30T19:01:56.770-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/x0wcvn4snqdq",
-        "started_at": "2026-01-30T04:39:36.919-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "5d1wypscw6x3",
-            "status": "identified",
-            "body": "We continue to identify the root cause with our underlying carrier affecting Zoom Phone outbound for a subset of user calls in United Kingdom.\n\nWe will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "2zz9x4y4j0mn",
-            "created_at": "2026-01-30T19:01:56.767-08:00",
-            "updated_at": "2026-01-30T19:01:56.767-08:00",
-            "display_at": "2026-01-30T19:01:56.767-08:00",
-            "affected_components": [
-              {
-                "code": "hx06zxqdrsxl",
-                "name": "Zoom Phone - EMEA - Calling (Inbound/Outbound)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "8kk3s605g2pl",
-            "status": "identified",
-            "body": "We continue to identify the root cause with our underlying carrier affecting Zoom Phone outbound for a subset of user calls in United Kingdom.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "2zz9x4y4j0mn",
-            "created_at": "2026-01-30T08:12:11.523-08:00",
-            "updated_at": "2026-01-30T08:12:11.523-08:00",
-            "display_at": "2026-01-30T08:12:11.523-08:00",
-            "affected_components": [
-              {
-                "code": "hx06zxqdrsxl",
-                "name": "Zoom Phone - EMEA - Calling (Inbound/Outbound)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "zbt5pl36nrf7",
-            "status": "identified",
-            "body": "We have successfully identified the root cause with our underlying carrier affecting Zoom Phone outbound for a subset of user calls in United Kingdom.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "2zz9x4y4j0mn",
-            "created_at": "2026-01-30T06:12:08.663-08:00",
-            "updated_at": "2026-01-30T06:12:08.663-08:00",
-            "display_at": "2026-01-30T06:12:08.663-08:00",
-            "affected_components": [
-              {
-                "code": "hx06zxqdrsxl",
-                "name": "Zoom Phone - EMEA - Calling (Inbound/Outbound)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "nx2h9htztrys",
-            "status": "investigating",
-            "body": "We continue to investigate a service degradation with Zoom Phone outbound affecting a subset of user calls in United Kingdom.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "2zz9x4y4j0mn",
-            "created_at": "2026-01-30T05:37:44.067-08:00",
-            "updated_at": "2026-01-30T05:37:44.067-08:00",
-            "display_at": "2026-01-30T05:37:44.067-08:00",
-            "affected_components": [
-              {
-                "code": "hx06zxqdrsxl",
-                "name": "Zoom Phone - EMEA - Calling (Inbound/Outbound)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "rcpb8t8zkjp2",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation with Zoom Phone outbound affecting a subset of user calls in United Kingdom.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "2zz9x4y4j0mn",
-            "created_at": "2026-01-30T04:39:37.050-08:00",
-            "updated_at": "2026-01-30T04:39:37.050-08:00",
-            "display_at": "2026-01-30T04:39:37.050-08:00",
-            "affected_components": [
-              {
-                "code": "hx06zxqdrsxl",
-                "name": "Zoom Phone - EMEA - Calling (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "hx06zxqdrsxl",
-            "name": "Calling (Inbound/Outbound)",
-            "status": "degraded_performance",
-            "created_at": "2022-05-03T10:43:45.536-07:00",
-            "updated_at": "2026-01-30T04:39:36.978-08:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "nxsqg9pp10vt",
@@ -5724,9 +5590,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-01-31T06:04:26Z"
+    "updated": "2026-01-31T07:42:39Z"
   }
 }
