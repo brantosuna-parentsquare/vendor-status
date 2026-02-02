@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-02T16:03:14Z"
+    "updated": "2026-02-02T18:06:28Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Delay in Email Delivery",
-    "updated": "2026-02-02T16:03:14Z"
+    "updated": "2026-02-02T18:06:28Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T16:03:13Z"
+    "updated": "2026-02-02T18:06:26Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T16:03:13Z"
+    "updated": "2026-02-02T18:06:26Z"
   },
   "zoom": {
     "page": {
@@ -5539,6 +5539,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T16:03:13Z"
+    "updated": "2026-02-02T18:06:26Z"
   }
 }
