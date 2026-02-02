@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-02T05:18:13Z"
+    "updated": "2026-02-02T07:57:12Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Delay in Email Delivery",
-    "updated": "2026-02-02T05:18:13Z"
+    "updated": "2026-02-02T07:57:12Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T05:18:08Z"
+    "updated": "2026-02-02T07:57:11Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T05:18:08Z"
+    "updated": "2026-02-02T07:57:11Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-01T17:10:49.535-08:00"
+      "updated_at": "2026-02-01T22:59:21.280-08:00"
     },
     "components": [
       {
@@ -5146,7 +5146,7 @@
         "name": "Announcing IP Address Changes (No Operational Impact)",
         "status": "scheduled",
         "created_at": "2026-01-01T12:00:44.794-08:00",
-        "updated_at": "2026-01-01T12:00:44.858-08:00",
+        "updated_at": "2026-02-01T22:59:21.272-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5154,6 +5154,19 @@
         "started_at": "2026-01-01T12:00:44.786-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "2hp9c70bbmvm",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "nxsqg9pp10vt",
+            "created_at": "2026-02-01T22:59:21.173-08:00",
+            "updated_at": "2026-02-01T22:59:21.173-08:00",
+            "display_at": "2026-02-01T22:59:21.173-08:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "44pppnnpp10h",
             "status": "scheduled",
@@ -5593,6 +5606,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T05:18:08Z"
+    "updated": "2026-02-02T07:57:11Z"
   }
 }
