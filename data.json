@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-02T07:57:12Z"
+    "updated": "2026-02-02T10:31:17Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Delay in Email Delivery",
-    "updated": "2026-02-02T07:57:12Z"
+    "updated": "2026-02-02T10:31:17Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T07:57:11Z"
+    "updated": "2026-02-02T10:31:14Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T07:57:11Z"
+    "updated": "2026-02-02T10:31:14Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-01T22:59:21.280-08:00"
+      "updated_at": "2026-02-02T02:20:23.230-08:00"
     },
     "components": [
       {
@@ -5139,46 +5139,38 @@
         ]
       }
     ],
-    "incidents": [],
-    "scheduled_maintenances": [
+    "incidents": [
       {
-        "id": "nxsqg9pp10vt",
-        "name": "Announcing IP Address Changes (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-01-01T12:00:44.794-08:00",
-        "updated_at": "2026-02-01T22:59:21.272-08:00",
-        "monitoring_at": null,
+        "id": "3bhp4hfj3jyk",
+        "name": "Service degradation affected Zoom Phone’s Outbound, Inbound Calls, and Cloud Recordings in Frankfurt, Germany region.",
+        "status": "monitoring",
+        "created_at": "2026-02-02T02:09:41.000-08:00",
+        "updated_at": "2026-02-02T02:12:36.880-08:00",
+        "monitoring_at": "2026-02-02T02:09:41.000-08:00",
         "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/46mh95254qv9",
-        "started_at": "2026-01-01T12:00:44.786-08:00",
+        "impact": "none",
+        "shortlink": "https://stspg.io/qyqg099gm1cw",
+        "started_at": "2026-02-02T02:09:41.000-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "2hp9c70bbmvm",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "nxsqg9pp10vt",
-            "created_at": "2026-02-01T22:59:21.173-08:00",
-            "updated_at": "2026-02-01T22:59:21.173-08:00",
-            "display_at": "2026-02-01T22:59:21.173-08:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "44pppnnpp10h",
-            "status": "scheduled",
-            "body": "The table for Zoom Phone rules has been updated to include the use of the UDP protocols for TURN (Traversal Using Relays around NAT) support (UDP 3478). Due to this, we recommend that network administrators, with Zoom-specific firewall or network rules, update their systems. This update is only for the protocol; no changes have been made to the destination addresses used for Zoom Phone. Below are the IP ranges that will be utilized for TURN support (UDP 3478).\n\nZoom Phone IPv4 ranges for TURN support:\n\n144.195.0.0/16\n147.124.96.0/19\n170.114.0.0/16\n173.231.92.0/24\n206.247.0.0/16\n\nAs a reminder, these ranges were previously announced and are already in use for Zoom Phone. \n\nFor a complete list, please see: \nhttps://assets.zoom.us/docs/ipranges/ZoomPhone.txt\n \nA complete list of network firewall IP ranges for Zoom can be found on the Zoom Support site at: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548",
-            "incident_id": "nxsqg9pp10vt",
-            "created_at": "2026-01-01T12:00:44.855-08:00",
-            "updated_at": "2026-01-01T12:00:44.855-08:00",
-            "display_at": "2026-01-01T12:00:44.855-08:00",
+            "id": "ccvrb4x8d152",
+            "status": "monitoring",
+            "body": "On 02/02/2026, between 9:12 UTC to 9:22 UTC, users experienced service degradation on Zoom Phone’s Outbound, Inbound Calls, and Cloud Recordings in Frankfurt, Germany region.\n\nThis incident has been resolved and the affected services have been restored.",
+            "incident_id": "3bhp4hfj3jyk",
+            "created_at": "2026-02-02T02:09:41.955-08:00",
+            "updated_at": "2026-02-02T02:12:28.920-08:00",
+            "display_at": "2026-02-02T02:09:41.000-08:00",
             "affected_components": [
               {
-                "code": "0842bncf5q9f",
-                "name": "Zoom Phone - Global - Zoom Phone",
+                "code": "hx06zxqdrsxl",
+                "name": "Zoom Phone - EMEA - Calling (Inbound/Outbound)",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "b13080xppfjh",
+                "name": "Zoom Phone - EMEA - Recording Service",
                 "old_status": "operational",
                 "new_status": "operational"
               }
@@ -5190,24 +5182,40 @@
         ],
         "components": [
           {
-            "id": "0842bncf5q9f",
-            "name": "Zoom Phone",
+            "id": "hx06zxqdrsxl",
+            "name": "Calling (Inbound/Outbound)",
             "status": "operational",
-            "created_at": "2024-09-30T13:36:13.230-07:00",
-            "updated_at": "2026-01-18T02:00:21.694-08:00",
-            "position": 12,
+            "created_at": "2022-05-03T10:43:45.536-07:00",
+            "updated_at": "2026-01-30T22:29:43.323-08:00",
+            "position": 2,
             "description": null,
             "showcase": false,
-            "start_date": "2024-09-30",
-            "group_id": "fs7vxs27n4pn",
+            "start_date": "2022-05-03",
+            "group_id": "8sq44v6xhj9v",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "b13080xppfjh",
+            "name": "Recording Service",
+            "status": "operational",
+            "created_at": "2022-05-03T10:45:36.167-07:00",
+            "updated_at": "2025-02-04T09:27:57.432-08:00",
+            "position": 7,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "8sq44v6xhj9v",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-02-01T23:59:00.000-08:00",
-        "scheduled_until": "2026-02-02T00:00:00.000-08:00"
-      },
+        "reminder_intervals": null
+      }
+    ],
+    "scheduled_maintenances": [
       {
         "id": "qrhcbfsdvg7x",
         "name": "Scheduled Zoom Software Quarterly Lifecycle Update (2/7/2026)",
@@ -5606,6 +5614,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T07:57:11Z"
+    "updated": "2026-02-02T10:31:14Z"
   }
 }
