@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-02T10:31:17Z"
+    "updated": "2026-02-02T11:58:34Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Delay in Email Delivery",
-    "updated": "2026-02-02T10:31:17Z"
+    "updated": "2026-02-02T11:58:34Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-01T19:45:52.883-05:00"
+      "updated_at": "2026-02-02T06:40:53.019-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T10:31:14Z"
+    "updated": "2026-02-02T11:58:32Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-02T01:10:49.619Z"
+      "updated_at": "2026-02-02T11:40:55.578Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T10:31:14Z"
+    "updated": "2026-02-02T11:58:32Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-02T02:20:23.230-08:00"
+      "updated_at": "2026-02-02T03:40:55.286-08:00"
     },
     "components": [
       {
@@ -5139,82 +5139,7 @@
         ]
       }
     ],
-    "incidents": [
-      {
-        "id": "3bhp4hfj3jyk",
-        "name": "Service degradation affected Zoom Phone’s Outbound, Inbound Calls, and Cloud Recordings in Frankfurt, Germany region.",
-        "status": "monitoring",
-        "created_at": "2026-02-02T02:09:41.000-08:00",
-        "updated_at": "2026-02-02T02:12:36.880-08:00",
-        "monitoring_at": "2026-02-02T02:09:41.000-08:00",
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/qyqg099gm1cw",
-        "started_at": "2026-02-02T02:09:41.000-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "ccvrb4x8d152",
-            "status": "monitoring",
-            "body": "On 02/02/2026, between 9:12 UTC to 9:22 UTC, users experienced service degradation on Zoom Phone’s Outbound, Inbound Calls, and Cloud Recordings in Frankfurt, Germany region.\n\nThis incident has been resolved and the affected services have been restored.",
-            "incident_id": "3bhp4hfj3jyk",
-            "created_at": "2026-02-02T02:09:41.955-08:00",
-            "updated_at": "2026-02-02T02:12:28.920-08:00",
-            "display_at": "2026-02-02T02:09:41.000-08:00",
-            "affected_components": [
-              {
-                "code": "hx06zxqdrsxl",
-                "name": "Zoom Phone - EMEA - Calling (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "b13080xppfjh",
-                "name": "Zoom Phone - EMEA - Recording Service",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "hx06zxqdrsxl",
-            "name": "Calling (Inbound/Outbound)",
-            "status": "operational",
-            "created_at": "2022-05-03T10:43:45.536-07:00",
-            "updated_at": "2026-01-30T22:29:43.323-08:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "b13080xppfjh",
-            "name": "Recording Service",
-            "status": "operational",
-            "created_at": "2022-05-03T10:45:36.167-07:00",
-            "updated_at": "2025-02-04T09:27:57.432-08:00",
-            "position": 7,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "qrhcbfsdvg7x",
@@ -5614,6 +5539,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-02T10:31:14Z"
+    "updated": "2026-02-02T11:58:32Z"
   }
 }
