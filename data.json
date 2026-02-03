@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-03T05:08:12Z"
+    "updated": "2026-02-03T07:33:26Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Delay in Email Delivery",
-    "updated": "2026-02-03T05:08:12Z"
+    "updated": "2026-02-03T07:33:26Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-02T23:03:56.853-05:00"
+      "updated_at": "2026-02-03T02:15:49.946-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-03T05:08:11Z"
+    "updated": "2026-02-03T07:33:24Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-03T04:04:01.713Z"
+      "updated_at": "2026-02-03T07:15:52.175Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-03T05:08:11Z"
+    "updated": "2026-02-03T07:33:24Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-02T20:20:30.895-08:00"
+      "updated_at": "2026-02-02T23:15:51.975-08:00"
     },
     "components": [
       {
@@ -1230,6 +1230,21 @@
         "showcase": false,
         "start_date": "2026-01-08",
         "group_id": "v7yfshmrg1rh",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "6gr14n06phvd",
+        "name": "Slack",
+        "status": "operational",
+        "created_at": "2026-02-02T21:36:12.740-08:00",
+        "updated_at": "2026-02-02T21:36:12.740-08:00",
+        "position": 1,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-02",
+        "group_id": "qc3jmtft3wbx",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -1695,6 +1710,21 @@
         "only_show_if_degraded": false
       },
       {
+        "id": "dmnkft8db7rb",
+        "name": "Microsoft Teams",
+        "status": "operational",
+        "created_at": "2026-02-02T21:38:10.954-08:00",
+        "updated_at": "2026-02-02T21:38:10.954-08:00",
+        "position": 2,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-02",
+        "group_id": "qc3jmtft3wbx",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
         "id": "rmphw6f34qk9",
         "name": "Marketplace",
         "status": "operational",
@@ -2020,6 +2050,21 @@
         "showcase": false,
         "start_date": "2026-01-08",
         "group_id": "58cfzcvm6j00",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "64xz9xmm8sqc",
+        "name": "Google Workspace",
+        "status": "operational",
+        "created_at": "2026-02-02T21:38:57.563-08:00",
+        "updated_at": "2026-02-02T21:38:57.563-08:00",
+        "position": 3,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-02",
+        "group_id": "qc3jmtft3wbx",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -2365,6 +2410,21 @@
         "showcase": false,
         "start_date": "2024-09-25",
         "group_id": "thrn29k311lc",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "3hbqg6y81bwq",
+        "name": "Lti Pro",
+        "status": "operational",
+        "created_at": "2026-02-02T21:39:53.699-08:00",
+        "updated_at": "2026-02-02T21:39:53.699-08:00",
+        "position": 4,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-02",
+        "group_id": "qc3jmtft3wbx",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -2729,6 +2789,21 @@
         "showcase": false,
         "start_date": "2026-01-14",
         "group_id": "1bmg0stx4mk0",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "k7v06r2fvkwr",
+        "name": "Epic FHIR",
+        "status": "operational",
+        "created_at": "2026-02-02T21:40:27.954-08:00",
+        "updated_at": "2026-02-02T21:40:27.954-08:00",
+        "position": 5,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-02",
+        "group_id": "qc3jmtft3wbx",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -5137,6 +5212,28 @@
           "4kh81f5m9fbm",
           "kz70pym162vg"
         ]
+      },
+      {
+        "id": "qc3jmtft3wbx",
+        "name": "Apps by Zoom",
+        "status": "operational",
+        "created_at": "2026-02-02T21:36:12.700-08:00",
+        "updated_at": "2026-02-02T21:36:12.700-08:00",
+        "position": 44,
+        "description": null,
+        "showcase": false,
+        "start_date": null,
+        "group_id": null,
+        "page_id": "14qjgk812kgk",
+        "group": true,
+        "only_show_if_degraded": false,
+        "components": [
+          "6gr14n06phvd",
+          "dmnkft8db7rb",
+          "64xz9xmm8sqc",
+          "3hbqg6y81bwq",
+          "k7v06r2fvkwr"
+        ]
       }
     ],
     "incidents": [],
@@ -5755,6 +5852,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-03T05:08:11Z"
+    "updated": "2026-02-03T07:33:24Z"
   }
 }
