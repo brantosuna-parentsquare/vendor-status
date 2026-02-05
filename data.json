@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-05T17:33:26Z"
+    "updated": "2026-02-05T19:50:05Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Login Loop from Mobile Browsers",
-    "updated": "2026-02-05T17:33:26Z"
+    "updated": "2026-02-05T19:50:05Z"
   },
   "hubspot": {
     "page": {
@@ -221,7 +221,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T17:33:24Z"
+    "updated": "2026-02-05T19:50:03Z"
   },
   "asana": {
     "page": {
@@ -804,7 +804,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T17:33:24Z"
+    "updated": "2026-02-05T19:50:03Z"
   },
   "zoom": {
     "page": {
@@ -6848,6 +6848,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T17:33:24Z"
+    "updated": "2026-02-05T19:50:03Z"
   }
 }
