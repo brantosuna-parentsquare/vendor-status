@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-05T05:09:38Z"
+    "updated": "2026-02-05T07:55:49Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Login Loop from Mobile Browsers",
-    "updated": "2026-02-05T05:09:38Z"
+    "updated": "2026-02-05T07:55:49Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-04T20:30:46.441-05:00"
+      "updated_at": "2026-02-05T00:10:52.395-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T05:09:36Z"
+    "updated": "2026-02-05T07:55:48Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-05T01:30:49.706Z"
+      "updated_at": "2026-02-05T06:38:20.614Z"
     },
     "components": [
       {
@@ -613,7 +613,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T18:05:05.907Z",
-        "updated_at": "2026-01-22T18:47:20.000Z",
+        "updated_at": "2026-02-05T06:38:19.000Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T05:09:36Z"
+    "updated": "2026-02-05T07:55:48Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-04T19:20:26.817-08:00"
+      "updated_at": "2026-02-04T21:10:54.740-08:00"
     },
     "components": [
       {
@@ -6801,6 +6801,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T05:09:36Z"
+    "updated": "2026-02-05T07:55:48Z"
   }
 }
