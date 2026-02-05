@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-05T23:00:32Z"
+    "updated": "2026-02-05T23:54:50Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Login Loop from Mobile Browsers",
-    "updated": "2026-02-05T23:00:32Z"
+    "updated": "2026-02-05T23:54:50Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T23:00:31Z"
+    "updated": "2026-02-05T23:54:48Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-05T14:16:37.989Z"
+      "updated_at": "2026-02-05T23:49:22.798Z"
     },
     "components": [
       {
@@ -304,7 +304,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-01-22T18:01:40.000Z",
+        "updated_at": "2026-02-05T23:49:13.530Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -342,7 +342,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T18:04:15.542Z",
-        "updated_at": "2026-01-27T23:29:18.159Z",
+        "updated_at": "2026-02-05T23:49:13.550Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -357,7 +357,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:57:20.666Z",
-        "updated_at": "2026-01-22T18:01:42.000Z",
+        "updated_at": "2026-02-05T23:49:13.567Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -372,7 +372,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:59:03.964Z",
-        "updated_at": "2026-01-22T18:01:38.000Z",
+        "updated_at": "2026-02-05T23:49:13.584Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -767,13 +767,256 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "71l5txgm1gy5",
+        "name": "API monitoring",
+        "status": "monitoring",
+        "created_at": "2026-02-05T23:49:13.470Z",
+        "updated_at": "2026-02-05T23:49:22.794Z",
+        "monitoring_at": "2026-02-05T23:49:13.615Z",
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/kvd1zkbcjk6y",
+        "started_at": "2026-02-05T23:49:13.443Z",
+        "page_id": "w58858w0sjxx",
+        "incident_updates": [
+          {
+            "id": "1z1rmzvsjl62",
+            "status": "monitoring",
+            "body": "Our primary monitoring is observing an outage for our API and mobile services, but secondary monitoring indicates that API and mobile traffic is operating as usual.\n\nOur engineers are reviewing our primary monitoring and will provide updates on the situation.",
+            "incident_id": "71l5txgm1gy5",
+            "created_at": "2026-02-05T23:49:13.615Z",
+            "updated_at": "2026-02-05T23:49:13.615Z",
+            "display_at": "2026-02-05T23:49:13.615Z",
+            "affected_components": [
+              {
+                "code": "yg4058k03s50",
+                "name": "US - API",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "0tlyr3w5wwtv",
+                "name": "US - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "vb5rnz4gj7p8",
+                "name": "EU - API",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "xkbfplxg5q8p",
+                "name": "EU - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "m1gvj42drxdc",
+                "name": "Japan - API",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "rtg6j3dykmqj",
+                "name": "Japan - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "7dvw8j11nzyx",
+                "name": "Australia - API",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "h6ncz3kqdjmp",
+                "name": "Australia - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "km6jrkp0m2vk",
+                "name": "Middle East - API",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "mr04m1rysj65",
+                "name": "Middle East - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yg4058k03s50",
+            "name": "API",
+            "status": "operational",
+            "created_at": "2017-09-19T23:35:56.553Z",
+            "updated_at": "2026-02-05T23:49:13.530Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "vb5rnz4gj7p8",
+            "name": "API",
+            "status": "operational",
+            "created_at": "2023-02-09T18:04:15.542Z",
+            "updated_at": "2026-02-05T23:49:13.550Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "6l7nv2dwk8d9",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "m1gvj42drxdc",
+            "name": "API",
+            "status": "operational",
+            "created_at": "2023-02-09T21:57:20.666Z",
+            "updated_at": "2026-02-05T23:49:13.567Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "3c6vvpy5cjf5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "7dvw8j11nzyx",
+            "name": "API",
+            "status": "operational",
+            "created_at": "2023-02-09T21:59:03.964Z",
+            "updated_at": "2026-02-05T23:49:13.584Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "rmx1t3dwwq0t",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "km6jrkp0m2vk",
+            "name": "API",
+            "status": "operational",
+            "created_at": "2026-01-20T19:00:18.706Z",
+            "updated_at": "2026-01-20T19:00:18.706Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": "2026-01-20",
+            "group_id": "m172ltsc49p0",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "0tlyr3w5wwtv",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2017-10-11T17:33:59.640Z",
+            "updated_at": "2026-01-22T18:03:24.000Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "xkbfplxg5q8p",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2023-02-09T18:04:35.516Z",
+            "updated_at": "2026-01-27T23:29:42.598Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "6l7nv2dwk8d9",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "rtg6j3dykmqj",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2023-02-09T21:57:37.036Z",
+            "updated_at": "2025-12-13T05:00:22.027Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "3c6vvpy5cjf5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "h6ncz3kqdjmp",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2023-02-09T21:59:17.187Z",
+            "updated_at": "2025-12-13T05:00:22.089Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "rmx1t3dwwq0t",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "mr04m1rysj65",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2026-01-20T19:02:01.991Z",
+            "updated_at": "2026-01-20T19:02:01.991Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": "2026-01-20",
+            "group_id": "m172ltsc49p0",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T23:00:31Z"
+    "updated": "2026-02-05T23:54:48Z"
   },
   "zoom": {
     "page": {
@@ -6817,6 +7060,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-05T23:00:31Z"
+    "updated": "2026-02-05T23:54:48Z"
   }
 }
