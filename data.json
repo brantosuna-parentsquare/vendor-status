@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-04T23:55:27Z"
+    "updated": "2026-02-05T05:09:38Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Login Loop from Mobile Browsers",
-    "updated": "2026-02-04T23:55:27Z"
+    "updated": "2026-02-05T05:09:38Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-04T13:31:06.607-05:00"
+      "updated_at": "2026-02-04T20:30:46.441-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-04T23:55:25Z"
+    "updated": "2026-02-05T05:09:36Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-04T18:31:09.776Z"
+      "updated_at": "2026-02-05T01:30:49.706Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-04T23:55:25Z"
+    "updated": "2026-02-05T05:09:36Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-04T15:20:22.785-08:00"
+      "updated_at": "2026-02-04T19:20:26.817-08:00"
     },
     "components": [
       {
@@ -5239,114 +5239,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "qrhcbfsdvg7x",
-        "name": "Scheduled Zoom Software Quarterly Lifecycle Update (2/7/2026)",
-        "status": "scheduled",
-        "created_at": "2025-11-01T18:00:35.356-07:00",
-        "updated_at": "2025-11-01T18:00:35.417-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/jtpjnf0s8zbd",
-        "started_at": "2025-11-01T18:00:35.347-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "rhw6frxy8q8j",
-            "status": "scheduled",
-            "body": "Zoom will be enforcing a new minimum version for the following areas, approximately 90 days from now on February 7, 2026:\n\n- VDI client\n- Zoom Node (including Meeting Connector ZC, MMR, and Conference Room Connector Hybrid)\n\nAdditionally, beginning with the February 2026 enforcement, Zoom will require a minimum version for Cobrowse SDK. \n\nAll other clients and plugins not listed here will maintain the same version requirements as the November 2025 enforcement. \n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130 \n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
-            "incident_id": "qrhcbfsdvg7x",
-            "created_at": "2025-11-01T18:00:35.414-07:00",
-            "updated_at": "2025-11-01T18:00:35.414-07:00",
-            "display_at": "2025-11-01T18:00:35.414-07:00",
-            "affected_components": [
-              {
-                "code": "9skbqhkvk721",
-                "name": "Zoom Website - Download Center & Clients",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "9skbqhkvk721",
-            "name": "Download Center & Clients",
-            "status": "operational",
-            "created_at": "2018-05-17T11:29:26.349-07:00",
-            "updated_at": "2025-08-21T11:28:47.352-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-02-07T17:00:00.000-08:00",
-        "scheduled_until": "2026-02-07T18:00:00.000-08:00"
-      },
-      {
-        "id": "0t75m8p862t6",
-        "name": "Zoom Virtual Agent Update: February 07, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-02-02T20:06:57.744-08:00",
-        "updated_at": "2026-02-04T14:59:58.074-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/sttn4syhzqwp",
-        "started_at": "2026-02-02T20:06:57.736-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "w3jn0klhpk5q",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes a standardized escalation framework designed to streamline analytics workflows.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "0t75m8p862t6",
-            "created_at": "2026-02-02T20:06:57.804-08:00",
-            "updated_at": "2026-02-02T20:06:57.804-08:00",
-            "display_at": "2026-02-02T20:06:57.804-08:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-02-07T17:00:00.000-08:00",
-        "scheduled_until": "2026-02-08T02:00:00.000-08:00"
-      },
-      {
         "id": "94sxypmyjdg7",
         "name": "Zoom Contact Center Update: February 07, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -5441,6 +5333,60 @@
         "scheduled_until": "2026-02-08T02:00:00.000-08:00"
       },
       {
+        "id": "qrhcbfsdvg7x",
+        "name": "Scheduled Zoom Software Quarterly Lifecycle Update (2/7/2026)",
+        "status": "scheduled",
+        "created_at": "2025-11-01T18:00:35.356-07:00",
+        "updated_at": "2025-11-01T18:00:35.417-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/jtpjnf0s8zbd",
+        "started_at": "2025-11-01T18:00:35.347-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "rhw6frxy8q8j",
+            "status": "scheduled",
+            "body": "Zoom will be enforcing a new minimum version for the following areas, approximately 90 days from now on February 7, 2026:\n\n- VDI client\n- Zoom Node (including Meeting Connector ZC, MMR, and Conference Room Connector Hybrid)\n\nAdditionally, beginning with the February 2026 enforcement, Zoom will require a minimum version for Cobrowse SDK. \n\nAll other clients and plugins not listed here will maintain the same version requirements as the November 2025 enforcement. \n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130 \n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
+            "incident_id": "qrhcbfsdvg7x",
+            "created_at": "2025-11-01T18:00:35.414-07:00",
+            "updated_at": "2025-11-01T18:00:35.414-07:00",
+            "display_at": "2025-11-01T18:00:35.414-07:00",
+            "affected_components": [
+              {
+                "code": "9skbqhkvk721",
+                "name": "Zoom Website - Download Center & Clients",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "9skbqhkvk721",
+            "name": "Download Center & Clients",
+            "status": "operational",
+            "created_at": "2018-05-17T11:29:26.349-07:00",
+            "updated_at": "2025-08-21T11:28:47.352-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-02-07T17:00:00.000-08:00",
+        "scheduled_until": "2026-02-07T18:00:00.000-08:00"
+      },
+      {
         "id": "r0b41kmyr2pq",
         "name": "Zoom Phone Update: February 07, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -5506,6 +5452,60 @@
             "showcase": false,
             "start_date": "2024-09-30",
             "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-02-07T17:00:00.000-08:00",
+        "scheduled_until": "2026-02-08T02:00:00.000-08:00"
+      },
+      {
+        "id": "0t75m8p862t6",
+        "name": "Zoom Virtual Agent Update: February 07, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-02-02T20:06:57.744-08:00",
+        "updated_at": "2026-02-04T14:59:58.074-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/sttn4syhzqwp",
+        "started_at": "2026-02-02T20:06:57.736-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "w3jn0klhpk5q",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes a standardized escalation framework designed to streamline analytics workflows.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "0t75m8p862t6",
+            "created_at": "2026-02-02T20:06:57.804-08:00",
+            "updated_at": "2026-02-02T20:06:57.804-08:00",
+            "display_at": "2026-02-02T20:06:57.804-08:00",
+            "affected_components": [
+              {
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
+            "status": "operational",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
@@ -5684,6 +5684,270 @@
         ],
         "scheduled_for": "2026-02-08T17:00:00.000-08:00",
         "scheduled_until": "2026-02-09T02:00:00.000-08:00"
+      },
+      {
+        "id": "3mvqrrjf0kbm",
+        "name": "Network Maintenance in Ashburn Data Center",
+        "status": "scheduled",
+        "created_at": "2026-02-04T18:44:16.556-08:00",
+        "updated_at": "2026-02-04T18:44:16.662-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/wk4q5gd7s1tt",
+        "started_at": "2026-02-04T18:44:16.523-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "jgsk6vv195yb",
+            "status": "scheduled",
+            "body": "Zoom will perform service maintenance at our Ashburn data center (IAD). During the maintenance window, users may experience an impact for a brief amount of time for the services mentioned.",
+            "incident_id": "3mvqrrjf0kbm",
+            "created_at": "2026-02-04T18:44:16.659-08:00",
+            "updated_at": "2026-02-04T18:44:16.659-08:00",
+            "display_at": "2026-02-04T18:44:16.659-08:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "rhmrtnvc7xrt",
+                "name": "Zoom Meetings - Live Streaming",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "gkx8x46kw77h",
+                "name": "Zoom Meetings - Recording",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "q4msk5dl4bhm",
+                "name": "Zoom Meetings - Zoom Webinars",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "rsh1v3gbhtsy",
+                "name": "Zoom Meetings - Zoom AIC",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "0842bncf5q9f",
+                "name": "Zoom Phone - Global - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "xtgr15yv6hbn",
+                "name": "Zoom Rooms - Zoom Rooms",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "s5s5m6flk56z",
+                "name": "Zoom CX - Global - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-01-17T15:30:21.275-08:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "xtgr15yv6hbn",
+            "name": "Zoom Rooms",
+            "status": "operational",
+            "created_at": "2021-05-18T07:12:19.400-07:00",
+            "updated_at": "2025-12-01T00:00:22.594-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2021-05-18",
+            "group_id": "xxngg08dxtpq",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "s5s5m6flk56z",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2024-03-21T13:14:33.314-07:00",
+            "updated_at": "2026-01-17T02:01:21.112-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-03-21",
+            "group_id": "1bmg0stx4mk0",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "8vtcg8np4n8c",
+            "name": "Live Transcription",
+            "status": "operational",
+            "created_at": "2022-05-03T10:31:27.476-07:00",
+            "updated_at": "2026-01-23T16:59:36.671-08:00",
+            "position": 9,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "rhmrtnvc7xrt",
+            "name": "Live Streaming",
+            "status": "operational",
+            "created_at": "2020-03-22T12:21:48.196-07:00",
+            "updated_at": "2025-12-01T00:00:22.787-08:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "0842bncf5q9f",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2024-09-30T13:36:13.230-07:00",
+            "updated_at": "2026-01-18T02:00:21.694-08:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-09-30",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2025-12-01T00:00:22.838-08:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-01-17T15:30:21.353-08:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "gkx8x46kw77h",
+            "name": "Recording",
+            "status": "operational",
+            "created_at": "2020-03-17T15:29:33.741-07:00",
+            "updated_at": "2026-01-18T00:50:03.730-08:00",
+            "position": 15,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "q4msk5dl4bhm",
+            "name": "Zoom Webinars",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.115-08:00",
+            "updated_at": "2025-12-01T00:00:22.987-08:00",
+            "position": 20,
+            "description": "Access to video webinars",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "rsh1v3gbhtsy",
+            "name": "Zoom AIC",
+            "status": "operational",
+            "created_at": "2023-09-06T17:03:37.897-07:00",
+            "updated_at": "2026-01-28T09:37:37.399-08:00",
+            "position": 21,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-09-06",
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-02-08T18:00:00.000-08:00",
+        "scheduled_until": "2026-02-08T22:00:00.000-08:00"
       },
       {
         "id": "3015ycb01xr8",
@@ -6537,6 +6801,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-04T23:55:25Z"
+    "updated": "2026-02-05T05:09:36Z"
   }
 }
