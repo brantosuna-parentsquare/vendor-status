@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-06T23:54:32Z"
+    "updated": "2026-02-07T04:54:17Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Login Loop from Mobile Browsers",
-    "updated": "2026-02-06T23:54:32Z"
+    "updated": "2026-02-07T04:54:17Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-06T10:00:57.750-05:00"
+      "updated_at": "2026-02-06T23:01:11.942-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-06T23:54:30Z"
+    "updated": "2026-02-07T04:54:16Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-06T15:01:00.888Z"
+      "updated_at": "2026-02-07T04:01:15.711Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-06T23:54:30Z"
+    "updated": "2026-02-07T04:54:16Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-06T11:00:21.200-08:00"
+      "updated_at": "2026-02-06T20:01:15.626-08:00"
     },
     "components": [
       {
@@ -6833,6 +6833,60 @@
         "scheduled_until": "2026-02-21T03:30:00.000-08:00"
       },
       {
+        "id": "rt2qv7jk89vg",
+        "name": "Zoom Phone Maintenance for Amsterdam Data Center in Netherlands",
+        "status": "scheduled",
+        "created_at": "2026-02-06T18:15:15.616-08:00",
+        "updated_at": "2026-02-06T18:15:15.684-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/0wjwy7b0ysps",
+        "started_at": "2026-02-06T18:15:15.608-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "w301l8qxkb2x",
+            "status": "scheduled",
+            "body": "Zoom will perform service maintenance at our EMEA (Netherlands AMS) Data Center starting on Feb 28th at 01:00 GMT (Feb 27, 05:00 PM PST) (Feb 28th 02:00 AM Netherlands time.)\n\nZoom Phone users registered to the EMEA (Netherlands AMS) Data Center will be automatically registered in the alternative EMEA (Germany FRA) Data Center. During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
+            "incident_id": "rt2qv7jk89vg",
+            "created_at": "2026-02-06T18:15:15.681-08:00",
+            "updated_at": "2026-02-06T18:15:15.681-08:00",
+            "display_at": "2026-02-06T18:15:15.681-08:00",
+            "affected_components": [
+              {
+                "code": "773zkp1jzkgl",
+                "name": "Zoom Phone - EMEA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "773zkp1jzkgl",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2022-05-03T10:43:27.197-07:00",
+            "updated_at": "2025-12-16T17:56:26.453-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "8sq44v6xhj9v",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-02-27T17:00:00.000-08:00",
+        "scheduled_until": "2026-02-27T21:00:00.000-08:00"
+      },
+      {
         "id": "btvbvz6rz5r7",
         "name": "Scheduled Zoom Software Quarterly Lifecycle Update (5/2/2026)",
         "status": "scheduled",
@@ -7529,6 +7583,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-06T23:54:30Z"
+    "updated": "2026-02-07T04:54:16Z"
   }
 }
