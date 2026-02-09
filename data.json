@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-09T14:52:20Z"
+    "updated": "2026-02-09T17:39:27Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble loading Slack sidebar content",
-    "updated": "2026-02-09T14:52:20Z"
+    "updated": "2026-02-09T17:39:27Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-09T14:52:17Z"
+    "updated": "2026-02-09T17:39:25Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-09T14:52:17Z"
+    "updated": "2026-02-09T17:39:25Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-09T05:48:35.880-08:00"
+      "updated_at": "2026-02-09T09:20:25.798-08:00"
     },
     "components": [
       {
@@ -2430,6 +2430,21 @@
         "only_show_if_degraded": false
       },
       {
+        "id": "y6gl9nsjx7p4",
+        "name": "Admin Portal - Agent Provision",
+        "status": "operational",
+        "created_at": "2026-02-09T09:04:34.095-08:00",
+        "updated_at": "2026-02-09T09:04:34.095-08:00",
+        "position": 4,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-09",
+        "group_id": "58cfzcvm6j00",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
         "id": "rryv3x03gshj",
         "name": "In-Meeting Chat/Polling",
         "status": "operational",
@@ -2809,6 +2824,21 @@
         "only_show_if_degraded": false
       },
       {
+        "id": "1kpn5p3jk097",
+        "name": "Admin Portal - Knowledge Base",
+        "status": "operational",
+        "created_at": "2026-02-09T09:05:10.995-08:00",
+        "updated_at": "2026-02-09T09:05:10.995-08:00",
+        "position": 5,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-09",
+        "group_id": "58cfzcvm6j00",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
         "id": "0h08kcybkm9y",
         "name": "Provider Exchange",
         "status": "operational",
@@ -3137,6 +3167,21 @@
         "only_show_if_degraded": false
       },
       {
+        "id": "t1kk8yhq1b10",
+        "name": "Admin Portal - Reporting Service",
+        "status": "operational",
+        "created_at": "2026-02-09T09:06:25.455-08:00",
+        "updated_at": "2026-02-09T09:06:25.455-08:00",
+        "position": 6,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-09",
+        "group_id": "58cfzcvm6j00",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
         "id": "y5ryrz3d2f5n",
         "name": "Emergency Calling",
         "status": "operational",
@@ -3431,6 +3476,21 @@
         "showcase": false,
         "start_date": "2024-03-21",
         "group_id": "6ghcc5c7kxgl",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "fzjy99p7m20t",
+        "name": "Admin Portal - Others",
+        "status": "operational",
+        "created_at": "2026-02-09T09:06:58.922-08:00",
+        "updated_at": "2026-02-09T09:06:58.922-08:00",
+        "position": 7,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-09",
+        "group_id": "58cfzcvm6j00",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -5111,7 +5171,11 @@
         "components": [
           "880tc1scvmp2",
           "pr3j87tpjmy9",
-          "db6bc5vbbb4f"
+          "db6bc5vbbb4f",
+          "y6gl9nsjx7p4",
+          "1kpn5p3jk097",
+          "t1kk8yhq1b10",
+          "fzjy99p7m20t"
         ]
       },
       {
@@ -7664,6 +7728,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-09T14:52:17Z"
+    "updated": "2026-02-09T17:39:25Z"
   }
 }
