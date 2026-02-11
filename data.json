@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-11T23:04:31Z"
+    "updated": "2026-02-11T23:58:05Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble Loading or Connecting to Slack",
-    "updated": "2026-02-11T23:04:31Z"
+    "updated": "2026-02-11T23:58:05Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-11T23:04:29Z"
+    "updated": "2026-02-11T23:58:03Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-11T22:53:34.958Z"
+      "updated_at": "2026-02-11T23:06:07.505Z"
     },
     "components": [
       {
@@ -206,7 +206,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2017-09-19T23:35:45.317Z",
-        "updated_at": "2026-01-22T18:38:08.339Z",
+        "updated_at": "2026-02-11T23:06:02.000Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-11T23:04:29Z"
+    "updated": "2026-02-11T23:58:03Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-11T14:53:34.625-08:00"
+      "updated_at": "2026-02-11T15:49:51.138-08:00"
     },
     "components": [
       {
@@ -5316,7 +5316,61 @@
         ]
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "l8g1srqd9hcs",
+        "name": "Service Degradation Affecting Zoom SMS Service in US and Canada Region",
+        "status": "monitoring",
+        "created_at": "2026-02-11T15:49:51.063-08:00",
+        "updated_at": "2026-02-11T15:49:51.135-08:00",
+        "monitoring_at": "2026-02-11T15:49:51.125-08:00",
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/jzdw9w96stsv",
+        "started_at": "2026-02-11T15:49:51.054-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "p95l2pqrb0hf",
+            "status": "monitoring",
+            "body": "Between 02/11/2026 23:07 UTC and 23:15 UTC, a subset of users may have experienced issues with SMS Delivery from a subset of Twilio Long Codes to AT&T in US and Canada Region. Our team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "l8g1srqd9hcs",
+            "created_at": "2026-02-11T15:49:51.125-08:00",
+            "updated_at": "2026-02-11T15:49:51.125-08:00",
+            "display_at": "2026-02-11T15:49:51.125-08:00",
+            "affected_components": [
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "5vvw5njz8qg5",
+            "name": "SMS/MMS (Inbound/Outbound)",
+            "status": "operational",
+            "created_at": "2022-05-03T10:40:19.412-07:00",
+            "updated_at": "2025-11-04T12:18:51.638-08:00",
+            "position": 3,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gwtd6dbkck60",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "sc3dq0l2c1cs",
@@ -8838,6 +8892,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-11T23:04:29Z"
+    "updated": "2026-02-11T23:58:03Z"
   }
 }
