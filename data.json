@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-11T23:58:05Z"
+    "updated": "2026-02-12T05:23:51Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble Loading or Connecting to Slack",
-    "updated": "2026-02-11T23:58:05Z"
+    "updated": "2026-02-12T05:23:51Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-11T17:53:32.381-05:00"
+      "updated_at": "2026-02-11T22:38:36.362-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-11T23:58:03Z"
+    "updated": "2026-02-12T05:23:49Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-11T23:06:07.505Z"
+      "updated_at": "2026-02-12T03:38:39.077Z"
     },
     "components": [
       {
@@ -613,7 +613,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T18:05:05.907Z",
-        "updated_at": "2026-02-05T06:38:19.000Z",
+        "updated_at": "2026-02-12T02:25:20.000Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-11T23:58:03Z"
+    "updated": "2026-02-12T05:23:49Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-11T15:49:51.138-08:00"
+      "updated_at": "2026-02-11T19:38:38.797-08:00"
     },
     "components": [
       {
@@ -5316,61 +5316,7 @@
         ]
       }
     ],
-    "incidents": [
-      {
-        "id": "l8g1srqd9hcs",
-        "name": "Service Degradation Affecting Zoom SMS Service in US and Canada Region",
-        "status": "monitoring",
-        "created_at": "2026-02-11T15:49:51.063-08:00",
-        "updated_at": "2026-02-11T15:49:51.135-08:00",
-        "monitoring_at": "2026-02-11T15:49:51.125-08:00",
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/jzdw9w96stsv",
-        "started_at": "2026-02-11T15:49:51.054-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "p95l2pqrb0hf",
-            "status": "monitoring",
-            "body": "Between 02/11/2026 23:07 UTC and 23:15 UTC, a subset of users may have experienced issues with SMS Delivery from a subset of Twilio Long Codes to AT&T in US and Canada Region. Our team will continue to monitor the situation closely and keep you informed of any further developments.",
-            "incident_id": "l8g1srqd9hcs",
-            "created_at": "2026-02-11T15:49:51.125-08:00",
-            "updated_at": "2026-02-11T15:49:51.125-08:00",
-            "display_at": "2026-02-11T15:49:51.125-08:00",
-            "affected_components": [
-              {
-                "code": "5vvw5njz8qg5",
-                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "5vvw5njz8qg5",
-            "name": "SMS/MMS (Inbound/Outbound)",
-            "status": "operational",
-            "created_at": "2022-05-03T10:40:19.412-07:00",
-            "updated_at": "2025-11-04T12:18:51.638-08:00",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gwtd6dbkck60",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "sc3dq0l2c1cs",
@@ -8892,6 +8838,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-11T23:58:03Z"
+    "updated": "2026-02-12T05:23:49Z"
   }
 }
