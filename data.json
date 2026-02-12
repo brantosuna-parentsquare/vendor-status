@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-12T10:31:18Z"
+    "updated": "2026-02-12T12:04:53Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble Loading or Connecting to Slack",
-    "updated": "2026-02-12T10:31:18Z"
+    "updated": "2026-02-12T12:04:53Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-12T10:31:15Z"
+    "updated": "2026-02-12T12:04:51Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-12T09:48:39.750Z"
+      "updated_at": "2026-02-12T10:38:34.571Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-12T10:31:15Z"
+    "updated": "2026-02-12T12:04:51Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-12T01:48:39.545-08:00"
+      "updated_at": "2026-02-12T02:38:34.325-08:00"
     },
     "components": [
       {
@@ -8838,6 +8838,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-12T10:31:15Z"
+    "updated": "2026-02-12T12:04:51Z"
   }
 }
