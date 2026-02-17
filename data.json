@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-17T21:49:42Z"
+    "updated": "2026-02-17T23:00:50Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble Loading or Connecting to Slack",
-    "updated": "2026-02-17T21:49:42Z"
+    "updated": "2026-02-17T23:00:50Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-17T13:09:50.329-05:00"
+      "updated_at": "2026-02-17T17:18:29.891-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-17T21:49:40Z"
+    "updated": "2026-02-17T23:00:49Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-17T21:49:40Z"
+    "updated": "2026-02-17T23:00:49Z"
   },
   "zoom": {
     "page": {
@@ -7919,6 +7919,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-17T21:49:40Z"
+    "updated": "2026-02-17T23:00:49Z"
   }
 }
