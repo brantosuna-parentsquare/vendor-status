@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-20T18:04:08Z"
+    "updated": "2026-02-20T19:49:43Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble loading threads",
-    "updated": "2026-02-20T18:04:08Z"
+    "updated": "2026-02-20T19:49:43Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-20T18:04:06Z"
+    "updated": "2026-02-20T19:49:42Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-20T18:04:06Z"
+    "updated": "2026-02-20T19:49:42Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-20T07:43:48.080-08:00"
+      "updated_at": "2026-02-20T11:46:57.329-08:00"
     },
     "components": [
       {
@@ -789,7 +789,7 @@
         "name": "Zoom Meetings",
         "status": "operational",
         "created_at": "2015-01-26T15:04:39.101-08:00",
-        "updated_at": "2026-02-15T22:00:08.294-08:00",
+        "updated_at": "2026-02-20T11:46:57.205-08:00",
         "position": 1,
         "description": "Access to meetings",
         "showcase": false,
@@ -1344,7 +1344,7 @@
         "name": "Calling (Inbound/Outbound)",
         "status": "operational",
         "created_at": "2022-05-03T10:48:34.996-07:00",
-        "updated_at": "2025-08-21T12:20:28.947-07:00",
+        "updated_at": "2026-02-20T11:46:57.229-08:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -4465,7 +4465,7 @@
         "name": "Zoom Conference Room Connector",
         "status": "operational",
         "created_at": "2015-01-26T15:08:04.212-08:00",
-        "updated_at": "2026-02-15T22:00:08.704-08:00",
+        "updated_at": "2026-02-20T11:46:57.252-08:00",
         "position": 14,
         "description": "Access for H.323/SIP endpoints",
         "showcase": false,
@@ -5365,7 +5365,187 @@
         ]
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "nl1gbhzyzjqh",
+        "name": "Service Degradation Affecting Zoom Services in Sao Paulo",
+        "status": "monitoring",
+        "created_at": "2026-02-20T10:31:18.471-08:00",
+        "updated_at": "2026-02-20T11:46:57.326-08:00",
+        "monitoring_at": "2026-02-20T11:46:57.297-08:00",
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/795plb7rqcnz",
+        "started_at": "2026-02-20T10:31:18.462-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "3wzrwkf5qb5m",
+            "status": "monitoring",
+            "body": "The service degradation affecting Zoom Services in Sao Paulo has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "nl1gbhzyzjqh",
+            "created_at": "2026-02-20T11:46:57.297-08:00",
+            "updated_at": "2026-02-20T11:46:57.297-08:00",
+            "display_at": "2026-02-20T11:46:57.297-08:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "y8ktp5pnbwt3",
+                "name": "Zoom Phone - LATIN AMERICA - Calling (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "ckb9vvjpbwzx",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting Zoom Services in Sao Paulo. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "nl1gbhzyzjqh",
+            "created_at": "2026-02-20T11:10:50.697-08:00",
+            "updated_at": "2026-02-20T11:10:50.697-08:00",
+            "display_at": "2026-02-20T11:10:50.697-08:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "y8ktp5pnbwt3",
+                "name": "Zoom Phone - LATIN AMERICA - Calling (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "fp80b5nt95kn",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting Zoom Services in Soa Paulo.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "nl1gbhzyzjqh",
+            "created_at": "2026-02-20T10:36:26.450-08:00",
+            "updated_at": "2026-02-20T10:36:26.450-08:00",
+            "display_at": "2026-02-20T10:36:26.450-08:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "y8ktp5pnbwt3",
+                "name": "Zoom Phone - LATIN AMERICA - Calling (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "w94rpc5x0x7r",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting Zoom Services in Sao Paulo.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "nl1gbhzyzjqh",
+            "created_at": "2026-02-20T10:31:18.571-08:00",
+            "updated_at": "2026-02-20T10:31:18.571-08:00",
+            "display_at": "2026-02-20T10:31:18.571-08:00",
+            "affected_components": [
+              {
+                "code": "y8ktp5pnbwt3",
+                "name": "Zoom Phone - LATIN AMERICA - Calling (Inbound/Outbound)",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "y8ktp5pnbwt3",
+            "name": "Calling (Inbound/Outbound)",
+            "status": "operational",
+            "created_at": "2022-05-03T10:48:34.996-07:00",
+            "updated_at": "2026-02-20T11:46:57.229-08:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "vsddw4d4jssy",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "38h28fcqb89q",
@@ -5467,7 +5647,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-02-15T22:00:08.294-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -5572,7 +5752,7 @@
             "name": "Zoom Conference Room Connector",
             "status": "operational",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-02-15T22:00:08.704-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -5806,7 +5986,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-02-15T22:00:08.294-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -5911,7 +6091,7 @@
             "name": "Zoom Conference Room Connector",
             "status": "operational",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-02-15T22:00:08.704-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -6070,7 +6250,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-02-15T22:00:08.294-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6175,7 +6355,7 @@
             "name": "Zoom Conference Room Connector",
             "status": "operational",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-02-15T22:00:08.704-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -6334,7 +6514,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-02-15T22:00:08.294-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6439,7 +6619,7 @@
             "name": "Zoom Conference Room Connector",
             "status": "operational",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-02-15T22:00:08.704-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -6652,7 +6832,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-02-15T22:00:08.294-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6757,7 +6937,7 @@
             "name": "Zoom Conference Room Connector",
             "status": "operational",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-02-15T22:00:08.704-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -6916,7 +7096,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-02-15T22:00:08.294-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -7021,7 +7201,7 @@
             "name": "Zoom Conference Room Connector",
             "status": "operational",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-02-15T22:00:08.704-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -7126,7 +7306,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-02-15T22:00:08.294-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -7473,7 +7653,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-02-15T22:00:08.294-08:00",
+            "updated_at": "2026-02-20T11:46:57.205-08:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -7788,7 +7968,7 @@
             "name": "Zoom Conference Room Connector",
             "status": "operational",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-02-15T22:00:08.704-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -7900,7 +8080,7 @@
             "name": "Zoom Conference Room Connector",
             "status": "operational",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-02-15T22:00:08.704-08:00",
+            "updated_at": "2026-02-20T11:46:57.252-08:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -7919,6 +8099,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-20T18:04:06Z"
+    "updated": "2026-02-20T19:49:42Z"
   }
 }
