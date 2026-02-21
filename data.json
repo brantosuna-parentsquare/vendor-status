@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-21T09:56:28Z"
+    "updated": "2026-02-21T10:56:36Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble loading threads",
-    "updated": "2026-02-21T09:56:28Z"
+    "updated": "2026-02-21T10:56:36Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-21T09:56:27Z"
+    "updated": "2026-02-21T10:56:35Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-21T09:56:27Z"
+    "updated": "2026-02-21T10:56:35Z"
   },
   "zoom": {
     "page": {
@@ -7681,6 +7681,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-02-21T09:56:27Z"
+    "updated": "2026-02-21T10:56:35Z"
   }
 }
