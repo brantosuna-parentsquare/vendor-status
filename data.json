@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-22T07:25:40Z"
+    "updated": "2026-02-22T08:00:23Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Apps displaying &quot;We can&#039;t fully display this message&quot;",
-    "updated": "2026-02-22T07:25:40Z"
+    "updated": "2026-02-22T08:00:23Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-22T07:25:38Z"
+    "updated": "2026-02-22T08:00:21Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-22T07:25:38Z"
+    "updated": "2026-02-22T08:00:21Z"
   },
   "zoom": {
     "page": {
@@ -7660,6 +7660,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-02-22T07:25:38Z"
+    "updated": "2026-02-22T08:00:21Z"
   }
 }
