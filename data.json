@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-22T10:56:10Z"
+    "updated": "2026-02-22T11:45:12Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Apps displaying &quot;We can&#039;t fully display this message&quot;",
-    "updated": "2026-02-22T10:56:10Z"
+    "updated": "2026-02-22T11:45:12Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-22T03:38:31.296-05:00"
+      "updated_at": "2026-02-22T05:59:05.864-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-22T10:56:07Z"
+    "updated": "2026-02-22T11:45:10Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-22T08:38:33.982Z"
+      "updated_at": "2026-02-22T10:59:09.969Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-22T10:56:07Z"
+    "updated": "2026-02-22T11:45:10Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-22T01:00:07.528-08:00"
+      "updated_at": "2026-02-22T02:59:09.759-08:00"
     },
     "components": [
       {
@@ -7316,6 +7316,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-22T10:56:07Z"
+    "updated": "2026-02-22T11:45:10Z"
   }
 }
