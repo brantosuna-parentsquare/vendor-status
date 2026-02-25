@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-25T21:50:37Z"
+    "updated": "2026-02-25T23:17:32Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble installing custom apps/integrations",
-    "updated": "2026-02-25T21:50:37Z"
+    "updated": "2026-02-25T23:17:32Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-25T21:50:34Z"
+    "updated": "2026-02-25T23:17:31Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-25T21:50:34Z"
+    "updated": "2026-02-25T23:17:31Z"
   },
   "zoom": {
     "page": {
@@ -6863,6 +6863,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-25T21:50:34Z"
+    "updated": "2026-02-25T23:17:31Z"
   }
 }
