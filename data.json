@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-26T15:08:04Z"
+    "updated": "2026-02-26T18:06:10Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Microsoft Outlook and Related Connectors – Connection Issues",
-    "updated": "2026-02-26T15:08:04Z"
+    "updated": "2026-02-26T18:06:10Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-26T08:34:00.311-05:00"
+      "updated_at": "2026-02-26T12:08:28.815-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-26T15:08:03Z"
+    "updated": "2026-02-26T18:06:08Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-26T13:34:04.320Z"
+      "updated_at": "2026-02-26T17:08:32.405Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-26T15:08:03Z"
+    "updated": "2026-02-26T18:06:08Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-26T05:34:03.754-08:00"
+      "updated_at": "2026-02-26T09:57:37.791-08:00"
     },
     "components": [
       {
@@ -892,9 +892,9 @@
       {
         "id": "g3x1x7ffg5b0",
         "name": "Zoom Revenue Accelerator",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-04-14T21:21:04.439-07:00",
-        "updated_at": "2025-10-20T12:07:12.685-07:00",
+        "updated_at": "2026-02-26T08:42:38.954-08:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -1417,7 +1417,7 @@
       {
         "id": "6zvc1tw9rpfm",
         "name": "Zoom Chat",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T11:00:19.960-07:00",
         "updated_at": "2024-05-30T17:14:44.256-07:00",
         "position": 2,
@@ -1607,9 +1607,9 @@
       {
         "id": "03szj78zknyt",
         "name": "Mail",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-03-23T09:35:58.650-07:00",
-        "updated_at": "2026-01-18T22:14:39.531-08:00",
+        "updated_at": "2026-02-26T09:20:16.462-08:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -2237,9 +2237,9 @@
       {
         "id": "5nb7nq17c6g5",
         "name": "File Transfers: File, Video, Pictures, Voice",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T11:01:15.868-07:00",
-        "updated_at": "2025-10-20T12:57:29.526-07:00",
+        "updated_at": "2026-02-26T09:20:16.491-08:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -3526,6 +3526,21 @@
         "only_show_if_degraded": false
       },
       {
+        "id": "9fmvxzjb6b4w",
+        "name": "Transcription",
+        "status": "degraded_performance",
+        "created_at": "2026-02-26T09:50:18.299-08:00",
+        "updated_at": "2026-02-26T09:57:37.717-08:00",
+        "position": 7,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-26",
+        "group_id": "9mlg71db7jlp",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
         "id": "1v74zmrq81fr",
         "name": "Archiving",
         "status": "operational",
@@ -3775,6 +3790,21 @@
         "showcase": false,
         "start_date": "2024-05-24",
         "group_id": "8sq44v6xhj9v",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "sxvjt0xxfnbs",
+        "name": "Transcription",
+        "status": "degraded_performance",
+        "created_at": "2026-02-26T08:14:55.436-08:00",
+        "updated_at": "2026-02-26T08:20:49.846-08:00",
+        "position": 8,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-26",
+        "group_id": "58cfzcvm6j00",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -4418,9 +4448,9 @@
       {
         "id": "576m25cw4prj",
         "name": "Zoom Docs",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2024-08-07T20:19:58.046-07:00",
-        "updated_at": "2026-02-09T04:50:48.480-08:00",
+        "updated_at": "2026-02-26T09:20:16.515-08:00",
         "position": 13,
         "description": null,
         "showcase": false,
@@ -4508,9 +4538,9 @@
       {
         "id": "kvrj9x7kgp2b",
         "name": "Transcription",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-01-05T01:24:00.701-08:00",
-        "updated_at": "2026-01-06T05:20:06.700-08:00",
+        "updated_at": "2026-02-26T08:20:49.867-08:00",
         "position": 14,
         "description": null,
         "showcase": false,
@@ -4538,7 +4568,7 @@
       {
         "id": "thrn29k311lc",
         "name": "Zoom Mail",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-03-23T09:35:24.792-07:00",
         "updated_at": "2024-08-14T13:40:38.950-07:00",
         "position": 15,
@@ -4574,7 +4604,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -4685,7 +4715,7 @@
       {
         "id": "fs7vxs27n4pn",
         "name": "Zoom Phone - Global",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:58:05.236-07:00",
         "updated_at": "2024-08-14T13:40:38.986-07:00",
         "position": 18,
@@ -4731,9 +4761,9 @@
       {
         "id": "gtf6dl08hrk1",
         "name": "Zoom Whiteboard",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-04-17T15:18:57.638-07:00",
-        "updated_at": "2026-01-10T21:30:35.407-08:00",
+        "updated_at": "2026-02-26T09:20:16.542-08:00",
         "position": 19,
         "description": null,
         "showcase": false,
@@ -5007,7 +5037,7 @@
       {
         "id": "9mlg71db7jlp",
         "name": "Zoom Revenue Accelerator",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T11:14:18.195-07:00",
         "updated_at": "2024-08-14T13:40:39.089-07:00",
         "position": 26,
@@ -5024,7 +5054,8 @@
           "65lm23m3qzcc",
           "t7f6gfs4yh8l",
           "qdrc9p21l7tf",
-          "s25brvcd1wfs"
+          "s25brvcd1wfs",
+          "9fmvxzjb6b4w"
         ]
       },
       {
@@ -5187,7 +5218,7 @@
       {
         "id": "58cfzcvm6j00",
         "name": "Zoom Virtual Agent - Global",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2025-12-14T23:26:17.864-08:00",
         "updated_at": "2026-01-08T10:55:10.009-08:00",
         "position": 36,
@@ -5205,7 +5236,8 @@
           "y6gl9nsjx7p4",
           "1kpn5p3jk097",
           "t1kk8yhq1b10",
-          "fzjy99p7m20t"
+          "fzjy99p7m20t",
+          "sxvjt0xxfnbs"
         ]
       },
       {
@@ -5363,9 +5395,352 @@
           "452xjnn6zw00",
           "fws9k4351knw"
         ]
+      },
+      {
+        "id": "2twszjk8b2jy",
+        "name": "Zoom Hub",
+        "status": "degraded_performance",
+        "created_at": "2026-02-26T09:22:48.103-08:00",
+        "updated_at": "2026-02-26T09:28:11.706-08:00",
+        "position": 46,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-02-26",
+        "group_id": null,
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "kzw0ll8mwc6r",
+        "name": "Service degradation with Hebrew offline transcription for Zoom Revenue Accelerator and Zoom Phone",
+        "status": "identified",
+        "created_at": "2026-02-26T08:20:49.801-08:00",
+        "updated_at": "2026-02-26T09:57:37.779-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/kbs3bxzh2v4p",
+        "started_at": "2026-02-26T08:20:49.000-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "dvgsnxyw1p7x",
+            "status": "identified",
+            "body": "We continue to identify the root cause affecting Hebrew offline transcription for Zoom Revenue Accelerator and Zoom Phone.\n\nOur team continues to actively work on a resolution, and we will keep you informed with timely updates as progress is made.",
+            "incident_id": "kzw0ll8mwc6r",
+            "created_at": "2026-02-26T09:57:37.774-08:00",
+            "updated_at": "2026-02-26T09:57:37.774-08:00",
+            "display_at": "2026-02-26T09:57:37.774-08:00",
+            "affected_components": [
+              {
+                "code": "kvrj9x7kgp2b",
+                "name": "Zoom Phone - Global - Transcription",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "9fmvxzjb6b4w",
+                "name": "Zoom Revenue Accelerator - Transcription",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "hgqny03qrjfl",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting Hebrew offline transcription for Zoom Revenue Accelerator and Zoom Phone.\n\nOur team continues to actively work on a resolution, and we will keep you informed with timely updates as progress is made.",
+            "incident_id": "kzw0ll8mwc6r",
+            "created_at": "2026-02-26T09:51:04.048-08:00",
+            "updated_at": "2026-02-26T09:51:04.048-08:00",
+            "display_at": "2026-02-26T09:51:04.048-08:00",
+            "affected_components": [
+              {
+                "code": "kvrj9x7kgp2b",
+                "name": "Zoom Phone - Global - Transcription",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "g3x1x7ffg5b0",
+                "name": "Zoom Revenue Accelerator - Zoom Revenue Accelerator",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "03rr87tf4t7t",
+            "status": "investigating",
+            "body": "We are continuing to investigate this issue.",
+            "incident_id": "kzw0ll8mwc6r",
+            "created_at": "2026-02-26T08:42:39.009-08:00",
+            "updated_at": "2026-02-26T08:42:39.009-08:00",
+            "display_at": "2026-02-26T08:42:39.009-08:00",
+            "affected_components": [
+              {
+                "code": "kvrj9x7kgp2b",
+                "name": "Zoom Phone - Global - Transcription",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "g3x1x7ffg5b0",
+                "name": "Zoom Revenue Accelerator - Zoom Revenue Accelerator",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "d3tshfywyy4b",
+            "status": "investigating",
+            "body": "We are investigating the root cause affecting Hebrew offline transcription for Zoom Revenue Accelerator and Zoom Phone.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \nThank you for your patience.",
+            "incident_id": "kzw0ll8mwc6r",
+            "created_at": "2026-02-26T08:20:49.925-08:00",
+            "updated_at": "2026-02-26T09:51:13.137-08:00",
+            "display_at": "2026-02-26T08:20:49.000-08:00",
+            "affected_components": [
+              {
+                "code": "kvrj9x7kgp2b",
+                "name": "Zoom Phone - Global - Transcription",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "sxvjt0xxfnbs",
+                "name": "Zoom Virtual Agent - Global - Transcription",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "9fmvxzjb6b4w",
+            "name": "Transcription",
+            "status": "degraded_performance",
+            "created_at": "2026-02-26T09:50:18.299-08:00",
+            "updated_at": "2026-02-26T09:57:37.717-08:00",
+            "position": 7,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-02-26",
+            "group_id": "9mlg71db7jlp",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "kvrj9x7kgp2b",
+            "name": "Transcription",
+            "status": "degraded_performance",
+            "created_at": "2026-01-05T01:24:00.701-08:00",
+            "updated_at": "2026-02-26T08:20:49.867-08:00",
+            "position": 14,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-01-05",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      },
+      {
+        "id": "spgg8gcjy061",
+        "name": "A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File service/Whiteboard services",
+        "status": "investigating",
+        "created_at": "2026-02-26T09:20:16.401-08:00",
+        "updated_at": "2026-02-26T09:28:11.764-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/ng1th69jnxvz",
+        "started_at": "2026-02-26T09:20:16.000-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "77yw72fmns6j",
+            "status": "investigating",
+            "body": "A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File service/Whiteboard services\n\nOur team continue to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "spgg8gcjy061",
+            "created_at": "2026-02-26T09:28:11.760-08:00",
+            "updated_at": "2026-02-26T09:28:11.760-08:00",
+            "display_at": "2026-02-26T09:28:11.760-08:00",
+            "affected_components": [
+              {
+                "code": "gtf6dl08hrk1",
+                "name": "Zoom Meetings - Zoom Whiteboard",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "5nb7nq17c6g5",
+                "name": "Zoom Chat - File Transfers: File, Video, Pictures, Voice",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "576m25cw4prj",
+                "name": "Zoom Docs",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "2twszjk8b2jy",
+                "name": "Zoom Hub",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "w4wkx44plfq0",
+            "status": "investigating",
+            "body": "A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File service/Whiteboard services\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "spgg8gcjy061",
+            "created_at": "2026-02-26T09:20:16.617-08:00",
+            "updated_at": "2026-02-26T09:25:04.337-08:00",
+            "display_at": "2026-02-26T09:20:16.000-08:00",
+            "affected_components": [
+              {
+                "code": "gtf6dl08hrk1",
+                "name": "Zoom Meetings - Zoom Whiteboard",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "5nb7nq17c6g5",
+                "name": "Zoom Chat - File Transfers: File, Video, Pictures, Voice",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "576m25cw4prj",
+                "name": "Zoom Docs",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "03szj78zknyt",
+            "name": "Mail",
+            "status": "degraded_performance",
+            "created_at": "2023-03-23T09:35:58.650-07:00",
+            "updated_at": "2026-02-26T09:20:16.462-08:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-03-23",
+            "group_id": "thrn29k311lc",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "5nb7nq17c6g5",
+            "name": "File Transfers: File, Video, Pictures, Voice",
+            "status": "degraded_performance",
+            "created_at": "2022-05-03T11:01:15.868-07:00",
+            "updated_at": "2026-02-26T09:20:16.491-08:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "576m25cw4prj",
+            "name": "Zoom Docs",
+            "status": "degraded_performance",
+            "created_at": "2024-08-07T20:19:58.046-07:00",
+            "updated_at": "2026-02-26T09:20:16.515-08:00",
+            "position": 13,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-08-07",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "gtf6dl08hrk1",
+            "name": "Zoom Whiteboard",
+            "status": "degraded_performance",
+            "created_at": "2022-04-17T15:18:57.638-07:00",
+            "updated_at": "2026-02-26T09:20:16.542-08:00",
+            "position": 19,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-04-17",
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "2twszjk8b2jy",
+            "name": "Zoom Hub",
+            "status": "degraded_performance",
+            "created_at": "2026-02-26T09:22:48.103-08:00",
+            "updated_at": "2026-02-26T09:28:11.706-08:00",
+            "position": 46,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-02-26",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "q7mjngvvdjf6",
@@ -6615,9 +6990,9 @@
           {
             "id": "03szj78zknyt",
             "name": "Mail",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2023-03-23T09:35:58.650-07:00",
-            "updated_at": "2026-01-18T22:14:39.531-08:00",
+            "updated_at": "2026-02-26T09:20:16.462-08:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -6940,9 +7315,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-02-26T15:08:03Z"
+    "updated": "2026-02-26T18:06:08Z"
   }
 }
