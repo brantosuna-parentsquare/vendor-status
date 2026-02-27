@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-26T23:59:22Z"
+    "updated": "2026-02-27T05:07:02Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Microsoft Outlook and Related Connectors – Connection Issues",
-    "updated": "2026-02-26T23:59:22Z"
+    "updated": "2026-02-27T05:07:02Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-26T12:08:28.815-05:00"
+      "updated_at": "2026-02-26T22:03:30.429-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-26T23:59:20Z"
+    "updated": "2026-02-27T05:07:00Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-26T17:08:32.405Z"
+      "updated_at": "2026-02-27T03:03:33.359Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-26T23:59:20Z"
+    "updated": "2026-02-27T05:07:00Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-26T15:54:04.241-08:00"
+      "updated_at": "2026-02-26T21:02:13.369-08:00"
     },
     "components": [
       {
@@ -832,9 +832,9 @@
       {
         "id": "cn1j8pttz0wy",
         "name": "Zoom Dashboard & Reporting",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2020-03-17T15:25:42.220-07:00",
-        "updated_at": "2025-12-15T12:51:08.463-08:00",
+        "updated_at": "2026-02-26T19:52:51.775-08:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -5118,7 +5118,7 @@
       {
         "id": "1ndlrnp6r9js",
         "name": "Zoom Website",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2020-03-17T15:25:42.214-07:00",
         "updated_at": "2026-01-08T10:55:09.952-08:00",
         "position": 30,
@@ -5414,11 +5414,104 @@
     ],
     "incidents": [
       {
+        "id": "yst7r7lh53dq",
+        "name": "Service degradation affecting report generation on the Zoom Dashboard.",
+        "status": "identified",
+        "created_at": "2026-02-26T19:52:51.741-08:00",
+        "updated_at": "2026-02-26T21:02:13.346-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/8ghsrmjgpfn3",
+        "started_at": "2026-02-26T19:52:51.733-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "tp4qq6rc6klb",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting generate or download report from Zoom Dashboard.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "yst7r7lh53dq",
+            "created_at": "2026-02-26T21:02:13.343-08:00",
+            "updated_at": "2026-02-26T21:02:13.343-08:00",
+            "display_at": "2026-02-26T21:02:13.343-08:00",
+            "affected_components": [
+              {
+                "code": "cn1j8pttz0wy",
+                "name": "Zoom Website - Zoom Dashboard & Reporting",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "w22dmv0z08s8",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting generate or download report from Zoom Dashboard.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "yst7r7lh53dq",
+            "created_at": "2026-02-26T20:08:24.305-08:00",
+            "updated_at": "2026-02-26T20:08:24.305-08:00",
+            "display_at": "2026-02-26T20:08:24.305-08:00",
+            "affected_components": [
+              {
+                "code": "cn1j8pttz0wy",
+                "name": "Zoom Website - Zoom Dashboard & Reporting",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "46xvyvmnz954",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting generate or download report from Zoom Dashboard.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "yst7r7lh53dq",
+            "created_at": "2026-02-26T19:52:51.824-08:00",
+            "updated_at": "2026-02-26T19:52:51.824-08:00",
+            "display_at": "2026-02-26T19:52:51.824-08:00",
+            "affected_components": [
+              {
+                "code": "cn1j8pttz0wy",
+                "name": "Zoom Website - Zoom Dashboard & Reporting",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "cn1j8pttz0wy",
+            "name": "Zoom Dashboard & Reporting",
+            "status": "degraded_performance",
+            "created_at": "2020-03-17T15:25:42.220-07:00",
+            "updated_at": "2026-02-26T19:52:51.775-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      },
+      {
         "id": "spgg8gcjy061",
         "name": "A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File Service/Whiteboard Services/Zoom Marketplace/Shared Notes/Zoom Rooms/Zoom Workspace Reservation",
         "status": "investigating",
         "created_at": "2026-02-26T09:20:16.401-08:00",
-        "updated_at": "2026-02-26T15:54:04.229-08:00",
+        "updated_at": "2026-02-26T19:41:34.716-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -5426,6 +5519,142 @@
         "started_at": "2026-02-26T09:20:16.000-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "9hl17lqxwf5j",
+            "status": "investigating",
+            "body": "A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File Service/Whiteboard Services/Zoom Marketplace/Shared Notes/Zoom Rooms/Zoom Workspace Reservation\n\nOur team is continues to work to identify the impact and root cause. We will provide an update as soon as more information becomes available.",
+            "incident_id": "spgg8gcjy061",
+            "created_at": "2026-02-26T19:41:34.712-08:00",
+            "updated_at": "2026-02-26T19:41:34.712-08:00",
+            "display_at": "2026-02-26T19:41:34.712-08:00",
+            "affected_components": [
+              {
+                "code": "rmphw6f34qk9",
+                "name": "Zoom Developer Platform - Marketplace",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "gtf6dl08hrk1",
+                "name": "Zoom Meetings - Zoom Whiteboard",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "5nb7nq17c6g5",
+                "name": "Zoom Chat - File Transfers: File, Video, Pictures, Voice",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "xtgr15yv6hbn",
+                "name": "Zoom Rooms - Zoom Rooms",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "qmwgsb4jbrst",
+                "name": "Zoom Rooms - Zoom Workspace Reservation",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "tvtkg7hq9qdd",
+                "name": "Zoom Notes",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "576m25cw4prj",
+                "name": "Zoom Docs",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "2twszjk8b2jy",
+                "name": "Zoom Hub",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "jtv87k7h8b1k",
+            "status": "investigating",
+            "body": "A subset of customers experiencing search delay for Zoom Docs/Zoom Hub/Zmail/File Service/Whiteboard Services/Zoom Marketplace/Shared Notes/Zoom Rooms/Zoom Workspace Reservation\n\nOur team is continues to work to identify the impact and root cause. We will provide an update as soon as more information becomes available.",
+            "incident_id": "spgg8gcjy061",
+            "created_at": "2026-02-26T17:29:27.177-08:00",
+            "updated_at": "2026-02-26T17:29:27.177-08:00",
+            "display_at": "2026-02-26T17:29:27.177-08:00",
+            "affected_components": [
+              {
+                "code": "rmphw6f34qk9",
+                "name": "Zoom Developer Platform - Marketplace",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "gtf6dl08hrk1",
+                "name": "Zoom Meetings - Zoom Whiteboard",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "5nb7nq17c6g5",
+                "name": "Zoom Chat - File Transfers: File, Video, Pictures, Voice",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "xtgr15yv6hbn",
+                "name": "Zoom Rooms - Zoom Rooms",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "qmwgsb4jbrst",
+                "name": "Zoom Rooms - Zoom Workspace Reservation",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "tvtkg7hq9qdd",
+                "name": "Zoom Notes",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "576m25cw4prj",
+                "name": "Zoom Docs",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "2twszjk8b2jy",
+                "name": "Zoom Hub",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "tr3nxlc414c5",
             "status": "investigating",
@@ -5951,7 +6180,7 @@
         "name": "Service degradation with Hebrew offline transcription for ZRA and Zoom Phone",
         "status": "identified",
         "created_at": "2026-02-26T08:20:49.801-08:00",
-        "updated_at": "2026-02-26T15:52:08.522-08:00",
+        "updated_at": "2026-02-26T19:35:06.974-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -5959,6 +6188,58 @@
         "started_at": "2026-02-26T08:20:49.000-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "mx5t4z1l0xx3",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting Hebrew offline transcription for Zoom Revenue Accelerator and Zoom Phone.\n\nOur team continues to actively work on a resolution, and we will keep you informed with timely updates as progress is made.",
+            "incident_id": "kzw0ll8mwc6r",
+            "created_at": "2026-02-26T19:35:06.971-08:00",
+            "updated_at": "2026-02-26T19:35:06.971-08:00",
+            "display_at": "2026-02-26T19:35:06.971-08:00",
+            "affected_components": [
+              {
+                "code": "kvrj9x7kgp2b",
+                "name": "Zoom Phone - Global - Transcription",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "g3x1x7ffg5b0",
+                "name": "Zoom Revenue Accelerator - Zoom Revenue Accelerator",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "f7q7gclsr7t0",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting Hebrew offline transcription for Zoom Revenue Accelerator and Zoom Phone.\n\nOur team continues to actively work on a resolution, and we will keep you informed with timely updates as progress is made.",
+            "incident_id": "kzw0ll8mwc6r",
+            "created_at": "2026-02-26T17:35:55.892-08:00",
+            "updated_at": "2026-02-26T17:35:55.892-08:00",
+            "display_at": "2026-02-26T17:35:55.892-08:00",
+            "affected_components": [
+              {
+                "code": "kvrj9x7kgp2b",
+                "name": "Zoom Phone - Global - Transcription",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "g3x1x7ffg5b0",
+                "name": "Zoom Revenue Accelerator - Zoom Revenue Accelerator",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "9nkz0fwpxljy",
             "status": "identified",
@@ -7336,9 +7617,9 @@
           {
             "id": "cn1j8pttz0wy",
             "name": "Zoom Dashboard & Reporting",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2020-03-17T15:25:42.220-07:00",
-            "updated_at": "2025-12-15T12:51:08.463-08:00",
+            "updated_at": "2026-02-26T19:52:51.775-08:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7754,6 +8035,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-02-26T23:59:20Z"
+    "updated": "2026-02-27T05:07:00Z"
   }
 }
