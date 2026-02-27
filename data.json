@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-27T17:56:44Z"
+    "updated": "2026-02-27T19:49:05Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Microsoft Outlook and Related Connectors – Connection Issues",
-    "updated": "2026-02-27T17:56:44Z"
+    "updated": "2026-02-27T19:49:05Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-27T10:58:35.170-05:00"
+      "updated_at": "2026-02-27T13:53:32.890-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-27T17:56:42Z"
+    "updated": "2026-02-27T19:49:03Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-27T15:58:37.910Z"
+      "updated_at": "2026-02-27T18:53:35.752Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-27T17:56:42Z"
+    "updated": "2026-02-27T19:49:03Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-27T09:26:56.045-08:00"
+      "updated_at": "2026-02-27T11:26:46.572-08:00"
     },
     "components": [
       {
@@ -3528,9 +3528,9 @@
       {
         "id": "9fmvxzjb6b4w",
         "name": "Transcription",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-02-26T09:50:18.299-08:00",
-        "updated_at": "2026-02-26T09:57:37.717-08:00",
+        "updated_at": "2026-02-27T09:56:54.944-08:00",
         "position": 7,
         "description": null,
         "showcase": false,
@@ -3797,9 +3797,9 @@
       {
         "id": "sxvjt0xxfnbs",
         "name": "Transcription",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-02-26T08:14:55.436-08:00",
-        "updated_at": "2026-02-26T08:20:49.846-08:00",
+        "updated_at": "2026-02-27T11:26:46.568-08:00",
         "position": 8,
         "description": null,
         "showcase": false,
@@ -5037,7 +5037,7 @@
       {
         "id": "9mlg71db7jlp",
         "name": "Zoom Revenue Accelerator",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T11:14:18.195-07:00",
         "updated_at": "2024-08-14T13:40:39.089-07:00",
         "position": 26,
@@ -5218,7 +5218,7 @@
       {
         "id": "58cfzcvm6j00",
         "name": "Zoom Virtual Agent - Global",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2025-12-14T23:26:17.864-08:00",
         "updated_at": "2026-01-08T10:55:10.009-08:00",
         "position": 36,
@@ -6969,9 +6969,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-02-27T17:56:42Z"
+    "updated": "2026-02-27T19:49:03Z"
   }
 }
