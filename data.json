@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-27T22:54:30Z"
+    "updated": "2026-02-27T23:50:12Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Microsoft Outlook and Related Connectors – Connection Issues",
-    "updated": "2026-02-27T22:54:30Z"
+    "updated": "2026-02-27T23:50:12Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-27T22:54:28Z"
+    "updated": "2026-02-27T23:50:10Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-27T22:54:28Z"
+    "updated": "2026-02-27T23:50:10Z"
   },
   "zoom": {
     "page": {
@@ -6998,6 +6998,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-02-27T22:54:28Z"
+    "updated": "2026-02-27T23:50:10Z"
   }
 }
