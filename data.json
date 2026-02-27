@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-27T20:57:26Z"
+    "updated": "2026-02-27T21:55:46Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Microsoft Outlook and Related Connectors – Connection Issues",
-    "updated": "2026-02-27T20:57:26Z"
+    "updated": "2026-02-27T21:55:46Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-02-27T13:53:32.890-05:00"
+      "updated_at": "2026-02-27T15:58:41.769-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-27T20:57:24Z"
+    "updated": "2026-02-27T21:55:44Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-02-27T18:53:35.752Z"
+      "updated_at": "2026-02-27T20:58:44.649Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-27T20:57:24Z"
+    "updated": "2026-02-27T21:55:44Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-02-27T11:26:46.572-08:00"
+      "updated_at": "2026-02-27T12:58:44.321-08:00"
     },
     "components": [
       {
@@ -6972,6 +6972,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-27T20:57:24Z"
+    "updated": "2026-02-27T21:55:44Z"
   }
 }
