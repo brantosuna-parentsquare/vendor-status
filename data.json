@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-02-28T16:53:16Z"
+    "updated": "2026-02-28T17:43:45Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues Opening the Slack App on iOS",
-    "updated": "2026-02-28T16:53:16Z"
+    "updated": "2026-02-28T17:43:45Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-28T16:53:15Z"
+    "updated": "2026-02-28T17:43:43Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-28T16:53:15Z"
+    "updated": "2026-02-28T17:43:43Z"
   },
   "zoom": {
     "page": {
@@ -6272,6 +6272,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-02-28T16:53:15Z"
+    "updated": "2026-02-28T17:43:43Z"
   }
 }
