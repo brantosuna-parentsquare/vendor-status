@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-02T14:33:04Z"
+    "updated": "2026-03-02T15:25:55Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues Opening the Slack App on iOS",
-    "updated": "2026-03-02T14:33:04Z"
+    "updated": "2026-03-02T15:25:55Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-02T09:28:29.732-05:00"
+      "updated_at": "2026-03-02T09:43:02.491-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-02T14:33:02Z"
+    "updated": "2026-03-02T15:25:53Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-02T14:28:33.123Z"
+      "updated_at": "2026-03-02T14:43:06.042Z"
     },
     "components": [
       {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-02T14:33:02Z"
+    "updated": "2026-03-02T15:25:53Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-02T06:28:32.842-08:00"
+      "updated_at": "2026-03-02T07:20:31.624-08:00"
     },
     "components": [
       {
@@ -6229,6 +6229,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-02T14:33:02Z"
+    "updated": "2026-03-02T15:25:53Z"
   }
 }
