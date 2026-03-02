@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-02T08:26:17Z"
+    "updated": "2026-03-02T09:11:53Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues Opening the Slack App on iOS",
-    "updated": "2026-03-02T08:26:17Z"
+    "updated": "2026-03-02T09:11:53Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-02T08:26:15Z"
+    "updated": "2026-03-02T09:11:51Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-02T07:18:19.015Z"
+      "updated_at": "2026-03-02T09:06:30.131Z"
     },
     "components": [
       {
@@ -287,9 +287,9 @@
       {
         "id": "vzp40jhw9t4k",
         "name": "App",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2026-01-20T18:59:32.511Z",
-        "updated_at": "2026-02-24T07:56:06.000Z",
+        "updated_at": "2026-03-02T09:05:21.507Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -385,9 +385,9 @@
       {
         "id": "km6jrkp0m2vk",
         "name": "API",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-01-20T19:00:18.706Z",
+        "updated_at": "2026-03-02T09:05:21.526Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -483,9 +483,9 @@
       {
         "id": "mr04m1rysj65",
         "name": "Mobile",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2026-01-20T19:02:01.991Z",
-        "updated_at": "2026-01-20T19:02:01.991Z",
+        "updated_at": "2026-03-02T09:05:21.543Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -581,9 +581,9 @@
       {
         "id": "pgl7q570g5np",
         "name": "Automations and Background Actions",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2026-01-20T19:02:29.583Z",
-        "updated_at": "2026-01-20T19:02:29.583Z",
+        "updated_at": "2026-03-02T09:05:21.559Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -656,7 +656,7 @@
       {
         "id": "m172ltsc49p0",
         "name": "Middle East",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2026-01-20T18:59:32.456Z",
         "updated_at": "2026-01-20T18:59:32.456Z",
         "position": 5,
@@ -679,9 +679,9 @@
       {
         "id": "wclgzqxnt8qd",
         "name": "Webhooks and Event Streams",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2026-01-20T19:03:00.779Z",
-        "updated_at": "2026-01-20T19:03:00.779Z",
+        "updated_at": "2026-03-02T09:05:21.576Z",
         "position": 5,
         "description": null,
         "showcase": true,
@@ -754,9 +754,9 @@
       {
         "id": "1wc2v8r6wnhc",
         "name": "Notifications",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2026-01-20T19:03:20.610Z",
-        "updated_at": "2026-01-20T19:03:20.610Z",
+        "updated_at": "2026-03-02T09:05:21.592Z",
         "position": 6,
         "description": null,
         "showcase": true,
@@ -773,14 +773,114 @@
         "name": "AWS UAE issues might affect the ME region",
         "status": "investigating",
         "created_at": "2026-03-01T20:31:19.389Z",
-        "updated_at": "2026-03-01T21:03:15.672Z",
+        "updated_at": "2026-03-02T09:06:30.124Z",
         "monitoring_at": null,
         "resolved_at": null,
-        "impact": "none",
+        "impact": "major",
         "shortlink": "https://stspg.io/7j5m5fmps74c",
         "started_at": "2026-03-01T20:31:19.368Z",
         "page_id": "w58858w0sjxx",
         "incident_updates": [
+          {
+            "id": "sglgr1tbrhbr",
+            "status": "investigating",
+            "body": "We are seeing major impact in the ME region making Asana services unavailable to users whose data is stored in that region. We have taken steps to avoid additional loss of EC2 resources, but are continuing to see high error rates. This cause is AWS incidents affecting the infrastructure (az1 and az3) in the Middle East region: https://health.aws.amazon.com/health/status",
+            "incident_id": "frypwj8vz6h6",
+            "created_at": "2026-03-02T09:05:21.638Z",
+            "updated_at": "2026-03-02T09:06:30.120Z",
+            "display_at": "2026-03-02T09:05:21.000Z",
+            "affected_components": [
+              {
+                "code": "vzp40jhw9t4k",
+                "name": "Middle East - App",
+                "old_status": "operational",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "km6jrkp0m2vk",
+                "name": "Middle East - API",
+                "old_status": "operational",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "mr04m1rysj65",
+                "name": "Middle East - Mobile",
+                "old_status": "operational",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "pgl7q570g5np",
+                "name": "Middle East - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "wclgzqxnt8qd",
+                "name": "Middle East - Webhooks and Event Streams",
+                "old_status": "operational",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "1wc2v8r6wnhc",
+                "name": "Middle East - Notifications",
+                "old_status": "operational",
+                "new_status": "major_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "m033k2s7dhqv",
+            "status": "investigating",
+            "body": "We are continuing to investigate this issue.",
+            "incident_id": "frypwj8vz6h6",
+            "created_at": "2026-03-02T09:02:27.076Z",
+            "updated_at": "2026-03-02T09:02:27.076Z",
+            "display_at": "2026-03-02T09:02:27.076Z",
+            "affected_components": [
+              {
+                "code": "vzp40jhw9t4k",
+                "name": "Middle East - App",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "km6jrkp0m2vk",
+                "name": "Middle East - API",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "mr04m1rysj65",
+                "name": "Middle East - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "pgl7q570g5np",
+                "name": "Middle East - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "wclgzqxnt8qd",
+                "name": "Middle East - Webhooks and Event Streams",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "1wc2v8r6wnhc",
+                "name": "Middle East - Notifications",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "0zrm2g5k2762",
             "status": "investigating",
@@ -936,9 +1036,9 @@
           {
             "id": "vzp40jhw9t4k",
             "name": "App",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2026-01-20T18:59:32.511Z",
-            "updated_at": "2026-02-24T07:56:06.000Z",
+            "updated_at": "2026-03-02T09:05:21.507Z",
             "position": 1,
             "description": null,
             "showcase": true,
@@ -951,9 +1051,9 @@
           {
             "id": "km6jrkp0m2vk",
             "name": "API",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2026-01-20T19:00:18.706Z",
-            "updated_at": "2026-01-20T19:00:18.706Z",
+            "updated_at": "2026-03-02T09:05:21.526Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -966,9 +1066,9 @@
           {
             "id": "mr04m1rysj65",
             "name": "Mobile",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2026-01-20T19:02:01.991Z",
-            "updated_at": "2026-01-20T19:02:01.991Z",
+            "updated_at": "2026-03-02T09:05:21.543Z",
             "position": 3,
             "description": null,
             "showcase": true,
@@ -981,9 +1081,9 @@
           {
             "id": "pgl7q570g5np",
             "name": "Automations and Background Actions",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2026-01-20T19:02:29.583Z",
-            "updated_at": "2026-01-20T19:02:29.583Z",
+            "updated_at": "2026-03-02T09:05:21.559Z",
             "position": 4,
             "description": null,
             "showcase": true,
@@ -996,9 +1096,9 @@
           {
             "id": "wclgzqxnt8qd",
             "name": "Webhooks and Event Streams",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2026-01-20T19:03:00.779Z",
-            "updated_at": "2026-01-20T19:03:00.779Z",
+            "updated_at": "2026-03-02T09:05:21.576Z",
             "position": 5,
             "description": null,
             "showcase": true,
@@ -1011,9 +1111,9 @@
           {
             "id": "1wc2v8r6wnhc",
             "name": "Notifications",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2026-01-20T19:03:20.610Z",
-            "updated_at": "2026-01-20T19:03:20.610Z",
+            "updated_at": "2026-03-02T09:05:21.592Z",
             "position": 6,
             "description": null,
             "showcase": true,
@@ -1029,10 +1129,10 @@
     ],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "major",
+      "description": "Partial System Outage"
     },
-    "updated": "2026-03-02T08:26:15Z"
+    "updated": "2026-03-02T09:11:51Z"
   },
   "zoom": {
     "page": {
@@ -1040,7 +1140,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-02T00:00:10.670-08:00"
+      "updated_at": "2026-03-02T01:00:07.215-08:00"
     },
     "components": [
       {
@@ -5958,283 +6058,6 @@
         "scheduled_until": "2026-03-29T23:30:00.000-07:00"
       },
       {
-        "id": "z9tdtd9ww2rc",
-        "name": "Network Maintenance in Querétaro City(QRO) Datacenter",
-        "status": "in_progress",
-        "created_at": "2026-02-10T04:25:03.705-08:00",
-        "updated_at": "2026-03-01T21:00:07.476-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/ds3v38zrc560",
-        "started_at": "2026-02-10T04:25:03.674-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "0g7kjqs4k2cb",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "z9tdtd9ww2rc",
-            "created_at": "2026-03-01T21:00:07.471-08:00",
-            "updated_at": "2026-03-01T21:00:07.471-08:00",
-            "display_at": "2026-03-01T21:00:07.471-08:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "n1bz2rjtd8qt",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at our Querétaro City(QRO) Datacenter. During the maintenance window, Users may experience an impact for a brief amount of time for services mentioned.",
-            "incident_id": "z9tdtd9ww2rc",
-            "created_at": "2026-02-10T04:25:03.793-08:00",
-            "updated_at": "2026-02-10T04:25:03.793-08:00",
-            "display_at": "2026-02-10T04:25:03.793-08:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "8vtcg8np4n8c",
-                "name": "Zoom Meetings - Live Transcription",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "rhmrtnvc7xrt",
-                "name": "Zoom Meetings - Live Streaming",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "3ml2fn8g0psv",
-                "name": "Zoom Meetings - Zoom Conference Room Connector",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "gkx8x46kw77h",
-                "name": "Zoom Meetings - Recording",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "q4msk5dl4bhm",
-                "name": "Zoom Meetings - Zoom Webinars",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "rsh1v3gbhtsy",
-                "name": "Zoom Meetings - Zoom AIC",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "jh6w5p8b9yv9",
-                "name": "Zoom Phone - NORTH AMERICA - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vttvjkwmdfps",
-                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-03-01T22:00:07.115-08:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "jh6w5p8b9yv9",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2019-01-23T13:28:01.376-08:00",
-            "updated_at": "2026-03-01T22:00:07.142-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "gwtd6dbkck60",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "xtgr15yv6hbn",
-            "name": "Zoom Rooms",
-            "status": "operational",
-            "created_at": "2021-05-18T07:12:19.400-07:00",
-            "updated_at": "2026-03-01T22:00:07.167-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2021-05-18",
-            "group_id": "xxngg08dxtpq",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "vttvjkwmdfps",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2022-03-18T10:03:55.317-07:00",
-            "updated_at": "2026-03-01T22:00:07.192-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-03-18",
-            "group_id": "pdcbftj9pg7j",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "8vtcg8np4n8c",
-            "name": "Live Transcription",
-            "status": "operational",
-            "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-03-01T22:00:07.217-08:00",
-            "position": 9,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "rhmrtnvc7xrt",
-            "name": "Live Streaming",
-            "status": "operational",
-            "created_at": "2020-03-22T12:21:48.196-07:00",
-            "updated_at": "2026-03-01T22:00:07.243-08:00",
-            "position": 12,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "ntdt65v1f9rv",
-            "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-03-01T22:00:07.269-08:00",
-            "position": 13,
-            "description": "Access to Telephony Services",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "3ml2fn8g0psv",
-            "name": "Zoom Conference Room Connector",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-03-01T22:00:07.297-08:00",
-            "position": 14,
-            "description": "Access for H.323/SIP endpoints",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "gkx8x46kw77h",
-            "name": "Recording",
-            "status": "operational",
-            "created_at": "2020-03-17T15:29:33.741-07:00",
-            "updated_at": "2026-03-01T22:00:07.323-08:00",
-            "position": 15,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "q4msk5dl4bhm",
-            "name": "Zoom Webinars",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.115-08:00",
-            "updated_at": "2026-03-01T22:00:07.352-08:00",
-            "position": 20,
-            "description": "Access to video webinars",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "rsh1v3gbhtsy",
-            "name": "Zoom AIC",
-            "status": "operational",
-            "created_at": "2023-09-06T17:03:37.897-07:00",
-            "updated_at": "2026-03-01T22:00:07.382-08:00",
-            "position": 21,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-09-06",
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-03-01T21:00:00.000-08:00",
-        "scheduled_until": "2026-03-02T01:00:00.000-08:00"
-      },
-      {
         "id": "sc3dq0l2c1cs",
         "name": "Zoom Team Chat Update",
         "status": "in_progress",
@@ -6306,6 +6129,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-02T08:26:15Z"
+    "updated": "2026-03-02T09:11:51Z"
   }
 }
