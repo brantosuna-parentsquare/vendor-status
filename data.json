@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-02T10:08:47Z"
+    "updated": "2026-03-02T11:03:34Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues Opening the Slack App on iOS",
-    "updated": "2026-03-02T10:08:47Z"
+    "updated": "2026-03-02T11:03:34Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-02T10:08:46Z"
+    "updated": "2026-03-02T11:03:32Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-02T09:06:30.131Z"
+      "updated_at": "2026-03-02T10:27:29.144Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
         "name": "AWS UAE issues might affect the ME region",
         "status": "investigating",
         "created_at": "2026-03-01T20:31:19.389Z",
-        "updated_at": "2026-03-02T09:06:30.124Z",
+        "updated_at": "2026-03-02T10:27:29.132Z",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "major",
@@ -781,6 +781,56 @@
         "started_at": "2026-03-01T20:31:19.368Z",
         "page_id": "w58858w0sjxx",
         "incident_updates": [
+          {
+            "id": "nl6qcgvs9ybg",
+            "status": "investigating",
+            "body": "We are still seeing major impact in the ME region making Asana services unavailable to users whose data is stored in that region. We are continuing to monitor the situation. The cause is AWS incidents affecting the infrastructure in the Middle East region: https://health.aws.amazon.com/health/status",
+            "incident_id": "frypwj8vz6h6",
+            "created_at": "2026-03-02T10:27:29.129Z",
+            "updated_at": "2026-03-02T10:27:29.129Z",
+            "display_at": "2026-03-02T10:27:29.129Z",
+            "affected_components": [
+              {
+                "code": "vzp40jhw9t4k",
+                "name": "Middle East - App",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "km6jrkp0m2vk",
+                "name": "Middle East - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "mr04m1rysj65",
+                "name": "Middle East - Mobile",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "pgl7q570g5np",
+                "name": "Middle East - Automations and Background Actions",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "wclgzqxnt8qd",
+                "name": "Middle East - Webhooks and Event Streams",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "1wc2v8r6wnhc",
+                "name": "Middle East - Notifications",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "sglgr1tbrhbr",
             "status": "investigating",
@@ -1132,7 +1182,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-02T10:08:46Z"
+    "updated": "2026-03-02T11:03:32Z"
   },
   "zoom": {
     "page": {
@@ -6129,6 +6179,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-02T10:08:46Z"
+    "updated": "2026-03-02T11:03:32Z"
   }
 }
