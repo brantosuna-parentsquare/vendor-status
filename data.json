@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-04T17:49:49Z"
+    "updated": "2026-03-04T18:37:51Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Activity badge display issue",
-    "updated": "2026-03-04T17:49:49Z"
+    "updated": "2026-03-04T18:37:51Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-04T17:49:47Z"
+    "updated": "2026-03-04T18:37:50Z"
   },
   "asana": {
     "page": {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-04T17:49:47Z"
+    "updated": "2026-03-04T18:37:50Z"
   },
   "zoom": {
     "page": {
@@ -6229,6 +6229,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-04T17:49:47Z"
+    "updated": "2026-03-04T18:37:50Z"
   }
 }
