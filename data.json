@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-04T15:53:53Z"
+    "updated": "2026-03-04T16:56:36Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Activity badge display issue",
-    "updated": "2026-03-04T15:53:53Z"
+    "updated": "2026-03-04T16:56:36Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-04T08:18:36.404-05:00"
+      "updated_at": "2026-03-04T11:53:59.396-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-04T15:53:51Z"
+    "updated": "2026-03-04T16:56:34Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-04T14:53:03.926Z"
+      "updated_at": "2026-03-04T16:54:07.076Z"
     },
     "components": [
       {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-04T15:53:51Z"
+    "updated": "2026-03-04T16:56:34Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-04T05:18:38.608-08:00"
+      "updated_at": "2026-03-04T08:54:05.876-08:00"
     },
     "components": [
       {
@@ -2216,9 +2216,9 @@
       {
         "id": "rmphw6f34qk9",
         "name": "Marketplace",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2020-04-06T15:25:48.555-07:00",
-        "updated_at": "2026-02-27T08:04:35.772-08:00",
+        "updated_at": "2026-03-04T08:41:32.492-08:00",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -4776,7 +4776,7 @@
       {
         "id": "dhtlfcvrh3qh",
         "name": "Zoom Developer Platform",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2020-04-06T15:25:04.810-07:00",
         "updated_at": "2024-05-30T17:17:35.349-07:00",
         "position": 12,
@@ -5871,7 +5871,61 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "nqdln2k9yt9z",
+        "name": "Service Degradation Affecting Zoom Meeting SDK",
+        "status": "investigating",
+        "created_at": "2026-03-04T08:41:32.459-08:00",
+        "updated_at": "2026-03-04T08:41:32.545-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/chbpdkm261hq",
+        "started_at": "2026-03-04T08:41:32.452-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "sgsgckp0pk1j",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting subset of meeting SDK developers unable to authenticate.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "nqdln2k9yt9z",
+            "created_at": "2026-03-04T08:41:32.542-08:00",
+            "updated_at": "2026-03-04T08:41:32.542-08:00",
+            "display_at": "2026-03-04T08:41:32.542-08:00",
+            "affected_components": [
+              {
+                "code": "rmphw6f34qk9",
+                "name": "Zoom Developer Platform - Marketplace",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "rmphw6f34qk9",
+            "name": "Marketplace",
+            "status": "degraded_performance",
+            "created_at": "2020-04-06T15:25:48.555-07:00",
+            "updated_at": "2026-03-04T08:41:32.492-08:00",
+            "position": 3,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "dhtlfcvrh3qh",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "k0nprtftcfwn",
@@ -6226,9 +6280,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-03-04T15:53:51Z"
+    "updated": "2026-03-04T16:56:34Z"
   }
 }
