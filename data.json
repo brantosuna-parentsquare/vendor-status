@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-06T14:23:10Z"
+    "updated": "2026-03-06T15:05:59Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Activity badge display issue",
-    "updated": "2026-03-06T14:23:10Z"
+    "updated": "2026-03-06T15:05:59Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-06T14:23:09Z"
+    "updated": "2026-03-06T15:05:58Z"
   },
   "asana": {
     "page": {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-06T14:23:09Z"
+    "updated": "2026-03-06T15:05:58Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-06T06:14:16.662-08:00"
+      "updated_at": "2026-03-06T06:25:50.110-08:00"
     },
     "components": [
       {
@@ -5871,261 +5871,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "y5vsnvf1wj19",
-        "name": "Issue where Zoom Rooms are not able to join Microsoft Teams Meetings.",
-        "status": "monitoring",
-        "created_at": "2026-03-05T12:43:43.346-08:00",
-        "updated_at": "2026-03-06T06:14:16.659-08:00",
-        "monitoring_at": "2026-03-06T06:14:16.641-08:00",
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/vry57dc1dh7l",
-        "started_at": "2026-03-05T12:43:43.338-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "2rjvp5y7pqw6",
-            "status": "monitoring",
-            "body": "An issue where Zoom Rooms users are not able to join Microsoft Teams Meetings has been successfully resolved by our vendor.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-06T06:14:16.641-08:00",
-            "updated_at": "2026-03-06T06:14:16.641-08:00",
-            "display_at": "2026-03-06T06:14:16.641-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "rmfx944fcrrl",
-            "status": "identified",
-            "body": "Our vendor is actively working on a resolution, and we will keep you informed with the timely updates as progress is made. Thank you for your patience.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-06T03:02:29.218-08:00",
-            "updated_at": "2026-03-06T03:02:29.218-08:00",
-            "display_at": "2026-03-06T03:02:29.218-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "f09tp9cb474l",
-            "status": "identified",
-            "body": "Our vendor is actively working on a resolution, and we will keep you informed with the timely updates as progress is made. Thank you for your patience.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T23:53:13.583-08:00",
-            "updated_at": "2026-03-05T23:53:13.583-08:00",
-            "display_at": "2026-03-05T23:53:13.583-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "03yq2y0l20l1",
-            "status": "identified",
-            "body": "Our vendor is actively working on a resolution, and we will keep you informed with the timely updates as progress is made. Thank you for your patience.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T21:48:06.196-08:00",
-            "updated_at": "2026-03-05T21:48:06.196-08:00",
-            "display_at": "2026-03-05T21:48:06.196-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "njfgc544ryxc",
-            "status": "identified",
-            "body": "Our vendor is actively working on a resolution, and we will keep you informed with the timely updates as progress is made. Thank you for your patience.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T19:49:53.636-08:00",
-            "updated_at": "2026-03-05T19:49:53.636-08:00",
-            "display_at": "2026-03-05T19:49:53.636-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "4cytyck5xh91",
-            "status": "identified",
-            "body": "We are continuing to work on a fix for this issue and will provide updates as soon as there is more information to share.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T17:48:20.726-08:00",
-            "updated_at": "2026-03-05T17:48:20.726-08:00",
-            "display_at": "2026-03-05T17:48:20.726-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "7d0zcmjjcdnp",
-            "status": "identified",
-            "body": "We are continuing to work on a fix for this issue and will provide updates as soon as there is more information to share.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T16:45:11.859-08:00",
-            "updated_at": "2026-03-05T16:45:11.859-08:00",
-            "display_at": "2026-03-05T16:45:11.859-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "9kx2j2xtfxf0",
-            "status": "identified",
-            "body": "We are continuing to work on a fix for this issue and will provide updates as soon as there is more information to share.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T15:43:52.344-08:00",
-            "updated_at": "2026-03-05T15:43:52.344-08:00",
-            "display_at": "2026-03-05T15:43:52.344-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "9rqr0ck162yn",
-            "status": "identified",
-            "body": "We are continuing to work on a fix for this issue and will provide updates as soon as there is more information to share.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T14:43:05.300-08:00",
-            "updated_at": "2026-03-05T14:43:05.300-08:00",
-            "display_at": "2026-03-05T14:43:05.300-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "s72kpjny8zmh",
-            "status": "identified",
-            "body": "We have successfully identified the root cause where Zoom Rooms are not able to join Microsoft Teams Meetings.\n \nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T13:30:08.423-08:00",
-            "updated_at": "2026-03-05T13:30:08.423-08:00",
-            "display_at": "2026-03-05T13:30:08.423-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "gycpzrjtdvxs",
-            "status": "investigating",
-            "body": "We are currently investigating an issue where Zoom Rooms are not able to join Microsoft Teams Meetings\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "y5vsnvf1wj19",
-            "created_at": "2026-03-05T12:43:43.436-08:00",
-            "updated_at": "2026-03-05T12:43:43.436-08:00",
-            "display_at": "2026-03-05T12:43:43.436-08:00",
-            "affected_components": [
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "xtgr15yv6hbn",
-            "name": "Zoom Rooms",
-            "status": "operational",
-            "created_at": "2021-05-18T07:12:19.400-07:00",
-            "updated_at": "2026-03-06T06:14:16.593-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2021-05-18",
-            "group_id": "xxngg08dxtpq",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "4k3sw6tmq5j5",
@@ -6544,6 +6290,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-06T14:23:09Z"
+    "updated": "2026-03-06T15:05:58Z"
   }
 }
