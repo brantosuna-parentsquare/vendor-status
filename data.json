@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-06T13:35:50Z"
+    "updated": "2026-03-06T14:23:10Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Activity badge display issue",
-    "updated": "2026-03-06T13:35:50Z"
+    "updated": "2026-03-06T14:23:10Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-06T13:35:48Z"
+    "updated": "2026-03-06T14:23:09Z"
   },
   "asana": {
     "page": {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-06T13:35:48Z"
+    "updated": "2026-03-06T14:23:09Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-06T05:20:22.237-08:00"
+      "updated_at": "2026-03-06T06:14:16.662-08:00"
     },
     "components": [
       {
@@ -1321,9 +1321,9 @@
       {
         "id": "xtgr15yv6hbn",
         "name": "Zoom Rooms",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2021-05-18T07:12:19.400-07:00",
-        "updated_at": "2026-03-05T15:43:52.299-08:00",
+        "updated_at": "2026-03-06T06:14:16.593-08:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -5520,7 +5520,7 @@
       {
         "id": "xxngg08dxtpq",
         "name": "Zoom Rooms",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T11:03:01.142-07:00",
         "updated_at": "2024-08-14T13:40:39.102-07:00",
         "position": 27,
@@ -5875,16 +5875,36 @@
       {
         "id": "y5vsnvf1wj19",
         "name": "Issue where Zoom Rooms are not able to join Microsoft Teams Meetings.",
-        "status": "identified",
+        "status": "monitoring",
         "created_at": "2026-03-05T12:43:43.346-08:00",
-        "updated_at": "2026-03-06T03:02:29.222-08:00",
-        "monitoring_at": null,
+        "updated_at": "2026-03-06T06:14:16.659-08:00",
+        "monitoring_at": "2026-03-06T06:14:16.641-08:00",
         "resolved_at": null,
         "impact": "minor",
         "shortlink": "https://stspg.io/vry57dc1dh7l",
         "started_at": "2026-03-05T12:43:43.338-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "2rjvp5y7pqw6",
+            "status": "monitoring",
+            "body": "An issue where Zoom Rooms users are not able to join Microsoft Teams Meetings has been successfully resolved by our vendor.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "y5vsnvf1wj19",
+            "created_at": "2026-03-06T06:14:16.641-08:00",
+            "updated_at": "2026-03-06T06:14:16.641-08:00",
+            "display_at": "2026-03-06T06:14:16.641-08:00",
+            "affected_components": [
+              {
+                "code": "xtgr15yv6hbn",
+                "name": "Zoom Rooms - Zoom Rooms",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "rmfx944fcrrl",
             "status": "identified",
@@ -6090,9 +6110,9 @@
           {
             "id": "xtgr15yv6hbn",
             "name": "Zoom Rooms",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2021-05-18T07:12:19.400-07:00",
-            "updated_at": "2026-03-05T15:43:52.299-08:00",
+            "updated_at": "2026-03-06T06:14:16.593-08:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -6521,9 +6541,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "maintenance",
+      "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-06T13:35:48Z"
+    "updated": "2026-03-06T14:23:09Z"
   }
 }
