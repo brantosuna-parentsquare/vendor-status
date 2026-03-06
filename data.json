@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-06T03:32:41Z"
+    "updated": "2026-03-06T05:01:03Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Activity badge display issue",
-    "updated": "2026-03-06T03:32:41Z"
+    "updated": "2026-03-06T05:01:03Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-06T03:32:40Z"
+    "updated": "2026-03-06T05:01:01Z"
   },
   "asana": {
     "page": {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-06T03:32:40Z"
+    "updated": "2026-03-06T05:01:01Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-05T18:03:34.012-08:00"
+      "updated_at": "2026-03-05T19:49:53.651-08:00"
     },
     "components": [
       {
@@ -5877,7 +5877,7 @@
         "name": "Issue where Zoom Rooms are not able to join Microsoft Teams Meetings.",
         "status": "identified",
         "created_at": "2026-03-05T12:43:43.346-08:00",
-        "updated_at": "2026-03-05T17:48:20.729-08:00",
+        "updated_at": "2026-03-05T19:49:53.640-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -5885,6 +5885,26 @@
         "started_at": "2026-03-05T12:43:43.338-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "njfgc544ryxc",
+            "status": "identified",
+            "body": "Our vendor is actively working on a resolution, and we will keep you informed with the timely updates as progress is made. Thank you for your patience.",
+            "incident_id": "y5vsnvf1wj19",
+            "created_at": "2026-03-05T19:49:53.636-08:00",
+            "updated_at": "2026-03-05T19:49:53.636-08:00",
+            "display_at": "2026-03-05T19:49:53.636-08:00",
+            "affected_components": [
+              {
+                "code": "xtgr15yv6hbn",
+                "name": "Zoom Rooms - Zoom Rooms",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "4cytyck5xh91",
             "status": "identified",
@@ -6411,6 +6431,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-03-06T03:32:40Z"
+    "updated": "2026-03-06T05:01:01Z"
   }
 }
