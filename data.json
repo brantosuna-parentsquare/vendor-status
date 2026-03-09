@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-09T06:07:26Z"
+    "updated": "2026-03-09T07:17:28Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Activity badge display issue",
-    "updated": "2026-03-09T06:07:26Z"
+    "updated": "2026-03-09T07:17:28Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-09T06:07:25Z"
+    "updated": "2026-03-09T07:17:26Z"
   },
   "asana": {
     "page": {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-09T06:07:25Z"
+    "updated": "2026-03-09T07:17:26Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-08T23:01:38.331-07:00"
+      "updated_at": "2026-03-08T23:20:21.900-07:00"
     },
     "components": [
       {
@@ -5871,82 +5871,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "cg4n4yntq01v",
-        "name": "A subset of users experienced issues with inbound and outbound PSTN one way audio calls in Japan region.",
-        "status": "monitoring",
-        "created_at": "2026-03-08T23:01:38.230-07:00",
-        "updated_at": "2026-03-08T23:01:38.328-07:00",
-        "monitoring_at": "2026-03-08T23:01:38.313-07:00",
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/97z785bxnmdx",
-        "started_at": "2026-03-08T23:01:38.217-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "qlylc4n76qvg",
-            "status": "monitoring",
-            "body": "On 03/09/2026, Between 01:07 UTC - 01:49 UTC, A subset of users experienced issues with inbound and outbound PSTN one way audio calls in Japan region. Our vendor has resolved the issue and the affected services have been restored.",
-            "incident_id": "cg4n4yntq01v",
-            "created_at": "2026-03-08T23:01:38.313-07:00",
-            "updated_at": "2026-03-08T23:01:38.313-07:00",
-            "display_at": "2026-03-08T23:01:38.313-07:00",
-            "affected_components": [
-              {
-                "code": "cwwgf6dmdjhx",
-                "name": "Zoom Phone - JAPAN - Calling (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "lcx8djg55vzf",
-                "name": "Zoom CX - JAPAN - Voice (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "cwwgf6dmdjhx",
-            "name": "Calling (Inbound/Outbound)",
-            "status": "operational",
-            "created_at": "2022-05-03T10:50:47.986-07:00",
-            "updated_at": "2026-01-26T19:41:51.016-08:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "r6hzm1tntmq3",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "lcx8djg55vzf",
-            "name": "Voice (Inbound/Outbound)",
-            "status": "operational",
-            "created_at": "2023-03-22T11:24:11.187-07:00",
-            "updated_at": "2026-02-02T17:38:25.335-08:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-22",
-            "group_id": "6bnh7ghy65qr",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "4k3sw6tmq5j5",
@@ -6493,6 +6418,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-09T06:07:25Z"
+    "updated": "2026-03-09T07:17:26Z"
   }
 }
