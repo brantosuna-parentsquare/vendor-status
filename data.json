@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-09T19:09:04Z"
+    "updated": "2026-03-09T19:52:54Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Activity badge display issue",
-    "updated": "2026-03-09T19:09:04Z"
+    "updated": "2026-03-09T19:52:54Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-09T19:09:02Z"
+    "updated": "2026-03-09T19:52:53Z"
   },
   "asana": {
     "page": {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-09T19:09:02Z"
+    "updated": "2026-03-09T19:52:53Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-09T11:18:32.812-07:00"
+      "updated_at": "2026-03-09T12:37:01.903-07:00"
     },
     "components": [
       {
@@ -6081,7 +6081,7 @@
         "name": "Update the client Prompted version for Zoom Commercial (March 19, 2026)",
         "status": "scheduled",
         "created_at": "2026-03-06T14:24:56.048-08:00",
-        "updated_at": "2026-03-06T14:24:56.120-08:00",
+        "updated_at": "2026-03-09T12:37:01.893-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -6092,10 +6092,10 @@
           {
             "id": "mxsmqgmhql6r",
             "status": "scheduled",
-            "body": "Zoom will be updating the Prompt version for Zoom clients on March 19, 2026:\n\nWindows: 6.7.5\n\nmacOS: 6.7.7\n\nLinux: 6.7.5\n\nAndroid: 6.7.5\n\nAndroid (Intune): 6.7.5\n\nWindows (VDI): 6.4.17\n\nFor more information, such as specific versions, please refer to the Zoom Minimum, Prompted, and Slow/Fast Update Versions support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061900",
+            "body": "Zoom will be updating the Prompt version for Zoom clients on March 19, 2026:\n\nWindows: 6.7.5\n\nmacOS: 6.7.7\n\nLinux: 6.7.5\n\nAndroid: 6.7.5\n\nAndroid (Intune): 6.7.5\n\nWindows (VDI): 6.5.15\n\nFor more information, such as specific versions, please refer to the Zoom Minimum, Prompted, and Slow/Fast Update Versions support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061900",
             "incident_id": "cc5d6qkdyyc9",
             "created_at": "2026-03-06T14:24:56.116-08:00",
-            "updated_at": "2026-03-06T14:24:56.116-08:00",
+            "updated_at": "2026-03-09T12:37:01.888-07:00",
             "display_at": "2026-03-06T14:24:56.116-08:00",
             "affected_components": [
               {
@@ -6472,6 +6472,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-09T19:09:02Z"
+    "updated": "2026-03-09T19:52:53Z"
   }
 }
