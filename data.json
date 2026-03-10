@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-10T10:54:58Z"
+    "updated": "2026-03-10T11:40:00Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Activity badge display issue",
-    "updated": "2026-03-10T10:54:58Z"
+    "updated": "2026-03-10T11:40:00Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-10T02:38:37.502-04:00"
+      "updated_at": "2026-03-10T07:38:29.415-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-10T10:54:56Z"
+    "updated": "2026-03-10T11:39:13Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-10T06:38:40.874Z"
+      "updated_at": "2026-03-10T11:38:32.760Z"
     },
     "components": [
       {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-10T10:54:56Z"
+    "updated": "2026-03-10T11:39:13Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-09T23:38:40.592-07:00"
+      "updated_at": "2026-03-10T04:38:32.591-07:00"
     },
     "components": [
       {
@@ -6532,6 +6532,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-10T10:54:56Z"
+    "updated": "2026-03-10T11:39:13Z"
   }
 }
