@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-12T21:41:09Z"
+    "updated": "2026-03-12T22:11:48Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unread badge stuck in Activity view",
-    "updated": "2026-03-12T21:41:09Z"
+    "updated": "2026-03-12T22:11:48Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-12T21:41:08Z"
+    "updated": "2026-03-12T22:11:47Z"
   },
   "asana": {
     "page": {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-12T21:41:08Z"
+    "updated": "2026-03-12T22:11:47Z"
   },
   "zoom": {
     "page": {
@@ -6796,6 +6796,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-12T21:41:08Z"
+    "updated": "2026-03-12T22:11:47Z"
   }
 }
