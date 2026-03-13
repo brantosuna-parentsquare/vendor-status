@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-13T18:23:05Z"
+    "updated": "2026-03-13T19:09:50Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unread badge stuck in Activity view",
-    "updated": "2026-03-13T18:23:05Z"
+    "updated": "2026-03-13T19:09:50Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-13T18:23:03Z"
+    "updated": "2026-03-13T19:09:48Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-13T17:43:40.513Z"
+      "updated_at": "2026-03-13T18:44:42.557Z"
     },
     "components": [
       {
@@ -287,9 +287,9 @@
       {
         "id": "vzp40jhw9t4k",
         "name": "App",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2026-01-20T18:59:32.511Z",
-        "updated_at": "2026-03-02T09:05:21.507Z",
+        "updated_at": "2026-03-13T18:44:34.856Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -385,9 +385,9 @@
       {
         "id": "km6jrkp0m2vk",
         "name": "API",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-03-02T09:05:21.526Z",
+        "updated_at": "2026-03-13T18:44:34.874Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -483,9 +483,9 @@
       {
         "id": "mr04m1rysj65",
         "name": "Mobile",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2026-01-20T19:02:01.991Z",
-        "updated_at": "2026-03-02T09:05:21.543Z",
+        "updated_at": "2026-03-13T18:44:34.890Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -581,9 +581,9 @@
       {
         "id": "pgl7q570g5np",
         "name": "Automations and Background Actions",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2026-01-20T19:02:29.583Z",
-        "updated_at": "2026-03-02T09:05:21.559Z",
+        "updated_at": "2026-03-13T18:44:34.905Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -656,7 +656,7 @@
       {
         "id": "m172ltsc49p0",
         "name": "Middle East",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2026-01-20T18:59:32.456Z",
         "updated_at": "2026-01-20T18:59:32.456Z",
         "position": 5,
@@ -679,9 +679,9 @@
       {
         "id": "wclgzqxnt8qd",
         "name": "Webhooks and Event Streams",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2026-01-20T19:03:00.779Z",
-        "updated_at": "2026-03-02T09:05:21.576Z",
+        "updated_at": "2026-03-13T18:44:34.921Z",
         "position": 5,
         "description": null,
         "showcase": true,
@@ -754,9 +754,9 @@
       {
         "id": "1wc2v8r6wnhc",
         "name": "Notifications",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2026-01-20T19:03:20.610Z",
-        "updated_at": "2026-03-02T09:05:21.592Z",
+        "updated_at": "2026-03-13T18:44:34.937Z",
         "position": 6,
         "description": null,
         "showcase": true,
@@ -771,16 +771,66 @@
       {
         "id": "frypwj8vz6h6",
         "name": "AWS UAE issues might affect the ME region",
-        "status": "investigating",
+        "status": "monitoring",
         "created_at": "2026-03-01T20:31:19.389Z",
-        "updated_at": "2026-03-02T12:03:40.101Z",
-        "monitoring_at": null,
+        "updated_at": "2026-03-13T18:44:42.553Z",
+        "monitoring_at": "2026-03-13T18:44:34.969Z",
         "resolved_at": null,
-        "impact": "major",
+        "impact": "none",
         "shortlink": "https://stspg.io/7j5m5fmps74c",
         "started_at": "2026-03-01T20:31:19.368Z",
         "page_id": "w58858w0sjxx",
         "incident_updates": [
+          {
+            "id": "v5mqyjhscwqb",
+            "status": "monitoring",
+            "body": "A small number of users were affected by the AWS outage in UAE (me-central-1); following AWS's recommendations, we have moved processing to other regions, and believe there is no user impact.",
+            "incident_id": "frypwj8vz6h6",
+            "created_at": "2026-03-13T18:44:34.969Z",
+            "updated_at": "2026-03-13T18:44:34.969Z",
+            "display_at": "2026-03-13T18:44:34.969Z",
+            "affected_components": [
+              {
+                "code": "vzp40jhw9t4k",
+                "name": "Middle East - App",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "km6jrkp0m2vk",
+                "name": "Middle East - API",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "mr04m1rysj65",
+                "name": "Middle East - Mobile",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "pgl7q570g5np",
+                "name": "Middle East - Automations and Background Actions",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "wclgzqxnt8qd",
+                "name": "Middle East - Webhooks and Event Streams",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "1wc2v8r6wnhc",
+                "name": "Middle East - Notifications",
+                "old_status": "major_outage",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "hwyy4n0x2h78",
             "status": "investigating",
@@ -1136,9 +1186,9 @@
           {
             "id": "vzp40jhw9t4k",
             "name": "App",
-            "status": "major_outage",
+            "status": "operational",
             "created_at": "2026-01-20T18:59:32.511Z",
-            "updated_at": "2026-03-02T09:05:21.507Z",
+            "updated_at": "2026-03-13T18:44:34.856Z",
             "position": 1,
             "description": null,
             "showcase": true,
@@ -1151,9 +1201,9 @@
           {
             "id": "km6jrkp0m2vk",
             "name": "API",
-            "status": "major_outage",
+            "status": "operational",
             "created_at": "2026-01-20T19:00:18.706Z",
-            "updated_at": "2026-03-02T09:05:21.526Z",
+            "updated_at": "2026-03-13T18:44:34.874Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1166,9 +1216,9 @@
           {
             "id": "mr04m1rysj65",
             "name": "Mobile",
-            "status": "major_outage",
+            "status": "operational",
             "created_at": "2026-01-20T19:02:01.991Z",
-            "updated_at": "2026-03-02T09:05:21.543Z",
+            "updated_at": "2026-03-13T18:44:34.890Z",
             "position": 3,
             "description": null,
             "showcase": true,
@@ -1181,9 +1231,9 @@
           {
             "id": "pgl7q570g5np",
             "name": "Automations and Background Actions",
-            "status": "major_outage",
+            "status": "operational",
             "created_at": "2026-01-20T19:02:29.583Z",
-            "updated_at": "2026-03-02T09:05:21.559Z",
+            "updated_at": "2026-03-13T18:44:34.905Z",
             "position": 4,
             "description": null,
             "showcase": true,
@@ -1196,9 +1246,9 @@
           {
             "id": "wclgzqxnt8qd",
             "name": "Webhooks and Event Streams",
-            "status": "major_outage",
+            "status": "operational",
             "created_at": "2026-01-20T19:03:00.779Z",
-            "updated_at": "2026-03-02T09:05:21.576Z",
+            "updated_at": "2026-03-13T18:44:34.921Z",
             "position": 5,
             "description": null,
             "showcase": true,
@@ -1211,9 +1261,9 @@
           {
             "id": "1wc2v8r6wnhc",
             "name": "Notifications",
-            "status": "major_outage",
+            "status": "operational",
             "created_at": "2026-01-20T19:03:20.610Z",
-            "updated_at": "2026-03-02T09:05:21.592Z",
+            "updated_at": "2026-03-13T18:44:34.937Z",
             "position": 6,
             "description": null,
             "showcase": true,
@@ -1229,10 +1279,10 @@
     ],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "major",
-      "description": "Partial System Outage"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-03-13T18:23:03Z"
+    "updated": "2026-03-13T19:09:48Z"
   },
   "zoom": {
     "page": {
@@ -6764,6 +6814,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-13T18:23:03Z"
+    "updated": "2026-03-13T19:09:48Z"
   }
 }
