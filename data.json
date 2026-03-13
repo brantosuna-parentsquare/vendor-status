@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-13T16:53:06Z"
+    "updated": "2026-03-13T17:41:44Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unread badge stuck in Activity view",
-    "updated": "2026-03-13T16:53:06Z"
+    "updated": "2026-03-13T17:41:44Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-13T16:53:05Z"
+    "updated": "2026-03-13T17:41:42Z"
   },
   "asana": {
     "page": {
@@ -1232,7 +1232,7 @@
       "indicator": "major",
       "description": "Partial System Outage"
     },
-    "updated": "2026-03-13T16:53:05Z"
+    "updated": "2026-03-13T17:41:42Z"
   },
   "zoom": {
     "page": {
@@ -1240,7 +1240,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-13T09:00:07.277-07:00"
+      "updated_at": "2026-03-13T10:41:21.081-07:00"
     },
     "components": [
       {
@@ -1638,7 +1638,7 @@
         "name": "Voice Agent",
         "status": "operational",
         "created_at": "2026-01-08T10:57:40.765-08:00",
-        "updated_at": "2026-02-03T17:39:50.366-08:00",
+        "updated_at": "2026-03-13T10:32:22.761-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -2128,7 +2128,7 @@
         "name": "Chat Agent",
         "status": "operational",
         "created_at": "2026-01-08T11:04:06.256-08:00",
-        "updated_at": "2026-02-03T17:39:50.386-08:00",
+        "updated_at": "2026-03-13T10:32:22.784-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -2518,7 +2518,7 @@
         "name": "Zoom Clips",
         "status": "operational",
         "created_at": "2023-11-12T17:48:13.796-08:00",
-        "updated_at": "2026-01-16T19:20:07.631-08:00",
+        "updated_at": "2026-03-13T10:32:22.802-07:00",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -2698,7 +2698,7 @@
         "name": "File Transfers: File, Video, Pictures, Voice",
         "status": "operational",
         "created_at": "2022-05-03T11:01:15.868-07:00",
-        "updated_at": "2026-02-27T08:04:35.793-08:00",
+        "updated_at": "2026-03-13T10:32:22.824-07:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -5014,7 +5014,7 @@
         "name": "Recording",
         "status": "operational",
         "created_at": "2020-03-17T15:29:33.741-07:00",
-        "updated_at": "2026-03-01T22:00:07.323-08:00",
+        "updated_at": "2026-03-13T10:32:22.846-07:00",
         "position": 15,
         "description": null,
         "showcase": false,
@@ -6277,7 +6277,7 @@
             "name": "Recording",
             "status": "operational",
             "created_at": "2020-03-17T15:29:33.741-07:00",
-            "updated_at": "2026-03-01T22:00:07.323-08:00",
+            "updated_at": "2026-03-13T10:32:22.846-07:00",
             "position": 15,
             "description": null,
             "showcase": false,
@@ -6764,6 +6764,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-13T16:53:05Z"
+    "updated": "2026-03-13T17:41:42Z"
   }
 }
