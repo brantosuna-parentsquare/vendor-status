@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-14T07:02:17Z"
+    "updated": "2026-03-14T07:49:17Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unread badge stuck in Activity view",
-    "updated": "2026-03-14T07:02:17Z"
+    "updated": "2026-03-14T07:49:17Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-13T21:48:31.239-04:00"
+      "updated_at": "2026-03-14T03:08:35.336-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-14T07:02:16Z"
+    "updated": "2026-03-14T07:49:16Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-14T01:48:34.060Z"
+      "updated_at": "2026-03-14T07:08:37.929Z"
     },
     "components": [
       {
@@ -1282,7 +1282,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-14T07:02:16Z"
+    "updated": "2026-03-14T07:49:16Z"
   },
   "zoom": {
     "page": {
@@ -1290,7 +1290,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-13T20:00:07.156-07:00"
+      "updated_at": "2026-03-14T00:08:37.580-07:00"
     },
     "components": [
       {
@@ -6739,6 +6739,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-03-14T07:02:16Z"
+    "updated": "2026-03-14T07:49:16Z"
   }
 }
