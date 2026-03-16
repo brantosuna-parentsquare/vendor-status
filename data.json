@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-16T18:41:32Z"
+    "updated": "2026-03-16T19:43:35Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Trouble Loading Slack.com",
-    "updated": "2026-03-16T18:41:32Z"
+    "latest_title": "Incident: Issues Opening the Slack App version 25.09.40 on Android",
+    "updated": "2026-03-16T19:43:35Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-16T18:41:31Z"
+    "updated": "2026-03-16T19:43:33Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-16T18:41:31Z"
+    "updated": "2026-03-16T19:43:33Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-16T11:20:23.153-07:00"
+      "updated_at": "2026-03-16T12:42:48.664-07:00"
     },
     "components": [
       {
@@ -4604,7 +4604,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -5062,9 +5062,9 @@
       {
         "id": "y2j8tr9wxv49",
         "name": "Real Time Media Streams (RTMS)",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-03-16T10:47:27.802-07:00",
-        "updated_at": "2026-03-16T11:03:15.816-07:00",
+        "updated_at": "2026-03-16T12:42:48.598-07:00",
         "position": 26,
         "description": null,
         "showcase": false,
@@ -5447,16 +5447,56 @@
       {
         "id": "r5swflw3b537",
         "name": "Service Degradation Affecting Real Time Media Streams (RTMS)",
-        "status": "identified",
+        "status": "monitoring",
         "created_at": "2026-03-16T10:37:25.096-07:00",
-        "updated_at": "2026-03-16T10:49:49.021-07:00",
-        "monitoring_at": null,
+        "updated_at": "2026-03-16T12:42:48.661-07:00",
+        "monitoring_at": "2026-03-16T12:42:48.643-07:00",
         "resolved_at": null,
         "impact": "minor",
         "shortlink": "https://stspg.io/23nfdwhg9mby",
         "started_at": "2026-03-16T10:37:25.090-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "h7wrffk8myls",
+            "status": "monitoring",
+            "body": "The service degradation affecting Real Time Media Stream has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "r5swflw3b537",
+            "created_at": "2026-03-16T12:42:48.643-07:00",
+            "updated_at": "2026-03-16T12:42:48.643-07:00",
+            "display_at": "2026-03-16T12:42:48.643-07:00",
+            "affected_components": [
+              {
+                "code": "y2j8tr9wxv49",
+                "name": "Zoom Meetings - Real Time Media Streams (RTMS)",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "sdjk69wz9x7m",
+            "status": "identified",
+            "body": "Our team continues to work on a resolution. An update will be provided when more information becomes available. \n\nThank you for your patience.",
+            "incident_id": "r5swflw3b537",
+            "created_at": "2026-03-16T11:48:08.285-07:00",
+            "updated_at": "2026-03-16T11:48:08.285-07:00",
+            "display_at": "2026-03-16T11:48:08.285-07:00",
+            "affected_components": [
+              {
+                "code": "y2j8tr9wxv49",
+                "name": "Zoom Meetings - Real Time Media Streams (RTMS)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "1gfn5rzylrhs",
             "status": "identified",
@@ -5495,9 +5535,9 @@
           {
             "id": "y2j8tr9wxv49",
             "name": "Real Time Media Streams (RTMS)",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2026-03-16T10:47:27.802-07:00",
-            "updated_at": "2026-03-16T11:03:15.816-07:00",
+            "updated_at": "2026-03-16T12:42:48.598-07:00",
             "position": 26,
             "description": null,
             "showcase": false,
@@ -5791,9 +5831,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-03-16T18:41:31Z"
+    "updated": "2026-03-16T19:43:33Z"
   }
 }
