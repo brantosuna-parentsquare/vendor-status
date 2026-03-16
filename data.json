@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-16T11:32:04Z"
+    "updated": "2026-03-16T12:35:14Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble Loading Slack.com",
-    "updated": "2026-03-16T11:32:04Z"
+    "updated": "2026-03-16T12:35:14Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-16T11:32:02Z"
+    "updated": "2026-03-16T12:35:12Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-16T11:25:22.282Z"
+      "updated_at": "2026-03-16T11:55:24.443Z"
     },
     "components": [
       {
@@ -317,7 +317,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -611,9 +611,9 @@
       {
         "id": "xk6m3fzxd961",
         "name": "Webhooks and Event Streams",
-        "status": "major_outage",
+        "status": "operational",
         "created_at": "2023-02-09T18:05:05.907Z",
-        "updated_at": "2026-03-16T11:25:19.000Z",
+        "updated_at": "2026-03-16T11:55:20.000Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -770,10 +770,10 @@
     "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "major",
-      "description": "Partial System Outage"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-03-16T11:32:02Z"
+    "updated": "2026-03-16T12:35:12Z"
   },
   "zoom": {
     "page": {
@@ -5711,6 +5711,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-16T11:32:02Z"
+    "updated": "2026-03-16T12:35:12Z"
   }
 }
