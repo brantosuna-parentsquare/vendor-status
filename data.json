@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-17T16:16:59Z"
+    "updated": "2026-03-17T17:32:03Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues Opening the Slack App version 25.09.40 on Android",
-    "updated": "2026-03-17T16:16:59Z"
+    "updated": "2026-03-17T17:32:03Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-17T16:16:57Z"
+    "updated": "2026-03-17T17:32:02Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-17T16:16:57Z"
+    "updated": "2026-03-17T17:32:02Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-17T03:38:40.706-07:00"
+      "updated_at": "2026-03-17T10:20:22.604-07:00"
     },
     "components": [
       {
@@ -5521,6 +5521,114 @@
         "scheduled_until": "2026-03-20T18:00:00.000-07:00"
       },
       {
+        "id": "dpjw6y596mhw",
+        "name": "Zoom Virtual Agent Update: March 21, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-03-17T09:58:33.960-07:00",
+        "updated_at": "2026-03-17T09:58:34.019-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/kmhp9hz5prkx",
+        "started_at": "2026-03-17T09:58:33.953-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "w4d7qxvpfq2f",
+            "status": "scheduled",
+            "body": "This update includes implicit resolution metrics for Zoom Virtual Agent analytics.\n\nThere is no operational impact. All services will be available during this scheduled update.\n\nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details.",
+            "incident_id": "dpjw6y596mhw",
+            "created_at": "2026-03-17T09:58:34.017-07:00",
+            "updated_at": "2026-03-17T09:58:34.017-07:00",
+            "display_at": "2026-03-17T09:58:34.017-07:00",
+            "affected_components": [
+              {
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
+            "status": "operational",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-03-20T17:00:00.000-07:00",
+        "scheduled_until": "2026-03-21T02:00:00.000-07:00"
+      },
+      {
+        "id": "6r67vb41bh6g",
+        "name": "Zoom Phone Update: March 22, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-03-17T10:07:41.931-07:00",
+        "updated_at": "2026-03-17T10:07:41.997-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/562snl0wlmyt",
+        "started_at": "2026-03-17T10:07:41.924-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "yv35qqknjzyv",
+            "status": "scheduled",
+            "body": "This update includes voicemail access from phones for Auto Receptionists and Call Queues.\n\nThere is no operational impact. All services will be available during this scheduled update.\n\nFor Japan SIP zones in Tokyo and Osaka, there is a separate maintenance window: 3/22/2026 8:00AM - 10:00AM PDT (03/23/2026 00:00 - 2:00 JST)\n\nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details.",
+            "incident_id": "6r67vb41bh6g",
+            "created_at": "2026-03-17T10:07:41.993-07:00",
+            "updated_at": "2026-03-17T10:07:41.993-07:00",
+            "display_at": "2026-03-17T10:07:41.993-07:00",
+            "affected_components": [
+              {
+                "code": "0842bncf5q9f",
+                "name": "Zoom Phone - Global - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "0842bncf5q9f",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2024-09-30T13:36:13.230-07:00",
+            "updated_at": "2026-02-08T22:00:07.238-08:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-09-30",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-03-21T17:00:00.000-07:00",
+        "scheduled_until": "2026-03-22T02:00:00.000-07:00"
+      },
+      {
         "id": "zyy9hv6cq2b9",
         "name": "Zoom Phone India Maintenance (Mumbai/Hyderabad)",
         "status": "scheduled",
@@ -5633,6 +5741,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-17T16:16:57Z"
+    "updated": "2026-03-17T17:32:02Z"
   }
 }
