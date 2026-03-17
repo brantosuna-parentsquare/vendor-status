@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-17T00:59:21Z"
+    "updated": "2026-03-17T03:42:35Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues Opening the Slack App version 25.09.40 on Android",
-    "updated": "2026-03-17T00:59:21Z"
+    "updated": "2026-03-17T03:42:35Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-16T12:03:41.543-04:00"
+      "updated_at": "2026-03-16T23:13:36.140-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-17T00:59:19Z"
+    "updated": "2026-03-17T03:40:18Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-16T16:03:45.215Z"
+      "updated_at": "2026-03-17T03:13:38.668Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-17T00:59:19Z"
+    "updated": "2026-03-17T03:40:18Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-16T12:56:05.566-07:00"
+      "updated_at": "2026-03-16T20:20:30.887-07:00"
     },
     "components": [
       {
@@ -1222,9 +1222,9 @@
       {
         "id": "4kh81f5m9fbm",
         "name": "Voice Agent",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-01-08T11:01:45.519-08:00",
-        "updated_at": "2026-02-25T11:53:18.360-08:00",
+        "updated_at": "2026-03-16T19:30:28.019-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -1417,7 +1417,7 @@
       {
         "id": "6zvc1tw9rpfm",
         "name": "Zoom Chat",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T11:00:19.960-07:00",
         "updated_at": "2024-05-30T17:14:44.256-07:00",
         "position": 2,
@@ -1712,9 +1712,9 @@
       {
         "id": "kz70pym162vg",
         "name": "Chat Agent",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-01-08T11:06:00.947-08:00",
-        "updated_at": "2026-01-08T11:06:00.947-08:00",
+        "updated_at": "2026-03-16T19:30:28.041-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -3408,9 +3408,9 @@
       {
         "id": "07fc2bfpjgct",
         "name": "Zoom AIC",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-09-06T17:04:19.294-07:00",
-        "updated_at": "2026-01-28T09:37:37.380-08:00",
+        "updated_at": "2026-03-16T19:30:28.060-07:00",
         "position": 7,
         "description": null,
         "showcase": false,
@@ -4604,7 +4604,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -4866,9 +4866,9 @@
       {
         "id": "rsh1v3gbhtsy",
         "name": "Zoom AIC",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-09-06T17:03:37.897-07:00",
-        "updated_at": "2026-03-16T01:00:07.327-07:00",
+        "updated_at": "2026-03-16T19:30:28.082-07:00",
         "position": 21,
         "description": null,
         "showcase": false,
@@ -5354,7 +5354,7 @@
       {
         "id": "v7yfshmrg1rh",
         "name": "Zoom Virtual Agent - NORTH AMERICA",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-01-08T11:01:45.480-08:00",
         "updated_at": "2026-01-08T11:01:45.480-08:00",
         "position": 42,
@@ -5443,35 +5443,52 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
-    "scheduled_maintenances": [
+    "incidents": [
       {
-        "id": "cc5d6qkdyyc9",
-        "name": "Update the client Prompted version for Zoom Commercial (March 19, 2026)",
-        "status": "scheduled",
-        "created_at": "2026-03-06T14:24:56.048-08:00",
-        "updated_at": "2026-03-09T14:44:47.209-07:00",
+        "id": "5x7r36y6ty1g",
+        "name": "Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region.",
+        "status": "investigating",
+        "created_at": "2026-03-16T19:30:27.970-07:00",
+        "updated_at": "2026-03-16T20:14:10.969-07:00",
         "monitoring_at": null,
         "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/fjb70fkgp0gr",
-        "started_at": "2026-03-06T14:24:56.116-08:00",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/08xd342xn4j3",
+        "started_at": "2026-03-16T19:30:27.953-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "sl5kg449yqlh",
-            "status": "scheduled",
-            "body": "We will be undergoing scheduled maintenance during this time.",
-            "incident_id": "cc5d6qkdyyc9",
-            "created_at": "2026-03-09T14:44:47.205-07:00",
-            "updated_at": "2026-03-09T14:44:47.205-07:00",
-            "display_at": "2026-03-09T14:44:47.205-07:00",
+            "id": "11fsbfvyyty7",
+            "status": "investigating",
+            "body": "We are continuing to investigate this issue and will provide updates as soon as there is more information to share.",
+            "incident_id": "5x7r36y6ty1g",
+            "created_at": "2026-03-16T20:14:10.966-07:00",
+            "updated_at": "2026-03-16T20:14:10.966-07:00",
+            "display_at": "2026-03-16T20:14:10.966-07:00",
             "affected_components": [
               {
-                "code": "9skbqhkvk721",
-                "name": "Zoom Website - Download Center & Clients",
-                "old_status": "operational",
-                "new_status": "operational"
+                "code": "rsh1v3gbhtsy",
+                "name": "Zoom Meetings - Zoom AIC",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "07fc2bfpjgct",
+                "name": "Zoom Chat - Zoom AIC",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "4kh81f5m9fbm",
+                "name": "Zoom Virtual Agent - NORTH AMERICA - Voice Agent",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "kz70pym162vg",
+                "name": "Zoom Virtual Agent - NORTH AMERICA - Chat Agent",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
               }
             ],
             "deliver_notifications": true,
@@ -5479,39 +5496,37 @@
             "tweet_id": null
           },
           {
-            "id": "wh2cq0bww417",
-            "status": "scheduled",
-            "body": "We will be undergoing scheduled maintenance during this time.",
-            "incident_id": "cc5d6qkdyyc9",
-            "created_at": "2026-03-09T14:44:04.038-07:00",
-            "updated_at": "2026-03-09T14:44:04.038-07:00",
-            "display_at": "2026-03-09T14:44:04.038-07:00",
+            "id": "1gfq3x21b5bg",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting Zoom AIC and Zoom Virtual Agent in US region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "5x7r36y6ty1g",
+            "created_at": "2026-03-16T19:30:28.142-07:00",
+            "updated_at": "2026-03-16T19:30:28.142-07:00",
+            "display_at": "2026-03-16T19:30:28.142-07:00",
             "affected_components": [
               {
-                "code": "9skbqhkvk721",
-                "name": "Zoom Website - Download Center & Clients",
+                "code": "rsh1v3gbhtsy",
+                "name": "Zoom Meetings - Zoom AIC",
                 "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "mxsmqgmhql6r",
-            "status": "scheduled",
-            "body": "Zoom will be updating the Prompt version for Zoom clients on March 19, 2026:\n\nWindows: 6.7.8\n\nmacOS: 6.7.7\n\nLinux: 6.7.5\n\nAndroid: 6.7.5\n\nAndroid (Intune): 6.7.5\n\nWindows (VDI): 6.5.15\n\nFor more information, such as specific versions, please refer to the Zoom Minimum, Prompted, and Slow/Fast Update Versions support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061900",
-            "incident_id": "cc5d6qkdyyc9",
-            "created_at": "2026-03-06T14:24:56.116-08:00",
-            "updated_at": "2026-03-09T14:44:35.827-07:00",
-            "display_at": "2026-03-06T14:24:56.116-08:00",
-            "affected_components": [
+                "new_status": "degraded_performance"
+              },
               {
-                "code": "9skbqhkvk721",
-                "name": "Zoom Website - Download Center & Clients",
+                "code": "07fc2bfpjgct",
+                "name": "Zoom Chat - Zoom AIC",
                 "old_status": "operational",
-                "new_status": "operational"
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "4kh81f5m9fbm",
+                "name": "Zoom Virtual Agent - NORTH AMERICA - Voice Agent",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "kz70pym162vg",
+                "name": "Zoom Virtual Agent - NORTH AMERICA - Chat Agent",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
               }
             ],
             "deliver_notifications": true,
@@ -5521,24 +5536,70 @@
         ],
         "components": [
           {
-            "id": "9skbqhkvk721",
-            "name": "Download Center & Clients",
-            "status": "operational",
-            "created_at": "2018-05-17T11:29:26.349-07:00",
-            "updated_at": "2026-03-15T23:30:07.126-07:00",
+            "id": "4kh81f5m9fbm",
+            "name": "Voice Agent",
+            "status": "degraded_performance",
+            "created_at": "2026-01-08T11:01:45.519-08:00",
+            "updated_at": "2026-03-16T19:30:28.019-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-01-08",
+            "group_id": "v7yfshmrg1rh",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "kz70pym162vg",
+            "name": "Chat Agent",
+            "status": "degraded_performance",
+            "created_at": "2026-01-08T11:06:00.947-08:00",
+            "updated_at": "2026-03-16T19:30:28.041-07:00",
             "position": 2,
             "description": null,
             "showcase": false,
-            "start_date": null,
-            "group_id": "1ndlrnp6r9js",
+            "start_date": "2026-01-08",
+            "group_id": "v7yfshmrg1rh",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "07fc2bfpjgct",
+            "name": "Zoom AIC",
+            "status": "degraded_performance",
+            "created_at": "2023-09-06T17:04:19.294-07:00",
+            "updated_at": "2026-03-16T19:30:28.060-07:00",
+            "position": 7,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-09-06",
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "rsh1v3gbhtsy",
+            "name": "Zoom AIC",
+            "status": "degraded_performance",
+            "created_at": "2023-09-06T17:03:37.897-07:00",
+            "updated_at": "2026-03-16T19:30:28.082-07:00",
+            "position": 21,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-09-06",
+            "group_id": "6np407v7v25g",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-03-19T00:00:00.000-07:00",
-        "scheduled_until": "2026-03-19T23:30:00.000-07:00"
-      },
+        "reminder_intervals": null
+      }
+    ],
+    "scheduled_maintenances": [
       {
         "id": "gc74xnwxg52c",
         "name": "Zoom Support EU Maintenance.",
@@ -5724,9 +5785,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-03-17T00:59:19Z"
+    "updated": "2026-03-17T03:40:18Z"
   }
 }
