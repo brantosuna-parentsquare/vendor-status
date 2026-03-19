@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-19T19:58:12Z"
+    "updated": "2026-03-19T20:50:44Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Clicking Edit in profile causes a grey screen and the menu fails to load.",
-    "updated": "2026-03-19T19:58:12Z"
+    "updated": "2026-03-19T20:50:44Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-19T15:42:34.720-04:00"
+      "updated_at": "2026-03-19T16:20:29.280-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-19T19:55:55Z"
+    "updated": "2026-03-19T20:50:43Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-19T19:55:55Z"
+    "updated": "2026-03-19T20:50:43Z"
   },
   "zoom": {
     "page": {
@@ -5903,6 +5903,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-19T19:55:55Z"
+    "updated": "2026-03-19T20:50:43Z"
   }
 }
