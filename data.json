@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-19T17:13:10Z"
+    "updated": "2026-03-19T18:06:22Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Clicking Edit in profile causes a grey screen and the menu fails to load.",
-    "updated": "2026-03-19T17:13:10Z"
+    "updated": "2026-03-19T18:06:22Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-19T11:38:34.009-04:00"
+      "updated_at": "2026-03-19T13:23:38.477-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-19T17:13:08Z"
+    "updated": "2026-03-19T18:06:20Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-19T15:38:37.598Z"
+      "updated_at": "2026-03-19T17:47:13.235Z"
     },
     "components": [
       {
@@ -289,10 +289,10 @@
         "name": "App",
         "status": "operational",
         "created_at": "2026-01-20T18:59:32.511Z",
-        "updated_at": "2026-03-13T18:44:34.856Z",
+        "updated_at": "2026-03-19T17:46:07.009Z",
         "position": 1,
         "description": null,
-        "showcase": true,
+        "showcase": false,
         "start_date": "2026-01-20",
         "group_id": "m172ltsc49p0",
         "page_id": "w58858w0sjxx",
@@ -387,10 +387,10 @@
         "name": "API",
         "status": "operational",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-03-13T18:44:34.874Z",
+        "updated_at": "2026-03-19T17:46:20.466Z",
         "position": 2,
         "description": null,
-        "showcase": true,
+        "showcase": false,
         "start_date": "2026-01-20",
         "group_id": "m172ltsc49p0",
         "page_id": "w58858w0sjxx",
@@ -485,10 +485,10 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2026-01-20T19:02:01.991Z",
-        "updated_at": "2026-03-13T18:44:34.890Z",
+        "updated_at": "2026-03-19T17:46:34.568Z",
         "position": 3,
         "description": null,
-        "showcase": true,
+        "showcase": false,
         "start_date": "2026-01-20",
         "group_id": "m172ltsc49p0",
         "page_id": "w58858w0sjxx",
@@ -583,10 +583,10 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2026-01-20T19:02:29.583Z",
-        "updated_at": "2026-03-13T18:44:34.905Z",
+        "updated_at": "2026-03-19T17:46:48.235Z",
         "position": 4,
         "description": null,
-        "showcase": true,
+        "showcase": false,
         "start_date": "2026-01-20",
         "group_id": "m172ltsc49p0",
         "page_id": "w58858w0sjxx",
@@ -681,10 +681,10 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2026-01-20T19:03:00.779Z",
-        "updated_at": "2026-03-13T18:44:34.921Z",
+        "updated_at": "2026-03-19T17:47:00.680Z",
         "position": 5,
         "description": null,
-        "showcase": true,
+        "showcase": false,
         "start_date": "2026-01-20",
         "group_id": "m172ltsc49p0",
         "page_id": "w58858w0sjxx",
@@ -756,10 +756,10 @@
         "name": "Notifications",
         "status": "operational",
         "created_at": "2026-01-20T19:03:20.610Z",
-        "updated_at": "2026-03-13T18:44:34.937Z",
+        "updated_at": "2026-03-19T17:47:13.232Z",
         "position": 6,
         "description": null,
-        "showcase": true,
+        "showcase": false,
         "start_date": "2026-01-20",
         "group_id": "m172ltsc49p0",
         "page_id": "w58858w0sjxx",
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-19T17:13:08Z"
+    "updated": "2026-03-19T18:06:20Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-19T08:38:38.108-07:00"
+      "updated_at": "2026-03-19T10:23:40.943-07:00"
     },
     "components": [
       {
@@ -5903,6 +5903,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-19T17:13:08Z"
+    "updated": "2026-03-19T18:06:20Z"
   }
 }
