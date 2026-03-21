@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-21T09:55:10Z"
+    "updated": "2026-03-21T10:36:12Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Clicking Edit in profile causes a grey screen and the menu fails to load.",
-    "updated": "2026-03-21T09:55:10Z"
+    "updated": "2026-03-21T10:36:12Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-21T04:08:32.908-04:00"
+      "updated_at": "2026-03-21T06:13:32.087-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-21T09:55:09Z"
+    "updated": "2026-03-21T10:36:11Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-21T08:08:35.752Z"
+      "updated_at": "2026-03-21T10:13:34.819Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-21T09:55:09Z"
+    "updated": "2026-03-21T10:36:11Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-21T02:01:07.139-07:00"
+      "updated_at": "2026-03-21T03:13:34.555-07:00"
     },
     "components": [
       {
@@ -5666,6 +5666,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-21T09:55:09Z"
+    "updated": "2026-03-21T10:36:11Z"
   }
 }
