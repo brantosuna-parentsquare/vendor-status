@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-21T08:49:39Z"
+    "updated": "2026-03-21T09:24:56Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Clicking Edit in profile causes a grey screen and the menu fails to load.",
-    "updated": "2026-03-21T08:49:39Z"
+    "updated": "2026-03-21T09:24:56Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-21T08:49:38Z"
+    "updated": "2026-03-21T09:24:55Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-21T08:49:38Z"
+    "updated": "2026-03-21T09:24:55Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-21T01:08:35.399-07:00"
+      "updated_at": "2026-03-21T02:01:07.139-07:00"
     },
     "components": [
       {
@@ -5660,226 +5660,12 @@
         ],
         "scheduled_for": "2026-05-02T17:00:00.000-07:00",
         "scheduled_until": "2026-05-02T18:00:00.000-07:00"
-      },
-      {
-        "id": "dpjw6y596mhw",
-        "name": "Zoom Virtual Agent Update: March 21, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-03-17T09:58:33.960-07:00",
-        "updated_at": "2026-03-20T17:01:07.126-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/kmhp9hz5prkx",
-        "started_at": "2026-03-17T09:58:33.953-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "1ms9hdl2nbvv",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "dpjw6y596mhw",
-            "created_at": "2026-03-20T17:01:07.124-07:00",
-            "updated_at": "2026-03-20T17:01:07.124-07:00",
-            "display_at": "2026-03-20T17:01:07.124-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "r9c8xp2zn2ry",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "dpjw6y596mhw",
-            "created_at": "2026-03-20T16:00:08.499-07:00",
-            "updated_at": "2026-03-20T16:00:08.499-07:00",
-            "display_at": "2026-03-20T16:00:08.499-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "w4d7qxvpfq2f",
-            "status": "scheduled",
-            "body": "This update includes implicit resolution metrics for Zoom Virtual Agent analytics.\n\nThere is no operational impact. All services will be available during this scheduled update.\n\nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details.",
-            "incident_id": "dpjw6y596mhw",
-            "created_at": "2026-03-17T09:58:34.017-07:00",
-            "updated_at": "2026-03-17T09:58:34.017-07:00",
-            "display_at": "2026-03-17T09:58:34.017-07:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-03-20T17:00:00.000-07:00",
-        "scheduled_until": "2026-03-21T02:00:00.000-07:00"
-      },
-      {
-        "id": "y2dgq095rlmf",
-        "name": "Zoom Contact Center Update: March 21,2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-03-17T23:50:53.147-07:00",
-        "updated_at": "2026-03-20T17:00:07.758-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/xrldnhv0rqt2",
-        "started_at": "2026-03-17T23:50:53.139-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "k2717bmvq5lh",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "y2dgq095rlmf",
-            "created_at": "2026-03-20T17:00:07.754-07:00",
-            "updated_at": "2026-03-20T17:00:07.754-07:00",
-            "display_at": "2026-03-20T17:00:07.754-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "wrzywlfhwq0y",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes Zoom Contact Center Engagement capabilities.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "y2dgq095rlmf",
-            "created_at": "2026-03-17T23:50:53.205-07:00",
-            "updated_at": "2026-03-17T23:50:53.205-07:00",
-            "display_at": "2026-03-17T23:50:53.205-07:00",
-            "affected_components": [
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-02-08T22:00:07.183-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-03-20T17:00:00.000-07:00",
-        "scheduled_until": "2026-03-21T02:00:00.000-07:00"
-      },
-      {
-        "id": "k4dg2nkpy4z6",
-        "name": "Zoom Workforce Management Update: March 21, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-03-18T00:00:55.768-07:00",
-        "updated_at": "2026-03-20T17:00:07.204-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/txlfynsnx6yd",
-        "started_at": "2026-03-18T00:00:55.763-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "klxvm9lf1cqw",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "k4dg2nkpy4z6",
-            "created_at": "2026-03-20T17:00:07.200-07:00",
-            "updated_at": "2026-03-20T17:00:07.200-07:00",
-            "display_at": "2026-03-20T17:00:07.200-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "qxqvd7n5w3hl",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Workforce Management. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068337 for more details. This update includes self-healing capabilities that automatically detect and resolve issues during intraday operations.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "k4dg2nkpy4z6",
-            "created_at": "2026-03-18T00:00:55.823-07:00",
-            "updated_at": "2026-03-18T00:00:55.823-07:00",
-            "display_at": "2026-03-18T00:00:55.823-07:00",
-            "affected_components": [
-              {
-                "code": "7lvp52xc051q",
-                "name": "Zoom Workforce Management",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "7lvp52xc051q",
-            "name": "Zoom Workforce Management",
-            "status": "operational",
-            "created_at": "2023-08-01T15:44:46.131-07:00",
-            "updated_at": "2026-01-18T02:00:21.169-08:00",
-            "position": 31,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-08-01",
-            "group_id": null,
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-03-20T17:00:00.000-07:00",
-        "scheduled_until": "2026-03-21T02:00:00.000-07:00"
       }
     ],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-21T08:49:38Z"
+    "updated": "2026-03-21T09:24:55Z"
   }
 }
