@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-23T09:08:43Z"
+    "updated": "2026-03-23T10:14:35Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with custom apps",
-    "updated": "2026-03-23T09:08:43Z"
+    "updated": "2026-03-23T10:14:35Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-23T09:08:41Z"
+    "updated": "2026-03-23T10:14:34Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-23T09:08:41Z"
+    "updated": "2026-03-23T10:14:34Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-23T01:03:47.865-07:00"
+      "updated_at": "2026-03-23T02:03:31.164-07:00"
     },
     "components": [
       {
@@ -5612,6 +5612,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-23T09:08:41Z"
+    "updated": "2026-03-23T10:14:34Z"
   }
 }
