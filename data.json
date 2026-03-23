@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-23T14:45:56Z"
+    "updated": "2026-03-23T15:46:31Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with custom apps",
-    "updated": "2026-03-23T14:45:56Z"
+    "updated": "2026-03-23T15:46:31Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-23T10:42:44.786-04:00"
+      "updated_at": "2026-03-23T11:34:57.650-04:00"
     },
     "components": [
       {
@@ -36,9 +36,9 @@
       {
         "id": "vq3xl1yxlv6w",
         "name": "Marketing Tools",
-        "status": "partial_outage",
+        "status": "operational",
         "created_at": "2019-11-06T11:21:51.531-05:00",
-        "updated_at": "2026-03-23T10:42:44.731-04:00",
+        "updated_at": "2026-03-23T11:22:33.713-04:00",
         "position": 2,
         "description": "Loading and data processing of Marketing tools like Ads, Email, Social, Forms and Lists.",
         "showcase": false,
@@ -51,9 +51,9 @@
       {
         "id": "dgj0tf6pvh46",
         "name": "Website",
-        "status": "partial_outage",
+        "status": "operational",
         "created_at": "2019-11-06T11:22:36.096-05:00",
-        "updated_at": "2026-03-23T10:42:44.746-04:00",
+        "updated_at": "2026-03-23T11:22:33.728-04:00",
         "position": 3,
         "description": "Rendering of CMS and form submission processing",
         "showcase": false,
@@ -184,88 +184,13 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "llyjn0c6gkt9",
-        "name": "Issues with Forms",
-        "status": "investigating",
-        "created_at": "2026-03-23T10:42:44.701-04:00",
-        "updated_at": "2026-03-23T10:42:44.784-04:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/8pj27yw9g23k",
-        "started_at": "2026-03-23T10:42:44.692-04:00",
-        "page_id": "8b9w1wwq3g7d",
-        "incident_updates": [
-          {
-            "id": "yqqpj4pfhvy2",
-            "status": "investigating",
-            "body": "We are investigating an issue impacting Forms. We will provide an update when we have more information.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
-            "incident_id": "llyjn0c6gkt9",
-            "created_at": "2026-03-23T10:42:44.782-04:00",
-            "updated_at": "2026-03-23T10:42:44.782-04:00",
-            "display_at": "2026-03-23T10:42:44.782-04:00",
-            "affected_components": [
-              {
-                "code": "vq3xl1yxlv6w",
-                "name": "Marketing Tools",
-                "old_status": "operational",
-                "new_status": "partial_outage"
-              },
-              {
-                "code": "dgj0tf6pvh46",
-                "name": "Website",
-                "old_status": "operational",
-                "new_status": "partial_outage"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "vq3xl1yxlv6w",
-            "name": "Marketing Tools",
-            "status": "partial_outage",
-            "created_at": "2019-11-06T11:21:51.531-05:00",
-            "updated_at": "2026-03-23T10:42:44.731-04:00",
-            "position": 2,
-            "description": "Loading and data processing of Marketing tools like Ads, Email, Social, Forms and Lists.",
-            "showcase": false,
-            "start_date": null,
-            "group_id": null,
-            "page_id": "8b9w1wwq3g7d",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "dgj0tf6pvh46",
-            "name": "Website",
-            "status": "partial_outage",
-            "created_at": "2019-11-06T11:22:36.096-05:00",
-            "updated_at": "2026-03-23T10:42:44.746-04:00",
-            "position": 3,
-            "description": "Rendering of CMS and form submission processing",
-            "showcase": false,
-            "start_date": null,
-            "group_id": null,
-            "page_id": "8b9w1wwq3g7d",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "minor",
-      "description": "Minor Service Outage"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-03-23T14:45:31Z"
+    "updated": "2026-03-23T15:46:29Z"
   },
   "asana": {
     "page": {
@@ -848,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-23T14:45:31Z"
+    "updated": "2026-03-23T15:46:29Z"
   },
   "zoom": {
     "page": {
@@ -5687,6 +5612,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-23T14:45:31Z"
+    "updated": "2026-03-23T15:46:29Z"
   }
 }
