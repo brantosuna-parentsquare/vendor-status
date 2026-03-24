@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-24T12:35:17Z"
+    "updated": "2026-03-24T14:03:10Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with custom apps",
-    "updated": "2026-03-24T12:35:17Z"
+    "updated": "2026-03-24T14:03:10Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-24T07:53:35.565-04:00"
+      "updated_at": "2026-03-24T09:58:31.308-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-24T12:33:02Z"
+    "updated": "2026-03-24T14:03:08Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-24T11:53:38.431Z"
+      "updated_at": "2026-03-24T13:58:34.788Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-24T12:33:02Z"
+    "updated": "2026-03-24T14:03:08Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-24T04:53:38.299-07:00"
+      "updated_at": "2026-03-24T06:58:34.526-07:00"
     },
     "components": [
       {
@@ -6065,6 +6065,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-24T12:33:02Z"
+    "updated": "2026-03-24T14:03:08Z"
   }
 }
