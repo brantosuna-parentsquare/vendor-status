@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-24T23:51:04Z"
+    "updated": "2026-03-25T02:51:44Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with custom apps",
-    "updated": "2026-03-24T23:51:04Z"
+    "updated": "2026-03-25T02:51:44Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-24T19:38:31.519-04:00"
+      "updated_at": "2026-03-24T21:18:30.524-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-24T23:51:02Z"
+    "updated": "2026-03-25T02:51:43Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-24T23:38:34.213Z"
+      "updated_at": "2026-03-25T01:18:33.235Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-24T23:51:02Z"
+    "updated": "2026-03-25T02:51:43Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-24T16:38:33.908-07:00"
+      "updated_at": "2026-03-24T19:00:07.396-07:00"
     },
     "components": [
       {
@@ -5446,11 +5446,173 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
+        "id": "1h1sxg71lh0f",
+        "name": "Zoom Audio Conference Infrastructure Upgrade (SIN - Singapore)",
+        "status": "scheduled",
+        "created_at": "2026-03-18T10:33:47.504-07:00",
+        "updated_at": "2026-03-18T10:33:47.585-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/4nrrcj960bqx",
+        "started_at": "2026-03-18T10:33:47.496-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "lw0whnkv9b4m",
+            "status": "scheduled",
+            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.\n\n\nSingapore Time (SGT): March 27, 05:00 PM – March 29, 05:00 AM\n\nPacific Time (PDT): March 27, 02:00 AM – March 28, 2:00 PM\n\nGMT: March 27, 09:00 AM – March 28, 09:00 PM",
+            "incident_id": "1h1sxg71lh0f",
+            "created_at": "2026-03-18T10:33:47.581-07:00",
+            "updated_at": "2026-03-18T10:33:47.581-07:00",
+            "display_at": "2026-03-18T10:33:47.581-07:00",
+            "affected_components": [
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2026-03-16T01:00:07.267-07:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-03-27T02:00:00.000-07:00",
+        "scheduled_until": "2026-03-28T14:00:00.000-07:00"
+      },
+      {
+        "id": "zyy9hv6cq2b9",
+        "name": "Zoom Phone India Maintenance (Mumbai/Hyderabad)",
+        "status": "scheduled",
+        "created_at": "2026-03-09T01:58:10.824-07:00",
+        "updated_at": "2026-03-09T01:58:10.882-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/t4grll1zs0dh",
+        "started_at": "2026-03-09T01:58:10.815-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "t6nx61ny8y5y",
+            "status": "scheduled",
+            "body": "Zoom Phone users registered to the India (Mumbai/Hyderabad) Data Center will be automatically registered in an alternative datacenter starting at 28th March 04:30 AM PDT (5:00 PM IST on 28th March). During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically. \n\nMumbai - 28th March 05:00 PM to 08:00 PM IST\n\nHyderabad - 28th March 08:05 PM to 11:59 PM IST\n\nIf you are a BYOC (Bring Your Own Carrier) customer, please ensure that your Session Border Controller (SBC) is configured with alternate routing to alternate India (Hyderabad) Data Center in addition to the India (Mumbai) Data Center. During the maintenance window, connectivity to Zoom’s Mumbai Data Center will be blocked which will force calls from the Session Border Controller (SBC) to failover to Zoom’s India (Hyderabad) Data Center. Traffic will continue to be routed through the Zoom's India (Mumbai) Data Center once the maintenance is completed. The same will do for India (Hyderabad) as well. \n\nFor customers that use hardware phones, refer to this link for the devices support the alternative datacenter process as described above: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061373#h_01GNZ783VT6YXHES8NSXBA5M9A",
+            "incident_id": "zyy9hv6cq2b9",
+            "created_at": "2026-03-09T01:58:10.880-07:00",
+            "updated_at": "2026-03-09T01:58:10.880-07:00",
+            "display_at": "2026-03-09T01:58:10.880-07:00",
+            "affected_components": [
+              {
+                "code": "glcgf4v63241",
+                "name": "Zoom Phone - APAC - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "glcgf4v63241",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2022-05-03T10:45:58.970-07:00",
+            "updated_at": "2026-02-08T11:04:04.664-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "k4ymzkwr5c5f",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-03-28T04:30:00.000-07:00",
+        "scheduled_until": "2026-03-28T11:30:00.000-07:00"
+      },
+      {
+        "id": "btvbvz6rz5r7",
+        "name": "Scheduled Zoom Software Quarterly Lifecycle Update (5/2/2026)",
+        "status": "scheduled",
+        "created_at": "2026-02-02T15:42:45.926-08:00",
+        "updated_at": "2026-02-02T15:42:45.987-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/v4czzpn51vw9",
+        "started_at": "2026-02-02T15:42:45.920-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "lq5vr20dljpr",
+            "status": "scheduled",
+            "body": "Zoom will be enforcing a new minimum version of all our Zoom clients and plugins, roughly 90 days from now on on May 2, 2026:\n \nZoom will be enforcing a new minimum version for the following areas, approximately 90 days from now on May 2, 2026:\n\n\t•\tZoom Rooms (Windows, macOS, iPad, appliances, iOS and Android controllers)\n\t•\tZoom Node (including Meeting Connector MMR)\n\n\nAdditionally, beginning with the May 2026 enforcement, Zoom will require a minimum version for Zoom Meeting Hybrid - MMR. \n\nAll other clients and plugins not listed here will maintain the same version requirements as the February 2026 enforcement.\n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130\n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
+            "incident_id": "btvbvz6rz5r7",
+            "created_at": "2026-02-02T15:42:45.985-08:00",
+            "updated_at": "2026-02-02T15:42:45.985-08:00",
+            "display_at": "2026-02-02T15:42:45.985-08:00",
+            "affected_components": [
+              {
+                "code": "9skbqhkvk721",
+                "name": "Zoom Website - Download Center & Clients",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "9skbqhkvk721",
+            "name": "Download Center & Clients",
+            "status": "operational",
+            "created_at": "2018-05-17T11:29:26.349-07:00",
+            "updated_at": "2026-03-15T23:30:07.126-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-02T17:00:00.000-07:00",
+        "scheduled_until": "2026-05-02T18:00:00.000-07:00"
+      },
+      {
         "id": "7ftl6r04n2p7",
         "name": "Zoom FileServer Release: March, 2026 (No Operational Impact)",
-        "status": "scheduled",
+        "status": "in_progress",
         "created_at": "2026-03-24T03:38:20.553-07:00",
-        "updated_at": "2026-03-24T03:38:20.689-07:00",
+        "updated_at": "2026-03-24T19:00:07.372-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5458,6 +5620,32 @@
         "started_at": "2026-03-24T03:38:20.504-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "j62y66v2wdjh",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "7ftl6r04n2p7",
+            "created_at": "2026-03-24T19:00:07.363-07:00",
+            "updated_at": "2026-03-24T19:00:07.363-07:00",
+            "display_at": "2026-03-24T19:00:07.363-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "smyvm9v864nr",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "7ftl6r04n2p7",
+            "created_at": "2026-03-24T18:00:19.506-07:00",
+            "updated_at": "2026-03-24T18:00:19.506-07:00",
+            "display_at": "2026-03-24T18:00:19.506-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "h57z61h8q2xd",
             "status": "scheduled",
@@ -5897,174 +6085,12 @@
         ],
         "scheduled_for": "2026-03-24T19:00:00.000-07:00",
         "scheduled_until": "2026-04-11T01:00:00.000-07:00"
-      },
-      {
-        "id": "1h1sxg71lh0f",
-        "name": "Zoom Audio Conference Infrastructure Upgrade (SIN - Singapore)",
-        "status": "scheduled",
-        "created_at": "2026-03-18T10:33:47.504-07:00",
-        "updated_at": "2026-03-18T10:33:47.585-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/4nrrcj960bqx",
-        "started_at": "2026-03-18T10:33:47.496-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "lw0whnkv9b4m",
-            "status": "scheduled",
-            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.\n\n\nSingapore Time (SGT): March 27, 05:00 PM – March 29, 05:00 AM\n\nPacific Time (PDT): March 27, 02:00 AM – March 28, 2:00 PM\n\nGMT: March 27, 09:00 AM – March 28, 09:00 PM",
-            "incident_id": "1h1sxg71lh0f",
-            "created_at": "2026-03-18T10:33:47.581-07:00",
-            "updated_at": "2026-03-18T10:33:47.581-07:00",
-            "display_at": "2026-03-18T10:33:47.581-07:00",
-            "affected_components": [
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "ntdt65v1f9rv",
-            "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-03-16T01:00:07.267-07:00",
-            "position": 13,
-            "description": "Access to Telephony Services",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-03-27T02:00:00.000-07:00",
-        "scheduled_until": "2026-03-28T14:00:00.000-07:00"
-      },
-      {
-        "id": "zyy9hv6cq2b9",
-        "name": "Zoom Phone India Maintenance (Mumbai/Hyderabad)",
-        "status": "scheduled",
-        "created_at": "2026-03-09T01:58:10.824-07:00",
-        "updated_at": "2026-03-09T01:58:10.882-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/t4grll1zs0dh",
-        "started_at": "2026-03-09T01:58:10.815-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "t6nx61ny8y5y",
-            "status": "scheduled",
-            "body": "Zoom Phone users registered to the India (Mumbai/Hyderabad) Data Center will be automatically registered in an alternative datacenter starting at 28th March 04:30 AM PDT (5:00 PM IST on 28th March). During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically. \n\nMumbai - 28th March 05:00 PM to 08:00 PM IST\n\nHyderabad - 28th March 08:05 PM to 11:59 PM IST\n\nIf you are a BYOC (Bring Your Own Carrier) customer, please ensure that your Session Border Controller (SBC) is configured with alternate routing to alternate India (Hyderabad) Data Center in addition to the India (Mumbai) Data Center. During the maintenance window, connectivity to Zoom’s Mumbai Data Center will be blocked which will force calls from the Session Border Controller (SBC) to failover to Zoom’s India (Hyderabad) Data Center. Traffic will continue to be routed through the Zoom's India (Mumbai) Data Center once the maintenance is completed. The same will do for India (Hyderabad) as well. \n\nFor customers that use hardware phones, refer to this link for the devices support the alternative datacenter process as described above: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061373#h_01GNZ783VT6YXHES8NSXBA5M9A",
-            "incident_id": "zyy9hv6cq2b9",
-            "created_at": "2026-03-09T01:58:10.880-07:00",
-            "updated_at": "2026-03-09T01:58:10.880-07:00",
-            "display_at": "2026-03-09T01:58:10.880-07:00",
-            "affected_components": [
-              {
-                "code": "glcgf4v63241",
-                "name": "Zoom Phone - APAC - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "glcgf4v63241",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-02-08T11:04:04.664-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-03-28T04:30:00.000-07:00",
-        "scheduled_until": "2026-03-28T11:30:00.000-07:00"
-      },
-      {
-        "id": "btvbvz6rz5r7",
-        "name": "Scheduled Zoom Software Quarterly Lifecycle Update (5/2/2026)",
-        "status": "scheduled",
-        "created_at": "2026-02-02T15:42:45.926-08:00",
-        "updated_at": "2026-02-02T15:42:45.987-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/v4czzpn51vw9",
-        "started_at": "2026-02-02T15:42:45.920-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "lq5vr20dljpr",
-            "status": "scheduled",
-            "body": "Zoom will be enforcing a new minimum version of all our Zoom clients and plugins, roughly 90 days from now on on May 2, 2026:\n \nZoom will be enforcing a new minimum version for the following areas, approximately 90 days from now on May 2, 2026:\n\n\t•\tZoom Rooms (Windows, macOS, iPad, appliances, iOS and Android controllers)\n\t•\tZoom Node (including Meeting Connector MMR)\n\n\nAdditionally, beginning with the May 2026 enforcement, Zoom will require a minimum version for Zoom Meeting Hybrid - MMR. \n\nAll other clients and plugins not listed here will maintain the same version requirements as the February 2026 enforcement.\n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130\n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
-            "incident_id": "btvbvz6rz5r7",
-            "created_at": "2026-02-02T15:42:45.985-08:00",
-            "updated_at": "2026-02-02T15:42:45.985-08:00",
-            "display_at": "2026-02-02T15:42:45.985-08:00",
-            "affected_components": [
-              {
-                "code": "9skbqhkvk721",
-                "name": "Zoom Website - Download Center & Clients",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "9skbqhkvk721",
-            "name": "Download Center & Clients",
-            "status": "operational",
-            "created_at": "2018-05-17T11:29:26.349-07:00",
-            "updated_at": "2026-03-15T23:30:07.126-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-02T17:00:00.000-07:00",
-        "scheduled_until": "2026-05-02T18:00:00.000-07:00"
       }
     ],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-24T23:51:02Z"
+    "updated": "2026-03-25T02:51:43Z"
   }
 }
