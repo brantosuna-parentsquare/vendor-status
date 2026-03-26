@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-26T17:43:29Z"
+    "updated": "2026-03-26T18:44:36Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-03-26T17:43:29Z"
+    "updated": "2026-03-26T18:44:36Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-26T17:43:28Z"
+    "updated": "2026-03-26T18:44:34Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-03-26T15:50:30.058Z"
+      "updated_at": "2026-03-26T18:34:04.045Z"
     },
     "components": [
       {
@@ -767,87 +767,13 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "xzj96gm5mzw1",
-        "name": "Errors loading Asana",
-        "status": "monitoring",
-        "created_at": "2026-03-26T15:03:14.000Z",
-        "updated_at": "2026-03-26T15:50:30.055Z",
-        "monitoring_at": "2026-03-26T15:50:25.099Z",
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/74xk62813f57",
-        "started_at": "2026-03-26T15:03:14.000Z",
-        "page_id": "w58858w0sjxx",
-        "incident_updates": [
-          {
-            "id": "v0zwtwfd6n8n",
-            "status": "monitoring",
-            "body": "We believe that this was related to http3, and have disabled http3 for the affected CloudFront distribution. We believe Asana should now load after a hard refresh.",
-            "incident_id": "xzj96gm5mzw1",
-            "created_at": "2026-03-26T15:50:25.099Z",
-            "updated_at": "2026-03-26T15:50:25.099Z",
-            "display_at": "2026-03-26T15:50:25.099Z",
-            "affected_components": [
-              {
-                "code": "27w8th2c08v6",
-                "name": "US - App",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "76qq841n1pl7",
-            "status": "investigating",
-            "body": "We have received reports that some users are unable to load Asana, especially in and around New York/the East Coast of the US, and have observed intermittent errors. We are investigating this, and will provide an update within an hour.",
-            "incident_id": "xzj96gm5mzw1",
-            "created_at": "2026-03-26T15:03:14.133Z",
-            "updated_at": "2026-03-26T15:04:09.653Z",
-            "display_at": "2026-03-26T15:03:14.000Z",
-            "affected_components": [
-              {
-                "code": "27w8th2c08v6",
-                "name": "US - App",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "27w8th2c08v6",
-            "name": "App",
-            "status": "operational",
-            "created_at": "2017-09-19T23:35:45.317Z",
-            "updated_at": "2026-03-26T15:50:25.061Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-26T17:43:28Z"
+    "updated": "2026-03-26T18:44:34Z"
   },
   "zoom": {
     "page": {
@@ -6165,6 +6091,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-26T17:43:28Z"
+    "updated": "2026-03-26T18:44:34Z"
   }
 }
