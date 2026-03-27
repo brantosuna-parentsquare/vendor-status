@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-27T20:54:34Z"
+    "updated": "2026-03-27T21:44:42Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-03-27T20:54:34Z"
+    "updated": "2026-03-27T21:44:42Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-27T20:54:32Z"
+    "updated": "2026-03-27T21:44:41Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-27T20:54:32Z"
+    "updated": "2026-03-27T21:44:41Z"
   },
   "zoom": {
     "page": {
@@ -6120,6 +6120,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-27T20:54:32Z"
+    "updated": "2026-03-27T21:44:41Z"
   }
 }
