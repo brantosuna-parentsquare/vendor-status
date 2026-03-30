@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-03-30T16:42:33Z"
+    "updated": "2026-03-30T17:40:49Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-03-30T16:42:33Z"
+    "updated": "2026-03-30T17:40:49Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-03-30T11:48:32.554-04:00"
+      "updated_at": "2026-03-30T12:43:05.115-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-30T16:42:32Z"
+    "updated": "2026-03-30T17:40:47Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-30T16:42:32Z"
+    "updated": "2026-03-30T17:40:47Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-03-30T08:48:35.029-07:00"
+      "updated_at": "2026-03-30T10:37:34.853-07:00"
     },
     "components": [
       {
@@ -2670,7 +2670,8 @@
           "tq7lz19gh9gm",
           "jmnt9sm0q4b2",
           "vlkjldpx64p2",
-          "9v6qdjpm1842"
+          "9v6qdjpm1842",
+          "q0w0x5hdvymm"
         ]
       },
       {
@@ -4617,6 +4618,21 @@
         "only_show_if_degraded": false
       },
       {
+        "id": "97j86xk8dflw",
+        "name": "PCI Integration",
+        "status": "operational",
+        "created_at": "2026-03-30T09:50:05.358-07:00",
+        "updated_at": "2026-03-30T10:37:34.778-07:00",
+        "position": 15,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-03-30",
+        "group_id": "fs7vxs27n4pn",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
         "status": "operational",
@@ -4756,7 +4772,8 @@
           "c110sm47tmwf",
           "0842bncf5q9f",
           "5xglgm6kl1dk",
-          "kvrj9x7kgp2b"
+          "kvrj9x7kgp2b",
+          "97j86xk8dflw"
         ]
       },
       {
@@ -4770,6 +4787,21 @@
         "showcase": false,
         "start_date": "2022-12-26",
         "group_id": "6np407v7v25g",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "q0w0x5hdvymm",
+        "name": "PCI Integration",
+        "status": "operational",
+        "created_at": "2026-03-30T09:49:27.106-07:00",
+        "updated_at": "2026-03-30T10:37:34.797-07:00",
+        "position": 18,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-03-30",
+        "group_id": "1bmg0stx4mk0",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -5459,7 +5491,134 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "mlysrh4rslwp",
+        "name": "Service Degradation Affecting Zoom Phone and Zoom Contact Center PCI Integration",
+        "status": "monitoring",
+        "created_at": "2026-03-30T09:55:53.715-07:00",
+        "updated_at": "2026-03-30T10:37:34.851-07:00",
+        "monitoring_at": "2026-03-30T10:37:34.836-07:00",
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/4bvpsg0wfgmk",
+        "started_at": "2026-03-30T09:55:53.701-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "yqnwmg38szqy",
+            "status": "monitoring",
+            "body": "The service degradation affecting Zoom Phone and Zoom Contact Center PCI Integration has been successfully resolved.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "mlysrh4rslwp",
+            "created_at": "2026-03-30T10:37:34.836-07:00",
+            "updated_at": "2026-03-30T10:37:34.836-07:00",
+            "display_at": "2026-03-30T10:37:34.836-07:00",
+            "affected_components": [
+              {
+                "code": "97j86xk8dflw",
+                "name": "Zoom Phone - Global - PCI Integration",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "q0w0x5hdvymm",
+                "name": "Zoom CX - Global - PCI Integration",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "g2ng1ymwj6t7",
+            "status": "identified",
+            "body": "We have identified an issue with our vendor partner impacting Zoom Phone and Zoom Contact Center PCI integration. \n\nWe are actively working with our vendor partner to resolve the issue.\n\nWe will share updates as soon as they become available.",
+            "incident_id": "mlysrh4rslwp",
+            "created_at": "2026-03-30T10:01:12.223-07:00",
+            "updated_at": "2026-03-30T10:01:12.223-07:00",
+            "display_at": "2026-03-30T10:01:12.223-07:00",
+            "affected_components": [
+              {
+                "code": "97j86xk8dflw",
+                "name": "Zoom Phone - Global - PCI Integration",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "q0w0x5hdvymm",
+                "name": "Zoom CX - Global - PCI Integration",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "df6t400mbrzz",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting Zoom Phone and Zoom Contact Center PCI Integration.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "mlysrh4rslwp",
+            "created_at": "2026-03-30T09:55:53.829-07:00",
+            "updated_at": "2026-03-30T09:55:53.829-07:00",
+            "display_at": "2026-03-30T09:55:53.829-07:00",
+            "affected_components": [
+              {
+                "code": "97j86xk8dflw",
+                "name": "Zoom Phone - Global - PCI Integration",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "q0w0x5hdvymm",
+                "name": "Zoom CX - Global - PCI Integration",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "97j86xk8dflw",
+            "name": "PCI Integration",
+            "status": "operational",
+            "created_at": "2026-03-30T09:50:05.358-07:00",
+            "updated_at": "2026-03-30T10:37:34.778-07:00",
+            "position": 15,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-03-30",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "q0w0x5hdvymm",
+            "name": "PCI Integration",
+            "status": "operational",
+            "created_at": "2026-03-30T09:49:27.106-07:00",
+            "updated_at": "2026-03-30T10:37:34.797-07:00",
+            "position": 18,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-03-30",
+            "group_id": "1bmg0stx4mk0",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "btvbvz6rz5r7",
@@ -5999,6 +6158,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-03-30T16:42:32Z"
+    "updated": "2026-03-30T17:40:47Z"
   }
 }
