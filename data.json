@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-01T14:00:01Z"
+    "updated": "2026-04-01T15:22:13Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-01T14:00:01Z"
+    "updated": "2026-04-01T15:22:13Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-01T05:39:16.694-04:00"
+      "updated_at": "2026-04-01T10:33:42.280-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-01T14:00:00Z"
+    "updated": "2026-04-01T15:22:11Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-01T09:39:22.466Z"
+      "updated_at": "2026-04-01T14:33:45.809Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-01T14:00:00Z"
+    "updated": "2026-04-01T15:22:11Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-01T02:39:22.413-07:00"
+      "updated_at": "2026-04-01T07:33:45.594-07:00"
     },
     "components": [
       {
@@ -5494,6 +5494,60 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
+        "id": "wfxbzmlnzsf5",
+        "name": "Zoom Team Chat Update",
+        "status": "scheduled",
+        "created_at": "2026-04-01T06:59:53.097-07:00",
+        "updated_at": "2026-04-01T06:59:53.168-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/rx73h0pcbs0s",
+        "started_at": "2026-04-01T06:59:53.089-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "8gnp7753l6qr",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Team Chat. There will be no operational impact. All services will be available during this scheduled update (ZR status might be displayed as offline in the service logs but no operational impact).",
+            "incident_id": "wfxbzmlnzsf5",
+            "created_at": "2026-04-01T06:59:53.164-07:00",
+            "updated_at": "2026-04-01T06:59:53.164-07:00",
+            "display_at": "2026-04-01T06:59:53.164-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "t2jk6yrqbp4j",
+            "name": "Zoom Chat",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:19.770-08:00",
+            "updated_at": "2026-01-09T23:06:32.669-08:00",
+            "position": 1,
+            "description": "Access to Group Chats",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-04-07T09:00:00.000-07:00",
+        "scheduled_until": "2026-04-24T09:00:00.000-07:00"
+      },
+      {
         "id": "btvbvz6rz5r7",
         "name": "Scheduled Zoom Software Quarterly Lifecycle Update (5/2/2026)",
         "status": "scheduled",
@@ -6031,6 +6085,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-01T14:00:00Z"
+    "updated": "2026-04-01T15:22:11Z"
   }
 }
