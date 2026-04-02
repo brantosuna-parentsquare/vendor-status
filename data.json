@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-02T05:50:41Z"
+    "updated": "2026-04-02T06:59:13Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-02T05:50:41Z"
+    "updated": "2026-04-02T06:59:13Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-02T05:48:23Z"
+    "updated": "2026-04-02T06:59:11Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-02T05:48:23Z"
+    "updated": "2026-04-02T06:59:11Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-01T21:53:46.729-07:00"
+      "updated_at": "2026-04-01T23:20:31.046-07:00"
     },
     "components": [
       {
@@ -5495,9 +5495,9 @@
       {
         "id": "bpjv2mznm75b",
         "name": "Service Degradation for a subset of users Affecting Zoom Client in the North America Region",
-        "status": "investigating",
+        "status": "identified",
         "created_at": "2026-04-01T14:24:00.264-07:00",
-        "updated_at": "2026-04-01T21:53:46.721-07:00",
+        "updated_at": "2026-04-01T23:20:31.033-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -5505,6 +5505,26 @@
         "started_at": "2026-04-01T14:24:00.257-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "0gcl5m80sjf5",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting a subset of users using Zoom Client in the North America region.\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \nThank you for your patience.",
+            "incident_id": "bpjv2mznm75b",
+            "created_at": "2026-04-01T23:20:31.029-07:00",
+            "updated_at": "2026-04-01T23:20:31.029-07:00",
+            "display_at": "2026-04-01T23:20:31.029-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "2svbn0y8j6cn",
             "status": "investigating",
@@ -6503,6 +6523,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-04-02T05:48:23Z"
+    "updated": "2026-04-02T06:59:11Z"
   }
 }
