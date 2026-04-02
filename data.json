@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-02T20:00:28Z"
+    "updated": "2026-04-02T20:53:04Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-02T20:00:28Z"
+    "updated": "2026-04-02T20:53:04Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-02T15:18:37.151-04:00"
+      "updated_at": "2026-04-02T16:29:11.122-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-02T20:00:26Z"
+    "updated": "2026-04-02T20:53:03Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-02T19:18:40.228Z"
+      "updated_at": "2026-04-02T20:29:17.507Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-02T20:00:26Z"
+    "updated": "2026-04-02T20:53:03Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-02T12:18:39.879-07:00"
+      "updated_at": "2026-04-02T13:29:17.469-07:00"
     },
     "components": [
       {
@@ -5494,17 +5494,37 @@
     "incidents": [
       {
         "id": "bpjv2mznm75b",
-        "name": "Service Degradation for a subset of users Affecting Zoom Client in the North America",
+        "name": "Service Degradation Affecting A Subset of Users with Zoom Chat in the North America Region",
         "status": "identified",
         "created_at": "2026-04-01T14:24:00.264-07:00",
-        "updated_at": "2026-04-02T11:56:32.621-07:00",
+        "updated_at": "2026-04-02T13:21:48.980-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
         "shortlink": "https://stspg.io/t0gg4gdwt4pt",
-        "started_at": "2026-04-01T14:24:00.257-07:00",
+        "started_at": "2026-04-01T14:24:00.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "tjf6bgwl1x31",
+            "status": "identified",
+            "body": "Our team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "bpjv2mznm75b",
+            "created_at": "2026-04-02T13:21:48.977-07:00",
+            "updated_at": "2026-04-02T13:21:48.977-07:00",
+            "display_at": "2026-04-02T13:21:48.977-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "t9jv6p7172cr",
             "status": "identified",
@@ -5568,11 +5588,11 @@
           {
             "id": "0gcl5m80sjf5",
             "status": "identified",
-            "body": "We have successfully identified the root cause affecting a subset of users using Zoom Client in the North America region.\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \nThank you for your patience.",
+            "body": "We have successfully identified the root cause affecting a subset of users using Zoom Chat in the North America region.\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \nThank you for your patience.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T23:20:31.029-07:00",
-            "updated_at": "2026-04-01T23:20:31.029-07:00",
-            "display_at": "2026-04-01T23:20:31.029-07:00",
+            "updated_at": "2026-04-02T13:19:51.358-07:00",
+            "display_at": "2026-04-01T23:20:31.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5588,11 +5608,11 @@
           {
             "id": "2svbn0y8j6cn",
             "status": "investigating",
-            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Client in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Chat in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T21:53:46.718-07:00",
-            "updated_at": "2026-04-01T21:53:46.718-07:00",
-            "display_at": "2026-04-01T21:53:46.718-07:00",
+            "updated_at": "2026-04-02T13:19:43.648-07:00",
+            "display_at": "2026-04-01T21:53:46.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5608,11 +5628,11 @@
           {
             "id": "x010vm5qlm0m",
             "status": "investigating",
-            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Client in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Chat in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T20:59:17.834-07:00",
-            "updated_at": "2026-04-01T20:59:17.834-07:00",
-            "display_at": "2026-04-01T20:59:17.834-07:00",
+            "updated_at": "2026-04-02T13:19:34.734-07:00",
+            "display_at": "2026-04-01T20:59:17.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5628,11 +5648,11 @@
           {
             "id": "7j156bnm28jv",
             "status": "investigating",
-            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Client in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Chat in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T19:55:24.908-07:00",
-            "updated_at": "2026-04-01T19:55:24.908-07:00",
-            "display_at": "2026-04-01T19:55:24.908-07:00",
+            "updated_at": "2026-04-02T13:19:26.637-07:00",
+            "display_at": "2026-04-01T19:55:24.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5648,11 +5668,11 @@
           {
             "id": "hncb89f807ng",
             "status": "investigating",
-            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Client in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Chat in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T18:52:50.923-07:00",
-            "updated_at": "2026-04-01T18:52:50.923-07:00",
-            "display_at": "2026-04-01T18:52:50.923-07:00",
+            "updated_at": "2026-04-02T13:19:16.413-07:00",
+            "display_at": "2026-04-01T18:52:50.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5668,11 +5688,11 @@
           {
             "id": "3smj1dpcwxsb",
             "status": "investigating",
-            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Client in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Chat in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T17:51:32.581-07:00",
-            "updated_at": "2026-04-01T17:51:32.581-07:00",
-            "display_at": "2026-04-01T17:51:32.581-07:00",
+            "updated_at": "2026-04-02T13:19:07.565-07:00",
+            "display_at": "2026-04-01T17:51:32.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5688,11 +5708,11 @@
           {
             "id": "f8yfx89mkqnw",
             "status": "investigating",
-            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Client in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Chat in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T16:21:37.841-07:00",
-            "updated_at": "2026-04-01T16:21:37.841-07:00",
-            "display_at": "2026-04-01T16:21:37.841-07:00",
+            "updated_at": "2026-04-02T13:19:00.330-07:00",
+            "display_at": "2026-04-01T16:21:37.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5708,11 +5728,11 @@
           {
             "id": "g57b9n98hyy9",
             "status": "investigating",
-            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Client in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We continue to investigate the service degradation affecting a subset of users with Zoom Chat in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T15:46:02.039-07:00",
-            "updated_at": "2026-04-01T15:46:02.039-07:00",
-            "display_at": "2026-04-01T15:46:02.039-07:00",
+            "updated_at": "2026-04-02T13:18:47.446-07:00",
+            "display_at": "2026-04-01T15:46:02.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5728,11 +5748,11 @@
           {
             "id": "mt7fwl8pwv49",
             "status": "investigating",
-            "body": "We continue to investigate service degradation affecting a subset of users with Zoom Client in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We continue to investigate service degradation affecting a subset of users with Zoom Chat in the North America Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T15:07:27.053-07:00",
-            "updated_at": "2026-04-01T15:07:27.053-07:00",
-            "display_at": "2026-04-01T15:07:27.053-07:00",
+            "updated_at": "2026-04-02T13:18:39.496-07:00",
+            "display_at": "2026-04-01T15:07:27.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -5748,11 +5768,11 @@
           {
             "id": "1q1fq5r2qppg",
             "status": "investigating",
-            "body": "We are currently investigating a service degradation with a subset of users affecting Zoom Client in the North America Region.\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\nWe appreciate your patience as we work to resolve this issue.",
+            "body": "We are currently investigating a service degradation with a subset of users who upgraded Zoom Workplace client to 7.0.0 or 7.0.1 (Windows) version who are experiencing Zoom Chat stuck at \"connecting...\" status.\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\nWe appreciate your patience as we work to resolve this issue.",
             "incident_id": "bpjv2mznm75b",
             "created_at": "2026-04-01T14:24:00.347-07:00",
-            "updated_at": "2026-04-01T14:24:00.347-07:00",
-            "display_at": "2026-04-01T14:24:00.347-07:00",
+            "updated_at": "2026-04-02T13:18:16.226-07:00",
+            "display_at": "2026-04-01T14:24:00.000-07:00",
             "affected_components": [
               {
                 "code": "t2jk6yrqbp4j",
@@ -6583,6 +6603,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-04-02T20:00:26Z"
+    "updated": "2026-04-02T20:53:03Z"
   }
 }
