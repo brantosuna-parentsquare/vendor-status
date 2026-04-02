@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-02T18:04:39Z"
+    "updated": "2026-04-02T19:13:57Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-02T18:04:39Z"
+    "updated": "2026-04-02T19:13:57Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-01T23:13:48.661-04:00"
+      "updated_at": "2026-04-02T14:38:41.057-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-02T18:04:37Z"
+    "updated": "2026-04-02T19:13:55Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-02T03:13:56.025Z"
+      "updated_at": "2026-04-02T18:38:45.148Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-02T18:04:37Z"
+    "updated": "2026-04-02T19:13:55Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-02T11:03:57.331-07:00"
+      "updated_at": "2026-04-02T11:56:32.626-07:00"
     },
     "components": [
       {
@@ -5494,10 +5494,10 @@
     "incidents": [
       {
         "id": "bpjv2mznm75b",
-        "name": "Service Degradation for a subset of users Affecting Zoom Client in the North America Region",
+        "name": "Service Degradation for a subset of users Affecting Zoom Client in the North America",
         "status": "identified",
         "created_at": "2026-04-01T14:24:00.264-07:00",
-        "updated_at": "2026-04-02T11:03:57.322-07:00",
+        "updated_at": "2026-04-02T11:56:32.621-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -6050,7 +6050,7 @@
         "name": "Scheduled Zoom Software Quarterly Lifecycle Update (5/2/2026)",
         "status": "scheduled",
         "created_at": "2026-02-02T15:42:45.926-08:00",
-        "updated_at": "2026-02-02T15:42:45.987-08:00",
+        "updated_at": "2026-04-02T11:43:54.590-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -6061,10 +6061,10 @@
           {
             "id": "lq5vr20dljpr",
             "status": "scheduled",
-            "body": "Zoom will be enforcing a new minimum version of all our Zoom clients and plugins, roughly 90 days from now on on May 2, 2026:\n \nZoom will be enforcing a new minimum version for the following areas, approximately 90 days from now on May 2, 2026:\n\n\t•\tZoom Rooms (Windows, macOS, iPad, appliances, iOS and Android controllers)\n\t•\tZoom Node (including Meeting Connector MMR)\n\n\nAdditionally, beginning with the May 2026 enforcement, Zoom will require a minimum version for Zoom Meeting Hybrid - MMR. \n\nAll other clients and plugins not listed here will maintain the same version requirements as the February 2026 enforcement.\n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130\n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
+            "body": "As a reminder, approximately 30 days ahead of the upcoming enforcement, Zoom will be enforcing a new minimum version for the following areas on May 2, 2026:\n\n\t•\tZoom Rooms (Windows, macOS, iPad, appliances, iOS and Android controllers)\n\t•\tZoom Node (including Meeting Connector MMR)\n\t\n\nAdditionally, beginning with the May 2026 enforcement, Zoom will require a minimum version for Zoom Meeting Hybrid - MMR.\n\nAll other clients and plugins not listed here will maintain the same version requirements as the February 2026 enforcement.\n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130\n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
             "incident_id": "btvbvz6rz5r7",
             "created_at": "2026-02-02T15:42:45.985-08:00",
-            "updated_at": "2026-02-02T15:42:45.985-08:00",
+            "updated_at": "2026-04-02T11:43:54.581-07:00",
             "display_at": "2026-02-02T15:42:45.985-08:00",
             "affected_components": [
               {
@@ -6583,6 +6583,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-04-02T18:04:37Z"
+    "updated": "2026-04-02T19:13:55Z"
   }
 }
