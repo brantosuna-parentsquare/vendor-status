@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-07T14:22:07Z"
+    "updated": "2026-04-07T15:56:37Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-07T14:22:07Z"
+    "updated": "2026-04-07T15:56:37Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-06T16:19:04.498-04:00"
+      "updated_at": "2026-04-07T11:39:54.308-04:00"
     },
     "components": [
       {
@@ -184,13 +184,57 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "bkzkl7p8ktsd",
+        "name": "High ingestion latency for UnifiedEvents",
+        "status": "investigating",
+        "created_at": "2026-04-07T11:24:28.843-04:00",
+        "updated_at": "2026-04-07T11:39:54.294-04:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/rfyzn8ggl4bt",
+        "started_at": "2026-04-07T11:24:28.836-04:00",
+        "page_id": "8b9w1wwq3g7d",
+        "incident_updates": [
+          {
+            "id": "y35k1ygn0cjf",
+            "status": "investigating",
+            "body": "Events processing in HubSpot is experiencing delays of up to 30 minutes in North America since 10:00 AM  (UTC -04:00). \n\nThis may impact tools such as Automation/Workflow triggers, CRM Events Timeline, Reporting, and Frontend dashboard components in HubSpot\n\nWe are investigating the cause and will update this page when we have more information.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
+            "incident_id": "bkzkl7p8ktsd",
+            "created_at": "2026-04-07T11:39:54.291-04:00",
+            "updated_at": "2026-04-07T11:39:54.291-04:00",
+            "display_at": "2026-04-07T11:39:54.291-04:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "zs42zfydy477",
+            "status": "investigating",
+            "body": "We are currently experiencing delays with data processing and page performance. Some users may notice that updates are delayed by up to 30 minutes and pages are loading slower than expected. We are investigating the cause and will provide updates shortly.",
+            "incident_id": "bkzkl7p8ktsd",
+            "created_at": "2026-04-07T11:24:28.878-04:00",
+            "updated_at": "2026-04-07T11:24:28.878-04:00",
+            "display_at": "2026-04-07T11:24:28.878-04:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T14:22:05Z"
+    "updated": "2026-04-07T15:56:36Z"
   },
   "asana": {
     "page": {
@@ -773,7 +817,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T14:22:05Z"
+    "updated": "2026-04-07T15:56:36Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +825,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-07T04:30:04.082-07:00"
+      "updated_at": "2026-04-07T08:00:10.162-07:00"
     },
     "components": [
       {
@@ -5498,7 +5542,7 @@
         "name": "Zoom Team Chat Update",
         "status": "scheduled",
         "created_at": "2026-04-01T06:59:53.097-07:00",
-        "updated_at": "2026-04-01T06:59:53.168-07:00",
+        "updated_at": "2026-04-07T08:00:10.129-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5506,6 +5550,19 @@
         "started_at": "2026-04-01T06:59:53.089-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "3gjv3vdjz0td",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "wfxbzmlnzsf5",
+            "created_at": "2026-04-07T08:00:10.034-07:00",
+            "updated_at": "2026-04-07T08:00:10.034-07:00",
+            "display_at": "2026-04-07T08:00:10.034-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "8gnp7753l6qr",
             "status": "scheduled",
@@ -6594,6 +6651,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T14:22:05Z"
+    "updated": "2026-04-07T15:56:36Z"
   }
 }
