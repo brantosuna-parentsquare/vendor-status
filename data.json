@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-07T09:38:37Z"
+    "updated": "2026-04-07T10:41:45Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-07T09:38:37Z"
+    "updated": "2026-04-07T10:41:45Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T09:38:35Z"
+    "updated": "2026-04-07T10:41:44Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T09:38:35Z"
+    "updated": "2026-04-07T10:41:44Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-06T20:58:44.122-07:00"
+      "updated_at": "2026-04-07T03:20:22.526-07:00"
     },
     "components": [
       {
@@ -5548,6 +5548,60 @@
         "scheduled_until": "2026-04-24T09:00:00.000-07:00"
       },
       {
+        "id": "2pbg55vrsrld",
+        "name": "Zoom Push Notification Service Release: April, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-04-07T02:51:25.834-07:00",
+        "updated_at": "2026-04-07T02:51:25.902-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/k65bg7mqp3wp",
+        "started_at": "2026-04-07T02:51:25.826-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "mb6p4483kpnp",
+            "status": "scheduled",
+            "body": "We will be performing scheduled maintenance to upgrade our Push Notification Service.\n\nNo operational impact is expected. This maintenance includes the following enhancements and improvements:\n\nAdded support for notifying clients when presence subscription fails.\nEnabled consumption of presence updates from the presence broker.\nAdded support for sending updated presence messages.\nOptimised performance by skipping unnecessary database write operations when no device info changes are detected.\nImproved efficiency by avoiding storage of ZAK revoke data when not required.\nIntroduced a tracking ID for request lookup services.\n\nAll services are expected to operate normally during the maintenance window.",
+            "incident_id": "2pbg55vrsrld",
+            "created_at": "2026-04-07T02:51:25.899-07:00",
+            "updated_at": "2026-04-07T02:51:25.899-07:00",
+            "display_at": "2026-04-07T02:51:25.899-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "t2jk6yrqbp4j",
+            "name": "Zoom Chat",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:19.770-08:00",
+            "updated_at": "2026-04-03T21:40:21.760-07:00",
+            "position": 1,
+            "description": "Access to Group Chats",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-04-09T18:00:00.000-07:00",
+        "scheduled_until": "2026-04-20T03:00:00.000-07:00"
+      },
+      {
         "id": "qfspzxknyh57",
         "name": "Zoom Support Maintenance",
         "status": "scheduled",
@@ -6289,6 +6343,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T09:38:35Z"
+    "updated": "2026-04-07T10:41:44Z"
   }
 }
