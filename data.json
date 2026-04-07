@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-07T15:56:37Z"
+    "updated": "2026-04-07T17:11:58Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-07T15:56:37Z"
+    "updated": "2026-04-07T17:11:58Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-07T11:39:54.308-04:00"
+      "updated_at": "2026-04-07T12:48:05.788-04:00"
     },
     "components": [
       {
@@ -184,57 +184,13 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "bkzkl7p8ktsd",
-        "name": "High ingestion latency for UnifiedEvents",
-        "status": "investigating",
-        "created_at": "2026-04-07T11:24:28.843-04:00",
-        "updated_at": "2026-04-07T11:39:54.294-04:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/rfyzn8ggl4bt",
-        "started_at": "2026-04-07T11:24:28.836-04:00",
-        "page_id": "8b9w1wwq3g7d",
-        "incident_updates": [
-          {
-            "id": "y35k1ygn0cjf",
-            "status": "investigating",
-            "body": "Events processing in HubSpot is experiencing delays of up to 30 minutes in North America since 10:00 AM  (UTC -04:00). \n\nThis may impact tools such as Automation/Workflow triggers, CRM Events Timeline, Reporting, and Frontend dashboard components in HubSpot\n\nWe are investigating the cause and will update this page when we have more information.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
-            "incident_id": "bkzkl7p8ktsd",
-            "created_at": "2026-04-07T11:39:54.291-04:00",
-            "updated_at": "2026-04-07T11:39:54.291-04:00",
-            "display_at": "2026-04-07T11:39:54.291-04:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "zs42zfydy477",
-            "status": "investigating",
-            "body": "We are currently experiencing delays with data processing and page performance. Some users may notice that updates are delayed by up to 30 minutes and pages are loading slower than expected. We are investigating the cause and will provide updates shortly.",
-            "incident_id": "bkzkl7p8ktsd",
-            "created_at": "2026-04-07T11:24:28.878-04:00",
-            "updated_at": "2026-04-07T11:24:28.878-04:00",
-            "display_at": "2026-04-07T11:24:28.878-04:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T15:56:36Z"
+    "updated": "2026-04-07T17:11:57Z"
   },
   "asana": {
     "page": {
@@ -817,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T15:56:36Z"
+    "updated": "2026-04-07T17:11:57Z"
   },
   "zoom": {
     "page": {
@@ -825,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-07T08:00:10.162-07:00"
+      "updated_at": "2026-04-07T09:00:07.208-07:00"
     },
     "components": [
       {
@@ -5538,73 +5494,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "wfxbzmlnzsf5",
-        "name": "Zoom Team Chat Update",
-        "status": "scheduled",
-        "created_at": "2026-04-01T06:59:53.097-07:00",
-        "updated_at": "2026-04-07T08:00:10.129-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/rx73h0pcbs0s",
-        "started_at": "2026-04-01T06:59:53.089-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "3gjv3vdjz0td",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "wfxbzmlnzsf5",
-            "created_at": "2026-04-07T08:00:10.034-07:00",
-            "updated_at": "2026-04-07T08:00:10.034-07:00",
-            "display_at": "2026-04-07T08:00:10.034-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "8gnp7753l6qr",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Team Chat. There will be no operational impact. All services will be available during this scheduled update (ZR status might be displayed as offline in the service logs but no operational impact).",
-            "incident_id": "wfxbzmlnzsf5",
-            "created_at": "2026-04-01T06:59:53.164-07:00",
-            "updated_at": "2026-04-01T06:59:53.164-07:00",
-            "display_at": "2026-04-01T06:59:53.164-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-04-03T21:40:21.760-07:00",
-            "position": 1,
-            "description": "Access to Group Chats",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-04-07T09:00:00.000-07:00",
-        "scheduled_until": "2026-04-24T09:00:00.000-07:00"
-      },
-      {
         "id": "2pbg55vrsrld",
         "name": "Zoom Push Notification Service Release: April, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -6168,6 +6057,86 @@
         "scheduled_until": "2026-05-02T18:00:00.000-07:00"
       },
       {
+        "id": "wfxbzmlnzsf5",
+        "name": "Zoom Team Chat Update",
+        "status": "in_progress",
+        "created_at": "2026-04-01T06:59:53.097-07:00",
+        "updated_at": "2026-04-07T09:00:07.177-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/rx73h0pcbs0s",
+        "started_at": "2026-04-01T06:59:53.089-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "6wgcq8dn94gf",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "wfxbzmlnzsf5",
+            "created_at": "2026-04-07T09:00:07.172-07:00",
+            "updated_at": "2026-04-07T09:00:07.172-07:00",
+            "display_at": "2026-04-07T09:00:07.172-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "3gjv3vdjz0td",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "wfxbzmlnzsf5",
+            "created_at": "2026-04-07T08:00:10.034-07:00",
+            "updated_at": "2026-04-07T08:00:10.034-07:00",
+            "display_at": "2026-04-07T08:00:10.034-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "8gnp7753l6qr",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Team Chat. There will be no operational impact. All services will be available during this scheduled update (ZR status might be displayed as offline in the service logs but no operational impact).",
+            "incident_id": "wfxbzmlnzsf5",
+            "created_at": "2026-04-01T06:59:53.164-07:00",
+            "updated_at": "2026-04-01T06:59:53.164-07:00",
+            "display_at": "2026-04-01T06:59:53.164-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "t2jk6yrqbp4j",
+            "name": "Zoom Chat",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:19.770-08:00",
+            "updated_at": "2026-04-03T21:40:21.760-07:00",
+            "position": 1,
+            "description": "Access to Group Chats",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-04-07T09:00:00.000-07:00",
+        "scheduled_until": "2026-04-24T09:00:00.000-07:00"
+      },
+      {
         "id": "7ftl6r04n2p7",
         "name": "Zoom FileServer Release: March, 2026 (No Operational Impact)",
         "status": "in_progress",
@@ -6651,6 +6620,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-07T15:56:36Z"
+    "updated": "2026-04-07T17:11:57Z"
   }
 }
