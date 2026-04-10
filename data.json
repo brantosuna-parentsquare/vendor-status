@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-09T23:56:04Z"
+    "updated": "2026-04-10T03:36:29Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-09T23:56:04Z"
+    "updated": "2026-04-10T03:36:29Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-09T18:58:30.720-04:00"
+      "updated_at": "2026-04-09T22:33:29.813-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-09T23:56:02Z"
+    "updated": "2026-04-10T03:34:12Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-09T22:58:32.840Z"
+      "updated_at": "2026-04-10T02:33:32.525Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-09T23:56:02Z"
+    "updated": "2026-04-10T03:34:12Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-09T15:58:32.675-07:00"
+      "updated_at": "2026-04-09T19:33:32.445-07:00"
     },
     "components": [
       {
@@ -5494,11 +5494,269 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
+        "id": "qfspzxknyh57",
+        "name": "Zoom Support Maintenance",
+        "status": "scheduled",
+        "created_at": "2026-04-01T17:22:11.290-07:00",
+        "updated_at": "2026-04-01T17:22:11.346-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/9w94gg6jvtjf",
+        "started_at": "2026-04-01T17:22:11.282-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "v9ngp2xd5rj6",
+            "status": "scheduled",
+            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base. Downtime is not expected, but users may experience general slowness for Zoom Support Knowledge Base and Ticketing during the maintenance window.",
+            "incident_id": "qfspzxknyh57",
+            "created_at": "2026-04-01T17:22:11.344-07:00",
+            "updated_at": "2026-04-01T17:22:11.344-07:00",
+            "display_at": "2026-04-01T17:22:11.344-07:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yvbblg5f0rdt",
+            "name": "Knowledge Base",
+            "status": "operational",
+            "created_at": "2022-05-03T11:26:39.112-07:00",
+            "updated_at": "2026-03-20T18:00:07.109-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "9mhsm7sbmhnr",
+            "name": "Ticketing",
+            "status": "operational",
+            "created_at": "2022-05-03T11:27:52.285-07:00",
+            "updated_at": "2026-03-20T18:00:07.127-07:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-04-09T23:30:00.000-07:00",
+        "scheduled_until": "2026-04-10T05:30:00.000-07:00"
+      },
+      {
+        "id": "sdtvb32ntf85",
+        "name": "Zoom Audio Conference Infrastructure Upgrade (HKG - Hong Kong)",
+        "status": "scheduled",
+        "created_at": "2026-04-01T18:41:22.995-07:00",
+        "updated_at": "2026-04-01T18:41:23.060-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/s4n3thfbgjfm",
+        "started_at": "2026-04-01T18:41:22.987-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "df3d2kzgvh8s",
+            "status": "scheduled",
+            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.\n\n\nHong Kong Time (HKT): April 10, 05:00 PM – April 12, 05:00 AM\n\nPacific Time (PDT): April 10, 02:00 AM – April 11, 2:00 PM\n\nUTC: April 10, 09:00 AM – April 11, 09:00 PM",
+            "incident_id": "sdtvb32ntf85",
+            "created_at": "2026-04-01T18:41:23.058-07:00",
+            "updated_at": "2026-04-01T18:41:23.058-07:00",
+            "display_at": "2026-04-01T18:41:23.058-07:00",
+            "affected_components": [
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2026-03-16T01:00:07.267-07:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-04-10T02:00:00.000-07:00",
+        "scheduled_until": "2026-04-11T14:00:00.000-07:00"
+      },
+      {
+        "id": "2gmg7csnkbvp",
+        "name": "Zoom Support Maintenance",
+        "status": "scheduled",
+        "created_at": "2026-04-01T17:19:38.008-07:00",
+        "updated_at": "2026-04-01T17:19:38.077-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/90tl1jhpq9yt",
+        "started_at": "2026-04-01T17:19:37.999-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "tlphswz6cspp",
+            "status": "scheduled",
+            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base. Downtime is not expected, but users may experience general slowness for Zoom Support Knowledge Base and Ticketing during the maintenance window.",
+            "incident_id": "2gmg7csnkbvp",
+            "created_at": "2026-04-01T17:19:38.074-07:00",
+            "updated_at": "2026-04-01T17:19:38.074-07:00",
+            "display_at": "2026-04-01T17:19:38.074-07:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yvbblg5f0rdt",
+            "name": "Knowledge Base",
+            "status": "operational",
+            "created_at": "2022-05-03T11:26:39.112-07:00",
+            "updated_at": "2026-03-20T18:00:07.109-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "9mhsm7sbmhnr",
+            "name": "Ticketing",
+            "status": "operational",
+            "created_at": "2022-05-03T11:27:52.285-07:00",
+            "updated_at": "2026-03-20T18:00:07.127-07:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-02T00:00:00.000-07:00",
+        "scheduled_until": "2026-05-02T01:30:00.000-07:00"
+      },
+      {
+        "id": "btvbvz6rz5r7",
+        "name": "Scheduled Zoom Software Quarterly Lifecycle Update (5/2/2026)",
+        "status": "scheduled",
+        "created_at": "2026-02-02T15:42:45.926-08:00",
+        "updated_at": "2026-04-02T11:43:54.590-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/v4czzpn51vw9",
+        "started_at": "2026-02-02T15:42:45.920-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "lq5vr20dljpr",
+            "status": "scheduled",
+            "body": "As a reminder, approximately 30 days ahead of the upcoming enforcement, Zoom will be enforcing a new minimum version for the following areas on May 2, 2026:\n\n\t•\tZoom Rooms (Windows, macOS, iPad, appliances, iOS and Android controllers)\n\t•\tZoom Node (including Meeting Connector MMR)\n\t\n\nAdditionally, beginning with the May 2026 enforcement, Zoom will require a minimum version for Zoom Meeting Hybrid - MMR.\n\nAll other clients and plugins not listed here will maintain the same version requirements as the February 2026 enforcement.\n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130\n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
+            "incident_id": "btvbvz6rz5r7",
+            "created_at": "2026-02-02T15:42:45.985-08:00",
+            "updated_at": "2026-04-02T11:43:54.581-07:00",
+            "display_at": "2026-02-02T15:42:45.985-08:00",
+            "affected_components": [
+              {
+                "code": "9skbqhkvk721",
+                "name": "Zoom Website - Download Center & Clients",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "9skbqhkvk721",
+            "name": "Download Center & Clients",
+            "status": "operational",
+            "created_at": "2018-05-17T11:29:26.349-07:00",
+            "updated_at": "2026-03-15T23:30:07.126-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-02T17:00:00.000-07:00",
+        "scheduled_until": "2026-05-02T18:00:00.000-07:00"
+      },
+      {
         "id": "2pbg55vrsrld",
         "name": "Zoom Push Notification Service Release: April, 2026 (No Operational Impact)",
-        "status": "scheduled",
+        "status": "in_progress",
         "created_at": "2026-04-07T02:51:25.834-07:00",
-        "updated_at": "2026-04-07T04:30:04.068-07:00",
+        "updated_at": "2026-04-09T18:00:07.315-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5506,6 +5764,32 @@
         "started_at": "2026-04-07T02:51:25.826-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "6n9gzsh71plc",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "2pbg55vrsrld",
+            "created_at": "2026-04-09T18:00:07.310-07:00",
+            "updated_at": "2026-04-09T18:00:07.310-07:00",
+            "display_at": "2026-04-09T18:00:07.310-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "k6dr8t2vsxwl",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "2pbg55vrsrld",
+            "created_at": "2026-04-09T17:00:12.819-07:00",
+            "updated_at": "2026-04-09T17:00:12.819-07:00",
+            "display_at": "2026-04-09T17:00:12.819-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "wsksgmbw6704",
             "status": "scheduled",
@@ -5797,264 +6081,6 @@
         ],
         "scheduled_for": "2026-04-09T18:00:00.000-07:00",
         "scheduled_until": "2026-04-20T03:00:00.000-07:00"
-      },
-      {
-        "id": "qfspzxknyh57",
-        "name": "Zoom Support Maintenance",
-        "status": "scheduled",
-        "created_at": "2026-04-01T17:22:11.290-07:00",
-        "updated_at": "2026-04-01T17:22:11.346-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/9w94gg6jvtjf",
-        "started_at": "2026-04-01T17:22:11.282-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "v9ngp2xd5rj6",
-            "status": "scheduled",
-            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base. Downtime is not expected, but users may experience general slowness for Zoom Support Knowledge Base and Ticketing during the maintenance window.",
-            "incident_id": "qfspzxknyh57",
-            "created_at": "2026-04-01T17:22:11.344-07:00",
-            "updated_at": "2026-04-01T17:22:11.344-07:00",
-            "display_at": "2026-04-01T17:22:11.344-07:00",
-            "affected_components": [
-              {
-                "code": "yvbblg5f0rdt",
-                "name": "Zoom Support - Knowledge Base",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "9mhsm7sbmhnr",
-                "name": "Zoom Support - Ticketing",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yvbblg5f0rdt",
-            "name": "Knowledge Base",
-            "status": "operational",
-            "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-03-20T18:00:07.109-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "9mhsm7sbmhnr",
-            "name": "Ticketing",
-            "status": "operational",
-            "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-03-20T18:00:07.127-07:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-04-09T23:30:00.000-07:00",
-        "scheduled_until": "2026-04-10T05:30:00.000-07:00"
-      },
-      {
-        "id": "sdtvb32ntf85",
-        "name": "Zoom Audio Conference Infrastructure Upgrade (HKG - Hong Kong)",
-        "status": "scheduled",
-        "created_at": "2026-04-01T18:41:22.995-07:00",
-        "updated_at": "2026-04-01T18:41:23.060-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/s4n3thfbgjfm",
-        "started_at": "2026-04-01T18:41:22.987-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "df3d2kzgvh8s",
-            "status": "scheduled",
-            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.\n\n\nHong Kong Time (HKT): April 10, 05:00 PM – April 12, 05:00 AM\n\nPacific Time (PDT): April 10, 02:00 AM – April 11, 2:00 PM\n\nUTC: April 10, 09:00 AM – April 11, 09:00 PM",
-            "incident_id": "sdtvb32ntf85",
-            "created_at": "2026-04-01T18:41:23.058-07:00",
-            "updated_at": "2026-04-01T18:41:23.058-07:00",
-            "display_at": "2026-04-01T18:41:23.058-07:00",
-            "affected_components": [
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "ntdt65v1f9rv",
-            "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-03-16T01:00:07.267-07:00",
-            "position": 13,
-            "description": "Access to Telephony Services",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-04-10T02:00:00.000-07:00",
-        "scheduled_until": "2026-04-11T14:00:00.000-07:00"
-      },
-      {
-        "id": "2gmg7csnkbvp",
-        "name": "Zoom Support Maintenance",
-        "status": "scheduled",
-        "created_at": "2026-04-01T17:19:38.008-07:00",
-        "updated_at": "2026-04-01T17:19:38.077-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/90tl1jhpq9yt",
-        "started_at": "2026-04-01T17:19:37.999-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "tlphswz6cspp",
-            "status": "scheduled",
-            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base. Downtime is not expected, but users may experience general slowness for Zoom Support Knowledge Base and Ticketing during the maintenance window.",
-            "incident_id": "2gmg7csnkbvp",
-            "created_at": "2026-04-01T17:19:38.074-07:00",
-            "updated_at": "2026-04-01T17:19:38.074-07:00",
-            "display_at": "2026-04-01T17:19:38.074-07:00",
-            "affected_components": [
-              {
-                "code": "yvbblg5f0rdt",
-                "name": "Zoom Support - Knowledge Base",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "9mhsm7sbmhnr",
-                "name": "Zoom Support - Ticketing",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yvbblg5f0rdt",
-            "name": "Knowledge Base",
-            "status": "operational",
-            "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-03-20T18:00:07.109-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "9mhsm7sbmhnr",
-            "name": "Ticketing",
-            "status": "operational",
-            "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-03-20T18:00:07.127-07:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-02T00:00:00.000-07:00",
-        "scheduled_until": "2026-05-02T01:30:00.000-07:00"
-      },
-      {
-        "id": "btvbvz6rz5r7",
-        "name": "Scheduled Zoom Software Quarterly Lifecycle Update (5/2/2026)",
-        "status": "scheduled",
-        "created_at": "2026-02-02T15:42:45.926-08:00",
-        "updated_at": "2026-04-02T11:43:54.590-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/v4czzpn51vw9",
-        "started_at": "2026-02-02T15:42:45.920-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "lq5vr20dljpr",
-            "status": "scheduled",
-            "body": "As a reminder, approximately 30 days ahead of the upcoming enforcement, Zoom will be enforcing a new minimum version for the following areas on May 2, 2026:\n\n\t•\tZoom Rooms (Windows, macOS, iPad, appliances, iOS and Android controllers)\n\t•\tZoom Node (including Meeting Connector MMR)\n\t\n\nAdditionally, beginning with the May 2026 enforcement, Zoom will require a minimum version for Zoom Meeting Hybrid - MMR.\n\nAll other clients and plugins not listed here will maintain the same version requirements as the February 2026 enforcement.\n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130\n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
-            "incident_id": "btvbvz6rz5r7",
-            "created_at": "2026-02-02T15:42:45.985-08:00",
-            "updated_at": "2026-04-02T11:43:54.581-07:00",
-            "display_at": "2026-02-02T15:42:45.985-08:00",
-            "affected_components": [
-              {
-                "code": "9skbqhkvk721",
-                "name": "Zoom Website - Download Center & Clients",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "9skbqhkvk721",
-            "name": "Download Center & Clients",
-            "status": "operational",
-            "created_at": "2018-05-17T11:29:26.349-07:00",
-            "updated_at": "2026-03-15T23:30:07.126-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-02T17:00:00.000-07:00",
-        "scheduled_until": "2026-05-02T18:00:00.000-07:00"
       },
       {
         "id": "kv04r020y57p",
@@ -6694,6 +6720,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-04-09T23:56:02Z"
+    "updated": "2026-04-10T03:34:12Z"
   }
 }
