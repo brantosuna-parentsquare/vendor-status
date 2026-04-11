@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-11T09:10:19Z"
+    "updated": "2026-04-11T10:01:34Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-11T09:10:19Z"
+    "updated": "2026-04-11T10:01:34Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-11T09:10:17Z"
+    "updated": "2026-04-11T09:59:17Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-11T09:10:17Z"
+    "updated": "2026-04-11T09:59:17Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-11T02:01:10.690-07:00"
+      "updated_at": "2026-04-11T02:51:11.350-07:00"
     },
     "components": [
       {
@@ -1117,9 +1117,9 @@
       {
         "id": "4grcx0jpnvgz",
         "name": "Zoom Blog",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-06-11T21:51:04.569-07:00",
-        "updated_at": "2026-04-11T02:01:10.609-07:00",
+        "updated_at": "2026-04-11T02:41:24.017-07:00",
         "position": 1,
         "description": "This is for blog.zoom.us",
         "showcase": false,
@@ -4006,9 +4006,9 @@
       {
         "id": "wm1bsqy8d9jv",
         "name": "Zoom Website",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2025-11-19T23:33:20.249-08:00",
-        "updated_at": "2026-04-11T02:01:10.631-07:00",
+        "updated_at": "2026-04-11T02:41:24.036-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -5182,7 +5182,7 @@
       {
         "id": "1ndlrnp6r9js",
         "name": "Zoom Website",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2020-03-17T15:25:42.214-07:00",
         "updated_at": "2026-01-08T10:55:09.952-08:00",
         "position": 30,
@@ -5491,82 +5491,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "6f4142rf8cry",
-        "name": "Service Degradation Affecting Zoom Blog and Contact Us Webpages.",
-        "status": "investigating",
-        "created_at": "2026-04-11T02:01:10.568-07:00",
-        "updated_at": "2026-04-11T02:01:10.687-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/zrn871v6zmq1",
-        "started_at": "2026-04-11T02:01:10.559-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "9jwtdmwhqpch",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation affecting Zoom Blog and Contact Us webpages.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "6f4142rf8cry",
-            "created_at": "2026-04-11T02:01:10.684-07:00",
-            "updated_at": "2026-04-11T02:01:10.684-07:00",
-            "display_at": "2026-04-11T02:01:10.684-07:00",
-            "affected_components": [
-              {
-                "code": "wm1bsqy8d9jv",
-                "name": "Zoom Website - Zoom Website",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "4grcx0jpnvgz",
-                "name": "Zoom Blog",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "4grcx0jpnvgz",
-            "name": "Zoom Blog",
-            "status": "degraded_performance",
-            "created_at": "2023-06-11T21:51:04.569-07:00",
-            "updated_at": "2026-04-11T02:01:10.609-07:00",
-            "position": 1,
-            "description": "This is for blog.zoom.us",
-            "showcase": false,
-            "start_date": "2023-06-11",
-            "group_id": null,
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "wm1bsqy8d9jv",
-            "name": "Zoom Website",
-            "status": "degraded_performance",
-            "created_at": "2025-11-19T23:33:20.249-08:00",
-            "updated_at": "2026-04-11T02:01:10.631-07:00",
-            "position": 9,
-            "description": null,
-            "showcase": false,
-            "start_date": "2025-11-19",
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "nln33vym275k",
@@ -6305,9 +6230,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "maintenance",
+      "description": "Service Under Maintenance"
     },
-    "updated": "2026-04-11T09:10:17Z"
+    "updated": "2026-04-11T09:59:17Z"
   }
 }
