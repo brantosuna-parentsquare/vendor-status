@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-14T19:45:19Z"
+    "updated": "2026-04-14T20:40:44Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble loading Slack, using canvas, huddles, and other features.",
-    "updated": "2026-04-14T19:45:19Z"
+    "updated": "2026-04-14T20:40:44Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-14T15:16:32.562-04:00"
+      "updated_at": "2026-04-14T16:23:27.841-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-14T19:45:18Z"
+    "updated": "2026-04-14T20:38:29Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-14T19:45:18Z"
+    "updated": "2026-04-14T20:38:29Z"
   },
   "zoom": {
     "page": {
@@ -6456,6 +6456,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-14T19:45:18Z"
+    "updated": "2026-04-14T20:38:29Z"
   }
 }
