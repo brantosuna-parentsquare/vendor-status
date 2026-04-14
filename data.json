@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-14T12:02:46Z"
+    "updated": "2026-04-14T14:10:25Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble loading Slack, using canvas, huddles, and other features.",
-    "updated": "2026-04-14T12:02:46Z"
+    "updated": "2026-04-14T14:10:25Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-14T06:38:27.241-04:00"
+      "updated_at": "2026-04-14T08:58:36.261-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-14T12:02:45Z"
+    "updated": "2026-04-14T14:10:24Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-14T07:13:43.401Z"
+      "updated_at": "2026-04-14T12:58:39.707Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-14T12:02:45Z"
+    "updated": "2026-04-14T14:10:24Z"
   },
   "zoom": {
     "page": {
@@ -781,15 +781,15 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-14T03:20:22.468-07:00"
+      "updated_at": "2026-04-14T06:34:49.205-07:00"
     },
     "components": [
       {
         "id": "3z7b6jks10hm",
         "name": "Zoom Meetings",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2015-01-26T15:04:39.101-08:00",
-        "updated_at": "2026-04-09T11:15:08.608-07:00",
+        "updated_at": "2026-04-14T06:34:49.130-07:00",
         "position": 1,
         "description": "Access to meetings",
         "showcase": false,
@@ -4635,7 +4635,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -5491,7 +5491,135 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "kfm7brc8hkjf",
+        "name": "Service Degradation Affecting Client login, AI Chat Compose, Meeting joining features & Dashboards in the Europe Region",
+        "status": "monitoring",
+        "created_at": "2026-04-14T06:31:48.544-07:00",
+        "updated_at": "2026-04-14T06:34:49.202-07:00",
+        "monitoring_at": "2026-04-14T06:34:49.181-07:00",
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/042vq6d132zl",
+        "started_at": "2026-04-14T06:31:48.527-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "141tzdsk0s6w",
+            "status": "monitoring",
+            "body": "On 4/14/2026 between 12:28 UTC to 12:58 UTC, a subset of users may have experienced issues with Client login, AI Chat Compose, Meeting joining features & Dashboards in the Europe Region. Will continue to monitor the services.\n\nThis incident has been resolved and the affected services have been restored. Thank you for your patience.",
+            "incident_id": "kfm7brc8hkjf",
+            "created_at": "2026-04-14T06:34:49.181-07:00",
+            "updated_at": "2026-04-14T06:34:49.181-07:00",
+            "display_at": "2026-04-14T06:34:49.181-07:00",
+            "affected_components": [
+              {
+                "code": "cn1j8pttz0wy",
+                "name": "Zoom Website - Zoom Dashboard & Reporting",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "under_maintenance",
+                "new_status": "operational"
+              },
+              {
+                "code": "07fc2bfpjgct",
+                "name": "Zoom Chat - Zoom AIC",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "k5bnbzvm8sp1",
+            "status": "investigating",
+            "body": "On 4/14/2026 between 12:28 UTC to 12:58 UTC, a subset of users may have experienced issues with Client login, AI Chat Compose, Meeting joining features & Dashboards in the Europe Region.\n\nThis incident has been resolved and the affected services have been restored.",
+            "incident_id": "kfm7brc8hkjf",
+            "created_at": "2026-04-14T06:31:48.629-07:00",
+            "updated_at": "2026-04-14T06:31:48.629-07:00",
+            "display_at": "2026-04-14T06:31:48.629-07:00",
+            "affected_components": [
+              {
+                "code": "cn1j8pttz0wy",
+                "name": "Zoom Website - Zoom Dashboard & Reporting",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "under_maintenance",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "07fc2bfpjgct",
+                "name": "Zoom Chat - Zoom AIC",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-04-14T06:34:49.130-07:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "cn1j8pttz0wy",
+            "name": "Zoom Dashboard & Reporting",
+            "status": "operational",
+            "created_at": "2020-03-17T15:25:42.220-07:00",
+            "updated_at": "2026-02-27T08:07:45.739-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "07fc2bfpjgct",
+            "name": "Zoom AIC",
+            "status": "operational",
+            "created_at": "2023-09-06T17:04:19.294-07:00",
+            "updated_at": "2026-03-17T00:38:39.190-07:00",
+            "position": 7,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-09-06",
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "8sylqv9484dv",
@@ -5988,9 +6116,9 @@
           {
             "id": "3z7b6jks10hm",
             "name": "Zoom Meetings",
-            "status": "under_maintenance",
+            "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-04-09T11:15:08.608-07:00",
+            "updated_at": "2026-04-14T06:34:49.130-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6227,9 +6355,9 @@
           {
             "id": "3z7b6jks10hm",
             "name": "Zoom Meetings",
-            "status": "under_maintenance",
+            "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-04-09T11:15:08.608-07:00",
+            "updated_at": "2026-04-14T06:34:49.130-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6325,9 +6453,9 @@
       }
     ],
     "status": {
-      "indicator": "maintenance",
-      "description": "Service Under Maintenance"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-04-14T12:02:45Z"
+    "updated": "2026-04-14T14:10:24Z"
   }
 }
