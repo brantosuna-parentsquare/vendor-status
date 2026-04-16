@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-16T20:58:07Z"
+    "updated": "2026-04-16T21:54:54Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble loading Slack, using canvas, huddles, and other features.",
-    "updated": "2026-04-16T20:58:07Z"
+    "updated": "2026-04-16T21:54:54Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-16T20:58:05Z"
+    "updated": "2026-04-16T21:54:52Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-16T20:58:05Z"
+    "updated": "2026-04-16T21:54:52Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-16T13:54:27.984-07:00"
+      "updated_at": "2026-04-16T14:21:15.055-07:00"
     },
     "components": [
       {
@@ -5855,6 +5855,165 @@
         "scheduled_until": "2026-05-02T18:00:00.000-07:00"
       },
       {
+        "id": "tkn4shb8gfhs",
+        "name": "Announcing IP Address Changes (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-04-16T14:13:16.111-07:00",
+        "updated_at": "2026-04-16T14:13:16.188-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/jzt8mfkz3z67",
+        "started_at": "2026-04-16T14:13:16.091-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "9pm5tld5vhhy",
+            "status": "scheduled",
+            "body": "The following IPv4 subnets will be removed from the Zoom Meeting, Zoom Contact Center, and Cloud Room Connector services. These IPv4 ranges no longer host resources and will be removed from Zoom’s inventory starting no earlier than 30 days from the posting of this notice. Due to this, we recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation. \n\nRemoved Zoom Meeting and Webinar IP ranges:\n4.34.125.128/25\n4.35.64.128/25\n8.5.128.0/23\n50.239.202.0/23\n50.239.204.0/24\n64.125.62.0/24\n65.39.152.0/24\n69.174.57.0/24\n120.29.148.0/24\n165.254.88.0/23\n202.177.207.128/27\n204.141.28.0/22\n207.226.132.0/24\n209.9.211.0/24\n209.9.215.0/24\n213.19.144.0/24\n213.19.153.0/24\n213.244.140.0/24\n\nRemoved Zoom Phone IP ranges:\n65.39.152.0/24\n69.174.57.0/24\n120.29.148.0/24\n204.141.28.0/22\n207.226.132.0/24\n209.9.211.0/24\n209.9.215.0/24\n213.19.144.0/24\n213.19.153.0/24\n213.244.140.0/24\n\nRemoved Zoom Contact Center IP ranges:\n50.239.204.0/24\n204.141.28.0/22\n207.226.132.0/24\n\nRemoved Cloud Room Connector IP ranges:\n4.34.125.128/25\n4.35.64.128/25\n8.5.128.0/23\n50.239.202.0/23\n50.239.204.0/24\n64.125.62.0/24\n65.39.152.0/24\n69.174.57.0/24\n120.29.148.0/24\n165.254.88.0/23\n202.177.207.128/27\n204.141.28.0/22\n207.226.132.0/24\n209.9.211.0/24\n209.9.215.0/24\n213.19.144.0/24\n213.19.153.0/24\n213.244.140.0/24\n\nIn addition, the Firewall rules for the Zoom table have been updated with additional domains necessary for logging into Zoom. The additional domains are as follows:\n\ncdn.cookielaw.org\ngoogletagmanager.com \ngstatic.com \ngoogleapis.com\n*.hcaptcha.com\n\nFor a complete list, please see: \nhttps://assets.zoom.us/docs/ipranges/Zoom.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomMeetings.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomCC.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomCRC.txt\n\nA complete list of network firewall IP ranges and domains for Zoom can be found on the Zoom Support site at: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548 \n\nIn addition, a complete list of Zoom data centers can be found on the Zoom Support site at: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067446",
+            "incident_id": "tkn4shb8gfhs",
+            "created_at": "2026-04-16T14:13:16.185-07:00",
+            "updated_at": "2026-04-16T14:13:16.185-07:00",
+            "display_at": "2026-04-16T14:13:16.185-07:00",
+            "affected_components": [
+              {
+                "code": "8gftm750nwzm",
+                "name": "Zoom Website - Web Portal",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "q4msk5dl4bhm",
+                "name": "Zoom Meetings - Zoom Webinars",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "0842bncf5q9f",
+                "name": "Zoom Phone - Global - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "s5s5m6flk56z",
+                "name": "Zoom CX - Global - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-04-16T02:02:23.321-07:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "s5s5m6flk56z",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2024-03-21T13:14:33.314-07:00",
+            "updated_at": "2026-02-08T22:00:07.183-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-03-21",
+            "group_id": "1bmg0stx4mk0",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "8gftm750nwzm",
+            "name": "Web Portal",
+            "status": "operational",
+            "created_at": "2020-03-17T15:28:43.573-07:00",
+            "updated_at": "2026-03-05T12:26:20.682-08:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "0842bncf5q9f",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2024-09-30T13:36:13.230-07:00",
+            "updated_at": "2026-02-08T22:00:07.238-08:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-09-30",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-03-16T00:30:07.154-07:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "q4msk5dl4bhm",
+            "name": "Zoom Webinars",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.115-08:00",
+            "updated_at": "2026-03-16T01:00:07.308-07:00",
+            "position": 20,
+            "description": "Access to video webinars",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-16T23:59:00.000-07:00",
+        "scheduled_until": "2026-05-17T00:00:00.000-07:00"
+      },
+      {
         "id": "2pbg55vrsrld",
         "name": "Zoom Push Notification Service Release: April, 2026 (No Operational Impact)",
         "status": "in_progress",
@@ -6344,6 +6503,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-16T20:58:05Z"
+    "updated": "2026-04-16T21:54:52Z"
   }
 }
