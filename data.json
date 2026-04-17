@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-17T22:07:55Z"
+    "updated": "2026-04-17T23:01:30Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble loading Slack, using canvas, huddles, and other features.",
-    "updated": "2026-04-17T22:07:55Z"
+    "updated": "2026-04-17T23:01:30Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-17T22:07:53Z"
+    "updated": "2026-04-17T23:01:29Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-17T22:07:53Z"
+    "updated": "2026-04-17T23:01:29Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-17T13:18:41.285-07:00"
+      "updated_at": "2026-04-17T16:00:12.815-07:00"
     },
     "components": [
       {
@@ -5514,7 +5514,7 @@
         "name": "Zoom Virtual Agent Update: April 18, 2026 (No Operational Impact)",
         "status": "scheduled",
         "created_at": "2026-04-13T09:48:50.229-07:00",
-        "updated_at": "2026-04-13T09:48:50.288-07:00",
+        "updated_at": "2026-04-17T16:00:09.734-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5522,6 +5522,19 @@
         "started_at": "2026-04-13T09:48:50.223-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "r9gmrmp5hv3z",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "8sylqv9484dv",
+            "created_at": "2026-04-17T16:00:09.611-07:00",
+            "updated_at": "2026-04-17T16:00:09.611-07:00",
+            "display_at": "2026-04-17T16:00:09.611-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "yw08m7tgf0rx",
             "status": "scheduled",
@@ -5568,7 +5581,7 @@
         "name": "Zoom Contact Center Update: April 18, 2026 (No Operational Impact)",
         "status": "scheduled",
         "created_at": "2026-04-13T09:55:47.739-07:00",
-        "updated_at": "2026-04-13T09:55:47.806-07:00",
+        "updated_at": "2026-04-17T16:00:12.807-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5576,6 +5589,19 @@
         "started_at": "2026-04-13T09:55:47.731-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "jfqn7xbv8n56",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "v5d284ljzj7g",
+            "created_at": "2026-04-17T16:00:12.711-07:00",
+            "updated_at": "2026-04-17T16:00:12.711-07:00",
+            "display_at": "2026-04-17T16:00:12.711-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "2qtxqd2vscqw",
             "status": "scheduled",
@@ -6557,6 +6583,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-17T22:07:53Z"
+    "updated": "2026-04-17T23:01:29Z"
   }
 }
