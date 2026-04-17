@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-17T23:01:30Z"
+    "updated": "2026-04-17T23:56:50Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble loading Slack, using canvas, huddles, and other features.",
-    "updated": "2026-04-17T23:01:30Z"
+    "updated": "2026-04-17T23:56:50Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-17T23:01:29Z"
+    "updated": "2026-04-17T23:54:34Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-17T23:01:29Z"
+    "updated": "2026-04-17T23:54:34Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-17T16:00:12.815-07:00"
+      "updated_at": "2026-04-17T16:30:08.267-07:00"
     },
     "components": [
       {
@@ -5510,73 +5510,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "8sylqv9484dv",
-        "name": "Zoom Virtual Agent Update: April 18, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-04-13T09:48:50.229-07:00",
-        "updated_at": "2026-04-17T16:00:09.734-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/nfpv02m9zfyt",
-        "started_at": "2026-04-13T09:48:50.223-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "r9gmrmp5hv3z",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "8sylqv9484dv",
-            "created_at": "2026-04-17T16:00:09.611-07:00",
-            "updated_at": "2026-04-17T16:00:09.611-07:00",
-            "display_at": "2026-04-17T16:00:09.611-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "yw08m7tgf0rx",
-            "status": "scheduled",
-            "body": "This update includes multimodal support and optical character recognition (OCR) capabilities during voice calls.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "8sylqv9484dv",
-            "created_at": "2026-04-13T09:48:50.286-07:00",
-            "updated_at": "2026-04-13T09:48:50.286-07:00",
-            "display_at": "2026-04-13T09:48:50.286-07:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-04-17T17:00:00.000-07:00",
-        "scheduled_until": "2026-04-18T02:00:00.000-07:00"
-      },
-      {
         "id": "v5d284ljzj7g",
         "name": "Zoom Contact Center Update: April 18, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -5644,11 +5577,78 @@
         "scheduled_until": "2026-04-18T02:00:00.000-07:00"
       },
       {
+        "id": "8sylqv9484dv",
+        "name": "Zoom Virtual Agent Update: April 18, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-04-13T09:48:50.229-07:00",
+        "updated_at": "2026-04-17T16:00:09.734-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/nfpv02m9zfyt",
+        "started_at": "2026-04-13T09:48:50.223-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "r9gmrmp5hv3z",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "8sylqv9484dv",
+            "created_at": "2026-04-17T16:00:09.611-07:00",
+            "updated_at": "2026-04-17T16:00:09.611-07:00",
+            "display_at": "2026-04-17T16:00:09.611-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "yw08m7tgf0rx",
+            "status": "scheduled",
+            "body": "This update includes multimodal support and optical character recognition (OCR) capabilities during voice calls.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "8sylqv9484dv",
+            "created_at": "2026-04-13T09:48:50.286-07:00",
+            "updated_at": "2026-04-13T09:48:50.286-07:00",
+            "display_at": "2026-04-13T09:48:50.286-07:00",
+            "affected_components": [
+              {
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
+            "status": "operational",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-04-17T17:00:00.000-07:00",
+        "scheduled_until": "2026-04-18T02:00:00.000-07:00"
+      },
+      {
         "id": "8zdw6xyt9f8g",
         "name": "Support Phone Number Maintenance",
         "status": "scheduled",
         "created_at": "2026-04-17T10:47:49.768-07:00",
-        "updated_at": "2026-04-17T10:47:49.830-07:00",
+        "updated_at": "2026-04-17T16:30:08.261-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5656,6 +5656,19 @@
         "started_at": "2026-04-17T10:47:49.761-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "b95k832x376t",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "8zdw6xyt9f8g",
+            "created_at": "2026-04-17T16:30:08.162-07:00",
+            "updated_at": "2026-04-17T16:30:08.162-07:00",
+            "display_at": "2026-04-17T16:30:08.162-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "32g7jsm3f8gf",
             "status": "scheduled",
@@ -6583,6 +6596,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-17T23:01:29Z"
+    "updated": "2026-04-17T23:54:34Z"
   }
 }
