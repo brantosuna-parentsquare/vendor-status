@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-18T09:34:04Z"
+    "updated": "2026-04-18T10:25:29Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with huddles",
-    "updated": "2026-04-18T09:34:04Z"
+    "updated": "2026-04-18T10:25:29Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T09:34:02Z"
+    "updated": "2026-04-18T10:25:28Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T09:34:02Z"
+    "updated": "2026-04-18T10:25:28Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-18T02:00:07.574-07:00"
+      "updated_at": "2026-04-18T03:20:21.927-07:00"
     },
     "components": [
       {
@@ -6395,6 +6395,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T09:34:02Z"
+    "updated": "2026-04-18T10:25:28Z"
   }
 }
