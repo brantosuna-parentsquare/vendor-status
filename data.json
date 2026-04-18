@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-18T13:18:28Z"
+    "updated": "2026-04-18T14:08:09Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with huddles",
-    "updated": "2026-04-18T13:18:28Z"
+    "updated": "2026-04-18T14:08:09Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-18T07:43:26.076-04:00"
+      "updated_at": "2026-04-18T09:23:30.707-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T13:18:26Z"
+    "updated": "2026-04-18T14:08:07Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-18T11:43:28.433Z"
+      "updated_at": "2026-04-18T13:23:33.256Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T13:18:26Z"
+    "updated": "2026-04-18T14:08:07Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-18T04:43:28.247-07:00"
+      "updated_at": "2026-04-18T06:23:32.942-07:00"
     },
     "components": [
       {
@@ -6395,6 +6395,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T13:18:26Z"
+    "updated": "2026-04-18T14:08:07Z"
   }
 }
