@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-18T06:45:37Z"
+    "updated": "2026-04-18T07:51:39Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble loading Slack, using canvas, huddles, and other features.",
-    "updated": "2026-04-18T06:45:37Z"
+    "updated": "2026-04-18T07:51:39Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T06:43:22Z"
+    "updated": "2026-04-18T07:49:24Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T06:43:22Z"
+    "updated": "2026-04-18T07:49:24Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-17T22:50:46.639-07:00"
+      "updated_at": "2026-04-18T00:22:56.854-07:00"
     },
     "components": [
       {
@@ -4636,7 +4636,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -4968,9 +4968,9 @@
       {
         "id": "9qv6bp63zynp",
         "name": "SMS (Send meeting invite via SMS)",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-08-30T09:45:30.790-07:00",
-        "updated_at": "2026-04-17T19:29:05.795-07:00",
+        "updated_at": "2026-04-18T00:12:19.725-07:00",
         "position": 22,
         "description": null,
         "showcase": false,
@@ -5507,101 +5507,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "1gr3tzmbxd4d",
-        "name": "Service Degradation Affecting SMS Delivery in North America Region.",
-        "status": "identified",
-        "created_at": "2026-04-17T19:29:05.761-07:00",
-        "updated_at": "2026-04-17T22:50:46.633-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/p5bmppq36bgk",
-        "started_at": "2026-04-17T19:29:05.000-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "5lpcr98jwmvk",
-            "status": "identified",
-            "body": "We are actively working with our vendor on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "1gr3tzmbxd4d",
-            "created_at": "2026-04-17T22:44:27.618-07:00",
-            "updated_at": "2026-04-17T22:50:46.630-07:00",
-            "display_at": "2026-04-17T22:44:27.000-07:00",
-            "affected_components": [
-              {
-                "code": "9qv6bp63zynp",
-                "name": "Zoom Meetings - SMS (Send meeting invite via SMS)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "sth2zqgmbwfb",
-            "status": "identified",
-            "body": "We have successfully identified the root cause of a service degradation impacting SMS Delivery in North America region.\n\nWe are actively working with our vendor on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "1gr3tzmbxd4d",
-            "created_at": "2026-04-17T20:59:59.691-07:00",
-            "updated_at": "2026-04-17T22:50:33.479-07:00",
-            "display_at": "2026-04-17T20:59:59.000-07:00",
-            "affected_components": [
-              {
-                "code": "9qv6bp63zynp",
-                "name": "Zoom Meetings - SMS (Send meeting invite via SMS)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "62hg6n19pzvb",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation impacting SMS Delivery in North America region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "1gr3tzmbxd4d",
-            "created_at": "2026-04-17T19:29:05.847-07:00",
-            "updated_at": "2026-04-17T22:49:53.694-07:00",
-            "display_at": "2026-04-17T19:29:05.000-07:00",
-            "affected_components": [
-              {
-                "code": "9qv6bp63zynp",
-                "name": "Zoom Meetings - SMS (Send meeting invite via SMS)",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "9qv6bp63zynp",
-            "name": "SMS (Send meeting invite via SMS)",
-            "status": "degraded_performance",
-            "created_at": "2022-08-30T09:45:30.790-07:00",
-            "updated_at": "2026-04-17T19:29:05.795-07:00",
-            "position": 22,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-08-30",
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "nln33vym275k",
@@ -6646,9 +6552,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-04-18T06:43:22Z"
+    "updated": "2026-04-18T07:49:24Z"
   }
 }
