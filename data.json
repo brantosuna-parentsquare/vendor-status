@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-20T14:14:02Z"
+    "updated": "2026-04-20T15:47:59Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Intermittent trouble with file previews and sending messages for EKM users",
-    "updated": "2026-04-20T14:14:02Z"
+    "latest_title": "Incident: Trouble with search",
+    "updated": "2026-04-20T15:47:59Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-20T14:14:00Z"
+    "updated": "2026-04-20T15:47:57Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-20T14:14:00Z"
+    "updated": "2026-04-20T15:47:57Z"
   },
   "zoom": {
     "page": {
@@ -5956,6 +5956,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-20T14:14:00Z"
+    "updated": "2026-04-20T15:47:57Z"
   }
 }
