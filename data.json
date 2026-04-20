@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-20T04:34:16Z"
+    "updated": "2026-04-20T06:35:51Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Search Failures ",
-    "updated": "2026-04-20T04:34:16Z"
+    "latest_title": "Incident: Search Failures",
+    "updated": "2026-04-20T06:35:51Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-20T04:32:01Z"
+    "updated": "2026-04-20T06:35:50Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-20T04:32:01Z"
+    "updated": "2026-04-20T06:35:50Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-19T18:33:46.111-07:00"
+      "updated_at": "2026-04-19T23:29:55.717-07:00"
     },
     "components": [
       {
@@ -3829,9 +3829,9 @@
       {
         "id": "8vtcg8np4n8c",
         "name": "Live Transcription",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:31:27.476-07:00",
-        "updated_at": "2026-03-16T01:00:07.222-07:00",
+        "updated_at": "2026-04-19T23:05:56.818-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -4636,7 +4636,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -5507,7 +5507,81 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "hr12c94fbvwy",
+        "name": "Service Degradation Affecting Live Transcriptions in Zoom Client 7.0.0 and Above.",
+        "status": "identified",
+        "created_at": "2026-04-19T23:05:56.778-07:00",
+        "updated_at": "2026-04-19T23:29:55.712-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/wjdnf9j0lmfp",
+        "started_at": "2026-04-19T23:05:56.769-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "0kvw5s0ytpxq",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting users using Zoom Client 7.0.0 and above with My Notes feature disabled to view live transcriptions in Meetings. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "hr12c94fbvwy",
+            "created_at": "2026-04-19T23:25:43.327-07:00",
+            "updated_at": "2026-04-19T23:25:43.327-07:00",
+            "display_at": "2026-04-19T23:25:43.327-07:00",
+            "affected_components": [
+              {
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "b292krz15yv6",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting Zoom Client 7.0.2 users to view live transcriptions in Meetings.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "hr12c94fbvwy",
+            "created_at": "2026-04-19T23:05:56.895-07:00",
+            "updated_at": "2026-04-19T23:05:56.895-07:00",
+            "display_at": "2026-04-19T23:05:56.895-07:00",
+            "affected_components": [
+              {
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "8vtcg8np4n8c",
+            "name": "Live Transcription",
+            "status": "degraded_performance",
+            "created_at": "2022-05-03T10:31:27.476-07:00",
+            "updated_at": "2026-04-19T23:05:56.818-07:00",
+            "position": 9,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "2gmg7csnkbvp",
@@ -6284,9 +6358,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-04-20T04:32:01Z"
+    "updated": "2026-04-20T06:35:50Z"
   }
 }
