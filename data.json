@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-21T11:15:58Z"
+    "updated": "2026-04-21T12:10:56Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with search",
-    "updated": "2026-04-21T11:15:58Z"
+    "updated": "2026-04-21T12:10:56Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-21T11:15:56Z"
+    "updated": "2026-04-21T12:10:55Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-21T10:53:41.141Z"
+      "updated_at": "2026-04-21T11:57:08.109Z"
     },
     "components": [
       {
@@ -242,9 +242,9 @@
       {
         "id": "8yllr704tq9n",
         "name": "App",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T18:04:01.236Z",
-        "updated_at": "2026-02-23T11:23:09.000Z",
+        "updated_at": "2026-04-21T11:57:03.000Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -317,7 +317,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -770,10 +770,10 @@
     "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "major",
+      "description": "Partial System Outage"
     },
-    "updated": "2026-04-21T11:15:56Z"
+    "updated": "2026-04-21T12:10:55Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-21T03:53:40.682-07:00"
+      "updated_at": "2026-04-21T04:20:35.078-07:00"
     },
     "components": [
       {
@@ -5714,6 +5714,60 @@
         "scheduled_until": "2026-05-09T00:00:00.000-07:00"
       },
       {
+        "id": "z14y3t1xlxp6",
+        "name": "Zoom Conference Room Connector Update: May 10, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-04-21T04:17:43.488-07:00",
+        "updated_at": "2026-04-21T04:17:43.561-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/pyc4km44nbnq",
+        "started_at": "2026-04-21T04:17:43.479-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "mqnndgkd13g3",
+            "status": "scheduled",
+            "body": "As part of our ongoing service enhancements for Conference Room Connector, we are introducing new DNS records for SIP/H.323 endpoints in the São Paulo region. At the same time, we will be decommissioning legacy DNS records that are no longer actively used.  These changes will take effect on May 10th, 2026.\n\nNew DNS Records\nA Records:\n\nsp.zoomcrc.com\n\nSRV Records:\n\n_sip._tcp.sp.zoomcrc.com\n\n_sips._tcp.sp.zoomcrc.com\n\n_sip._udp.sp.zoomcrc.com\n\n_h323cs._tcp.sp.zoomcrc.com\n\nThese records will be active immediately upon deployment. Please update your endpoint configurations to use the new DNS records.\n\nRecords to be Removed\nA Record:\n\nvip2.zmbr.us\n\nSRV Records:\n\n_sip._tcp.vip2.zmbr.us\n\n_sips._tcp.vip2.zmbr.us\n\n_sip._udp.vip2.zmbr.us\n\n_h323cs._tcp.vip2.zmbr.us\n\nThe legacy records listed above will be removed to streamline our DNS infrastructure. If you are currently using these records, please transition to the new DNS records to avoid service disruption.\n\nAction Required\nPlease review your endpoint configurations and update any references from the legacy DNS records to the new ones before May 10th, 2026.",
+            "incident_id": "z14y3t1xlxp6",
+            "created_at": "2026-04-21T04:17:43.558-07:00",
+            "updated_at": "2026-04-21T04:17:43.558-07:00",
+            "display_at": "2026-04-21T04:17:43.558-07:00",
+            "affected_components": [
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-03-16T00:30:07.154-07:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-09T20:30:00.000-07:00",
+        "scheduled_until": "2026-05-10T11:00:00.000-07:00"
+      },
+      {
         "id": "tkn4shb8gfhs",
         "name": "Announcing IP Address Changes (No Operational Impact)",
         "status": "scheduled",
@@ -6031,6 +6085,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-21T11:15:56Z"
+    "updated": "2026-04-21T12:10:55Z"
   }
 }
