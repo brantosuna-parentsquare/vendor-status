@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-22T08:11:50Z"
+    "updated": "2026-04-22T09:55:42Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with search",
-    "updated": "2026-04-22T08:11:50Z"
+    "updated": "2026-04-22T09:55:42Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-22T08:11:49Z"
+    "updated": "2026-04-22T09:55:40Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-22T04:28:40.380Z"
+      "updated_at": "2026-04-22T09:54:57.129Z"
     },
     "components": [
       {
@@ -244,7 +244,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2023-02-09T18:04:01.236Z",
-        "updated_at": "2026-04-21T22:08:02.000Z",
+        "updated_at": "2026-04-22T09:54:57.125Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-22T08:11:49Z"
+    "updated": "2026-04-22T09:55:40Z"
   },
   "zoom": {
     "page": {
@@ -6085,6 +6085,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-22T08:11:49Z"
+    "updated": "2026-04-22T09:55:40Z"
   }
 }
