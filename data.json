@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-24T16:44:00Z"
+    "updated": "2026-04-24T17:39:47Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with search",
-    "updated": "2026-04-24T16:44:00Z"
+    "updated": "2026-04-24T17:39:47Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-24T16:43:58Z"
+    "updated": "2026-04-24T17:39:45Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-24T16:43:58Z"
+    "updated": "2026-04-24T17:39:45Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-24T09:00:07.150-07:00"
+      "updated_at": "2026-04-24T10:20:22.699-07:00"
     },
     "components": [
       {
@@ -5639,6 +5639,60 @@
         "scheduled_until": "2026-05-02T18:00:00.000-07:00"
       },
       {
+        "id": "pzr802zp1qxd",
+        "name": "Zoom Audio Conference Infrastructure Upgrade (IAD - Washington D.C.)",
+        "status": "scheduled",
+        "created_at": "2026-04-24T10:16:24.046-07:00",
+        "updated_at": "2026-04-24T10:16:24.117-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/6w6sl06wnmz0",
+        "started_at": "2026-04-24T10:16:24.038-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "q9xk1332ptl6",
+            "status": "scheduled",
+            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.\n\nEastern Time (EDT): May 8, 08:00 PM – May 10, 05:00 AM\n\nPacific Time (PDT): May 8, 05:00 PM – May 10, 02:00 AM\n\nUTC: May 9, 12:00 AM – May 10, 09:00 AM",
+            "incident_id": "pzr802zp1qxd",
+            "created_at": "2026-04-24T10:16:24.113-07:00",
+            "updated_at": "2026-04-24T10:16:24.113-07:00",
+            "display_at": "2026-04-24T10:16:24.113-07:00",
+            "affected_components": [
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2026-03-16T01:00:07.267-07:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-08T10:12:00.000-07:00",
+        "scheduled_until": "2026-05-09T19:12:00.000-07:00"
+      },
+      {
         "id": "3lvkpgpr4k7m",
         "name": "Zoom Support Maintenance - May 08, 2026",
         "status": "scheduled",
@@ -5766,6 +5820,60 @@
         ],
         "scheduled_for": "2026-05-09T20:30:00.000-07:00",
         "scheduled_until": "2026-05-10T11:00:00.000-07:00"
+      },
+      {
+        "id": "95g58cvtsd71",
+        "name": "Zoom Audio Conference Infrastructure Upgrade (SJC - San Jose)",
+        "status": "scheduled",
+        "created_at": "2026-04-24T10:19:21.441-07:00",
+        "updated_at": "2026-04-24T10:19:21.493-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/1b6g051wmhzt",
+        "started_at": "2026-04-24T10:19:21.435-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "jv0z80c1scbl",
+            "status": "scheduled",
+            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.\n\nEastern Time (EDT): May 15, 08:00 PM – May 17, 05:00 AM\n\nPacific Time (PDT): May 15, 05:00 PM – May 17, 02:00 AM\n\nUTC: May 16, 12:00 AM – May 17, 09:00 AM",
+            "incident_id": "95g58cvtsd71",
+            "created_at": "2026-04-24T10:19:21.491-07:00",
+            "updated_at": "2026-04-24T10:19:21.491-07:00",
+            "display_at": "2026-04-24T10:19:21.491-07:00",
+            "affected_components": [
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2026-03-16T01:00:07.267-07:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-15T17:00:00.000-07:00",
+        "scheduled_until": "2026-05-17T02:00:00.000-07:00"
       },
       {
         "id": "tkn4shb8gfhs",
@@ -6005,6 +6113,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-24T16:43:58Z"
+    "updated": "2026-04-24T17:39:45Z"
   }
 }
