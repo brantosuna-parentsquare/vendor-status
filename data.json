@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-29T22:15:07Z"
+    "updated": "2026-04-29T23:14:12Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: File upload errors",
-    "updated": "2026-04-29T22:15:07Z"
+    "updated": "2026-04-29T23:14:12Z"
   },
   "hubspot": {
     "page": {
@@ -244,7 +244,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-04-29T22:15:06Z"
+    "updated": "2026-04-29T23:14:11Z"
   },
   "asana": {
     "page": {
@@ -252,7 +252,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-29T20:03:35.267Z"
+      "updated_at": "2026-04-29T23:09:42.587Z"
     },
     "components": [
       {
@@ -827,7 +827,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T22:15:06Z"
+    "updated": "2026-04-29T23:14:11Z"
   },
   "zoom": {
     "page": {
@@ -7064,6 +7064,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T22:15:06Z"
+    "updated": "2026-04-29T23:14:11Z"
   }
 }
