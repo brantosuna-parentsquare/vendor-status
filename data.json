@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-29T15:29:36Z"
+    "updated": "2026-04-29T17:08:22Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: File upload errors",
-    "updated": "2026-04-29T15:29:36Z"
+    "updated": "2026-04-29T17:08:22Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-29T11:13:26.127-04:00"
+      "updated_at": "2026-04-29T12:43:24.136-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T15:29:34Z"
+    "updated": "2026-04-29T17:08:20Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-29T15:13:29.781Z"
+      "updated_at": "2026-04-29T16:43:28.040Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T15:29:34Z"
+    "updated": "2026-04-29T17:08:20Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-29T08:13:29.208-07:00"
+      "updated_at": "2026-04-29T09:43:27.530-07:00"
     },
     "components": [
       {
@@ -5253,9 +5253,9 @@
       {
         "id": "63tynlbcxywz",
         "name": "Clinical Notes",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2025-03-25T05:05:22.478-07:00",
-        "updated_at": "2026-02-10T10:56:56.424-08:00",
+        "updated_at": "2026-04-29T08:45:59.009-07:00",
         "position": 33,
         "description": null,
         "showcase": false,
@@ -5507,7 +5507,61 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "4fzgzm1vwcz4",
+        "name": "Service Degradation Affecting Zoom Clinical Notes in United States",
+        "status": "identified",
+        "created_at": "2026-04-29T08:45:58.979-07:00",
+        "updated_at": "2026-04-29T08:45:59.058-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/cvqxb6v914ym",
+        "started_at": "2026-04-29T08:45:58.974-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "ls02msnpb7pk",
+            "status": "identified",
+            "body": "We have identified an issue with our external vendor in United States where users are experiencing issues with Zoom Clinical Notes.\nWe are actively working with vendor partner to resolve the issue.\nWe will share updates as soon as they become available.",
+            "incident_id": "4fzgzm1vwcz4",
+            "created_at": "2026-04-29T08:45:59.056-07:00",
+            "updated_at": "2026-04-29T08:45:59.056-07:00",
+            "display_at": "2026-04-29T08:45:59.056-07:00",
+            "affected_components": [
+              {
+                "code": "63tynlbcxywz",
+                "name": "Clinical Notes",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "63tynlbcxywz",
+            "name": "Clinical Notes",
+            "status": "degraded_performance",
+            "created_at": "2025-03-25T05:05:22.478-07:00",
+            "updated_at": "2026-04-29T08:45:59.009-07:00",
+            "position": 33,
+            "description": null,
+            "showcase": false,
+            "start_date": "2025-03-25",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "2gmg7csnkbvp",
@@ -7007,9 +7061,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-04-29T15:29:34Z"
+    "updated": "2026-04-29T17:08:20Z"
   }
 }
