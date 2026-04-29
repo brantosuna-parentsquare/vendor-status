@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-29T17:08:22Z"
+    "updated": "2026-04-29T18:48:09Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: File upload errors",
-    "updated": "2026-04-29T17:08:22Z"
+    "updated": "2026-04-29T18:48:09Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T17:08:20Z"
+    "updated": "2026-04-29T18:48:08Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T17:08:20Z"
+    "updated": "2026-04-29T18:48:08Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-29T09:43:27.530-07:00"
+      "updated_at": "2026-04-29T11:45:14.991-07:00"
     },
     "components": [
       {
@@ -5253,9 +5253,9 @@
       {
         "id": "63tynlbcxywz",
         "name": "Clinical Notes",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2025-03-25T05:05:22.478-07:00",
-        "updated_at": "2026-04-29T08:45:59.009-07:00",
+        "updated_at": "2026-04-29T11:45:14.939-07:00",
         "position": 33,
         "description": null,
         "showcase": false,
@@ -5511,16 +5511,76 @@
       {
         "id": "4fzgzm1vwcz4",
         "name": "Service Degradation Affecting Zoom Clinical Notes in United States",
-        "status": "identified",
+        "status": "monitoring",
         "created_at": "2026-04-29T08:45:58.979-07:00",
-        "updated_at": "2026-04-29T08:45:59.058-07:00",
-        "monitoring_at": null,
+        "updated_at": "2026-04-29T11:45:14.989-07:00",
+        "monitoring_at": "2026-04-29T11:45:14.975-07:00",
         "resolved_at": null,
         "impact": "minor",
         "shortlink": "https://stspg.io/cvqxb6v914ym",
         "started_at": "2026-04-29T08:45:58.974-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "3ybjx4md1fck",
+            "status": "monitoring",
+            "body": "Our vendor has successfully resolved the issue affecting Zoom Clinical Notes in United States. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.\n\nThank you for your patience.",
+            "incident_id": "4fzgzm1vwcz4",
+            "created_at": "2026-04-29T11:45:14.975-07:00",
+            "updated_at": "2026-04-29T11:45:14.975-07:00",
+            "display_at": "2026-04-29T11:45:14.975-07:00",
+            "affected_components": [
+              {
+                "code": "63tynlbcxywz",
+                "name": "Clinical Notes",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "844gzvzk3stc",
+            "status": "identified",
+            "body": "We continue to work with the vendor to resolve the issue. We will keep you informed with timely updates as progress is made.\nThank you for your patience.",
+            "incident_id": "4fzgzm1vwcz4",
+            "created_at": "2026-04-29T11:19:18.460-07:00",
+            "updated_at": "2026-04-29T11:19:18.460-07:00",
+            "display_at": "2026-04-29T11:19:18.460-07:00",
+            "affected_components": [
+              {
+                "code": "63tynlbcxywz",
+                "name": "Clinical Notes",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "nqp5m0qtbzbw",
+            "status": "identified",
+            "body": "We continue to work with the vendor to resolve the issue. We will keep you informed with timely updates as progress is made.\nThank you for your patience.",
+            "incident_id": "4fzgzm1vwcz4",
+            "created_at": "2026-04-29T10:16:07.154-07:00",
+            "updated_at": "2026-04-29T10:16:07.154-07:00",
+            "display_at": "2026-04-29T10:16:07.154-07:00",
+            "affected_components": [
+              {
+                "code": "63tynlbcxywz",
+                "name": "Clinical Notes",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "ls02msnpb7pk",
             "status": "identified",
@@ -5546,9 +5606,9 @@
           {
             "id": "63tynlbcxywz",
             "name": "Clinical Notes",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2025-03-25T05:05:22.478-07:00",
-            "updated_at": "2026-04-29T08:45:59.009-07:00",
+            "updated_at": "2026-04-29T11:45:14.939-07:00",
             "position": 33,
             "description": null,
             "showcase": false,
@@ -7061,9 +7121,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T17:08:20Z"
+    "updated": "2026-04-29T18:48:08Z"
   }
 }
