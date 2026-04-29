@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-29T13:11:41Z"
+    "updated": "2026-04-29T15:29:36Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: File upload errors",
-    "updated": "2026-04-29T13:11:41Z"
+    "updated": "2026-04-29T15:29:36Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-29T06:03:32.722-04:00"
+      "updated_at": "2026-04-29T11:13:26.127-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T13:11:39Z"
+    "updated": "2026-04-29T15:29:34Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-29T10:03:35.859Z"
+      "updated_at": "2026-04-29T15:13:29.781Z"
     },
     "components": [
       {
@@ -417,7 +417,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-04-27T12:26:03.000Z",
+        "updated_at": "2026-04-29T14:06:03.000Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T13:11:39Z"
+    "updated": "2026-04-29T15:29:34Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-29T03:03:36.954-07:00"
+      "updated_at": "2026-04-29T08:13:29.208-07:00"
     },
     "components": [
       {
@@ -7010,6 +7010,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T13:11:39Z"
+    "updated": "2026-04-29T15:29:34Z"
   }
 }
