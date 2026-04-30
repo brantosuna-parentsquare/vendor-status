@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-29T23:14:12Z"
+    "updated": "2026-04-30T00:11:24Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: File upload errors",
-    "updated": "2026-04-29T23:14:12Z"
+    "updated": "2026-04-30T00:11:24Z"
   },
   "hubspot": {
     "page": {
@@ -244,7 +244,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-04-29T23:14:11Z"
+    "updated": "2026-04-30T00:11:22Z"
   },
   "asana": {
     "page": {
@@ -252,7 +252,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-29T23:09:42.587Z"
+      "updated_at": "2026-04-29T23:31:34.885Z"
     },
     "components": [
       {
@@ -554,7 +554,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2020-07-13T15:37:24.240Z",
-        "updated_at": "2026-01-22T18:01:34.000Z",
+        "updated_at": "2026-04-29T23:30:20.768Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -569,7 +569,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2023-02-09T18:04:50.001Z",
-        "updated_at": "2025-12-13T05:00:22.204Z",
+        "updated_at": "2026-04-29T23:31:34.880Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -765,7 +765,7 @@
         "name": "Notifications",
         "status": "operational",
         "created_at": "2025-03-26T21:18:40.037Z",
-        "updated_at": "2025-12-13T05:00:22.651Z",
+        "updated_at": "2026-04-29T23:24:47.630Z",
         "position": 6,
         "description": null,
         "showcase": true,
@@ -827,7 +827,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T23:14:11Z"
+    "updated": "2026-04-30T00:11:22Z"
   },
   "zoom": {
     "page": {
@@ -7064,6 +7064,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-29T23:14:11Z"
+    "updated": "2026-04-30T00:11:22Z"
   }
 }
