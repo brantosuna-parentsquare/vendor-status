@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-04-30T21:09:34Z"
+    "updated": "2026-04-30T22:10:37Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Search Failures",
-    "updated": "2026-04-30T21:09:34Z"
+    "updated": "2026-04-30T22:10:37Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-04-30T14:33:36.218-04:00"
+      "updated_at": "2026-04-30T17:48:35.838-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-30T21:09:33Z"
+    "updated": "2026-04-30T22:10:35Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-04-30T18:33:39.733Z"
+      "updated_at": "2026-04-30T21:48:38.969Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-30T21:09:33Z"
+    "updated": "2026-04-30T22:10:35Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-04-30T11:33:39.428-07:00"
+      "updated_at": "2026-04-30T15:05:14.352-07:00"
     },
     "components": [
       {
@@ -6932,6 +6932,60 @@
         "scheduled_until": "2026-05-17T00:00:00.000-07:00"
       },
       {
+        "id": "02jc9z4vflg4",
+        "name": "Scheduled Zoom Software Quarterly Lifecycle Update (8/1/2026)",
+        "status": "scheduled",
+        "created_at": "2026-04-30T15:05:14.280-07:00",
+        "updated_at": "2026-04-30T15:05:14.349-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/xtl0ky3c609f",
+        "started_at": "2026-04-30T15:05:14.273-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "mrhcv7gwmtpk",
+            "status": "scheduled",
+            "body": "Zoom will be enforcing a new minimum version for the following areas, approximately 90 days from now, on August 1, 2026:\n\nZoom Rooms (Windows, macOS, iPad, appliances, iOS and Android controllers)\n\nZoom Phone Appliances\n\nVDI Client and Plugin\n\nZoom Node (including Agent and Meeting Connector ZC)\n\nZoom Phone Local Survivability (ZPLS) module\n\nMeeting SDK (Native and Web)\n\nVideo SDK (Native and Web)\n\nVideo SDK UI Toolkit (iOS and Web)\n\nZoom Contact Center SDK (Web)\n\nAll other clients and plugins not listed here will maintain the same version requirements as the May 2026 enforcement.\n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130\n\nTo assist with checking the client versions on your account, refer to the Dashboard support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
+            "incident_id": "02jc9z4vflg4",
+            "created_at": "2026-04-30T15:05:14.346-07:00",
+            "updated_at": "2026-04-30T15:05:14.346-07:00",
+            "display_at": "2026-04-30T15:05:14.346-07:00",
+            "affected_components": [
+              {
+                "code": "9skbqhkvk721",
+                "name": "Zoom Website - Download Center & Clients",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "9skbqhkvk721",
+            "name": "Download Center & Clients",
+            "status": "operational",
+            "created_at": "2018-05-17T11:29:26.349-07:00",
+            "updated_at": "2026-03-15T23:30:07.126-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-08-01T17:00:00.000-07:00",
+        "scheduled_until": "2026-08-01T18:00:00.000-07:00"
+      },
+      {
         "id": "kv04r020y57p",
         "name": "Announcement to Introduce hCaptcha to Zoom Service",
         "status": "in_progress",
@@ -7010,6 +7064,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-04-30T21:09:33Z"
+    "updated": "2026-04-30T22:10:35Z"
   }
 }
