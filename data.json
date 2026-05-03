@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-03T19:40:27Z"
+    "updated": "2026-05-03T20:27:27Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Workflow Builder Data Sources",
-    "updated": "2026-05-03T19:40:27Z"
+    "updated": "2026-05-03T20:27:27Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-03T19:40:25Z"
+    "updated": "2026-05-03T20:27:26Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-03T19:40:25Z"
+    "updated": "2026-05-03T20:27:26Z"
   },
   "zoom": {
     "page": {
@@ -7877,6 +7877,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-03T19:40:25Z"
+    "updated": "2026-05-03T20:27:26Z"
   }
 }
