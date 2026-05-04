@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-04T13:10:19Z"
+    "updated": "2026-05-04T15:24:58Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Slack Connectivity issue",
-    "updated": "2026-05-04T13:10:19Z"
+    "updated": "2026-05-04T15:24:58Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-04T13:10:18Z"
+    "updated": "2026-05-04T15:24:56Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-04T11:13:36.815Z"
+      "updated_at": "2026-05-04T13:53:28.280Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-04T13:10:18Z"
+    "updated": "2026-05-04T15:24:56Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-04T04:13:36.538-07:00"
+      "updated_at": "2026-05-04T07:00:07.208-07:00"
     },
     "components": [
       {
@@ -5510,81 +5510,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "3d7q5k9zbgb9",
-        "name": "Zoom Phone/Zoom Contact Center General Underlying Provider Maintenance",
-        "status": "scheduled",
-        "created_at": "2026-05-01T09:40:24.588-07:00",
-        "updated_at": "2026-05-01T09:40:24.665-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/lnkptytdg7yq",
-        "started_at": "2026-05-01T09:40:24.575-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "v94f72ls86zw",
-            "status": "scheduled",
-            "body": "In the ongoing efforts to improve our services, we will be conducting general maintenance with our underlying carriers in Europe.  This maintenance will be done after normal business hours with no expected service interruptions. The scheduled countries are:\n\nPortugal\n\nDenmark\n\nAustria\n\nSweden\n\nSpain\n\nBelgium\n\nNetherlands\n\nSwitzerland\n\nItaly\n\nFrance\n\nIreland\n\nDenmark\n\nUnited Kingdom",
-            "incident_id": "3d7q5k9zbgb9",
-            "created_at": "2026-05-01T09:40:24.661-07:00",
-            "updated_at": "2026-05-01T09:40:24.661-07:00",
-            "display_at": "2026-05-01T09:40:24.661-07:00",
-            "affected_components": [
-              {
-                "code": "773zkp1jzkgl",
-                "name": "Zoom Phone - EMEA - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "kmldw5k76q3v",
-                "name": "Zoom CX - EMEA - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "773zkp1jzkgl",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:43:27.197-07:00",
-            "updated_at": "2026-02-27T21:00:07.110-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "kmldw5k76q3v",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2023-03-22T11:11:40.011-07:00",
-            "updated_at": "2026-01-12T06:40:21.109-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-22",
-            "group_id": "7chtmmrntn4s",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-04T07:00:00.000-07:00",
-        "scheduled_until": "2026-06-05T17:00:00.000-07:00"
-      },
-      {
         "id": "983cyyg4glck",
         "name": "Zoom Push Notification Service Release: May, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -7535,6 +7460,94 @@
         "scheduled_until": "2026-08-01T18:00:00.000-07:00"
       },
       {
+        "id": "3d7q5k9zbgb9",
+        "name": "Zoom Phone/Zoom Contact Center General Underlying Provider Maintenance",
+        "status": "in_progress",
+        "created_at": "2026-05-01T09:40:24.588-07:00",
+        "updated_at": "2026-05-04T07:00:07.186-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/lnkptytdg7yq",
+        "started_at": "2026-05-01T09:40:24.575-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "74qf6hx8k1lc",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "3d7q5k9zbgb9",
+            "created_at": "2026-05-04T07:00:07.181-07:00",
+            "updated_at": "2026-05-04T07:00:07.181-07:00",
+            "display_at": "2026-05-04T07:00:07.181-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "v94f72ls86zw",
+            "status": "scheduled",
+            "body": "In the ongoing efforts to improve our services, we will be conducting general maintenance with our underlying carriers in Europe.  This maintenance will be done after normal business hours with no expected service interruptions. The scheduled countries are:\n\nPortugal\n\nDenmark\n\nAustria\n\nSweden\n\nSpain\n\nBelgium\n\nNetherlands\n\nSwitzerland\n\nItaly\n\nFrance\n\nIreland\n\nDenmark\n\nUnited Kingdom",
+            "incident_id": "3d7q5k9zbgb9",
+            "created_at": "2026-05-01T09:40:24.661-07:00",
+            "updated_at": "2026-05-01T09:40:24.661-07:00",
+            "display_at": "2026-05-01T09:40:24.661-07:00",
+            "affected_components": [
+              {
+                "code": "773zkp1jzkgl",
+                "name": "Zoom Phone - EMEA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "kmldw5k76q3v",
+                "name": "Zoom CX - EMEA - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "773zkp1jzkgl",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2022-05-03T10:43:27.197-07:00",
+            "updated_at": "2026-02-27T21:00:07.110-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "8sq44v6xhj9v",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "kmldw5k76q3v",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2023-03-22T11:11:40.011-07:00",
+            "updated_at": "2026-01-12T06:40:21.109-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-03-22",
+            "group_id": "7chtmmrntn4s",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-04T07:00:00.000-07:00",
+        "scheduled_until": "2026-06-05T17:00:00.000-07:00"
+      },
+      {
         "id": "kv04r020y57p",
         "name": "Announcement to Introduce hCaptcha to Zoom Service",
         "status": "in_progress",
@@ -7613,6 +7626,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-04T13:10:18Z"
+    "updated": "2026-05-04T15:24:56Z"
   }
 }
