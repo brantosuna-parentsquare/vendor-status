@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-08T15:00:55Z"
+    "updated": "2026-05-08T16:43:39Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble connecting to or loading Slack",
-    "updated": "2026-05-08T15:00:55Z"
+    "updated": "2026-05-08T16:43:39Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-08T10:43:32.409-04:00"
+      "updated_at": "2026-05-08T11:33:31.675-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-08T15:00:53Z"
+    "updated": "2026-05-08T16:43:37Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-08T14:43:35.218Z"
+      "updated_at": "2026-05-08T15:33:36.024Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-08T15:00:53Z"
+    "updated": "2026-05-08T16:43:37Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-08T07:47:27.492-07:00"
+      "updated_at": "2026-05-08T09:29:54.315-07:00"
     },
     "components": [
       {
@@ -4020,6 +4020,21 @@
         "only_show_if_degraded": false
       },
       {
+        "id": "v3f87m80cz52",
+        "name": "Hardware Phone",
+        "status": "under_maintenance",
+        "created_at": "2026-05-08T08:09:59.241-07:00",
+        "updated_at": "2026-05-08T08:15:07.141-07:00",
+        "position": 9,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-05-08",
+        "group_id": "gwtd6dbkck60",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
         "id": "ytpvvb8n0s31",
         "name": "Closed Captioning",
         "status": "operational",
@@ -4465,9 +4480,9 @@
       {
         "id": "576m25cw4prj",
         "name": "Zoom Docs",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2024-08-07T20:19:58.046-07:00",
-        "updated_at": "2026-05-08T07:47:27.426-07:00",
+        "updated_at": "2026-05-08T09:07:47.960-07:00",
         "position": 13,
         "description": null,
         "showcase": false,
@@ -5061,7 +5076,7 @@
       {
         "id": "gwtd6dbkck60",
         "name": "Zoom Phone - NORTH AMERICA",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:37:27.877-07:00",
         "updated_at": "2024-08-14T13:40:39.076-07:00",
         "position": 25,
@@ -5080,7 +5095,8 @@
           "1hghqg91w5zf",
           "0h08kcybkm9y",
           "y5ryrz3d2f5n",
-          "7t0r1gywtg50"
+          "7t0r1gywtg50",
+          "v3f87m80cz52"
         ]
       },
       {
@@ -5507,68 +5523,14 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "7pxv1zmwq4lm",
-        "name": "Service Degradation Affecting Zoom Doc Services in United States",
-        "status": "investigating",
-        "created_at": "2026-05-08T07:47:27.387-07:00",
-        "updated_at": "2026-05-08T07:47:27.489-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/ncmpv3ccw5wn",
-        "started_at": "2026-05-08T07:47:27.381-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "vr8s2y39qgjb",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation affecting Zoom Doc Services.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "7pxv1zmwq4lm",
-            "created_at": "2026-05-08T07:47:27.486-07:00",
-            "updated_at": "2026-05-08T07:47:27.486-07:00",
-            "display_at": "2026-05-08T07:47:27.486-07:00",
-            "affected_components": [
-              {
-                "code": "576m25cw4prj",
-                "name": "Zoom Docs",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "576m25cw4prj",
-            "name": "Zoom Docs",
-            "status": "degraded_performance",
-            "created_at": "2024-08-07T20:19:58.046-07:00",
-            "updated_at": "2026-05-08T07:47:27.426-07:00",
-            "position": 13,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-08-07",
-            "group_id": null,
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "pzr802zp1qxd",
         "name": "Zoom Audio Conference Infrastructure Upgrade (IAD - Washington D.C.)",
         "status": "scheduled",
         "created_at": "2026-04-24T10:16:24.046-07:00",
-        "updated_at": "2026-04-24T10:16:24.117-07:00",
+        "updated_at": "2026-05-08T09:12:07.361-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5576,6 +5538,19 @@
         "started_at": "2026-04-24T10:16:24.038-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "fm97vgxknw4x",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "pzr802zp1qxd",
+            "created_at": "2026-05-08T09:12:07.257-07:00",
+            "updated_at": "2026-05-08T09:12:07.257-07:00",
+            "display_at": "2026-05-08T09:12:07.257-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "q9xk1332ptl6",
             "status": "scheduled",
@@ -8201,6 +8176,80 @@
         "scheduled_until": "2026-08-01T18:00:00.000-07:00"
       },
       {
+        "id": "ht7g9l6wjvnw",
+        "name": "Emergency Maintenance: Zoom Phone in United States East Region",
+        "status": "in_progress",
+        "created_at": "2026-05-08T08:14:24.826-07:00",
+        "updated_at": "2026-05-08T08:15:07.180-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/p2qbynthxjhs",
+        "started_at": "2026-05-08T08:14:24.818-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "d02gvjnhmtb7",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "ht7g9l6wjvnw",
+            "created_at": "2026-05-08T08:15:07.178-07:00",
+            "updated_at": "2026-05-08T08:15:07.178-07:00",
+            "display_at": "2026-05-08T08:15:07.178-07:00",
+            "affected_components": [
+              {
+                "code": "v3f87m80cz52",
+                "name": "Zoom Phone - NORTH AMERICA - Hardware Phone",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "d5vsw0l54l33",
+            "status": "scheduled",
+            "body": "Users in United States East Region with hardware based phones may experience issues with registration with the Zoom Phone service during the maintenance.",
+            "incident_id": "ht7g9l6wjvnw",
+            "created_at": "2026-05-08T08:14:24.883-07:00",
+            "updated_at": "2026-05-08T08:14:24.883-07:00",
+            "display_at": "2026-05-08T08:14:24.883-07:00",
+            "affected_components": [
+              {
+                "code": "v3f87m80cz52",
+                "name": "Zoom Phone - NORTH AMERICA - Hardware Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "v3f87m80cz52",
+            "name": "Hardware Phone",
+            "status": "under_maintenance",
+            "created_at": "2026-05-08T08:09:59.241-07:00",
+            "updated_at": "2026-05-08T08:15:07.141-07:00",
+            "position": 9,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-05-08",
+            "group_id": "gwtd6dbkck60",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-08T08:15:00.000-07:00",
+        "scheduled_until": "2026-05-08T14:15:00.000-07:00"
+      },
+      {
         "id": "983cyyg4glck",
         "name": "Zoom Push Notification Service Release: May, 2026 (No Operational Impact)",
         "status": "in_progress",
@@ -8746,9 +8795,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "maintenance",
+      "description": "Service Under Maintenance"
     },
-    "updated": "2026-05-08T15:00:53Z"
+    "updated": "2026-05-08T16:43:37Z"
   }
 }
