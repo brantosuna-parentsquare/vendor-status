@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-09T10:13:00Z"
+    "updated": "2026-05-09T11:14:26Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble connecting to or loading Slack",
-    "updated": "2026-05-09T10:13:00Z"
+    "updated": "2026-05-09T11:14:26Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-09T05:03:36.882-04:00"
+      "updated_at": "2026-05-09T06:18:33.637-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-09T10:12:58Z"
+    "updated": "2026-05-09T11:14:24Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-09T09:03:42.053Z"
+      "updated_at": "2026-05-09T10:18:36.660Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-09T10:12:58Z"
+    "updated": "2026-05-09T11:14:24Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-09T02:03:39.413-07:00"
+      "updated_at": "2026-05-09T03:39:37.459-07:00"
     },
     "components": [
       {
@@ -3351,9 +3351,9 @@
       {
         "id": "08fp2rr1spx0",
         "name": "Integrations/Calendar/Plug-In/Add-In",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-01-31T21:55:23.273-08:00",
-        "updated_at": "2026-03-12T09:03:35.426-07:00",
+        "updated_at": "2026-05-09T03:36:50.152-07:00",
         "position": 7,
         "description": null,
         "showcase": false,
@@ -5214,7 +5214,7 @@
       {
         "id": "1ndlrnp6r9js",
         "name": "Zoom Website",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2020-03-17T15:25:42.214-07:00",
         "updated_at": "2026-01-08T10:55:09.952-08:00",
         "position": 30,
@@ -5523,7 +5523,61 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "c6774wj54fdc",
+        "name": "Service Degradation Affecting Zoom Healthcare Integration in North America Region.",
+        "status": "investigating",
+        "created_at": "2026-05-09T03:36:50.111-07:00",
+        "updated_at": "2026-05-09T03:39:37.455-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/003r50vdq3bd",
+        "started_at": "2026-05-09T03:36:50.000-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "bbsnwyrr93lq",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting users' ability to schedule and list medical appointments in North America region.\n\nOur team is actively working with our vendor to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "c6774wj54fdc",
+            "created_at": "2026-05-09T03:36:50.208-07:00",
+            "updated_at": "2026-05-09T03:39:37.386-07:00",
+            "display_at": "2026-05-09T03:36:50.000-07:00",
+            "affected_components": [
+              {
+                "code": "08fp2rr1spx0",
+                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "08fp2rr1spx0",
+            "name": "Integrations/Calendar/Plug-In/Add-In",
+            "status": "degraded_performance",
+            "created_at": "2023-01-31T21:55:23.273-08:00",
+            "updated_at": "2026-05-09T03:36:50.152-07:00",
+            "position": 7,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-31",
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "z14y3t1xlxp6",
@@ -8419,9 +8473,9 @@
           {
             "id": "08fp2rr1spx0",
             "name": "Integrations/Calendar/Plug-In/Add-In",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2023-01-31T21:55:23.273-08:00",
-            "updated_at": "2026-03-12T09:03:35.426-07:00",
+            "updated_at": "2026-05-09T03:36:50.152-07:00",
             "position": 7,
             "description": null,
             "showcase": false,
@@ -8659,9 +8713,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-09T10:12:58Z"
+    "updated": "2026-05-09T11:14:24Z"
   }
 }
