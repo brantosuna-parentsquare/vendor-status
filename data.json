@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-09T04:53:20Z"
+    "updated": "2026-05-09T07:13:10Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Outage: Trouble connecting to or loading Slack",
-    "updated": "2026-05-09T04:53:20Z"
+    "updated": "2026-05-09T07:13:10Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-08T22:58:30.109-04:00"
+      "updated_at": "2026-05-09T02:38:25.344-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-09T04:53:19Z"
+    "updated": "2026-05-09T07:13:08Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-09T02:58:32.925Z"
+      "updated_at": "2026-05-09T06:08:33.440Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-09T04:53:19Z"
+    "updated": "2026-05-09T07:13:08Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-08T19:58:32.693-07:00"
+      "updated_at": "2026-05-09T00:00:07.317-07:00"
     },
     "components": [
       {
@@ -1519,7 +1519,7 @@
         "name": "Knowledge Base",
         "status": "operational",
         "created_at": "2022-05-03T11:26:39.112-07:00",
-        "updated_at": "2026-05-02T01:30:08.469-07:00",
+        "updated_at": "2026-05-09T00:00:07.126-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -2299,7 +2299,7 @@
         "name": "Ticketing",
         "status": "operational",
         "created_at": "2022-05-03T11:27:52.285-07:00",
-        "updated_at": "2026-05-02T01:30:08.972-07:00",
+        "updated_at": "2026-05-09T00:00:07.175-07:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -5526,81 +5526,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "3lvkpgpr4k7m",
-        "name": "Zoom Support Maintenance - May 08, 2026",
-        "status": "scheduled",
-        "created_at": "2026-04-20T14:52:34.208-07:00",
-        "updated_at": "2026-04-20T14:52:34.291-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/4nmbqwhxt8jv",
-        "started_at": "2026-04-20T14:52:34.196-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "h4qkqnm0fqvx",
-            "status": "scheduled",
-            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base.  \n\nUsers may experience degraded performance and up to 30 minutes of downtime for Zoom Support’s Knowledge Base and Ticketing during the maintenance window.",
-            "incident_id": "3lvkpgpr4k7m",
-            "created_at": "2026-04-20T14:52:34.287-07:00",
-            "updated_at": "2026-04-20T14:52:34.287-07:00",
-            "display_at": "2026-04-20T14:52:34.287-07:00",
-            "affected_components": [
-              {
-                "code": "yvbblg5f0rdt",
-                "name": "Zoom Support - Knowledge Base",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "9mhsm7sbmhnr",
-                "name": "Zoom Support - Ticketing",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yvbblg5f0rdt",
-            "name": "Knowledge Base",
-            "status": "operational",
-            "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-05-02T01:30:08.469-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "9mhsm7sbmhnr",
-            "name": "Ticketing",
-            "status": "operational",
-            "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-05-02T01:30:08.972-07:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-08T23:00:00.000-07:00",
-        "scheduled_until": "2026-05-09T00:00:00.000-07:00"
-      },
-      {
         "id": "z14y3t1xlxp6",
         "name": "Zoom Conference Room Connector Update: May 10, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -6018,7 +5943,7 @@
             "name": "Knowledge Base",
             "status": "operational",
             "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-05-02T01:30:08.469-07:00",
+            "updated_at": "2026-05-09T00:00:07.126-07:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -6033,7 +5958,7 @@
             "name": "Ticketing",
             "status": "operational",
             "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-05-02T01:30:08.972-07:00",
+            "updated_at": "2026-05-09T00:00:07.175-07:00",
             "position": 4,
             "description": null,
             "showcase": false,
@@ -8737,6 +8662,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-09T04:53:19Z"
+    "updated": "2026-05-09T07:13:08Z"
   }
 }
