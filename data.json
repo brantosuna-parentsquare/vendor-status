@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-10T07:08:21Z"
+    "updated": "2026-05-10T09:01:57Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slowness in AI Search Answers and AI Explain",
-    "updated": "2026-05-10T07:08:21Z"
+    "updated": "2026-05-10T09:01:57Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-10T07:08:20Z"
+    "updated": "2026-05-10T09:01:55Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-10T07:08:20Z"
+    "updated": "2026-05-10T09:01:55Z"
   },
   "zoom": {
     "page": {
@@ -8608,6 +8608,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-10T07:08:20Z"
+    "updated": "2026-05-10T09:01:55Z"
   }
 }
