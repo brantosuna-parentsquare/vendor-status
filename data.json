@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-13T08:21:50Z"
+    "updated": "2026-05-13T11:10:26Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Some users unable to sign in",
-    "updated": "2026-05-13T08:21:50Z"
+    "updated": "2026-05-13T11:10:26Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-13T01:49:05.233-04:00"
+      "updated_at": "2026-05-13T06:09:08.107-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-13T08:21:48Z"
+    "updated": "2026-05-13T11:10:24Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-13T05:49:08.248Z"
+      "updated_at": "2026-05-13T10:09:13.723Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-13T08:21:48Z"
+    "updated": "2026-05-13T11:10:24Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-12T22:49:08.086-07:00"
+      "updated_at": "2026-05-13T03:09:13.678-07:00"
     },
     "components": [
       {
@@ -5529,7 +5529,7 @@
         "name": "Service Degradation Affecting a Subset of Users in Web Mail and Calendar",
         "status": "identified",
         "created_at": "2026-05-12T16:01:48.966-07:00",
-        "updated_at": "2026-05-12T22:02:55.552-07:00",
+        "updated_at": "2026-05-13T02:18:49.824-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -5537,6 +5537,32 @@
         "started_at": "2026-05-12T16:01:48.952-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "whmt2p07hxz0",
+            "status": "identified",
+            "body": "We continue to work on a fix for Web Mail issue and will provide updates as soon as there is more information to share.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "78xw6l1k6s63",
+            "created_at": "2026-05-13T02:18:49.821-07:00",
+            "updated_at": "2026-05-13T02:18:49.821-07:00",
+            "display_at": "2026-05-13T02:18:49.821-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "rfmcnw557c3m",
             "status": "identified",
@@ -5730,123 +5756,6 @@
       }
     ],
     "scheduled_maintenances": [
-      {
-        "id": "vp65qqq1h5cf",
-        "name": "Zoom FileServer Release: May, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-05-11T01:49:39.728-07:00",
-        "updated_at": "2026-05-11T01:49:39.805-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/wrcspdfllf6k",
-        "started_at": "2026-05-11T01:49:39.712-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "v4nptb2shf3l",
-            "status": "scheduled",
-            "body": "We will be performing scheduled maintenance related to upgrades for our file services platform. This update includes enhancements across multiple file-related components to improve overall stability, scalability, and feature support.\n\nNo operational impact is expected. This maintenance introduces the following new features and improvements:\n\nClips:\nAdded support for additional metadata fields during Clips uploads.\nImproved Clips player consistency across Web View and Browser experiences.\nIntroduced a new OpenAPI for temporary single-file Clips uploads.\n\nAI Companion:\nEnhanced Fast Scribe transcription to support new file workflow capabilities.",
-            "incident_id": "vp65qqq1h5cf",
-            "created_at": "2026-05-11T01:49:39.801-07:00",
-            "updated_at": "2026-05-11T01:49:39.801-07:00",
-            "display_at": "2026-05-11T01:49:39.801-07:00",
-            "affected_components": [
-              {
-                "code": "3mgjlwf5953y",
-                "name": "Zoom Events",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "0842bncf5q9f",
-                "name": "Zoom Phone - Global - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-05-11T01:00:07.826-07:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-04-03T21:40:21.760-07:00",
-            "position": 1,
-            "description": "Access to Group Chats",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "0842bncf5q9f",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2024-09-30T13:36:13.230-07:00",
-            "updated_at": "2026-05-11T01:00:08.018-07:00",
-            "position": 12,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-09-30",
-            "group_id": "fs7vxs27n4pn",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "3mgjlwf5953y",
-            "name": "Zoom Events",
-            "status": "operational",
-            "created_at": "2021-07-21T08:43:31.354-07:00",
-            "updated_at": "2025-08-21T11:28:47.518-07:00",
-            "position": 14,
-            "description": "Access to Events at zoomevents.com",
-            "showcase": false,
-            "start_date": "2021-07-21",
-            "group_id": null,
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-13T03:00:00.000-07:00",
-        "scheduled_until": "2026-05-23T03:00:00.000-07:00"
-      },
       {
         "id": "f25c1knl9d6m",
         "name": "Zoom Contact Center Update: May 16, 2026 (No Operational Impact)",
@@ -8200,6 +8109,149 @@
         "scheduled_until": "2026-08-01T18:00:00.000-07:00"
       },
       {
+        "id": "vp65qqq1h5cf",
+        "name": "Zoom FileServer Release: May, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-05-11T01:49:39.728-07:00",
+        "updated_at": "2026-05-13T03:00:07.274-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/wrcspdfllf6k",
+        "started_at": "2026-05-11T01:49:39.712-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "s8syzbckgkwb",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "vp65qqq1h5cf",
+            "created_at": "2026-05-13T03:00:07.264-07:00",
+            "updated_at": "2026-05-13T03:00:07.264-07:00",
+            "display_at": "2026-05-13T03:00:07.264-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "bgdsw55jk6rr",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "vp65qqq1h5cf",
+            "created_at": "2026-05-13T02:00:13.800-07:00",
+            "updated_at": "2026-05-13T02:00:13.800-07:00",
+            "display_at": "2026-05-13T02:00:13.800-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "v4nptb2shf3l",
+            "status": "scheduled",
+            "body": "We will be performing scheduled maintenance related to upgrades for our file services platform. This update includes enhancements across multiple file-related components to improve overall stability, scalability, and feature support.\n\nNo operational impact is expected. This maintenance introduces the following new features and improvements:\n\nClips:\nAdded support for additional metadata fields during Clips uploads.\nImproved Clips player consistency across Web View and Browser experiences.\nIntroduced a new OpenAPI for temporary single-file Clips uploads.\n\nAI Companion:\nEnhanced Fast Scribe transcription to support new file workflow capabilities.",
+            "incident_id": "vp65qqq1h5cf",
+            "created_at": "2026-05-11T01:49:39.801-07:00",
+            "updated_at": "2026-05-11T01:49:39.801-07:00",
+            "display_at": "2026-05-11T01:49:39.801-07:00",
+            "affected_components": [
+              {
+                "code": "3mgjlwf5953y",
+                "name": "Zoom Events",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "0842bncf5q9f",
+                "name": "Zoom Phone - Global - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-05-11T01:00:07.826-07:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "t2jk6yrqbp4j",
+            "name": "Zoom Chat",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:19.770-08:00",
+            "updated_at": "2026-04-03T21:40:21.760-07:00",
+            "position": 1,
+            "description": "Access to Group Chats",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "0842bncf5q9f",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2024-09-30T13:36:13.230-07:00",
+            "updated_at": "2026-05-11T01:00:08.018-07:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-09-30",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "3mgjlwf5953y",
+            "name": "Zoom Events",
+            "status": "operational",
+            "created_at": "2021-07-21T08:43:31.354-07:00",
+            "updated_at": "2025-08-21T11:28:47.518-07:00",
+            "position": 14,
+            "description": "Access to Events at zoomevents.com",
+            "showcase": false,
+            "start_date": "2021-07-21",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-13T03:00:00.000-07:00",
+        "scheduled_until": "2026-05-23T03:00:00.000-07:00"
+      },
+      {
         "id": "983cyyg4glck",
         "name": "Zoom Push Notification Service Release: May, 2026 (No Operational Impact)",
         "status": "in_progress",
@@ -8748,6 +8800,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-13T08:21:48Z"
+    "updated": "2026-05-13T11:10:24Z"
   }
 }
