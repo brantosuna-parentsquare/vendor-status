@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-16T07:22:12Z"
+    "updated": "2026-05-16T09:12:13Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Some users unable to sign in",
-    "updated": "2026-05-16T07:22:12Z"
+    "updated": "2026-05-16T09:12:13Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "http://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-14T16:19:17.663-04:00"
+      "updated_at": "2026-05-16T05:06:54.985-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-16T07:22:10Z"
+    "updated": "2026-05-16T09:12:11Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-16T07:22:10Z"
+    "updated": "2026-05-16T09:12:11Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "http://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-16T00:04:02.961-07:00"
+      "updated_at": "2026-05-16T02:00:07.732-07:00"
     },
     "components": [
       {
@@ -8619,166 +8619,6 @@
         "scheduled_until": "2026-05-17T08:30:00.000-07:00"
       },
       {
-        "id": "83b3vr5kd3gh",
-        "name": "Zoom Virtual Agent Update: May 16, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-05-11T08:21:55.995-07:00",
-        "updated_at": "2026-05-15T17:01:07.121-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/9nmlwrxv2hrt",
-        "started_at": "2026-05-11T08:21:55.986-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "slbxrhnrjbl5",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "83b3vr5kd3gh",
-            "created_at": "2026-05-15T17:01:07.119-07:00",
-            "updated_at": "2026-05-15T17:01:07.119-07:00",
-            "display_at": "2026-05-15T17:01:07.119-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "4qfgccnkrtvl",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "83b3vr5kd3gh",
-            "created_at": "2026-05-15T16:00:16.736-07:00",
-            "updated_at": "2026-05-15T16:00:16.736-07:00",
-            "display_at": "2026-05-15T16:00:16.736-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "1nt99m66ljbb",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Virtual Agent. \nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. \nThis update includes Okta integration for self-service identity verification in voice interactions.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "83b3vr5kd3gh",
-            "created_at": "2026-05-11T08:21:56.061-07:00",
-            "updated_at": "2026-05-11T08:21:56.061-07:00",
-            "display_at": "2026-05-11T08:21:56.061-07:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-15T17:00:00.000-07:00",
-        "scheduled_until": "2026-05-16T02:00:00.000-07:00"
-      },
-      {
-        "id": "f25c1knl9d6m",
-        "name": "Zoom Contact Center Update: May 16, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-05-11T08:14:44.539-07:00",
-        "updated_at": "2026-05-15T17:00:08.613-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/1bng9v6p3ryl",
-        "started_at": "2026-05-11T08:14:44.529-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "py1qdxdj73rc",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "f25c1knl9d6m",
-            "created_at": "2026-05-15T17:00:08.609-07:00",
-            "updated_at": "2026-05-15T17:00:08.609-07:00",
-            "display_at": "2026-05-15T17:00:08.609-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "j27b07kxp411",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "f25c1knl9d6m",
-            "created_at": "2026-05-15T16:00:15.963-07:00",
-            "updated_at": "2026-05-15T16:00:15.963-07:00",
-            "display_at": "2026-05-15T16:00:15.963-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "bk97jc7cdl7f",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Contact Center. \nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. \nThis update includes Zoom app access and real-time media streaming controls in contact center queues.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "f25c1knl9d6m",
-            "created_at": "2026-05-11T08:14:44.610-07:00",
-            "updated_at": "2026-05-11T08:14:44.610-07:00",
-            "display_at": "2026-05-11T08:14:44.610-07:00",
-            "affected_components": [
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-11T01:00:07.931-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-15T17:00:00.000-07:00",
-        "scheduled_until": "2026-05-16T02:00:00.000-07:00"
-      },
-      {
         "id": "95g58cvtsd71",
         "name": "Zoom Audio Conference Infrastructure Upgrade (SJC - San Jose)",
         "status": "in_progress",
@@ -9002,388 +8842,6 @@
         "scheduled_until": "2026-05-23T03:00:00.000-07:00"
       },
       {
-        "id": "983cyyg4glck",
-        "name": "Zoom Push Notification Service Release: May, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-04-28T23:32:33.425-07:00",
-        "updated_at": "2026-05-07T21:00:07.920-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/00dcrs64nm6t",
-        "started_at": "2026-04-28T23:32:33.380-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "m617zgsllv5t",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "983cyyg4glck",
-            "created_at": "2026-05-07T21:00:07.917-07:00",
-            "updated_at": "2026-05-07T21:00:07.917-07:00",
-            "display_at": "2026-05-07T21:00:07.917-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "86ylgrl42qxq",
-            "status": "scheduled",
-            "body": "We will be performing scheduled maintenance to upgrade our Push Notification Service.\n\nNo operational impact is expected. This maintenance includes the following enhancements and improvements:\n\n- Added available alert migration and capability-gated delivery enhancements, including the new client capability flag and migrated available-alert handling across presence and login flows.\n\n- Added inbox expired-entry cleanup sync and zset-size observation/trimming controls, improving inbox consistency across peers and providing better operational visibility for oversized inbox keys.\n\n- Added group session cache support for group publish delivery, reducing repeated session lookups and improving scalability for large group notifications.\n\n- Refactored the WebSocket event-handling architecture, removing the old protocol module, splitting logic into dedicated event-handling components, and introducing non-blocking ACK tracking for better maintainability and delivery reliability.\n\n- Added Push Global Event enhancements, including a dedicated AsyncMQ consume path for global events and connection-side periodic delivery for eligible WebSocket clients.\n\n- Added batch-by-batch UCS lookup support for OID queries, improving stability and performance when handling large UCS group lookups.\n\n- Fixed pub request observability and diagnostics gaps by enhancing access-log output, adding tagged request logging, improving PII-safe logging behavior, and logging requests with missing name or category.\n\n- Fixed RPC behavior in the pub path by enabling keepalive to improve connection reuse and reduce RPC overhead.\n\n- Fixed read-suggestion retrieval logic by introducing a rolling 30-day window so only recent suggestions are considered during fetch.\n\n- Fixed global event delivery behavior by tightening the periodic-push flow, ensuring only eligible authenticated sessions start the background delivery thread, and keeping a single active delivery trigger when periodic push is enabled.\n\n- Fixed WebSocket unregister handling semantics by removing obsolete close-frame unregister logic and clarifying that device cache cleanup is driven by the client unregister flow.\n\nAll services are expected to operate normally during the maintenance window.",
-            "incident_id": "983cyyg4glck",
-            "created_at": "2026-04-28T23:32:33.530-07:00",
-            "updated_at": "2026-04-28T23:32:33.530-07:00",
-            "display_at": "2026-04-28T23:32:33.530-07:00",
-            "affected_components": [
-              {
-                "code": "cn1j8pttz0wy",
-                "name": "Zoom Website - Zoom Dashboard & Reporting",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "8gftm750nwzm",
-                "name": "Zoom Website - Web Portal",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "503cqbhcpvzx",
-                "name": "Zoom Website - Web Client",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "rmphw6f34qk9",
-                "name": "Zoom Developer Platform - Marketplace",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "3mgjlwf5953y",
-                "name": "Zoom Events",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "3ml2fn8g0psv",
-                "name": "Zoom Meetings - Zoom Conference Room Connector",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "q4msk5dl4bhm",
-                "name": "Zoom Meetings - Zoom Webinars",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "0842bncf5q9f",
-                "name": "Zoom Phone - Global - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-05-11T01:00:07.826-07:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-04-03T21:40:21.760-07:00",
-            "position": 1,
-            "description": "Access to Group Chats",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "cn1j8pttz0wy",
-            "name": "Zoom Dashboard & Reporting",
-            "status": "operational",
-            "created_at": "2020-03-17T15:25:42.220-07:00",
-            "updated_at": "2026-02-27T08:07:45.739-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "xtgr15yv6hbn",
-            "name": "Zoom Rooms",
-            "status": "operational",
-            "created_at": "2021-05-18T07:12:19.400-07:00",
-            "updated_at": "2026-05-11T01:00:07.901-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2021-05-18",
-            "group_id": "xxngg08dxtpq",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "hybzp260h3n2",
-            "name": "Calendar",
-            "status": "operational",
-            "created_at": "2023-03-23T09:35:24.809-07:00",
-            "updated_at": "2026-05-12T22:02:55.508-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-23",
-            "group_id": "thrn29k311lc",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-11T01:00:07.931-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "03szj78zknyt",
-            "name": "Mail",
-            "status": "degraded_performance",
-            "created_at": "2023-03-23T09:35:58.650-07:00",
-            "updated_at": "2026-05-12T16:01:49.042-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-23",
-            "group_id": "thrn29k311lc",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "rmphw6f34qk9",
-            "name": "Marketplace",
-            "status": "operational",
-            "created_at": "2020-04-06T15:25:48.555-07:00",
-            "updated_at": "2026-03-04T09:25:09.864-08:00",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "dhtlfcvrh3qh",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "8gftm750nwzm",
-            "name": "Web Portal",
-            "status": "operational",
-            "created_at": "2020-03-17T15:28:43.573-07:00",
-            "updated_at": "2026-03-05T12:26:20.682-08:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "503cqbhcpvzx",
-            "name": "Web Client",
-            "status": "operational",
-            "created_at": "2022-05-03T11:23:21.561-07:00",
-            "updated_at": "2025-11-23T00:00:21.372-08:00",
-            "position": 5,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "08fp2rr1spx0",
-            "name": "Integrations/Calendar/Plug-In/Add-In",
-            "status": "operational",
-            "created_at": "2023-01-31T21:55:23.273-08:00",
-            "updated_at": "2026-05-09T07:53:45.098-07:00",
-            "position": 7,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-31",
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "0842bncf5q9f",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2024-09-30T13:36:13.230-07:00",
-            "updated_at": "2026-05-11T01:00:08.018-07:00",
-            "position": 12,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-09-30",
-            "group_id": "fs7vxs27n4pn",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "3ml2fn8g0psv",
-            "name": "Zoom Conference Room Connector",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-05-11T01:00:08.093-07:00",
-            "position": 14,
-            "description": "Access for H.323/SIP endpoints",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "3mgjlwf5953y",
-            "name": "Zoom Events",
-            "status": "operational",
-            "created_at": "2021-07-21T08:43:31.354-07:00",
-            "updated_at": "2025-08-21T11:28:47.518-07:00",
-            "position": 14,
-            "description": "Access to Events at zoomevents.com",
-            "showcase": false,
-            "start_date": "2021-07-21",
-            "group_id": null,
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "q4msk5dl4bhm",
-            "name": "Zoom Webinars",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.115-08:00",
-            "updated_at": "2026-05-11T01:00:08.147-07:00",
-            "position": 20,
-            "description": "Access to video webinars",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-07T21:00:00.000-07:00",
-        "scheduled_until": "2026-05-16T01:00:00.000-07:00"
-      },
-      {
         "id": "3d7q5k9zbgb9",
         "name": "Zoom Phone/Zoom Contact Center General Underlying Provider Maintenance",
         "status": "in_progress",
@@ -9550,6 +9008,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-16T07:22:10Z"
+    "updated": "2026-05-16T09:12:11Z"
   }
 }
