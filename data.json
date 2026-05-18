@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-18T19:08:47Z"
+    "updated": "2026-05-18T20:45:49Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Some users unable to sign in",
-    "updated": "2026-05-18T19:08:47Z"
+    "updated": "2026-05-18T20:45:49Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-18T14:08:29.833-04:00"
+      "updated_at": "2026-05-18T16:38:34.414-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-18T19:08:45Z"
+    "updated": "2026-05-18T20:45:47Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-18T18:08:32.534Z"
+      "updated_at": "2026-05-18T20:38:37.883Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-18T19:08:45Z"
+    "updated": "2026-05-18T20:45:47Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-18T11:20:32.115-07:00"
+      "updated_at": "2026-05-18T13:38:37.414-07:00"
     },
     "components": [
       {
@@ -5621,7 +5621,7 @@
         "name": "Network Maintenance in Frankfurt Data Center: May 18, 2026",
         "status": "scheduled",
         "created_at": "2026-05-04T09:20:08.926-07:00",
-        "updated_at": "2026-05-04T09:20:09.005-07:00",
+        "updated_at": "2026-05-18T13:00:10.363-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -5629,6 +5629,19 @@
         "started_at": "2026-05-04T09:20:08.899-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "n7g5pf4fzwzz",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "l75fh8bbttmn",
+            "created_at": "2026-05-18T13:00:10.266-07:00",
+            "updated_at": "2026-05-18T13:00:10.266-07:00",
+            "display_at": "2026-05-18T13:00:10.266-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "7nlwdg1xv54n",
             "status": "scheduled",
@@ -8188,6 +8201,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-18T19:08:45Z"
+    "updated": "2026-05-18T20:45:47Z"
   }
 }
