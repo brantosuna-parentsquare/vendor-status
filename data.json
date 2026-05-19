@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-19T05:44:02Z"
+    "updated": "2026-05-19T08:50:50Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Some users unable to sign in",
-    "updated": "2026-05-19T05:44:02Z"
+    "updated": "2026-05-19T08:50:50Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-19T01:34:17.577-04:00"
+      "updated_at": "2026-05-19T03:24:12.081-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-19T05:44:00Z"
+    "updated": "2026-05-19T08:50:48Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-19T05:44:00Z"
+    "updated": "2026-05-19T08:50:48Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-18T22:34:19.910-07:00"
+      "updated_at": "2026-05-19T01:05:22.511-07:00"
     },
     "components": [
       {
@@ -5545,7 +5545,7 @@
         "name": "Intermittent Issue Affecting MMS Inbound and Outbound Service with Zoom Phone and Zoom Contact Center in United States and Canada Regions.",
         "status": "identified",
         "created_at": "2026-05-18T20:56:48.754-07:00",
-        "updated_at": "2026-05-18T22:13:07.148-07:00",
+        "updated_at": "2026-05-19T01:05:22.496-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -5553,6 +5553,58 @@
         "started_at": "2026-05-18T21:03:58.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "mdlyp7ppfndv",
+            "status": "identified",
+            "body": "Our team continues to work with the vendor on a resolution for an intermittent service degradation affecting inbound and outbound MMS delivery with Zoom Phone and Zoom Contact Center in United States and Canada regions. \n\nWe will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "7f58bvr9wy6l",
+            "created_at": "2026-05-19T01:05:22.492-07:00",
+            "updated_at": "2026-05-19T01:05:22.492-07:00",
+            "display_at": "2026-05-19T01:05:22.492-07:00",
+            "affected_components": [
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "rkgptw5lc3pw",
+                "name": "Zoom CX - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "h8mmj9vjy6ww",
+            "status": "identified",
+            "body": "Our team continues to work with the vendor on a resolution for an intermittent service degradation affecting inbound and outbound MMS delivery with Zoom Phone and Zoom Contact Center in United States and Canada regions. \n\nWe will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "7f58bvr9wy6l",
+            "created_at": "2026-05-18T23:03:21.560-07:00",
+            "updated_at": "2026-05-18T23:04:44.185-07:00",
+            "display_at": "2026-05-18T23:03:21.000-07:00",
+            "affected_components": [
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "rkgptw5lc3pw",
+                "name": "Zoom CX - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "wy78k5vkk1mt",
             "status": "identified",
@@ -8076,6 +8128,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-19T05:44:00Z"
+    "updated": "2026-05-19T08:50:48Z"
   }
 }
