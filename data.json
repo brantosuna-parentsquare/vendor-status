@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-20T17:28:09Z"
+    "updated": "2026-05-20T19:50:27Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack login, workspaces loading failures, and general Slack functionality issues",
-    "updated": "2026-05-20T17:28:09Z"
+    "updated": "2026-05-20T19:50:27Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-20T17:28:08Z"
+    "updated": "2026-05-20T19:50:26Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-20T17:28:08Z"
+    "updated": "2026-05-20T19:50:26Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-20T06:53:38.229-07:00"
+      "updated_at": "2026-05-20T10:33:18.096-07:00"
     },
     "components": [
       {
@@ -5541,241 +5541,11 @@
     ],
     "incidents": [
       {
-        "id": "225nzczn6v86",
-        "name": "Service Degradation Affecting Web Zoom Mail and Web Calendar Services.",
-        "status": "identified",
-        "created_at": "2026-05-18T11:08:10.892-07:00",
-        "updated_at": "2026-05-20T04:38:53.031-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/dgb18wwcrdz1",
-        "started_at": "2026-05-18T11:08:10.878-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "9whk2nvlfcz8",
-            "status": "identified",
-            "body": "Our team continue to work on the resolution for the service degradation affecting Web Zoom Mail and Web Calendar Services, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "225nzczn6v86",
-            "created_at": "2026-05-20T04:38:53.028-07:00",
-            "updated_at": "2026-05-20T04:38:53.028-07:00",
-            "display_at": "2026-05-20T04:38:53.028-07:00",
-            "affected_components": [
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "38r55650wng3",
-            "status": "identified",
-            "body": "Our team continue to work on the resolution for the service degradation affecting Web Zoom Mail and Web Calendar Services, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "225nzczn6v86",
-            "created_at": "2026-05-19T20:11:56.768-07:00",
-            "updated_at": "2026-05-19T20:11:56.768-07:00",
-            "display_at": "2026-05-19T20:11:56.768-07:00",
-            "affected_components": [
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "f62qncll2ncm",
-            "status": "identified",
-            "body": "Our team continue to work on the resolution for the service degradation affecting Web Zoom Mail and Web Calendar Services, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "225nzczn6v86",
-            "created_at": "2026-05-19T12:04:49.783-07:00",
-            "updated_at": "2026-05-19T12:04:49.783-07:00",
-            "display_at": "2026-05-19T12:04:49.783-07:00",
-            "affected_components": [
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "z01fmhd4wzwv",
-            "status": "identified",
-            "body": "Our team continue to work on the resolution for the service degradation affecting Web Zoom Mail and Web Calendar Services, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "225nzczn6v86",
-            "created_at": "2026-05-19T03:55:11.174-07:00",
-            "updated_at": "2026-05-19T03:55:11.174-07:00",
-            "display_at": "2026-05-19T03:55:11.174-07:00",
-            "affected_components": [
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "b9wfv2x20jkr",
-            "status": "identified",
-            "body": "We have successfully identified the root cause for the service degradation affecting Web Zoom Mail and Web Calendar Services. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "225nzczn6v86",
-            "created_at": "2026-05-18T19:54:58.059-07:00",
-            "updated_at": "2026-05-18T19:54:58.059-07:00",
-            "display_at": "2026-05-18T19:54:58.059-07:00",
-            "affected_components": [
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "78mmr5l2rb2b",
-            "status": "investigating",
-            "body": "The investigation into the service degradation with a subset of users in Web Mail and Calendar is ongoing.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "225nzczn6v86",
-            "created_at": "2026-05-18T17:39:51.800-07:00",
-            "updated_at": "2026-05-18T17:40:30.098-07:00",
-            "display_at": "2026-05-18T17:39:51.000-07:00",
-            "affected_components": [
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "g48h7z1vz57c",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation with Web Zoom Mail and Web Calendar Services.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "225nzczn6v86",
-            "created_at": "2026-05-18T11:08:11.026-07:00",
-            "updated_at": "2026-05-18T11:08:11.026-07:00",
-            "display_at": "2026-05-18T11:08:11.026-07:00",
-            "affected_components": [
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "hybzp260h3n2",
-            "name": "Calendar",
-            "status": "degraded_performance",
-            "created_at": "2023-03-23T09:35:24.809-07:00",
-            "updated_at": "2026-05-18T11:08:10.942-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-23",
-            "group_id": "thrn29k311lc",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "03szj78zknyt",
-            "name": "Mail",
-            "status": "degraded_performance",
-            "created_at": "2023-03-23T09:35:58.650-07:00",
-            "updated_at": "2026-05-18T11:08:10.965-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-23",
-            "group_id": "thrn29k311lc",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      },
-      {
         "id": "7f58bvr9wy6l",
         "name": "Intermittent Issue Affecting MMS Inbound and Outbound Service with Zoom Phone and Zoom Contact Center in United States and Canada Regions.",
         "status": "identified",
         "created_at": "2026-05-18T20:56:48.754-07:00",
-        "updated_at": "2026-05-20T04:32:23.653-07:00",
+        "updated_at": "2026-05-20T10:33:18.083-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -5783,6 +5553,32 @@
         "started_at": "2026-05-18T21:03:58.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "g8sg87yw3f6v",
+            "status": "identified",
+            "body": "Our team continues to work with the vendor on a resolution for an intermittent service degradation affecting inbound and outbound MMS delivery with Zoom Phone and Zoom Contact Center in United States and Canada regions.\n\nWe will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "7f58bvr9wy6l",
+            "created_at": "2026-05-20T10:33:18.080-07:00",
+            "updated_at": "2026-05-20T10:33:18.080-07:00",
+            "display_at": "2026-05-20T10:33:18.080-07:00",
+            "affected_components": [
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "rkgptw5lc3pw",
+                "name": "Zoom CX - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "hk1wpvzdtk0w",
             "status": "identified",
@@ -6019,6 +5815,236 @@
             "showcase": false,
             "start_date": "2022-05-03",
             "group_id": "pdcbftj9pg7j",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      },
+      {
+        "id": "225nzczn6v86",
+        "name": "Service Degradation Affecting Web Zoom Mail and Web Calendar Services.",
+        "status": "identified",
+        "created_at": "2026-05-18T11:08:10.892-07:00",
+        "updated_at": "2026-05-20T04:38:53.031-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/dgb18wwcrdz1",
+        "started_at": "2026-05-18T11:08:10.878-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "9whk2nvlfcz8",
+            "status": "identified",
+            "body": "Our team continue to work on the resolution for the service degradation affecting Web Zoom Mail and Web Calendar Services, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "225nzczn6v86",
+            "created_at": "2026-05-20T04:38:53.028-07:00",
+            "updated_at": "2026-05-20T04:38:53.028-07:00",
+            "display_at": "2026-05-20T04:38:53.028-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "38r55650wng3",
+            "status": "identified",
+            "body": "Our team continue to work on the resolution for the service degradation affecting Web Zoom Mail and Web Calendar Services, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "225nzczn6v86",
+            "created_at": "2026-05-19T20:11:56.768-07:00",
+            "updated_at": "2026-05-19T20:11:56.768-07:00",
+            "display_at": "2026-05-19T20:11:56.768-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "f62qncll2ncm",
+            "status": "identified",
+            "body": "Our team continue to work on the resolution for the service degradation affecting Web Zoom Mail and Web Calendar Services, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "225nzczn6v86",
+            "created_at": "2026-05-19T12:04:49.783-07:00",
+            "updated_at": "2026-05-19T12:04:49.783-07:00",
+            "display_at": "2026-05-19T12:04:49.783-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "z01fmhd4wzwv",
+            "status": "identified",
+            "body": "Our team continue to work on the resolution for the service degradation affecting Web Zoom Mail and Web Calendar Services, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "225nzczn6v86",
+            "created_at": "2026-05-19T03:55:11.174-07:00",
+            "updated_at": "2026-05-19T03:55:11.174-07:00",
+            "display_at": "2026-05-19T03:55:11.174-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "b9wfv2x20jkr",
+            "status": "identified",
+            "body": "We have successfully identified the root cause for the service degradation affecting Web Zoom Mail and Web Calendar Services. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "225nzczn6v86",
+            "created_at": "2026-05-18T19:54:58.059-07:00",
+            "updated_at": "2026-05-18T19:54:58.059-07:00",
+            "display_at": "2026-05-18T19:54:58.059-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "78mmr5l2rb2b",
+            "status": "investigating",
+            "body": "The investigation into the service degradation with a subset of users in Web Mail and Calendar is ongoing.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "225nzczn6v86",
+            "created_at": "2026-05-18T17:39:51.800-07:00",
+            "updated_at": "2026-05-18T17:40:30.098-07:00",
+            "display_at": "2026-05-18T17:39:51.000-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "g48h7z1vz57c",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation with Web Zoom Mail and Web Calendar Services.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "225nzczn6v86",
+            "created_at": "2026-05-18T11:08:11.026-07:00",
+            "updated_at": "2026-05-18T11:08:11.026-07:00",
+            "display_at": "2026-05-18T11:08:11.026-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "hybzp260h3n2",
+            "name": "Calendar",
+            "status": "degraded_performance",
+            "created_at": "2023-03-23T09:35:24.809-07:00",
+            "updated_at": "2026-05-18T11:08:10.942-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-03-23",
+            "group_id": "thrn29k311lc",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "03szj78zknyt",
+            "name": "Mail",
+            "status": "degraded_performance",
+            "created_at": "2023-03-23T09:35:58.650-07:00",
+            "updated_at": "2026-05-18T11:08:10.965-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-03-23",
+            "group_id": "thrn29k311lc",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
@@ -7862,6 +7888,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-20T17:28:08Z"
+    "updated": "2026-05-20T19:50:26Z"
   }
 }
