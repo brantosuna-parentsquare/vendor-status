@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-20T08:17:56Z"
+    "updated": "2026-05-20T11:23:20Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack login, workspaces loading failures, and general Slack functionality issues",
-    "updated": "2026-05-20T08:17:56Z"
+    "updated": "2026-05-20T11:23:20Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-20T03:23:34.575-04:00"
+      "updated_at": "2026-05-20T06:43:31.235-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-20T08:17:54Z"
+    "updated": "2026-05-20T11:23:18Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-20T07:23:37.478Z"
+      "updated_at": "2026-05-20T10:43:34.623Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-20T08:17:54Z"
+    "updated": "2026-05-20T11:23:18Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-20T00:23:37.016-07:00"
+      "updated_at": "2026-05-20T03:43:34.567-07:00"
     },
     "components": [
       {
@@ -7297,6 +7297,60 @@
         "scheduled_until": "2026-05-24T01:30:00.000-07:00"
       },
       {
+        "id": "xxp32p66ql1b",
+        "name": "Zoom Team Chat Update",
+        "status": "scheduled",
+        "created_at": "2026-05-20T01:17:44.125-07:00",
+        "updated_at": "2026-05-20T01:17:44.187-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/3g5k8rmf7ptq",
+        "started_at": "2026-05-20T01:17:44.116-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "ywms87yt5j1p",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Team Chat. There will be no operational impact. All services will be available during this scheduled update (ZR status might be displayed as offline in the service logs but no operational impact).",
+            "incident_id": "xxp32p66ql1b",
+            "created_at": "2026-05-20T01:17:44.185-07:00",
+            "updated_at": "2026-05-20T01:17:44.185-07:00",
+            "display_at": "2026-05-20T01:17:44.185-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "t2jk6yrqbp4j",
+            "name": "Zoom Chat",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:19.770-08:00",
+            "updated_at": "2026-04-03T21:40:21.760-07:00",
+            "position": 1,
+            "description": "Access to Group Chats",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-05-27T09:00:00.000-07:00",
+        "scheduled_until": "2026-06-12T09:00:00.000-07:00"
+      },
+      {
         "id": "77mtpllvxgcx",
         "name": "Announcing IP Address Changes (No Operational Impact)",
         "status": "scheduled",
@@ -7756,6 +7810,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-20T08:17:54Z"
+    "updated": "2026-05-20T11:23:18Z"
   }
 }
