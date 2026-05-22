@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-22T13:39:47Z"
+    "updated": "2026-05-22T16:09:13Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack login, workspaces loading failures, and general Slack functionality issues",
-    "updated": "2026-05-22T13:39:47Z"
+    "updated": "2026-05-22T16:09:13Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-22T08:48:31.273-04:00"
+      "updated_at": "2026-05-22T10:18:34.979-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-22T13:39:46Z"
+    "updated": "2026-05-22T16:09:11Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-22T13:39:46Z"
+    "updated": "2026-05-22T16:09:11Z"
   },
   "zoom": {
     "page": {
@@ -7098,6 +7098,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-22T13:39:46Z"
+    "updated": "2026-05-22T16:09:11Z"
   }
 }
