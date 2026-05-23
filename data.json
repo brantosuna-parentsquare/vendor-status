@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-23T05:47:01Z"
+    "updated": "2026-05-23T07:58:58Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack login, workspaces loading failures, and general Slack functionality issues",
-    "updated": "2026-05-23T05:47:01Z"
+    "updated": "2026-05-23T07:58:58Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-23T00:33:37.617-04:00"
+      "updated_at": "2026-05-23T03:18:34.681-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-23T05:47:00Z"
+    "updated": "2026-05-23T07:58:57Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-23T04:33:40.331Z"
+      "updated_at": "2026-05-23T07:18:39.643Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-23T05:47:00Z"
+    "updated": "2026-05-23T07:58:57Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-22T21:33:40.044-07:00"
+      "updated_at": "2026-05-23T00:18:39.283-07:00"
     },
     "components": [
       {
@@ -5577,7 +5577,7 @@
         "name": "Service Degradation Affecting Web Zoom Mail and Web Calendar Services.",
         "status": "monitoring",
         "created_at": "2026-05-18T11:08:10.892-07:00",
-        "updated_at": "2026-05-21T23:09:18.644-07:00",
+        "updated_at": "2026-05-23T00:10:11.404-07:00",
         "monitoring_at": "2026-05-21T23:09:18.627-07:00",
         "resolved_at": null,
         "impact": "minor",
@@ -5585,6 +5585,32 @@
         "started_at": "2026-05-18T11:08:10.878-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "ty1fps39zh7g",
+            "status": "monitoring",
+            "body": "The service degradation affecting Web Zoom Mail and Web Calendar Services has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "225nzczn6v86",
+            "created_at": "2026-05-23T00:10:11.402-07:00",
+            "updated_at": "2026-05-23T00:10:11.402-07:00",
+            "display_at": "2026-05-23T00:10:11.402-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "vtn76r8lvy20",
             "status": "monitoring",
@@ -6712,6 +6738,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-23T05:47:00Z"
+    "updated": "2026-05-23T07:58:57Z"
   }
 }
