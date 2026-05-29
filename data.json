@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-29T16:00:07Z"
+    "updated": "2026-05-29T18:40:30Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Search",
-    "updated": "2026-05-29T16:00:07Z"
+    "updated": "2026-05-29T18:40:30Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-29T09:45:05.230-04:00"
+      "updated_at": "2026-05-29T14:34:38.965-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-29T16:00:06Z"
+    "updated": "2026-05-29T18:40:29Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-29T13:45:08.996Z"
+      "updated_at": "2026-05-29T18:34:49.920Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-29T16:00:06Z"
+    "updated": "2026-05-29T18:40:29Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-29T08:25:52.604-07:00"
+      "updated_at": "2026-05-29T11:34:48.838-07:00"
     },
     "components": [
       {
@@ -1534,7 +1534,7 @@
         "name": "Knowledge Base",
         "status": "operational",
         "created_at": "2022-05-03T11:26:39.112-07:00",
-        "updated_at": "2026-05-28T09:15:15.413-07:00",
+        "updated_at": "2026-05-29T10:47:10.290-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -2314,7 +2314,7 @@
         "name": "Ticketing",
         "status": "operational",
         "created_at": "2022-05-03T11:27:52.285-07:00",
-        "updated_at": "2026-05-28T09:15:15.429-07:00",
+        "updated_at": "2026-05-29T10:47:10.306-07:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -5686,11 +5686,111 @@
     ],
     "incidents": [
       {
+        "id": "hr2rj3t7mhh7",
+        "name": "Service Degradation Affecting Zoom Support Website",
+        "status": "monitoring",
+        "created_at": "2026-05-29T10:28:40.058-07:00",
+        "updated_at": "2026-05-29T10:47:10.357-07:00",
+        "monitoring_at": "2026-05-29T10:47:10.343-07:00",
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/svj3n5plh8sh",
+        "started_at": "2026-05-29T10:28:40.048-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "fndzyhz1l4pv",
+            "status": "monitoring",
+            "body": "A service degradation affecting Zoom Support Website has been successfully resolved.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "hr2rj3t7mhh7",
+            "created_at": "2026-05-29T10:47:10.343-07:00",
+            "updated_at": "2026-05-29T10:47:10.343-07:00",
+            "display_at": "2026-05-29T10:47:10.343-07:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "139vql1tytlg",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting Zoom Support Website.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nIf you need any assistance, please visit our website at zoom.com and use the chat to reach our support team. Our phone agents are also available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "hr2rj3t7mhh7",
+            "created_at": "2026-05-29T10:28:40.170-07:00",
+            "updated_at": "2026-05-29T10:28:40.170-07:00",
+            "display_at": "2026-05-29T10:28:40.170-07:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yvbblg5f0rdt",
+            "name": "Knowledge Base",
+            "status": "operational",
+            "created_at": "2022-05-03T11:26:39.112-07:00",
+            "updated_at": "2026-05-29T10:47:10.290-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "9mhsm7sbmhnr",
+            "name": "Ticketing",
+            "status": "operational",
+            "created_at": "2022-05-03T11:27:52.285-07:00",
+            "updated_at": "2026-05-29T10:47:10.306-07:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      },
+      {
         "id": "d877fy0zpl77",
         "name": "Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.",
         "status": "identified",
         "created_at": "2026-05-26T11:22:24.698-07:00",
-        "updated_at": "2026-05-28T18:13:50.664-07:00",
+        "updated_at": "2026-05-29T09:00:04.829-07:00",
         "monitoring_at": "2026-05-27T06:08:49.227-07:00",
         "resolved_at": null,
         "impact": "minor",
@@ -5698,6 +5798,26 @@
         "started_at": "2026-05-26T11:22:24.684-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "nx1cmmh4y0gq",
+            "status": "identified",
+            "body": "We have narrowed down the GIF issue to Zoom client versions 7.0.0 – 7.0.4. We will begin re-enabling the GIF feature on unaffected client versions starting today through this weekend. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
+            "incident_id": "d877fy0zpl77",
+            "created_at": "2026-05-29T09:00:04.827-07:00",
+            "updated_at": "2026-05-29T09:00:04.827-07:00",
+            "display_at": "2026-05-29T09:00:04.827-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "ctnmxb0jpd5v",
             "status": "identified",
@@ -6080,7 +6200,7 @@
             "name": "Knowledge Base",
             "status": "operational",
             "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-05-28T09:15:15.413-07:00",
+            "updated_at": "2026-05-29T10:47:10.290-07:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -6095,7 +6215,7 @@
             "name": "Ticketing",
             "status": "operational",
             "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-05-28T09:15:15.429-07:00",
+            "updated_at": "2026-05-29T10:47:10.306-07:00",
             "position": 4,
             "description": null,
             "showcase": false,
@@ -6493,6 +6613,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-29T16:00:06Z"
+    "updated": "2026-05-29T18:40:29Z"
   }
 }
