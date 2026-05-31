@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-05-31T01:56:06Z"
+    "updated": "2026-05-31T06:32:26Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Search",
-    "updated": "2026-05-31T01:56:06Z"
+    "updated": "2026-05-31T06:32:26Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-05-30T21:31:42.510-04:00"
+      "updated_at": "2026-05-30T22:21:11.397-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-31T01:56:04Z"
+    "updated": "2026-05-31T06:32:25Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-05-31T01:31:46.023Z"
+      "updated_at": "2026-05-31T02:22:30.524Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-05-31T01:56:04Z"
+    "updated": "2026-05-31T06:32:25Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-05-30T18:31:45.812-07:00"
+      "updated_at": "2026-05-30T19:35:42.277-07:00"
     },
     "components": [
       {
@@ -5690,7 +5690,7 @@
         "name": "Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.",
         "status": "identified",
         "created_at": "2026-05-26T11:22:24.698-07:00",
-        "updated_at": "2026-05-30T09:00:16.266-07:00",
+        "updated_at": "2026-05-30T19:35:42.268-07:00",
         "monitoring_at": "2026-05-27T06:08:49.227-07:00",
         "resolved_at": null,
         "impact": "minor",
@@ -5698,6 +5698,26 @@
         "started_at": "2026-05-26T11:22:24.684-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "44sr7n40xg4t",
+            "status": "identified",
+            "body": "GIFs have been re-enabled for unaffected clients (versions below 7.0.0 and above 7.0.4). We will provide updates as more information becomes available.\n\nThank you for your patience.",
+            "incident_id": "d877fy0zpl77",
+            "created_at": "2026-05-30T19:35:42.266-07:00",
+            "updated_at": "2026-05-30T19:35:42.266-07:00",
+            "display_at": "2026-05-30T19:35:42.266-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "w9hy7051jr53",
             "status": "identified",
@@ -7273,6 +7293,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-05-31T01:56:04Z"
+    "updated": "2026-05-31T06:32:25Z"
   }
 }
