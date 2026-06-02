@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-02T11:23:08Z"
+    "updated": "2026-06-02T15:43:19Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Canvas Outage",
-    "updated": "2026-06-02T11:23:08Z"
+    "updated": "2026-06-02T15:43:19Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-02T07:08:47.432-04:00"
+      "updated_at": "2026-06-02T10:13:48.630-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-02T11:23:06Z"
+    "updated": "2026-06-02T15:43:18Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-02T11:08:51.209Z"
+      "updated_at": "2026-06-02T14:13:52.328Z"
     },
     "components": [
       {
@@ -417,7 +417,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-05-26T15:21:03.000Z",
+        "updated_at": "2026-06-02T12:40:05.000Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-02T11:23:06Z"
+    "updated": "2026-06-02T15:43:18Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-02T04:08:50.740-07:00"
+      "updated_at": "2026-06-02T07:13:52.166-07:00"
     },
     "components": [
       {
@@ -7354,6 +7354,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-02T11:23:06Z"
+    "updated": "2026-06-02T15:43:18Z"
   }
 }
