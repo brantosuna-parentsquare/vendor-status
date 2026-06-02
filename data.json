@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-02T15:43:19Z"
+    "updated": "2026-06-02T19:31:44Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Canvas Outage",
-    "updated": "2026-06-02T15:43:19Z"
+    "updated": "2026-06-02T19:31:44Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-02T10:13:48.630-04:00"
+      "updated_at": "2026-06-02T14:58:37.768-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-02T15:43:18Z"
+    "updated": "2026-06-02T19:31:43Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-02T14:13:52.328Z"
+      "updated_at": "2026-06-02T18:58:42.649Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-02T15:43:18Z"
+    "updated": "2026-06-02T19:31:43Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-02T07:13:52.166-07:00"
+      "updated_at": "2026-06-02T11:59:58.480-07:00"
     },
     "components": [
       {
@@ -5690,7 +5690,7 @@
         "name": "Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.",
         "status": "monitoring",
         "created_at": "2026-05-26T11:22:24.698-07:00",
-        "updated_at": "2026-06-01T07:04:56.380-07:00",
+        "updated_at": "2026-06-02T11:59:58.473-07:00",
         "monitoring_at": "2026-05-27T06:08:49.227-07:00",
         "resolved_at": null,
         "impact": "minor",
@@ -5698,6 +5698,26 @@
         "started_at": "2026-05-26T11:22:24.684-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "gk2bsp85n4j4",
+            "status": "monitoring",
+            "body": "GIFs are re-enabled for clients on versions below 7.0.0 and above 7.0.4, but users may need to re-login to send GIFs. Users on affected versions (7.0.0 – 7.0.4) can upgrade to 7.0.5 to send GIFs.",
+            "incident_id": "d877fy0zpl77",
+            "created_at": "2026-06-02T11:58:50.438-07:00",
+            "updated_at": "2026-06-02T11:59:58.470-07:00",
+            "display_at": "2026-06-02T11:58:50.000-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "w4k3p6qr839f",
             "status": "monitoring",
@@ -6996,7 +7016,7 @@
         "name": "Announcing IP Address Changes (No Operational Impact)",
         "status": "scheduled",
         "created_at": "2026-06-01T11:36:43.370-07:00",
-        "updated_at": "2026-06-01T11:36:43.482-07:00",
+        "updated_at": "2026-06-02T08:49:44.808-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -7007,10 +7027,10 @@
           {
             "id": "7g9pbs5q5nsh",
             "status": "scheduled",
-            "body": "The following new and updated IP addresses will be deployed to Zoom resources for the Zoom Contact Center (ZCC) Flow Script and HTTP Call widgets, as well as the Zoom Virtual Agent (ZVA) HTTP call widget, AI expert assist, and knowledge base sync endpoints.  In addition, a subset of addresses that were previously assigned to the widgets have already been removed from service and will not be reassigned until after the maintenance window. We recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation.\n\nNew IPv4 addresses for the ZCC Flow Script widget and HTTP Call widget endpoints:\n3.66.91.120\n3.66.92.245\n35.180.72.184\n35.180.179.45\n\nRemoved IPv4 addresses for the ZCC Flow Script widget and HTTP Call widget endpoints:\n3.66.90.39\n3.66.90.206\n3.70.50.178\n\nNew IPv4 addresses for the ZVA HTTP Flow Script widget  endpoints:\n3.71.117.179\n3.75.143.208\n13.38.195.93\n52.47.34.120\n\nRemoved IPv4 addresses for the ZVA Flow Script widget  endpoints:\n3.71.118.107\n3.71.118.247\n3.70.48.137\n\nA complete list of network firewall IP ranges and domains for Zoom can be found on the Zoom Support site at: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548",
+            "body": "The following new and updated IP addresses will be deployed to Zoom resources for the Zoom Contact Center (ZCC) Flow Script and HTTP Call widgets, as well as the Zoom Virtual Agent (ZVA) Flow Script widget. In addition, a subset of addresses that were previously assigned to the widgets have already been removed from service and will not be reassigned until after the maintenance window. We recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation.\n\nNew IPv4 addresses for the ZCC Flow Script widget and HTTP Call widget endpoints:\n3.66.91.120\n3.66.92.245\n35.180.72.184\n35.180.179.45\n\nRemoved IPv4 addresses for the ZCC Flow Script widget and HTTP Call widget endpoints:\n3.66.90.39\n3.66.90.206\n3.70.50.178\n\nNew IPv4 addresses for the ZVA Flow Script widget endpoints:\n3.71.117.179\n3.75.143.208\n13.38.195.93\n52.47.34.120\n\nRemoved IPv4 addresses for the ZVA Flow Script widget endpoints:\n3.71.118.107\n3.71.118.247\n3.70.48.137\n\nA complete list of network firewall IP ranges and domains for Zoom can be found on the Zoom Support site at: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548",
             "incident_id": "d61mbyv8dgkz",
             "created_at": "2026-06-01T11:36:43.477-07:00",
-            "updated_at": "2026-06-01T11:36:43.477-07:00",
+            "updated_at": "2026-06-02T08:49:44.801-07:00",
             "display_at": "2026-06-01T11:36:43.477-07:00",
             "affected_components": [
               {
@@ -7354,6 +7374,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-02T15:43:18Z"
+    "updated": "2026-06-02T19:31:43Z"
   }
 }
