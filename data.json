@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-05T01:52:04Z"
+    "updated": "2026-06-05T06:38:55Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues loading or viewing threads",
-    "updated": "2026-06-05T01:52:04Z"
+    "updated": "2026-06-05T06:38:55Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-04T20:39:53.294-04:00"
+      "updated_at": "2026-06-05T02:13:49.309-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-05T01:52:03Z"
+    "updated": "2026-06-05T06:38:53Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-05T00:40:10.865Z"
+      "updated_at": "2026-06-05T06:13:53.170Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-05T01:52:03Z"
+    "updated": "2026-06-05T06:38:53Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-04T17:40:08.837-07:00"
+      "updated_at": "2026-06-04T23:13:52.910-07:00"
     },
     "components": [
       {
@@ -5729,441 +5729,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "d877fy0zpl77",
-        "name": "Service Degradation Affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.",
-        "status": "monitoring",
-        "created_at": "2026-05-26T11:22:24.698-07:00",
-        "updated_at": "2026-06-02T11:59:58.473-07:00",
-        "monitoring_at": "2026-05-27T06:08:49.227-07:00",
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/bvv9dk8l438n",
-        "started_at": "2026-05-26T11:22:24.684-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "gk2bsp85n4j4",
-            "status": "monitoring",
-            "body": "GIFs are re-enabled for clients on versions below 7.0.0 and above 7.0.4, but users may need to re-login to send GIFs. Users on affected versions (7.0.0 – 7.0.4) can upgrade to 7.0.5 to send GIFs.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-06-02T11:58:50.438-07:00",
-            "updated_at": "2026-06-02T11:59:58.470-07:00",
-            "display_at": "2026-06-02T11:58:50.000-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "w4k3p6qr839f",
-            "status": "monitoring",
-            "body": "GIFs remain enabled for unaffected clients (versions below 7.0.0 and above 7.0.4). Users may need to re-login to use GIFs. We will provide updates as more information becomes available.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-06-01T07:04:56.378-07:00",
-            "updated_at": "2026-06-01T07:04:56.378-07:00",
-            "display_at": "2026-06-01T07:04:56.378-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "qvtj0kk9th4w",
-            "status": "identified",
-            "body": "GIFs remains enabled for unaffected clients (versions below 7.0.0 and above 7.0.4). We will provide updates as more information becomes available.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-31T19:44:37.619-07:00",
-            "updated_at": "2026-05-31T19:44:37.619-07:00",
-            "display_at": "2026-05-31T19:44:37.619-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "44sr7n40xg4t",
-            "status": "identified",
-            "body": "GIFs have been re-enabled for unaffected clients (versions below 7.0.0 and above 7.0.4). We will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-30T19:35:42.266-07:00",
-            "updated_at": "2026-05-30T19:35:42.266-07:00",
-            "display_at": "2026-05-30T19:35:42.266-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "w9hy7051jr53",
-            "status": "identified",
-            "body": "We have narrowed down the GIF issue to Zoom client versions 7.0.0 – 7.0.4. We will begin re-enabling the GIF feature on unaffected client versions through this weekend. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-30T09:00:16.264-07:00",
-            "updated_at": "2026-05-30T09:00:16.264-07:00",
-            "display_at": "2026-05-30T09:00:16.264-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "m87mblz8h55t",
-            "status": "identified",
-            "body": "We have narrowed down the GIF issue to Zoom client versions 7.0.0 – 7.0.4. We will begin re-enabling the GIF feature on unaffected client versions through this weekend. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-29T21:00:07.019-07:00",
-            "updated_at": "2026-05-29T21:00:07.019-07:00",
-            "display_at": "2026-05-29T21:00:07.019-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "nx1cmmh4y0gq",
-            "status": "identified",
-            "body": "We have narrowed down the GIF issue to Zoom client versions 7.0.0 – 7.0.4. We will begin re-enabling the GIF feature on unaffected client versions starting today through this weekend. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-29T09:00:04.827-07:00",
-            "updated_at": "2026-05-29T09:00:04.827-07:00",
-            "display_at": "2026-05-29T09:00:04.827-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "ctnmxb0jpd5v",
-            "status": "identified",
-            "body": "We have narrowed down the GIF issue to Zoom client versions 7.0.0 – 7.0.4. We will begin re-enabling the GIF feature on unaffected client versions starting today through this weekend. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-28T18:13:50.661-07:00",
-            "updated_at": "2026-05-28T18:13:50.661-07:00",
-            "display_at": "2026-05-28T18:13:50.661-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "5wrykcj3x9zs",
-            "status": "identified",
-            "body": "We continue to investigate the issue with Giphy in Zoom Chat and Zoom In-Meeting Chat.  Users may be unable to search or send GIFs. Some users may also experience re-login prompts. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-28T16:30:02.517-07:00",
-            "updated_at": "2026-05-28T16:30:02.517-07:00",
-            "display_at": "2026-05-28T16:30:02.517-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "r3783lnqz6c0",
-            "status": "identified",
-            "body": "We continue to investigate the issue with Giphy in Zoom Chat and Zoom In-Meeting Chat.  Users may be unable to search or send GIFs. Some users may also experience re-login prompts. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-28T04:39:04.973-07:00",
-            "updated_at": "2026-05-28T04:39:04.973-07:00",
-            "display_at": "2026-05-28T04:39:04.973-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "yr6pbmcyfv3z",
-            "status": "identified",
-            "body": "We continue to investigate the issue with Giphy in Zoom Chat and Zoom In-Meeting Chat.  Users may be unable to search or send GIFs. Some users may also experience re-login prompts. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-27T16:38:25.054-07:00",
-            "updated_at": "2026-05-27T16:38:25.054-07:00",
-            "display_at": "2026-05-27T16:38:25.054-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "xmn5p7z6rz2v",
-            "status": "identified",
-            "body": "We are still investigating the issue with Giphy in Zoom Chat and Zoom In-Meeting Chat. \nUsers may be unable to search or send GIFs. \nSome users may also experience re-login prompts. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-27T09:50:30.730-07:00",
-            "updated_at": "2026-05-27T09:50:30.730-07:00",
-            "display_at": "2026-05-27T09:50:30.730-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "tt05gh0rrsc1",
-            "status": "monitoring",
-            "body": "The issue affecting Giphy in Zoom Chat and Zoom In-Meeting Chat has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-27T06:08:49.227-07:00",
-            "updated_at": "2026-05-27T06:08:49.227-07:00",
-            "display_at": "2026-05-27T06:08:49.227-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "5mpfrxwpjq88",
-            "status": "identified",
-            "body": "We are still investigating issue with Giphy in Zoom Chat and Zoom In-Meeting Chat. Users may be unable to search or send GIFs. Some users may also experience re-login prompts. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-27T02:42:30.677-07:00",
-            "updated_at": "2026-05-27T02:42:30.677-07:00",
-            "display_at": "2026-05-27T02:42:30.677-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "prt2m9jcsg8b",
-            "status": "identified",
-            "body": "Our team continues to work on the resolution for the service degradation affecting Giphy in Zoom Chat and Zoom In-Meeting Chat. Users may be unable to search or send GIFs. Some users may also experience re-login prompts.\n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-26T22:38:46.978-07:00",
-            "updated_at": "2026-05-26T22:38:46.978-07:00",
-            "display_at": "2026-05-26T22:38:46.978-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "3w62d1mwg7b4",
-            "status": "identified",
-            "body": "We are still investigating issue with Giphy in Zoom Chat and Zoom In-Meeting Chat. Users may be unable to search or send GIFs. Some users may also experience re-login prompts. \n\nWe will provide updates as more information becomes available.\n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-26T20:29:03.702-07:00",
-            "updated_at": "2026-05-26T20:29:03.702-07:00",
-            "display_at": "2026-05-26T20:29:03.702-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "xsw9d94m358y",
-            "status": "identified",
-            "body": "Our team continues to work on the resolution for the service degradation affecting Giphy in Zoom chat and Zoom in-meeting chat.\n\nWe will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-26T19:06:11.422-07:00",
-            "updated_at": "2026-05-26T19:06:11.422-07:00",
-            "display_at": "2026-05-26T19:06:11.422-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "b6bmrnt9zz49",
-            "status": "identified",
-            "body": "Our team continues to work on the resolution for the service degradation affecting Giphy in Zoom chat and Zoom in-meeting chat.\n\nWe will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-26T16:08:13.319-07:00",
-            "updated_at": "2026-05-26T16:08:13.319-07:00",
-            "display_at": "2026-05-26T16:08:13.319-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "g28d76fsfsq8",
-            "status": "identified",
-            "body": "We have successfully identified the root cause affecting Giphy In Zoom Chat and Zoom In-Meeting Chat.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-26T11:25:34.311-07:00",
-            "updated_at": "2026-05-26T11:25:34.311-07:00",
-            "display_at": "2026-05-26T11:25:34.311-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "6q1ywrcc8cn6",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation with Giphy.\n\nUsers may be unable to search or send GIFs In Zoom Chat and Zoom In-Meeting Chat.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "d877fy0zpl77",
-            "created_at": "2026-05-26T11:22:24.801-07:00",
-            "updated_at": "2026-05-26T11:22:24.801-07:00",
-            "display_at": "2026-05-26T11:22:24.801-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-06-01T07:04:56.340-07:00",
-            "position": 1,
-            "description": "Access to Group Chats",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "5q11xjm2mr6h",
@@ -7494,6 +7060,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-05T01:52:03Z"
+    "updated": "2026-06-05T06:38:53Z"
   }
 }
