@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-06T01:33:17Z"
+    "updated": "2026-06-06T05:39:34Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues loading or viewing threads",
-    "updated": "2026-06-06T01:33:17Z"
+    "updated": "2026-06-06T05:39:34Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-05T20:52:20.799-04:00"
+      "updated_at": "2026-06-06T00:39:25.609-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-06T01:33:15Z"
+    "updated": "2026-06-06T05:39:32Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-06T00:52:32.711Z"
+      "updated_at": "2026-06-06T04:39:46.188Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-06T01:33:15Z"
+    "updated": "2026-06-06T05:39:32Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-05T17:52:31.174-07:00"
+      "updated_at": "2026-06-05T21:39:44.121-07:00"
     },
     "components": [
       {
@@ -5732,81 +5732,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "5q11xjm2mr6h",
-        "name": "Zoom Support Maintenance",
-        "status": "scheduled",
-        "created_at": "2026-05-26T09:05:38.796-07:00",
-        "updated_at": "2026-05-26T09:05:38.862-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/zsyzg7zzs16j",
-        "started_at": "2026-05-26T09:05:38.787-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "4p5c0sxmrj5m",
-            "status": "scheduled",
-            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base. Downtime is not expected, but users may experience general slowness for Zoom Support Knowledge Base and Ticketing during the maintenance window.",
-            "incident_id": "5q11xjm2mr6h",
-            "created_at": "2026-05-26T09:05:38.859-07:00",
-            "updated_at": "2026-05-26T09:05:38.859-07:00",
-            "display_at": "2026-05-26T09:05:38.859-07:00",
-            "affected_components": [
-              {
-                "code": "yvbblg5f0rdt",
-                "name": "Zoom Support - Knowledge Base",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "9mhsm7sbmhnr",
-                "name": "Zoom Support - Ticketing",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yvbblg5f0rdt",
-            "name": "Knowledge Base",
-            "status": "operational",
-            "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-05-29T10:47:10.290-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "9mhsm7sbmhnr",
-            "name": "Ticketing",
-            "status": "operational",
-            "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-05-29T10:47:10.306-07:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-06-05T21:00:00.000-07:00",
-        "scheduled_until": "2026-06-06T01:00:00.000-07:00"
-      },
-      {
         "id": "mch0r8f4bcy8",
         "name": "Network Maintenance in Frankfurt Data Center: June 12, 2026",
         "status": "scheduled",
@@ -6827,6 +6752,94 @@
         "scheduled_until": "2026-08-01T18:00:00.000-07:00"
       },
       {
+        "id": "5q11xjm2mr6h",
+        "name": "Zoom Support Maintenance",
+        "status": "in_progress",
+        "created_at": "2026-05-26T09:05:38.796-07:00",
+        "updated_at": "2026-06-05T21:00:09.244-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/zsyzg7zzs16j",
+        "started_at": "2026-05-26T09:05:38.787-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "2102z2jx6w7m",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "5q11xjm2mr6h",
+            "created_at": "2026-06-05T21:00:09.231-07:00",
+            "updated_at": "2026-06-05T21:00:09.231-07:00",
+            "display_at": "2026-06-05T21:00:09.231-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "4p5c0sxmrj5m",
+            "status": "scheduled",
+            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base. Downtime is not expected, but users may experience general slowness for Zoom Support Knowledge Base and Ticketing during the maintenance window.",
+            "incident_id": "5q11xjm2mr6h",
+            "created_at": "2026-05-26T09:05:38.859-07:00",
+            "updated_at": "2026-05-26T09:05:38.859-07:00",
+            "display_at": "2026-05-26T09:05:38.859-07:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yvbblg5f0rdt",
+            "name": "Knowledge Base",
+            "status": "operational",
+            "created_at": "2022-05-03T11:26:39.112-07:00",
+            "updated_at": "2026-05-29T10:47:10.290-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "9mhsm7sbmhnr",
+            "name": "Ticketing",
+            "status": "operational",
+            "created_at": "2022-05-03T11:27:52.285-07:00",
+            "updated_at": "2026-05-29T10:47:10.306-07:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-06-05T21:00:00.000-07:00",
+        "scheduled_until": "2026-06-06T01:00:00.000-07:00"
+      },
+      {
         "id": "xxp32p66ql1b",
         "name": "Zoom Chat Update",
         "status": "in_progress",
@@ -6972,6 +6985,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-06T01:33:15Z"
+    "updated": "2026-06-06T05:39:32Z"
   }
 }
