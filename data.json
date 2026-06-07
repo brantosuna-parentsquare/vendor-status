@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-07T17:55:31Z"
+    "updated": "2026-06-07T19:42:39Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble running workflows",
-    "updated": "2026-06-07T17:55:31Z"
+    "updated": "2026-06-07T19:42:39Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-07T17:55:29Z"
+    "updated": "2026-06-07T19:42:37Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-07T17:55:29Z"
+    "updated": "2026-06-07T19:42:37Z"
   },
   "zoom": {
     "page": {
@@ -6897,6 +6897,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-07T17:55:29Z"
+    "updated": "2026-06-07T19:42:37Z"
   }
 }
