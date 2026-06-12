@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-12T15:59:44Z"
+    "updated": "2026-06-12T18:17:46Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble running workflows",
-    "updated": "2026-06-12T15:59:44Z"
+    "updated": "2026-06-12T18:17:46Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-12T11:20:36.994-04:00"
+      "updated_at": "2026-06-12T13:49:17.646-04:00"
     },
     "components": [
       {
@@ -36,9 +36,9 @@
       {
         "id": "vq3xl1yxlv6w",
         "name": "Marketing Tools",
-        "status": "partial_outage",
+        "status": "degraded_performance",
         "created_at": "2019-11-06T11:21:51.531-05:00",
-        "updated_at": "2026-06-12T10:50:20.839-04:00",
+        "updated_at": "2026-06-12T13:49:17.505-04:00",
         "position": 2,
         "description": "Loading and data processing of Marketing tools like Ads, Email, Social, Forms and Lists.",
         "showcase": false,
@@ -96,9 +96,9 @@
       {
         "id": "j7jxwhzfxbld",
         "name": "Chat & Automation",
-        "status": "partial_outage",
+        "status": "degraded_performance",
         "created_at": "2019-11-06T11:22:55.706-05:00",
-        "updated_at": "2026-06-12T10:32:47.382-04:00",
+        "updated_at": "2026-06-12T13:49:17.529-04:00",
         "position": 6,
         "description": "Loading and processing of data in Chatflows, Inbox, Feedback Surveys and Workflows",
         "showcase": false,
@@ -141,9 +141,9 @@
       {
         "id": "xmv0ypc21z1n",
         "name": "Integrations",
-        "status": "partial_outage",
+        "status": "degraded_performance",
         "created_at": "2015-01-22T13:20:22.438-05:00",
-        "updated_at": "2026-06-12T10:32:47.415-04:00",
+        "updated_at": "2026-06-12T13:49:17.553-04:00",
         "position": 9,
         "description": "Third-party tools integrated into your HubSpot account.",
         "showcase": false,
@@ -188,16 +188,112 @@
       {
         "id": "72t4s97kc9j5",
         "name": "Meta service integrations including WhatsApp, Facebook, Instagram and Ads are unavailable for most customers",
-        "status": "identified",
+        "status": "monitoring",
         "created_at": "2026-06-12T10:32:47.307-04:00",
-        "updated_at": "2026-06-12T11:19:02.828-04:00",
-        "monitoring_at": null,
+        "updated_at": "2026-06-12T13:49:17.632-04:00",
+        "monitoring_at": "2026-06-12T13:20:34.695-04:00",
         "resolved_at": null,
         "impact": "none",
         "shortlink": "https://stspg.io/w9w05ljhzcrx",
         "started_at": "2026-06-12T10:32:47.281-04:00",
         "page_id": "8b9w1wwq3g7d",
         "incident_updates": [
+          {
+            "id": "tx5w44h4r5gg",
+            "status": "monitoring",
+            "body": "Most Meta service integrations, including WhatsApp, Facebook, Instagram, and Ads, have recovered. The disruption started at 4:05 PM UTC+02:00 due to issues with Meta services. But, connecting a new phone number to HubSpot and some Coexistence messages are still disrupted. We are monitoring Meta's recovery for these remaining issues. You can follow the issue here: https://metastatus.com/\n\nWe will be back with an update within 1 hour.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
+            "incident_id": "72t4s97kc9j5",
+            "created_at": "2026-06-12T13:49:17.628-04:00",
+            "updated_at": "2026-06-12T13:49:17.628-04:00",
+            "display_at": "2026-06-12T13:49:17.628-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "partial_outage",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "vq3xl1yxlv6w",
+                "name": "Marketing Tools",
+                "old_status": "partial_outage",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "j7jxwhzfxbld",
+                "name": "Chat & Automation",
+                "old_status": "partial_outage",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "b0kvvg7l8nm3",
+            "status": "monitoring",
+            "body": "We are monitoring recovery of service integrations, including WhatsApp, Facebook, Instagram, and Ads, after disruptions to Meta services caused impairment since 4:05 PM UTC+02:00. Meta services appear to be recovering, and we are verifying that all integrations are functioning normally. You can follow the issue here: https://metastatus.com/\n\nWe will be back with an update within 1 hour.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
+            "incident_id": "72t4s97kc9j5",
+            "created_at": "2026-06-12T13:20:34.695-04:00",
+            "updated_at": "2026-06-12T13:20:34.695-04:00",
+            "display_at": "2026-06-12T13:20:34.695-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "vq3xl1yxlv6w",
+                "name": "Marketing Tools",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "j7jxwhzfxbld",
+                "name": "Chat & Automation",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "j7vwh99pgm1v",
+            "status": "identified",
+            "body": "We have identified the cause of impaired service integrations, including WhatsApp, Facebook, Instagram, and Ads, since 4:05 PM UTC+02:00 due to disruptions to Meta services. We are monitoring Meta's recovery closely and will confirm once all integrations are functioning normally. You can follow the issue here: https://metastatus.com/\n\nWe will be back with an update within 2 hours.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
+            "incident_id": "72t4s97kc9j5",
+            "created_at": "2026-06-12T12:19:11.037-04:00",
+            "updated_at": "2026-06-12T12:19:11.037-04:00",
+            "display_at": "2026-06-12T12:19:11.037-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "vq3xl1yxlv6w",
+                "name": "Marketing Tools",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "j7jxwhzfxbld",
+                "name": "Chat & Automation",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "j08bwty5ww6j",
             "status": "identified",
@@ -319,9 +415,9 @@
           {
             "id": "vq3xl1yxlv6w",
             "name": "Marketing Tools",
-            "status": "partial_outage",
+            "status": "degraded_performance",
             "created_at": "2019-11-06T11:21:51.531-05:00",
-            "updated_at": "2026-06-12T10:50:20.839-04:00",
+            "updated_at": "2026-06-12T13:49:17.505-04:00",
             "position": 2,
             "description": "Loading and data processing of Marketing tools like Ads, Email, Social, Forms and Lists.",
             "showcase": false,
@@ -334,9 +430,9 @@
           {
             "id": "j7jxwhzfxbld",
             "name": "Chat & Automation",
-            "status": "partial_outage",
+            "status": "degraded_performance",
             "created_at": "2019-11-06T11:22:55.706-05:00",
-            "updated_at": "2026-06-12T10:32:47.382-04:00",
+            "updated_at": "2026-06-12T13:49:17.529-04:00",
             "position": 6,
             "description": "Loading and processing of data in Chatflows, Inbox, Feedback Surveys and Workflows",
             "showcase": false,
@@ -349,9 +445,9 @@
           {
             "id": "xmv0ypc21z1n",
             "name": "Integrations",
-            "status": "partial_outage",
+            "status": "degraded_performance",
             "created_at": "2015-01-22T13:20:22.438-05:00",
-            "updated_at": "2026-06-12T10:32:47.415-04:00",
+            "updated_at": "2026-06-12T13:49:17.553-04:00",
             "position": 9,
             "description": "Third-party tools integrated into your HubSpot account.",
             "showcase": false,
@@ -368,9 +464,9 @@
     "scheduled_maintenances": [],
     "status": {
       "indicator": "minor",
-      "description": "Minor Service Outage"
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-06-12T15:59:43Z"
+    "updated": "2026-06-12T18:17:45Z"
   },
   "asana": {
     "page": {
@@ -378,7 +474,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-12T14:57:56.033Z"
+      "updated_at": "2026-06-12T16:38:47.436Z"
     },
     "components": [
       {
@@ -953,7 +1049,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-12T15:59:43Z"
+    "updated": "2026-06-12T18:17:45Z"
   },
   "zoom": {
     "page": {
@@ -961,7 +1057,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-12T07:57:54.988-07:00"
+      "updated_at": "2026-06-12T09:38:47.159-07:00"
     },
     "components": [
       {
@@ -7033,73 +7129,6 @@
         "scheduled_until": "2026-06-30T20:30:00.000-07:00"
       },
       {
-        "id": "xxp32p66ql1b",
-        "name": "Zoom Chat Update",
-        "status": "in_progress",
-        "created_at": "2026-05-20T01:17:44.125-07:00",
-        "updated_at": "2026-05-27T09:00:07.250-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/3g5k8rmf7ptq",
-        "started_at": "2026-05-20T01:17:44.116-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "src65yyw9tj8",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "xxp32p66ql1b",
-            "created_at": "2026-05-27T09:00:07.244-07:00",
-            "updated_at": "2026-05-27T09:00:07.244-07:00",
-            "display_at": "2026-05-27T09:00:07.244-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "ywms87yt5j1p",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom chat backend service. There will be no operational impact. All services will be available during this scheduled update (ZR status might be displayed as offline in the service logs but no operational impact).",
-            "incident_id": "xxp32p66ql1b",
-            "created_at": "2026-05-20T01:17:44.185-07:00",
-            "updated_at": "2026-05-21T01:55:14.610-07:00",
-            "display_at": "2026-05-20T01:17:44.185-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-06-01T07:04:56.340-07:00",
-            "position": 1,
-            "description": "Access to Group Chats",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-05-27T09:00:00.000-07:00",
-        "scheduled_until": "2026-06-12T09:00:00.000-07:00"
-      },
-      {
         "id": "kv04r020y57p",
         "name": "Announcement to Introduce hCaptcha to Zoom Service",
         "status": "in_progress",
@@ -7178,6 +7207,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-12T15:59:43Z"
+    "updated": "2026-06-12T18:17:45Z"
   }
 }
