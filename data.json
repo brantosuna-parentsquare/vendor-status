@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-14T06:20:59Z"
+    "updated": "2026-06-14T10:04:32Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue loading threads in Slack",
-    "updated": "2026-06-14T06:20:59Z"
+    "updated": "2026-06-14T10:04:32Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-14T01:33:36.323-04:00"
+      "updated_at": "2026-06-14T04:08:50.068-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-14T06:20:57Z"
+    "updated": "2026-06-14T10:04:30Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-14T05:33:40.896Z"
+      "updated_at": "2026-06-14T08:08:54.573Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-14T06:20:57Z"
+    "updated": "2026-06-14T10:04:30Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-13T22:33:40.649-07:00"
+      "updated_at": "2026-06-14T01:08:54.232-07:00"
     },
     "components": [
       {
@@ -5732,102 +5732,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "77mtpllvxgcx",
-        "name": "Announcing IP Address Changes (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-05-14T10:11:03.785-07:00",
-        "updated_at": "2026-05-14T10:31:37.032-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/c0xtnkh8kx80",
-        "started_at": "2026-05-14T10:11:03.770-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "tt7x1cb2pjrc",
-            "status": "scheduled",
-            "body": "The following new IPv6 subnet ranges will be deployed for use with Zoom Contact Center, Zoom Phone, and Zoom Virtual Agent resources starting no earlier than 30 days from the posting of this notice. We recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation.\n\n\nNew IPv6 for Zoom Contact Center, Zoom Phone, and Zoom Virtual Agent:\n2407:c280::/32\n\n \nFor a complete list, please see: \nhttps://assets.zoom.us/docs/ipranges/ZoomCC-IPv6.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone-IPv6.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomZVA-IPv6.txt\n\n\nA complete list of network firewall IP ranges and domains for Zoom can be found on the Zoom Support site at: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548",
-            "incident_id": "77mtpllvxgcx",
-            "created_at": "2026-05-14T10:11:03.852-07:00",
-            "updated_at": "2026-05-14T10:11:03.852-07:00",
-            "display_at": "2026-05-14T10:11:03.852-07:00",
-            "affected_components": [
-              {
-                "code": "0842bncf5q9f",
-                "name": "Zoom Phone - Global - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-21T18:00:07.341-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "0842bncf5q9f",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2024-09-30T13:36:13.230-07:00",
-            "updated_at": "2026-05-21T18:00:07.649-07:00",
-            "position": 12,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-09-30",
-            "group_id": "fs7vxs27n4pn",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-06-13T23:59:00.000-07:00",
-        "scheduled_until": "2026-06-14T00:00:00.000-07:00"
-      },
-      {
         "id": "q49s71jzf8h4",
         "name": "Network Maintenance in Frankfurt Data Center: June 19, 2026",
         "status": "scheduled",
@@ -6571,6 +6475,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-14T06:20:57Z"
+    "updated": "2026-06-14T10:04:30Z"
   }
 }
