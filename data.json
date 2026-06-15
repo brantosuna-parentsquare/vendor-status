@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-15T07:38:50Z"
+    "updated": "2026-06-15T13:40:55Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue loading threads in Slack",
-    "updated": "2026-06-15T07:38:50Z"
+    "updated": "2026-06-15T13:40:55Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-14T23:00:55.225-04:00"
+      "updated_at": "2026-06-15T08:58:45.500-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-15T07:38:49Z"
+    "updated": "2026-06-15T13:40:53Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-15T03:01:08.783Z"
+      "updated_at": "2026-06-15T13:18:51.148Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-15T07:38:49Z"
+    "updated": "2026-06-15T13:40:53Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-14T23:35:40.979-07:00"
+      "updated_at": "2026-06-15T06:07:05.681-07:00"
     },
     "components": [
       {
@@ -1269,7 +1269,7 @@
         "name": "Zoom AIC",
         "status": "operational",
         "created_at": "2026-05-27T09:05:29.263-07:00",
-        "updated_at": "2026-05-27T09:05:29.263-07:00",
+        "updated_at": "2026-06-15T05:47:35.062-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -6475,6 +6475,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-15T07:38:49Z"
+    "updated": "2026-06-15T13:40:53Z"
   }
 }
