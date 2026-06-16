@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-16T12:41:28Z"
+    "updated": "2026-06-16T17:51:03Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue loading threads in Slack",
-    "updated": "2026-06-16T12:41:28Z"
+    "updated": "2026-06-16T17:51:03Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-16T06:33:58.814-04:00"
+      "updated_at": "2026-06-16T13:13:48.230-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-16T12:41:27Z"
+    "updated": "2026-06-16T17:51:01Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-16T10:34:03.579Z"
+      "updated_at": "2026-06-16T17:13:53.333Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-16T12:41:27Z"
+    "updated": "2026-06-16T17:51:01Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-16T03:34:03.076-07:00"
+      "updated_at": "2026-06-16T10:13:52.795-07:00"
     },
     "components": [
       {
@@ -6438,30 +6438,30 @@
         "scheduled_until": "2026-06-21T02:00:00.000-07:00"
       },
       {
-        "id": "p683wq0kp1sq",
-        "name": "Zoom Workforce Management Update",
+        "id": "2p39q46wf94l",
+        "name": "Zoom Phone Update (Japan SIP Zones): June 21, 2026 (No Operational Impact)",
         "status": "scheduled",
-        "created_at": "2026-06-15T21:38:18.694-07:00",
-        "updated_at": "2026-06-15T21:38:18.855-07:00",
+        "created_at": "2026-06-16T09:44:00.057-07:00",
+        "updated_at": "2026-06-16T09:44:00.154-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
-        "shortlink": "https://stspg.io/m1qbq3jstmch",
-        "started_at": "2026-06-15T21:38:18.684-07:00",
+        "shortlink": "https://stspg.io/mgcrlr0jc6xt",
+        "started_at": "2026-06-16T09:44:00.046-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "2hgdsg2n6mll",
+            "id": "j5mk5gjqt0w3",
             "status": "scheduled",
-            "body": "We will be providing an update to Zoom Workforce Management. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068337 for more details.\n\nThis update includes Zendesk integration for forecasting. There is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "p683wq0kp1sq",
-            "created_at": "2026-06-15T21:38:18.850-07:00",
-            "updated_at": "2026-06-15T21:38:18.850-07:00",
-            "display_at": "2026-06-15T21:38:18.850-07:00",
+            "body": "We will be providing an update to Zoom Phone -Japan SIP zones in Tokyo and Osaka. \n\nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. \n\nThis update includes the ability to display ZVA receptionist variables in Zoom Phone pop-up windows and incoming notification windows.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "2p39q46wf94l",
+            "created_at": "2026-06-16T09:44:00.151-07:00",
+            "updated_at": "2026-06-16T09:44:00.151-07:00",
+            "display_at": "2026-06-16T09:44:00.151-07:00",
             "affected_components": [
               {
-                "code": "7lvp52xc051q",
-                "name": "Zoom Workforce Management",
+                "code": "yrt9l9s4twjl",
+                "name": "Zoom Phone - JAPAN - Zoom Phone",
                 "old_status": "operational",
                 "new_status": "operational"
               }
@@ -6473,16 +6473,16 @@
         ],
         "components": [
           {
-            "id": "7lvp52xc051q",
-            "name": "Zoom Workforce Management",
+            "id": "yrt9l9s4twjl",
+            "name": "Zoom Phone",
             "status": "operational",
-            "created_at": "2023-08-01T15:44:46.131-07:00",
-            "updated_at": "2026-01-18T02:00:21.169-08:00",
-            "position": 31,
+            "created_at": "2022-05-03T10:50:25.396-07:00",
+            "updated_at": "2025-12-16T17:56:26.488-08:00",
+            "position": 1,
             "description": null,
             "showcase": false,
-            "start_date": "2023-08-01",
-            "group_id": null,
+            "start_date": "2022-05-03",
+            "group_id": "r6hzm1tntmq3",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
@@ -7004,6 +7004,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-16T12:41:27Z"
+    "updated": "2026-06-16T17:51:01Z"
   }
 }
