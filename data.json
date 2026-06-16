@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-15T23:20:57Z"
+    "updated": "2026-06-16T02:09:55Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue loading threads in Slack",
-    "updated": "2026-06-15T23:20:57Z"
+    "updated": "2026-06-16T02:09:55Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-15T16:10:01.099-04:00"
+      "updated_at": "2026-06-15T21:53:53.542-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-15T23:20:55Z"
+    "updated": "2026-06-16T02:09:52Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-15T20:10:19.676Z"
+      "updated_at": "2026-06-16T01:53:58.500Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-15T23:20:55Z"
+    "updated": "2026-06-16T02:09:52Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-15T15:41:30.118-07:00"
+      "updated_at": "2026-06-15T18:53:57.656-07:00"
     },
     "components": [
       {
@@ -4116,9 +4116,9 @@
       {
         "id": "tk62l6f2mjgj",
         "name": "Scheduling Displays",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-06-15T09:58:53.986-07:00",
-        "updated_at": "2026-06-15T10:05:19.303-07:00",
+        "updated_at": "2026-06-15T17:54:06.828-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -5312,7 +5312,7 @@
       {
         "id": "xxngg08dxtpq",
         "name": "Zoom Rooms",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T11:03:01.142-07:00",
         "updated_at": "2024-08-14T13:40:39.102-07:00",
         "position": 27,
@@ -5746,119 +5746,6 @@
       }
     ],
     "incidents": [
-      {
-        "id": "xt41k7sy4s2m",
-        "name": "Incorrect offline status display for Zoom Rooms Scheduling Displays",
-        "status": "identified",
-        "created_at": "2026-06-15T10:05:19.246-07:00",
-        "updated_at": "2026-06-15T15:41:30.109-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/ysfrxy4q72gt",
-        "started_at": "2026-06-15T10:05:19.232-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "ftf8w6qz816b",
-            "status": "identified",
-            "body": "We have identified the root cause where some Zoom Rooms Scheduling Displays may incorrectly appear as offline in the Zoom Dashboard, despite the devices remaining online and operational. \n\nOur team is actively working on a resolution and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "xt41k7sy4s2m",
-            "created_at": "2026-06-15T15:41:30.107-07:00",
-            "updated_at": "2026-06-15T15:41:30.107-07:00",
-            "display_at": "2026-06-15T15:41:30.107-07:00",
-            "affected_components": [
-              {
-                "code": "tk62l6f2mjgj",
-                "name": "Zoom Rooms - Scheduling Displays",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "nmg2ss4bxmpq",
-            "status": "investigating",
-            "body": "Our team is actively working to identify the impact and root cause.  We will provide further updates as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "xt41k7sy4s2m",
-            "created_at": "2026-06-15T12:11:36.580-07:00",
-            "updated_at": "2026-06-15T12:11:36.580-07:00",
-            "display_at": "2026-06-15T12:11:36.580-07:00",
-            "affected_components": [
-              {
-                "code": "tk62l6f2mjgj",
-                "name": "Zoom Rooms - Scheduling Displays",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "z2wzmfpm50qx",
-            "status": "investigating",
-            "body": "Our team is actively working to identify the impact and root cause and will provide further updates as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "xt41k7sy4s2m",
-            "created_at": "2026-06-15T11:10:33.363-07:00",
-            "updated_at": "2026-06-15T11:10:33.363-07:00",
-            "display_at": "2026-06-15T11:10:33.363-07:00",
-            "affected_components": [
-              {
-                "code": "tk62l6f2mjgj",
-                "name": "Zoom Rooms - Scheduling Displays",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "tt6ct0lv2lrg",
-            "status": "investigating",
-            "body": "We are investigating an issue where some Zoom Rooms Scheduling Displays may incorrectly appear as offline in the Zoom Dashboard, despite the devices remaining online and operational.\n\nThis issue is limited to the status displayed in the Dashboard and does not impact the functionality of the affected scheduling displays. \n\nAs a workaround, users may perform a physical reboot of the affected scheduling display device to restore the correct status in the Dashboard.\n\nOur team is actively working to identify the impact and root cause and will provide further updates as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "xt41k7sy4s2m",
-            "created_at": "2026-06-15T10:05:19.389-07:00",
-            "updated_at": "2026-06-15T10:05:19.389-07:00",
-            "display_at": "2026-06-15T10:05:19.389-07:00",
-            "affected_components": [
-              {
-                "code": "tk62l6f2mjgj",
-                "name": "Zoom Rooms - Scheduling Displays",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "tk62l6f2mjgj",
-            "name": "Scheduling Displays",
-            "status": "degraded_performance",
-            "created_at": "2026-06-15T09:58:53.986-07:00",
-            "updated_at": "2026-06-15T10:05:19.303-07:00",
-            "position": 9,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-06-15",
-            "group_id": "xxngg08dxtpq",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      },
       {
         "id": "dhb870jxn030",
         "name": "Service Degradation Affecting Zoom Meeting Recordings",
@@ -6485,6 +6372,60 @@
         "scheduled_until": "2026-07-01T00:00:00.000-07:00"
       },
       {
+        "id": "7b5thbftc7f0",
+        "name": "Deprecation of 'Use Content Delivery Network' Feature",
+        "status": "scheduled",
+        "created_at": "2026-06-15T18:47:27.537-07:00",
+        "updated_at": "2026-06-15T18:49:21.748-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/89r8zgdg1r23",
+        "started_at": "2026-06-15T18:47:27.526-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "np8dv1bvv40d",
+            "status": "scheduled",
+            "body": "We are completing the final phase of the deprecation of the \"Use Content Delivery Network\" (CDN) feature in Zoom Meetings Web. The UI-side disablement was rolled out last year, and we are now performing a full backend cleanup — removing the remaining codebase and associated database tables.\n\nWhat Is Changing?\n\nThe backend infrastructure supporting the \"Use Content Delivery Network\" toggle is being permanently removed. This includes:\n\n- Removal of all code related to the CDN feature\n- Cleanup of associated database tables\n\nThe feature's UI control has already been disabled and was communicated in a prior release. This update completes the full deprecation cycle.\n\nWhy Are We Making This Change?\n\nThis cleanup effort is designed to reduce technical debt, streamline our codebase, and minimise the risk of future regressions. It is part of our ongoing commitment to maintaining a healthy and efficient platform.\n\nImpact on Administrators\n\n- No disruption is expected. This is a backend-only cleanup with no customer-facing impact.\n- No breaking changes or compatibility issues are anticipated.\n- No action is required from administrators or end users.\n\nThis communication is being sent proactively out of an abundance of caution, in the unlikely event of any minor hiccups during the maintenance window.\n\nQuestions or Concerns?\n\nIf you have any questions, please reach out to the Zoom support.\n\nThank you for your continued partnership. We appreciate your patience as we work to keep the platform robust and reliable.",
+            "incident_id": "7b5thbftc7f0",
+            "created_at": "2026-06-15T18:47:27.630-07:00",
+            "updated_at": "2026-06-15T18:49:21.743-07:00",
+            "display_at": "2026-06-15T18:47:27.630-07:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-06-12T21:00:07.545-07:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-18T17:00:00.000-07:00",
+        "scheduled_until": "2026-07-19T17:00:00.000-07:00"
+      },
+      {
         "id": "02jc9z4vflg4",
         "name": "Scheduled Zoom Software Quarterly Lifecycle Update (8/1/2026)",
         "status": "scheduled",
@@ -6715,9 +6656,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-06-15T23:20:55Z"
+    "updated": "2026-06-16T02:09:52Z"
   }
 }
