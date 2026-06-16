@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-16T07:44:22Z"
+    "updated": "2026-06-16T12:41:28Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue loading threads in Slack",
-    "updated": "2026-06-16T07:44:22Z"
+    "updated": "2026-06-16T12:41:28Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-16T01:58:52.956-04:00"
+      "updated_at": "2026-06-16T06:33:58.814-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-16T07:44:20Z"
+    "updated": "2026-06-16T12:41:27Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-16T04:46:41.947Z"
+      "updated_at": "2026-06-16T10:34:03.579Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-16T07:44:20Z"
+    "updated": "2026-06-16T12:41:27Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-15T22:29:42.482-07:00"
+      "updated_at": "2026-06-16T03:34:03.076-07:00"
     },
     "components": [
       {
@@ -7004,6 +7004,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-16T07:44:20Z"
+    "updated": "2026-06-16T12:41:27Z"
   }
 }
