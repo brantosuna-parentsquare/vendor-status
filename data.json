@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-21T16:51:41Z"
+    "updated": "2026-06-21T18:22:31Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue loading threads in Slack",
-    "updated": "2026-06-21T16:51:41Z"
+    "updated": "2026-06-21T18:22:31Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-21T12:00:29.165-04:00"
+      "updated_at": "2026-06-21T14:19:37.311-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-21T16:51:39Z"
+    "updated": "2026-06-21T18:22:30Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-21T16:00:43.972Z"
+      "updated_at": "2026-06-21T18:19:59.788Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-21T16:51:39Z"
+    "updated": "2026-06-21T18:22:30Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-21T09:03:44.308-07:00"
+      "updated_at": "2026-06-21T10:52:58.423-07:00"
     },
     "components": [
       {
@@ -1102,9 +1102,9 @@
       {
         "id": "hybzp260h3n2",
         "name": "Calendar",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-03-23T09:35:24.809-07:00",
-        "updated_at": "2026-06-21T07:43:23.198-07:00",
+        "updated_at": "2026-06-21T10:52:58.319-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -1622,9 +1622,9 @@
       {
         "id": "03szj78zknyt",
         "name": "Mail",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-03-23T09:35:58.650-07:00",
-        "updated_at": "2026-06-21T07:43:23.225-07:00",
+        "updated_at": "2026-06-21T10:52:58.340-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -2057,9 +2057,9 @@
       {
         "id": "h1rqwzs3zwm0",
         "name": "Zoom Scheduler",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-06-21T17:29:07.648-07:00",
-        "updated_at": "2026-06-21T07:43:23.245-07:00",
+        "updated_at": "2026-06-21T10:52:58.359-07:00",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -4724,7 +4724,7 @@
       {
         "id": "thrn29k311lc",
         "name": "Zoom Mail",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-03-23T09:35:24.792-07:00",
         "updated_at": "2024-08-14T13:40:38.950-07:00",
         "position": 15,
@@ -5749,16 +5749,48 @@
       {
         "id": "pnqq19zb8cvy",
         "name": "Service Degradation Affecting Zoom Mail, Calendar and Scheduler services in US Region.",
-        "status": "identified",
+        "status": "monitoring",
         "created_at": "2026-06-21T07:43:23.135-07:00",
-        "updated_at": "2026-06-21T09:03:44.299-07:00",
-        "monitoring_at": null,
+        "updated_at": "2026-06-21T10:52:58.420-07:00",
+        "monitoring_at": "2026-06-21T10:52:58.403-07:00",
         "resolved_at": null,
         "impact": "minor",
         "shortlink": "https://stspg.io/t4tkch9x43sn",
         "started_at": "2026-06-21T07:43:23.118-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "fr7p4mb5ngg5",
+            "status": "monitoring",
+            "body": "The service degradation affecting Zoom Mail, Calendar and Scheduler services in US Region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "pnqq19zb8cvy",
+            "created_at": "2026-06-21T10:52:58.403-07:00",
+            "updated_at": "2026-06-21T10:52:58.403-07:00",
+            "display_at": "2026-06-21T10:52:58.403-07:00",
+            "affected_components": [
+              {
+                "code": "hybzp260h3n2",
+                "name": "Zoom Mail - Calendar",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "03szj78zknyt",
+                "name": "Zoom Mail - Mail",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "h1rqwzs3zwm0",
+                "name": "Zoom Mail - Zoom Scheduler",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "nr49ml4c7cx7",
             "status": "identified",
@@ -5860,9 +5892,9 @@
           {
             "id": "hybzp260h3n2",
             "name": "Calendar",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2023-03-23T09:35:24.809-07:00",
-            "updated_at": "2026-06-21T07:43:23.198-07:00",
+            "updated_at": "2026-06-21T10:52:58.319-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -5875,9 +5907,9 @@
           {
             "id": "03szj78zknyt",
             "name": "Mail",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2023-03-23T09:35:58.650-07:00",
-            "updated_at": "2026-06-21T07:43:23.225-07:00",
+            "updated_at": "2026-06-21T10:52:58.340-07:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -5890,9 +5922,9 @@
           {
             "id": "h1rqwzs3zwm0",
             "name": "Zoom Scheduler",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2023-06-21T17:29:07.648-07:00",
-            "updated_at": "2026-06-21T07:43:23.245-07:00",
+            "updated_at": "2026-06-21T10:52:58.359-07:00",
             "position": 3,
             "description": null,
             "showcase": false,
@@ -6349,86 +6381,6 @@
         "scheduled_until": "2026-08-01T18:00:00.000-07:00"
       },
       {
-        "id": "2p39q46wf94l",
-        "name": "Zoom Phone Update (Japan SIP Zones): June 21, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-06-16T09:44:00.057-07:00",
-        "updated_at": "2026-06-21T08:00:07.420-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/mgcrlr0jc6xt",
-        "started_at": "2026-06-16T09:44:00.046-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "qnrqc5yjqytv",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "2p39q46wf94l",
-            "created_at": "2026-06-21T08:00:07.412-07:00",
-            "updated_at": "2026-06-21T08:00:07.412-07:00",
-            "display_at": "2026-06-21T08:00:07.412-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "szl4009bw6ds",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "2p39q46wf94l",
-            "created_at": "2026-06-21T07:00:07.721-07:00",
-            "updated_at": "2026-06-21T07:00:07.721-07:00",
-            "display_at": "2026-06-21T07:00:07.721-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "j5mk5gjqt0w3",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Phone -Japan SIP zones in Tokyo and Osaka. \n\nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. \n\nThis update includes the ability to display ZVA receptionist variables in Zoom Phone pop-up windows and incoming notification windows.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "2p39q46wf94l",
-            "created_at": "2026-06-16T09:44:00.151-07:00",
-            "updated_at": "2026-06-16T09:44:00.151-07:00",
-            "display_at": "2026-06-16T09:44:00.151-07:00",
-            "affected_components": [
-              {
-                "code": "yrt9l9s4twjl",
-                "name": "Zoom Phone - JAPAN - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yrt9l9s4twjl",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:50:25.396-07:00",
-            "updated_at": "2025-12-16T17:56:26.488-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "r6hzm1tntmq3",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-06-21T08:00:00.000-07:00",
-        "scheduled_until": "2026-06-21T10:00:00.000-07:00"
-      },
-      {
         "id": "4nthb4snfzyd",
         "name": "Zoom Phone/Zoom Contact Center General Underlying Provider Maintenance",
         "status": "in_progress",
@@ -6605,9 +6557,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-06-21T16:51:39Z"
+    "updated": "2026-06-21T18:22:30Z"
   }
 }
