@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-22T11:20:43Z"
+    "updated": "2026-06-22T16:12:36Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-06-22T11:20:43Z"
+    "updated": "2026-06-22T16:12:36Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-22T07:00:41.670-04:00"
+      "updated_at": "2026-06-22T11:20:37.916-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-22T11:20:41Z"
+    "updated": "2026-06-22T16:12:34Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-22T11:00:46.672Z"
+      "updated_at": "2026-06-22T14:04:01.471Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-22T11:20:41Z"
+    "updated": "2026-06-22T16:12:34Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-22T04:00:46.405-07:00"
+      "updated_at": "2026-06-22T08:20:38.260-07:00"
     },
     "components": [
       {
@@ -789,7 +789,7 @@
         "name": "Zoom Meetings",
         "status": "operational",
         "created_at": "2015-01-26T15:04:39.101-08:00",
-        "updated_at": "2026-06-19T21:00:10.557-07:00",
+        "updated_at": "2026-06-22T08:02:11.961-07:00",
         "position": 1,
         "description": "Access to meetings",
         "showcase": false,
@@ -5901,7 +5901,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-06-19T21:00:10.557-07:00",
+            "updated_at": "2026-06-22T08:02:11.961-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6120,7 +6120,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-06-19T21:00:10.557-07:00",
+            "updated_at": "2026-06-22T08:02:11.961-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6349,7 +6349,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-06-19T21:00:10.557-07:00",
+            "updated_at": "2026-06-22T08:02:11.961-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6368,6 +6368,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-22T11:20:41Z"
+    "updated": "2026-06-22T16:12:34Z"
   }
 }
