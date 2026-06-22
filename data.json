@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-22T16:12:36Z"
+    "updated": "2026-06-22T19:50:06Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-06-22T16:12:36Z"
+    "updated": "2026-06-22T19:50:06Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-22T11:20:37.916-04:00"
+      "updated_at": "2026-06-22T15:23:46.911-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-22T16:12:34Z"
+    "updated": "2026-06-22T19:50:05Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-22T14:04:01.471Z"
+      "updated_at": "2026-06-22T19:23:51.649Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-22T16:12:34Z"
+    "updated": "2026-06-22T19:50:05Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-22T08:20:38.260-07:00"
+      "updated_at": "2026-06-22T12:23:51.286-07:00"
     },
     "components": [
       {
@@ -1269,7 +1269,7 @@
         "name": "Zoom AIC",
         "status": "operational",
         "created_at": "2026-05-27T09:05:29.263-07:00",
-        "updated_at": "2026-06-15T05:47:35.062-07:00",
+        "updated_at": "2026-06-22T09:56:04.262-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -5087,7 +5087,7 @@
         "name": "Zoom AIC",
         "status": "operational",
         "created_at": "2023-09-06T17:03:37.897-07:00",
-        "updated_at": "2026-06-19T21:00:14.995-07:00",
+        "updated_at": "2026-06-22T09:56:04.285-07:00",
         "position": 21,
         "description": null,
         "showcase": false,
@@ -5743,6 +5743,21 @@
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
+      },
+      {
+        "id": "n1llzwc1cxtr",
+        "name": "ZoomMate",
+        "status": "operational",
+        "created_at": "2026-06-22T09:29:03.520-07:00",
+        "updated_at": "2026-06-22T09:56:04.302-07:00",
+        "position": 53,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-06-22",
+        "group_id": null,
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
       }
     ],
     "incidents": [],
@@ -6368,6 +6383,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-22T16:12:34Z"
+    "updated": "2026-06-22T19:50:05Z"
   }
 }
