@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-23T15:41:17Z"
+    "updated": "2026-06-23T17:31:37Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-06-23T15:41:17Z"
+    "updated": "2026-06-23T17:31:37Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-23T08:03:46.672-04:00"
+      "updated_at": "2026-06-23T12:54:06.829-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-23T15:41:16Z"
+    "updated": "2026-06-23T17:31:36Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-23T14:37:26.551Z"
+      "updated_at": "2026-06-23T16:54:11.696Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-23T15:41:16Z"
+    "updated": "2026-06-23T17:31:36Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-23T07:37:07.016-07:00"
+      "updated_at": "2026-06-23T09:54:11.553-07:00"
     },
     "components": [
       {
@@ -5760,142 +5760,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "lqgrnr6k9jld",
-        "name": "Service Degradation Affecting Zoom Contact Center Services and Incorrect Offline Status Display for Zoom Rooms Scheduling in U.S Region.",
-        "status": "monitoring",
-        "created_at": "2026-06-22T23:57:52.000-07:00",
-        "updated_at": "2026-06-23T01:10:36.260-07:00",
-        "monitoring_at": "2026-06-23T00:10:47.000-07:00",
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/x2qbghm919rd",
-        "started_at": "2026-06-22T23:57:52.000-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "3mfxypjmt25w",
-            "status": "monitoring",
-            "body": "The issue affecting Zoom Contact Center Services and Incorrect Offline Status Display for Zoom Rooms Scheduling in U.S region between 06:23 UTC to 06:44 UTC has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.",
-            "incident_id": "lqgrnr6k9jld",
-            "created_at": "2026-06-23T00:43:22.339-07:00",
-            "updated_at": "2026-06-23T00:43:22.339-07:00",
-            "display_at": "2026-06-23T00:43:22.339-07:00",
-            "affected_components": [
-              {
-                "code": "tk62l6f2mjgj",
-                "name": "Zoom Rooms - Scheduling Displays",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vttvjkwmdfps",
-                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "0jrwfs31ymmr",
-            "status": "monitoring",
-            "body": "The issue affecting Zoom Contact Center Services and Incorrect Offline Status Display for Zoom Rooms Scheduling in U.S region between 06:23 UTC to 06:44 UTC has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.",
-            "incident_id": "lqgrnr6k9jld",
-            "created_at": "2026-06-23T00:10:47.975-07:00",
-            "updated_at": "2026-06-23T01:09:48.084-07:00",
-            "display_at": "2026-06-23T00:10:47.000-07:00",
-            "affected_components": [
-              {
-                "code": "vttvjkwmdfps",
-                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "nckk5vnvcz9s",
-            "status": "identified",
-            "body": "We have successfully identified the root cause affecting Zoom Contact Center Services and Incorrect Offline Status Display for Zoom Rooms Scheduling in U.S region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "lqgrnr6k9jld",
-            "created_at": "2026-06-23T00:00:12.901-07:00",
-            "updated_at": "2026-06-23T01:10:23.242-07:00",
-            "display_at": "2026-06-23T00:00:12.000-07:00",
-            "affected_components": [
-              {
-                "code": "vttvjkwmdfps",
-                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "4b3kgw3mds9y",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation affecting Zoom Contact Center Services and Incorrect Offline Status Display for Zoom Rooms Scheduling in US.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "lqgrnr6k9jld",
-            "created_at": "2026-06-22T23:57:52.514-07:00",
-            "updated_at": "2026-06-23T01:10:36.194-07:00",
-            "display_at": "2026-06-22T23:57:52.000-07:00",
-            "affected_components": [
-              {
-                "code": "vttvjkwmdfps",
-                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "vttvjkwmdfps",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2022-03-18T10:03:55.317-07:00",
-            "updated_at": "2026-06-23T00:10:47.932-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-03-18",
-            "group_id": "pdcbftj9pg7j",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "tk62l6f2mjgj",
-            "name": "Scheduling Displays",
-            "status": "operational",
-            "created_at": "2026-06-15T09:58:53.986-07:00",
-            "updated_at": "2026-06-15T17:54:06.828-07:00",
-            "position": 9,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-06-15",
-            "group_id": "xxngg08dxtpq",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "40bgsvqt14jw",
@@ -6518,6 +6383,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-23T15:41:16Z"
+    "updated": "2026-06-23T17:31:36Z"
   }
 }
