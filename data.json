@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-24T05:57:18Z"
+    "updated": "2026-06-24T09:47:33Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-06-24T05:57:18Z"
+    "updated": "2026-06-24T09:47:33Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-06-24T00:28:54.462-04:00"
+      "updated_at": "2026-06-24T04:43:54.982-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-24T05:57:17Z"
+    "updated": "2026-06-24T09:47:31Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-06-24T04:28:59.138Z"
+      "updated_at": "2026-06-24T09:43:12.854Z"
     },
     "components": [
       {
@@ -417,7 +417,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-06-23T11:31:04.000Z",
+        "updated_at": "2026-06-24T09:43:04.000Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-24T05:57:17Z"
+    "updated": "2026-06-24T09:47:31Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-23T22:34:36.749-07:00"
+      "updated_at": "2026-06-24T01:43:59.765-07:00"
     },
     "components": [
       {
@@ -6398,6 +6398,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-24T05:57:17Z"
+    "updated": "2026-06-24T09:47:31Z"
   }
 }
