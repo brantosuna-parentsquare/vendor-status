@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-06-26T21:39:45Z"
+    "updated": "2026-06-26T22:52:12Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-06-26T21:39:45Z"
+    "updated": "2026-06-26T22:52:12Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-26T21:39:43Z"
+    "updated": "2026-06-26T22:52:10Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-26T21:39:43Z"
+    "updated": "2026-06-26T22:52:10Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-26T13:49:42.432-07:00"
+      "updated_at": "2026-06-26T15:46:52.015-07:00"
     },
     "components": [
       {
@@ -5928,81 +5928,6 @@
         "scheduled_until": "2026-07-01T00:00:00.000-07:00"
       },
       {
-        "id": "c1lcxfsfpj90",
-        "name": "Zoom Support Maintenance",
-        "status": "scheduled",
-        "created_at": "2026-06-15T19:40:56.543-07:00",
-        "updated_at": "2026-06-15T19:40:56.646-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/5k5hlc2b56qc",
-        "started_at": "2026-06-15T19:40:56.529-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "mys5w3kx17gn",
-            "status": "scheduled",
-            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base. Downtime is not expected, but users may experience general slowness for Zoom Support Knowledge Base and Ticketing during the maintenance window.",
-            "incident_id": "c1lcxfsfpj90",
-            "created_at": "2026-06-15T19:40:56.642-07:00",
-            "updated_at": "2026-06-15T19:40:56.642-07:00",
-            "display_at": "2026-06-15T19:40:56.642-07:00",
-            "affected_components": [
-              {
-                "code": "yvbblg5f0rdt",
-                "name": "Zoom Support - Knowledge Base",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "9mhsm7sbmhnr",
-                "name": "Zoom Support - Ticketing",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yvbblg5f0rdt",
-            "name": "Knowledge Base",
-            "status": "operational",
-            "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-05-29T10:47:10.290-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "9mhsm7sbmhnr",
-            "name": "Ticketing",
-            "status": "operational",
-            "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-05-29T10:47:10.306-07:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-04T00:00:00.000-07:00",
-        "scheduled_until": "2026-07-04T01:30:00.000-07:00"
-      },
-      {
         "id": "50dmk64nrp1y",
         "name": "Network Maintenance in Vancouver Datacenter: July 11, 2026",
         "status": "scheduled",
@@ -6365,6 +6290,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-06-26T21:39:43Z"
+    "updated": "2026-06-26T22:52:10Z"
   }
 }
