@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-01T04:43:23Z"
+    "updated": "2026-07-01T08:41:11Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-07-01T04:43:23Z"
+    "updated": "2026-07-01T08:41:11Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-01T00:23:42.366-04:00"
+      "updated_at": "2026-07-01T03:57:23.135-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-01T04:43:21Z"
+    "updated": "2026-07-01T08:41:09Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-01T04:23:46.833Z"
+      "updated_at": "2026-07-01T07:57:28.572Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-01T04:43:21Z"
+    "updated": "2026-07-01T08:41:09Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-06-30T21:23:46.306-07:00"
+      "updated_at": "2026-07-01T00:57:28.599-07:00"
     },
     "components": [
       {
@@ -5778,81 +5778,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "d61mbyv8dgkz",
-        "name": "Announcing IP Address Changes (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-06-01T11:36:43.370-07:00",
-        "updated_at": "2026-06-02T08:49:44.808-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/yt1pgj4p8hz5",
-        "started_at": "2026-06-01T11:36:43.351-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "7g9pbs5q5nsh",
-            "status": "scheduled",
-            "body": "The following new and updated IP addresses will be deployed to Zoom resources for the Zoom Contact Center (ZCC) Flow Script and HTTP Call widgets, as well as the Zoom Virtual Agent (ZVA) Flow Script widget. In addition, a subset of addresses that were previously assigned to the widgets have already been removed from service and will not be reassigned until after the maintenance window. We recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation.\n\nNew IPv4 addresses for the ZCC Flow Script widget and HTTP Call widget endpoints:\n3.66.91.120\n3.66.92.245\n35.180.72.184\n35.180.179.45\n\nRemoved IPv4 addresses for the ZCC Flow Script widget and HTTP Call widget endpoints:\n3.66.90.39\n3.66.90.206\n3.70.50.178\n\nNew IPv4 addresses for the ZVA Flow Script widget endpoints:\n3.71.117.179\n3.75.143.208\n13.38.195.93\n52.47.34.120\n\nRemoved IPv4 addresses for the ZVA Flow Script widget endpoints:\n3.71.118.107\n3.71.118.247\n3.70.48.137\n\nA complete list of network firewall IP ranges and domains for Zoom can be found on the Zoom Support site at: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548",
-            "incident_id": "d61mbyv8dgkz",
-            "created_at": "2026-06-01T11:36:43.477-07:00",
-            "updated_at": "2026-06-02T08:49:44.801-07:00",
-            "display_at": "2026-06-01T11:36:43.477-07:00",
-            "affected_components": [
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-21T18:00:07.341-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-06-30T23:59:00.000-07:00",
-        "scheduled_until": "2026-07-01T00:00:00.000-07:00"
-      },
-      {
         "id": "0x4zbk0yl0qs",
         "name": "Zoom Support Maintenance (July 10, 2026)",
         "status": "scheduled",
@@ -6203,6 +6128,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-01T04:43:21Z"
+    "updated": "2026-07-01T08:41:09Z"
   }
 }
