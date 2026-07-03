@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-03T08:38:50Z"
+    "updated": "2026-07-03T11:17:40Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-07-03T08:38:50Z"
+    "updated": "2026-07-03T11:17:40Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-03T03:34:46.626-04:00"
+      "updated_at": "2026-07-03T06:13:43.030-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-03T08:38:49Z"
+    "updated": "2026-07-03T11:17:38Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-03T07:34:55.191Z"
+      "updated_at": "2026-07-03T11:07:23.756Z"
     },
     "components": [
       {
@@ -317,7 +317,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -611,9 +611,9 @@
       {
         "id": "xk6m3fzxd961",
         "name": "Webhooks and Event Streams",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T18:05:05.907Z",
-        "updated_at": "2026-06-30T09:41:45.000Z",
+        "updated_at": "2026-07-03T11:07:20.000Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -770,10 +770,10 @@
     "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "major",
+      "description": "Partial System Outage"
     },
-    "updated": "2026-07-03T08:38:49Z"
+    "updated": "2026-07-03T11:17:38Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-03T00:34:53.755-07:00"
+      "updated_at": "2026-07-03T03:13:47.953-07:00"
     },
     "components": [
       {
@@ -6189,6 +6189,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-03T08:38:49Z"
+    "updated": "2026-07-03T11:17:38Z"
   }
 }
