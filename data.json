@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-07T20:20:22Z"
+    "updated": "2026-07-07T21:54:47Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-07-07T20:20:22Z"
+    "latest_title": "Incident: Trouble with adding payment methods",
+    "updated": "2026-07-07T21:54:47Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-07T14:53:47.809-04:00"
+      "updated_at": "2026-07-07T16:35:59.731-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-07T20:20:21Z"
+    "updated": "2026-07-07T21:54:46Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-07T19:24:08.975Z"
+      "updated_at": "2026-07-07T20:32:55.576Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-07T20:20:21Z"
+    "updated": "2026-07-07T21:54:46Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-07T11:53:55.080-07:00"
+      "updated_at": "2026-07-07T14:44:14.764-07:00"
     },
     "components": [
       {
@@ -1342,9 +1342,9 @@
       {
         "id": "jsk0584rpghr",
         "name": "Calling (Inbound/Outbound)",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:46:24.019-07:00",
-        "updated_at": "2026-07-07T03:15:59.808-07:00",
+        "updated_at": "2026-07-07T14:44:14.675-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -1562,9 +1562,9 @@
       {
         "id": "dkz3yppqdg9h",
         "name": "Voice (Inbound/Outbound)",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-03-22T11:20:49.697-07:00",
-        "updated_at": "2026-07-07T03:15:59.826-07:00",
+        "updated_at": "2026-07-07T14:44:14.698-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -3055,7 +3055,7 @@
       {
         "id": "23spl3b8jrnd",
         "name": "Zoom CX - APAC",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-03-22T11:15:14.185-07:00",
         "updated_at": "2026-05-28T18:19:01.669-07:00",
         "position": 6,
@@ -4964,7 +4964,7 @@
       {
         "id": "k4ymzkwr5c5f",
         "name": "Zoom Phone - APAC",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:45:58.944-07:00",
         "updated_at": "2024-08-14T13:40:38.999-07:00",
         "position": 19,
@@ -5779,16 +5779,68 @@
       {
         "id": "fjz7bzj079w9",
         "name": "Service Degradation Affecting Zoom Phone and Zoom Contact Center Inbound calls in India",
-        "status": "identified",
+        "status": "monitoring",
         "created_at": "2026-07-07T03:15:59.772-07:00",
-        "updated_at": "2026-07-07T11:06:45.728-07:00",
-        "monitoring_at": null,
+        "updated_at": "2026-07-07T14:44:14.762-07:00",
+        "monitoring_at": "2026-07-07T14:44:14.745-07:00",
         "resolved_at": null,
         "impact": "minor",
         "shortlink": "https://stspg.io/krjfqybzg7j0",
         "started_at": "2026-07-07T03:15:59.760-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "sr4q03d3qmzh",
+            "status": "monitoring",
+            "body": "The service degradation affecting Zoom Phone and Zoom Contact Center Inbound calls in India has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "fjz7bzj079w9",
+            "created_at": "2026-07-07T14:44:14.745-07:00",
+            "updated_at": "2026-07-07T14:44:14.745-07:00",
+            "display_at": "2026-07-07T14:44:14.745-07:00",
+            "affected_components": [
+              {
+                "code": "jsk0584rpghr",
+                "name": "Zoom Phone - APAC - Calling (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "dkz3yppqdg9h",
+                "name": "Zoom CX - APAC - Voice (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "zqn41zf3f056",
+            "status": "identified",
+            "body": "We continue to work with our carrier partner to resolve the issue and will provide updates as soon as more information becomes available.\n\nThank you for your patience.",
+            "incident_id": "fjz7bzj079w9",
+            "created_at": "2026-07-07T14:06:48.076-07:00",
+            "updated_at": "2026-07-07T14:06:48.076-07:00",
+            "display_at": "2026-07-07T14:06:48.076-07:00",
+            "affected_components": [
+              {
+                "code": "jsk0584rpghr",
+                "name": "Zoom Phone - APAC - Calling (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "dkz3yppqdg9h",
+                "name": "Zoom CX - APAC - Voice (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "qp7c8h5nn5nn",
             "status": "identified",
@@ -5950,9 +6002,9 @@
           {
             "id": "jsk0584rpghr",
             "name": "Calling (Inbound/Outbound)",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2022-05-03T10:46:24.019-07:00",
-            "updated_at": "2026-07-07T03:15:59.808-07:00",
+            "updated_at": "2026-07-07T14:44:14.675-07:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -5965,9 +6017,9 @@
           {
             "id": "dkz3yppqdg9h",
             "name": "Voice (Inbound/Outbound)",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2023-03-22T11:20:49.697-07:00",
-            "updated_at": "2026-07-07T03:15:59.826-07:00",
+            "updated_at": "2026-07-07T14:44:14.698-07:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -6981,9 +7033,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-07-07T20:20:21Z"
+    "updated": "2026-07-07T21:54:46Z"
   }
 }
