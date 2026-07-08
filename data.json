@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-08T15:29:14Z"
+    "updated": "2026-07-08T17:03:08Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with adding payment methods",
-    "updated": "2026-07-08T15:29:14Z"
+    "updated": "2026-07-08T17:03:08Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-08T15:29:13Z"
+    "updated": "2026-07-08T17:03:06Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-08T15:29:13Z"
+    "updated": "2026-07-08T17:03:06Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-08T08:21:12.680-07:00"
+      "updated_at": "2026-07-08T09:03:31.105-07:00"
     },
     "components": [
       {
@@ -3594,9 +3594,9 @@
       {
         "id": "1v9cn0m69cc1",
         "name": "Ellkay",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-07-08T07:54:04.002-07:00",
-        "updated_at": "2026-07-08T08:02:19.934-07:00",
+        "updated_at": "2026-07-08T08:52:37.299-07:00",
         "position": 7,
         "description": null,
         "showcase": false,
@@ -5627,7 +5627,7 @@
       {
         "id": "qc3jmtft3wbx",
         "name": "Apps by Zoom",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-02-02T21:36:12.700-08:00",
         "updated_at": "2026-02-02T21:36:12.700-08:00",
         "position": 44,
@@ -5791,61 +5791,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "t4pkjmm016rc",
-        "name": "Service Degradation Affecting Zoom Healthcare Integration services in US Region",
-        "status": "identified",
-        "created_at": "2026-07-08T08:02:19.903-07:00",
-        "updated_at": "2026-07-08T08:02:19.987-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/q3htqd10zl5w",
-        "started_at": "2026-07-08T08:02:19.894-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "1lm0hgr68k3z",
-            "status": "identified",
-            "body": "We have successfully identified the root cause affecting users' ability to sync appointments with Zoom Healthcare Integration in US region.\n\nWe are working with our vendor to resolve the issue. We will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "t4pkjmm016rc",
-            "created_at": "2026-07-08T08:02:19.984-07:00",
-            "updated_at": "2026-07-08T08:02:19.984-07:00",
-            "display_at": "2026-07-08T08:02:19.984-07:00",
-            "affected_components": [
-              {
-                "code": "1v9cn0m69cc1",
-                "name": "Apps by Zoom - Ellkay",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "1v9cn0m69cc1",
-            "name": "Ellkay",
-            "status": "degraded_performance",
-            "created_at": "2026-07-08T07:54:04.002-07:00",
-            "updated_at": "2026-07-08T08:02:19.934-07:00",
-            "position": 7,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-07-08",
-            "group_id": "qc3jmtft3wbx",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "mzc6704cw003",
@@ -7066,9 +7012,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-07-08T15:29:13Z"
+    "updated": "2026-07-08T17:03:06Z"
   }
 }
