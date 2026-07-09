@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-09T16:16:04Z"
+    "updated": "2026-07-09T18:14:03Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with adding payment methods",
-    "updated": "2026-07-09T16:16:04Z"
+    "updated": "2026-07-09T18:14:03Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-09T11:18:58.590-04:00"
+      "updated_at": "2026-07-09T13:34:07.214-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-09T16:16:03Z"
+    "updated": "2026-07-09T18:13:57Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-09T15:19:01.067Z"
+      "updated_at": "2026-07-09T17:34:12.786Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-09T16:16:03Z"
+    "updated": "2026-07-09T18:13:57Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-09T08:19:00.863-07:00"
+      "updated_at": "2026-07-09T10:40:36.282-07:00"
     },
     "components": [
       {
@@ -6201,6 +6201,81 @@
         "scheduled_until": "2026-08-07T12:00:00.000-07:00"
       },
       {
+        "id": "wglgstcgsh25",
+        "name": "Announcing IP Address Changes (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-07-09T10:40:36.183-07:00",
+        "updated_at": "2026-07-09T10:40:36.278-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/dfklb9bw2bjs",
+        "started_at": "2026-07-09T10:40:36.167-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "npc8bj7ry589",
+            "status": "scheduled",
+            "body": "The following new IPv4 subnet ranges will be deployed to Zoom resources for the Zoom Contact Center (ZCC) Flow Script and HTTP Call widgets, as well as the Zoom Virtual Agent (ZVA) Flow Script widget endpoints, starting no earlier than 30 days from the posting of this notice. We recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation.\n\nIn addition to the changes above, additional addresses for the Zoom Virtual Agent (ZVA) HTTP call widget, AI expert assist, and knowledge base to sync content endpoints have been deployed and are in use. We recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible.\n\nRemoved IPv4 addresses for the ZCC Flow Script widget and HTTP Call widget endpoints:\n79.72.1.202\n80.225.76.19\n84.8.104.187\n84.8.110.17\n\nNew IPv4 addresses for the ZCC Flow Script widget and HTTP Call widget endpoints:\n145.241.111.23\n158.101.246.120\n\nRemoved IPv4 addresses for the ZVA Flow Script widget endpoints:\n79.72.1.202\n80.225.76.19\n84.8.104.187\n84.8.110.17\n\nNew IPv4 addresses for the ZVA Flow Script widget endpoints:\n84.8.109.27\n130.110.100.148\n\nNew IPv4 addresses for the  ZVA HTTP call widget, AI expert assist, and knowledge base to sync content endpoints:\n3.66.90.228\n13.37.194.4\n144.24.221.20\n145.241.105.147\n\nA complete list of network firewall IP ranges and domains for Zoom can be found on the Zoom Support site at: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548",
+            "incident_id": "wglgstcgsh25",
+            "created_at": "2026-07-09T10:40:36.274-07:00",
+            "updated_at": "2026-07-09T10:40:36.274-07:00",
+            "display_at": "2026-07-09T10:40:36.274-07:00",
+            "affected_components": [
+              {
+                "code": "s5s5m6flk56z",
+                "name": "Zoom CX - Global - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
+            "status": "operational",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "s5s5m6flk56z",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2024-03-21T13:14:33.314-07:00",
+            "updated_at": "2026-05-21T18:00:07.341-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-03-21",
+            "group_id": "1bmg0stx4mk0",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-08-09T23:59:00.000-07:00",
+        "scheduled_until": "2026-08-10T00:00:00.000-07:00"
+      },
+      {
         "id": "mzc6704cw003",
         "name": "Zoom Push Notification Service Release: July, 2026 (No Operational Impact)",
         "status": "in_progress",
@@ -7041,6 +7116,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-09T16:16:03Z"
+    "updated": "2026-07-09T18:13:57Z"
   }
 }
