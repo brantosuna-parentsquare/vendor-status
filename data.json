@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-10T16:04:59Z"
+    "updated": "2026-07-10T17:59:44Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with adding payment methods",
-    "updated": "2026-07-10T16:04:59Z"
+    "updated": "2026-07-10T17:59:44Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-10T16:04:57Z"
+    "updated": "2026-07-10T17:59:43Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-10T15:43:50.824Z"
+      "updated_at": "2026-07-10T17:38:44.920Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-10T16:04:57Z"
+    "updated": "2026-07-10T17:59:43Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-10T08:43:50.707-07:00"
+      "updated_at": "2026-07-10T10:38:44.843-07:00"
     },
     "components": [
       {
@@ -4874,7 +4874,7 @@
         "name": "My Notes",
         "status": "operational",
         "created_at": "2023-08-31T09:53:22.798-07:00",
-        "updated_at": "2026-06-14T23:24:38.082-07:00",
+        "updated_at": "2026-07-10T10:08:35.106-07:00",
         "position": 17,
         "description": null,
         "showcase": false,
@@ -5791,7 +5791,101 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "jmswqxlg4zvk",
+        "name": "Service Degradation Affecting My Notes for Third-Party Meetings in Europe and US Region.",
+        "status": "monitoring",
+        "created_at": "2026-07-10T09:18:11.663-07:00",
+        "updated_at": "2026-07-10T10:08:35.156-07:00",
+        "monitoring_at": "2026-07-10T10:08:35.143-07:00",
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/8xykwgfm4sp4",
+        "started_at": "2026-07-10T09:33:14.000-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "fmr5l402tkfp",
+            "status": "monitoring",
+            "body": "The service degradation with My Notes for Third-Party Meetings in Europe and US Region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "jmswqxlg4zvk",
+            "created_at": "2026-07-10T10:08:35.143-07:00",
+            "updated_at": "2026-07-10T10:08:35.143-07:00",
+            "display_at": "2026-07-10T10:08:35.143-07:00",
+            "affected_components": [
+              {
+                "code": "tvtkg7hq9qdd",
+                "name": "My Notes",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "961c25sd856k",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting My Notes for Third-Party Meetings in Europe and US Region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "jmswqxlg4zvk",
+            "created_at": "2026-07-10T09:33:14.302-07:00",
+            "updated_at": "2026-07-10T09:36:30.276-07:00",
+            "display_at": "2026-07-10T09:33:14.000-07:00",
+            "affected_components": [
+              {
+                "code": "tvtkg7hq9qdd",
+                "name": "My Notes",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "kd221rc01nv7",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting My Notes for 3rd party in US and EU region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "jmswqxlg4zvk",
+            "created_at": "2026-07-10T09:18:11.741-07:00",
+            "updated_at": "2026-07-10T09:18:11.741-07:00",
+            "display_at": "2026-07-10T09:18:11.741-07:00",
+            "affected_components": [
+              {
+                "code": "tvtkg7hq9qdd",
+                "name": "My Notes",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "tvtkg7hq9qdd",
+            "name": "My Notes",
+            "status": "operational",
+            "created_at": "2023-08-31T09:53:22.798-07:00",
+            "updated_at": "2026-07-10T10:08:35.106-07:00",
+            "position": 17,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-08-31",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "0x4zbk0yl0qs",
@@ -7116,6 +7210,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-10T16:04:57Z"
+    "updated": "2026-07-10T17:59:43Z"
   }
 }
