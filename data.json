@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-11T11:11:29Z"
+    "updated": "2026-07-11T12:09:03Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with adding payment methods",
-    "updated": "2026-07-11T11:11:29Z"
+    "updated": "2026-07-11T12:09:03Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-11T11:11:27Z"
+    "updated": "2026-07-11T12:09:02Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-11T11:11:27Z"
+    "updated": "2026-07-11T12:09:02Z"
   },
   "zoom": {
     "page": {
@@ -7041,6 +7041,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-11T11:11:27Z"
+    "updated": "2026-07-11T12:09:02Z"
   }
 }
