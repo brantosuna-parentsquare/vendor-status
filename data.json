@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-11T06:04:29Z"
+    "updated": "2026-07-11T08:12:57Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with adding payment methods",
-    "updated": "2026-07-11T06:04:29Z"
+    "updated": "2026-07-11T08:12:57Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-11T01:48:44.158-04:00"
+      "updated_at": "2026-07-11T03:14:03.124-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-11T06:04:27Z"
+    "updated": "2026-07-11T08:12:55Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-11T05:48:48.157Z"
+      "updated_at": "2026-07-11T07:14:07.657Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-11T06:04:27Z"
+    "updated": "2026-07-11T08:12:55Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-10T22:48:47.551-07:00"
+      "updated_at": "2026-07-11T00:14:07.363-07:00"
     },
     "components": [
       {
@@ -7041,6 +7041,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-11T06:04:27Z"
+    "updated": "2026-07-11T08:12:55Z"
   }
 }
