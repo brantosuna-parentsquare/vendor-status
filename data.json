@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-14T18:10:57Z"
+    "updated": "2026-07-14T19:48:03Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Trouble loading Slack, messages, or canvas",
-    "updated": "2026-07-14T18:10:57Z"
+    "latest_title": "Incident: Trouble loading Slack and performing actions",
+    "updated": "2026-07-14T19:48:03Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-14T13:20:38.756-04:00"
+      "updated_at": "2026-07-14T15:16:23.771-04:00"
     },
     "components": [
       {
@@ -265,7 +265,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-07-14T18:10:55Z"
+    "updated": "2026-07-14T19:48:02Z"
   },
   "asana": {
     "page": {
@@ -848,7 +848,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-14T18:10:55Z"
+    "updated": "2026-07-14T19:48:02Z"
   },
   "zoom": {
     "page": {
@@ -856,7 +856,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-14T09:33:58.536-07:00"
+      "updated_at": "2026-07-14T12:33:50.388-07:00"
     },
     "components": [
       {
@@ -5869,6 +5869,168 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
+        "id": "9bfbfjz2cjj9",
+        "name": "Zoom Workforce Management Update: 7/15/2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-07-14T12:33:50.233-07:00",
+        "updated_at": "2026-07-14T12:33:50.384-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/rh7r9577wpjs",
+        "started_at": "2026-07-14T12:33:50.225-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "pbjs7p78q5w2",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Workforce Management. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068337 for more details. This update includes the ability to import staffing data at the interval level.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "9bfbfjz2cjj9",
+            "created_at": "2026-07-14T12:33:50.379-07:00",
+            "updated_at": "2026-07-14T12:33:50.379-07:00",
+            "display_at": "2026-07-14T12:33:50.379-07:00",
+            "affected_components": [
+              {
+                "code": "7lvp52xc051q",
+                "name": "Zoom Workforce Management",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "7lvp52xc051q",
+            "name": "Zoom Workforce Management",
+            "status": "operational",
+            "created_at": "2023-08-01T15:44:46.131-07:00",
+            "updated_at": "2026-01-18T02:00:21.169-08:00",
+            "position": 31,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-08-01",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-15T17:00:00.000-07:00",
+        "scheduled_until": "2026-07-16T02:00:00.000-07:00"
+      },
+      {
+        "id": "53ly6wrh7rwh",
+        "name": "Zoom Contact Center Update: 7/18/2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-07-14T11:36:53.602-07:00",
+        "updated_at": "2026-07-14T11:36:53.681-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/wqyz9npnll3l",
+        "started_at": "2026-07-14T11:36:53.593-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "tqy2p44zn23c",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes workforce management scheduling and adherence analysis capabilities in CX Analytics.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "53ly6wrh7rwh",
+            "created_at": "2026-07-14T11:36:53.678-07:00",
+            "updated_at": "2026-07-14T11:36:53.678-07:00",
+            "display_at": "2026-07-14T11:36:53.678-07:00",
+            "affected_components": [
+              {
+                "code": "s5s5m6flk56z",
+                "name": "Zoom CX - Global - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "s5s5m6flk56z",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2024-03-21T13:14:33.314-07:00",
+            "updated_at": "2026-05-21T18:00:07.341-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-03-21",
+            "group_id": "1bmg0stx4mk0",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
+        "scheduled_until": "2026-07-18T02:00:00.000-07:00"
+      },
+      {
+        "id": "vn77cn1vrpph",
+        "name": "Zoom Virtual Agent Update: 7/18/2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-07-14T11:43:25.469-07:00",
+        "updated_at": "2026-07-14T11:43:25.562-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/c1z6smwy4r0l",
+        "started_at": "2026-07-14T11:43:25.458-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "20mlvhk7tcy4",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes a Zoom Virtual Agent Receptionist dashboard.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "vn77cn1vrpph",
+            "created_at": "2026-07-14T11:43:25.558-07:00",
+            "updated_at": "2026-07-14T11:43:25.558-07:00",
+            "display_at": "2026-07-14T11:43:25.558-07:00",
+            "affected_components": [
+              {
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
+            "status": "operational",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
+        "scheduled_until": "2026-07-18T02:00:00.000-07:00"
+      },
+      {
         "id": "8s9mf76h9hxn",
         "name": "Zoom Support Maintenance (July 18, 2026)",
         "status": "scheduled",
@@ -5996,6 +6158,114 @@
         ],
         "scheduled_for": "2026-07-18T17:00:00.000-07:00",
         "scheduled_until": "2026-07-19T17:00:00.000-07:00"
+      },
+      {
+        "id": "svz6f08fbbhp",
+        "name": "Zoom Phone Update: 7/19/2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-07-14T11:56:40.991-07:00",
+        "updated_at": "2026-07-14T11:56:41.075-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/9hfykb0k9cy1",
+        "started_at": "2026-07-14T11:56:40.983-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "zm6jhxbchnm1",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Phone. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. This update includes a transition to a new call history system.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "svz6f08fbbhp",
+            "created_at": "2026-07-14T11:56:41.072-07:00",
+            "updated_at": "2026-07-14T11:56:41.072-07:00",
+            "display_at": "2026-07-14T11:56:41.072-07:00",
+            "affected_components": [
+              {
+                "code": "0842bncf5q9f",
+                "name": "Zoom Phone - Global - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "0842bncf5q9f",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2024-09-30T13:36:13.230-07:00",
+            "updated_at": "2026-05-21T18:00:07.649-07:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-09-30",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-18T17:00:00.000-07:00",
+        "scheduled_until": "2026-07-19T02:00:00.000-07:00"
+      },
+      {
+        "id": "37rdtxj5j74l",
+        "name": "Zoom Phone Update - Japan SIP Zones: 7/19/2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-07-14T12:08:29.104-07:00",
+        "updated_at": "2026-07-14T12:08:29.201-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/bynvcq4pdtvz",
+        "started_at": "2026-07-14T12:08:29.092-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "rq57d09fds64",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Phone - Japan SIP zones in Tokyo and Osaka. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. This update includes a transition to a new call history system.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "37rdtxj5j74l",
+            "created_at": "2026-07-14T12:08:29.197-07:00",
+            "updated_at": "2026-07-14T12:08:29.197-07:00",
+            "display_at": "2026-07-14T12:08:29.197-07:00",
+            "affected_components": [
+              {
+                "code": "yrt9l9s4twjl",
+                "name": "Zoom Phone - JAPAN - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yrt9l9s4twjl",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2022-05-03T10:50:25.396-07:00",
+            "updated_at": "2025-12-16T17:56:26.488-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "r6hzm1tntmq3",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-19T08:00:00.000-07:00",
+        "scheduled_until": "2026-07-19T10:00:00.000-07:00"
       },
       {
         "id": "qy3wqbb5fz3h",
@@ -7434,6 +7704,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-14T18:10:55Z"
+    "updated": "2026-07-14T19:48:02Z"
   }
 }
