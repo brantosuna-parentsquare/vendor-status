@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-17T16:58:22Z"
+    "updated": "2026-07-17T18:13:36Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble loading Slack and performing actions",
-    "updated": "2026-07-17T16:58:22Z"
+    "updated": "2026-07-17T18:13:36Z"
   },
   "hubspot": {
     "page": {
@@ -265,7 +265,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-07-17T16:58:20Z"
+    "updated": "2026-07-17T18:13:34Z"
   },
   "asana": {
     "page": {
@@ -848,7 +848,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-17T16:58:20Z"
+    "updated": "2026-07-17T18:13:34Z"
   },
   "zoom": {
     "page": {
@@ -7583,6 +7583,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-17T16:58:20Z"
+    "updated": "2026-07-17T18:13:34Z"
   }
 }
