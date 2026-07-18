@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-17T23:29:47Z"
+    "updated": "2026-07-18T01:01:56Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble loading Slack and performing actions",
-    "updated": "2026-07-17T23:29:47Z"
+    "updated": "2026-07-18T01:01:56Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-17T19:18:48.049-04:00"
+      "updated_at": "2026-07-17T20:43:57.417-04:00"
     },
     "components": [
       {
@@ -265,7 +265,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-07-17T23:29:45Z"
+    "updated": "2026-07-18T01:01:55Z"
   },
   "asana": {
     "page": {
@@ -273,7 +273,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-17T23:18:52.425Z"
+      "updated_at": "2026-07-18T00:44:01.725Z"
     },
     "components": [
       {
@@ -848,7 +848,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-17T23:29:45Z"
+    "updated": "2026-07-18T01:01:55Z"
   },
   "zoom": {
     "page": {
@@ -856,7 +856,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-17T16:18:51.836-07:00"
+      "updated_at": "2026-07-17T17:44:01.651-07:00"
     },
     "components": [
       {
@@ -5869,181 +5869,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "hx9x0j6qmtgr",
-        "name": "Zoom Conference Room Connector DNS Changes: August 16, 2026",
-        "status": "scheduled",
-        "created_at": "2026-07-17T13:31:25.130-07:00",
-        "updated_at": "2026-07-17T16:00:54.461-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/624n0qn37yfj",
-        "started_at": "2026-07-17T13:31:25.120-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "24j45kqztsr8",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "hx9x0j6qmtgr",
-            "created_at": "2026-07-17T16:00:48.391-07:00",
-            "updated_at": "2026-07-17T16:00:48.391-07:00",
-            "display_at": "2026-07-17T16:00:48.391-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "w317gc9wcj7w",
-            "status": "scheduled",
-            "body": "As part of ongoing service enhancements for CRC, we are replacing DNS records for SIP/H.323 endpoints in the São Paulo and Mexico regions. Legacy DNS records in some other regions that are no longer in use will be decommissioned.\n\nEffective Date: August 16, 2026\n\nTo avoid service disruption, update your configurations before August 16, 2026.\n\nDNS Record Updates:\n\nSão Paulo Region\nRecords to be replaced (A-Record and SRV-Record):\nzmbr.br\n_h323cs._tcp.zmbr.us\n_sip._tcp.zmbr.us\n_sips._tcp.zmbr.us\n_sip._udp.zmbr.us\nsp.zmbr.us\n_h323cs._tcp.sp.zmbr.us\n_sip._tcp.sp.zmbr.us\n_sips._tcp.sp.zmbr.us\n_sip._udp.sp.zmbr.us\n\nNew records (A-Record and SRV-Record):\nsp.zoomcrc.com\n_h323cs._tcp.sp.zoomcrc.com\n_sip._tcp.sp.zoomcrc.com\n_sips._tcp.sp.zoomcrc.com\n_sip._udp.sp.zoomcrc.com\n\nMexico Region\nRecords to be replaced (A-Record and SRV-Record):\nmx.zmvc.us\n_h323cs._tcp.mx.zmvc.us\n_sip._tcp.mx.zmvc.us\n_sips._tcp.mx.zmvc.us\n_sip._udp.mx.zmvc.us\n\nNew records (A-Record and SRV-Record):\nqro.zoomcrc.com\n_h323cs._tcp.qro.zoomcrc.com\n_sip._tcp.qro.zoomcrc.com\n_sips._tcp.qro.zoomcrc.com\n_sip._udp.qro.zoomcrc.com\n\nAction Required\nReview your endpoint configurations and update any references from replaced DNS records to new DNS records before August 16, 2026 to ensure uninterrupted service.\n\nLegacy Records to Be Removed\nHosted Zone: zmvc.us\nA-Records:\nlej.zmvc.us\nhk.zmvc.us\nmtls.mx.zmvc.us\ncn.zmvc.us\nde.zmvc.us\nnl.zmvc.us\nca1.zmvc.us\nca2.zmvc.us\nsg1.zmvc.us\nus2.zmvc.us\nus1.zmvc.us\nbr.zmvc.us\njp2.zmvc.us\nin1.zmvc.us\nin2.zmvc.us\njp1.zmvc.us\n\nSRV-Records:\n_h323cs._tcp.lej.zmvc.us\n_sip._tcp.lej.zmvc.us\n_sips._tcp.lej.zmvc.us\n_sip._udp.lej.zmvc.us\n_h323cs._tcp.hk.zmvc.us\n_sip._tcp.hk.zmvc.us\n_sips._tcp.hk.zmvc.us\n_sip._udp.hk.zmvc.us\n_h323cs._tcp.cn.zmvc.us\n_sip._tcp.cn.zmvc.us\n_sips._tcp.cn.zmvc.us\n_sip._udp.cn.zmvc.us\n_h323cs._tcp.de.zmvc.us\n_sip._tcp.de.zmvc.us\n_sips._tcp.de.zmvc.us\n_sip._udp.de.zmvc.us\n_h323cs._tcp.nl.zmvc.us\n_sip._tcp.nl.zmvc.us\n_sips._tcp.nl.zmvc.us\n_sip._udp.nl.zmvc.us\n_h323cs._tcp.ca1.zmvc.us\n_sip._tcp.ca1.zmvc.us\n_sips._tcp.ca1.zmvc.us\n_sip._udp.ca1.zmvc.us\n_h323cs._tcp.ca2.zmvc.us\n_sip._tcp.ca2.zmvc.us\n_sips._tcp.ca2.zmvc.us\n_sip._udp.ca2.zmvc.us\n_h323cs._tcp.sg1.zmvc.us\n_sip._tcp.sg1.zmvc.us\n_sips._tcp.sg1.zmvc.us\n_sip._udp.sg1.zmvc.us\n_h323cs._tcp.us2.zmvc.us\n_sip._tcp.us2.zmvc.us\n_sips._tcp.us2.zmvc.us\n_sip._udp.us2.zmvc.us\n_h323cs._tcp.us1.zmvc.us\n_sip._tcp.us1.zmvc.us\n_sips._tcp.us1.zmvc.us\n_sip._udp.us1.zmvc.us\n_h323cs._tcp.br.zmvc.us\n_sip._tcp.br.zmvc.us\n_sips._tcp.br.zmvc.us\n_sip._udp.br.zmvc.us\n_h323cs._tcp.jp2.zmvc.us\n_sip._tcp.jp2.zmvc.us\n_sips._tcp.jp2.zmvc.us\n_sip._udp.jp2.zmvc.us\n_h323cs._tcp.in1.zmvc.us\n_sip._tcp.in1.zmvc.us\n_sips._tcp.in1.zmvc.us\n_sip._udp.in1.zmvc.us\n_h323cs._tcp.in2.zmvc.us\n_sip._tcp.in2.zmvc.us\n_sips._tcp.in2.zmvc.us\n_sip._udp.in2.zmvc.us\n_h323cs._tcp.jp1.zmvc.us\n_sip._tcp.jp1.zmvc.us\n_sips._tcp.jp1.zmvc.us\n_sip._udp.jp1.zmvc.us\n\nHosted Zone: zmjp.us\nA Records:\nsip.zmjp.us\nudp2.zmjp.us\nsip2.zmjp.us\nvip2.zmjp.us\nudp.zmjp.us\n\nSRV Records:\n_h323cs._tcp.vip2.zmjp.us\n_sip._tcp.vip2.zmjp.us\n_sips._tcp.vip2.zmjp.us\n_sip._udp.vip2.zmjp.us\nHosted Zone: zmca.us\n\nA Records:\nsip.zmca.us\nvip2.zmca.us\nsip2.zmca.us\nudp2.zmca.us\nudp.zmca.us\n\nSRV Records:\n_h323cs._tcp.vip2.zmca.us\n_sip._tcp.vip2.zmca.us\n_sips._tcp.vip2.zmca.us\n_sip._udp.vip2.zmca.us\n\nAction Required\nReview your CRC endpoint configurations. If you are still using any of these legacy DNS records, contact your Zoom TAM or Zoom Support before August 16, 2026 to ensure uninterrupted service.\n\nQuestions? Contact your Zoom TAM or Zoom Support.",
-            "incident_id": "hx9x0j6qmtgr",
-            "created_at": "2026-07-17T13:31:25.233-07:00",
-            "updated_at": "2026-07-17T13:31:25.233-07:00",
-            "display_at": "2026-07-17T13:31:25.233-07:00",
-            "affected_components": [
-              {
-                "code": "3ml2fn8g0psv",
-                "name": "Zoom Meetings - Zoom Conference Room Connector",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3ml2fn8g0psv",
-            "name": "Zoom Conference Room Connector",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-06-19T21:00:13.614-07:00",
-            "position": 14,
-            "description": "Access for H.323/SIP endpoints",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
-        "scheduled_until": "2026-08-18T11:00:00.000-07:00"
-      },
-      {
-        "id": "53ly6wrh7rwh",
-        "name": "Zoom Contact Center Update: 7/18/2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-07-14T11:36:53.602-07:00",
-        "updated_at": "2026-07-14T11:36:53.681-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/wqyz9npnll3l",
-        "started_at": "2026-07-14T11:36:53.593-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "tqy2p44zn23c",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes workforce management scheduling and adherence analysis capabilities in CX Analytics.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "53ly6wrh7rwh",
-            "created_at": "2026-07-14T11:36:53.678-07:00",
-            "updated_at": "2026-07-14T11:36:53.678-07:00",
-            "display_at": "2026-07-14T11:36:53.678-07:00",
-            "affected_components": [
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-21T18:00:07.341-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
-        "scheduled_until": "2026-07-18T02:00:00.000-07:00"
-      },
-      {
-        "id": "vn77cn1vrpph",
-        "name": "Zoom Virtual Agent Update: 7/18/2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-07-14T11:43:25.469-07:00",
-        "updated_at": "2026-07-14T11:43:25.562-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/c1z6smwy4r0l",
-        "started_at": "2026-07-14T11:43:25.458-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "20mlvhk7tcy4",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes a Zoom Virtual Agent Receptionist dashboard.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "vn77cn1vrpph",
-            "created_at": "2026-07-14T11:43:25.558-07:00",
-            "updated_at": "2026-07-14T11:43:25.558-07:00",
-            "display_at": "2026-07-14T11:43:25.558-07:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
-        "scheduled_until": "2026-07-18T02:00:00.000-07:00"
-      },
-      {
         "id": "8s9mf76h9hxn",
         "name": "Zoom Support Maintenance (July 18, 2026)",
         "status": "scheduled",
@@ -6119,60 +5944,6 @@
         "scheduled_until": "2026-07-18T08:00:00.000-07:00"
       },
       {
-        "id": "7b5thbftc7f0",
-        "name": "Deprecation of 'Use Content Delivery Network' Feature",
-        "status": "scheduled",
-        "created_at": "2026-06-15T18:47:27.537-07:00",
-        "updated_at": "2026-06-15T18:49:21.748-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/89r8zgdg1r23",
-        "started_at": "2026-06-15T18:47:27.526-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "np8dv1bvv40d",
-            "status": "scheduled",
-            "body": "We are completing the final phase of the deprecation of the \"Use Content Delivery Network\" (CDN) feature in Zoom Meetings Web. The UI-side disablement was rolled out last year, and we are now performing a full backend cleanup — removing the remaining codebase and associated database tables.\n\nWhat Is Changing?\n\nThe backend infrastructure supporting the \"Use Content Delivery Network\" toggle is being permanently removed. This includes:\n\n- Removal of all code related to the CDN feature\n- Cleanup of associated database tables\n\nThe feature's UI control has already been disabled and was communicated in a prior release. This update completes the full deprecation cycle.\n\nWhy Are We Making This Change?\n\nThis cleanup effort is designed to reduce technical debt, streamline our codebase, and minimise the risk of future regressions. It is part of our ongoing commitment to maintaining a healthy and efficient platform.\n\nImpact on Administrators\n\n- No disruption is expected. This is a backend-only cleanup with no customer-facing impact.\n- No breaking changes or compatibility issues are anticipated.\n- No action is required from administrators or end users.\n\nThis communication is being sent proactively out of an abundance of caution, in the unlikely event of any minor hiccups during the maintenance window.\n\nQuestions or Concerns?\n\nIf you have any questions, please reach out to the Zoom support.\n\nThank you for your continued partnership. We appreciate your patience as we work to keep the platform robust and reliable.",
-            "incident_id": "7b5thbftc7f0",
-            "created_at": "2026-06-15T18:47:27.630-07:00",
-            "updated_at": "2026-06-15T18:49:21.743-07:00",
-            "display_at": "2026-06-15T18:47:27.630-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-06-22T08:02:11.961-07:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-18T17:00:00.000-07:00",
-        "scheduled_until": "2026-07-19T17:00:00.000-07:00"
-      },
-      {
         "id": "svz6f08fbbhp",
         "name": "Zoom Phone Update: 7/19/2026 (No Operational Impact)",
         "status": "scheduled",
@@ -6225,6 +5996,60 @@
         ],
         "scheduled_for": "2026-07-18T17:00:00.000-07:00",
         "scheduled_until": "2026-07-19T02:00:00.000-07:00"
+      },
+      {
+        "id": "7b5thbftc7f0",
+        "name": "Deprecation of 'Use Content Delivery Network' Feature",
+        "status": "scheduled",
+        "created_at": "2026-06-15T18:47:27.537-07:00",
+        "updated_at": "2026-06-15T18:49:21.748-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/89r8zgdg1r23",
+        "started_at": "2026-06-15T18:47:27.526-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "np8dv1bvv40d",
+            "status": "scheduled",
+            "body": "We are completing the final phase of the deprecation of the \"Use Content Delivery Network\" (CDN) feature in Zoom Meetings Web. The UI-side disablement was rolled out last year, and we are now performing a full backend cleanup — removing the remaining codebase and associated database tables.\n\nWhat Is Changing?\n\nThe backend infrastructure supporting the \"Use Content Delivery Network\" toggle is being permanently removed. This includes:\n\n- Removal of all code related to the CDN feature\n- Cleanup of associated database tables\n\nThe feature's UI control has already been disabled and was communicated in a prior release. This update completes the full deprecation cycle.\n\nWhy Are We Making This Change?\n\nThis cleanup effort is designed to reduce technical debt, streamline our codebase, and minimise the risk of future regressions. It is part of our ongoing commitment to maintaining a healthy and efficient platform.\n\nImpact on Administrators\n\n- No disruption is expected. This is a backend-only cleanup with no customer-facing impact.\n- No breaking changes or compatibility issues are anticipated.\n- No action is required from administrators or end users.\n\nThis communication is being sent proactively out of an abundance of caution, in the unlikely event of any minor hiccups during the maintenance window.\n\nQuestions or Concerns?\n\nIf you have any questions, please reach out to the Zoom support.\n\nThank you for your continued partnership. We appreciate your patience as we work to keep the platform robust and reliable.",
+            "incident_id": "7b5thbftc7f0",
+            "created_at": "2026-06-15T18:47:27.630-07:00",
+            "updated_at": "2026-06-15T18:49:21.743-07:00",
+            "display_at": "2026-06-15T18:47:27.630-07:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-06-22T08:02:11.961-07:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-18T17:00:00.000-07:00",
+        "scheduled_until": "2026-07-19T17:00:00.000-07:00"
       },
       {
         "id": "37rdtxj5j74l",
@@ -6875,6 +6700,220 @@
         ],
         "scheduled_for": "2026-08-09T23:59:00.000-07:00",
         "scheduled_until": "2026-08-10T00:00:00.000-07:00"
+      },
+      {
+        "id": "vn77cn1vrpph",
+        "name": "Zoom Virtual Agent Update: 7/18/2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-07-14T11:43:25.469-07:00",
+        "updated_at": "2026-07-17T17:01:15.597-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/c1z6smwy4r0l",
+        "started_at": "2026-07-14T11:43:25.458-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "km4tc2x2cg9m",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "vn77cn1vrpph",
+            "created_at": "2026-07-17T17:01:15.497-07:00",
+            "updated_at": "2026-07-17T17:01:15.497-07:00",
+            "display_at": "2026-07-17T17:01:15.497-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "20mlvhk7tcy4",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes a Zoom Virtual Agent Receptionist dashboard.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "vn77cn1vrpph",
+            "created_at": "2026-07-14T11:43:25.558-07:00",
+            "updated_at": "2026-07-14T11:43:25.558-07:00",
+            "display_at": "2026-07-14T11:43:25.558-07:00",
+            "affected_components": [
+              {
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
+            "status": "operational",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
+        "scheduled_until": "2026-07-18T02:00:00.000-07:00"
+      },
+      {
+        "id": "hx9x0j6qmtgr",
+        "name": "Zoom Conference Room Connector DNS Changes: August 16, 2026",
+        "status": "in_progress",
+        "created_at": "2026-07-17T13:31:25.130-07:00",
+        "updated_at": "2026-07-17T17:00:11.131-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/624n0qn37yfj",
+        "started_at": "2026-07-17T13:31:25.120-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "n1ljgfrsh1z4",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "hx9x0j6qmtgr",
+            "created_at": "2026-07-17T17:00:11.116-07:00",
+            "updated_at": "2026-07-17T17:00:11.116-07:00",
+            "display_at": "2026-07-17T17:00:11.116-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "24j45kqztsr8",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "hx9x0j6qmtgr",
+            "created_at": "2026-07-17T16:00:48.391-07:00",
+            "updated_at": "2026-07-17T16:00:48.391-07:00",
+            "display_at": "2026-07-17T16:00:48.391-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "w317gc9wcj7w",
+            "status": "scheduled",
+            "body": "As part of ongoing service enhancements for CRC, we are replacing DNS records for SIP/H.323 endpoints in the São Paulo and Mexico regions. Legacy DNS records in some other regions that are no longer in use will be decommissioned.\n\nEffective Date: August 16, 2026\n\nTo avoid service disruption, update your configurations before August 16, 2026.\n\nDNS Record Updates:\n\nSão Paulo Region\nRecords to be replaced (A-Record and SRV-Record):\nzmbr.br\n_h323cs._tcp.zmbr.us\n_sip._tcp.zmbr.us\n_sips._tcp.zmbr.us\n_sip._udp.zmbr.us\nsp.zmbr.us\n_h323cs._tcp.sp.zmbr.us\n_sip._tcp.sp.zmbr.us\n_sips._tcp.sp.zmbr.us\n_sip._udp.sp.zmbr.us\n\nNew records (A-Record and SRV-Record):\nsp.zoomcrc.com\n_h323cs._tcp.sp.zoomcrc.com\n_sip._tcp.sp.zoomcrc.com\n_sips._tcp.sp.zoomcrc.com\n_sip._udp.sp.zoomcrc.com\n\nMexico Region\nRecords to be replaced (A-Record and SRV-Record):\nmx.zmvc.us\n_h323cs._tcp.mx.zmvc.us\n_sip._tcp.mx.zmvc.us\n_sips._tcp.mx.zmvc.us\n_sip._udp.mx.zmvc.us\n\nNew records (A-Record and SRV-Record):\nqro.zoomcrc.com\n_h323cs._tcp.qro.zoomcrc.com\n_sip._tcp.qro.zoomcrc.com\n_sips._tcp.qro.zoomcrc.com\n_sip._udp.qro.zoomcrc.com\n\nAction Required\nReview your endpoint configurations and update any references from replaced DNS records to new DNS records before August 16, 2026 to ensure uninterrupted service.\n\nLegacy Records to Be Removed\nHosted Zone: zmvc.us\nA-Records:\nlej.zmvc.us\nhk.zmvc.us\nmtls.mx.zmvc.us\ncn.zmvc.us\nde.zmvc.us\nnl.zmvc.us\nca1.zmvc.us\nca2.zmvc.us\nsg1.zmvc.us\nus2.zmvc.us\nus1.zmvc.us\nbr.zmvc.us\njp2.zmvc.us\nin1.zmvc.us\nin2.zmvc.us\njp1.zmvc.us\n\nSRV-Records:\n_h323cs._tcp.lej.zmvc.us\n_sip._tcp.lej.zmvc.us\n_sips._tcp.lej.zmvc.us\n_sip._udp.lej.zmvc.us\n_h323cs._tcp.hk.zmvc.us\n_sip._tcp.hk.zmvc.us\n_sips._tcp.hk.zmvc.us\n_sip._udp.hk.zmvc.us\n_h323cs._tcp.cn.zmvc.us\n_sip._tcp.cn.zmvc.us\n_sips._tcp.cn.zmvc.us\n_sip._udp.cn.zmvc.us\n_h323cs._tcp.de.zmvc.us\n_sip._tcp.de.zmvc.us\n_sips._tcp.de.zmvc.us\n_sip._udp.de.zmvc.us\n_h323cs._tcp.nl.zmvc.us\n_sip._tcp.nl.zmvc.us\n_sips._tcp.nl.zmvc.us\n_sip._udp.nl.zmvc.us\n_h323cs._tcp.ca1.zmvc.us\n_sip._tcp.ca1.zmvc.us\n_sips._tcp.ca1.zmvc.us\n_sip._udp.ca1.zmvc.us\n_h323cs._tcp.ca2.zmvc.us\n_sip._tcp.ca2.zmvc.us\n_sips._tcp.ca2.zmvc.us\n_sip._udp.ca2.zmvc.us\n_h323cs._tcp.sg1.zmvc.us\n_sip._tcp.sg1.zmvc.us\n_sips._tcp.sg1.zmvc.us\n_sip._udp.sg1.zmvc.us\n_h323cs._tcp.us2.zmvc.us\n_sip._tcp.us2.zmvc.us\n_sips._tcp.us2.zmvc.us\n_sip._udp.us2.zmvc.us\n_h323cs._tcp.us1.zmvc.us\n_sip._tcp.us1.zmvc.us\n_sips._tcp.us1.zmvc.us\n_sip._udp.us1.zmvc.us\n_h323cs._tcp.br.zmvc.us\n_sip._tcp.br.zmvc.us\n_sips._tcp.br.zmvc.us\n_sip._udp.br.zmvc.us\n_h323cs._tcp.jp2.zmvc.us\n_sip._tcp.jp2.zmvc.us\n_sips._tcp.jp2.zmvc.us\n_sip._udp.jp2.zmvc.us\n_h323cs._tcp.in1.zmvc.us\n_sip._tcp.in1.zmvc.us\n_sips._tcp.in1.zmvc.us\n_sip._udp.in1.zmvc.us\n_h323cs._tcp.in2.zmvc.us\n_sip._tcp.in2.zmvc.us\n_sips._tcp.in2.zmvc.us\n_sip._udp.in2.zmvc.us\n_h323cs._tcp.jp1.zmvc.us\n_sip._tcp.jp1.zmvc.us\n_sips._tcp.jp1.zmvc.us\n_sip._udp.jp1.zmvc.us\n\nHosted Zone: zmjp.us\nA Records:\nsip.zmjp.us\nudp2.zmjp.us\nsip2.zmjp.us\nvip2.zmjp.us\nudp.zmjp.us\n\nSRV Records:\n_h323cs._tcp.vip2.zmjp.us\n_sip._tcp.vip2.zmjp.us\n_sips._tcp.vip2.zmjp.us\n_sip._udp.vip2.zmjp.us\nHosted Zone: zmca.us\n\nA Records:\nsip.zmca.us\nvip2.zmca.us\nsip2.zmca.us\nudp2.zmca.us\nudp.zmca.us\n\nSRV Records:\n_h323cs._tcp.vip2.zmca.us\n_sip._tcp.vip2.zmca.us\n_sips._tcp.vip2.zmca.us\n_sip._udp.vip2.zmca.us\n\nAction Required\nReview your CRC endpoint configurations. If you are still using any of these legacy DNS records, contact your Zoom TAM or Zoom Support before August 16, 2026 to ensure uninterrupted service.\n\nQuestions? Contact your Zoom TAM or Zoom Support.",
+            "incident_id": "hx9x0j6qmtgr",
+            "created_at": "2026-07-17T13:31:25.233-07:00",
+            "updated_at": "2026-07-17T13:31:25.233-07:00",
+            "display_at": "2026-07-17T13:31:25.233-07:00",
+            "affected_components": [
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-06-19T21:00:13.614-07:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
+        "scheduled_until": "2026-08-18T11:00:00.000-07:00"
+      },
+      {
+        "id": "53ly6wrh7rwh",
+        "name": "Zoom Contact Center Update: 7/18/2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-07-14T11:36:53.602-07:00",
+        "updated_at": "2026-07-17T17:00:09.093-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/wqyz9npnll3l",
+        "started_at": "2026-07-14T11:36:53.593-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "rspm354mkzl9",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "53ly6wrh7rwh",
+            "created_at": "2026-07-17T17:00:09.078-07:00",
+            "updated_at": "2026-07-17T17:00:09.078-07:00",
+            "display_at": "2026-07-17T17:00:09.078-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "tqy2p44zn23c",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes workforce management scheduling and adherence analysis capabilities in CX Analytics.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "53ly6wrh7rwh",
+            "created_at": "2026-07-14T11:36:53.678-07:00",
+            "updated_at": "2026-07-14T11:36:53.678-07:00",
+            "display_at": "2026-07-14T11:36:53.678-07:00",
+            "affected_components": [
+              {
+                "code": "s5s5m6flk56z",
+                "name": "Zoom CX - Global - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "s5s5m6flk56z",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2024-03-21T13:14:33.314-07:00",
+            "updated_at": "2026-05-21T18:00:07.341-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-03-21",
+            "group_id": "1bmg0stx4mk0",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
+        "scheduled_until": "2026-07-18T02:00:00.000-07:00"
       },
       {
         "id": "mzc6704cw003",
@@ -7650,6 +7689,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-17T23:29:45Z"
+    "updated": "2026-07-18T01:01:55Z"
   }
 }
