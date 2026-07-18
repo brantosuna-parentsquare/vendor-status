@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-18T08:21:48Z"
+    "updated": "2026-07-18T10:00:15Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble loading Slack and performing actions",
-    "updated": "2026-07-18T08:21:48Z"
+    "updated": "2026-07-18T10:00:15Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-18T03:58:53.177-04:00"
+      "updated_at": "2026-07-18T04:55:47.585-04:00"
     },
     "components": [
       {
@@ -265,7 +265,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-07-18T08:21:47Z"
+    "updated": "2026-07-18T10:00:14Z"
   },
   "asana": {
     "page": {
@@ -273,7 +273,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-18T07:25:47.163Z"
+      "updated_at": "2026-07-18T08:56:20.423Z"
     },
     "components": [
       {
@@ -848,7 +848,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-18T08:21:47Z"
+    "updated": "2026-07-18T10:00:14Z"
   },
   "zoom": {
     "page": {
@@ -856,7 +856,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-18T01:20:36.048-07:00"
+      "updated_at": "2026-07-18T02:11:01.194-07:00"
     },
     "components": [
       {
@@ -2642,9 +2642,9 @@
       {
         "id": "wnj6zbp7n7ks",
         "name": "Provider Exchange",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:51:30.238-07:00",
-        "updated_at": "2026-07-18T01:03:49.199-07:00",
+        "updated_at": "2026-07-18T01:35:06.508-07:00",
         "position": 5,
         "description": null,
         "showcase": false,
@@ -5244,7 +5244,7 @@
       {
         "id": "r6hzm1tntmq3",
         "name": "Zoom Phone - JAPAN",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:50:25.378-07:00",
         "updated_at": "2024-08-14T13:40:39.051-07:00",
         "position": 23,
@@ -5866,134 +5866,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "zn4rzw901klb",
-        "name": "Service degradation affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region.",
-        "status": "identified",
-        "created_at": "2026-07-18T01:03:49.127-07:00",
-        "updated_at": "2026-07-18T01:08:52.972-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/7j4z9drb2fpw",
-        "started_at": "2026-07-18T01:03:49.112-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "4zylylfsxzkf",
-            "status": "identified",
-            "body": "We have successfully identified the root cause affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "zn4rzw901klb",
-            "created_at": "2026-07-18T01:08:52.969-07:00",
-            "updated_at": "2026-07-18T01:08:52.969-07:00",
-            "display_at": "2026-07-18T01:08:52.969-07:00",
-            "affected_components": [
-              {
-                "code": "wnj6zbp7n7ks",
-                "name": "Zoom Phone - JAPAN - Provider Exchange",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "dkz3yppqdg9h",
-                "name": "Zoom CX - APAC - Voice (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "yxfqf1222j8k",
-            "status": "investigating",
-            "body": "We are continuing to investigate this issue.",
-            "incident_id": "zn4rzw901klb",
-            "created_at": "2026-07-18T01:05:06.494-07:00",
-            "updated_at": "2026-07-18T01:05:06.494-07:00",
-            "display_at": "2026-07-18T01:05:06.494-07:00",
-            "affected_components": [
-              {
-                "code": "wnj6zbp7n7ks",
-                "name": "Zoom Phone - JAPAN - Provider Exchange",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "dkz3yppqdg9h",
-                "name": "Zoom CX - APAC - Voice (Inbound/Outbound)",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "xhbzb74xx89g",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation that is affecting both inbound and outbound calls for a single Provider Exchange partner in the Japan region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "zn4rzw901klb",
-            "created_at": "2026-07-18T01:03:49.269-07:00",
-            "updated_at": "2026-07-18T01:03:49.269-07:00",
-            "display_at": "2026-07-18T01:03:49.269-07:00",
-            "affected_components": [
-              {
-                "code": "wnj6zbp7n7ks",
-                "name": "Zoom Phone - JAPAN - Provider Exchange",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "dkz3yppqdg9h",
-                "name": "Zoom CX - APAC - Voice (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "dkz3yppqdg9h",
-            "name": "Voice (Inbound/Outbound)",
-            "status": "operational",
-            "created_at": "2023-03-22T11:20:49.697-07:00",
-            "updated_at": "2026-07-18T01:05:06.443-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-22",
-            "group_id": "23spl3b8jrnd",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "wnj6zbp7n7ks",
-            "name": "Provider Exchange",
-            "status": "degraded_performance",
-            "created_at": "2022-05-03T10:51:30.238-07:00",
-            "updated_at": "2026-07-18T01:03:49.199-07:00",
-            "position": 5,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "r6hzm1tntmq3",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "8s9mf76h9hxn",
@@ -6829,73 +6702,6 @@
         "scheduled_until": "2026-08-10T00:00:00.000-07:00"
       },
       {
-        "id": "vn77cn1vrpph",
-        "name": "Zoom Virtual Agent Update: 7/18/2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-07-14T11:43:25.469-07:00",
-        "updated_at": "2026-07-17T17:01:15.597-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/c1z6smwy4r0l",
-        "started_at": "2026-07-14T11:43:25.458-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "km4tc2x2cg9m",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "vn77cn1vrpph",
-            "created_at": "2026-07-17T17:01:15.497-07:00",
-            "updated_at": "2026-07-17T17:01:15.497-07:00",
-            "display_at": "2026-07-17T17:01:15.497-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "20mlvhk7tcy4",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes a Zoom Virtual Agent Receptionist dashboard.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "vn77cn1vrpph",
-            "created_at": "2026-07-14T11:43:25.558-07:00",
-            "updated_at": "2026-07-14T11:43:25.558-07:00",
-            "display_at": "2026-07-14T11:43:25.558-07:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
-        "scheduled_until": "2026-07-18T02:00:00.000-07:00"
-      },
-      {
         "id": "hx9x0j6qmtgr",
         "name": "Zoom Conference Room Connector DNS Changes: August 16, 2026",
         "status": "in_progress",
@@ -6974,73 +6780,6 @@
         ],
         "scheduled_for": "2026-07-17T17:00:00.000-07:00",
         "scheduled_until": "2026-08-18T11:00:00.000-07:00"
-      },
-      {
-        "id": "53ly6wrh7rwh",
-        "name": "Zoom Contact Center Update: 7/18/2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-07-14T11:36:53.602-07:00",
-        "updated_at": "2026-07-17T17:00:09.093-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/wqyz9npnll3l",
-        "started_at": "2026-07-14T11:36:53.593-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "rspm354mkzl9",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "53ly6wrh7rwh",
-            "created_at": "2026-07-17T17:00:09.078-07:00",
-            "updated_at": "2026-07-17T17:00:09.078-07:00",
-            "display_at": "2026-07-17T17:00:09.078-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "tqy2p44zn23c",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes workforce management scheduling and adherence analysis capabilities in CX Analytics.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "53ly6wrh7rwh",
-            "created_at": "2026-07-14T11:36:53.678-07:00",
-            "updated_at": "2026-07-14T11:36:53.678-07:00",
-            "display_at": "2026-07-14T11:36:53.678-07:00",
-            "affected_components": [
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-21T18:00:07.341-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-17T17:00:00.000-07:00",
-        "scheduled_until": "2026-07-18T02:00:00.000-07:00"
       },
       {
         "id": "mzc6704cw003",
@@ -7813,9 +7552,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-07-18T08:21:47Z"
+    "updated": "2026-07-18T10:00:14Z"
   }
 }
