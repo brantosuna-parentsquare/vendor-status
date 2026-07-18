@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-18T17:41:16Z"
+    "updated": "2026-07-18T18:39:41Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble loading Slack and performing actions",
-    "updated": "2026-07-18T17:41:16Z"
+    "updated": "2026-07-18T18:39:41Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-18T13:13:47.745-04:00"
+      "updated_at": "2026-07-18T14:08:36.309-04:00"
     },
     "components": [
       {
@@ -265,7 +265,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-07-18T17:41:15Z"
+    "updated": "2026-07-18T18:39:40Z"
   },
   "asana": {
     "page": {
@@ -273,7 +273,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-18T17:13:52.462Z"
+      "updated_at": "2026-07-18T18:08:41.484Z"
     },
     "components": [
       {
@@ -848,7 +848,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-18T17:41:15Z"
+    "updated": "2026-07-18T18:39:40Z"
   },
   "zoom": {
     "page": {
@@ -856,7 +856,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-18T10:13:51.985-07:00"
+      "updated_at": "2026-07-18T11:15:38.703-07:00"
     },
     "components": [
       {
@@ -5870,9 +5870,9 @@
       {
         "id": "y24dg8n9t96s",
         "name": "Service Degradation Affecting Audio Quality of Outbound Calls of Zoom Revenue Accelerator's Auto-Dialer in Japan Region",
-        "status": "investigating",
+        "status": "identified",
         "created_at": "2026-07-18T07:17:57.580-07:00",
-        "updated_at": "2026-07-18T09:18:06.198-07:00",
+        "updated_at": "2026-07-18T11:15:38.691-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -5880,6 +5880,26 @@
         "started_at": "2026-07-18T07:17:57.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "b5dh3t09k3k4",
+            "status": "identified",
+            "body": "We have successfully identified the service degradation affecting audio quality of outbound calls of Zoom Revenue Accelerator's auto-dialer in Japan region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "y24dg8n9t96s",
+            "created_at": "2026-07-18T11:15:38.686-07:00",
+            "updated_at": "2026-07-18T11:15:38.686-07:00",
+            "display_at": "2026-07-18T11:15:38.686-07:00",
+            "affected_components": [
+              {
+                "code": "g3x1x7ffg5b0",
+                "name": "Zoom Revenue Accelerator - Zoom Revenue Accelerator",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "7h9mk43879qm",
             "status": "investigating",
@@ -6785,6 +6805,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-07-18T17:41:15Z"
+    "updated": "2026-07-18T18:39:40Z"
   }
 }
