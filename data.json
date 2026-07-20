@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-19T23:09:05Z"
+    "updated": "2026-07-20T00:12:48Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble loading Slack and performing actions",
-    "updated": "2026-07-19T23:09:05Z"
+    "updated": "2026-07-20T00:12:48Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-19T17:24:08.562-04:00"
+      "updated_at": "2026-07-19T19:54:17.279-04:00"
     },
     "components": [
       {
@@ -265,7 +265,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-07-19T23:09:04Z"
+    "updated": "2026-07-20T00:12:46Z"
   },
   "asana": {
     "page": {
@@ -273,7 +273,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-19T21:24:15.041Z"
+      "updated_at": "2026-07-19T23:55:21.099Z"
     },
     "components": [
       {
@@ -848,7 +848,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-19T23:09:04Z"
+    "updated": "2026-07-20T00:12:46Z"
   },
   "zoom": {
     "page": {
@@ -856,7 +856,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-19T14:24:13.878-07:00"
+      "updated_at": "2026-07-19T17:00:07.523-07:00"
     },
     "components": [
       {
@@ -6465,86 +6465,6 @@
         "scheduled_until": "2026-08-10T00:00:00.000-07:00"
       },
       {
-        "id": "7b5thbftc7f0",
-        "name": "Deprecation of 'Use Content Delivery Network' Feature",
-        "status": "in_progress",
-        "created_at": "2026-06-15T18:47:27.537-07:00",
-        "updated_at": "2026-07-18T17:00:07.844-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/89r8zgdg1r23",
-        "started_at": "2026-06-15T18:47:27.526-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "2zrxyl5j09y5",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "7b5thbftc7f0",
-            "created_at": "2026-07-18T17:00:07.833-07:00",
-            "updated_at": "2026-07-18T17:00:07.833-07:00",
-            "display_at": "2026-07-18T17:00:07.833-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "p20rmcq7w8lq",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "7b5thbftc7f0",
-            "created_at": "2026-07-18T16:00:15.948-07:00",
-            "updated_at": "2026-07-18T16:00:15.948-07:00",
-            "display_at": "2026-07-18T16:00:15.948-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "np8dv1bvv40d",
-            "status": "scheduled",
-            "body": "We are completing the final phase of the deprecation of the \"Use Content Delivery Network\" (CDN) feature in Zoom Meetings Web. The UI-side disablement was rolled out last year, and we are now performing a full backend cleanup — removing the remaining codebase and associated database tables.\n\nWhat Is Changing?\n\nThe backend infrastructure supporting the \"Use Content Delivery Network\" toggle is being permanently removed. This includes:\n\n- Removal of all code related to the CDN feature\n- Cleanup of associated database tables\n\nThe feature's UI control has already been disabled and was communicated in a prior release. This update completes the full deprecation cycle.\n\nWhy Are We Making This Change?\n\nThis cleanup effort is designed to reduce technical debt, streamline our codebase, and minimise the risk of future regressions. It is part of our ongoing commitment to maintaining a healthy and efficient platform.\n\nImpact on Administrators\n\n- No disruption is expected. This is a backend-only cleanup with no customer-facing impact.\n- No breaking changes or compatibility issues are anticipated.\n- No action is required from administrators or end users.\n\nThis communication is being sent proactively out of an abundance of caution, in the unlikely event of any minor hiccups during the maintenance window.\n\nQuestions or Concerns?\n\nIf you have any questions, please reach out to the Zoom support.\n\nThank you for your continued partnership. We appreciate your patience as we work to keep the platform robust and reliable.",
-            "incident_id": "7b5thbftc7f0",
-            "created_at": "2026-06-15T18:47:27.630-07:00",
-            "updated_at": "2026-06-15T18:49:21.743-07:00",
-            "display_at": "2026-06-15T18:47:27.630-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-06-22T08:02:11.961-07:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-18T17:00:00.000-07:00",
-        "scheduled_until": "2026-07-19T17:00:00.000-07:00"
-      },
-      {
         "id": "hx9x0j6qmtgr",
         "name": "Zoom Conference Room Connector DNS Changes: August 16, 2026",
         "status": "in_progress",
@@ -6629,6 +6549,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-19T23:09:04Z"
+    "updated": "2026-07-20T00:12:46Z"
   }
 }
