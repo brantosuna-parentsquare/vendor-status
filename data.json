@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-21T17:36:32Z"
+    "updated": "2026-07-21T18:54:11Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Trouble loading Slack and performing actions",
-    "updated": "2026-07-21T17:36:32Z"
+    "latest_title": "Notice: Upstream provider issue causing email delivery delays",
+    "updated": "2026-07-21T18:54:11Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-21T12:48:45.131-04:00"
+      "updated_at": "2026-07-21T13:50:47.704-04:00"
     },
     "components": [
       {
@@ -36,9 +36,9 @@
       {
         "id": "vq3xl1yxlv6w",
         "name": "Marketing Tools",
-        "status": "partial_outage",
+        "status": "operational",
         "created_at": "2019-11-06T11:21:51.531-05:00",
-        "updated_at": "2026-07-14T12:31:49.048-04:00",
+        "updated_at": "2026-07-21T13:50:47.643-04:00",
         "position": 2,
         "description": "Loading and data processing of Marketing tools like Ads, Email, Social, Forms and Lists.",
         "showcase": false,
@@ -51,9 +51,9 @@
       {
         "id": "dgj0tf6pvh46",
         "name": "Website",
-        "status": "partial_outage",
+        "status": "operational",
         "created_at": "2019-11-06T11:22:36.096-05:00",
-        "updated_at": "2026-07-14T12:31:49.083-04:00",
+        "updated_at": "2026-07-21T13:50:47.658-04:00",
         "position": 3,
         "description": "Rendering of CMS and form submission processing",
         "showcase": false,
@@ -184,88 +184,13 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "cpyqthtwy4n0",
-        "name": "Content previews are unavailable for some customers in North America",
-        "status": "identified",
-        "created_at": "2026-07-14T12:31:48.986-04:00",
-        "updated_at": "2026-07-14T12:31:49.166-04:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/qxcvphp704sn",
-        "started_at": "2026-07-14T12:31:48.971-04:00",
-        "page_id": "8b9w1wwq3g7d",
-        "incident_updates": [
-          {
-            "id": "t7jfk99m7xyn",
-            "status": "identified",
-            "body": "Content previews are not loading for some customers in North America. This issue is limited to customers with certain internet providers. We are working with those third-party providers to fix the issue.\n\nAs a workaround, we recommend:\n- Using a different Wi-Fi or internet connection (e.g. mobile hotspot)\n- Checking your internet service provider security settings or contacting your internet service provider to unblock hubspotpreview-na2.com\n\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
-            "incident_id": "cpyqthtwy4n0",
-            "created_at": "2026-07-14T12:31:49.161-04:00",
-            "updated_at": "2026-07-14T12:31:49.161-04:00",
-            "display_at": "2026-07-14T12:31:49.161-04:00",
-            "affected_components": [
-              {
-                "code": "vq3xl1yxlv6w",
-                "name": "Marketing Tools",
-                "old_status": "operational",
-                "new_status": "partial_outage"
-              },
-              {
-                "code": "dgj0tf6pvh46",
-                "name": "Website",
-                "old_status": "operational",
-                "new_status": "partial_outage"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "vq3xl1yxlv6w",
-            "name": "Marketing Tools",
-            "status": "partial_outage",
-            "created_at": "2019-11-06T11:21:51.531-05:00",
-            "updated_at": "2026-07-14T12:31:49.048-04:00",
-            "position": 2,
-            "description": "Loading and data processing of Marketing tools like Ads, Email, Social, Forms and Lists.",
-            "showcase": false,
-            "start_date": null,
-            "group_id": null,
-            "page_id": "8b9w1wwq3g7d",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "dgj0tf6pvh46",
-            "name": "Website",
-            "status": "partial_outage",
-            "created_at": "2019-11-06T11:22:36.096-05:00",
-            "updated_at": "2026-07-14T12:31:49.083-04:00",
-            "position": 3,
-            "description": "Rendering of CMS and form submission processing",
-            "showcase": false,
-            "start_date": null,
-            "group_id": null,
-            "page_id": "8b9w1wwq3g7d",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "minor",
-      "description": "Minor Service Outage"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-07-21T17:36:30Z"
+    "updated": "2026-07-21T18:54:10Z"
   },
   "asana": {
     "page": {
@@ -1386,7 +1311,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-21T17:36:30Z"
+    "updated": "2026-07-21T18:54:10Z"
   },
   "zoom": {
     "page": {
@@ -1394,7 +1319,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-21T10:33:43.735-07:00"
+      "updated_at": "2026-07-21T11:47:46.016-07:00"
     },
     "components": [
       {
@@ -2685,9 +2610,9 @@
       {
         "id": "zhgjct3grx1z",
         "name": "Zoom Clips",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-11-12T17:48:13.796-08:00",
-        "updated_at": "2026-03-13T10:32:22.802-07:00",
+        "updated_at": "2026-07-21T11:25:26.710-07:00",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -5217,9 +5142,9 @@
       {
         "id": "576m25cw4prj",
         "name": "Zoom Canvas",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2024-08-07T20:19:58.046-07:00",
-        "updated_at": "2026-06-02T20:31:50.078-07:00",
+        "updated_at": "2026-07-21T11:25:26.728-07:00",
         "position": 13,
         "description": null,
         "showcase": false,
@@ -6283,9 +6208,9 @@
       {
         "id": "2twszjk8b2jy",
         "name": "Zoom Hub",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-02-26T09:22:48.103-08:00",
-        "updated_at": "2026-06-03T18:44:30.287-07:00",
+        "updated_at": "2026-07-21T11:25:26.744-07:00",
         "position": 46,
         "description": null,
         "showcase": false,
@@ -6331,9 +6256,9 @@
       {
         "id": "jjx4mtk4my78",
         "name": "Zoom Paper",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-06-03T18:53:09.556-07:00",
-        "updated_at": "2026-06-03T18:53:09.556-07:00",
+        "updated_at": "2026-07-21T11:47:45.943-07:00",
         "position": 50,
         "description": null,
         "showcase": false,
@@ -6346,9 +6271,9 @@
       {
         "id": "p1jwwf84ngpf",
         "name": "Zoom Slides",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-06-03T18:53:33.449-07:00",
-        "updated_at": "2026-06-03T18:53:33.449-07:00",
+        "updated_at": "2026-07-21T11:47:45.958-07:00",
         "position": 51,
         "description": null,
         "showcase": false,
@@ -6361,9 +6286,9 @@
       {
         "id": "8214506690ws",
         "name": "Zoom Sheets",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-06-03T18:54:13.105-07:00",
-        "updated_at": "2026-06-03T18:54:13.105-07:00",
+        "updated_at": "2026-07-21T11:47:45.971-07:00",
         "position": 52,
         "description": null,
         "showcase": false,
@@ -6404,7 +6329,230 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "wks91c9nrl2t",
+        "name": "Service Degradation Affecting functionality in Zoom Canvas, Clips, Slides, Sheets, Paper, and Hub.",
+        "status": "identified",
+        "created_at": "2026-07-21T11:25:26.670-07:00",
+        "updated_at": "2026-07-21T11:47:46.009-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/t59ydmnbf56s",
+        "started_at": "2026-07-21T11:25:26.662-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "4x92c7kf2txv",
+            "status": "identified",
+            "body": "We are continuing to work on a fix for this issue.",
+            "incident_id": "wks91c9nrl2t",
+            "created_at": "2026-07-21T11:47:46.006-07:00",
+            "updated_at": "2026-07-21T11:47:46.006-07:00",
+            "display_at": "2026-07-21T11:47:46.006-07:00",
+            "affected_components": [
+              {
+                "code": "zhgjct3grx1z",
+                "name": "Zoom Clips",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "576m25cw4prj",
+                "name": "Zoom Canvas",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "2twszjk8b2jy",
+                "name": "Zoom Hub",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "jjx4mtk4my78",
+                "name": "Zoom Paper",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "p1jwwf84ngpf",
+                "name": "Zoom Slides",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "8214506690ws",
+                "name": "Zoom Sheets",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "q9ndr53dzwt3",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting functionality in Zoom Canvas, Clips, Slides, Sheets, Paper, and Hub.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "wks91c9nrl2t",
+            "created_at": "2026-07-21T11:43:41.258-07:00",
+            "updated_at": "2026-07-21T11:43:41.258-07:00",
+            "display_at": "2026-07-21T11:43:41.258-07:00",
+            "affected_components": [
+              {
+                "code": "zhgjct3grx1z",
+                "name": "Zoom Clips",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "576m25cw4prj",
+                "name": "Zoom Canvas",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "2twszjk8b2jy",
+                "name": "Zoom Hub",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "328jl073b112",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation with file upload functionality in Zoom Canvas, Clips and Hub.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "wks91c9nrl2t",
+            "created_at": "2026-07-21T11:25:26.795-07:00",
+            "updated_at": "2026-07-21T11:25:26.795-07:00",
+            "display_at": "2026-07-21T11:25:26.795-07:00",
+            "affected_components": [
+              {
+                "code": "zhgjct3grx1z",
+                "name": "Zoom Clips",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "576m25cw4prj",
+                "name": "Zoom Canvas",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "2twszjk8b2jy",
+                "name": "Zoom Hub",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "zhgjct3grx1z",
+            "name": "Zoom Clips",
+            "status": "degraded_performance",
+            "created_at": "2023-11-12T17:48:13.796-08:00",
+            "updated_at": "2026-07-21T11:25:26.710-07:00",
+            "position": 3,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-11-12",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "576m25cw4prj",
+            "name": "Zoom Canvas",
+            "status": "degraded_performance",
+            "created_at": "2024-08-07T20:19:58.046-07:00",
+            "updated_at": "2026-07-21T11:25:26.728-07:00",
+            "position": 13,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-08-07",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "2twszjk8b2jy",
+            "name": "Zoom Hub",
+            "status": "degraded_performance",
+            "created_at": "2026-02-26T09:22:48.103-08:00",
+            "updated_at": "2026-07-21T11:25:26.744-07:00",
+            "position": 46,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-02-26",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "jjx4mtk4my78",
+            "name": "Zoom Paper",
+            "status": "degraded_performance",
+            "created_at": "2026-06-03T18:53:09.556-07:00",
+            "updated_at": "2026-07-21T11:47:45.943-07:00",
+            "position": 50,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-06-03",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "p1jwwf84ngpf",
+            "name": "Zoom Slides",
+            "status": "degraded_performance",
+            "created_at": "2026-06-03T18:53:33.449-07:00",
+            "updated_at": "2026-07-21T11:47:45.958-07:00",
+            "position": 51,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-06-03",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "8214506690ws",
+            "name": "Zoom Sheets",
+            "status": "degraded_performance",
+            "created_at": "2026-06-03T18:54:13.105-07:00",
+            "updated_at": "2026-07-21T11:47:45.971-07:00",
+            "position": 52,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-06-03",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "02jc9z4vflg4",
@@ -6799,9 +6947,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-07-21T17:36:30Z"
+    "updated": "2026-07-21T18:54:10Z"
   }
 }
