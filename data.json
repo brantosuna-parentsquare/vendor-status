@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-23T14:28:23Z"
+    "updated": "2026-07-23T16:10:31Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-23T14:28:23Z"
+    "updated": "2026-07-23T16:10:31Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-23T10:00:57.459-04:00"
+      "updated_at": "2026-07-23T11:38:55.812-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-23T14:28:21Z"
+    "updated": "2026-07-23T16:10:29Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-23T14:01:25.626Z"
+      "updated_at": "2026-07-23T15:39:00.928Z"
     },
     "components": [
       {
@@ -1311,7 +1311,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-23T14:28:21Z"
+    "updated": "2026-07-23T16:10:29Z"
   },
   "zoom": {
     "page": {
@@ -1319,7 +1319,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-23T07:20:45.932-07:00"
+      "updated_at": "2026-07-23T08:53:52.585-07:00"
     },
     "components": [
       {
@@ -4132,9 +4132,9 @@
       {
         "id": "1v9cn0m69cc1",
         "name": "Ellkay",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-07-08T07:54:04.002-07:00",
-        "updated_at": "2026-07-08T08:52:37.299-07:00",
+        "updated_at": "2026-07-23T08:53:52.516-07:00",
         "position": 7,
         "description": null,
         "showcase": false,
@@ -6165,7 +6165,7 @@
       {
         "id": "qc3jmtft3wbx",
         "name": "Apps by Zoom",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-02-02T21:36:12.700-08:00",
         "updated_at": "2026-02-02T21:36:12.700-08:00",
         "position": 44,
@@ -6331,32 +6331,32 @@
     ],
     "incidents": [
       {
-        "id": "gbfysm964mvs",
-        "name": "Service Degradation Affected Zoom Blog Website",
-        "status": "monitoring",
-        "created_at": "2026-07-23T07:03:31.613-07:00",
-        "updated_at": "2026-07-23T07:03:31.685-07:00",
-        "monitoring_at": "2026-07-23T07:03:31.676-07:00",
+        "id": "lcyr0zpq6c9k",
+        "name": "Service Degradation Affecting Zoom Healthcare Integration services in US Region",
+        "status": "investigating",
+        "created_at": "2026-07-23T08:53:52.477-07:00",
+        "updated_at": "2026-07-23T08:53:52.582-07:00",
+        "monitoring_at": null,
         "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/g79nl5bkfr0j",
-        "started_at": "2026-07-23T07:03:31.603-07:00",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/wht1xf500dsj",
+        "started_at": "2026-07-23T08:53:52.466-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "yb54bhqchpwq",
-            "status": "monitoring",
-            "body": "On 07/23/2026, Between 13:23 UTC to 13:25 UTC, the users may have experienced issue with Zoom Blog website.\n\nThis incident has been resolved and the affected services have been restored.",
-            "incident_id": "gbfysm964mvs",
-            "created_at": "2026-07-23T07:03:31.676-07:00",
-            "updated_at": "2026-07-23T07:03:31.676-07:00",
-            "display_at": "2026-07-23T07:03:31.676-07:00",
+            "id": "728nh7c8g29n",
+            "status": "investigating",
+            "body": "We have successfully identified the root cause affecting users' ability to sync new appointments with Zoom Healthcare Integration in US region.\n\nWe are working with our vendor to resolve the issue. We will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "lcyr0zpq6c9k",
+            "created_at": "2026-07-23T08:53:52.579-07:00",
+            "updated_at": "2026-07-23T08:53:52.579-07:00",
+            "display_at": "2026-07-23T08:53:52.579-07:00",
             "affected_components": [
               {
-                "code": "4grcx0jpnvgz",
-                "name": "Zoom Blog",
+                "code": "1v9cn0m69cc1",
+                "name": "Apps by Zoom - Ellkay",
                 "old_status": "operational",
-                "new_status": "operational"
+                "new_status": "degraded_performance"
               }
             ],
             "deliver_notifications": true,
@@ -6366,16 +6366,16 @@
         ],
         "components": [
           {
-            "id": "4grcx0jpnvgz",
-            "name": "Zoom Blog",
-            "status": "operational",
-            "created_at": "2023-06-11T21:51:04.569-07:00",
-            "updated_at": "2026-04-11T02:41:24.017-07:00",
-            "position": 1,
-            "description": "This is for blog.zoom.us",
+            "id": "1v9cn0m69cc1",
+            "name": "Ellkay",
+            "status": "degraded_performance",
+            "created_at": "2026-07-08T07:54:04.002-07:00",
+            "updated_at": "2026-07-23T08:53:52.516-07:00",
+            "position": 7,
+            "description": null,
             "showcase": false,
-            "start_date": "2023-06-11",
-            "group_id": null,
+            "start_date": "2026-07-08",
+            "group_id": "qc3jmtft3wbx",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
@@ -6778,9 +6778,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-07-23T14:28:21Z"
+    "updated": "2026-07-23T16:10:29Z"
   }
 }
