@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-23T17:48:16Z"
+    "updated": "2026-07-23T18:55:53Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-23T17:48:16Z"
+    "updated": "2026-07-23T18:55:53Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-23T13:27:57.182-04:00"
+      "updated_at": "2026-07-23T14:28:46.535-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-23T17:48:15Z"
+    "updated": "2026-07-23T18:55:51Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-23T17:14:01.146Z"
+      "updated_at": "2026-07-23T18:28:50.688Z"
     },
     "components": [
       {
@@ -1311,7 +1311,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-23T17:48:15Z"
+    "updated": "2026-07-23T18:55:51Z"
   },
   "zoom": {
     "page": {
@@ -1319,7 +1319,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-23T10:14:00.810-07:00"
+      "updated_at": "2026-07-23T11:30:26.537-07:00"
     },
     "components": [
       {
@@ -4132,9 +4132,9 @@
       {
         "id": "1v9cn0m69cc1",
         "name": "Ellkay",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-07-08T07:54:04.002-07:00",
-        "updated_at": "2026-07-23T08:53:52.516-07:00",
+        "updated_at": "2026-07-23T11:04:24.050-07:00",
         "position": 7,
         "description": null,
         "showcase": false,
@@ -6165,7 +6165,7 @@
       {
         "id": "qc3jmtft3wbx",
         "name": "Apps by Zoom",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-02-02T21:36:12.700-08:00",
         "updated_at": "2026-02-02T21:36:12.700-08:00",
         "position": 44,
@@ -6329,81 +6329,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "lcyr0zpq6c9k",
-        "name": "Service Degradation Affecting Zoom Healthcare Integration services in US Region",
-        "status": "identified",
-        "created_at": "2026-07-23T08:53:52.477-07:00",
-        "updated_at": "2026-07-23T09:22:28.126-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/wht1xf500dsj",
-        "started_at": "2026-07-23T08:53:52.466-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "3sylnqbhnmx7",
-            "status": "identified",
-            "body": "We are working with our vendor to resolve the issue. We will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "lcyr0zpq6c9k",
-            "created_at": "2026-07-23T09:22:28.123-07:00",
-            "updated_at": "2026-07-23T09:22:28.123-07:00",
-            "display_at": "2026-07-23T09:22:28.123-07:00",
-            "affected_components": [
-              {
-                "code": "1v9cn0m69cc1",
-                "name": "Apps by Zoom - Ellkay",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "728nh7c8g29n",
-            "status": "investigating",
-            "body": "We have successfully identified the root cause affecting users' ability to sync new appointments with Zoom Healthcare Integration in US region.\n\nWe are working with our vendor to resolve the issue. We will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "lcyr0zpq6c9k",
-            "created_at": "2026-07-23T08:53:52.579-07:00",
-            "updated_at": "2026-07-23T08:53:52.579-07:00",
-            "display_at": "2026-07-23T08:53:52.579-07:00",
-            "affected_components": [
-              {
-                "code": "1v9cn0m69cc1",
-                "name": "Apps by Zoom - Ellkay",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "1v9cn0m69cc1",
-            "name": "Ellkay",
-            "status": "degraded_performance",
-            "created_at": "2026-07-08T07:54:04.002-07:00",
-            "updated_at": "2026-07-23T08:53:52.516-07:00",
-            "position": 7,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-07-08",
-            "group_id": "qc3jmtft3wbx",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "02jc9z4vflg4",
@@ -6798,9 +6724,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-07-23T17:48:15Z"
+    "updated": "2026-07-23T18:55:51Z"
   }
 }
