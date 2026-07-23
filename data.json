@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-23T12:01:23Z"
+    "updated": "2026-07-23T14:28:23Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-23T12:01:23Z"
+    "updated": "2026-07-23T14:28:23Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-23T07:29:04.520-04:00"
+      "updated_at": "2026-07-23T10:00:57.459-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-23T12:01:22Z"
+    "updated": "2026-07-23T14:28:21Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-23T11:29:10.253Z"
+      "updated_at": "2026-07-23T14:01:25.626Z"
     },
     "components": [
       {
@@ -1311,7 +1311,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-23T12:01:22Z"
+    "updated": "2026-07-23T14:28:21Z"
   },
   "zoom": {
     "page": {
@@ -1319,7 +1319,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-23T04:29:09.248-07:00"
+      "updated_at": "2026-07-23T07:20:45.932-07:00"
     },
     "components": [
       {
@@ -6329,7 +6329,61 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "gbfysm964mvs",
+        "name": "Service Degradation Affected Zoom Blog Website",
+        "status": "monitoring",
+        "created_at": "2026-07-23T07:03:31.613-07:00",
+        "updated_at": "2026-07-23T07:03:31.685-07:00",
+        "monitoring_at": "2026-07-23T07:03:31.676-07:00",
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/g79nl5bkfr0j",
+        "started_at": "2026-07-23T07:03:31.603-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "yb54bhqchpwq",
+            "status": "monitoring",
+            "body": "On 07/23/2026, Between 13:23 UTC to 13:25 UTC, the users may have experienced issue with Zoom Blog website.\n\nThis incident has been resolved and the affected services have been restored.",
+            "incident_id": "gbfysm964mvs",
+            "created_at": "2026-07-23T07:03:31.676-07:00",
+            "updated_at": "2026-07-23T07:03:31.676-07:00",
+            "display_at": "2026-07-23T07:03:31.676-07:00",
+            "affected_components": [
+              {
+                "code": "4grcx0jpnvgz",
+                "name": "Zoom Blog",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "4grcx0jpnvgz",
+            "name": "Zoom Blog",
+            "status": "operational",
+            "created_at": "2023-06-11T21:51:04.569-07:00",
+            "updated_at": "2026-04-11T02:41:24.017-07:00",
+            "position": 1,
+            "description": "This is for blog.zoom.us",
+            "showcase": false,
+            "start_date": "2023-06-11",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "02jc9z4vflg4",
@@ -6727,6 +6781,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-23T12:01:22Z"
+    "updated": "2026-07-23T14:28:21Z"
   }
 }
