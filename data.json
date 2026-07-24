@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-24T13:03:03Z"
+    "updated": "2026-07-24T15:04:47Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-24T13:03:03Z"
+    "updated": "2026-07-24T15:04:47Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-24T07:50:00.315-04:00"
+      "updated_at": "2026-07-24T10:58:47.398-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-24T13:03:00Z"
+    "updated": "2026-07-24T15:04:45Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-24T11:50:12.944Z"
+      "updated_at": "2026-07-24T14:58:51.589Z"
     },
     "components": [
       {
@@ -1311,7 +1311,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-24T13:03:00Z"
+    "updated": "2026-07-24T15:04:45Z"
   },
   "zoom": {
     "page": {
@@ -1319,7 +1319,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-24T05:55:03.404-07:00"
+      "updated_at": "2026-07-24T07:58:51.885-07:00"
     },
     "components": [
       {
@@ -6647,7 +6647,7 @@
         "name": "Zoom Conference Room Connector DNS Changes: August 16, 2026",
         "status": "in_progress",
         "created_at": "2026-07-17T13:31:25.130-07:00",
-        "updated_at": "2026-07-24T05:55:03.393-07:00",
+        "updated_at": "2026-07-24T06:04:03.457-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -6684,10 +6684,10 @@
           {
             "id": "w317gc9wcj7w",
             "status": "scheduled",
-            "body": "As part of ongoing service enhancements for CRC, we are replacing DNS records for SIP/H.323 endpoints in the São Paulo and Mexico regions. Legacy DNS records in some other regions that are no longer in use will be decommissioned.\n\n<b>Effective Date</b> : August 16, 2026\n\nTo avoid service disruption, update your configurations before August 16, 2026.\n\nDNS Record Updates:\n\nSão Paulo Region: Records to be replaced (A-Record and SRV-Record):\nzmbr.br\n_h323cs._tcp.zmbr.us\n_sip._tcp.zmbr.us\n_sips._tcp.zmbr.us\n_sip._udp.zmbr.us\nsp.zmbr.us\n_h323cs._tcp.sp.zmbr.us\n_sip._tcp.sp.zmbr.us\n_sips._tcp.sp.zmbr.us\n_sip._udp.sp.zmbr.us\n\nNew records (A-Record and SRV-Record):\nsp.zoomcrc.com\n_h323cs._tcp.sp.zoomcrc.com\n_sip._tcp.sp.zoomcrc.com\n_sips._tcp.sp.zoomcrc.com\n_sip._udp.sp.zoomcrc.com\n\nMexico Region: Records to be replaced (A-Record and SRV-Record):\nmx.zmvc.us\n_h323cs._tcp.mx.zmvc.us\n_sip._tcp.mx.zmvc.us\n_sips._tcp.mx.zmvc.us\n_sip._udp.mx.zmvc.us\n\nNew records (A-Record and SRV-Record):\nqro.zoomcrc.com\n_h323cs._tcp.qro.zoomcrc.com\n_sip._tcp.qro.zoomcrc.com\n_sips._tcp.qro.zoomcrc.com\n_sip._udp.qro.zoomcrc.com\n\nAction Required:\nReview your endpoint configurations and update any references from replaced DNS records to new DNS records before August 16, 2026 to ensure uninterrupted service.\n\nLegacy Records to Be Removed:\nHosted Zone: zmvc.us\nA-Records:\nlej.zmvc.us\nhk.zmvc.us\nmtls.mx.zmvc.us\ncn.zmvc.us\nde.zmvc.us\nnl.zmvc.us\nca1.zmvc.us\nca2.zmvc.us\nsg1.zmvc.us\nus2.zmvc.us\nus1.zmvc.us\nbr.zmvc.us\njp2.zmvc.us\nin1.zmvc.us\nin2.zmvc.us\njp1.zmvc.us\n\nSRV-Records:\n_h323cs._tcp.lej.zmvc.us\n_sip._tcp.lej.zmvc.us\n_sips._tcp.lej.zmvc.us\n_sip._udp.lej.zmvc.us\n_h323cs._tcp.hk.zmvc.us\n_sip._tcp.hk.zmvc.us\n_sips._tcp.hk.zmvc.us\n_sip._udp.hk.zmvc.us\n_h323cs._tcp.cn.zmvc.us\n_sip._tcp.cn.zmvc.us\n_sips._tcp.cn.zmvc.us\n_sip._udp.cn.zmvc.us\n_h323cs._tcp.de.zmvc.us\n_sip._tcp.de.zmvc.us\n_sips._tcp.de.zmvc.us\n_sip._udp.de.zmvc.us\n_h323cs._tcp.nl.zmvc.us\n_sip._tcp.nl.zmvc.us\n_sips._tcp.nl.zmvc.us\n_sip._udp.nl.zmvc.us\n_h323cs._tcp.ca1.zmvc.us\n_sip._tcp.ca1.zmvc.us\n_sips._tcp.ca1.zmvc.us\n_sip._udp.ca1.zmvc.us\n_h323cs._tcp.ca2.zmvc.us\n_sip._tcp.ca2.zmvc.us\n_sips._tcp.ca2.zmvc.us\n_sip._udp.ca2.zmvc.us\n_h323cs._tcp.sg1.zmvc.us\n_sip._tcp.sg1.zmvc.us\n_sips._tcp.sg1.zmvc.us\n_sip._udp.sg1.zmvc.us\n_h323cs._tcp.us2.zmvc.us\n_sip._tcp.us2.zmvc.us\n_sips._tcp.us2.zmvc.us\n_sip._udp.us2.zmvc.us\n_h323cs._tcp.us1.zmvc.us\n_sip._tcp.us1.zmvc.us\n_sips._tcp.us1.zmvc.us\n_sip._udp.us1.zmvc.us\n_h323cs._tcp.br.zmvc.us\n_sip._tcp.br.zmvc.us\n_sips._tcp.br.zmvc.us\n_sip._udp.br.zmvc.us\n_h323cs._tcp.jp2.zmvc.us\n_sip._tcp.jp2.zmvc.us\n_sips._tcp.jp2.zmvc.us\n_sip._udp.jp2.zmvc.us\n_h323cs._tcp.in1.zmvc.us\n_sip._tcp.in1.zmvc.us\n_sips._tcp.in1.zmvc.us\n_sip._udp.in1.zmvc.us\n_h323cs._tcp.in2.zmvc.us\n_sip._tcp.in2.zmvc.us\n_sips._tcp.in2.zmvc.us\n_sip._udp.in2.zmvc.us\n_h323cs._tcp.jp1.zmvc.us\n_sip._tcp.jp1.zmvc.us\n_sips._tcp.jp1.zmvc.us\n_sip._udp.jp1.zmvc.us\n\nHosted Zone: zmjp.us\nA Records:\nsip.zmjp.us\nudp2.zmjp.us\nsip2.zmjp.us\nvip2.zmjp.us\nudp.zmjp.us\n\nSRV Records:\n_h323cs._tcp.vip2.zmjp.us\n_sip._tcp.vip2.zmjp.us\n_sips._tcp.vip2.zmjp.us\n_sip._udp.vip2.zmjp.us\n\n\nHosted Zone: zmca.us\nA Records:\nsip.zmca.us\nvip2.zmca.us\nsip2.zmca.us\nudp2.zmca.us\nudp.zmca.us\n\nSRV Records:\n_h323cs._tcp.vip2.zmca.us\n_sip._tcp.vip2.zmca.us\n_sips._tcp.vip2.zmca.us\n_sip._udp.vip2.zmca.us\n\nAction Required:\n\nReview your CRC endpoint configurations. If you are still using any of these legacy DNS records, contact your Zoom TAM or Zoom Support before August 16, 2026 to ensure uninterrupted service.\n\nFor any questions please contact your Zoom TAM or Zoom Support.",
+            "body": "As part of ongoing service enhancements for CRC, we are replacing DNS records for SIP/H.323 endpoints in the São Paulo and Mexico regions. Legacy DNS records in some other regions that are no longer in use will be decommissioned.\n\n<b>Effective Date</b>: August 16, 2026\n\nTo avoid service disruption, update your configurations before August 16, 2026.\n\n<b>DNS Record Updates</b>:\n\n<b>São Paulo Region: Records to be replaced (A-Record and SRV-Record)</b>:\nzmbr.br\n_h323cs._tcp.zmbr.us\n_sip._tcp.zmbr.us\n_sips._tcp.zmbr.us\n_sip._udp.zmbr.us\nsp.zmbr.us\n_h323cs._tcp.sp.zmbr.us\n_sip._tcp.sp.zmbr.us\n_sips._tcp.sp.zmbr.us\n_sip._udp.sp.zmbr.us\n\n<b>New records (A-Record and SRV-Record)</b>:\nsp.zoomcrc.com\n_h323cs._tcp.sp.zoomcrc.com\n_sip._tcp.sp.zoomcrc.com\n_sips._tcp.sp.zoomcrc.com\n_sip._udp.sp.zoomcrc.com\n\n<b>Mexico Region: Records to be replaced (A-Record and SRV-Record)</b>:\nmx.zmvc.us\n_h323cs._tcp.mx.zmvc.us\n_sip._tcp.mx.zmvc.us\n_sips._tcp.mx.zmvc.us\n_sip._udp.mx.zmvc.us\n\n<b>New records (A-Record and SRV-Record)</b>:\nqro.zoomcrc.com\n_h323cs._tcp.qro.zoomcrc.com\n_sip._tcp.qro.zoomcrc.com\n_sips._tcp.qro.zoomcrc.com\n_sip._udp.qro.zoomcrc.com\n\n<b>Action Required</b>:\nReview your endpoint configurations and update any references from replaced DNS records to new DNS records before August 16, 2026 to ensure uninterrupted service.\n\n<b>Legacy Records to Be Removed</b>:\n<b>Hosted Zone</b>: zmvc.us\n<b>A-Records</b>:\nlej.zmvc.us\nhk.zmvc.us\nmtls.mx.zmvc.us\ncn.zmvc.us\nde.zmvc.us\nnl.zmvc.us\nca1.zmvc.us\nca2.zmvc.us\nsg1.zmvc.us\nus2.zmvc.us\nus1.zmvc.us\nbr.zmvc.us\njp2.zmvc.us\nin1.zmvc.us\nin2.zmvc.us\njp1.zmvc.us\n\n<b>SRV-Records</b>:\n_h323cs._tcp.lej.zmvc.us\n_sip._tcp.lej.zmvc.us\n_sips._tcp.lej.zmvc.us\n_sip._udp.lej.zmvc.us\n_h323cs._tcp.hk.zmvc.us\n_sip._tcp.hk.zmvc.us\n_sips._tcp.hk.zmvc.us\n_sip._udp.hk.zmvc.us\n_h323cs._tcp.cn.zmvc.us\n_sip._tcp.cn.zmvc.us\n_sips._tcp.cn.zmvc.us\n_sip._udp.cn.zmvc.us\n_h323cs._tcp.de.zmvc.us\n_sip._tcp.de.zmvc.us\n_sips._tcp.de.zmvc.us\n_sip._udp.de.zmvc.us\n_h323cs._tcp.nl.zmvc.us\n_sip._tcp.nl.zmvc.us\n_sips._tcp.nl.zmvc.us\n_sip._udp.nl.zmvc.us\n_h323cs._tcp.ca1.zmvc.us\n_sip._tcp.ca1.zmvc.us\n_sips._tcp.ca1.zmvc.us\n_sip._udp.ca1.zmvc.us\n_h323cs._tcp.ca2.zmvc.us\n_sip._tcp.ca2.zmvc.us\n_sips._tcp.ca2.zmvc.us\n_sip._udp.ca2.zmvc.us\n_h323cs._tcp.sg1.zmvc.us\n_sip._tcp.sg1.zmvc.us\n_sips._tcp.sg1.zmvc.us\n_sip._udp.sg1.zmvc.us\n_h323cs._tcp.us2.zmvc.us\n_sip._tcp.us2.zmvc.us\n_sips._tcp.us2.zmvc.us\n_sip._udp.us2.zmvc.us\n_h323cs._tcp.us1.zmvc.us\n_sip._tcp.us1.zmvc.us\n_sips._tcp.us1.zmvc.us\n_sip._udp.us1.zmvc.us\n_h323cs._tcp.br.zmvc.us\n_sip._tcp.br.zmvc.us\n_sips._tcp.br.zmvc.us\n_sip._udp.br.zmvc.us\n_h323cs._tcp.jp2.zmvc.us\n_sip._tcp.jp2.zmvc.us\n_sips._tcp.jp2.zmvc.us\n_sip._udp.jp2.zmvc.us\n_h323cs._tcp.in1.zmvc.us\n_sip._tcp.in1.zmvc.us\n_sips._tcp.in1.zmvc.us\n_sip._udp.in1.zmvc.us\n_h323cs._tcp.in2.zmvc.us\n_sip._tcp.in2.zmvc.us\n_sips._tcp.in2.zmvc.us\n_sip._udp.in2.zmvc.us\n_h323cs._tcp.jp1.zmvc.us\n_sip._tcp.jp1.zmvc.us\n_sips._tcp.jp1.zmvc.us\n_sip._udp.jp1.zmvc.us\n\n<b>Hosted Zone</b>: zmjp.us\n<b>A Records</b>:\nsip.zmjp.us\nudp2.zmjp.us\nsip2.zmjp.us\nvip2.zmjp.us\nudp.zmjp.us\n\n<b>SRV Records</b>:\n_h323cs._tcp.vip2.zmjp.us\n_sip._tcp.vip2.zmjp.us\n_sips._tcp.vip2.zmjp.us\n_sip._udp.vip2.zmjp.us\n\n\n<b>Hosted Zone</b>: zmca.us\n<b>A Records</b>:\nsip.zmca.us\nvip2.zmca.us\nsip2.zmca.us\nudp2.zmca.us\nudp.zmca.us\n\n<b>SRV Records</b>:\n_h323cs._tcp.vip2.zmca.us\n_sip._tcp.vip2.zmca.us\n_sips._tcp.vip2.zmca.us\n_sip._udp.vip2.zmca.us\n\n<b>Action Required</b>:\n\nReview your CRC endpoint configurations. If you are still using any of these legacy DNS records, contact your Zoom TAM or Zoom Support before August 16, 2026 to ensure uninterrupted service.\n\nFor any questions please contact your Zoom TAM or Zoom Support.",
             "incident_id": "hx9x0j6qmtgr",
             "created_at": "2026-07-17T13:31:25.233-07:00",
-            "updated_at": "2026-07-24T05:55:03.387-07:00",
+            "updated_at": "2026-07-24T06:04:03.453-07:00",
             "display_at": "2026-07-17T13:31:25.233-07:00",
             "affected_components": [
               {
@@ -6727,6 +6727,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-24T13:03:00Z"
+    "updated": "2026-07-24T15:04:45Z"
   }
 }
