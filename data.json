@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-24T21:13:24Z"
+    "updated": "2026-07-24T22:31:47Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-24T21:13:24Z"
+    "updated": "2026-07-24T22:31:47Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-24T15:23:51.229-04:00"
+      "updated_at": "2026-07-24T18:05:09.843-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-24T21:13:23Z"
+    "updated": "2026-07-24T22:31:45Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-24T21:08:45.570Z"
+      "updated_at": "2026-07-24T22:07:00.477Z"
     },
     "components": [
       {
@@ -257,9 +257,9 @@
       {
         "id": "06hpq0rll70p",
         "name": "App",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:56:52.156Z",
-        "updated_at": "2026-07-24T19:09:15.739Z",
+        "updated_at": "2026-07-24T22:07:00.043Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -272,9 +272,9 @@
       {
         "id": "m4dj1p6nkzbp",
         "name": "App",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:58:54.215Z",
-        "updated_at": "2026-07-24T19:09:15.759Z",
+        "updated_at": "2026-07-24T22:07:00.066Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -287,9 +287,9 @@
       {
         "id": "vzp40jhw9t4k",
         "name": "App",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-01-20T18:59:32.511Z",
-        "updated_at": "2026-07-24T19:09:15.779Z",
+        "updated_at": "2026-07-24T22:07:00.085Z",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -355,9 +355,9 @@
       {
         "id": "m1gvj42drxdc",
         "name": "API",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:57:20.666Z",
-        "updated_at": "2026-07-24T19:09:15.819Z",
+        "updated_at": "2026-07-24T22:07:00.105Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -370,9 +370,9 @@
       {
         "id": "7dvw8j11nzyx",
         "name": "API",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:59:03.964Z",
-        "updated_at": "2026-07-24T19:09:15.843Z",
+        "updated_at": "2026-07-24T22:07:00.125Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -385,9 +385,9 @@
       {
         "id": "km6jrkp0m2vk",
         "name": "API",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-07-24T19:09:15.866Z",
+        "updated_at": "2026-07-24T22:07:00.146Z",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -430,7 +430,7 @@
       {
         "id": "3c6vvpy5cjf5",
         "name": "Japan",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:56:52.127Z",
         "updated_at": "2025-06-27T19:56:36.707Z",
         "position": 3,
@@ -453,9 +453,9 @@
       {
         "id": "rtg6j3dykmqj",
         "name": "Mobile",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:57:37.036Z",
-        "updated_at": "2026-07-24T19:09:15.915Z",
+        "updated_at": "2026-07-24T22:07:00.166Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -468,9 +468,9 @@
       {
         "id": "h6ncz3kqdjmp",
         "name": "Mobile",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:59:17.187Z",
-        "updated_at": "2026-07-24T19:09:15.938Z",
+        "updated_at": "2026-07-24T22:07:00.186Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -483,9 +483,9 @@
       {
         "id": "mr04m1rysj65",
         "name": "Mobile",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-01-20T19:02:01.991Z",
-        "updated_at": "2026-07-24T19:09:15.961Z",
+        "updated_at": "2026-07-24T22:07:00.205Z",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -528,9 +528,9 @@
       {
         "id": "5j7zdk265c0x",
         "name": "Automations and Background Actions",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:57:55.572Z",
-        "updated_at": "2026-07-24T19:09:16.005Z",
+        "updated_at": "2026-07-24T22:07:00.226Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -543,7 +543,7 @@
       {
         "id": "rmx1t3dwwq0t",
         "name": "Australia",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:58:54.108Z",
         "updated_at": "2025-02-06T22:35:34.314Z",
         "position": 4,
@@ -566,9 +566,9 @@
       {
         "id": "vgztx3m93w0b",
         "name": "Automations and Background Actions",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:59:32.427Z",
-        "updated_at": "2026-07-24T19:09:16.030Z",
+        "updated_at": "2026-07-24T22:07:00.247Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -581,9 +581,9 @@
       {
         "id": "pgl7q570g5np",
         "name": "Automations and Background Actions",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-01-20T19:02:29.583Z",
-        "updated_at": "2026-07-24T19:09:16.057Z",
+        "updated_at": "2026-07-24T22:07:00.267Z",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -626,9 +626,9 @@
       {
         "id": "34hnvm512p05",
         "name": "Webhooks and Event Streams",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:58:36.622Z",
-        "updated_at": "2026-07-24T19:09:16.113Z",
+        "updated_at": "2026-07-24T22:07:00.287Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -641,9 +641,9 @@
       {
         "id": "7bdsmnby2rqd",
         "name": "Webhooks and Event Streams",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T21:59:50.695Z",
-        "updated_at": "2026-07-24T19:09:16.138Z",
+        "updated_at": "2026-07-24T22:07:00.308Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -656,7 +656,7 @@
       {
         "id": "m172ltsc49p0",
         "name": "Middle East",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-01-20T18:59:32.456Z",
         "updated_at": "2026-01-20T18:59:32.456Z",
         "position": 5,
@@ -679,9 +679,9 @@
       {
         "id": "wclgzqxnt8qd",
         "name": "Webhooks and Event Streams",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-01-20T19:03:00.779Z",
-        "updated_at": "2026-07-24T19:09:16.162Z",
+        "updated_at": "2026-07-24T22:07:00.328Z",
         "position": 5,
         "description": null,
         "showcase": false,
@@ -724,9 +724,9 @@
       {
         "id": "78rst0tkkkxn",
         "name": "Notifications",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2025-03-26T21:19:45.892Z",
-        "updated_at": "2026-07-24T19:09:16.225Z",
+        "updated_at": "2026-07-24T22:07:00.348Z",
         "position": 6,
         "description": null,
         "showcase": true,
@@ -739,9 +739,9 @@
       {
         "id": "ldt346pmqdb9",
         "name": "Notifications",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2025-03-26T21:20:00.214Z",
-        "updated_at": "2026-07-24T19:09:16.245Z",
+        "updated_at": "2026-07-24T22:07:00.370Z",
         "position": 6,
         "description": null,
         "showcase": true,
@@ -754,9 +754,9 @@
       {
         "id": "1wc2v8r6wnhc",
         "name": "Notifications",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-01-20T19:03:20.610Z",
-        "updated_at": "2026-07-24T19:09:16.264Z",
+        "updated_at": "2026-07-24T22:07:00.392Z",
         "position": 6,
         "description": null,
         "showcase": false,
@@ -768,879 +768,12 @@
       }
     ],
     "incidents": [],
-    "scheduled_maintenances": [
-      {
-        "id": "tszbrgvplynh",
-        "name": "Planned Maintenance",
-        "status": "in_progress",
-        "created_at": "2026-07-20T18:19:39.258Z",
-        "updated_at": "2026-07-24T21:08:45.554Z",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/wtz90g9tg5h6",
-        "started_at": "2026-07-20T18:19:39.189Z",
-        "page_id": "w58858w0sjxx",
-        "incident_updates": [
-          {
-            "id": "sfhp0yvqtdtd",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
-            "incident_id": "tszbrgvplynh",
-            "created_at": "2026-07-24T21:08:45.548Z",
-            "updated_at": "2026-07-24T21:08:45.548Z",
-            "display_at": "2026-07-24T21:08:45.548Z",
-            "affected_components": [
-              {
-                "code": "8yllr704tq9n",
-                "name": "EU - App",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "vb5rnz4gj7p8",
-                "name": "EU - API",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "xkbfplxg5q8p",
-                "name": "EU - Mobile",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "39d07v7xt70h",
-                "name": "EU - Automations and Background Actions",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "xk6m3fzxd961",
-                "name": "EU - Webhooks and Event Streams",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "114pdw4p01xz",
-                "name": "EU - Notifications",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "06hpq0rll70p",
-                "name": "Japan - App",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "m1gvj42drxdc",
-                "name": "Japan - API",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "rtg6j3dykmqj",
-                "name": "Japan - Mobile",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "5j7zdk265c0x",
-                "name": "Japan - Automations and Background Actions",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "34hnvm512p05",
-                "name": "Japan - Webhooks and Event Streams",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "78rst0tkkkxn",
-                "name": "Japan - Notifications",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "m4dj1p6nkzbp",
-                "name": "Australia - App",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "7dvw8j11nzyx",
-                "name": "Australia - API",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "h6ncz3kqdjmp",
-                "name": "Australia - Mobile",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "vgztx3m93w0b",
-                "name": "Australia - Automations and Background Actions",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "7bdsmnby2rqd",
-                "name": "Australia - Webhooks and Event Streams",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "ldt346pmqdb9",
-                "name": "Australia - Notifications",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "vzp40jhw9t4k",
-                "name": "Middle East - App",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "km6jrkp0m2vk",
-                "name": "Middle East - API",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "mr04m1rysj65",
-                "name": "Middle East - Mobile",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "pgl7q570g5np",
-                "name": "Middle East - Automations and Background Actions",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "wclgzqxnt8qd",
-                "name": "Middle East - Webhooks and Event Streams",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "1wc2v8r6wnhc",
-                "name": "Middle East - Notifications",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "yrtjgntdwnl6",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "tszbrgvplynh",
-            "created_at": "2026-07-24T19:09:16.307Z",
-            "updated_at": "2026-07-24T19:09:16.307Z",
-            "display_at": "2026-07-24T19:09:16.307Z",
-            "affected_components": [
-              {
-                "code": "8yllr704tq9n",
-                "name": "EU - App",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "vb5rnz4gj7p8",
-                "name": "EU - API",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "xkbfplxg5q8p",
-                "name": "EU - Mobile",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "39d07v7xt70h",
-                "name": "EU - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "xk6m3fzxd961",
-                "name": "EU - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "114pdw4p01xz",
-                "name": "EU - Notifications",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "06hpq0rll70p",
-                "name": "Japan - App",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "m1gvj42drxdc",
-                "name": "Japan - API",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "rtg6j3dykmqj",
-                "name": "Japan - Mobile",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "5j7zdk265c0x",
-                "name": "Japan - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "34hnvm512p05",
-                "name": "Japan - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "78rst0tkkkxn",
-                "name": "Japan - Notifications",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "m4dj1p6nkzbp",
-                "name": "Australia - App",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "7dvw8j11nzyx",
-                "name": "Australia - API",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "h6ncz3kqdjmp",
-                "name": "Australia - Mobile",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "vgztx3m93w0b",
-                "name": "Australia - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "7bdsmnby2rqd",
-                "name": "Australia - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "ldt346pmqdb9",
-                "name": "Australia - Notifications",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "vzp40jhw9t4k",
-                "name": "Middle East - App",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "km6jrkp0m2vk",
-                "name": "Middle East - API",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "mr04m1rysj65",
-                "name": "Middle East - Mobile",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "pgl7q570g5np",
-                "name": "Middle East - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "wclgzqxnt8qd",
-                "name": "Middle East - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "1wc2v8r6wnhc",
-                "name": "Middle East - Notifications",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "pm1dtl496js6",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "tszbrgvplynh",
-            "created_at": "2026-07-24T18:00:10.126Z",
-            "updated_at": "2026-07-24T18:00:10.126Z",
-            "display_at": "2026-07-24T18:00:10.126Z",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "5l8ps82f71h6",
-            "status": "scheduled",
-            "body": "On Friday, July 24th, 2025, between 7:00 pm to 9:00 pm UTC, users may experience interruptions or limited availability while we upgrade our databases. During this maintenance window, Asana web and mobile applications and API may be affected. Thank you for your understanding and patience. Please contact support for any questions.",
-            "incident_id": "tszbrgvplynh",
-            "created_at": "2026-07-20T18:19:39.422Z",
-            "updated_at": "2026-07-20T18:19:39.422Z",
-            "display_at": "2026-07-20T18:19:39.422Z",
-            "affected_components": [
-              {
-                "code": "8yllr704tq9n",
-                "name": "EU - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vb5rnz4gj7p8",
-                "name": "EU - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "xkbfplxg5q8p",
-                "name": "EU - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "39d07v7xt70h",
-                "name": "EU - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "xk6m3fzxd961",
-                "name": "EU - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "114pdw4p01xz",
-                "name": "EU - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "06hpq0rll70p",
-                "name": "Japan - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "m1gvj42drxdc",
-                "name": "Japan - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "rtg6j3dykmqj",
-                "name": "Japan - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "5j7zdk265c0x",
-                "name": "Japan - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "34hnvm512p05",
-                "name": "Japan - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "78rst0tkkkxn",
-                "name": "Japan - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "m4dj1p6nkzbp",
-                "name": "Australia - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "7dvw8j11nzyx",
-                "name": "Australia - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "h6ncz3kqdjmp",
-                "name": "Australia - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vgztx3m93w0b",
-                "name": "Australia - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "7bdsmnby2rqd",
-                "name": "Australia - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "ldt346pmqdb9",
-                "name": "Australia - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vzp40jhw9t4k",
-                "name": "Middle East - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "km6jrkp0m2vk",
-                "name": "Middle East - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "mr04m1rysj65",
-                "name": "Middle East - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "pgl7q570g5np",
-                "name": "Middle East - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "wclgzqxnt8qd",
-                "name": "Middle East - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "1wc2v8r6wnhc",
-                "name": "Middle East - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "8yllr704tq9n",
-            "name": "App",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T18:04:01.236Z",
-            "updated_at": "2026-07-24T19:09:15.718Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "06hpq0rll70p",
-            "name": "App",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:56:52.156Z",
-            "updated_at": "2026-07-24T19:09:15.739Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "m4dj1p6nkzbp",
-            "name": "App",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:58:54.215Z",
-            "updated_at": "2026-07-24T19:09:15.759Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "vzp40jhw9t4k",
-            "name": "App",
-            "status": "under_maintenance",
-            "created_at": "2026-01-20T18:59:32.511Z",
-            "updated_at": "2026-07-24T19:09:15.779Z",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "vb5rnz4gj7p8",
-            "name": "API",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T18:04:15.542Z",
-            "updated_at": "2026-07-24T19:09:15.799Z",
-            "position": 2,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "m1gvj42drxdc",
-            "name": "API",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:57:20.666Z",
-            "updated_at": "2026-07-24T19:09:15.819Z",
-            "position": 2,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "7dvw8j11nzyx",
-            "name": "API",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:59:03.964Z",
-            "updated_at": "2026-07-24T19:09:15.843Z",
-            "position": 2,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "km6jrkp0m2vk",
-            "name": "API",
-            "status": "under_maintenance",
-            "created_at": "2026-01-20T19:00:18.706Z",
-            "updated_at": "2026-07-24T19:09:15.866Z",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "xkbfplxg5q8p",
-            "name": "Mobile",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T18:04:35.516Z",
-            "updated_at": "2026-07-24T19:09:15.887Z",
-            "position": 3,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "rtg6j3dykmqj",
-            "name": "Mobile",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:57:37.036Z",
-            "updated_at": "2026-07-24T19:09:15.915Z",
-            "position": 3,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "h6ncz3kqdjmp",
-            "name": "Mobile",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:59:17.187Z",
-            "updated_at": "2026-07-24T19:09:15.938Z",
-            "position": 3,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "mr04m1rysj65",
-            "name": "Mobile",
-            "status": "under_maintenance",
-            "created_at": "2026-01-20T19:02:01.991Z",
-            "updated_at": "2026-07-24T19:09:15.961Z",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "39d07v7xt70h",
-            "name": "Automations and Background Actions",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T18:04:50.001Z",
-            "updated_at": "2026-07-24T19:09:15.983Z",
-            "position": 4,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "5j7zdk265c0x",
-            "name": "Automations and Background Actions",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:57:55.572Z",
-            "updated_at": "2026-07-24T19:09:16.005Z",
-            "position": 4,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "vgztx3m93w0b",
-            "name": "Automations and Background Actions",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:59:32.427Z",
-            "updated_at": "2026-07-24T19:09:16.030Z",
-            "position": 4,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "pgl7q570g5np",
-            "name": "Automations and Background Actions",
-            "status": "under_maintenance",
-            "created_at": "2026-01-20T19:02:29.583Z",
-            "updated_at": "2026-07-24T19:09:16.057Z",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "xk6m3fzxd961",
-            "name": "Webhooks and Event Streams",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T18:05:05.907Z",
-            "updated_at": "2026-07-24T19:09:16.082Z",
-            "position": 5,
-            "description": "This component tracks the health of Asana's public API webhooks and event streams.",
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "34hnvm512p05",
-            "name": "Webhooks and Event Streams",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:58:36.622Z",
-            "updated_at": "2026-07-24T19:09:16.113Z",
-            "position": 5,
-            "description": "This component tracks the health of Asana's public API webhooks and event streams.",
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "7bdsmnby2rqd",
-            "name": "Webhooks and Event Streams",
-            "status": "under_maintenance",
-            "created_at": "2023-02-09T21:59:50.695Z",
-            "updated_at": "2026-07-24T19:09:16.138Z",
-            "position": 5,
-            "description": "This component tracks the health of Asana's public API webhooks and event streams.",
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "wclgzqxnt8qd",
-            "name": "Webhooks and Event Streams",
-            "status": "under_maintenance",
-            "created_at": "2026-01-20T19:03:00.779Z",
-            "updated_at": "2026-07-24T19:09:16.162Z",
-            "position": 5,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "114pdw4p01xz",
-            "name": "Notifications",
-            "status": "under_maintenance",
-            "created_at": "2025-03-26T21:18:40.037Z",
-            "updated_at": "2026-07-24T19:09:16.201Z",
-            "position": 6,
-            "description": null,
-            "showcase": true,
-            "start_date": "2024-12-01",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "78rst0tkkkxn",
-            "name": "Notifications",
-            "status": "under_maintenance",
-            "created_at": "2025-03-26T21:19:45.892Z",
-            "updated_at": "2026-07-24T19:09:16.225Z",
-            "position": 6,
-            "description": null,
-            "showcase": true,
-            "start_date": "2024-12-01",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "ldt346pmqdb9",
-            "name": "Notifications",
-            "status": "under_maintenance",
-            "created_at": "2025-03-26T21:20:00.214Z",
-            "updated_at": "2026-07-24T19:09:16.245Z",
-            "position": 6,
-            "description": null,
-            "showcase": true,
-            "start_date": "2024-12-01",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "1wc2v8r6wnhc",
-            "name": "Notifications",
-            "status": "under_maintenance",
-            "created_at": "2026-01-20T19:03:20.610Z",
-            "updated_at": "2026-07-24T19:09:16.264Z",
-            "position": 6,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-07-24T19:00:00.000Z",
-        "scheduled_until": "2026-07-24T21:00:00.000Z"
-      }
-    ],
+    "scheduled_maintenances": [],
     "status": {
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-07-24T21:13:23Z"
+    "updated": "2026-07-24T22:31:45Z"
   },
   "zoom": {
     "page": {
@@ -1648,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-24T12:23:55.710-07:00"
+      "updated_at": "2026-07-24T15:05:13.590-07:00"
     },
     "components": [
       {
@@ -7056,6 +6189,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-24T21:13:23Z"
+    "updated": "2026-07-24T22:31:45Z"
   }
 }
