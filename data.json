@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-26T18:41:39Z"
+    "updated": "2026-07-26T19:59:35Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-26T18:41:39Z"
+    "updated": "2026-07-26T19:59:35Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-26T18:41:37Z"
+    "updated": "2026-07-26T19:59:34Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-26T18:32:57.552Z"
+      "updated_at": "2026-07-26T19:59:01.971Z"
     },
     "components": [
       {
@@ -385,9 +385,9 @@
       {
         "id": "km6jrkp0m2vk",
         "name": "API",
-        "status": "partial_outage",
+        "status": "operational",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-07-26T18:31:41.000Z",
+        "updated_at": "2026-07-26T18:42:41.000Z",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -656,7 +656,7 @@
       {
         "id": "m172ltsc49p0",
         "name": "Middle East",
-        "status": "partial_outage",
+        "status": "operational",
         "created_at": "2026-01-20T18:59:32.456Z",
         "updated_at": "2026-01-20T18:59:32.456Z",
         "position": 5,
@@ -770,10 +770,10 @@
     "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "minor",
-      "description": "Minor Service Outage"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-07-26T18:41:37Z"
+    "updated": "2026-07-26T19:59:34Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-26T11:23:53.696-07:00"
+      "updated_at": "2026-07-26T12:59:01.374-07:00"
     },
     "components": [
       {
@@ -6455,6 +6455,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-26T18:41:37Z"
+    "updated": "2026-07-26T19:59:34Z"
   }
 }
