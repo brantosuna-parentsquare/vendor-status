@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-27T15:06:06Z"
+    "updated": "2026-07-27T17:06:29Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-27T15:06:06Z"
+    "updated": "2026-07-27T17:06:29Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-27T08:59:09.766-04:00"
+      "updated_at": "2026-07-27T12:58:49.492-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-27T15:06:05Z"
+    "updated": "2026-07-27T17:06:28Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-27T15:06:05Z"
+    "updated": "2026-07-27T17:06:28Z"
   },
   "zoom": {
     "page": {
@@ -6634,6 +6634,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-27T15:06:05Z"
+    "updated": "2026-07-27T17:06:28Z"
   }
 }
