@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-27T21:31:57Z"
+    "updated": "2026-07-27T22:40:02Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-27T21:31:57Z"
+    "updated": "2026-07-27T22:40:02Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-27T12:58:49.492-04:00"
+      "updated_at": "2026-07-27T17:53:44.138-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-27T21:31:56Z"
+    "updated": "2026-07-27T22:40:01Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-27T18:39:26.355Z"
+      "updated_at": "2026-07-27T22:39:08.839Z"
     },
     "components": [
       {
@@ -768,12 +768,172 @@
       }
     ],
     "incidents": [],
-    "scheduled_maintenances": [],
+    "scheduled_maintenances": [
+      {
+        "id": "ggq2nxwhk5jz",
+        "name": "Planned Maintenance",
+        "status": "scheduled",
+        "created_at": "2026-07-27T22:04:15.345Z",
+        "updated_at": "2026-07-27T22:39:08.826Z",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/jy65l2gw84ww",
+        "started_at": "2026-07-27T22:04:15.323Z",
+        "page_id": "w58858w0sjxx",
+        "incident_updates": [
+          {
+            "id": "4ztjbb7mk1s6",
+            "status": "scheduled",
+            "body": "On Sunday, Aug 2nd, 2026, between 3:00 am to 5:00 am UTC, users may experience interruptions or limited availability while we upgrade our databases. During this maintenance window, Asana web and mobile applications and API may be affected. Thank you for your understanding and patience. Please contact support for any questions.",
+            "incident_id": "ggq2nxwhk5jz",
+            "created_at": "2026-07-27T22:04:15.432Z",
+            "updated_at": "2026-07-27T22:39:08.819Z",
+            "display_at": "2026-07-27T22:04:15.432Z",
+            "affected_components": [
+              {
+                "code": "27w8th2c08v6",
+                "name": "US - App",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "yg4058k03s50",
+                "name": "US - API",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "0tlyr3w5wwtv",
+                "name": "US - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "5pzgfbsllb5y",
+                "name": "US - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "72r2f6764450",
+                "name": "US - Webhooks and Event Streams",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "v7hcrjtr3zmm",
+                "name": "US - Notifications",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "27w8th2c08v6",
+            "name": "App",
+            "status": "operational",
+            "created_at": "2017-09-19T23:35:45.317Z",
+            "updated_at": "2026-07-07T22:41:31.608Z",
+            "position": 1,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "yg4058k03s50",
+            "name": "API",
+            "status": "operational",
+            "created_at": "2017-09-19T23:35:56.553Z",
+            "updated_at": "2026-07-27T11:05:41.000Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "0tlyr3w5wwtv",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2017-10-11T17:33:59.640Z",
+            "updated_at": "2026-07-27T11:09:24.000Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "5pzgfbsllb5y",
+            "name": "Automations and Background Actions",
+            "status": "operational",
+            "created_at": "2020-07-13T15:37:24.240Z",
+            "updated_at": "2026-07-02T15:43:22.000Z",
+            "position": 4,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "72r2f6764450",
+            "name": "Webhooks and Event Streams",
+            "status": "operational",
+            "created_at": "2021-02-01T22:04:27.238Z",
+            "updated_at": "2026-02-14T17:39:27.000Z",
+            "position": 5,
+            "description": "This component tracks the health of public API webhooks and event stream endpoints.",
+            "showcase": true,
+            "start_date": "2021-01-01",
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "v7hcrjtr3zmm",
+            "name": "Notifications",
+            "status": "operational",
+            "created_at": "2025-03-18T00:20:15.273Z",
+            "updated_at": "2025-12-13T06:10:11.866Z",
+            "position": 6,
+            "description": "This component tracks timely delivery of emails, push notifications, and inbox notifications.",
+            "showcase": true,
+            "start_date": "2024-10-27",
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-08-02T03:00:00.000Z",
+        "scheduled_until": "2026-08-02T05:00:00.000Z"
+      }
+    ],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-27T21:31:56Z"
+    "updated": "2026-07-27T22:40:01Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-27T13:22:01.291-07:00"
+      "updated_at": "2026-07-27T14:53:47.885-07:00"
     },
     "components": [
       {
@@ -7448,6 +7608,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-27T21:31:56Z"
+    "updated": "2026-07-27T22:40:01Z"
   }
 }
