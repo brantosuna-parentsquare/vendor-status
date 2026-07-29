@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-29T14:52:36Z"
+    "updated": "2026-07-29T16:25:54Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Events errors related to Salesforce Automation application",
-    "updated": "2026-07-29T14:52:36Z"
+    "updated": "2026-07-29T16:25:54Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-29T10:20:44.700-04:00"
+      "updated_at": "2026-07-29T12:02:28.210-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T14:52:35Z"
+    "updated": "2026-07-29T16:25:52Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-29T14:21:00.338Z"
+      "updated_at": "2026-07-29T16:02:49.356Z"
     },
     "components": [
       {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T14:52:35Z"
+    "updated": "2026-07-29T16:25:52Z"
   },
   "zoom": {
     "page": {
@@ -941,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-29T07:20:58.250-07:00"
+      "updated_at": "2026-07-29T09:02:47.113-07:00"
     },
     "components": [
       {
@@ -7662,6 +7662,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T14:52:35Z"
+    "updated": "2026-07-29T16:25:52Z"
   }
 }
