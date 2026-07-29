@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-29T21:15:37Z"
+    "updated": "2026-07-29T22:24:55Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users on Free, Trial, or Pro plans may see the workspaces appearing blurred out",
-    "updated": "2026-07-29T21:15:37Z"
+    "updated": "2026-07-29T22:24:55Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-29T16:58:54.670-04:00"
+      "updated_at": "2026-07-29T17:53:56.937-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T21:15:34Z"
+    "updated": "2026-07-29T22:24:54Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-29T20:59:01.691Z"
+      "updated_at": "2026-07-29T22:24:51.095Z"
     },
     "components": [
       {
@@ -219,7 +219,7 @@
       {
         "id": "pw3rpxcrq9j5",
         "name": "US",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T17:46:42.487Z",
         "updated_at": "2025-06-27T19:56:36.684Z",
         "position": 1,
@@ -302,9 +302,9 @@
       {
         "id": "yg4058k03s50",
         "name": "API",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-07-27T11:05:41.000Z",
+        "updated_at": "2026-07-29T22:19:57.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -317,7 +317,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -340,9 +340,9 @@
       {
         "id": "vb5rnz4gj7p8",
         "name": "API",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T18:04:15.542Z",
-        "updated_at": "2026-07-27T11:06:02.000Z",
+        "updated_at": "2026-07-29T22:19:52.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -355,9 +355,9 @@
       {
         "id": "m1gvj42drxdc",
         "name": "API",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T21:57:20.666Z",
-        "updated_at": "2026-07-27T11:05:52.000Z",
+        "updated_at": "2026-07-29T22:19:36.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -372,7 +372,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:59:03.964Z",
-        "updated_at": "2026-07-27T11:05:36.000Z",
+        "updated_at": "2026-07-29T22:24:47.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -387,7 +387,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-07-27T11:05:46.000Z",
+        "updated_at": "2026-07-29T22:24:36.000Z",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -430,7 +430,7 @@
       {
         "id": "3c6vvpy5cjf5",
         "name": "Japan",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T21:56:52.127Z",
         "updated_at": "2025-06-27T19:56:36.707Z",
         "position": 3,
@@ -852,9 +852,9 @@
           {
             "id": "yg4058k03s50",
             "name": "API",
-            "status": "operational",
+            "status": "partial_outage",
             "created_at": "2017-09-19T23:35:56.553Z",
-            "updated_at": "2026-07-27T11:05:41.000Z",
+            "updated_at": "2026-07-29T22:19:57.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -930,10 +930,10 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Minor Service Outage"
     },
-    "updated": "2026-07-29T21:15:34Z"
+    "updated": "2026-07-29T22:24:54Z"
   },
   "zoom": {
     "page": {
@@ -941,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-29T13:59:00.495-07:00"
+      "updated_at": "2026-07-29T14:54:01.468-07:00"
     },
     "components": [
       {
@@ -7662,6 +7662,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T21:15:34Z"
+    "updated": "2026-07-29T22:24:54Z"
   }
 }
