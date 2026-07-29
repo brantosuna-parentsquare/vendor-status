@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-29T10:11:01Z"
+    "updated": "2026-07-29T12:24:32Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Salesforce Channels",
-    "updated": "2026-07-29T10:11:01Z"
+    "updated": "2026-07-29T12:24:32Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-29T05:43:55.724-04:00"
+      "updated_at": "2026-07-29T08:10:20.564-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T10:10:58Z"
+    "updated": "2026-07-29T12:24:30Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-29T09:43:58.678Z"
+      "updated_at": "2026-07-29T12:10:32.091Z"
     },
     "components": [
       {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T10:10:58Z"
+    "updated": "2026-07-29T12:24:30Z"
   },
   "zoom": {
     "page": {
@@ -941,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-29T02:43:58.253-07:00"
+      "updated_at": "2026-07-29T05:10:31.005-07:00"
     },
     "components": [
       {
@@ -7444,7 +7444,7 @@
         "name": "Network Maintenance in Osaka Data Center:  September 4, 2026",
         "status": "scheduled",
         "created_at": "2026-07-27T13:13:48.482-07:00",
-        "updated_at": "2026-07-27T13:13:48.593-07:00",
+        "updated_at": "2026-07-29T03:31:20.948-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -7455,10 +7455,10 @@
           {
             "id": "ppxt4z3kl2c8",
             "status": "scheduled",
-            "body": "Zoom will perform network maintenance at our Singapore data center. Below services may be interrupted or unavailable to users during the maintenance.",
+            "body": "Zoom will perform network maintenance at our Osaka Data Center. Below services may be interrupted or unavailable to users during the maintenance.",
             "incident_id": "08175m1cml41",
             "created_at": "2026-07-27T13:13:48.589-07:00",
-            "updated_at": "2026-07-27T13:13:48.589-07:00",
+            "updated_at": "2026-07-29T03:31:20.944-07:00",
             "display_at": "2026-07-27T13:13:48.589-07:00",
             "affected_components": [
               {
@@ -7662,6 +7662,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T10:10:58Z"
+    "updated": "2026-07-29T12:24:30Z"
   }
 }
