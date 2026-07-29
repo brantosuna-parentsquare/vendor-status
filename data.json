@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-29T16:25:54Z"
+    "updated": "2026-07-29T17:50:03Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Events errors related to Salesforce Automation application",
-    "updated": "2026-07-29T16:25:54Z"
+    "updated": "2026-07-29T17:50:03Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T16:25:52Z"
+    "updated": "2026-07-29T17:50:02Z"
   },
   "asana": {
     "page": {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T16:25:52Z"
+    "updated": "2026-07-29T17:50:02Z"
   },
   "zoom": {
     "page": {
@@ -7662,6 +7662,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T16:25:52Z"
+    "updated": "2026-07-29T17:50:02Z"
   }
 }
