@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-29T20:16:55Z"
+    "updated": "2026-07-29T21:15:37Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Events errors related to Salesforce Automation application",
-    "updated": "2026-07-29T20:16:55Z"
+    "latest_title": "Incident: Users on Free, Trial, or Pro plans may see the workspaces appearing blurred out",
+    "updated": "2026-07-29T21:15:37Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-29T16:12:42.321-04:00"
+      "updated_at": "2026-07-29T16:58:54.670-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T20:16:20Z"
+    "updated": "2026-07-29T21:15:34Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-29T20:12:52.751Z"
+      "updated_at": "2026-07-29T20:59:01.691Z"
     },
     "components": [
       {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T20:16:20Z"
+    "updated": "2026-07-29T21:15:34Z"
   },
   "zoom": {
     "page": {
@@ -941,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-29T13:12:51.950-07:00"
+      "updated_at": "2026-07-29T13:59:00.495-07:00"
     },
     "components": [
       {
@@ -7662,6 +7662,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-29T20:16:20Z"
+    "updated": "2026-07-29T21:15:34Z"
   }
 }
