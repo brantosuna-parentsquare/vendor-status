@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-30T22:44:51Z"
+    "updated": "2026-07-30T23:45:49Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Users on Free, Trial, or Pro plans may see the workspaces appearing blurred out",
-    "updated": "2026-07-30T22:44:51Z"
+    "latest_title": "Incident: Users unable to create or edit workflows",
+    "updated": "2026-07-30T23:45:49Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-30T22:44:49Z"
+    "updated": "2026-07-30T23:45:47Z"
   },
   "asana": {
     "page": {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-30T22:44:49Z"
+    "updated": "2026-07-30T23:45:47Z"
   },
   "zoom": {
     "page": {
@@ -7757,6 +7757,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-30T22:44:49Z"
+    "updated": "2026-07-30T23:45:47Z"
   }
 }
