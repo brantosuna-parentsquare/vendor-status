@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-30T13:13:06Z"
+    "updated": "2026-07-30T15:26:59Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users on Free, Trial, or Pro plans may see the workspaces appearing blurred out",
-    "updated": "2026-07-30T13:13:06Z"
+    "updated": "2026-07-30T15:26:59Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-30T06:54:09.430-04:00"
+      "updated_at": "2026-07-30T10:28:52.849-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-30T13:13:05Z"
+    "updated": "2026-07-30T15:26:57Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-30T11:09:25.453Z"
+      "updated_at": "2026-07-30T14:28:56.883Z"
     },
     "components": [
       {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-30T13:13:05Z"
+    "updated": "2026-07-30T15:26:57Z"
   },
   "zoom": {
     "page": {
@@ -941,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-30T04:09:25.307-07:00"
+      "updated_at": "2026-07-30T07:28:56.611-07:00"
     },
     "components": [
       {
@@ -7608,6 +7608,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-30T13:13:05Z"
+    "updated": "2026-07-30T15:26:57Z"
   }
 }
