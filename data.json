@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-31T10:47:22Z"
+    "updated": "2026-07-31T12:48:51Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users unable to create or edit workflows",
-    "updated": "2026-07-31T10:47:22Z"
+    "updated": "2026-07-31T12:48:51Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-07-31T05:28:44.227-04:00"
+      "updated_at": "2026-07-31T08:39:15.175-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-31T10:47:20Z"
+    "updated": "2026-07-31T12:48:49Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-07-31T09:28:48.261Z"
+      "updated_at": "2026-07-31T12:39:21.170Z"
     },
     "components": [
       {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-31T10:47:20Z"
+    "updated": "2026-07-31T12:48:49Z"
   },
   "zoom": {
     "page": {
@@ -941,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-31T02:28:48.138-07:00"
+      "updated_at": "2026-07-31T05:45:35.641-07:00"
     },
     "components": [
       {
@@ -5186,7 +5186,7 @@
         "name": "Zoom Whiteboard",
         "status": "operational",
         "created_at": "2022-04-17T15:18:57.638-07:00",
-        "updated_at": "2026-06-12T20:24:43.704-07:00",
+        "updated_at": "2026-07-31T05:45:35.557-07:00",
         "position": 19,
         "description": null,
         "showcase": false,
@@ -5684,7 +5684,7 @@
         "name": "Zoom Tasks",
         "status": "operational",
         "created_at": "2025-11-07T20:30:22.365-08:00",
-        "updated_at": "2026-01-08T10:55:09.988-08:00",
+        "updated_at": "2026-07-31T05:45:35.577-07:00",
         "position": 34,
         "description": null,
         "showcase": false,
@@ -6015,7 +6015,154 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "my4rs36dn5tf",
+        "name": "Service Degradation Affecting Zoom Whiteboard and Task Services in US Region.",
+        "status": "monitoring",
+        "created_at": "2026-07-31T05:09:51.900-07:00",
+        "updated_at": "2026-07-31T05:45:35.638-07:00",
+        "monitoring_at": "2026-07-31T05:45:35.621-07:00",
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/q5vq1sq9c9v5",
+        "started_at": "2026-07-31T05:09:51.889-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "6xzhxvkkx0zt",
+            "status": "monitoring",
+            "body": "The issue preventing users ability to list Zoom Whiteboards and create Zoom Tasks in US Region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "my4rs36dn5tf",
+            "created_at": "2026-07-31T05:45:35.621-07:00",
+            "updated_at": "2026-07-31T05:45:35.621-07:00",
+            "display_at": "2026-07-31T05:45:35.621-07:00",
+            "affected_components": [
+              {
+                "code": "gtf6dl08hrk1",
+                "name": "Zoom Meetings - Zoom Whiteboard",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "40fjc1kq1jcb",
+                "name": "Zoom Tasks",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "d9mn4zd8nb95",
+            "status": "identified",
+            "body": "We have successfully identified the root cause preventing users ability to list Zoom Whiteboards and create Zoom Tasks in US Region.\n \nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "my4rs36dn5tf",
+            "created_at": "2026-07-31T05:33:25.266-07:00",
+            "updated_at": "2026-07-31T05:33:25.266-07:00",
+            "display_at": "2026-07-31T05:33:25.266-07:00",
+            "affected_components": [
+              {
+                "code": "gtf6dl08hrk1",
+                "name": "Zoom Meetings - Zoom Whiteboard",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "40fjc1kq1jcb",
+                "name": "Zoom Tasks",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "fx4xx7dsnp2p",
+            "status": "investigating",
+            "body": "We continue to investigate the service degradation affecting users ability to list Zoom Whiteboards and create Zoom Tasks in US Region.  \n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.  \n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "my4rs36dn5tf",
+            "created_at": "2026-07-31T05:24:12.970-07:00",
+            "updated_at": "2026-07-31T05:24:12.970-07:00",
+            "display_at": "2026-07-31T05:24:12.970-07:00",
+            "affected_components": [
+              {
+                "code": "gtf6dl08hrk1",
+                "name": "Zoom Meetings - Zoom Whiteboard",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "40fjc1kq1jcb",
+                "name": "Zoom Tasks",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "qx6mkkxpr51m",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting users ability to list Zoom Whiteboards in US Region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "my4rs36dn5tf",
+            "created_at": "2026-07-31T05:09:52.003-07:00",
+            "updated_at": "2026-07-31T05:09:52.003-07:00",
+            "display_at": "2026-07-31T05:09:52.003-07:00",
+            "affected_components": [
+              {
+                "code": "gtf6dl08hrk1",
+                "name": "Zoom Meetings - Zoom Whiteboard",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "gtf6dl08hrk1",
+            "name": "Zoom Whiteboard",
+            "status": "operational",
+            "created_at": "2022-04-17T15:18:57.638-07:00",
+            "updated_at": "2026-07-31T05:45:35.557-07:00",
+            "position": 19,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-04-17",
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "40fjc1kq1jcb",
+            "name": "Zoom Tasks",
+            "status": "operational",
+            "created_at": "2025-11-07T20:30:22.365-08:00",
+            "updated_at": "2026-07-31T05:45:35.577-07:00",
+            "position": 34,
+            "description": null,
+            "showcase": false,
+            "start_date": "2025-11-07",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "02jc9z4vflg4",
@@ -7757,6 +7904,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-31T10:47:20Z"
+    "updated": "2026-07-31T12:48:49Z"
   }
 }
