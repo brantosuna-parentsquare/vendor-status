@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-07-31T15:12:08Z"
+    "updated": "2026-07-31T16:59:17Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users unable to create or edit workflows",
-    "updated": "2026-07-31T15:12:08Z"
+    "updated": "2026-07-31T16:59:17Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-31T15:12:06Z"
+    "updated": "2026-07-31T16:59:16Z"
   },
   "asana": {
     "page": {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-31T15:12:06Z"
+    "updated": "2026-07-31T16:59:16Z"
   },
   "zoom": {
     "page": {
@@ -941,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-31T08:08:45.976-07:00"
+      "updated_at": "2026-07-31T08:43:51.899-07:00"
     },
     "components": [
       {
@@ -6378,10 +6378,10 @@
       },
       {
         "id": "jvzrzb0r0ktr",
-        "name": "Scheduled Update to Slow versions for Zoom Clients: August 03, 2026",
+        "name": "Scheduled Update to Slow and Prompted versions for Zoom Clients: August 03, 2026",
         "status": "scheduled",
         "created_at": "2026-07-31T06:53:50.521-07:00",
-        "updated_at": "2026-07-31T06:53:50.603-07:00",
+        "updated_at": "2026-07-31T08:43:51.889-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -6392,10 +6392,10 @@
           {
             "id": "2jfm8t4zn27q",
             "status": "scheduled",
-            "body": "Zoom will be updating the Slow track versions for Zoom clients on August 03, 2026\n\nWindows: 7.0.6\nmacOS: 7.0.6\nLinux: 7.0.6\nVDI : 6.6.16\n\nFor more information, such as specific versions, please refer to the Zoom Minimum, Prompted, and Slow/Fast Update Versions support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061900",
+            "body": "Zoom will be updating the Slow track and Prompted versions for Zoom clients on August 03, 2026\n\nWindows: 7.0.6\nmacOS: 7.0.6\nLinux: 7.0.6\nVDI : 6.6.16\n\nFor more information, such as specific versions, please refer to the Zoom Minimum, Prompted, and Slow/Fast Update Versions support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061900",
             "incident_id": "jvzrzb0r0ktr",
             "created_at": "2026-07-31T06:53:50.600-07:00",
-            "updated_at": "2026-07-31T06:53:50.600-07:00",
+            "updated_at": "2026-07-31T08:43:51.885-07:00",
             "display_at": "2026-07-31T06:53:50.600-07:00",
             "affected_components": [
               {
@@ -7811,6 +7811,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-07-31T15:12:06Z"
+    "updated": "2026-07-31T16:59:16Z"
   }
 }
