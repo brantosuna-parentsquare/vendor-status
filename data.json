@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-01T11:03:33Z"
+    "updated": "2026-08-01T12:11:39Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Windows desktop notification issues",
-    "updated": "2026-08-01T11:03:33Z"
+    "updated": "2026-08-01T12:11:39Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-01T11:03:32Z"
+    "updated": "2026-08-01T12:11:38Z"
   },
   "asana": {
     "page": {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-01T11:03:32Z"
+    "updated": "2026-08-01T12:11:38Z"
   },
   "zoom": {
     "page": {
@@ -7849,6 +7849,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-01T11:03:32Z"
+    "updated": "2026-08-01T12:11:38Z"
   }
 }
