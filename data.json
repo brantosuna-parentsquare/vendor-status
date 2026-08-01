@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-01T07:19:43Z"
+    "updated": "2026-08-01T09:29:57Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users unable to create or edit workflows",
-    "updated": "2026-08-01T07:19:43Z"
+    "updated": "2026-08-01T09:29:57Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-01T02:18:52.764-04:00"
+      "updated_at": "2026-08-01T04:53:53.470-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-01T07:19:41Z"
+    "updated": "2026-08-01T09:29:56Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-01T06:18:56.226Z"
+      "updated_at": "2026-08-01T08:53:59.311Z"
     },
     "components": [
       {
@@ -933,7 +933,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-01T07:19:41Z"
+    "updated": "2026-08-01T09:29:56Z"
   },
   "zoom": {
     "page": {
@@ -941,7 +941,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-07-31T23:18:55.909-07:00"
+      "updated_at": "2026-08-01T01:53:58.985-07:00"
     },
     "components": [
       {
@@ -7849,6 +7849,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-01T07:19:41Z"
+    "updated": "2026-08-01T09:29:56Z"
   }
 }
