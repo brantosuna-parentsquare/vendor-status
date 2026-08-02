@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-02T12:13:48Z"
+    "updated": "2026-08-02T14:02:56Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Windows desktop notification issues",
-    "updated": "2026-08-02T12:13:48Z"
+    "latest_title": "Incident: App History and Chat Tab Not Loading",
+    "updated": "2026-08-02T14:02:56Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T12:13:46Z"
+    "updated": "2026-08-02T14:02:54Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-02T11:48:51.445Z"
+      "updated_at": "2026-08-02T13:38:47.062Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T12:13:46Z"
+    "updated": "2026-08-02T14:02:54Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-02T04:48:51.284-07:00"
+      "updated_at": "2026-08-02T06:38:46.671-07:00"
     },
     "components": [
       {
@@ -7615,6 +7615,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T12:13:46Z"
+    "updated": "2026-08-02T14:02:54Z"
   }
 }
