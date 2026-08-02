@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-02T15:17:14Z"
+    "updated": "2026-08-02T16:26:13Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: App History and Chat Tab Not Loading",
-    "updated": "2026-08-02T15:17:14Z"
+    "updated": "2026-08-02T16:26:13Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T15:17:13Z"
+    "updated": "2026-08-02T16:26:11Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-02T14:18:59.363Z"
+      "updated_at": "2026-08-02T16:23:57.853Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T15:17:13Z"
+    "updated": "2026-08-02T16:26:11Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-02T07:18:59.069-07:00"
+      "updated_at": "2026-08-02T09:23:56.736-07:00"
     },
     "components": [
       {
@@ -7615,6 +7615,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T15:17:13Z"
+    "updated": "2026-08-02T16:26:11Z"
   }
 }
