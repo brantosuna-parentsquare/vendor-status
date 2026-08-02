@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-02T04:32:14Z"
+    "updated": "2026-08-02T07:16:28Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Windows desktop notification issues",
-    "updated": "2026-08-02T04:32:14Z"
+    "updated": "2026-08-02T07:16:28Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-01T23:48:53.483-04:00"
+      "updated_at": "2026-08-02T03:09:04.472-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T04:32:12Z"
+    "updated": "2026-08-02T07:16:27Z"
   },
   "asana": {
     "page": {
@@ -198,15 +198,15 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-02T03:48:58.839Z"
+      "updated_at": "2026-08-02T07:09:09.411Z"
     },
     "components": [
       {
         "id": "27w8th2c08v6",
         "name": "App",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2017-09-19T23:35:45.317Z",
-        "updated_at": "2026-08-02T02:46:42.685Z",
+        "updated_at": "2026-08-02T05:00:10.298Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -219,7 +219,7 @@
       {
         "id": "pw3rpxcrq9j5",
         "name": "US",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-02-09T17:46:42.487Z",
         "updated_at": "2025-06-27T19:56:36.684Z",
         "position": 1,
@@ -302,9 +302,9 @@
       {
         "id": "yg4058k03s50",
         "name": "API",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-08-02T02:46:42.717Z",
+        "updated_at": "2026-08-02T05:00:10.361Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -400,9 +400,9 @@
       {
         "id": "0tlyr3w5wwtv",
         "name": "Mobile",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2017-10-11T17:33:59.640Z",
-        "updated_at": "2026-08-02T02:46:42.745Z",
+        "updated_at": "2026-08-02T05:00:10.442Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -498,9 +498,9 @@
       {
         "id": "5pzgfbsllb5y",
         "name": "Automations and Background Actions",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2020-07-13T15:37:24.240Z",
-        "updated_at": "2026-08-02T02:46:42.778Z",
+        "updated_at": "2026-08-02T05:00:10.522Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -596,9 +596,9 @@
       {
         "id": "72r2f6764450",
         "name": "Webhooks and Event Streams",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2021-02-01T22:04:27.238Z",
-        "updated_at": "2026-08-02T02:46:42.803Z",
+        "updated_at": "2026-08-02T05:00:10.695Z",
         "position": 5,
         "description": "This component tracks the health of public API webhooks and event stream endpoints.",
         "showcase": true,
@@ -694,9 +694,9 @@
       {
         "id": "v7hcrjtr3zmm",
         "name": "Notifications",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2025-03-18T00:20:15.273Z",
-        "updated_at": "2026-08-02T02:46:42.830Z",
+        "updated_at": "2026-08-02T05:00:10.774Z",
         "position": 6,
         "description": "This component tracks timely delivery of emails, push notifications, and inbox notifications.",
         "showcase": true,
@@ -768,285 +768,12 @@
       }
     ],
     "incidents": [],
-    "scheduled_maintenances": [
-      {
-        "id": "ggq2nxwhk5jz",
-        "name": "Planned Maintenance",
-        "status": "in_progress",
-        "created_at": "2026-07-27T22:04:15.345Z",
-        "updated_at": "2026-08-02T02:46:42.877Z",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/jy65l2gw84ww",
-        "started_at": "2026-07-27T22:04:15.323Z",
-        "page_id": "w58858w0sjxx",
-        "incident_updates": [
-          {
-            "id": "kz2kw5lqfxt8",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
-            "incident_id": "ggq2nxwhk5jz",
-            "created_at": "2026-08-02T02:46:42.873Z",
-            "updated_at": "2026-08-02T02:46:42.873Z",
-            "display_at": "2026-08-02T02:46:42.873Z",
-            "affected_components": [
-              {
-                "code": "27w8th2c08v6",
-                "name": "US - App",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "yg4058k03s50",
-                "name": "US - API",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "0tlyr3w5wwtv",
-                "name": "US - Mobile",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "5pzgfbsllb5y",
-                "name": "US - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "72r2f6764450",
-                "name": "US - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "v7hcrjtr3zmm",
-                "name": "US - Notifications",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "k3d3d2qm6f6l",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "ggq2nxwhk5jz",
-            "created_at": "2026-08-02T02:46:29.494Z",
-            "updated_at": "2026-08-02T02:46:29.494Z",
-            "display_at": "2026-08-02T02:46:29.494Z",
-            "affected_components": [
-              {
-                "code": "27w8th2c08v6",
-                "name": "US - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "yg4058k03s50",
-                "name": "US - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "0tlyr3w5wwtv",
-                "name": "US - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "5pzgfbsllb5y",
-                "name": "US - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "72r2f6764450",
-                "name": "US - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "v7hcrjtr3zmm",
-                "name": "US - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "zym2mrb2z6hl",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "ggq2nxwhk5jz",
-            "created_at": "2026-08-02T02:00:13.886Z",
-            "updated_at": "2026-08-02T02:00:13.886Z",
-            "display_at": "2026-08-02T02:00:13.886Z",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "4ztjbb7mk1s6",
-            "status": "scheduled",
-            "body": "On Sunday, Aug 2nd, 2026, between 3:00 am to 5:00 am UTC, users may experience interruptions or limited availability while we upgrade our databases. During this maintenance window, Asana web and mobile applications and API may be affected. Thank you for your understanding and patience. Please contact support for any questions.",
-            "incident_id": "ggq2nxwhk5jz",
-            "created_at": "2026-07-27T22:04:15.432Z",
-            "updated_at": "2026-07-27T22:39:08.819Z",
-            "display_at": "2026-07-27T22:04:15.432Z",
-            "affected_components": [
-              {
-                "code": "27w8th2c08v6",
-                "name": "US - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "yg4058k03s50",
-                "name": "US - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "0tlyr3w5wwtv",
-                "name": "US - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "5pzgfbsllb5y",
-                "name": "US - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "72r2f6764450",
-                "name": "US - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "v7hcrjtr3zmm",
-                "name": "US - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "27w8th2c08v6",
-            "name": "App",
-            "status": "under_maintenance",
-            "created_at": "2017-09-19T23:35:45.317Z",
-            "updated_at": "2026-08-02T02:46:42.685Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "yg4058k03s50",
-            "name": "API",
-            "status": "under_maintenance",
-            "created_at": "2017-09-19T23:35:56.553Z",
-            "updated_at": "2026-08-02T02:46:42.717Z",
-            "position": 2,
-            "description": null,
-            "showcase": true,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "0tlyr3w5wwtv",
-            "name": "Mobile",
-            "status": "under_maintenance",
-            "created_at": "2017-10-11T17:33:59.640Z",
-            "updated_at": "2026-08-02T02:46:42.745Z",
-            "position": 3,
-            "description": null,
-            "showcase": true,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "5pzgfbsllb5y",
-            "name": "Automations and Background Actions",
-            "status": "under_maintenance",
-            "created_at": "2020-07-13T15:37:24.240Z",
-            "updated_at": "2026-08-02T02:46:42.778Z",
-            "position": 4,
-            "description": null,
-            "showcase": true,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "72r2f6764450",
-            "name": "Webhooks and Event Streams",
-            "status": "under_maintenance",
-            "created_at": "2021-02-01T22:04:27.238Z",
-            "updated_at": "2026-08-02T02:46:42.803Z",
-            "position": 5,
-            "description": "This component tracks the health of public API webhooks and event stream endpoints.",
-            "showcase": true,
-            "start_date": "2021-01-01",
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "v7hcrjtr3zmm",
-            "name": "Notifications",
-            "status": "under_maintenance",
-            "created_at": "2025-03-18T00:20:15.273Z",
-            "updated_at": "2026-08-02T02:46:42.830Z",
-            "position": 6,
-            "description": "This component tracks timely delivery of emails, push notifications, and inbox notifications.",
-            "showcase": true,
-            "start_date": "2024-10-27",
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-02T03:00:00.000Z",
-        "scheduled_until": "2026-08-02T05:00:00.000Z"
-      }
-    ],
+    "scheduled_maintenances": [],
     "status": {
-      "indicator": "maintenance",
-      "description": "Service Under Maintenance"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T04:32:12Z"
+    "updated": "2026-08-02T07:16:27Z"
   },
   "zoom": {
     "page": {
@@ -1054,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-01T21:15:58.064-07:00"
+      "updated_at": "2026-08-02T00:09:08.653-07:00"
     },
     "components": [
       {
@@ -7888,6 +7615,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T04:32:12Z"
+    "updated": "2026-08-02T07:16:27Z"
   }
 }
