@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-02T19:55:58Z"
+    "updated": "2026-08-02T21:03:28Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: App History and Chat Tab Not Loading",
-    "updated": "2026-08-02T19:55:58Z"
+    "updated": "2026-08-02T21:03:28Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T19:55:56Z"
+    "updated": "2026-08-02T21:03:27Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T19:55:56Z"
+    "updated": "2026-08-02T21:03:27Z"
   },
   "zoom": {
     "page": {
@@ -7690,6 +7690,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-02T19:55:56Z"
+    "updated": "2026-08-02T21:03:27Z"
   }
 }
