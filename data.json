@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-05T11:24:57Z"
+    "updated": "2026-08-05T13:12:50Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unable to Install Apps to Workspaces",
-    "updated": "2026-08-05T11:24:57Z"
+    "updated": "2026-08-05T13:12:50Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-05T02:38:49.464-04:00"
+      "updated_at": "2026-08-05T08:25:01.103-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-05T11:24:56Z"
+    "updated": "2026-08-05T13:12:49Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-05T09:40:05.855Z"
+      "updated_at": "2026-08-05T12:40:04.998Z"
     },
     "components": [
       {
@@ -317,7 +317,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -415,9 +415,9 @@
       {
         "id": "xkbfplxg5q8p",
         "name": "Mobile",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-08-05T09:40:04.000Z",
+        "updated_at": "2026-08-05T12:40:03.000Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -770,10 +770,10 @@
     "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Minor Service Outage"
     },
-    "updated": "2026-08-05T11:24:56Z"
+    "updated": "2026-08-05T13:12:49Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-05T02:52:16.880-07:00"
+      "updated_at": "2026-08-05T05:56:05.392-07:00"
     },
     "components": [
       {
@@ -7817,6 +7817,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-05T11:24:56Z"
+    "updated": "2026-08-05T13:12:49Z"
   }
 }
