@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-05T06:04:23Z"
+    "updated": "2026-08-05T08:50:09Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with scheduled workflows",
-    "updated": "2026-08-05T06:04:23Z"
+    "updated": "2026-08-05T08:50:09Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-05T02:03:52.335-04:00"
+      "updated_at": "2026-08-05T02:38:49.464-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-05T06:04:20Z"
+    "updated": "2026-08-05T08:50:08Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-05T03:13:58.609Z"
+      "updated_at": "2026-08-05T08:44:06.898Z"
     },
     "components": [
       {
@@ -317,7 +317,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -415,9 +415,9 @@
       {
         "id": "xkbfplxg5q8p",
         "name": "Mobile",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-08-04T13:39:04.000Z",
+        "updated_at": "2026-08-05T08:44:05.000Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -770,10 +770,10 @@
     "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Minor Service Outage"
     },
-    "updated": "2026-08-05T06:04:20Z"
+    "updated": "2026-08-05T08:50:08Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-04T23:03:55.327-07:00"
+      "updated_at": "2026-08-05T01:20:23.044-07:00"
     },
     "components": [
       {
@@ -6665,6 +6665,60 @@
         "scheduled_until": "2026-08-10T00:00:00.000-07:00"
       },
       {
+        "id": "lcvjtl94q3c3",
+        "name": "Zoom Audio Conference Infrastructure Upgrade (Canada - YYZ & YVR)",
+        "status": "scheduled",
+        "created_at": "2026-08-05T01:17:21.174-07:00",
+        "updated_at": "2026-08-05T01:17:21.279-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/x0v6xzqpkq28",
+        "started_at": "2026-08-05T01:17:21.161-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "4jrb14kncz4g",
+            "status": "scheduled",
+            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.",
+            "incident_id": "lcvjtl94q3c3",
+            "created_at": "2026-08-05T01:17:21.275-07:00",
+            "updated_at": "2026-08-05T01:17:21.275-07:00",
+            "display_at": "2026-08-05T01:17:21.275-07:00",
+            "affected_components": [
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2026-08-03T03:00:08.762-07:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-08-14T17:00:00.000-07:00",
+        "scheduled_until": "2026-08-16T02:00:00.000-07:00"
+      },
+      {
         "id": "wd6bbc2jkg7l",
         "name": "Network Maintenance in Saudi Arabia Data Center: August 14, 2026",
         "status": "scheduled",
@@ -7436,6 +7490,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-05T06:04:20Z"
+    "updated": "2026-08-05T08:50:08Z"
   }
 }
