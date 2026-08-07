@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-06T15:36:14Z"
+    "updated": "2026-08-07T00:35:30Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unable to Install Apps to Workspaces",
-    "updated": "2026-08-06T15:36:14Z"
+    "updated": "2026-08-07T00:35:30Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-06T09:58:52.584-04:00"
+      "updated_at": "2026-08-06T20:28:51.516-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-06T15:36:12Z"
+    "updated": "2026-08-07T00:35:28Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-06T13:58:57.705Z"
+      "updated_at": "2026-08-07T00:28:54.558Z"
     },
     "components": [
       {
@@ -598,7 +598,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2021-02-01T22:04:27.238Z",
-        "updated_at": "2026-08-02T05:00:10.695Z",
+        "updated_at": "2026-08-06T17:26:59.049Z",
         "position": 5,
         "description": "This component tracks the health of public API webhooks and event stream endpoints.",
         "showcase": true,
@@ -613,7 +613,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T18:05:05.907Z",
-        "updated_at": "2026-07-25T06:53:42.550Z",
+        "updated_at": "2026-08-06T17:28:02.432Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -628,7 +628,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T21:58:36.622Z",
-        "updated_at": "2026-07-24T22:07:00.287Z",
+        "updated_at": "2026-08-06T17:28:36.904Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -643,7 +643,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T21:59:50.695Z",
-        "updated_at": "2026-07-24T22:07:00.308Z",
+        "updated_at": "2026-08-06T17:30:37.213Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-06T15:36:12Z"
+    "updated": "2026-08-07T00:35:28Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-06T06:58:56.898-07:00"
+      "updated_at": "2026-08-06T17:28:54.444-07:00"
     },
     "components": [
       {
@@ -7871,6 +7871,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-06T15:36:12Z"
+    "updated": "2026-08-07T00:35:28Z"
   }
 }
