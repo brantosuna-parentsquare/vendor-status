@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-07T17:31:47Z"
+    "updated": "2026-08-07T18:28:59Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unable to Install Apps to Workspaces",
-    "updated": "2026-08-07T17:31:47Z"
+    "updated": "2026-08-07T18:28:59Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-07T12:19:15.095-04:00"
+      "updated_at": "2026-08-07T14:18:52.629-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-07T17:31:46Z"
+    "updated": "2026-08-07T18:28:57Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-07T16:19:25.703Z"
+      "updated_at": "2026-08-07T17:56:02.204Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-07T17:31:46Z"
+    "updated": "2026-08-07T18:28:57Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-07T09:19:24.872-07:00"
+      "updated_at": "2026-08-07T11:00:13.295-07:00"
     },
     "components": [
       {
@@ -1072,9 +1072,9 @@
       {
         "id": "fk725gggt4j9",
         "name": "Zoom Contact Center",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-03-22T11:26:37.138-07:00",
-        "updated_at": "2026-08-07T04:00:07.512-07:00",
+        "updated_at": "2026-08-07T11:00:10.516-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -3399,7 +3399,7 @@
       {
         "id": "xzvt516z3sgy",
         "name": "Zoom CX - AUSTRALIA",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2023-03-22T11:26:37.123-07:00",
         "updated_at": "2025-07-10T17:10:29.116-07:00",
         "position": 7,
@@ -6146,60 +6146,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "rrfktfy7vxxp",
-        "name": "US West / US East Zoom Phone Maintenance (August 7, 2026)",
-        "status": "scheduled",
-        "created_at": "2026-07-13T17:47:27.056-07:00",
-        "updated_at": "2026-07-13T17:47:27.149-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/2cg4rpdhd1nv",
-        "started_at": "2026-07-13T17:47:27.043-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "sx11k4my6yf3",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at our \"US West (SJC10)\" and \"US East (IAD10)\" sip zones sequentially starting at 8:00 PM Pacific on August 7th. Zoom Phone users registered to the those sip zones will be automatically registered in the other side sip zone sequentially. During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.\n\nTraffic will be routed back to the original sip zone once the maintenance is completed.",
-            "incident_id": "rrfktfy7vxxp",
-            "created_at": "2026-07-13T17:47:27.145-07:00",
-            "updated_at": "2026-07-13T17:47:27.145-07:00",
-            "display_at": "2026-07-13T17:47:27.145-07:00",
-            "affected_components": [
-              {
-                "code": "jh6w5p8b9yv9",
-                "name": "Zoom Phone - NORTH AMERICA - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "jh6w5p8b9yv9",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2019-01-23T13:28:01.376-08:00",
-            "updated_at": "2026-08-03T03:00:07.963-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "gwtd6dbkck60",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-07T20:00:00.000-07:00",
-        "scheduled_until": "2026-08-08T03:00:00.000-07:00"
-      },
-      {
         "id": "5fg3tzlm86lw",
         "name": "Zoom Push Notification Service Release",
         "status": "scheduled",
@@ -6525,6 +6471,60 @@
         ],
         "scheduled_for": "2026-08-07T20:00:00.000-07:00",
         "scheduled_until": "2026-08-15T01:00:00.000-07:00"
+      },
+      {
+        "id": "rrfktfy7vxxp",
+        "name": "US West / US East Zoom Phone Maintenance (August 7, 2026)",
+        "status": "scheduled",
+        "created_at": "2026-07-13T17:47:27.056-07:00",
+        "updated_at": "2026-07-13T17:47:27.149-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/2cg4rpdhd1nv",
+        "started_at": "2026-07-13T17:47:27.043-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "sx11k4my6yf3",
+            "status": "scheduled",
+            "body": "Zoom will perform service maintenance at our \"US West (SJC10)\" and \"US East (IAD10)\" sip zones sequentially starting at 8:00 PM Pacific on August 7th. Zoom Phone users registered to the those sip zones will be automatically registered in the other side sip zone sequentially. During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.\n\nTraffic will be routed back to the original sip zone once the maintenance is completed.",
+            "incident_id": "rrfktfy7vxxp",
+            "created_at": "2026-07-13T17:47:27.145-07:00",
+            "updated_at": "2026-07-13T17:47:27.145-07:00",
+            "display_at": "2026-07-13T17:47:27.145-07:00",
+            "affected_components": [
+              {
+                "code": "jh6w5p8b9yv9",
+                "name": "Zoom Phone - NORTH AMERICA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "jh6w5p8b9yv9",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2019-01-23T13:28:01.376-08:00",
+            "updated_at": "2026-08-03T03:00:07.963-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "gwtd6dbkck60",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-08-07T20:00:00.000-07:00",
+        "scheduled_until": "2026-08-08T03:00:00.000-07:00"
       },
       {
         "id": "y9tckvns78lh",
@@ -7866,6 +7866,60 @@
         "scheduled_until": "2026-09-04T14:00:00.000-07:00"
       },
       {
+        "id": "kpydr3mnd191",
+        "name": "Scheduled Zoom Software Quarterly Lifecycle Update (11/7/2026)",
+        "status": "scheduled",
+        "created_at": "2026-08-07T10:41:03.413-07:00",
+        "updated_at": "2026-08-07T10:41:03.511-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/n2wrbp9sg8yc",
+        "started_at": "2026-08-07T10:41:03.400-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "yk3twrpblpgw",
+            "status": "scheduled",
+            "body": "Zoom will be enforcing a new minimum version for the following areas, approximately 90 days from now, on November 7, 2026:\n\nVDI plugin\n\nZoom Phone Local Survivability (ZPLS) module\n\nMeeting SDK (Web)\n\nAll other clients and plugins not listed here will maintain the same version requirements as the August 2026 enforcement.\n\nFor more information, such as specific versions we are enforcing, refer to the Zoom Software Quarterly Lifecycle Policy support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061130\n\nTo assist with checking the client versions on your account, refer to the Dashboard support article:\nhttps://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062208#h_13ce9a73-91e5-4df6-9cb5-c815b1605cf5",
+            "incident_id": "kpydr3mnd191",
+            "created_at": "2026-08-07T10:41:03.507-07:00",
+            "updated_at": "2026-08-07T10:41:03.507-07:00",
+            "display_at": "2026-08-07T10:41:03.507-07:00",
+            "affected_components": [
+              {
+                "code": "9skbqhkvk721",
+                "name": "Zoom Website - Download Center & Clients",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "9skbqhkvk721",
+            "name": "Download Center & Clients",
+            "status": "operational",
+            "created_at": "2018-05-17T11:29:26.349-07:00",
+            "updated_at": "2026-05-02T18:00:07.129-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-07T16:00:00.000-08:00",
+        "scheduled_until": "2026-11-07T17:00:00.000-08:00"
+      },
+      {
         "id": "cpnm0fk36qdn",
         "name": "Network Maintenance in China and Hong Kong Datacenter (August 7, 2026)",
         "status": "in_progress",
@@ -7951,93 +8005,6 @@
         ],
         "scheduled_for": "2026-08-07T08:00:00.000-07:00",
         "scheduled_until": "2026-08-07T12:00:00.000-07:00"
-      },
-      {
-        "id": "rnskl8vbpcfs",
-        "name": "Zoom Contact Center Maintenance - Australia",
-        "status": "in_progress",
-        "created_at": "2026-07-13T03:16:02.871-07:00",
-        "updated_at": "2026-08-07T04:00:07.690-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/48c5xd0yk5kl",
-        "started_at": "2026-07-13T03:16:02.861-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "7v84nkrxm3cc",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "rnskl8vbpcfs",
-            "created_at": "2026-08-07T04:00:07.686-07:00",
-            "updated_at": "2026-08-07T04:00:07.686-07:00",
-            "display_at": "2026-08-07T04:00:07.686-07:00",
-            "affected_components": [
-              {
-                "code": "fk725gggt4j9",
-                "name": "Zoom CX - AUSTRALIA - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              }
-            ],
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "5czx4x3fgqrb",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "rnskl8vbpcfs",
-            "created_at": "2026-08-07T03:00:08.518-07:00",
-            "updated_at": "2026-08-07T03:00:08.518-07:00",
-            "display_at": "2026-08-07T03:00:08.518-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "lq7t217c6tqv",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at our Australia (Sydney) data center starting at 09:00 PM AEST (4:00 AM Pacific) on 7th August 2026. Zoom Contact Center users registered to the Sydney data center will be automatically registered in an alternative data center (Melbourne). During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically. Once the Sydney maintenance completes, will perform the similar activity in Melbourne. \n\nIf you are a BYOC (Bring Your Own Carrier) customer, please ensure that your Session Border Controller (SBC) is configured with alternate routing to Zoom’s Frankfurt data center in addition to the Amsterdam data center. During the maintenance window, connectivity to Zoom’s Sydney data center will be blocked which will force calls from the Session Border Controller (SBC) to failover to Zoom’s Melbourne data center. Traffic will continue to be routed through the Zoom Sydney data center once the maintenance is completed.",
-            "incident_id": "rnskl8vbpcfs",
-            "created_at": "2026-07-13T03:16:02.951-07:00",
-            "updated_at": "2026-07-13T03:16:02.951-07:00",
-            "display_at": "2026-07-13T03:16:02.951-07:00",
-            "affected_components": [
-              {
-                "code": "fk725gggt4j9",
-                "name": "Zoom CX - AUSTRALIA - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "fk725gggt4j9",
-            "name": "Zoom Contact Center",
-            "status": "under_maintenance",
-            "created_at": "2023-03-22T11:26:37.138-07:00",
-            "updated_at": "2026-08-07T04:00:07.512-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-22",
-            "group_id": "xzvt516z3sgy",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-07T04:00:00.000-07:00",
-        "scheduled_until": "2026-08-07T11:00:00.000-07:00"
       },
       {
         "id": "jklhj379rpyh",
@@ -8225,6 +8192,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-08-07T17:31:46Z"
+    "updated": "2026-08-07T18:28:57Z"
   }
 }
