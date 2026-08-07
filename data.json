@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-07T14:38:40Z"
+    "updated": "2026-08-07T15:36:47Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unable to Install Apps to Workspaces",
-    "updated": "2026-08-07T14:38:40Z"
+    "updated": "2026-08-07T15:36:47Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-07T09:26:25.202-04:00"
+      "updated_at": "2026-08-07T11:28:46.748-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-07T14:38:38Z"
+    "updated": "2026-08-07T15:36:45Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-07T13:26:43.770Z"
+      "updated_at": "2026-08-07T15:28:49.808Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-07T14:38:38Z"
+    "updated": "2026-08-07T15:36:45Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-07T07:00:13.514-07:00"
+      "updated_at": "2026-08-07T08:28:49.613-07:00"
     },
     "components": [
       {
@@ -967,9 +967,9 @@
       {
         "id": "rv3g5jwy5cdn",
         "name": "Zoom Phone",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:52:39.356-07:00",
-        "updated_at": "2025-12-16T17:56:26.505-08:00",
+        "updated_at": "2026-08-07T08:00:09.541-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -5434,7 +5434,7 @@
       {
         "id": "dzyc0515xm7f",
         "name": "Zoom Phone - HONG KONG/CHINA",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:52:39.338-07:00",
         "updated_at": "2024-08-14T13:40:39.039-07:00",
         "position": 22,
@@ -6145,73 +6145,6 @@
     ],
     "incidents": [],
     "scheduled_maintenances": [
-      {
-        "id": "cpnm0fk36qdn",
-        "name": "Network Maintenance in China and Hong Kong Datacenter (August 7, 2026)",
-        "status": "scheduled",
-        "created_at": "2026-07-02T10:21:38.574-07:00",
-        "updated_at": "2026-08-07T07:00:13.500-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/18r9vksndnqy",
-        "started_at": "2026-07-02T10:21:38.565-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "309s2hwdzql2",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "cpnm0fk36qdn",
-            "created_at": "2026-08-07T07:00:13.326-07:00",
-            "updated_at": "2026-08-07T07:00:13.326-07:00",
-            "display_at": "2026-08-07T07:00:13.326-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "69r4y1pr9m4z",
-            "status": "scheduled",
-            "body": "Zoom will perform network maintenance at our China data center. Below services may be interrupted or unavailable to users in China and Hong Kong during the maintenance.",
-            "incident_id": "cpnm0fk36qdn",
-            "created_at": "2026-07-02T10:21:38.650-07:00",
-            "updated_at": "2026-07-02T10:21:38.650-07:00",
-            "display_at": "2026-07-02T10:21:38.650-07:00",
-            "affected_components": [
-              {
-                "code": "rv3g5jwy5cdn",
-                "name": "Zoom Phone - HONG KONG/CHINA - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "rv3g5jwy5cdn",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:52:39.356-07:00",
-            "updated_at": "2025-12-16T17:56:26.505-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "dzyc0515xm7f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-07T08:00:00.000-07:00",
-        "scheduled_until": "2026-08-07T12:00:00.000-07:00"
-      },
       {
         "id": "rrfktfy7vxxp",
         "name": "US West / US East Zoom Phone Maintenance (August 7, 2026)",
@@ -7933,6 +7866,93 @@
         "scheduled_until": "2026-09-04T14:00:00.000-07:00"
       },
       {
+        "id": "cpnm0fk36qdn",
+        "name": "Network Maintenance in China and Hong Kong Datacenter (August 7, 2026)",
+        "status": "in_progress",
+        "created_at": "2026-07-02T10:21:38.574-07:00",
+        "updated_at": "2026-08-07T08:00:09.853-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/18r9vksndnqy",
+        "started_at": "2026-07-02T10:21:38.565-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "frtx15zqps1y",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "cpnm0fk36qdn",
+            "created_at": "2026-08-07T08:00:09.828-07:00",
+            "updated_at": "2026-08-07T08:00:09.828-07:00",
+            "display_at": "2026-08-07T08:00:09.828-07:00",
+            "affected_components": [
+              {
+                "code": "rv3g5jwy5cdn",
+                "name": "Zoom Phone - HONG KONG/CHINA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "309s2hwdzql2",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "cpnm0fk36qdn",
+            "created_at": "2026-08-07T07:00:13.326-07:00",
+            "updated_at": "2026-08-07T07:00:13.326-07:00",
+            "display_at": "2026-08-07T07:00:13.326-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "69r4y1pr9m4z",
+            "status": "scheduled",
+            "body": "Zoom will perform network maintenance at our China data center. Below services may be interrupted or unavailable to users in China and Hong Kong during the maintenance.",
+            "incident_id": "cpnm0fk36qdn",
+            "created_at": "2026-07-02T10:21:38.650-07:00",
+            "updated_at": "2026-07-02T10:21:38.650-07:00",
+            "display_at": "2026-07-02T10:21:38.650-07:00",
+            "affected_components": [
+              {
+                "code": "rv3g5jwy5cdn",
+                "name": "Zoom Phone - HONG KONG/CHINA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "rv3g5jwy5cdn",
+            "name": "Zoom Phone",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T10:52:39.356-07:00",
+            "updated_at": "2026-08-07T08:00:09.541-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "dzyc0515xm7f",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-08-07T08:00:00.000-07:00",
+        "scheduled_until": "2026-08-07T12:00:00.000-07:00"
+      },
+      {
         "id": "rnskl8vbpcfs",
         "name": "Zoom Contact Center Maintenance - Australia",
         "status": "in_progress",
@@ -8205,6 +8225,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-08-07T14:38:38Z"
+    "updated": "2026-08-07T15:36:45Z"
   }
 }
