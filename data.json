@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-08T18:48:43Z"
+    "updated": "2026-08-08T19:20:37Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unable to Install Apps to Workspaces",
-    "updated": "2026-08-08T18:48:43Z"
+    "updated": "2026-08-08T19:20:37Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-08T14:08:45.459-04:00"
+      "updated_at": "2026-08-08T14:58:52.875-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-08T18:48:41Z"
+    "updated": "2026-08-08T19:20:36Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-08T18:48:41Z"
+    "updated": "2026-08-08T19:20:36Z"
   },
   "zoom": {
     "page": {
@@ -7792,6 +7792,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-08T18:48:41Z"
+    "updated": "2026-08-08T19:20:36Z"
   }
 }
