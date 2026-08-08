@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-08T03:48:36Z"
+    "updated": "2026-08-08T04:44:49Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Unable to Install Apps to Workspaces",
-    "updated": "2026-08-08T03:48:36Z"
+    "updated": "2026-08-08T04:44:49Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-07T23:28:55.607-04:00"
+      "updated_at": "2026-08-08T00:19:25.825-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-08T03:48:34Z"
+    "updated": "2026-08-08T04:44:47Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-08T03:29:00.421Z"
+      "updated_at": "2026-08-08T04:19:30.755Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-08T03:48:34Z"
+    "updated": "2026-08-08T04:44:47Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-07T20:28:59.918-07:00"
+      "updated_at": "2026-08-07T21:19:30.325-07:00"
     },
     "components": [
       {
@@ -8164,6 +8164,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-08-08T03:48:34Z"
+    "updated": "2026-08-08T04:44:47Z"
   }
 }
