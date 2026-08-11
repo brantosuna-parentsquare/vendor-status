@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-11T18:37:29Z"
+    "updated": "2026-08-11T19:45:30Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble Accessing Slack",
-    "updated": "2026-08-11T18:37:29Z"
+    "updated": "2026-08-11T19:45:30Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-11T13:23:52.574-04:00"
+      "updated_at": "2026-08-11T15:31:06.330-04:00"
     },
     "components": [
       {
@@ -184,13 +184,44 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "2f1882z0m8kn",
+        "name": "Some HubSpot tools may be unavailable for some users",
+        "status": "investigating",
+        "created_at": "2026-08-11T15:31:06.280-04:00",
+        "updated_at": "2026-08-11T15:31:06.327-04:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/blr3ys1sc5yq",
+        "started_at": "2026-08-11T15:31:06.272-04:00",
+        "page_id": "8b9w1wwq3g7d",
+        "incident_updates": [
+          {
+            "id": "0nyzpyn3vdfn",
+            "status": "investigating",
+            "body": "We are investigating an issue impacting some HubSpot tools. We will provide an update when we have more information.",
+            "incident_id": "2f1882z0m8kn",
+            "created_at": "2026-08-11T15:31:06.324-04:00",
+            "updated_at": "2026-08-11T15:31:06.324-04:00",
+            "display_at": "2026-08-11T15:31:06.324-04:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-11T18:37:28Z"
+    "updated": "2026-08-11T19:45:29Z"
   },
   "asana": {
     "page": {
@@ -773,7 +804,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-11T18:37:28Z"
+    "updated": "2026-08-11T19:45:29Z"
   },
   "zoom": {
     "page": {
@@ -7756,6 +7787,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-11T18:37:28Z"
+    "updated": "2026-08-11T19:45:29Z"
   }
 }
