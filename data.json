@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-14T20:13:14Z"
+    "updated": "2026-08-14T20:50:01Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users unable to access Slack using various browsers",
-    "updated": "2026-08-14T20:13:14Z"
+    "updated": "2026-08-14T20:50:01Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-14T15:43:59.733-04:00"
+      "updated_at": "2026-08-14T16:16:28.313-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-14T20:13:12Z"
+    "updated": "2026-08-14T20:50:00Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-14T20:13:12Z"
+    "updated": "2026-08-14T20:50:00Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-14T12:44:04.840-07:00"
+      "updated_at": "2026-08-14T13:40:05.975-07:00"
     },
     "components": [
       {
@@ -6308,60 +6308,6 @@
         "scheduled_until": "2026-08-15T02:00:00.000-07:00"
       },
       {
-        "id": "dy825klldyr4",
-        "name": "Network Maintenance in Chennai Data Center: August 15, 2026",
-        "status": "scheduled",
-        "created_at": "2026-08-05T12:32:01.458-07:00",
-        "updated_at": "2026-08-05T12:32:01.544-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/3jcq27fbqdym",
-        "started_at": "2026-08-05T12:32:01.449-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "612kxncqhd5k",
-            "status": "scheduled",
-            "body": "Zoom will perform network maintenance at our Chennai data center (MAA). Users may experience an impact for a brief amount of time for the services mentioned below.",
-            "incident_id": "dy825klldyr4",
-            "created_at": "2026-08-05T12:32:01.540-07:00",
-            "updated_at": "2026-08-05T12:32:01.540-07:00",
-            "display_at": "2026-08-05T12:32:01.540-07:00",
-            "affected_components": [
-              {
-                "code": "glcgf4v63241",
-                "name": "Zoom Phone - APAC - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "glcgf4v63241",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-05-24T01:30:07.204-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-15T08:00:00.000-07:00",
-        "scheduled_until": "2026-08-15T16:00:00.000-07:00"
-      },
-      {
         "id": "pq3w5sqvdfs8",
         "name": "Zoom Phone Update: 8/16/2026 (No Operational Impact)",
         "status": "scheduled",
@@ -6853,6 +6799,80 @@
         ],
         "scheduled_for": "2026-08-21T08:00:00.000-07:00",
         "scheduled_until": "2026-08-21T12:00:00.000-07:00"
+      },
+      {
+        "id": "dy825klldyr4",
+        "name": "Network Maintenance in Chennai Data Center: August 22, 2026",
+        "status": "scheduled",
+        "created_at": "2026-08-05T12:32:01.458-07:00",
+        "updated_at": "2026-08-14T13:40:05.957-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/3jcq27fbqdym",
+        "started_at": "2026-08-05T12:32:01.449-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "yqxrzydtqts9",
+            "status": "scheduled",
+            "body": "This maintenance has been rescheduled to August 22, 2026.",
+            "incident_id": "dy825klldyr4",
+            "created_at": "2026-08-14T13:40:05.952-07:00",
+            "updated_at": "2026-08-14T13:40:05.952-07:00",
+            "display_at": "2026-08-14T13:40:05.952-07:00",
+            "affected_components": [
+              {
+                "code": "glcgf4v63241",
+                "name": "Zoom Phone - APAC - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "612kxncqhd5k",
+            "status": "scheduled",
+            "body": "Zoom will perform network maintenance at our Chennai data center (MAA). Users may experience an impact for a brief amount of time for the services mentioned below.",
+            "incident_id": "dy825klldyr4",
+            "created_at": "2026-08-05T12:32:01.540-07:00",
+            "updated_at": "2026-08-05T12:32:01.540-07:00",
+            "display_at": "2026-08-05T12:32:01.540-07:00",
+            "affected_components": [
+              {
+                "code": "glcgf4v63241",
+                "name": "Zoom Phone - APAC - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "glcgf4v63241",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2022-05-03T10:45:58.970-07:00",
+            "updated_at": "2026-05-24T01:30:07.204-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "k4ymzkwr5c5f",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-08-22T08:00:00.000-07:00",
+        "scheduled_until": "2026-08-22T16:00:00.000-07:00"
       },
       {
         "id": "mp0js5zzcvf3",
@@ -7880,6 +7900,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-14T20:13:12Z"
+    "updated": "2026-08-14T20:50:00Z"
   }
 }
