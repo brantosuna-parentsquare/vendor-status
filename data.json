@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-16T08:51:06Z"
+    "updated": "2026-08-16T09:33:30Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users unable to access Slack using various browsers",
-    "updated": "2026-08-16T08:51:06Z"
+    "updated": "2026-08-16T09:33:30Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-16T08:51:05Z"
+    "updated": "2026-08-16T09:33:28Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-16T08:51:05Z"
+    "updated": "2026-08-16T09:33:28Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-16T01:09:09.128-07:00"
+      "updated_at": "2026-08-16T02:01:12.217-07:00"
     },
     "components": [
       {
@@ -7146,153 +7146,6 @@
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
       },
       {
-        "id": "pq3w5sqvdfs8",
-        "name": "Zoom Phone Update: 8/16/2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-08-10T17:40:14.087-07:00",
-        "updated_at": "2026-08-15T17:00:12.887-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/vm725fhxyw20",
-        "started_at": "2026-08-10T17:40:14.078-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "2lcgvmddgqz2",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "pq3w5sqvdfs8",
-            "created_at": "2026-08-15T17:00:12.871-07:00",
-            "updated_at": "2026-08-15T17:00:12.871-07:00",
-            "display_at": "2026-08-15T17:00:12.871-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "gvpl2spb0xz3",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "pq3w5sqvdfs8",
-            "created_at": "2026-08-15T16:00:29.388-07:00",
-            "updated_at": "2026-08-15T16:00:29.388-07:00",
-            "display_at": "2026-08-15T16:00:29.388-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "810yfcdj5mjs",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Phone. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. This update includes WhatsApp Business message logging in Microsoft Dynamics.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "pq3w5sqvdfs8",
-            "created_at": "2026-08-10T17:40:14.169-07:00",
-            "updated_at": "2026-08-10T17:40:14.169-07:00",
-            "display_at": "2026-08-10T17:40:14.169-07:00",
-            "affected_components": [
-              {
-                "code": "0842bncf5q9f",
-                "name": "Zoom Phone - Global - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "0842bncf5q9f",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2024-09-30T13:36:13.230-07:00",
-            "updated_at": "2026-05-21T18:00:07.649-07:00",
-            "position": 12,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-09-30",
-            "group_id": "fs7vxs27n4pn",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-15T17:00:00.000-07:00",
-        "scheduled_until": "2026-08-16T02:00:00.000-07:00"
-      },
-      {
-        "id": "lcvjtl94q3c3",
-        "name": "Zoom Audio Conference Infrastructure Upgrade (Canada - YYZ & YVR)",
-        "status": "in_progress",
-        "created_at": "2026-08-05T01:17:21.174-07:00",
-        "updated_at": "2026-08-14T17:00:07.593-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/x0v6xzqpkq28",
-        "started_at": "2026-08-05T01:17:21.161-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "rpclbm8pshdf",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "lcvjtl94q3c3",
-            "created_at": "2026-08-14T17:00:07.579-07:00",
-            "updated_at": "2026-08-14T17:00:07.579-07:00",
-            "display_at": "2026-08-14T17:00:07.579-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "4jrb14kncz4g",
-            "status": "scheduled",
-            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.",
-            "incident_id": "lcvjtl94q3c3",
-            "created_at": "2026-08-05T01:17:21.275-07:00",
-            "updated_at": "2026-08-05T01:17:21.275-07:00",
-            "display_at": "2026-08-05T01:17:21.275-07:00",
-            "affected_components": [
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "ntdt65v1f9rv",
-            "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-08-10T03:00:12.011-07:00",
-            "position": 13,
-            "description": "Access to Telephony Services",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-14T17:00:00.000-07:00",
-        "scheduled_until": "2026-08-16T02:00:00.000-07:00"
-      },
-      {
         "id": "jklhj379rpyh",
         "name": "Zoom Phone/Zoom Contact Center General Underlying Provider Maintenance",
         "status": "in_progress",
@@ -7478,6 +7331,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-16T08:51:05Z"
+    "updated": "2026-08-16T09:33:28Z"
   }
 }
