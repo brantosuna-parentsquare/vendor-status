@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-18T23:56:42Z"
+    "updated": "2026-08-19T01:45:50Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with Slack Direct Messaging",
-    "updated": "2026-08-18T23:56:42Z"
+    "updated": "2026-08-19T01:45:50Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-18T19:53:56.325-04:00"
+      "updated_at": "2026-08-18T20:48:56.296-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-18T23:56:40Z"
+    "updated": "2026-08-19T01:45:48Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-18T23:54:00.126Z"
+      "updated_at": "2026-08-19T00:49:01.636Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-18T23:56:40Z"
+    "updated": "2026-08-19T01:45:48Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-18T16:54:00.065-07:00"
+      "updated_at": "2026-08-18T17:49:01.111-07:00"
     },
     "components": [
       {
@@ -2162,9 +2162,9 @@
       {
         "id": "bwk9z9qhr5h9",
         "name": "BYOC - Premises",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2022-05-03T10:44:23.668-07:00",
-        "updated_at": "2026-08-18T11:00:07.944-07:00",
+        "updated_at": "2026-08-18T17:00:09.428-07:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -2507,9 +2507,9 @@
       {
         "id": "zfqx1zdr3rb0",
         "name": "Provider Exchange",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2022-05-03T10:44:34.381-07:00",
-        "updated_at": "2026-08-18T11:00:08.040-07:00",
+        "updated_at": "2026-08-18T17:00:09.464-07:00",
         "position": 5,
         "description": null,
         "showcase": false,
@@ -4206,9 +4206,9 @@
       {
         "id": "83xhyxw68qz5",
         "name": "Native PSTN",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-07-30T10:01:09.395-07:00",
-        "updated_at": "2026-08-18T11:00:08.146-07:00",
+        "updated_at": "2026-08-18T17:00:09.513-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -4428,9 +4428,9 @@
       {
         "id": "9d00rmv58hq9",
         "name": "Carrier Platform",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2026-07-30T10:02:13.334-07:00",
-        "updated_at": "2026-08-18T11:00:08.255-07:00",
+        "updated_at": "2026-08-18T17:00:09.584-07:00",
         "position": 10,
         "description": null,
         "showcase": false,
@@ -5377,7 +5377,7 @@
       {
         "id": "8sq44v6xhj9v",
         "name": "Zoom Phone - EMEA",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2022-05-03T10:43:27.170-07:00",
         "updated_at": "2024-08-14T13:40:39.026-07:00",
         "position": 21,
@@ -6937,212 +6937,6 @@
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
       },
       {
-        "id": "wd6bbc2jkg7l",
-        "name": "Network Maintenance in Saudi Arabia Data Center: August 14, 2026",
-        "status": "in_progress",
-        "created_at": "2026-07-30T10:07:24.883-07:00",
-        "updated_at": "2026-08-18T11:00:08.517-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/z044c6c74yhr",
-        "started_at": "2026-07-30T10:07:24.866-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "spdg5ns44vwq",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "wd6bbc2jkg7l",
-            "created_at": "2026-08-18T11:00:08.509-07:00",
-            "updated_at": "2026-08-18T11:00:08.509-07:00",
-            "display_at": "2026-08-18T11:00:08.509-07:00",
-            "affected_components": [
-              {
-                "code": "bwk9z9qhr5h9",
-                "name": "Zoom Phone - EMEA - BYOC - Premises",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "zfqx1zdr3rb0",
-                "name": "Zoom Phone - EMEA - Provider Exchange",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "83xhyxw68qz5",
-                "name": "Zoom Phone - EMEA - Native PSTN",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "9d00rmv58hq9",
-                "name": "Zoom Phone - EMEA - Carrier Platform",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              }
-            ],
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "vnfkr3ryg4cc",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "wd6bbc2jkg7l",
-            "created_at": "2026-08-18T10:00:07.923-07:00",
-            "updated_at": "2026-08-18T10:00:07.923-07:00",
-            "display_at": "2026-08-18T10:00:07.923-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "fbn9sxlmthtr",
-            "status": "scheduled",
-            "body": "We will be undergoing scheduled maintenance during this time.",
-            "incident_id": "wd6bbc2jkg7l",
-            "created_at": "2026-07-31T11:54:56.936-07:00",
-            "updated_at": "2026-07-31T11:54:56.936-07:00",
-            "display_at": "2026-07-31T11:54:56.936-07:00",
-            "affected_components": [
-              {
-                "code": "bwk9z9qhr5h9",
-                "name": "Zoom Phone - EMEA - BYOC - Premises",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "zfqx1zdr3rb0",
-                "name": "Zoom Phone - EMEA - Provider Exchange",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "83xhyxw68qz5",
-                "name": "Zoom Phone - EMEA - Native PSTN",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "9d00rmv58hq9",
-                "name": "Zoom Phone - EMEA - Carrier Platform",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "gv98p074cj19",
-            "status": "scheduled",
-            "body": "Zoom will perform network maintenance at our Saudi Arabia data center (KSA). Below services may be interrupted or unavailable to users during the maintenance.",
-            "incident_id": "wd6bbc2jkg7l",
-            "created_at": "2026-07-30T10:07:24.966-07:00",
-            "updated_at": "2026-07-30T10:07:24.966-07:00",
-            "display_at": "2026-07-30T10:07:24.966-07:00",
-            "affected_components": [
-              {
-                "code": "bwk9z9qhr5h9",
-                "name": "Zoom Phone - EMEA - BYOC - Premises",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "zfqx1zdr3rb0",
-                "name": "Zoom Phone - EMEA - Provider Exchange",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "83xhyxw68qz5",
-                "name": "Zoom Phone - EMEA - Native PSTN",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "9d00rmv58hq9",
-                "name": "Zoom Phone - EMEA - Carrier Platform",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "bwk9z9qhr5h9",
-            "name": "BYOC - Premises",
-            "status": "under_maintenance",
-            "created_at": "2022-05-03T10:44:23.668-07:00",
-            "updated_at": "2026-08-18T11:00:07.944-07:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "zfqx1zdr3rb0",
-            "name": "Provider Exchange",
-            "status": "under_maintenance",
-            "created_at": "2022-05-03T10:44:34.381-07:00",
-            "updated_at": "2026-08-18T11:00:08.040-07:00",
-            "position": 5,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "83xhyxw68qz5",
-            "name": "Native PSTN",
-            "status": "under_maintenance",
-            "created_at": "2026-07-30T10:01:09.395-07:00",
-            "updated_at": "2026-08-18T11:00:08.146-07:00",
-            "position": 9,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-07-30",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "9d00rmv58hq9",
-            "name": "Carrier Platform",
-            "status": "under_maintenance",
-            "created_at": "2026-07-30T10:02:13.334-07:00",
-            "updated_at": "2026-08-18T11:00:08.255-07:00",
-            "position": 10,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-07-30",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-18T11:00:00.000-07:00",
-        "scheduled_until": "2026-08-18T17:00:00.000-07:00"
-      },
-      {
         "id": "jklhj379rpyh",
         "name": "Zoom Phone/Zoom Contact Center General Underlying Provider Maintenance",
         "status": "in_progress",
@@ -7245,9 +7039,9 @@
       }
     ],
     "status": {
-      "indicator": "maintenance",
-      "description": "Service Under Maintenance"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-08-18T23:56:40Z"
+    "updated": "2026-08-19T01:45:48Z"
   }
 }
