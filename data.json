@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-22T22:28:25Z"
+    "updated": "2026-08-22T22:52:47Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with Slack Direct Messaging",
-    "updated": "2026-08-22T22:28:25Z"
+    "updated": "2026-08-22T22:52:47Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-22T22:28:23Z"
+    "updated": "2026-08-22T22:52:46Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-22T22:28:23Z"
+    "updated": "2026-08-22T22:52:46Z"
   },
   "zoom": {
     "page": {
@@ -7221,6 +7221,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-08-22T22:28:23Z"
+    "updated": "2026-08-22T22:52:46Z"
   }
 }
