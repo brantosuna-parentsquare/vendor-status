@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-23T06:58:37Z"
+    "updated": "2026-08-23T07:41:20Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with Slack Direct Messaging",
-    "updated": "2026-08-23T06:58:37Z"
+    "updated": "2026-08-23T07:41:20Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-23T01:23:50.665-04:00"
+      "updated_at": "2026-08-23T03:29:05.937-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T06:58:35Z"
+    "updated": "2026-08-23T07:41:15Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-23T05:23:56.356Z"
+      "updated_at": "2026-08-23T07:39:29.125Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T06:58:35Z"
+    "updated": "2026-08-23T07:41:15Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-22T22:23:55.898-07:00"
+      "updated_at": "2026-08-23T00:39:28.147-07:00"
     },
     "components": [
       {
@@ -7114,6 +7114,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T06:58:35Z"
+    "updated": "2026-08-23T07:41:15Z"
   }
 }
