@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-23T13:59:11Z"
+    "updated": "2026-08-23T14:33:24Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Email Delivery Feature Degradation",
-    "updated": "2026-08-23T13:59:11Z"
+    "updated": "2026-08-23T14:33:24Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-23T09:03:55.737-04:00"
+      "updated_at": "2026-08-23T10:13:57.770-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T13:59:09Z"
+    "updated": "2026-08-23T14:33:22Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-23T13:04:01.434Z"
+      "updated_at": "2026-08-23T14:14:02.127Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T13:59:09Z"
+    "updated": "2026-08-23T14:33:22Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-23T06:04:00.988-07:00"
+      "updated_at": "2026-08-23T07:14:01.706-07:00"
     },
     "components": [
       {
@@ -7114,6 +7114,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T13:59:09Z"
+    "updated": "2026-08-23T14:33:22Z"
   }
 }
