@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-23T20:30:49Z"
+    "updated": "2026-08-23T20:57:25Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Email Delivery Feature Degradation",
-    "updated": "2026-08-23T20:30:49Z"
+    "updated": "2026-08-23T20:57:25Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T20:30:47Z"
+    "updated": "2026-08-23T20:57:23Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T20:30:47Z"
+    "updated": "2026-08-23T20:57:23Z"
   },
   "zoom": {
     "page": {
@@ -7114,6 +7114,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-23T20:30:47Z"
+    "updated": "2026-08-23T20:57:23Z"
   }
 }
