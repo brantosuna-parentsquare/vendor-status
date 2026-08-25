@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-25T05:46:56Z"
+    "updated": "2026-08-25T06:20:21Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with Slack Search feature",
-    "updated": "2026-08-25T05:46:56Z"
+    "updated": "2026-08-25T06:20:21Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-25T05:46:54Z"
+    "updated": "2026-08-25T06:20:20Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-25T05:46:54Z"
+    "updated": "2026-08-25T06:20:20Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-24T22:30:56.236-07:00"
+      "updated_at": "2026-08-24T23:04:12.080-07:00"
     },
     "components": [
       {
@@ -6141,6 +6141,21 @@
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
+      },
+      {
+        "id": "wmmxrdc459my",
+        "name": "Zoom AI API",
+        "status": "operational",
+        "created_at": "2026-08-24T22:49:16.817-07:00",
+        "updated_at": "2026-08-24T22:49:16.817-07:00",
+        "position": 56,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-08-24",
+        "group_id": null,
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
       }
     ],
     "incidents": [],
@@ -7114,6 +7129,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-25T05:46:54Z"
+    "updated": "2026-08-25T06:20:20Z"
   }
 }
