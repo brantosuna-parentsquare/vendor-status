@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-28T11:05:14Z"
+    "updated": "2026-08-28T21:20:45Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Issue with Slack Search feature",
-    "updated": "2026-08-28T11:05:14Z"
+    "latest_title": "Incident: Degraded Search Performance for Dubai IDR Users – Middle East (Dubai) Region",
+    "updated": "2026-08-28T21:20:45Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-28T04:54:07.418-04:00"
+      "updated_at": "2026-08-28T16:45:45.499-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-28T11:05:12Z"
+    "updated": "2026-08-28T21:20:44Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-28T08:54:14.007Z"
+      "updated_at": "2026-08-28T20:46:01.548Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-28T11:05:12Z"
+    "updated": "2026-08-28T21:20:44Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-28T01:54:12.913-07:00"
+      "updated_at": "2026-08-28T13:46:00.529-07:00"
     },
     "components": [
       {
@@ -1044,7 +1044,7 @@
         "name": "Zoom Contact Center",
         "status": "operational",
         "created_at": "2023-03-22T11:15:14.207-07:00",
-        "updated_at": "2026-08-21T12:00:08.121-07:00",
+        "updated_at": "2026-08-28T12:00:07.316-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -2179,7 +2179,7 @@
         "name": "BYOC - Premises",
         "status": "operational",
         "created_at": "2022-05-03T10:46:56.665-07:00",
-        "updated_at": "2026-08-21T12:00:08.216-07:00",
+        "updated_at": "2026-08-28T12:00:07.358-07:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -2524,7 +2524,7 @@
         "name": "Provider Exchange",
         "status": "operational",
         "created_at": "2022-05-03T10:47:15.172-07:00",
-        "updated_at": "2026-08-21T12:00:08.478-07:00",
+        "updated_at": "2026-08-28T12:00:07.398-07:00",
         "position": 5,
         "description": null,
         "showcase": false,
@@ -4193,7 +4193,7 @@
         "name": "Native PSTN",
         "status": "operational",
         "created_at": "2026-07-24T16:37:14.869-07:00",
-        "updated_at": "2026-08-21T12:00:08.641-07:00",
+        "updated_at": "2026-08-28T12:00:07.442-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -4415,7 +4415,7 @@
         "name": "Carrier Platform",
         "status": "operational",
         "created_at": "2026-07-24T16:38:10.251-07:00",
-        "updated_at": "2026-08-21T12:00:09.048-07:00",
+        "updated_at": "2026-08-28T12:00:07.486-07:00",
         "position": 10,
         "description": null,
         "showcase": false,
@@ -6161,324 +6161,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "mp0js5zzcvf3",
-        "name": "Network Maintenance in Singapore Data Center (August 28, 2026)",
-        "status": "scheduled",
-        "created_at": "2026-07-24T16:42:50.196-07:00",
-        "updated_at": "2026-08-21T11:24:52.820-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/tv3x2scqmgn0",
-        "started_at": "2026-07-24T16:42:50.177-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "v01rtdhv4c7l",
-            "status": "scheduled",
-            "body": "This maintenance start time has been rescheduled to 6:00am.",
-            "incident_id": "mp0js5zzcvf3",
-            "created_at": "2026-08-21T11:24:52.815-07:00",
-            "updated_at": "2026-08-21T11:24:52.815-07:00",
-            "display_at": "2026-08-21T11:24:52.815-07:00",
-            "affected_components": [
-              {
-                "code": "d08zc7kt37zh",
-                "name": "Zoom Phone - APAC - BYOC - Premises",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "hgkgc90rt4h5",
-                "name": "Zoom Phone - APAC - Provider Exchange",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "68nfj8nqq86y",
-                "name": "Zoom Phone - APAC - Native PSTN",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "mrrp1gn6p07j",
-                "name": "Zoom Phone - APAC - Carrier Platform",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              },
-              {
-                "code": "lt0w46q63x5m",
-                "name": "Zoom CX - APAC - Zoom Contact Center",
-                "old_status": "under_maintenance",
-                "new_status": "under_maintenance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "0n6dp05wq2h5",
-            "status": "scheduled",
-            "body": "We will be undergoing scheduled maintenance during this time.",
-            "incident_id": "mp0js5zzcvf3",
-            "created_at": "2026-08-13T10:21:01.907-07:00",
-            "updated_at": "2026-08-13T10:21:01.907-07:00",
-            "display_at": "2026-08-13T10:21:01.907-07:00",
-            "affected_components": [
-              {
-                "code": "d08zc7kt37zh",
-                "name": "Zoom Phone - APAC - BYOC - Premises",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "hgkgc90rt4h5",
-                "name": "Zoom Phone - APAC - Provider Exchange",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "68nfj8nqq86y",
-                "name": "Zoom Phone - APAC - Native PSTN",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "mrrp1gn6p07j",
-                "name": "Zoom Phone - APAC - Carrier Platform",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "lt0w46q63x5m",
-                "name": "Zoom CX - APAC - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "xqgs1v8tk4db",
-            "status": "scheduled",
-            "body": "We will be undergoing scheduled maintenance during this time.",
-            "incident_id": "mp0js5zzcvf3",
-            "created_at": "2026-08-13T09:51:49.765-07:00",
-            "updated_at": "2026-08-13T09:51:49.765-07:00",
-            "display_at": "2026-08-13T09:51:49.765-07:00",
-            "affected_components": [
-              {
-                "code": "d08zc7kt37zh",
-                "name": "Zoom Phone - APAC - BYOC - Premises",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "hgkgc90rt4h5",
-                "name": "Zoom Phone - APAC - Provider Exchange",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "68nfj8nqq86y",
-                "name": "Zoom Phone - APAC - Native PSTN",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "mrrp1gn6p07j",
-                "name": "Zoom Phone - APAC - Carrier Platform",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "kmldw5k76q3v",
-                "name": "Zoom CX - EMEA - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "bxt2fr7gy8t3",
-            "status": "scheduled",
-            "body": "Zoom will perform network maintenance at our Singapore data center. Below services may be interrupted or unavailable to users during the maintenance.",
-            "incident_id": "mp0js5zzcvf3",
-            "created_at": "2026-07-24T16:42:50.303-07:00",
-            "updated_at": "2026-07-24T16:42:50.303-07:00",
-            "display_at": "2026-07-24T16:42:50.303-07:00",
-            "affected_components": [
-              {
-                "code": "d08zc7kt37zh",
-                "name": "Zoom Phone - APAC - BYOC - Premises",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "hgkgc90rt4h5",
-                "name": "Zoom Phone - APAC - Provider Exchange",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "68nfj8nqq86y",
-                "name": "Zoom Phone - APAC - Native PSTN",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "mrrp1gn6p07j",
-                "name": "Zoom Phone - APAC - Carrier Platform",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "lt0w46q63x5m",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2023-03-22T11:15:14.207-07:00",
-            "updated_at": "2026-08-21T12:00:08.121-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-22",
-            "group_id": "23spl3b8jrnd",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "d08zc7kt37zh",
-            "name": "BYOC - Premises",
-            "status": "operational",
-            "created_at": "2022-05-03T10:46:56.665-07:00",
-            "updated_at": "2026-08-21T12:00:08.216-07:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "hgkgc90rt4h5",
-            "name": "Provider Exchange",
-            "status": "operational",
-            "created_at": "2022-05-03T10:47:15.172-07:00",
-            "updated_at": "2026-08-21T12:00:08.478-07:00",
-            "position": 5,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "68nfj8nqq86y",
-            "name": "Native PSTN",
-            "status": "operational",
-            "created_at": "2026-07-24T16:37:14.869-07:00",
-            "updated_at": "2026-08-21T12:00:08.641-07:00",
-            "position": 9,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-07-24",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "mrrp1gn6p07j",
-            "name": "Carrier Platform",
-            "status": "operational",
-            "created_at": "2026-07-24T16:38:10.251-07:00",
-            "updated_at": "2026-08-21T12:00:09.048-07:00",
-            "position": 10,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-07-24",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-28T06:00:00.000-07:00",
-        "scheduled_until": "2026-08-28T12:00:00.000-07:00"
-      },
-      {
-        "id": "j4vj7l31g0nk",
-        "name": "Zoom Audio Conference Infrastructure Upgrade (Europe - AMS & FRA)",
-        "status": "scheduled",
-        "created_at": "2026-08-21T00:07:15.273-07:00",
-        "updated_at": "2026-08-21T00:07:15.378-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/57dq754yd8y0",
-        "started_at": "2026-08-21T00:07:15.260-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "2hb6fhl4d66c",
-            "status": "scheduled",
-            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.",
-            "incident_id": "j4vj7l31g0nk",
-            "created_at": "2026-08-21T00:07:15.371-07:00",
-            "updated_at": "2026-08-21T00:07:15.371-07:00",
-            "display_at": "2026-08-21T00:07:15.371-07:00",
-            "affected_components": [
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "ntdt65v1f9rv",
-            "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-08-10T03:00:12.011-07:00",
-            "position": 13,
-            "description": "Access to Telephony Services",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-08-28T08:00:00.000-07:00",
-        "scheduled_until": "2026-08-29T20:00:00.000-07:00"
-      },
-      {
         "id": "dwv0r88zfs3h",
         "name": "Zoom Support Maintenance: August 29, 2026",
         "status": "scheduled",
@@ -6661,7 +6343,7 @@
             "name": "Zoom Contact Center",
             "status": "operational",
             "created_at": "2023-03-22T11:15:14.207-07:00",
-            "updated_at": "2026-08-21T12:00:08.121-07:00",
+            "updated_at": "2026-08-28T12:00:07.316-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -6676,7 +6358,7 @@
             "name": "BYOC - Premises",
             "status": "operational",
             "created_at": "2022-05-03T10:46:56.665-07:00",
-            "updated_at": "2026-08-21T12:00:08.216-07:00",
+            "updated_at": "2026-08-28T12:00:07.358-07:00",
             "position": 4,
             "description": null,
             "showcase": false,
@@ -6691,7 +6373,7 @@
             "name": "Provider Exchange",
             "status": "operational",
             "created_at": "2022-05-03T10:47:15.172-07:00",
-            "updated_at": "2026-08-21T12:00:08.478-07:00",
+            "updated_at": "2026-08-28T12:00:07.398-07:00",
             "position": 5,
             "description": null,
             "showcase": false,
@@ -6706,7 +6388,7 @@
             "name": "Native PSTN",
             "status": "operational",
             "created_at": "2026-07-24T16:37:14.869-07:00",
-            "updated_at": "2026-08-21T12:00:08.641-07:00",
+            "updated_at": "2026-08-28T12:00:07.442-07:00",
             "position": 9,
             "description": null,
             "showcase": false,
@@ -6721,7 +6403,7 @@
             "name": "Carrier Platform",
             "status": "operational",
             "created_at": "2026-07-24T16:38:10.251-07:00",
-            "updated_at": "2026-08-21T12:00:09.048-07:00",
+            "updated_at": "2026-08-28T12:00:07.486-07:00",
             "position": 10,
             "description": null,
             "showcase": false,
@@ -6991,6 +6673,123 @@
         "scheduled_until": "2026-09-04T22:00:00.000-07:00"
       },
       {
+        "id": "glg358678dmm",
+        "name": "Announcing Updated IP Address Ranges: September 28, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-08-28T09:59:07.908-07:00",
+        "updated_at": "2026-08-28T09:59:07.994-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/xqkhrrg7g0w2",
+        "started_at": "2026-08-28T09:59:07.891-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "nwnnpmmpjysf",
+            "status": "scheduled",
+            "body": "The published IP range for Zoom Meeting and Zoom Phone services has been updated from 192.204.12.0/22 to 192.204.12.0/23. We recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation.\n\nMask change for Zoom Phone and Zoom Meetings service:\n192.204.12.0/22 changed to 192.204.12.0/23\n\nIn addition, Zoom has updated the published IP range files to remove redundant entries that were fully contained within larger, overlapping subnet blocks for the Zoom Phone and ZoomCDN. This does not introduce any new IP ranges or remove any active ranges from service. The following adjustments have been made:\n\nZoomPhone.txt:\nTwo redundant entries, 173.231.92.0/24 and 173.231.94.0/24, were removed, as both are fully contained within the existing 173.231.80.0/20 range already listed in the same file.\n\nZoomCDN-IPv6.txt: \nTwo adjacent entries, 2407:30c0:180::/48 and 2407:30c0:181::/48, were consolidated into a single 2407:30c0:180::/47.\n\nWhile the ranges have been consolidated for the ZoomPhone.txt file, additional files have been generated for the individual Zoom Phone rules, specifically:\nZoomPhone-TCP443.txt\nZoomPhone-TCP5091.txt\nZoomPhone-TCP390.txt\nZoomPhone-UDP3478.txt\nZoomPhone-UDP20000-64000.txt\n\nThese updates have no operational impact. Network administrators do not need to take any action unless they maintain custom scripts or automation that reference the previous redundant entries\n\nWe have also updated the Zoom CRC JSON file to reflect the current domains utilized for joining Zoom Meetings.\n\nFor a complete list, please see: \n\nhttps://assets.zoom.us/docs/ipranges/Zoom.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomMeetings.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone-TCP443.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone-TCP5091.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone-TCP390.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone-UDP3478.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone-UDP20000-64000.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomCDN-IPv6.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomCRCDomains.json\n\nA complete list of network firewall IP ranges and domains for Zoom can be found on the Zoom Support site at:\nhttps://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548",
+            "incident_id": "glg358678dmm",
+            "created_at": "2026-08-28T09:59:07.991-07:00",
+            "updated_at": "2026-08-28T09:59:07.991-07:00",
+            "display_at": "2026-08-28T09:59:07.991-07:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "q4msk5dl4bhm",
+                "name": "Zoom Meetings - Zoom Webinars",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "0842bncf5q9f",
+                "name": "Zoom Phone - Global - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-08-27T14:43:03.703-07:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "0842bncf5q9f",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2024-09-30T13:36:13.230-07:00",
+            "updated_at": "2026-05-21T18:00:07.649-07:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-09-30",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-08-10T03:00:12.447-07:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "q4msk5dl4bhm",
+            "name": "Zoom Webinars",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.115-08:00",
+            "updated_at": "2026-08-10T03:00:12.754-07:00",
+            "position": 20,
+            "description": "Access to video webinars",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-09-28T23:59:00.000-07:00",
+        "scheduled_until": "2026-09-29T00:00:00.000-07:00"
+      },
+      {
         "id": "kpydr3mnd191",
         "name": "Scheduled Zoom Software Quarterly Lifecycle Update (11/7/2026)",
         "status": "scheduled",
@@ -7043,6 +6842,86 @@
         ],
         "scheduled_for": "2026-11-07T16:00:00.000-08:00",
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
+      },
+      {
+        "id": "j4vj7l31g0nk",
+        "name": "Zoom Audio Conference Infrastructure Upgrade (Europe - AMS & FRA)",
+        "status": "in_progress",
+        "created_at": "2026-08-21T00:07:15.273-07:00",
+        "updated_at": "2026-08-28T08:00:10.435-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/57dq754yd8y0",
+        "started_at": "2026-08-21T00:07:15.260-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "t48ygl4s7rhw",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "j4vj7l31g0nk",
+            "created_at": "2026-08-28T08:00:10.429-07:00",
+            "updated_at": "2026-08-28T08:00:10.429-07:00",
+            "display_at": "2026-08-28T08:00:10.429-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "1ffqt0k1dzcj",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "j4vj7l31g0nk",
+            "created_at": "2026-08-28T07:00:07.645-07:00",
+            "updated_at": "2026-08-28T07:00:07.645-07:00",
+            "display_at": "2026-08-28T07:00:07.645-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "2hb6fhl4d66c",
+            "status": "scheduled",
+            "body": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.",
+            "incident_id": "j4vj7l31g0nk",
+            "created_at": "2026-08-21T00:07:15.371-07:00",
+            "updated_at": "2026-08-21T00:07:15.371-07:00",
+            "display_at": "2026-08-21T00:07:15.371-07:00",
+            "affected_components": [
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2026-08-10T03:00:12.011-07:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-08-28T08:00:00.000-07:00",
+        "scheduled_until": "2026-08-29T20:00:00.000-07:00"
       },
       {
         "id": "q7hv57w5m1d7",
@@ -7415,6 +7294,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-28T11:05:12Z"
+    "updated": "2026-08-28T21:20:44Z"
   }
 }
