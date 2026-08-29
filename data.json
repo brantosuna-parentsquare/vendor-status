@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-08-28T21:20:45Z"
+    "updated": "2026-08-29T03:17:21Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Degraded Search Performance for Dubai IDR Users – Middle East (Dubai) Region",
-    "updated": "2026-08-28T21:20:45Z"
+    "updated": "2026-08-29T03:17:21Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-08-28T16:45:45.499-04:00"
+      "updated_at": "2026-08-28T22:29:00.589-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-28T21:20:44Z"
+    "updated": "2026-08-29T03:17:19Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-08-28T20:46:01.548Z"
+      "updated_at": "2026-08-29T01:53:57.899Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-28T21:20:44Z"
+    "updated": "2026-08-29T03:17:19Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-08-28T13:46:00.529-07:00"
+      "updated_at": "2026-08-28T18:53:57.663-07:00"
     },
     "components": [
       {
@@ -7294,6 +7294,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-08-28T21:20:44Z"
+    "updated": "2026-08-29T03:17:19Z"
   }
 }
