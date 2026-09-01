@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-01T14:58:41Z"
+    "updated": "2026-09-01T18:23:19Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Intermittent SSO login errors accessing Slack workspace.",
-    "updated": "2026-09-01T14:58:41Z"
+    "updated": "2026-09-01T18:23:19Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-01T10:57:28.794-04:00"
+      "updated_at": "2026-09-01T13:29:35.888-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-01T14:58:39Z"
+    "updated": "2026-09-01T18:23:17Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-01T14:57:58.147Z"
+      "updated_at": "2026-09-01T17:30:47.194Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-01T14:58:39Z"
+    "updated": "2026-09-01T18:23:17Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-01T07:57:52.592-07:00"
+      "updated_at": "2026-09-01T10:30:41.618-07:00"
     },
     "components": [
       {
@@ -2110,6 +2110,21 @@
         "showcase": false,
         "start_date": "2026-02-02",
         "group_id": "qc3jmtft3wbx",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "wmmxrdc459my",
+        "name": "Zoom AI API",
+        "status": "operational",
+        "created_at": "2026-08-24T22:49:16.817-07:00",
+        "updated_at": "2026-09-01T09:54:44.204-07:00",
+        "position": 3,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-08-24",
+        "group_id": "8mtpzg8mmgr6",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -6001,7 +6016,8 @@
         "only_show_if_degraded": false,
         "components": [
           "452xjnn6zw00",
-          "fws9k4351knw"
+          "fws9k4351knw",
+          "wmmxrdc459my"
         ]
       },
       {
@@ -6137,21 +6153,6 @@
         "description": null,
         "showcase": false,
         "start_date": "2022-04-17",
-        "group_id": null,
-        "page_id": "14qjgk812kgk",
-        "group": false,
-        "only_show_if_degraded": false
-      },
-      {
-        "id": "wmmxrdc459my",
-        "name": "Zoom AI API",
-        "status": "operational",
-        "created_at": "2026-08-24T22:49:16.817-07:00",
-        "updated_at": "2026-08-24T22:49:16.817-07:00",
-        "position": 56,
-        "description": null,
-        "showcase": false,
-        "start_date": "2026-08-24",
         "group_id": null,
         "page_id": "14qjgk812kgk",
         "group": false,
@@ -8073,6 +8074,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-01T14:58:39Z"
+    "updated": "2026-09-01T18:23:17Z"
   }
 }
