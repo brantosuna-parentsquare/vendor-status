@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-02T01:17:02Z"
+    "updated": "2026-09-02T05:57:09Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Intermittent SSO login errors accessing Slack workspace.",
-    "updated": "2026-09-02T01:17:02Z"
+    "updated": "2026-09-02T05:57:09Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-01T20:48:51.481-04:00"
+      "updated_at": "2026-09-02T01:43:52.823-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-02T01:17:01Z"
+    "updated": "2026-09-02T05:57:08Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-02T00:48:54.988Z"
+      "updated_at": "2026-09-02T05:43:57.728Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-02T01:17:01Z"
+    "updated": "2026-09-02T05:57:08Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-01T18:15:34.958-07:00"
+      "updated_at": "2026-09-01T22:43:57.609-07:00"
     },
     "components": [
       {
@@ -3038,21 +3038,6 @@
         "only_show_if_degraded": false
       },
       {
-        "id": "dpqhcccldsxp",
-        "name": "Zoom Video SDK",
-        "status": "operational",
-        "created_at": "2022-08-30T09:38:42.064-07:00",
-        "updated_at": "2025-09-12T06:09:00.440-07:00",
-        "position": 6,
-        "description": null,
-        "showcase": false,
-        "start_date": "2022-08-30",
-        "group_id": "dhtlfcvrh3qh",
-        "page_id": "14qjgk812kgk",
-        "group": false,
-        "only_show_if_degraded": false
-      },
-      {
         "id": "lj388xsd0lyh",
         "name": "3rd Party Integration Clients (e.g. Salesforce, ServiceNow, Zendesk, Meta)",
         "status": "operational",
@@ -4685,7 +4670,6 @@
           "rmphw6f34qk9",
           "g9n3mgf1jxf1",
           "ghvwvn740dg7",
-          "dpqhcccldsxp",
           "bv38lgqq0cpz",
           "s56fnx18jv8d",
           "hz3fmmg26pty"
@@ -8074,6 +8058,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-02T01:17:01Z"
+    "updated": "2026-09-02T05:57:08Z"
   }
 }
