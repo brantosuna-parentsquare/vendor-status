@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-03T11:36:32Z"
+    "updated": "2026-09-03T15:10:36Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Intermittent SSO login errors accessing Slack workspace.",
-    "updated": "2026-09-03T11:36:32Z"
+    "updated": "2026-09-03T15:10:36Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-03T07:14:01.942-04:00"
+      "updated_at": "2026-09-03T09:24:13.688-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-03T11:36:31Z"
+    "updated": "2026-09-03T15:10:35Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-03T11:14:05.196Z"
+      "updated_at": "2026-09-03T14:38:52.478Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-03T11:36:31Z"
+    "updated": "2026-09-03T15:10:35Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-03T04:35:50.992-07:00"
+      "updated_at": "2026-09-03T07:38:52.118-07:00"
     },
     "components": [
       {
@@ -8112,6 +8112,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-03T11:36:31Z"
+    "updated": "2026-09-03T15:10:35Z"
   }
 }
