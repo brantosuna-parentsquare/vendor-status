@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-08T18:55:35Z"
+    "updated": "2026-09-08T21:45:29Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Authorization Failure Errors Connecting to the Slack MCP Sever",
-    "updated": "2026-09-08T18:55:35Z"
+    "updated": "2026-09-08T21:45:29Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-08T13:20:56.759-04:00"
+      "updated_at": "2026-09-08T17:40:28.175-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T18:55:33Z"
+    "updated": "2026-09-08T21:45:27Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-08T16:20:49.137Z"
+      "updated_at": "2026-09-08T20:46:34.570Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T18:55:33Z"
+    "updated": "2026-09-08T21:45:27Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-08T09:20:48.081-07:00"
+      "updated_at": "2026-09-08T13:46:32.488-07:00"
     },
     "components": [
       {
@@ -7490,6 +7490,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T18:55:33Z"
+    "updated": "2026-09-08T21:45:27Z"
   }
 }
