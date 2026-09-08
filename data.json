@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-08T11:40:38Z"
+    "updated": "2026-09-08T15:23:01Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Authorization Failure Errors Connecting to the Slack MCP Sever",
-    "updated": "2026-09-08T11:40:38Z"
+    "updated": "2026-09-08T15:23:01Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-08T05:38:52.367-04:00"
+      "updated_at": "2026-09-08T10:44:54.074-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T11:40:36Z"
+    "updated": "2026-09-08T15:22:55Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-08T10:03:57.025Z"
+      "updated_at": "2026-09-08T14:45:05.300Z"
     },
     "components": [
       {
@@ -259,7 +259,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2023-02-09T21:56:52.156Z",
-        "updated_at": "2026-07-24T22:07:00.043Z",
+        "updated_at": "2026-09-08T13:40:03.000Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -417,7 +417,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-09-01T13:23:04.000Z",
+        "updated_at": "2026-09-08T13:56:04.000Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T11:40:36Z"
+    "updated": "2026-09-08T15:22:55Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-08T03:03:56.541-07:00"
+      "updated_at": "2026-09-08T07:45:05.209-07:00"
     },
     "components": [
       {
@@ -7490,6 +7490,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T11:40:36Z"
+    "updated": "2026-09-08T15:22:55Z"
   }
 }
