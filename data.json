@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-08T23:42:21Z"
+    "updated": "2026-09-09T01:37:07Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Authorization Failure Errors Connecting to the Slack MCP Sever",
-    "updated": "2026-09-08T23:42:21Z"
+    "updated": "2026-09-09T01:37:07Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T23:42:20Z"
+    "updated": "2026-09-09T01:37:05Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T23:42:20Z"
+    "updated": "2026-09-09T01:37:05Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-08T15:13:51.703-07:00"
+      "updated_at": "2026-09-08T18:20:23.689-07:00"
     },
     "components": [
       {
@@ -6143,7 +6143,103 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "k078znmg55zj",
+        "name": "Service Degradation Affecting Zoom Services",
+        "status": "monitoring",
+        "created_at": "2026-09-08T18:09:45.379-07:00",
+        "updated_at": "2026-09-08T18:09:45.542-07:00",
+        "monitoring_at": "2026-09-08T18:09:45.486-07:00",
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/601q96h5gv6m",
+        "started_at": "2026-09-08T18:09:45.352-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "2rv42130cdyv",
+            "status": "monitoring",
+            "body": "The service degradation affecting Zoom Phone, Contact Center,  Meetings has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "k078znmg55zj",
+            "created_at": "2026-09-08T18:09:45.486-07:00",
+            "updated_at": "2026-09-08T18:09:45.486-07:00",
+            "display_at": "2026-09-08T18:09:45.486-07:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "jh6w5p8b9yv9",
+                "name": "Zoom Phone - NORTH AMERICA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "vttvjkwmdfps",
+                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "operational",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-08-27T14:43:03.703-07:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "jh6w5p8b9yv9",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2019-01-23T13:28:01.376-08:00",
+            "updated_at": "2026-08-10T03:00:09.893-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "gwtd6dbkck60",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "vttvjkwmdfps",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2022-03-18T10:03:55.317-07:00",
+            "updated_at": "2026-08-10T03:00:10.509-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-03-18",
+            "group_id": "pdcbftj9pg7j",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "gxj2gs7f0wfk",
@@ -7490,6 +7586,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-08T23:42:20Z"
+    "updated": "2026-09-09T01:37:05Z"
   }
 }
