@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-14T16:38:31Z"
+    "updated": "2026-09-14T20:37:09Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Authorization Failure Errors Connecting to the Slack MCP Sever",
-    "updated": "2026-09-14T16:38:31Z"
+    "updated": "2026-09-14T20:37:09Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-14T11:03:52.022-04:00"
+      "updated_at": "2026-09-14T16:16:33.680-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-14T16:38:30Z"
+    "updated": "2026-09-14T20:37:07Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-14T15:03:56.122Z"
+      "updated_at": "2026-09-14T20:11:24.709Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-14T16:38:30Z"
+    "updated": "2026-09-14T20:37:07Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-14T08:03:55.709-07:00"
+      "updated_at": "2026-09-14T13:11:24.315-07:00"
     },
     "components": [
       {
@@ -6146,6 +6146,81 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
+        "id": "9sg7mkrtxtvv",
+        "name": "Zoom Support Maintenance - Search Function: September 17, 2026",
+        "status": "scheduled",
+        "created_at": "2026-09-14T12:13:52.428-07:00",
+        "updated_at": "2026-09-14T12:13:52.585-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/2y7g1kp9cd3f",
+        "started_at": "2026-09-14T12:13:52.411-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "h7bgyyh7vssx",
+            "status": "scheduled",
+            "body": "We will be performing maintenance on http://support.zoom.com/.  Users may experience issues with the search function during the maintenance window.",
+            "incident_id": "9sg7mkrtxtvv",
+            "created_at": "2026-09-14T12:13:52.581-07:00",
+            "updated_at": "2026-09-14T12:13:52.581-07:00",
+            "display_at": "2026-09-14T12:13:52.581-07:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yvbblg5f0rdt",
+            "name": "Knowledge Base",
+            "status": "operational",
+            "created_at": "2022-05-03T11:26:39.112-07:00",
+            "updated_at": "2026-09-04T22:00:07.271-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "9mhsm7sbmhnr",
+            "name": "Ticketing",
+            "status": "operational",
+            "created_at": "2022-05-03T11:27:52.285-07:00",
+            "updated_at": "2026-09-04T22:00:07.388-07:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-09-17T13:00:00.000-07:00",
+        "scheduled_until": "2026-09-17T16:00:00.000-07:00"
+      },
+      {
         "id": "gxj2gs7f0wfk",
         "name": "Network Maintenance in SJC Datacenter: September 20, 2026",
         "status": "scheduled",
@@ -7912,6 +7987,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-14T16:38:30Z"
+    "updated": "2026-09-14T20:37:07Z"
   }
 }
