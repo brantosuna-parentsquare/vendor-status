@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-17T16:46:10Z"
+    "updated": "2026-09-17T19:54:13Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Authorization Failure Errors Connecting to the Slack MCP Sever",
-    "updated": "2026-09-17T16:46:10Z"
+    "updated": "2026-09-17T19:54:13Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-17T12:23:52.666-04:00"
+      "updated_at": "2026-09-17T13:58:51.612-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-17T16:46:08Z"
+    "updated": "2026-09-17T19:54:12Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-17T16:23:56.883Z"
+      "updated_at": "2026-09-17T17:58:56.094Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-17T16:46:08Z"
+    "updated": "2026-09-17T19:54:12Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-17T09:23:56.492-07:00"
+      "updated_at": "2026-09-17T12:00:26.179-07:00"
     },
     "components": [
       {
@@ -6150,7 +6150,7 @@
         "name": "Zoom Support Maintenance - Search Function: September 17, 2026",
         "status": "scheduled",
         "created_at": "2026-09-14T12:13:52.428-07:00",
-        "updated_at": "2026-09-14T12:13:52.585-07:00",
+        "updated_at": "2026-09-17T12:00:26.157-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -6158,6 +6158,19 @@
         "started_at": "2026-09-14T12:13:52.411-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "ftzyvgj689cs",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "9sg7mkrtxtvv",
+            "created_at": "2026-09-17T12:00:25.952-07:00",
+            "updated_at": "2026-09-17T12:00:25.952-07:00",
+            "display_at": "2026-09-17T12:00:25.952-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "h7bgyyh7vssx",
             "status": "scheduled",
@@ -8473,6 +8486,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-17T16:46:08Z"
+    "updated": "2026-09-17T19:54:12Z"
   }
 }
