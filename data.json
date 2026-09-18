@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-18T20:46:34Z"
+    "updated": "2026-09-18T22:51:53Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Authorization Failure Errors Connecting to the Slack MCP Sever",
-    "updated": "2026-09-18T20:46:34Z"
+    "updated": "2026-09-18T22:51:53Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-18T16:13:46.923-04:00"
+      "updated_at": "2026-09-18T17:53:57.137-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-18T20:46:33Z"
+    "updated": "2026-09-18T22:51:51Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-18T20:13:50.673Z"
+      "updated_at": "2026-09-18T21:54:00.220Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-18T20:46:33Z"
+    "updated": "2026-09-18T22:51:51Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-18T13:13:50.414-07:00"
+      "updated_at": "2026-09-18T15:45:28.561-07:00"
     },
     "components": [
       {
@@ -6143,7 +6143,61 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "gbc9rjs7l531",
+        "name": "Service Degradation Affecting ZoomMate",
+        "status": "monitoring",
+        "created_at": "2026-09-18T15:45:28.484-07:00",
+        "updated_at": "2026-09-18T15:45:28.558-07:00",
+        "monitoring_at": "2026-09-18T15:45:28.547-07:00",
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/p29c3gcmdptt",
+        "started_at": "2026-09-18T15:45:28.476-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "0l06trckmhtk",
+            "status": "monitoring",
+            "body": "The service degradation with ZoomMate has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "gbc9rjs7l531",
+            "created_at": "2026-09-18T15:45:28.547-07:00",
+            "updated_at": "2026-09-18T15:45:28.547-07:00",
+            "display_at": "2026-09-18T15:45:28.547-07:00",
+            "affected_components": [
+              {
+                "code": "n1llzwc1cxtr",
+                "name": "ZoomMate",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "n1llzwc1cxtr",
+            "name": "ZoomMate",
+            "status": "operational",
+            "created_at": "2026-06-22T09:29:03.520-07:00",
+            "updated_at": "2026-07-01T12:17:43.247-07:00",
+            "position": 53,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-06-22",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "q0bhh7lt27cp",
@@ -8526,6 +8580,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-09-18T20:46:33Z"
+    "updated": "2026-09-18T22:51:51Z"
   }
 }
