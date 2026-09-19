@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-18T22:51:53Z"
+    "updated": "2026-09-19T01:05:49Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Authorization Failure Errors Connecting to the Slack MCP Sever",
-    "updated": "2026-09-18T22:51:53Z"
+    "updated": "2026-09-19T01:05:49Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-18T17:53:57.137-04:00"
+      "updated_at": "2026-09-18T20:14:00.781-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-18T22:51:51Z"
+    "updated": "2026-09-19T01:05:47Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-18T21:54:00.220Z"
+      "updated_at": "2026-09-19T00:14:06.568Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-18T22:51:51Z"
+    "updated": "2026-09-19T01:05:47Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-18T15:45:28.561-07:00"
+      "updated_at": "2026-09-18T17:14:06.157-07:00"
     },
     "components": [
       {
@@ -6143,170 +6143,8 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "gbc9rjs7l531",
-        "name": "Service Degradation Affecting ZoomMate",
-        "status": "monitoring",
-        "created_at": "2026-09-18T15:45:28.484-07:00",
-        "updated_at": "2026-09-18T15:45:28.558-07:00",
-        "monitoring_at": "2026-09-18T15:45:28.547-07:00",
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/p29c3gcmdptt",
-        "started_at": "2026-09-18T15:45:28.476-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "0l06trckmhtk",
-            "status": "monitoring",
-            "body": "The service degradation with ZoomMate has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
-            "incident_id": "gbc9rjs7l531",
-            "created_at": "2026-09-18T15:45:28.547-07:00",
-            "updated_at": "2026-09-18T15:45:28.547-07:00",
-            "display_at": "2026-09-18T15:45:28.547-07:00",
-            "affected_components": [
-              {
-                "code": "n1llzwc1cxtr",
-                "name": "ZoomMate",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "n1llzwc1cxtr",
-            "name": "ZoomMate",
-            "status": "operational",
-            "created_at": "2026-06-22T09:29:03.520-07:00",
-            "updated_at": "2026-07-01T12:17:43.247-07:00",
-            "position": 53,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-06-22",
-            "group_id": null,
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
-      {
-        "id": "q0bhh7lt27cp",
-        "name": "Zoom Contact Center Update: September 19, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-09-15T04:43:31.632-07:00",
-        "updated_at": "2026-09-15T04:43:31.854-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/ctvskh4z1wn2",
-        "started_at": "2026-09-15T04:43:31.605-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "qsb7v7d3895q",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes the ability to access Zoom recordings directly from Epic patient records.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "q0bhh7lt27cp",
-            "created_at": "2026-09-15T04:43:31.843-07:00",
-            "updated_at": "2026-09-15T04:43:31.843-07:00",
-            "display_at": "2026-09-15T04:43:31.843-07:00",
-            "affected_components": [
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-21T18:00:07.341-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-09-18T17:00:00.000-07:00",
-        "scheduled_until": "2026-09-19T02:00:00.000-07:00"
-      },
-      {
-        "id": "q4t5hx7s1t17",
-        "name": "Zoom Virtual Agent Update: September 19, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-09-15T04:51:43.485-07:00",
-        "updated_at": "2026-09-15T04:51:43.597-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/hjtp3msl6z3s",
-        "started_at": "2026-09-15T04:51:43.473-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "5b1gsp294qym",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes virtual agent performance testing and monitoring capabilities.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "q4t5hx7s1t17",
-            "created_at": "2026-09-15T04:51:43.593-07:00",
-            "updated_at": "2026-09-15T04:51:43.593-07:00",
-            "display_at": "2026-09-15T04:51:43.593-07:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-09-18T17:00:00.000-07:00",
-        "scheduled_until": "2026-09-19T02:00:00.000-07:00"
-      },
       {
         "id": "20xc1fyfz3b6",
         "name": "Zoom Phone Update: September 20, 2026 (No Operational Impact)",
@@ -8162,6 +8000,166 @@
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
       },
       {
+        "id": "q4t5hx7s1t17",
+        "name": "Zoom Virtual Agent Update: September 19, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-09-15T04:51:43.485-07:00",
+        "updated_at": "2026-09-18T17:01:11.362-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/hjtp3msl6z3s",
+        "started_at": "2026-09-15T04:51:43.473-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "w9zz8j7250xn",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "q4t5hx7s1t17",
+            "created_at": "2026-09-18T17:01:11.357-07:00",
+            "updated_at": "2026-09-18T17:01:11.357-07:00",
+            "display_at": "2026-09-18T17:01:11.357-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "r3vzrsbzsvy2",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "q4t5hx7s1t17",
+            "created_at": "2026-09-18T16:00:12.414-07:00",
+            "updated_at": "2026-09-18T16:00:12.414-07:00",
+            "display_at": "2026-09-18T16:00:12.414-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "5b1gsp294qym",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes virtual agent performance testing and monitoring capabilities.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "q4t5hx7s1t17",
+            "created_at": "2026-09-15T04:51:43.593-07:00",
+            "updated_at": "2026-09-15T04:51:43.593-07:00",
+            "display_at": "2026-09-15T04:51:43.593-07:00",
+            "affected_components": [
+              {
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
+            "status": "operational",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-09-18T17:00:00.000-07:00",
+        "scheduled_until": "2026-09-19T02:00:00.000-07:00"
+      },
+      {
+        "id": "q0bhh7lt27cp",
+        "name": "Zoom Contact Center Update: September 19, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-09-15T04:43:31.632-07:00",
+        "updated_at": "2026-09-18T17:00:09.681-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/ctvskh4z1wn2",
+        "started_at": "2026-09-15T04:43:31.605-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "6p7x041235pb",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "q0bhh7lt27cp",
+            "created_at": "2026-09-18T17:00:09.669-07:00",
+            "updated_at": "2026-09-18T17:00:09.669-07:00",
+            "display_at": "2026-09-18T17:00:09.669-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "23394n4jtlwr",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "q0bhh7lt27cp",
+            "created_at": "2026-09-18T16:00:13.369-07:00",
+            "updated_at": "2026-09-18T16:00:13.369-07:00",
+            "display_at": "2026-09-18T16:00:13.369-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "qsb7v7d3895q",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes the ability to access Zoom recordings directly from Epic patient records.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "q0bhh7lt27cp",
+            "created_at": "2026-09-15T04:43:31.843-07:00",
+            "updated_at": "2026-09-15T04:43:31.843-07:00",
+            "display_at": "2026-09-15T04:43:31.843-07:00",
+            "affected_components": [
+              {
+                "code": "s5s5m6flk56z",
+                "name": "Zoom CX - Global - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "s5s5m6flk56z",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2024-03-21T13:14:33.314-07:00",
+            "updated_at": "2026-05-21T18:00:07.341-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-03-21",
+            "group_id": "1bmg0stx4mk0",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-09-18T17:00:00.000-07:00",
+        "scheduled_until": "2026-09-19T02:00:00.000-07:00"
+      },
+      {
         "id": "z31j8mkwd1np",
         "name": "Zoom Phone Maintenance - CA01-YYZ1 Data Center: September 17, 2026",
         "status": "in_progress",
@@ -8580,6 +8578,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-09-18T22:51:51Z"
+    "updated": "2026-09-19T01:05:47Z"
   }
 }
