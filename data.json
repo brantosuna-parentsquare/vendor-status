@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-20T12:19:17Z"
+    "updated": "2026-09-20T16:19:41Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Slack",
-    "updated": "2026-09-20T12:19:17Z"
+    "updated": "2026-09-20T16:19:41Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-20T08:03:44.914-04:00"
+      "updated_at": "2026-09-20T11:25:25.862-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-20T12:19:14Z"
+    "updated": "2026-09-20T16:19:39Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-20T12:03:50.294Z"
+      "updated_at": "2026-09-20T14:25:52.579Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-20T12:19:14Z"
+    "updated": "2026-09-20T16:19:39Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-20T05:03:49.666-07:00"
+      "updated_at": "2026-09-20T08:00:07.330-07:00"
     },
     "components": [
       {
@@ -952,9 +952,9 @@
       {
         "id": "yrt9l9s4twjl",
         "name": "Zoom Phone",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:50:25.396-07:00",
-        "updated_at": "2025-12-16T17:56:26.488-08:00",
+        "updated_at": "2026-09-20T08:00:07.214-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -5472,7 +5472,7 @@
       {
         "id": "r6hzm1tntmq3",
         "name": "Zoom Phone - JAPAN",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:50:25.378-07:00",
         "updated_at": "2024-08-14T13:40:39.051-07:00",
         "position": 23,
@@ -6145,60 +6145,6 @@
     ],
     "incidents": [],
     "scheduled_maintenances": [
-      {
-        "id": "0mhy7s4pzv18",
-        "name": "Zoom Phone Update - Japan SIP Zones: September 20, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-09-15T15:49:36.997-07:00",
-        "updated_at": "2026-09-15T15:49:37.116-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/3qmd4wd413vv",
-        "started_at": "2026-09-15T15:49:36.980-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "t333p5t2tffj",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Phone - Japan SIP zones in Tokyo and Osaka. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. This update includes credential rotation for Zoom Phone Corporate Directory.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "0mhy7s4pzv18",
-            "created_at": "2026-09-15T15:49:37.111-07:00",
-            "updated_at": "2026-09-15T15:49:37.111-07:00",
-            "display_at": "2026-09-15T15:49:37.111-07:00",
-            "affected_components": [
-              {
-                "code": "yrt9l9s4twjl",
-                "name": "Zoom Phone - JAPAN - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yrt9l9s4twjl",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:50:25.396-07:00",
-            "updated_at": "2025-12-16T17:56:26.488-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "r6hzm1tntmq3",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-09-20T08:00:00.000-07:00",
-        "scheduled_until": "2026-09-20T10:00:00.000-07:00"
-      },
       {
         "id": "gxj2gs7f0wfk",
         "name": "Network Maintenance in SJC Datacenter: September 20, 2026",
@@ -7524,9 +7470,9 @@
           {
             "id": "yrt9l9s4twjl",
             "name": "Zoom Phone",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T10:50:25.396-07:00",
-            "updated_at": "2025-12-16T17:56:26.488-08:00",
+            "updated_at": "2026-09-20T08:00:07.214-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7998,12 +7944,99 @@
         ],
         "scheduled_for": "2026-11-07T16:00:00.000-08:00",
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
+      },
+      {
+        "id": "0mhy7s4pzv18",
+        "name": "Zoom Phone Update - Japan SIP Zones: September 20, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-09-15T15:49:36.997-07:00",
+        "updated_at": "2026-09-20T08:00:07.307-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/3qmd4wd413vv",
+        "started_at": "2026-09-15T15:49:36.980-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "3jz1hw914w09",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "0mhy7s4pzv18",
+            "created_at": "2026-09-20T08:00:07.302-07:00",
+            "updated_at": "2026-09-20T08:00:07.302-07:00",
+            "display_at": "2026-09-20T08:00:07.302-07:00",
+            "affected_components": [
+              {
+                "code": "yrt9l9s4twjl",
+                "name": "Zoom Phone - JAPAN - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "hccxfmbj9rm3",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "0mhy7s4pzv18",
+            "created_at": "2026-09-20T07:00:09.666-07:00",
+            "updated_at": "2026-09-20T07:00:09.666-07:00",
+            "display_at": "2026-09-20T07:00:09.666-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "t333p5t2tffj",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Phone - Japan SIP zones in Tokyo and Osaka. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. This update includes credential rotation for Zoom Phone Corporate Directory.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "0mhy7s4pzv18",
+            "created_at": "2026-09-15T15:49:37.111-07:00",
+            "updated_at": "2026-09-15T15:49:37.111-07:00",
+            "display_at": "2026-09-15T15:49:37.111-07:00",
+            "affected_components": [
+              {
+                "code": "yrt9l9s4twjl",
+                "name": "Zoom Phone - JAPAN - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yrt9l9s4twjl",
+            "name": "Zoom Phone",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T10:50:25.396-07:00",
+            "updated_at": "2026-09-20T08:00:07.214-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "r6hzm1tntmq3",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-09-20T08:00:00.000-07:00",
+        "scheduled_until": "2026-09-20T10:00:00.000-07:00"
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "maintenance",
+      "description": "Service Under Maintenance"
     },
-    "updated": "2026-09-20T12:19:14Z"
+    "updated": "2026-09-20T16:19:39Z"
   }
 }
