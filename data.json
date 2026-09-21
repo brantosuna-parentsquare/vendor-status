@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-21T14:05:20Z"
+    "updated": "2026-09-21T19:25:13Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble connecting to Slack",
-    "updated": "2026-09-21T14:05:20Z"
+    "updated": "2026-09-21T19:25:13Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-21T09:20:30.784-04:00"
+      "updated_at": "2026-09-21T13:54:00.115-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-21T14:05:19Z"
+    "updated": "2026-09-21T19:25:12Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-21T13:20:36.313Z"
+      "updated_at": "2026-09-21T17:54:03.368Z"
     },
     "components": [
       {
@@ -515,7 +515,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2023-02-09T18:04:50.001Z",
-        "updated_at": "2026-09-17T15:12:10.195Z",
+        "updated_at": "2026-09-21T16:34:08.709Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-21T14:05:19Z"
+    "updated": "2026-09-21T19:25:12Z"
   },
   "zoom": {
     "page": {
@@ -781,15 +781,15 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-21T06:20:36.187-07:00"
+      "updated_at": "2026-09-21T11:32:14.827-07:00"
     },
     "components": [
       {
         "id": "3z7b6jks10hm",
         "name": "Zoom Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2015-01-26T15:04:39.101-08:00",
-        "updated_at": "2026-09-21T02:00:07.216-07:00",
+        "updated_at": "2026-09-21T11:17:47.139-07:00",
         "position": 1,
         "description": "Access to meetings",
         "showcase": false,
@@ -907,9 +907,9 @@
       {
         "id": "773zkp1jzkgl",
         "name": "Zoom Phone",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:43:27.197-07:00",
-        "updated_at": "2026-02-27T21:00:07.110-08:00",
+        "updated_at": "2026-09-21T09:00:07.203-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -1729,7 +1729,7 @@
         "name": "Chat Agent",
         "status": "operational",
         "created_at": "2026-01-08T11:06:00.947-08:00",
-        "updated_at": "2026-03-17T00:38:39.171-07:00",
+        "updated_at": "2026-09-21T09:20:58.921-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -4370,7 +4370,7 @@
         "name": "AI Expert Assist",
         "status": "operational",
         "created_at": "2024-03-21T12:59:20.409-07:00",
-        "updated_at": "2024-03-21T12:59:43.740-07:00",
+        "updated_at": "2026-09-21T09:20:58.946-07:00",
         "position": 10,
         "description": null,
         "showcase": false,
@@ -5059,7 +5059,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -5376,7 +5376,7 @@
       {
         "id": "8sq44v6xhj9v",
         "name": "Zoom Phone - EMEA",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:43:27.170-07:00",
         "updated_at": "2024-08-14T13:40:39.026-07:00",
         "position": 21,
@@ -6143,62 +6143,62 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
-    "scheduled_maintenances": [
+    "incidents": [
       {
-        "id": "b3qgj5728y7n",
-        "name": "Zoom Phone Maintenance - EU02 - AMS4 Data Center: September 21, 2026",
-        "status": "scheduled",
-        "created_at": "2026-09-10T14:07:14.759-07:00",
-        "updated_at": "2026-09-10T14:07:14.860-07:00",
+        "id": "b9qd1hcw1zqk",
+        "name": "Service Degradation Affecting Apple Login for Zoom Sign-in.",
+        "status": "investigating",
+        "created_at": "2026-09-21T11:17:47.088-07:00",
+        "updated_at": "2026-09-21T11:17:47.211-07:00",
         "monitoring_at": null,
         "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/qgzjc5gxzlhv",
-        "started_at": "2026-09-10T14:07:14.746-07:00",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/j90jkyg5gqz3",
+        "started_at": "2026-09-21T11:17:47.074-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "0rk2hx61y394",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at our EU02-AMS4 Data Center starting at 9:00 AM Pacific on September 21, 2026.  Zoom Phone users registered to the those sip zones will be automatically registered in the EU02-FRA4 sip zone sequentially.  During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
-            "incident_id": "b3qgj5728y7n",
-            "created_at": "2026-09-10T14:07:14.856-07:00",
-            "updated_at": "2026-09-10T14:07:14.856-07:00",
-            "display_at": "2026-09-10T14:07:14.856-07:00",
+            "id": "8z42xd6jmky1",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting a subset of users with Apple Login for Zoom Sign-in.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "b9qd1hcw1zqk",
+            "created_at": "2026-09-21T11:17:47.207-07:00",
+            "updated_at": "2026-09-21T11:17:47.207-07:00",
+            "display_at": "2026-09-21T11:17:47.207-07:00",
             "affected_components": [
               {
-                "code": "773zkp1jzkgl",
-                "name": "Zoom Phone - EMEA - Zoom Phone",
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
                 "old_status": "operational",
-                "new_status": "operational"
+                "new_status": "degraded_performance"
               }
             ],
-            "deliver_notifications": true,
+            "deliver_notifications": false,
             "custom_tweet": null,
             "tweet_id": null
           }
         ],
         "components": [
           {
-            "id": "773zkp1jzkgl",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:43:27.197-07:00",
-            "updated_at": "2026-02-27T21:00:07.110-08:00",
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "degraded_performance",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-09-21T11:17:47.139-07:00",
             "position": 1,
-            "description": null,
+            "description": "Access to meetings",
             "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
+            "start_date": null,
+            "group_id": "6np407v7v25g",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-09-21T09:00:00.000-07:00",
-        "scheduled_until": "2026-09-23T21:30:00.000-07:00"
-      },
+        "reminder_intervals": null
+      }
+    ],
+    "scheduled_maintenances": [
       {
         "id": "nrwz9xv8jz7p",
         "name": "Zoom Phone Maintenance - CA01-YVR1 Data Center: September 21, 2026",
@@ -6513,9 +6513,9 @@
           {
             "id": "3z7b6jks10hm",
             "name": "Zoom Meetings",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-09-21T02:00:07.216-07:00",
+            "updated_at": "2026-09-21T11:17:47.139-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6717,9 +6717,9 @@
           {
             "id": "773zkp1jzkgl",
             "name": "Zoom Phone",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T10:43:27.197-07:00",
-            "updated_at": "2026-02-27T21:00:07.110-08:00",
+            "updated_at": "2026-09-21T09:00:07.203-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -6789,9 +6789,9 @@
           {
             "id": "3z7b6jks10hm",
             "name": "Zoom Meetings",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-09-21T02:00:07.216-07:00",
+            "updated_at": "2026-09-21T11:17:47.139-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -7002,9 +7002,9 @@
           {
             "id": "3z7b6jks10hm",
             "name": "Zoom Meetings",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-09-21T02:00:07.216-07:00",
+            "updated_at": "2026-09-21T11:17:47.139-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -7422,9 +7422,9 @@
           {
             "id": "3z7b6jks10hm",
             "name": "Zoom Meetings",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-09-21T02:00:07.216-07:00",
+            "updated_at": "2026-09-21T11:17:47.139-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -7680,12 +7680,86 @@
         ],
         "scheduled_for": "2026-11-07T16:00:00.000-08:00",
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
+      },
+      {
+        "id": "b3qgj5728y7n",
+        "name": "Zoom Phone Maintenance - EU02 - AMS4 Data Center: September 21, 2026",
+        "status": "in_progress",
+        "created_at": "2026-09-10T14:07:14.759-07:00",
+        "updated_at": "2026-09-21T09:00:07.296-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/qgzjc5gxzlhv",
+        "started_at": "2026-09-10T14:07:14.746-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "0qpjc086c7ld",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "b3qgj5728y7n",
+            "created_at": "2026-09-21T09:00:07.291-07:00",
+            "updated_at": "2026-09-21T09:00:07.291-07:00",
+            "display_at": "2026-09-21T09:00:07.291-07:00",
+            "affected_components": [
+              {
+                "code": "773zkp1jzkgl",
+                "name": "Zoom Phone - EMEA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "0rk2hx61y394",
+            "status": "scheduled",
+            "body": "Zoom will perform service maintenance at our EU02-AMS4 Data Center starting at 9:00 AM Pacific on September 21, 2026.  Zoom Phone users registered to the those sip zones will be automatically registered in the EU02-FRA4 sip zone sequentially.  During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
+            "incident_id": "b3qgj5728y7n",
+            "created_at": "2026-09-10T14:07:14.856-07:00",
+            "updated_at": "2026-09-10T14:07:14.856-07:00",
+            "display_at": "2026-09-10T14:07:14.856-07:00",
+            "affected_components": [
+              {
+                "code": "773zkp1jzkgl",
+                "name": "Zoom Phone - EMEA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "773zkp1jzkgl",
+            "name": "Zoom Phone",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T10:43:27.197-07:00",
+            "updated_at": "2026-09-21T09:00:07.203-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "8sq44v6xhj9v",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-09-21T09:00:00.000-07:00",
+        "scheduled_until": "2026-09-23T21:30:00.000-07:00"
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-21T14:05:19Z"
+    "updated": "2026-09-21T19:25:12Z"
   }
 }
