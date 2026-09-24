@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-24T17:20:27Z"
+    "updated": "2026-09-24T20:41:26Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with Sending and Receiving Messages",
-    "updated": "2026-09-24T17:20:27Z"
+    "updated": "2026-09-24T20:41:26Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-24T13:05:43.923-04:00"
+      "updated_at": "2026-09-24T16:07:58.339-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
         "name": "The Salesforce integration is unavailable for some customers",
         "status": "identified",
         "created_at": "2026-09-24T10:08:34.848-04:00",
-        "updated_at": "2026-09-24T13:05:43.913-04:00",
+        "updated_at": "2026-09-24T16:07:58.329-04:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "none",
@@ -198,6 +198,26 @@
         "started_at": "2026-09-24T10:08:34.842-04:00",
         "page_id": "8b9w1wwq3g7d",
         "incident_updates": [
+          {
+            "id": "qrhvxjrjyncg",
+            "status": "identified",
+            "body": "We have identified the issue with our Salesforce integration. We continue working to restore full functionality.\n\nWe will be back with an update within an hour.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
+            "incident_id": "glwb56rj5mht",
+            "created_at": "2026-09-24T16:07:58.326-04:00",
+            "updated_at": "2026-09-24T16:07:58.326-04:00",
+            "display_at": "2026-09-24T16:07:58.326-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "hly2ws9q9bj2",
             "status": "identified",
@@ -304,7 +324,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-09-24T17:20:25Z"
+    "updated": "2026-09-24T20:41:25Z"
   },
   "asana": {
     "page": {
@@ -312,7 +332,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-24T16:48:57.447Z"
+      "updated_at": "2026-09-24T19:40:35.230Z"
     },
     "components": [
       {
@@ -887,7 +907,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-24T17:20:25Z"
+    "updated": "2026-09-24T20:41:25Z"
   },
   "zoom": {
     "page": {
@@ -895,7 +915,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-24T09:48:57.256-07:00"
+      "updated_at": "2026-09-24T13:22:27.302-07:00"
     },
     "components": [
       {
@@ -4067,9 +4087,9 @@
       {
         "id": "8vtcg8np4n8c",
         "name": "Live Transcription",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:31:27.476-07:00",
-        "updated_at": "2026-09-24T08:47:39.904-07:00",
+        "updated_at": "2026-09-24T13:22:27.227-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -5173,7 +5193,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -6261,16 +6281,56 @@
       {
         "id": "xp0ql5vdl4s3",
         "name": "Service Degradation Affecting Live Transcription Services.",
-        "status": "investigating",
+        "status": "monitoring",
         "created_at": "2026-09-24T08:47:39.861-07:00",
-        "updated_at": "2026-09-24T09:32:34.245-07:00",
-        "monitoring_at": null,
+        "updated_at": "2026-09-24T13:22:27.298-07:00",
+        "monitoring_at": "2026-09-24T13:22:27.279-07:00",
         "resolved_at": null,
         "impact": "minor",
         "shortlink": "https://stspg.io/m8bvpzdcvcjd",
         "started_at": "2026-09-24T08:47:39.847-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "5737gkmklbdb",
+            "status": "monitoring",
+            "body": "The service degradation affecting Live Transcription services has been successfully resolved.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "xp0ql5vdl4s3",
+            "created_at": "2026-09-24T13:22:27.279-07:00",
+            "updated_at": "2026-09-24T13:22:27.279-07:00",
+            "display_at": "2026-09-24T13:22:27.279-07:00",
+            "affected_components": [
+              {
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "zhkkg6d6vv03",
+            "status": "identified",
+            "body": "We have identified the service degradation affecting Live Transcription Services.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.",
+            "incident_id": "xp0ql5vdl4s3",
+            "created_at": "2026-09-24T13:12:13.017-07:00",
+            "updated_at": "2026-09-24T13:12:13.017-07:00",
+            "display_at": "2026-09-24T13:12:13.017-07:00",
+            "affected_components": [
+              {
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "dnmx5fqz29k2",
             "status": "investigating",
@@ -6316,9 +6376,9 @@
           {
             "id": "8vtcg8np4n8c",
             "name": "Live Transcription",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-09-24T08:47:39.904-07:00",
+            "updated_at": "2026-09-24T13:22:27.227-07:00",
             "position": 9,
             "description": null,
             "showcase": false,
@@ -6653,9 +6713,9 @@
           {
             "id": "8vtcg8np4n8c",
             "name": "Live Transcription",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-09-24T08:47:39.904-07:00",
+            "updated_at": "2026-09-24T13:22:27.227-07:00",
             "position": 9,
             "description": null,
             "showcase": false,
@@ -7142,9 +7202,9 @@
           {
             "id": "8vtcg8np4n8c",
             "name": "Live Transcription",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-09-24T08:47:39.904-07:00",
+            "updated_at": "2026-09-24T13:22:27.227-07:00",
             "position": 9,
             "description": null,
             "showcase": false,
@@ -7601,9 +7661,9 @@
           {
             "id": "8vtcg8np4n8c",
             "name": "Live Transcription",
-            "status": "degraded_performance",
+            "status": "operational",
             "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-09-24T08:47:39.904-07:00",
+            "updated_at": "2026-09-24T13:22:27.227-07:00",
             "position": 9,
             "description": null,
             "showcase": false,
@@ -7871,9 +7931,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-09-24T17:20:25Z"
+    "updated": "2026-09-24T20:41:25Z"
   }
 }
