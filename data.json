@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-24T12:14:27Z"
+    "updated": "2026-09-24T17:20:27Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with Sending and Receiving Messages",
-    "updated": "2026-09-24T12:14:27Z"
+    "updated": "2026-09-24T17:20:27Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-24T07:13:50.384-04:00"
+      "updated_at": "2026-09-24T13:05:43.923-04:00"
     },
     "components": [
       {
@@ -141,9 +141,9 @@
       {
         "id": "xmv0ypc21z1n",
         "name": "Integrations",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2015-01-22T13:20:22.438-05:00",
-        "updated_at": "2026-06-12T14:36:55.777-04:00",
+        "updated_at": "2026-09-24T10:08:34.880-04:00",
         "position": 9,
         "description": "Third-party tools integrated into your HubSpot account.",
         "showcase": false,
@@ -184,13 +184,127 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "glwb56rj5mht",
+        "name": "The Salesforce integration is unavailable for some customers",
+        "status": "identified",
+        "created_at": "2026-09-24T10:08:34.848-04:00",
+        "updated_at": "2026-09-24T13:05:43.913-04:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/wfzsq9v45hzc",
+        "started_at": "2026-09-24T10:08:34.842-04:00",
+        "page_id": "8b9w1wwq3g7d",
+        "incident_updates": [
+          {
+            "id": "hly2ws9q9bj2",
+            "status": "identified",
+            "body": "We have identified the issue with our Salesforce integration. We are continuing to work on restoring full functionality.",
+            "incident_id": "glwb56rj5mht",
+            "created_at": "2026-09-24T13:05:43.911-04:00",
+            "updated_at": "2026-09-24T13:05:43.911-04:00",
+            "display_at": "2026-09-24T13:05:43.911-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "n9mqs7f1gvc4",
+            "status": "identified",
+            "body": "We have identified the issue with our Salesforce integration. We are continuing to work on addressing the cause and restore full functionality.\n\nWe will be back with an update within 30 minutes.",
+            "incident_id": "glwb56rj5mht",
+            "created_at": "2026-09-24T11:46:56.929-04:00",
+            "updated_at": "2026-09-24T11:46:56.929-04:00",
+            "display_at": "2026-09-24T11:46:56.929-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "55c27j4f30xl",
+            "status": "identified",
+            "body": "We have identified the issue with our Salesforce integration causing it to be unavailable for some customers since 9:26AM EST today. We're addressing the cause of this issue and expect all data to refresh once back online.\n\nWe will be back with an update within 1 hour.",
+            "incident_id": "glwb56rj5mht",
+            "created_at": "2026-09-24T11:05:03.284-04:00",
+            "updated_at": "2026-09-24T11:05:03.284-04:00",
+            "display_at": "2026-09-24T11:05:03.284-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "kmtl8dmw8jhw",
+            "status": "identified",
+            "body": "We have identified an issue with our Salesforce integration. Some customers may find that their integration has been unexpectedly disconnected and is temporarily unavailable in the App Marketplace.\n\nWe're actively investigating the cause and working to restore full functionality.",
+            "incident_id": "glwb56rj5mht",
+            "created_at": "2026-09-24T10:08:34.920-04:00",
+            "updated_at": "2026-09-24T13:04:46.107-04:00",
+            "display_at": "2026-09-24T10:08:34.920-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "xmv0ypc21z1n",
+            "name": "Integrations",
+            "status": "partial_outage",
+            "created_at": "2015-01-22T13:20:22.438-05:00",
+            "updated_at": "2026-09-24T10:08:34.880-04:00",
+            "position": 9,
+            "description": "Third-party tools integrated into your HubSpot account.",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Minor Service Outage"
     },
-    "updated": "2026-09-24T12:14:25Z"
+    "updated": "2026-09-24T17:20:25Z"
   },
   "asana": {
     "page": {
@@ -198,7 +312,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-24T10:43:58.740Z"
+      "updated_at": "2026-09-24T16:48:57.447Z"
     },
     "components": [
       {
@@ -500,7 +614,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2020-07-13T15:37:24.240Z",
-        "updated_at": "2026-09-17T15:13:16.351Z",
+        "updated_at": "2026-09-24T14:59:22.000Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -773,7 +887,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-24T12:14:25Z"
+    "updated": "2026-09-24T17:20:25Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +895,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-24T05:07:52.260-07:00"
+      "updated_at": "2026-09-24T09:48:57.256-07:00"
     },
     "components": [
       {
@@ -1342,9 +1456,9 @@
       {
         "id": "jsk0584rpghr",
         "name": "Calling (Inbound/Outbound)",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:46:24.019-07:00",
-        "updated_at": "2026-09-24T04:19:15.077-07:00",
+        "updated_at": "2026-09-24T06:14:35.616-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -1562,9 +1676,9 @@
       {
         "id": "dkz3yppqdg9h",
         "name": "Voice (Inbound/Outbound)",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-03-22T11:20:49.697-07:00",
-        "updated_at": "2026-09-24T04:19:15.101-07:00",
+        "updated_at": "2026-09-24T06:14:35.635-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -3055,7 +3169,7 @@
       {
         "id": "23spl3b8jrnd",
         "name": "Zoom CX - APAC",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-03-22T11:15:14.185-07:00",
         "updated_at": "2026-05-28T18:19:01.669-07:00",
         "position": 6,
@@ -3953,9 +4067,9 @@
       {
         "id": "8vtcg8np4n8c",
         "name": "Live Transcription",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:31:27.476-07:00",
-        "updated_at": "2026-09-23T18:36:56.051-07:00",
+        "updated_at": "2026-09-24T08:47:39.904-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -5059,7 +5173,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -5278,7 +5392,7 @@
       {
         "id": "k4ymzkwr5c5f",
         "name": "Zoom Phone - APAC",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:45:58.944-07:00",
         "updated_at": "2024-08-14T13:40:38.999-07:00",
         "position": 19,
@@ -6145,36 +6259,30 @@
     ],
     "incidents": [
       {
-        "id": "7141vhn0mb9s",
-        "name": "Service Degradation Affecting Zoom Phone and Zoom Contact Center Inbound calls in India",
-        "status": "identified",
-        "created_at": "2026-09-24T04:19:15.029-07:00",
-        "updated_at": "2026-09-24T05:07:52.249-07:00",
+        "id": "xp0ql5vdl4s3",
+        "name": "Service Degradation Affecting Live Transcription Services.",
+        "status": "investigating",
+        "created_at": "2026-09-24T08:47:39.861-07:00",
+        "updated_at": "2026-09-24T09:32:34.245-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
-        "shortlink": "https://stspg.io/q2m1jkbvr4dg",
-        "started_at": "2026-09-24T04:19:15.014-07:00",
+        "shortlink": "https://stspg.io/m8bvpzdcvcjd",
+        "started_at": "2026-09-24T08:47:39.847-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "j7wn2l7rpztz",
-            "status": "identified",
-            "body": "We have identified the issue with our underlying carrier affecting a subset of Airtel subscribers, which is impacting inbound call connectivity to Zoom India phone numbers for Zoom Phone and Zoom Contact Center. Outbound calls continue to function normally.\n\nWe are actively working with our carrier partner to resolve the issue.\n\nWe will share updates as soon as they become available.",
-            "incident_id": "7141vhn0mb9s",
-            "created_at": "2026-09-24T05:07:52.246-07:00",
-            "updated_at": "2026-09-24T05:07:52.246-07:00",
-            "display_at": "2026-09-24T05:07:52.246-07:00",
+            "id": "dnmx5fqz29k2",
+            "status": "investigating",
+            "body": "We are continuing to investigate this issue and will provide updates as soon as there is more information to share.\n\nThank you for your patience.",
+            "incident_id": "xp0ql5vdl4s3",
+            "created_at": "2026-09-24T09:32:34.242-07:00",
+            "updated_at": "2026-09-24T09:32:34.242-07:00",
+            "display_at": "2026-09-24T09:32:34.242-07:00",
             "affected_components": [
               {
-                "code": "jsk0584rpghr",
-                "name": "Zoom Phone - APAC - Calling (Inbound/Outbound)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "dkz3yppqdg9h",
-                "name": "Zoom CX - APAC - Voice (Inbound/Outbound)",
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
                 "old_status": "degraded_performance",
                 "new_status": "degraded_performance"
               }
@@ -6184,23 +6292,17 @@
             "tweet_id": null
           },
           {
-            "id": "4g92vvp4xzyc",
+            "id": "d6z6m4kwdfl6",
             "status": "investigating",
-            "body": "We are currently investigating a service degradation affecting a subset of Airtel subscribers for inbound call connectivity to Zoom India phone numbers for Zoom Phone and Zoom Contact Center. Outbound calls continue to function normally. \n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "7141vhn0mb9s",
-            "created_at": "2026-09-24T04:19:15.167-07:00",
-            "updated_at": "2026-09-24T04:19:15.167-07:00",
-            "display_at": "2026-09-24T04:19:15.167-07:00",
+            "body": "We are currently investigating a service degradation affecting Live Transcription Services.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "xp0ql5vdl4s3",
+            "created_at": "2026-09-24T08:47:39.982-07:00",
+            "updated_at": "2026-09-24T08:47:39.982-07:00",
+            "display_at": "2026-09-24T08:47:39.982-07:00",
             "affected_components": [
               {
-                "code": "jsk0584rpghr",
-                "name": "Zoom Phone - APAC - Calling (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "dkz3yppqdg9h",
-                "name": "Zoom CX - APAC - Voice (Inbound/Outbound)",
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
                 "old_status": "operational",
                 "new_status": "degraded_performance"
               }
@@ -6212,31 +6314,16 @@
         ],
         "components": [
           {
-            "id": "jsk0584rpghr",
-            "name": "Calling (Inbound/Outbound)",
+            "id": "8vtcg8np4n8c",
+            "name": "Live Transcription",
             "status": "degraded_performance",
-            "created_at": "2022-05-03T10:46:24.019-07:00",
-            "updated_at": "2026-09-24T04:19:15.077-07:00",
-            "position": 2,
+            "created_at": "2022-05-03T10:31:27.476-07:00",
+            "updated_at": "2026-09-24T08:47:39.904-07:00",
+            "position": 9,
             "description": null,
             "showcase": false,
             "start_date": "2022-05-03",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "dkz3yppqdg9h",
-            "name": "Voice (Inbound/Outbound)",
-            "status": "degraded_performance",
-            "created_at": "2023-03-22T11:20:49.697-07:00",
-            "updated_at": "2026-09-24T04:19:15.101-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-22",
-            "group_id": "23spl3b8jrnd",
+            "group_id": "6np407v7v25g",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
@@ -6566,9 +6653,9 @@
           {
             "id": "8vtcg8np4n8c",
             "name": "Live Transcription",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-09-23T18:36:56.051-07:00",
+            "updated_at": "2026-09-24T08:47:39.904-07:00",
             "position": 9,
             "description": null,
             "showcase": false,
@@ -7055,9 +7142,9 @@
           {
             "id": "8vtcg8np4n8c",
             "name": "Live Transcription",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-09-23T18:36:56.051-07:00",
+            "updated_at": "2026-09-24T08:47:39.904-07:00",
             "position": 9,
             "description": null,
             "showcase": false,
@@ -7514,9 +7601,9 @@
           {
             "id": "8vtcg8np4n8c",
             "name": "Live Transcription",
-            "status": "operational",
+            "status": "degraded_performance",
             "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-09-23T18:36:56.051-07:00",
+            "updated_at": "2026-09-24T08:47:39.904-07:00",
             "position": 9,
             "description": null,
             "showcase": false,
@@ -7787,6 +7874,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-24T12:14:25Z"
+    "updated": "2026-09-24T17:20:25Z"
   }
 }
