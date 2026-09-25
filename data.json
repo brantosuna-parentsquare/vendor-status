@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-25T07:33:40Z"
+    "updated": "2026-09-25T12:57:59Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with Sending and Receiving Messages",
-    "updated": "2026-09-25T07:33:40Z"
+    "updated": "2026-09-25T12:57:59Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-25T03:29:05.310-04:00"
+      "updated_at": "2026-09-25T08:09:00.665-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-25T07:33:39Z"
+    "updated": "2026-09-25T12:57:58Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-25T07:29:08.503Z"
+      "updated_at": "2026-09-25T12:09:07.006Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-25T07:33:39Z"
+    "updated": "2026-09-25T12:57:58Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-25T00:29:08.364-07:00"
+      "updated_at": "2026-09-25T05:09:06.008-07:00"
     },
     "components": [
       {
@@ -922,9 +922,9 @@
       {
         "id": "glcgf4v63241",
         "name": "Zoom Phone",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:45:58.970-07:00",
-        "updated_at": "2026-08-22T16:00:07.931-07:00",
+        "updated_at": "2026-09-25T04:30:07.703-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -5278,7 +5278,7 @@
       {
         "id": "k4ymzkwr5c5f",
         "name": "Zoom Phone - APAC",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:45:58.944-07:00",
         "updated_at": "2024-08-14T13:40:38.999-07:00",
         "position": 19,
@@ -6143,33 +6143,52 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
-    "scheduled_maintenances": [
+    "incidents": [
       {
-        "id": "jrt1vclbgjdr",
-        "name": "Zoom Phone India Maintenance (Mumbai) : September 25, 2026",
-        "status": "scheduled",
-        "created_at": "2026-09-03T02:47:02.645-07:00",
-        "updated_at": "2026-09-03T02:47:02.744-07:00",
+        "id": "w6yw2bsy2sv5",
+        "name": "An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature",
+        "status": "investigating",
+        "created_at": "2026-09-25T02:20:34.930-07:00",
+        "updated_at": "2026-09-25T04:03:35.262-07:00",
         "monitoring_at": null,
         "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/6jd1msp9tk0q",
-        "started_at": "2026-09-03T02:47:02.633-07:00",
+        "impact": "none",
+        "shortlink": "https://stspg.io/hg6t0sj5dqpg",
+        "started_at": "2026-09-25T02:20:34.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "56sz761xmh56",
-            "status": "scheduled",
-            "body": "Zoom Phone users registered to the India (Mumbai) Data Center will be automatically registered in an alternative datacenter (Hyderabad) starting at 25th September 2026 04:30 AM PDT (5:00 PM IST on 25th September 2026). During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically. \n\nIf you are a BYOC (Bring Your Own Carrier) customer, please ensure that your Session Border Controller (SBC) is configured with alternate routing to alternate India (Hyderabad) Data Center in addition to the India (Mumbai) Data Center. During the maintenance window, connectivity to Zoom’s Mumbai Data Center will be blocked which will force calls from the Session Border Controller (SBC) to failover to Zoom’s India (Hyderabad) Data Center. Traffic will continue to be routed through the Zoom's India (Mumbai) Data Center once the maintenance is completed. \n\nFor customers that use hardware phones, refer to this link for the devices support the alternative datacenter process as described above: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061373#h_01GNZ783VT6YXHES8NSXBA5M9A",
-            "incident_id": "jrt1vclbgjdr",
-            "created_at": "2026-09-03T02:47:02.740-07:00",
-            "updated_at": "2026-09-03T02:47:02.740-07:00",
-            "display_at": "2026-09-03T02:47:02.740-07:00",
+            "id": "8djdyyzcz1xq",
+            "status": "investigating",
+            "body": "We continue to investigate an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "w6yw2bsy2sv5",
+            "created_at": "2026-09-25T04:03:35.260-07:00",
+            "updated_at": "2026-09-25T04:03:35.260-07:00",
+            "display_at": "2026-09-25T04:03:35.260-07:00",
             "affected_components": [
               {
-                "code": "glcgf4v63241",
-                "name": "Zoom Phone - APAC - Zoom Phone",
+                "code": "rsh1v3gbhtsy",
+                "name": "Zoom Meetings - Zoom AI",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "6pzpc0kzg57d",
+            "status": "investigating",
+            "body": "We are currently investigating an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "w6yw2bsy2sv5",
+            "created_at": "2026-09-25T02:20:34.994-07:00",
+            "updated_at": "2026-09-25T03:38:52.675-07:00",
+            "display_at": "2026-09-25T02:20:34.000-07:00",
+            "affected_components": [
+              {
+                "code": "rsh1v3gbhtsy",
+                "name": "Zoom Meetings - Zoom AI",
                 "old_status": "operational",
                 "new_status": "operational"
               }
@@ -6181,24 +6200,25 @@
         ],
         "components": [
           {
-            "id": "glcgf4v63241",
-            "name": "Zoom Phone",
+            "id": "rsh1v3gbhtsy",
+            "name": "Zoom AI",
             "status": "operational",
-            "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-08-22T16:00:07.931-07:00",
-            "position": 1,
+            "created_at": "2023-09-06T17:03:37.897-07:00",
+            "updated_at": "2026-09-21T02:00:07.559-07:00",
+            "position": 21,
             "description": null,
             "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "k4ymzkwr5c5f",
+            "start_date": "2023-09-06",
+            "group_id": "6np407v7v25g",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-09-25T04:30:00.000-07:00",
-        "scheduled_until": "2026-09-25T11:00:00.000-07:00"
-      },
+        "reminder_intervals": null
+      }
+    ],
+    "scheduled_maintenances": [
       {
         "id": "xmjk39vp3hqh",
         "name": "Scheduled Update to Prompt Track Versions for Zoom Clients: September 27, 2026 (No Operational Impact)",
@@ -7152,9 +7172,9 @@
           {
             "id": "glcgf4v63241",
             "name": "Zoom Phone",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-08-22T16:00:07.931-07:00",
+            "updated_at": "2026-09-25T04:30:07.703-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7206,9 +7226,9 @@
           {
             "id": "glcgf4v63241",
             "name": "Zoom Phone",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-08-22T16:00:07.931-07:00",
+            "updated_at": "2026-09-25T04:30:07.703-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7626,12 +7646,99 @@
         ],
         "scheduled_for": "2026-11-07T16:00:00.000-08:00",
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
+      },
+      {
+        "id": "jrt1vclbgjdr",
+        "name": "Zoom Phone India Maintenance (Mumbai) : September 25, 2026",
+        "status": "in_progress",
+        "created_at": "2026-09-03T02:47:02.645-07:00",
+        "updated_at": "2026-09-25T04:30:07.786-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/6jd1msp9tk0q",
+        "started_at": "2026-09-03T02:47:02.633-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "8x71p0db4zbg",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "jrt1vclbgjdr",
+            "created_at": "2026-09-25T04:30:07.781-07:00",
+            "updated_at": "2026-09-25T04:30:07.781-07:00",
+            "display_at": "2026-09-25T04:30:07.781-07:00",
+            "affected_components": [
+              {
+                "code": "glcgf4v63241",
+                "name": "Zoom Phone - APAC - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "85lhqs70137l",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "jrt1vclbgjdr",
+            "created_at": "2026-09-25T03:30:08.714-07:00",
+            "updated_at": "2026-09-25T03:30:08.714-07:00",
+            "display_at": "2026-09-25T03:30:08.714-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "56sz761xmh56",
+            "status": "scheduled",
+            "body": "Zoom Phone users registered to the India (Mumbai) Data Center will be automatically registered in an alternative datacenter (Hyderabad) starting at 25th September 2026 04:30 AM PDT (5:00 PM IST on 25th September 2026). During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically. \n\nIf you are a BYOC (Bring Your Own Carrier) customer, please ensure that your Session Border Controller (SBC) is configured with alternate routing to alternate India (Hyderabad) Data Center in addition to the India (Mumbai) Data Center. During the maintenance window, connectivity to Zoom’s Mumbai Data Center will be blocked which will force calls from the Session Border Controller (SBC) to failover to Zoom’s India (Hyderabad) Data Center. Traffic will continue to be routed through the Zoom's India (Mumbai) Data Center once the maintenance is completed. \n\nFor customers that use hardware phones, refer to this link for the devices support the alternative datacenter process as described above: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061373#h_01GNZ783VT6YXHES8NSXBA5M9A",
+            "incident_id": "jrt1vclbgjdr",
+            "created_at": "2026-09-03T02:47:02.740-07:00",
+            "updated_at": "2026-09-03T02:47:02.740-07:00",
+            "display_at": "2026-09-03T02:47:02.740-07:00",
+            "affected_components": [
+              {
+                "code": "glcgf4v63241",
+                "name": "Zoom Phone - APAC - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "glcgf4v63241",
+            "name": "Zoom Phone",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T10:45:58.970-07:00",
+            "updated_at": "2026-09-25T04:30:07.703-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "k4ymzkwr5c5f",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-09-25T04:30:00.000-07:00",
+        "scheduled_until": "2026-09-25T11:00:00.000-07:00"
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "maintenance",
+      "description": "Service Under Maintenance"
     },
-    "updated": "2026-09-25T07:33:39Z"
+    "updated": "2026-09-25T12:57:58Z"
   }
 }
