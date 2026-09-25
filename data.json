@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-25T17:53:50Z"
+    "updated": "2026-09-25T21:25:25Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issue with Sending and Receiving Messages",
-    "updated": "2026-09-25T17:53:50Z"
+    "updated": "2026-09-25T21:25:25Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-25T12:58:40.780-04:00"
+      "updated_at": "2026-09-25T17:04:49.825-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-25T17:53:49Z"
+    "updated": "2026-09-25T21:25:23Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-25T16:58:43.979Z"
+      "updated_at": "2026-09-25T21:05:00.266Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-25T17:53:49Z"
+    "updated": "2026-09-25T21:25:23Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-25T10:47:17.770-07:00"
+      "updated_at": "2026-09-25T14:17:09.507-07:00"
     },
     "components": [
       {
@@ -922,9 +922,9 @@
       {
         "id": "glcgf4v63241",
         "name": "Zoom Phone",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2022-05-03T10:45:58.970-07:00",
-        "updated_at": "2026-09-25T04:30:07.703-07:00",
+        "updated_at": "2026-09-25T11:00:07.424-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -4843,9 +4843,9 @@
       {
         "id": "5xglgm6kl1dk",
         "name": "Devices (Softphones/Deskphones)",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2024-11-12T10:37:23.606-08:00",
-        "updated_at": "2026-09-25T10:46:58.953-07:00",
+        "updated_at": "2026-09-25T12:11:08.407-07:00",
         "position": 13,
         "description": "Devices (Softphones/Deskphones)",
         "showcase": false,
@@ -4896,6 +4896,21 @@
         "showcase": false,
         "start_date": "2026-08-07",
         "group_id": "9mlg71db7jlp",
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "cfr32f333kg2",
+        "name": "Zoom AICW",
+        "status": "operational",
+        "created_at": "2026-09-25T11:38:38.928-07:00",
+        "updated_at": "2026-09-25T11:38:38.928-07:00",
+        "position": 13,
+        "description": "AI Companion on the Web",
+        "showcase": false,
+        "start_date": "2026-09-25",
+        "group_id": "1ndlrnp6r9js",
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
@@ -5201,7 +5216,7 @@
       {
         "id": "fs7vxs27n4pn",
         "name": "Zoom Phone - Global",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:58:05.236-07:00",
         "updated_at": "2024-08-14T13:40:38.986-07:00",
         "position": 18,
@@ -5278,7 +5293,7 @@
       {
         "id": "k4ymzkwr5c5f",
         "name": "Zoom Phone - APAC",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2022-05-03T10:45:58.944-07:00",
         "updated_at": "2024-08-14T13:40:38.999-07:00",
         "position": 19,
@@ -5743,7 +5758,8 @@
           "wm1bsqy8d9jv",
           "pp5jzy36n7x4",
           "3ykc25ly91v3",
-          "lvvzky5xjwht"
+          "lvvzky5xjwht",
+          "cfr32f333kg2"
         ]
       },
       {
@@ -6145,64 +6161,11 @@
     ],
     "incidents": [
       {
-        "id": "pxxs3nsvn2rx",
-        "name": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
-        "status": "investigating",
-        "created_at": "2026-09-25T10:45:29.107-07:00",
-        "updated_at": "2026-09-25T10:47:17.764-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/4cpggx38p4g2",
-        "started_at": "2026-09-25T10:45:29.000-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "4bgshq7bsx0k",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation with a subset of users with Polycom devices going offline. \n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "pxxs3nsvn2rx",
-            "created_at": "2026-09-25T10:45:29.193-07:00",
-            "updated_at": "2026-09-25T10:47:17.690-07:00",
-            "display_at": "2026-09-25T10:45:29.000-07:00",
-            "affected_components": [
-              {
-                "code": "5xglgm6kl1dk",
-                "name": "Zoom Phone - Global - Devices (Softphones/Deskphones)",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "5xglgm6kl1dk",
-            "name": "Devices (Softphones/Deskphones)",
-            "status": "operational",
-            "created_at": "2024-11-12T10:37:23.606-08:00",
-            "updated_at": "2026-09-25T10:46:58.953-07:00",
-            "position": 13,
-            "description": "Devices (Softphones/Deskphones)",
-            "showcase": false,
-            "start_date": "2024-11-12",
-            "group_id": "fs7vxs27n4pn",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      },
-      {
         "id": "w6yw2bsy2sv5",
         "name": "An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature",
         "status": "investigating",
         "created_at": "2026-09-25T02:20:34.930-07:00",
-        "updated_at": "2026-09-25T08:49:45.153-07:00",
+        "updated_at": "2026-09-25T14:17:09.499-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "none",
@@ -6210,6 +6173,26 @@
         "started_at": "2026-09-25T02:20:34.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "yd1tx95yryyf",
+            "status": "investigating",
+            "body": "We continue to investigate an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "w6yw2bsy2sv5",
+            "created_at": "2026-09-25T14:17:09.496-07:00",
+            "updated_at": "2026-09-25T14:17:09.496-07:00",
+            "display_at": "2026-09-25T14:17:09.496-07:00",
+            "affected_components": [
+              {
+                "code": "rsh1v3gbhtsy",
+                "name": "Zoom Meetings - Zoom AI",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "z5z76rrmvk1f",
             "status": "investigating",
@@ -6303,6 +6286,99 @@
             "showcase": false,
             "start_date": "2023-09-06",
             "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      },
+      {
+        "id": "pxxs3nsvn2rx",
+        "name": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
+        "status": "identified",
+        "created_at": "2026-09-25T10:45:29.107-07:00",
+        "updated_at": "2026-09-25T13:20:04.688-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/4cpggx38p4g2",
+        "started_at": "2026-09-25T10:45:29.000-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "jdxqcqv2wdpm",
+            "status": "identified",
+            "body": "The root cause affecting service degradation with a subset of users with Polycom devices going offline has been identified.\n\nWe will keep you informed with timely updates as progress is made.",
+            "incident_id": "pxxs3nsvn2rx",
+            "created_at": "2026-09-25T13:20:04.685-07:00",
+            "updated_at": "2026-09-25T13:20:04.685-07:00",
+            "display_at": "2026-09-25T13:20:04.685-07:00",
+            "affected_components": [
+              {
+                "code": "5xglgm6kl1dk",
+                "name": "Zoom Phone - Global - Devices (Softphones/Deskphones)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "wm1hy18lzj8f",
+            "status": "investigating",
+            "body": "We are continuing to investigate this issue and will provide updates as soon as there is more information to share.\n\nThank you for your patience.",
+            "incident_id": "pxxs3nsvn2rx",
+            "created_at": "2026-09-25T12:11:08.463-07:00",
+            "updated_at": "2026-09-25T12:11:08.463-07:00",
+            "display_at": "2026-09-25T12:11:08.463-07:00",
+            "affected_components": [
+              {
+                "code": "5xglgm6kl1dk",
+                "name": "Zoom Phone - Global - Devices (Softphones/Deskphones)",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "4bgshq7bsx0k",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation with a subset of users with Polycom devices going offline. \n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "pxxs3nsvn2rx",
+            "created_at": "2026-09-25T10:45:29.193-07:00",
+            "updated_at": "2026-09-25T10:47:17.690-07:00",
+            "display_at": "2026-09-25T10:45:29.000-07:00",
+            "affected_components": [
+              {
+                "code": "5xglgm6kl1dk",
+                "name": "Zoom Phone - Global - Devices (Softphones/Deskphones)",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "5xglgm6kl1dk",
+            "name": "Devices (Softphones/Deskphones)",
+            "status": "degraded_performance",
+            "created_at": "2024-11-12T10:37:23.606-08:00",
+            "updated_at": "2026-09-25T12:11:08.407-07:00",
+            "position": 13,
+            "description": "Devices (Softphones/Deskphones)",
+            "showcase": false,
+            "start_date": "2024-11-12",
+            "group_id": "fs7vxs27n4pn",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
@@ -7265,9 +7341,9 @@
           {
             "id": "glcgf4v63241",
             "name": "Zoom Phone",
-            "status": "under_maintenance",
+            "status": "operational",
             "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-09-25T04:30:07.703-07:00",
+            "updated_at": "2026-09-25T11:00:07.424-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7319,9 +7395,9 @@
           {
             "id": "glcgf4v63241",
             "name": "Zoom Phone",
-            "status": "under_maintenance",
+            "status": "operational",
             "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-09-25T04:30:07.703-07:00",
+            "updated_at": "2026-09-25T11:00:07.424-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7739,99 +7815,12 @@
         ],
         "scheduled_for": "2026-11-07T16:00:00.000-08:00",
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
-      },
-      {
-        "id": "jrt1vclbgjdr",
-        "name": "Zoom Phone India Maintenance (Mumbai) : September 25, 2026",
-        "status": "in_progress",
-        "created_at": "2026-09-03T02:47:02.645-07:00",
-        "updated_at": "2026-09-25T04:30:07.786-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/6jd1msp9tk0q",
-        "started_at": "2026-09-03T02:47:02.633-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "8x71p0db4zbg",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "jrt1vclbgjdr",
-            "created_at": "2026-09-25T04:30:07.781-07:00",
-            "updated_at": "2026-09-25T04:30:07.781-07:00",
-            "display_at": "2026-09-25T04:30:07.781-07:00",
-            "affected_components": [
-              {
-                "code": "glcgf4v63241",
-                "name": "Zoom Phone - APAC - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              }
-            ],
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "85lhqs70137l",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "jrt1vclbgjdr",
-            "created_at": "2026-09-25T03:30:08.714-07:00",
-            "updated_at": "2026-09-25T03:30:08.714-07:00",
-            "display_at": "2026-09-25T03:30:08.714-07:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "56sz761xmh56",
-            "status": "scheduled",
-            "body": "Zoom Phone users registered to the India (Mumbai) Data Center will be automatically registered in an alternative datacenter (Hyderabad) starting at 25th September 2026 04:30 AM PDT (5:00 PM IST on 25th September 2026). During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically. \n\nIf you are a BYOC (Bring Your Own Carrier) customer, please ensure that your Session Border Controller (SBC) is configured with alternate routing to alternate India (Hyderabad) Data Center in addition to the India (Mumbai) Data Center. During the maintenance window, connectivity to Zoom’s Mumbai Data Center will be blocked which will force calls from the Session Border Controller (SBC) to failover to Zoom’s India (Hyderabad) Data Center. Traffic will continue to be routed through the Zoom's India (Mumbai) Data Center once the maintenance is completed. \n\nFor customers that use hardware phones, refer to this link for the devices support the alternative datacenter process as described above: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061373#h_01GNZ783VT6YXHES8NSXBA5M9A",
-            "incident_id": "jrt1vclbgjdr",
-            "created_at": "2026-09-03T02:47:02.740-07:00",
-            "updated_at": "2026-09-03T02:47:02.740-07:00",
-            "display_at": "2026-09-03T02:47:02.740-07:00",
-            "affected_components": [
-              {
-                "code": "glcgf4v63241",
-                "name": "Zoom Phone - APAC - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "glcgf4v63241",
-            "name": "Zoom Phone",
-            "status": "under_maintenance",
-            "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-09-25T04:30:07.703-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-09-25T04:30:00.000-07:00",
-        "scheduled_until": "2026-09-25T11:00:00.000-07:00"
       }
     ],
     "status": {
-      "indicator": "maintenance",
-      "description": "Service Under Maintenance"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-25T17:53:49Z"
+    "updated": "2026-09-25T21:25:23Z"
   }
 }
