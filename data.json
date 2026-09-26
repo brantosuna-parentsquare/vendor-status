@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-26T20:12:13Z"
+    "updated": "2026-09-26T22:58:19Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slackbot button in the top navigation is disappearing",
-    "updated": "2026-09-26T20:12:13Z"
+    "updated": "2026-09-26T22:58:19Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-26T20:12:11Z"
+    "updated": "2026-09-26T22:58:18Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-26T20:12:11Z"
+    "updated": "2026-09-26T22:58:18Z"
   },
   "zoom": {
     "page": {
@@ -7788,6 +7788,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-26T20:12:11Z"
+    "updated": "2026-09-26T22:58:18Z"
   }
 }
