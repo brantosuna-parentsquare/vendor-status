@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-26T04:54:41Z"
+    "updated": "2026-09-26T09:47:03Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slackbot button in the top navigation is disappearing",
-    "updated": "2026-09-26T04:54:41Z"
+    "updated": "2026-09-26T09:47:03Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-26T00:03:50.663-04:00"
+      "updated_at": "2026-09-26T02:29:04.969-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-26T04:54:39Z"
+    "updated": "2026-09-26T09:47:01Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-26T04:03:55.060Z"
+      "updated_at": "2026-09-26T07:53:51.617Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-26T04:54:39Z"
+    "updated": "2026-09-26T09:47:01Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-25T21:03:54.672-07:00"
+      "updated_at": "2026-09-26T00:53:51.173-07:00"
     },
     "components": [
       {
@@ -6165,7 +6165,7 @@
         "name": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
         "status": "identified",
         "created_at": "2026-09-25T10:45:29.107-07:00",
-        "updated_at": "2026-09-25T18:31:22.430-07:00",
+        "updated_at": "2026-09-25T22:32:23.475-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -6173,6 +6173,26 @@
         "started_at": "2026-09-25T10:45:29.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "5dqbfgkd8wjf",
+            "status": "identified",
+            "body": "Our team continue to work with our underlying provider affecting service degradation with a subset of users with Polycom devices going offline.  \n\nWe will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "pxxs3nsvn2rx",
+            "created_at": "2026-09-25T22:32:23.472-07:00",
+            "updated_at": "2026-09-25T22:32:23.472-07:00",
+            "display_at": "2026-09-25T22:32:23.472-07:00",
+            "affected_components": [
+              {
+                "code": "5xglgm6kl1dk",
+                "name": "Zoom Phone - Global - Devices (Softphones/Deskphones)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "tbxk9qt7w9dg",
             "status": "identified",
@@ -6286,159 +6306,6 @@
             "showcase": false,
             "start_date": "2024-11-12",
             "group_id": "fs7vxs27n4pn",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      },
-      {
-        "id": "w6yw2bsy2sv5",
-        "name": "An unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature",
-        "status": "investigating",
-        "created_at": "2026-09-25T02:20:34.930-07:00",
-        "updated_at": "2026-09-25T17:58:58.080-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "none",
-        "shortlink": "https://stspg.io/hg6t0sj5dqpg",
-        "started_at": "2026-09-25T02:20:34.000-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "d2h4yb8lgb42",
-            "status": "investigating",
-            "body": "We continue to investigate an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "w6yw2bsy2sv5",
-            "created_at": "2026-09-25T17:58:58.076-07:00",
-            "updated_at": "2026-09-25T17:58:58.076-07:00",
-            "display_at": "2026-09-25T17:58:58.076-07:00",
-            "affected_components": [
-              {
-                "code": "rsh1v3gbhtsy",
-                "name": "Zoom Meetings - Zoom AI",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "yd1tx95yryyf",
-            "status": "investigating",
-            "body": "We continue to investigate an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "w6yw2bsy2sv5",
-            "created_at": "2026-09-25T14:17:09.496-07:00",
-            "updated_at": "2026-09-25T14:17:09.496-07:00",
-            "display_at": "2026-09-25T14:17:09.496-07:00",
-            "affected_components": [
-              {
-                "code": "rsh1v3gbhtsy",
-                "name": "Zoom Meetings - Zoom AI",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "z5z76rrmvk1f",
-            "status": "investigating",
-            "body": "We continue to investigate an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "w6yw2bsy2sv5",
-            "created_at": "2026-09-25T08:49:45.151-07:00",
-            "updated_at": "2026-09-25T08:49:45.151-07:00",
-            "display_at": "2026-09-25T08:49:45.151-07:00",
-            "affected_components": [
-              {
-                "code": "rsh1v3gbhtsy",
-                "name": "Zoom Meetings - Zoom AI",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "cs1slvhzz71m",
-            "status": "investigating",
-            "body": "We continue to investigate an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "w6yw2bsy2sv5",
-            "created_at": "2026-09-25T06:12:46.591-07:00",
-            "updated_at": "2026-09-25T06:12:46.591-07:00",
-            "display_at": "2026-09-25T06:12:46.591-07:00",
-            "affected_components": [
-              {
-                "code": "rsh1v3gbhtsy",
-                "name": "Zoom Meetings - Zoom AI",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "8djdyyzcz1xq",
-            "status": "investigating",
-            "body": "We continue to investigate an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "w6yw2bsy2sv5",
-            "created_at": "2026-09-25T04:03:35.260-07:00",
-            "updated_at": "2026-09-25T04:03:35.260-07:00",
-            "display_at": "2026-09-25T04:03:35.260-07:00",
-            "affected_components": [
-              {
-                "code": "rsh1v3gbhtsy",
-                "name": "Zoom Meetings - Zoom AI",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "6pzpc0kzg57d",
-            "status": "investigating",
-            "body": "We are currently investigating an unintended pop-up message appear for users in US and Europe regions during initial invocation of Zoom AI’s Catch Me Up feature in Zoom Meetings. \n\nAt this time, Catch Me Up service itself remains fully functional.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "w6yw2bsy2sv5",
-            "created_at": "2026-09-25T02:20:34.994-07:00",
-            "updated_at": "2026-09-25T03:38:52.675-07:00",
-            "display_at": "2026-09-25T02:20:34.000-07:00",
-            "affected_components": [
-              {
-                "code": "rsh1v3gbhtsy",
-                "name": "Zoom Meetings - Zoom AI",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "rsh1v3gbhtsy",
-            "name": "Zoom AI",
-            "status": "operational",
-            "created_at": "2023-09-06T17:03:37.897-07:00",
-            "updated_at": "2026-09-21T02:00:07.559-07:00",
-            "position": 21,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-09-06",
-            "group_id": "6np407v7v25g",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
@@ -7881,6 +7748,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-26T04:54:39Z"
+    "updated": "2026-09-26T09:47:01Z"
   }
 }
