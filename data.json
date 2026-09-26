@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-26T09:47:03Z"
+    "updated": "2026-09-26T13:54:19Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slackbot button in the top navigation is disappearing",
-    "updated": "2026-09-26T09:47:03Z"
+    "updated": "2026-09-26T13:54:19Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-26T02:29:04.969-04:00"
+      "updated_at": "2026-09-26T09:04:00.001-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-26T09:47:01Z"
+    "updated": "2026-09-26T13:54:18Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-26T07:53:51.617Z"
+      "updated_at": "2026-09-26T13:49:21.371Z"
     },
     "components": [
       {
@@ -598,7 +598,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2021-02-01T22:04:27.238Z",
-        "updated_at": "2026-09-26T00:50:20.000Z",
+        "updated_at": "2026-09-26T13:49:20.000Z",
         "position": 5,
         "description": "This component tracks the health of public API webhooks and event stream endpoints.",
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-26T09:47:01Z"
+    "updated": "2026-09-26T13:54:18Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-26T00:53:51.173-07:00"
+      "updated_at": "2026-09-26T06:51:19.488-07:00"
     },
     "components": [
       {
@@ -6165,7 +6165,7 @@
         "name": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
         "status": "identified",
         "created_at": "2026-09-25T10:45:29.107-07:00",
-        "updated_at": "2026-09-25T22:32:23.475-07:00",
+        "updated_at": "2026-09-26T06:51:19.479-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -6173,6 +6173,26 @@
         "started_at": "2026-09-25T10:45:29.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "zxtcs5tl1594",
+            "status": "identified",
+            "body": "Our team continue to work with our underlying provider affecting service degradation with a subset of users with Polycom devices going offline.  \n\nWe will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "pxxs3nsvn2rx",
+            "created_at": "2026-09-26T06:51:19.476-07:00",
+            "updated_at": "2026-09-26T06:51:19.476-07:00",
+            "display_at": "2026-09-26T06:51:19.476-07:00",
+            "affected_components": [
+              {
+                "code": "5xglgm6kl1dk",
+                "name": "Zoom Phone - Global - Devices (Softphones/Deskphones)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "5dqbfgkd8wjf",
             "status": "identified",
@@ -7748,6 +7768,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-26T09:47:01Z"
+    "updated": "2026-09-26T13:54:18Z"
   }
 }
