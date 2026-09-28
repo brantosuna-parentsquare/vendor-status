@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-27T23:08:36Z"
+    "updated": "2026-09-28T01:40:56Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slackbot button in the top navigation is disappearing",
-    "updated": "2026-09-27T23:08:36Z"
+    "updated": "2026-09-28T01:40:56Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-27T18:26:01.952-04:00"
+      "updated_at": "2026-09-27T20:04:15.285-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-27T23:08:35Z"
+    "updated": "2026-09-28T01:40:54Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-27T21:37:01.602Z"
+      "updated_at": "2026-09-28T00:04:20.275Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-27T23:08:35Z"
+    "updated": "2026-09-28T01:40:54Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-27T14:37:00.884-07:00"
+      "updated_at": "2026-09-27T18:19:15.140-07:00"
     },
     "components": [
       {
@@ -1282,9 +1282,9 @@
       {
         "id": "9skbqhkvk721",
         "name": "Download Center & Clients",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2018-05-17T11:29:26.349-07:00",
-        "updated_at": "2026-09-24T21:00:07.592-07:00",
+        "updated_at": "2026-09-27T18:00:07.427-07:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -5736,7 +5736,7 @@
       {
         "id": "1ndlrnp6r9js",
         "name": "Zoom Website",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2020-03-17T15:25:42.214-07:00",
         "updated_at": "2026-01-08T10:55:09.952-08:00",
         "position": 30,
@@ -6165,7 +6165,7 @@
         "name": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
         "status": "identified",
         "created_at": "2026-09-25T10:45:29.107-07:00",
-        "updated_at": "2026-09-27T03:44:13.076-07:00",
+        "updated_at": "2026-09-27T18:19:15.129-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -6173,6 +6173,26 @@
         "started_at": "2026-09-25T10:45:29.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "kq793lj6qj87",
+            "status": "identified",
+            "body": "We are continuing to work with our underlying provider to address the subset of remaining devices that are showing offline. \n\nWe will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "pxxs3nsvn2rx",
+            "created_at": "2026-09-27T18:19:15.126-07:00",
+            "updated_at": "2026-09-27T18:19:15.126-07:00",
+            "display_at": "2026-09-27T18:19:15.126-07:00",
+            "affected_components": [
+              {
+                "code": "5xglgm6kl1dk",
+                "name": "Zoom Phone - Global - Devices (Softphones/Deskphones)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "zj10614835p4",
             "status": "identified",
@@ -6395,60 +6415,6 @@
       }
     ],
     "scheduled_maintenances": [
-      {
-        "id": "xmjk39vp3hqh",
-        "name": "Scheduled Update to Prompt Track Versions for Zoom Clients: September 27, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-09-17T16:40:53.542-07:00",
-        "updated_at": "2026-09-17T16:40:53.641-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/7277mrvl8jzp",
-        "started_at": "2026-09-17T16:40:53.530-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "yk6ws168cfyk",
-            "status": "scheduled",
-            "body": "Zoom will be updating the Prompt track versions for Zoom clients on 9/27/2026.\n\nSlow channel updates:\n\nWindows: 7.1.9\n\nmacOS: 7.1.9\n\nLinux: 7.1.9\n\nFor more information, such as specific versions, please refer to the Zoom Minimum, Prompted, and Slow/Fast Update Versions support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061900",
-            "incident_id": "xmjk39vp3hqh",
-            "created_at": "2026-09-17T16:40:53.637-07:00",
-            "updated_at": "2026-09-17T16:40:53.637-07:00",
-            "display_at": "2026-09-17T16:40:53.637-07:00",
-            "affected_components": [
-              {
-                "code": "9skbqhkvk721",
-                "name": "Zoom Website - Download Center & Clients",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "9skbqhkvk721",
-            "name": "Download Center & Clients",
-            "status": "operational",
-            "created_at": "2018-05-17T11:29:26.349-07:00",
-            "updated_at": "2026-09-24T21:00:07.592-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-09-27T18:00:00.000-07:00",
-        "scheduled_until": "2026-09-27T21:00:00.000-07:00"
-      },
       {
         "id": "c53cnvl7jl4r",
         "name": "Network Maintenance in SJC Datacenter: September 27, 2026",
@@ -7807,9 +7773,9 @@
           {
             "id": "9skbqhkvk721",
             "name": "Download Center & Clients",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2018-05-17T11:29:26.349-07:00",
-            "updated_at": "2026-09-24T21:00:07.592-07:00",
+            "updated_at": "2026-09-27T18:00:07.427-07:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -7822,12 +7788,99 @@
         ],
         "scheduled_for": "2026-11-07T16:00:00.000-08:00",
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
+      },
+      {
+        "id": "xmjk39vp3hqh",
+        "name": "Scheduled Update to Prompt Track Versions for Zoom Clients: September 27, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-09-17T16:40:53.542-07:00",
+        "updated_at": "2026-09-27T18:00:07.762-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/7277mrvl8jzp",
+        "started_at": "2026-09-17T16:40:53.530-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "zc17gn9nmld0",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "xmjk39vp3hqh",
+            "created_at": "2026-09-27T18:00:07.737-07:00",
+            "updated_at": "2026-09-27T18:00:07.737-07:00",
+            "display_at": "2026-09-27T18:00:07.737-07:00",
+            "affected_components": [
+              {
+                "code": "9skbqhkvk721",
+                "name": "Zoom Website - Download Center & Clients",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "9rblc09pbm59",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "xmjk39vp3hqh",
+            "created_at": "2026-09-27T17:00:14.717-07:00",
+            "updated_at": "2026-09-27T17:00:14.717-07:00",
+            "display_at": "2026-09-27T17:00:14.717-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "yk6ws168cfyk",
+            "status": "scheduled",
+            "body": "Zoom will be updating the Prompt track versions for Zoom clients on 9/27/2026.\n\nSlow channel updates:\n\nWindows: 7.1.9\n\nmacOS: 7.1.9\n\nLinux: 7.1.9\n\nFor more information, such as specific versions, please refer to the Zoom Minimum, Prompted, and Slow/Fast Update Versions support article: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061900",
+            "incident_id": "xmjk39vp3hqh",
+            "created_at": "2026-09-17T16:40:53.637-07:00",
+            "updated_at": "2026-09-17T16:40:53.637-07:00",
+            "display_at": "2026-09-17T16:40:53.637-07:00",
+            "affected_components": [
+              {
+                "code": "9skbqhkvk721",
+                "name": "Zoom Website - Download Center & Clients",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "9skbqhkvk721",
+            "name": "Download Center & Clients",
+            "status": "under_maintenance",
+            "created_at": "2018-05-17T11:29:26.349-07:00",
+            "updated_at": "2026-09-27T18:00:07.427-07:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "1ndlrnp6r9js",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-09-27T18:00:00.000-07:00",
+        "scheduled_until": "2026-09-27T21:00:00.000-07:00"
       }
     ],
     "status": {
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-27T23:08:35Z"
+    "updated": "2026-09-28T01:40:54Z"
   }
 }
