@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-30T15:23:43Z"
+    "updated": "2026-09-30T20:14:57Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slackbot and AI-powered features",
-    "updated": "2026-09-30T15:23:43Z"
+    "updated": "2026-09-30T20:14:57Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-30T15:23:41Z"
+    "updated": "2026-09-30T20:14:56Z"
   },
   "asana": {
     "page": {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-30T15:23:41Z"
+    "updated": "2026-09-30T20:14:56Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-30T07:44:55.060-07:00"
+      "updated_at": "2026-09-30T11:04:50.484-07:00"
     },
     "components": [
       {
@@ -7408,86 +7408,12 @@
         ],
         "scheduled_for": "2026-11-07T16:00:00.000-08:00",
         "scheduled_until": "2026-11-07T17:00:00.000-08:00"
-      },
-      {
-        "id": "35vym7gg074s",
-        "name": "Zoom Phone Maintenance - EU01 - AMS2 Data Center: September 28, 2026",
-        "status": "in_progress",
-        "created_at": "2026-09-10T13:43:45.472-07:00",
-        "updated_at": "2026-09-28T09:00:08.568-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/hqz49hdl104p",
-        "started_at": "2026-09-10T13:43:45.459-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "vyz6vp0s51xr",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "35vym7gg074s",
-            "created_at": "2026-09-28T09:00:08.530-07:00",
-            "updated_at": "2026-09-28T09:00:08.530-07:00",
-            "display_at": "2026-09-28T09:00:08.530-07:00",
-            "affected_components": [
-              {
-                "code": "773zkp1jzkgl",
-                "name": "Zoom Phone - EMEA - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              }
-            ],
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "9p083v512z24",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at our EU01-AMS2 Data Center starting at 9:00 AM Pacific on September 28, 2026. Zoom Phone users registered to the those sip zones will be automatically registered in the EU01-FRA2 sip zone sequentially. During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
-            "incident_id": "35vym7gg074s",
-            "created_at": "2026-09-10T13:43:45.596-07:00",
-            "updated_at": "2026-09-10T13:43:45.596-07:00",
-            "display_at": "2026-09-10T13:43:45.596-07:00",
-            "affected_components": [
-              {
-                "code": "773zkp1jzkgl",
-                "name": "Zoom Phone - EMEA - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "773zkp1jzkgl",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:43:27.197-07:00",
-            "updated_at": "2026-09-29T18:07:06.903-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-09-28T09:00:00.000-07:00",
-        "scheduled_until": "2026-09-30T21:30:00.000-07:00"
       }
     ],
     "status": {
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-30T15:23:41Z"
+    "updated": "2026-09-30T20:14:56Z"
   }
 }
