@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-30T08:43:10Z"
+    "updated": "2026-09-30T15:23:43Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slackbot and AI-powered features",
-    "updated": "2026-09-30T08:43:10Z"
+    "updated": "2026-09-30T15:23:43Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-30T01:29:16.416-04:00"
+      "updated_at": "2026-09-30T10:44:50.724-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-30T08:43:08Z"
+    "updated": "2026-09-30T15:23:41Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-30T05:29:21.001Z"
+      "updated_at": "2026-09-30T15:21:41.930Z"
     },
     "components": [
       {
@@ -304,7 +304,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-09-19T02:04:36.000Z",
+        "updated_at": "2026-09-30T15:21:10.704Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -402,7 +402,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2017-10-11T17:33:59.640Z",
-        "updated_at": "2026-09-17T15:13:16.338Z",
+        "updated_at": "2026-09-30T15:21:10.732Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -598,7 +598,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2021-02-01T22:04:27.238Z",
-        "updated_at": "2026-09-26T13:49:20.000Z",
+        "updated_at": "2026-09-30T14:52:19.000Z",
         "position": 5,
         "description": "This component tracks the health of public API webhooks and event stream endpoints.",
         "showcase": true,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-30T08:43:08Z"
+    "updated": "2026-09-30T15:23:41Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-29T22:29:20.519-07:00"
+      "updated_at": "2026-09-30T07:44:55.060-07:00"
     },
     "components": [
       {
@@ -7488,6 +7488,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-30T08:43:08Z"
+    "updated": "2026-09-30T15:23:41Z"
   }
 }
