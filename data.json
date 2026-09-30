@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-30T02:11:38Z"
+    "updated": "2026-09-30T08:43:10Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slackbot and AI-powered features",
-    "updated": "2026-09-30T02:11:38Z"
+    "updated": "2026-09-30T08:43:10Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-29T18:59:25.761-04:00"
+      "updated_at": "2026-09-30T01:29:16.416-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-30T02:11:36Z"
+    "updated": "2026-09-30T08:43:08Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-29T23:00:07.682Z"
+      "updated_at": "2026-09-30T05:29:21.001Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-30T02:11:36Z"
+    "updated": "2026-09-30T08:43:08Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-29T18:30:48.713-07:00"
+      "updated_at": "2026-09-29T22:29:20.519-07:00"
     },
     "components": [
       {
@@ -6157,6 +6157,21 @@
         "page_id": "14qjgk812kgk",
         "group": false,
         "only_show_if_degraded": false
+      },
+      {
+        "id": "bzyf9h4l9c1l",
+        "name": "Zoom AI Services (ZAS)",
+        "status": "operational",
+        "created_at": "2026-09-29T19:14:14.874-07:00",
+        "updated_at": "2026-09-29T19:14:14.874-07:00",
+        "position": 56,
+        "description": null,
+        "showcase": false,
+        "start_date": "2026-09-29",
+        "group_id": null,
+        "page_id": "14qjgk812kgk",
+        "group": false,
+        "only_show_if_degraded": false
       }
     ],
     "incidents": [
@@ -7473,6 +7488,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-30T02:11:36Z"
+    "updated": "2026-09-30T08:43:08Z"
   }
 }
