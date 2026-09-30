@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-09-30T20:14:57Z"
+    "updated": "2026-09-30T23:57:47Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slackbot and AI-powered features",
-    "updated": "2026-09-30T20:14:57Z"
+    "updated": "2026-09-30T23:57:47Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-09-30T10:44:50.724-04:00"
+      "updated_at": "2026-09-30T19:09:10.881-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-30T20:14:56Z"
+    "updated": "2026-09-30T23:57:46Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-09-30T15:21:41.930Z"
+      "updated_at": "2026-09-30T23:09:15.226Z"
     },
     "components": [
       {
@@ -304,7 +304,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-09-30T15:21:10.704Z",
+        "updated_at": "2026-09-30T21:11:54.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -342,7 +342,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T18:04:15.542Z",
-        "updated_at": "2026-09-29T15:25:57.417Z",
+        "updated_at": "2026-09-30T21:11:36.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -357,7 +357,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:57:20.666Z",
-        "updated_at": "2026-09-19T02:04:48.000Z",
+        "updated_at": "2026-09-30T21:11:42.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -372,7 +372,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:59:03.964Z",
-        "updated_at": "2026-09-19T02:04:54.000Z",
+        "updated_at": "2026-09-30T21:11:48.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -387,7 +387,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-09-19T02:04:42.000Z",
+        "updated_at": "2026-09-30T21:15:00.000Z",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-09-30T20:14:56Z"
+    "updated": "2026-09-30T23:57:46Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-09-30T11:04:50.484-07:00"
+      "updated_at": "2026-09-30T16:09:14.981-07:00"
     },
     "components": [
       {
@@ -7414,6 +7414,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-09-30T20:14:56Z"
+    "updated": "2026-09-30T23:57:46Z"
   }
 }
