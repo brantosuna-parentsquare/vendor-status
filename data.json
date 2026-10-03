@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-03T20:08:07Z"
+    "updated": "2026-10-03T23:05:14Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slackbot and AI-powered features",
-    "updated": "2026-10-03T20:08:07Z"
+    "updated": "2026-10-03T23:05:14Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-03T15:20:29.404-04:00"
+      "updated_at": "2026-10-03T17:10:46.061-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-03T20:08:06Z"
+    "updated": "2026-10-03T23:05:13Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-03T19:21:15.584Z"
+      "updated_at": "2026-10-03T21:10:50.678Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-03T20:08:06Z"
+    "updated": "2026-10-03T23:05:13Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-03T12:21:09.042-07:00"
+      "updated_at": "2026-10-03T14:10:50.501-07:00"
     },
     "components": [
       {
@@ -7548,6 +7548,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-10-03T20:08:06Z"
+    "updated": "2026-10-03T23:05:13Z"
   }
 }
