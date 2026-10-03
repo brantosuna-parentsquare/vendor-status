@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-03T17:27:12Z"
+    "updated": "2026-10-03T20:08:07Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slackbot and AI-powered features",
-    "updated": "2026-10-03T17:27:12Z"
+    "updated": "2026-10-03T20:08:07Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-03T12:24:06.970-04:00"
+      "updated_at": "2026-10-03T15:20:29.404-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-03T17:27:11Z"
+    "updated": "2026-10-03T20:08:06Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-03T16:24:11.262Z"
+      "updated_at": "2026-10-03T19:21:15.584Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-03T17:27:11Z"
+    "updated": "2026-10-03T20:08:06Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-03T10:20:45.066-07:00"
+      "updated_at": "2026-10-03T12:21:09.042-07:00"
     },
     "components": [
       {
@@ -2740,9 +2740,9 @@
       {
         "id": "ghvwvn740dg7",
         "name": "Developer Documentation Website",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-08-09T23:29:17.605-07:00",
-        "updated_at": "2026-10-03T09:49:15.607-07:00",
+        "updated_at": "2026-10-03T11:18:24.320-07:00",
         "position": 5,
         "description": null,
         "showcase": false,
@@ -4653,7 +4653,7 @@
       {
         "id": "dhtlfcvrh3qh",
         "name": "Zoom Developer Platform",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2020-04-06T15:25:04.810-07:00",
         "updated_at": "2024-05-30T17:17:35.349-07:00",
         "position": 12,
@@ -6176,79 +6176,6 @@
     ],
     "incidents": [
       {
-        "id": "q8n9qzvl5p5x",
-        "name": "Service degradation affecting Developer Documentation Website",
-        "status": "identified",
-        "created_at": "2026-10-03T09:49:15.559-07:00",
-        "updated_at": "2026-10-03T10:15:28.107-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/rp1z0hg3q78r",
-        "started_at": "2026-10-03T09:49:15.551-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "0vw4937s2pmq",
-            "status": "identified",
-            "body": "We have successfully identified the root cause affecting users ability to access documentation from the Developer Documentation Website.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "q8n9qzvl5p5x",
-            "created_at": "2026-10-03T10:15:28.105-07:00",
-            "updated_at": "2026-10-03T10:15:28.105-07:00",
-            "display_at": "2026-10-03T10:15:28.105-07:00",
-            "affected_components": [
-              {
-                "code": "ghvwvn740dg7",
-                "name": "Zoom Developer Platform - Developer Documentation Website",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "y01j5rcmnh0m",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation affecting users ability to access documentation from Developer Documentation Website.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "q8n9qzvl5p5x",
-            "created_at": "2026-10-03T09:49:15.663-07:00",
-            "updated_at": "2026-10-03T09:49:15.663-07:00",
-            "display_at": "2026-10-03T09:49:15.663-07:00",
-            "affected_components": [
-              {
-                "code": "ghvwvn740dg7",
-                "name": "Zoom Developer Platform - Developer Documentation Website",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "ghvwvn740dg7",
-            "name": "Developer Documentation Website",
-            "status": "degraded_performance",
-            "created_at": "2023-08-09T23:29:17.605-07:00",
-            "updated_at": "2026-10-03T09:49:15.607-07:00",
-            "position": 5,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-08-09",
-            "group_id": "dhtlfcvrh3qh",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      },
-      {
         "id": "pxxs3nsvn2rx",
         "name": "Service Degradation Affecting Customer Using Polycom Devices Going Offline",
         "status": "identified",
@@ -7621,6 +7548,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-10-03T17:27:11Z"
+    "updated": "2026-10-03T20:08:06Z"
   }
 }
