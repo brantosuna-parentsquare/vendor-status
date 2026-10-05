@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-05T14:19:49Z"
+    "updated": "2026-10-05T21:32:22Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slackbot and AI-powered features",
-    "updated": "2026-10-05T14:19:49Z"
+    "updated": "2026-10-05T21:32:22Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-05T08:22:57.731-04:00"
+      "updated_at": "2026-10-05T16:24:17.438-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-05T14:19:47Z"
+    "updated": "2026-10-05T21:32:21Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-05T12:23:08.106Z"
+      "updated_at": "2026-10-05T20:24:22.864Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-05T14:19:47Z"
+    "updated": "2026-10-05T21:32:21Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-05T05:23:07.296-07:00"
+      "updated_at": "2026-10-05T13:24:22.668-07:00"
     },
     "components": [
       {
@@ -952,9 +952,9 @@
       {
         "id": "yrt9l9s4twjl",
         "name": "Zoom Phone",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:50:25.396-07:00",
-        "updated_at": "2026-09-20T10:00:07.776-07:00",
+        "updated_at": "2026-10-05T09:00:07.161-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -5487,7 +5487,7 @@
       {
         "id": "r6hzm1tntmq3",
         "name": "Zoom Phone - JAPAN",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:50:25.378-07:00",
         "updated_at": "2024-08-14T13:40:39.051-07:00",
         "position": 23,
@@ -6571,60 +6571,6 @@
     ],
     "scheduled_maintenances": [
       {
-        "id": "3mrg6n0tn69g",
-        "name": "Zoom Phone Maintenance - NRT3 Data Center: October 5, 2026",
-        "status": "scheduled",
-        "created_at": "2026-09-15T16:32:41.869-07:00",
-        "updated_at": "2026-09-15T16:32:41.970-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/x2f87z266sjh",
-        "started_at": "2026-09-15T16:32:41.857-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "ckc9yz2lpqft",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at our NRT3 Data Center starting at 9:00 AM Pacific on October 5, 2026.  Zoom Phone users registered to the those sip zones will be automatically registered in the KIX3 sip zone sequentially.  During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
-            "incident_id": "3mrg6n0tn69g",
-            "created_at": "2026-09-15T16:32:41.966-07:00",
-            "updated_at": "2026-09-15T16:32:41.966-07:00",
-            "display_at": "2026-09-15T16:32:41.966-07:00",
-            "affected_components": [
-              {
-                "code": "yrt9l9s4twjl",
-                "name": "Zoom Phone - JAPAN - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yrt9l9s4twjl",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:50:25.396-07:00",
-            "updated_at": "2026-09-20T10:00:07.776-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "r6hzm1tntmq3",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-10-05T09:00:00.000-07:00",
-        "scheduled_until": "2026-10-06T23:30:00.000-07:00"
-      },
-      {
         "id": "wc683vmmf5dy",
         "name": "Zoom Chat Update: October 06, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -7298,12 +7244,86 @@
         ],
         "scheduled_for": "2026-11-09T09:00:00.000-08:00",
         "scheduled_until": "2026-11-11T23:30:00.000-08:00"
+      },
+      {
+        "id": "3mrg6n0tn69g",
+        "name": "Zoom Phone Maintenance - NRT3 Data Center: October 5, 2026",
+        "status": "in_progress",
+        "created_at": "2026-09-15T16:32:41.869-07:00",
+        "updated_at": "2026-10-05T09:00:07.271-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/x2f87z266sjh",
+        "started_at": "2026-09-15T16:32:41.857-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "3n86nmc0xqh2",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "3mrg6n0tn69g",
+            "created_at": "2026-10-05T09:00:07.266-07:00",
+            "updated_at": "2026-10-05T09:00:07.266-07:00",
+            "display_at": "2026-10-05T09:00:07.266-07:00",
+            "affected_components": [
+              {
+                "code": "yrt9l9s4twjl",
+                "name": "Zoom Phone - JAPAN - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "ckc9yz2lpqft",
+            "status": "scheduled",
+            "body": "Zoom will perform service maintenance at our NRT3 Data Center starting at 9:00 AM Pacific on October 5, 2026.  Zoom Phone users registered to the those sip zones will be automatically registered in the KIX3 sip zone sequentially.  During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
+            "incident_id": "3mrg6n0tn69g",
+            "created_at": "2026-09-15T16:32:41.966-07:00",
+            "updated_at": "2026-09-15T16:32:41.966-07:00",
+            "display_at": "2026-09-15T16:32:41.966-07:00",
+            "affected_components": [
+              {
+                "code": "yrt9l9s4twjl",
+                "name": "Zoom Phone - JAPAN - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yrt9l9s4twjl",
+            "name": "Zoom Phone",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T10:50:25.396-07:00",
+            "updated_at": "2026-10-05T09:00:07.161-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "r6hzm1tntmq3",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-10-05T09:00:00.000-07:00",
+        "scheduled_until": "2026-10-06T23:30:00.000-07:00"
       }
     ],
     "status": {
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-10-05T14:19:47Z"
+    "updated": "2026-10-05T21:32:21Z"
   }
 }
