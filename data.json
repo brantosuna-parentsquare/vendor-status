@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-06T01:53:26Z"
+    "updated": "2026-10-06T08:50:31Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: Trouble with Slackbot and AI-powered features",
-    "updated": "2026-10-06T01:53:26Z"
+    "latest_title": "Incident: Trouble Sending Messages",
+    "updated": "2026-10-06T08:50:31Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-05T21:09:18.020-04:00"
+      "updated_at": "2026-10-06T02:24:12.362-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-06T01:53:24Z"
+    "updated": "2026-10-06T08:50:30Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-06T01:09:22.462Z"
+      "updated_at": "2026-10-06T08:39:05.719Z"
     },
     "components": [
       {
@@ -317,7 +317,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -415,9 +415,9 @@
       {
         "id": "xkbfplxg5q8p",
         "name": "Mobile",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-10-01T10:10:04.000Z",
+        "updated_at": "2026-10-06T08:39:03.000Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -770,10 +770,10 @@
     "incidents": [],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Minor Service Outage"
     },
-    "updated": "2026-10-06T01:53:24Z"
+    "updated": "2026-10-06T08:50:30Z"
   },
   "zoom": {
     "page": {
@@ -781,7 +781,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-05T18:31:53.144-07:00"
+      "updated_at": "2026-10-05T22:16:13.064-07:00"
     },
     "components": [
       {
@@ -6703,7 +6703,7 @@
         "name": "Zoom Phone India Maintenance (Hyderabad Data Center): October 09, 2026",
         "status": "scheduled",
         "created_at": "2026-09-16T09:14:59.859-07:00",
-        "updated_at": "2026-09-16T09:14:59.964-07:00",
+        "updated_at": "2026-10-05T22:16:13.058-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -6750,7 +6750,7 @@
           }
         ],
         "scheduled_for": "2026-10-09T04:30:00.000-07:00",
-        "scheduled_until": "2026-10-09T11:00:00.000-07:00"
+        "scheduled_until": "2026-10-10T10:30:00.000-07:00"
       },
       {
         "id": "hh7k748cjhjf",
@@ -7344,6 +7344,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-10-06T01:53:24Z"
+    "updated": "2026-10-06T08:50:30Z"
   }
 }
