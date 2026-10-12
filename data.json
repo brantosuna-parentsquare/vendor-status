@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-12T01:38:56Z"
+    "updated": "2026-10-12T08:02:29Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users may experience delays due to increased load on bychan keyspace affecting system performance",
-    "updated": "2026-10-12T01:38:56Z"
+    "updated": "2026-10-12T08:02:29Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-11T21:09:11.354-04:00"
+      "updated_at": "2026-10-12T03:28:23.463-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-12T01:38:54Z"
+    "updated": "2026-10-12T08:02:27Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-12T01:09:15.544Z"
+      "updated_at": "2026-10-12T07:28:41.874Z"
     },
     "components": [
       {
@@ -773,7 +773,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-12T01:38:54Z"
+    "updated": "2026-10-12T08:02:27Z"
   },
   "zoom": {
     "page": {
@@ -781,15 +781,15 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-11T18:09:15.091-07:00"
+      "updated_at": "2026-10-12T00:28:40.912-07:00"
     },
     "components": [
       {
         "id": "3z7b6jks10hm",
         "name": "Zoom Meetings",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2015-01-26T15:04:39.101-08:00",
-        "updated_at": "2026-10-05T02:00:08.392-07:00",
+        "updated_at": "2026-10-11T22:00:07.637-07:00",
         "position": 1,
         "description": "Access to meetings",
         "showcase": false,
@@ -862,9 +862,9 @@
       {
         "id": "xtgr15yv6hbn",
         "name": "Zoom Rooms",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2021-05-18T07:12:19.400-07:00",
-        "updated_at": "2026-10-05T02:00:09.952-07:00",
+        "updated_at": "2026-10-11T22:00:07.942-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -877,9 +877,9 @@
       {
         "id": "vttvjkwmdfps",
         "name": "Zoom Contact Center",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-03-18T10:03:55.317-07:00",
-        "updated_at": "2026-10-05T02:00:10.866-07:00",
+        "updated_at": "2026-10-11T22:00:08.410-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -3953,9 +3953,9 @@
       {
         "id": "8vtcg8np4n8c",
         "name": "Live Transcription",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:31:27.476-07:00",
-        "updated_at": "2026-10-05T02:00:11.594-07:00",
+        "updated_at": "2026-10-11T22:00:08.847-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -4488,7 +4488,7 @@
       {
         "id": "pdcbftj9pg7j",
         "name": "Zoom CX - NORTH AMERICA",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T11:17:28.735-07:00",
         "updated_at": "2025-07-10T17:12:06.456-07:00",
         "position": 11,
@@ -4654,9 +4654,9 @@
       {
         "id": "rhmrtnvc7xrt",
         "name": "Live Streaming",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2020-03-22T12:21:48.196-07:00",
-        "updated_at": "2026-10-05T02:00:12.498-07:00",
+        "updated_at": "2026-10-11T22:00:09.370-07:00",
         "position": 12,
         "description": null,
         "showcase": false,
@@ -4814,9 +4814,9 @@
       {
         "id": "ntdt65v1f9rv",
         "name": "Meeting Dial-in/Telephony",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2015-01-26T15:08:50.964-08:00",
-        "updated_at": "2026-10-05T02:00:13.639-07:00",
+        "updated_at": "2026-10-11T22:00:09.826-07:00",
         "position": 13,
         "description": "Access to Telephony Services",
         "showcase": false,
@@ -4934,9 +4934,9 @@
       {
         "id": "3ml2fn8g0psv",
         "name": "Zoom Conference Room Connector",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2015-01-26T15:08:04.212-08:00",
-        "updated_at": "2026-10-05T02:00:14.556-07:00",
+        "updated_at": "2026-10-11T22:00:10.884-07:00",
         "position": 14,
         "description": "Access for H.323/SIP endpoints",
         "showcase": false,
@@ -5024,9 +5024,9 @@
       {
         "id": "gkx8x46kw77h",
         "name": "Recording",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2020-03-17T15:29:33.741-07:00",
-        "updated_at": "2026-10-05T02:00:15.550-07:00",
+        "updated_at": "2026-10-11T22:00:12.340-07:00",
         "position": 15,
         "description": null,
         "showcase": false,
@@ -5105,7 +5105,7 @@
       {
         "id": "6np407v7v25g",
         "name": "Zoom Meetings",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:27:40.432-07:00",
         "updated_at": "2024-08-14T13:40:38.963-07:00",
         "position": 16,
@@ -5366,9 +5366,9 @@
       {
         "id": "q4msk5dl4bhm",
         "name": "Zoom Webinars",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2015-01-26T15:04:39.115-08:00",
-        "updated_at": "2026-10-05T02:00:16.346-07:00",
+        "updated_at": "2026-10-11T22:00:12.986-07:00",
         "position": 20,
         "description": "Access to video webinars",
         "showcase": false,
@@ -5449,9 +5449,9 @@
       {
         "id": "rsh1v3gbhtsy",
         "name": "Zoom AI",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2023-09-06T17:03:37.897-07:00",
-        "updated_at": "2026-10-05T02:00:17.439-07:00",
+        "updated_at": "2026-10-11T22:00:13.818-07:00",
         "position": 21,
         "description": null,
         "showcase": false,
@@ -5688,7 +5688,7 @@
       {
         "id": "xxngg08dxtpq",
         "name": "Zoom Rooms",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T11:03:01.142-07:00",
         "updated_at": "2024-08-14T13:40:39.102-07:00",
         "position": 27,
@@ -6209,249 +6209,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "hh7k748cjhjf",
-        "name": "Network Maintenance in SJC Datacenter: October 11, 2026",
-        "status": "scheduled",
-        "created_at": "2026-08-31T09:17:42.430-07:00",
-        "updated_at": "2026-08-31T09:17:42.551-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/489pslmj0qhs",
-        "started_at": "2026-08-31T09:17:42.395-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "fdkdj8qympv4",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at SJC Datacenter. During the maintenance window, Users may experience an impact for a brief amount of time for services mentioned.",
-            "incident_id": "hh7k748cjhjf",
-            "created_at": "2026-08-31T09:17:42.546-07:00",
-            "updated_at": "2026-08-31T09:17:42.546-07:00",
-            "display_at": "2026-08-31T09:17:42.546-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "8vtcg8np4n8c",
-                "name": "Zoom Meetings - Live Transcription",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "rhmrtnvc7xrt",
-                "name": "Zoom Meetings - Live Streaming",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "3ml2fn8g0psv",
-                "name": "Zoom Meetings - Zoom Conference Room Connector",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "gkx8x46kw77h",
-                "name": "Zoom Meetings - Recording",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "q4msk5dl4bhm",
-                "name": "Zoom Meetings - Zoom Webinars",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "rsh1v3gbhtsy",
-                "name": "Zoom Meetings - Zoom AI",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vttvjkwmdfps",
-                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-10-05T02:00:08.392-07:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "xtgr15yv6hbn",
-            "name": "Zoom Rooms",
-            "status": "operational",
-            "created_at": "2021-05-18T07:12:19.400-07:00",
-            "updated_at": "2026-10-05T02:00:09.952-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2021-05-18",
-            "group_id": "xxngg08dxtpq",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "vttvjkwmdfps",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2022-03-18T10:03:55.317-07:00",
-            "updated_at": "2026-10-05T02:00:10.866-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-03-18",
-            "group_id": "pdcbftj9pg7j",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "8vtcg8np4n8c",
-            "name": "Live Transcription",
-            "status": "operational",
-            "created_at": "2022-05-03T10:31:27.476-07:00",
-            "updated_at": "2026-10-05T02:00:11.594-07:00",
-            "position": 9,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "rhmrtnvc7xrt",
-            "name": "Live Streaming",
-            "status": "operational",
-            "created_at": "2020-03-22T12:21:48.196-07:00",
-            "updated_at": "2026-10-05T02:00:12.498-07:00",
-            "position": 12,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "ntdt65v1f9rv",
-            "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-10-05T02:00:13.639-07:00",
-            "position": 13,
-            "description": "Access to Telephony Services",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "3ml2fn8g0psv",
-            "name": "Zoom Conference Room Connector",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-10-05T02:00:14.556-07:00",
-            "position": 14,
-            "description": "Access for H.323/SIP endpoints",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "gkx8x46kw77h",
-            "name": "Recording",
-            "status": "operational",
-            "created_at": "2020-03-17T15:29:33.741-07:00",
-            "updated_at": "2026-10-05T02:00:15.550-07:00",
-            "position": 15,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "q4msk5dl4bhm",
-            "name": "Zoom Webinars",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.115-08:00",
-            "updated_at": "2026-10-05T02:00:16.346-07:00",
-            "position": 20,
-            "description": "Access to video webinars",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "rsh1v3gbhtsy",
-            "name": "Zoom AI",
-            "status": "operational",
-            "created_at": "2023-09-06T17:03:37.897-07:00",
-            "updated_at": "2026-10-05T02:00:17.439-07:00",
-            "position": 21,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-09-06",
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-10-11T22:00:00.000-07:00",
-        "scheduled_until": "2026-10-12T02:00:00.000-07:00"
-      },
-      {
         "id": "qb7shz842x5h",
         "name": "Network Maintenance in SJC Data Center : October 18, 2026",
         "status": "scheduled",
@@ -6677,9 +6434,9 @@
           {
             "id": "ntdt65v1f9rv",
             "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-10-05T02:00:13.639-07:00",
+            "updated_at": "2026-10-11T22:00:09.826-07:00",
             "position": 13,
             "description": "Access to Telephony Services",
             "showcase": false,
@@ -6749,9 +6506,9 @@
           {
             "id": "3z7b6jks10hm",
             "name": "Zoom Meetings",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-10-05T02:00:08.392-07:00",
+            "updated_at": "2026-10-11T22:00:07.637-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -6794,9 +6551,9 @@
           {
             "id": "q4msk5dl4bhm",
             "name": "Zoom Webinars",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2015-01-26T15:04:39.115-08:00",
-            "updated_at": "2026-10-05T02:00:16.346-07:00",
+            "updated_at": "2026-10-11T22:00:12.986-07:00",
             "position": 20,
             "description": "Access to video webinars",
             "showcase": false,
@@ -6976,9 +6733,9 @@
           {
             "id": "3ml2fn8g0psv",
             "name": "Zoom Conference Room Connector",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-10-05T02:00:14.556-07:00",
+            "updated_at": "2026-10-11T22:00:10.884-07:00",
             "position": 14,
             "description": "Access for H.323/SIP endpoints",
             "showcase": false,
@@ -6991,6 +6748,336 @@
         ],
         "scheduled_for": "2026-11-13T19:30:00.000-08:00",
         "scheduled_until": "2026-11-14T11:30:00.000-08:00"
+      },
+      {
+        "id": "hh7k748cjhjf",
+        "name": "Network Maintenance in SJC Datacenter: October 11, 2026",
+        "status": "in_progress",
+        "created_at": "2026-08-31T09:17:42.430-07:00",
+        "updated_at": "2026-10-11T22:00:14.880-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/489pslmj0qhs",
+        "started_at": "2026-08-31T09:17:42.395-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "sgw3kcmj9gqv",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "hh7k748cjhjf",
+            "created_at": "2026-10-11T22:00:14.816-07:00",
+            "updated_at": "2026-10-11T22:00:14.816-07:00",
+            "display_at": "2026-10-11T22:00:14.816-07:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "rhmrtnvc7xrt",
+                "name": "Zoom Meetings - Live Streaming",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "gkx8x46kw77h",
+                "name": "Zoom Meetings - Recording",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "q4msk5dl4bhm",
+                "name": "Zoom Meetings - Zoom Webinars",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "rsh1v3gbhtsy",
+                "name": "Zoom Meetings - Zoom AI",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "xtgr15yv6hbn",
+                "name": "Zoom Rooms - Zoom Rooms",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "vttvjkwmdfps",
+                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "0rgp4dhxfkqx",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "hh7k748cjhjf",
+            "created_at": "2026-10-11T21:00:25.442-07:00",
+            "updated_at": "2026-10-11T21:00:25.442-07:00",
+            "display_at": "2026-10-11T21:00:25.442-07:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "fdkdj8qympv4",
+            "status": "scheduled",
+            "body": "Zoom will perform service maintenance at SJC Datacenter. During the maintenance window, Users may experience an impact for a brief amount of time for services mentioned.",
+            "incident_id": "hh7k748cjhjf",
+            "created_at": "2026-08-31T09:17:42.546-07:00",
+            "updated_at": "2026-08-31T09:17:42.546-07:00",
+            "display_at": "2026-08-31T09:17:42.546-07:00",
+            "affected_components": [
+              {
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "8vtcg8np4n8c",
+                "name": "Zoom Meetings - Live Transcription",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "rhmrtnvc7xrt",
+                "name": "Zoom Meetings - Live Streaming",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "gkx8x46kw77h",
+                "name": "Zoom Meetings - Recording",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "q4msk5dl4bhm",
+                "name": "Zoom Meetings - Zoom Webinars",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "rsh1v3gbhtsy",
+                "name": "Zoom Meetings - Zoom AI",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "xtgr15yv6hbn",
+                "name": "Zoom Rooms - Zoom Rooms",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "vttvjkwmdfps",
+                "name": "Zoom CX - NORTH AMERICA - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3z7b6jks10hm",
+            "name": "Zoom Meetings",
+            "status": "under_maintenance",
+            "created_at": "2015-01-26T15:04:39.101-08:00",
+            "updated_at": "2026-10-11T22:00:07.637-07:00",
+            "position": 1,
+            "description": "Access to meetings",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "xtgr15yv6hbn",
+            "name": "Zoom Rooms",
+            "status": "under_maintenance",
+            "created_at": "2021-05-18T07:12:19.400-07:00",
+            "updated_at": "2026-10-11T22:00:07.942-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2021-05-18",
+            "group_id": "xxngg08dxtpq",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "vttvjkwmdfps",
+            "name": "Zoom Contact Center",
+            "status": "under_maintenance",
+            "created_at": "2022-03-18T10:03:55.317-07:00",
+            "updated_at": "2026-10-11T22:00:08.410-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-03-18",
+            "group_id": "pdcbftj9pg7j",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "8vtcg8np4n8c",
+            "name": "Live Transcription",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T10:31:27.476-07:00",
+            "updated_at": "2026-10-11T22:00:08.847-07:00",
+            "position": 9,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "rhmrtnvc7xrt",
+            "name": "Live Streaming",
+            "status": "under_maintenance",
+            "created_at": "2020-03-22T12:21:48.196-07:00",
+            "updated_at": "2026-10-11T22:00:09.370-07:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "under_maintenance",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2026-10-11T22:00:09.826-07:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "under_maintenance",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-10-11T22:00:10.884-07:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "gkx8x46kw77h",
+            "name": "Recording",
+            "status": "under_maintenance",
+            "created_at": "2020-03-17T15:29:33.741-07:00",
+            "updated_at": "2026-10-11T22:00:12.340-07:00",
+            "position": 15,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "q4msk5dl4bhm",
+            "name": "Zoom Webinars",
+            "status": "under_maintenance",
+            "created_at": "2015-01-26T15:04:39.115-08:00",
+            "updated_at": "2026-10-11T22:00:12.986-07:00",
+            "position": 20,
+            "description": "Access to video webinars",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "rsh1v3gbhtsy",
+            "name": "Zoom AI",
+            "status": "under_maintenance",
+            "created_at": "2023-09-06T17:03:37.897-07:00",
+            "updated_at": "2026-10-11T22:00:13.818-07:00",
+            "position": 21,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-09-06",
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-10-11T22:00:00.000-07:00",
+        "scheduled_until": "2026-10-12T02:00:00.000-07:00"
       },
       {
         "id": "wc683vmmf5dy",
@@ -7061,9 +7148,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "maintenance",
+      "description": "Service Under Maintenance"
     },
-    "updated": "2026-10-12T01:38:54Z"
+    "updated": "2026-10-12T08:02:27Z"
   }
 }
