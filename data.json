@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-16T09:36:50Z"
+    "updated": "2026-10-16T14:15:44Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users may experience delays due to increased load on bychan keyspace affecting system performance",
-    "updated": "2026-10-16T09:36:50Z"
+    "updated": "2026-10-16T14:15:44Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-16T04:29:01.528-04:00"
+      "updated_at": "2026-10-16T05:59:31.291-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T09:36:49Z"
+    "updated": "2026-10-16T14:15:43Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-16T08:29:07.150Z"
+      "updated_at": "2026-10-16T10:34:17.828Z"
     },
     "components": [
       {
@@ -1437,7 +1437,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T09:36:49Z"
+    "updated": "2026-10-16T14:15:43Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-16T01:29:06.677-07:00"
+      "updated_at": "2026-10-16T03:34:15.959-07:00"
     },
     "components": [
       {
@@ -8291,6 +8291,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T09:36:49Z"
+    "updated": "2026-10-16T14:15:43Z"
   }
 }
