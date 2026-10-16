@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-16T14:15:44Z"
+    "updated": "2026-10-16T18:10:54Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users may experience delays due to increased load on bychan keyspace affecting system performance",
-    "updated": "2026-10-16T14:15:44Z"
+    "updated": "2026-10-16T18:10:54Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-16T05:59:31.291-04:00"
+      "updated_at": "2026-10-16T11:14:09.203-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T14:15:43Z"
+    "updated": "2026-10-16T18:10:53Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-16T10:34:17.828Z"
+      "updated_at": "2026-10-16T15:14:13.700Z"
     },
     "components": [
       {
@@ -1437,7 +1437,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T14:15:43Z"
+    "updated": "2026-10-16T18:10:53Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-16T03:34:15.959-07:00"
+      "updated_at": "2026-10-16T09:00:09.879-07:00"
     },
     "components": [
       {
@@ -6889,60 +6889,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "v5w5rpvqj35f",
-        "name": "Zoom Chat Backend Update: October, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-10-15T04:41:02.976-07:00",
-        "updated_at": "2026-10-15T04:42:01.326-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/y6dxc1m9qndl",
-        "started_at": "2026-10-15T04:41:02.964-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "2y9x0w6vkzxd",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Chat Backend Service. There will be no operational impact. All services will be available during this scheduled update (ZR status might be displayed as offline in the service logs but no operational impact).",
-            "incident_id": "v5w5rpvqj35f",
-            "created_at": "2026-10-15T04:41:03.120-07:00",
-            "updated_at": "2026-10-15T04:41:03.120-07:00",
-            "display_at": "2026-10-15T04:41:03.120-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-06-01T07:04:56.340-07:00",
-            "position": 1,
-            "description": "Access to Group Chats",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-10-16T09:00:00.000-07:00",
-        "scheduled_until": "2026-11-14T08:00:00.000-08:00"
-      },
-      {
         "id": "yk67y3r3qncv",
         "name": "Zoom Contact Center Update: October 17, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -7880,6 +7826,73 @@
         "scheduled_until": "2026-11-14T11:30:00.000-08:00"
       },
       {
+        "id": "v5w5rpvqj35f",
+        "name": "Zoom Chat Backend Update: October, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-10-15T04:41:02.976-07:00",
+        "updated_at": "2026-10-16T09:00:09.485-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/y6dxc1m9qndl",
+        "started_at": "2026-10-15T04:41:02.964-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "qmz7vvwhf05l",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "v5w5rpvqj35f",
+            "created_at": "2026-10-16T09:00:09.457-07:00",
+            "updated_at": "2026-10-16T09:00:09.457-07:00",
+            "display_at": "2026-10-16T09:00:09.457-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "2y9x0w6vkzxd",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Chat Backend Service. There will be no operational impact. All services will be available during this scheduled update (ZR status might be displayed as offline in the service logs but no operational impact).",
+            "incident_id": "v5w5rpvqj35f",
+            "created_at": "2026-10-15T04:41:03.120-07:00",
+            "updated_at": "2026-10-15T04:41:03.120-07:00",
+            "display_at": "2026-10-15T04:41:03.120-07:00",
+            "affected_components": [
+              {
+                "code": "t2jk6yrqbp4j",
+                "name": "Zoom Chat - Zoom Chat",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "t2jk6yrqbp4j",
+            "name": "Zoom Chat",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:19.770-08:00",
+            "updated_at": "2026-06-01T07:04:56.340-07:00",
+            "position": 1,
+            "description": "Access to Group Chats",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6zvc1tw9rpfm",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-10-16T09:00:00.000-07:00",
+        "scheduled_until": "2026-11-14T08:00:00.000-08:00"
+      },
+      {
         "id": "nlwgjdlq22kz",
         "name": "Zoom Push Notification Service Release: October, 2026 (No Operational Impact)",
         "status": "in_progress",
@@ -8291,6 +8304,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T14:15:43Z"
+    "updated": "2026-10-16T18:10:53Z"
   }
 }
