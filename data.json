@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-16T23:47:39Z"
+    "updated": "2026-10-17T01:43:56Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users may experience delays due to increased load on bychan keyspace affecting system performance",
-    "updated": "2026-10-16T23:47:39Z"
+    "updated": "2026-10-17T01:43:56Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-16T18:34:22.819-04:00"
+      "updated_at": "2026-10-16T21:24:05.953-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T23:47:37Z"
+    "updated": "2026-10-17T01:43:53Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-16T22:34:27.446Z"
+      "updated_at": "2026-10-17T01:24:10.341Z"
     },
     "components": [
       {
@@ -774,7 +774,7 @@
         "name": "Planned Maintenance",
         "status": "scheduled",
         "created_at": "2026-10-15T23:33:03.619Z",
-        "updated_at": "2026-10-15T23:33:04.096Z",
+        "updated_at": "2026-10-17T00:39:56.904Z",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -785,11 +785,11 @@
           {
             "id": "j8sr0rbc5b1k",
             "status": "scheduled",
-            "body": "On Friday, Oct 30th, 2026, between 3:00 am to 6:00 am UTC, users may experience interruptions or limited availability while we upgrade our databases. During this maintenance window, Asana web and mobile applications and API may be affected. Thank you for your understanding and patience. Please contact support for any questions.",
+            "body": "On Saturday, Oct 31st, 2026, between 3:00 am to 6:00 am UTC, users may experience interruptions or limited availability while we upgrade our databases. During this maintenance window, Asana web and mobile applications and API may be affected. Thank you for your understanding and patience. Please contact support for any questions.",
             "incident_id": "w6n8t25k3yq6",
             "created_at": "2026-10-15T23:33:04.093Z",
-            "updated_at": "2026-10-15T23:33:04.093Z",
-            "display_at": "2026-10-15T23:33:04.093Z",
+            "updated_at": "2026-10-17T00:38:44.213Z",
+            "display_at": "2026-10-31T03:00:04.093Z",
             "affected_components": [
               {
                 "code": "27w8th2c08v6",
@@ -1429,15 +1429,15 @@
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-10-30T03:00:00.000Z",
-        "scheduled_until": "2026-10-30T06:00:00.000Z"
+        "scheduled_for": "2026-10-31T03:00:00.000Z",
+        "scheduled_until": "2026-10-31T06:00:00.000Z"
       }
     ],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T23:47:37Z"
+    "updated": "2026-10-17T01:43:53Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-16T15:34:26.953-07:00"
+      "updated_at": "2026-10-16T18:24:09.731-07:00"
     },
     "components": [
       {
@@ -6889,114 +6889,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "yk67y3r3qncv",
-        "name": "Zoom Contact Center Update: October 17, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-10-13T06:48:02.553-07:00",
-        "updated_at": "2026-10-13T06:48:02.700-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/bgx4z2c46krq",
-        "started_at": "2026-10-13T06:48:02.538-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "wqgzd46qs9v9",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes warm transfer to flow for voice engagements.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "yk67y3r3qncv",
-            "created_at": "2026-10-13T06:48:02.697-07:00",
-            "updated_at": "2026-10-13T06:48:02.697-07:00",
-            "display_at": "2026-10-13T06:48:02.697-07:00",
-            "affected_components": [
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-21T18:00:07.341-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-10-16T17:00:00.000-07:00",
-        "scheduled_until": "2026-10-17T02:00:00.000-07:00"
-      },
-      {
-        "id": "vv8dtsh3nxyx",
-        "name": "Zoom Virtual Agent Update: October 17, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-10-13T06:52:55.608-07:00",
-        "updated_at": "2026-10-13T06:52:55.706-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/8ld8pnc5s6s8",
-        "started_at": "2026-10-13T06:52:55.599-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "mk3p96r280wn",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes the ability to export Zoom Virtual Agent usage data.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "vv8dtsh3nxyx",
-            "created_at": "2026-10-13T06:52:55.704-07:00",
-            "updated_at": "2026-10-13T06:52:55.704-07:00",
-            "display_at": "2026-10-13T06:52:55.704-07:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-10-16T17:00:00.000-07:00",
-        "scheduled_until": "2026-10-17T02:00:00.000-07:00"
-      },
-      {
         "id": "mvt7yp1gh7fp",
         "name": "Zoom Phone Update: October 18, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -7772,6 +7664,60 @@
         "scheduled_until": "2026-11-11T23:30:00.000-08:00"
       },
       {
+        "id": "ymm174sxzcsm",
+        "name": "Zoom Conference Room Connector DNS Changes in Saudi Arabia Region: November 13, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-10-16T11:15:46.364-07:00",
+        "updated_at": "2026-10-16T11:18:35.142-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/p0n0zr9sfdb6",
+        "started_at": "2026-10-16T11:15:46.353-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "hwqxvn9g1jh9",
+            "status": "scheduled",
+            "body": "As part of ongoing service enhancements for the Cloud Room Connector (CRC) service, Zoom will be updating DNS records for SIP/H.323  and IP endpoints in Saudi Arabia region  .\n\nEffective Date: November 14, 2026\n\nAction Required\n\nTo avoid service disruption, we recommend reviewing your CRC endpoint configurations as soon as possible, updating your DNS records and Destination ip with the new entries, and removing the older legacy records before November 14, 2026. \n\nIf you have any questions or issues, please contact Zoom Support.\n\nDNS Record Updates\n\nSaudi Arabia Region\n\nWe will update the data-center (DC) domains , along with their respective SRV-Records. An example of the change is as follows:\n\njed.zmvc.us >> sau.zoomcrc.com\n\nRecords to be replaced (A-Record and SRV-Record):\n\njed.zmvc.us:\n\n_h323cs._tcp.jed.zmvc.us\n\n_sip._tcp.jed.zmvc.us\n\n_sips._tcp.jed.zmvc.us\n\n_sip._udp.jed.zmvc.us\n\nNew records (A-Record and SRV-Record):\n\nsau.zoomcrc.com:\n\n_h323cs._tcp.sau.zoomcrc.com\n\n_sip._tcp.sau.zoomcrc.com\n\n_sips._tcp.sau.zoomcrc.com\n\n_sip._udp.sau.zoomcrc.com\n\n \n\n \n\nIP address to be updated Saudi Arabia Region\n\nWe will update the cloud room connector IP address for Jeddah .\n\n170.114.55.1 >> 159.124.226.235",
+            "incident_id": "ymm174sxzcsm",
+            "created_at": "2026-10-16T11:15:46.477-07:00",
+            "updated_at": "2026-10-16T11:18:35.138-07:00",
+            "display_at": "2026-10-16T11:15:46.477-07:00",
+            "affected_components": [
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-10-12T02:00:30.040-07:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-13T19:30:00.000-08:00",
+        "scheduled_until": "2026-11-14T11:30:00.000-08:00"
+      },
+      {
         "id": "ld4htx4mtmc2",
         "name": "Zoom Conference Room Connector DNS Changes: November 14, 2026",
         "status": "scheduled",
@@ -7826,30 +7772,43 @@
         "scheduled_until": "2026-11-14T11:30:00.000-08:00"
       },
       {
-        "id": "ymm174sxzcsm",
-        "name": "Zoom Conference Room Connector DNS Changes in Saudi Arabia Region: November 13, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-10-16T11:15:46.364-07:00",
-        "updated_at": "2026-10-16T11:18:35.142-07:00",
+        "id": "vv8dtsh3nxyx",
+        "name": "Zoom Virtual Agent Update: October 17, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-10-13T06:52:55.608-07:00",
+        "updated_at": "2026-10-16T17:01:07.684-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
-        "shortlink": "https://stspg.io/p0n0zr9sfdb6",
-        "started_at": "2026-10-16T11:15:46.353-07:00",
+        "shortlink": "https://stspg.io/8ld8pnc5s6s8",
+        "started_at": "2026-10-13T06:52:55.599-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "hwqxvn9g1jh9",
+            "id": "dr3k5jf5fjkn",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "vv8dtsh3nxyx",
+            "created_at": "2026-10-16T17:01:07.678-07:00",
+            "updated_at": "2026-10-16T17:01:07.678-07:00",
+            "display_at": "2026-10-16T17:01:07.678-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "mk3p96r280wn",
             "status": "scheduled",
-            "body": "As part of ongoing service enhancements for the Cloud Room Connector (CRC) service, Zoom will be updating DNS records for SIP/H.323  and IP endpoints in Saudi Arabia region  .\n\nEffective Date: November 14, 2026\n\nAction Required\n\nTo avoid service disruption, we recommend reviewing your CRC endpoint configurations as soon as possible, updating your DNS records and Destination ip with the new entries, and removing the older legacy records before November 14, 2026. \n\nIf you have any questions or issues, please contact Zoom Support.\n\nDNS Record Updates\n\nSaudi Arabia Region\n\nWe will update the data-center (DC) domains , along with their respective SRV-Records. An example of the change is as follows:\n\njed.zmvc.us >> sau.zoomcrc.com\n\nRecords to be replaced (A-Record and SRV-Record):\n\njed.zmvc.us:\n\n_h323cs._tcp.jed.zmvc.us\n\n_sip._tcp.jed.zmvc.us\n\n_sips._tcp.jed.zmvc.us\n\n_sip._udp.jed.zmvc.us\n\nNew records (A-Record and SRV-Record):\n\nsau.zoomcrc.com:\n\n_h323cs._tcp.sau.zoomcrc.com\n\n_sip._tcp.sau.zoomcrc.com\n\n_sips._tcp.sau.zoomcrc.com\n\n_sip._udp.sau.zoomcrc.com\n\n \n\n \n\nIP address to be updated Saudi Arabia Region\n\nWe will update the cloud room connector IP address for Jeddah .\n\n170.114.55.1 >> 159.124.226.235",
-            "incident_id": "ymm174sxzcsm",
-            "created_at": "2026-10-16T11:15:46.477-07:00",
-            "updated_at": "2026-10-16T11:18:35.138-07:00",
-            "display_at": "2026-10-16T11:15:46.477-07:00",
+            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes the ability to export Zoom Virtual Agent usage data.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "vv8dtsh3nxyx",
+            "created_at": "2026-10-13T06:52:55.704-07:00",
+            "updated_at": "2026-10-13T06:52:55.704-07:00",
+            "display_at": "2026-10-13T06:52:55.704-07:00",
             "affected_components": [
               {
-                "code": "3ml2fn8g0psv",
-                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
                 "old_status": "operational",
                 "new_status": "operational"
               }
@@ -7861,23 +7820,90 @@
         ],
         "components": [
           {
-            "id": "3ml2fn8g0psv",
-            "name": "Zoom Conference Room Connector",
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
             "status": "operational",
-            "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-10-12T02:00:30.040-07:00",
-            "position": 14,
-            "description": "Access for H.323/SIP endpoints",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
             "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-11-13T19:30:00.000-08:00",
-        "scheduled_until": "2026-11-14T11:30:00.000-08:00"
+        "scheduled_for": "2026-10-16T17:00:00.000-07:00",
+        "scheduled_until": "2026-10-17T02:00:00.000-07:00"
+      },
+      {
+        "id": "yk67y3r3qncv",
+        "name": "Zoom Contact Center Update: October 17, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-10-13T06:48:02.553-07:00",
+        "updated_at": "2026-10-16T17:00:07.488-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/bgx4z2c46krq",
+        "started_at": "2026-10-13T06:48:02.538-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "m5nvdfk7xjqb",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "yk67y3r3qncv",
+            "created_at": "2026-10-16T17:00:07.475-07:00",
+            "updated_at": "2026-10-16T17:00:07.475-07:00",
+            "display_at": "2026-10-16T17:00:07.475-07:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "wqgzd46qs9v9",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes warm transfer to flow for voice engagements.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "yk67y3r3qncv",
+            "created_at": "2026-10-13T06:48:02.697-07:00",
+            "updated_at": "2026-10-13T06:48:02.697-07:00",
+            "display_at": "2026-10-13T06:48:02.697-07:00",
+            "affected_components": [
+              {
+                "code": "s5s5m6flk56z",
+                "name": "Zoom CX - Global - Zoom Contact Center",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "s5s5m6flk56z",
+            "name": "Zoom Contact Center",
+            "status": "operational",
+            "created_at": "2024-03-21T13:14:33.314-07:00",
+            "updated_at": "2026-05-21T18:00:07.341-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-03-21",
+            "group_id": "1bmg0stx4mk0",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-10-16T17:00:00.000-07:00",
+        "scheduled_until": "2026-10-17T02:00:00.000-07:00"
       },
       {
         "id": "v5w5rpvqj35f",
@@ -8358,6 +8384,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-16T23:47:37Z"
+    "updated": "2026-10-17T01:43:53Z"
   }
 }
