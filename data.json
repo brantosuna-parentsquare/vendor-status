@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-19T17:24:42Z"
+    "updated": "2026-10-19T21:42:06Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Threads Not Loading",
-    "updated": "2026-10-19T17:24:42Z"
+    "updated": "2026-10-19T21:42:06Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-19T12:14:27.686-04:00"
+      "updated_at": "2026-10-19T16:44:19.946-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-19T17:24:41Z"
+    "updated": "2026-10-19T21:42:04Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-19T16:14:32.442Z"
+      "updated_at": "2026-10-19T20:44:24.799Z"
     },
     "components": [
       {
@@ -774,22 +774,22 @@
         "name": "Planned Maintenance",
         "status": "scheduled",
         "created_at": "2026-10-15T23:33:03.619Z",
-        "updated_at": "2026-10-17T00:39:56.904Z",
+        "updated_at": "2026-10-19T17:46:26.316Z",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
         "shortlink": "https://stspg.io/hss89yvfvngp",
-        "started_at": "2026-10-15T23:33:03.545Z",
+        "started_at": "2026-10-31T03:00:04.093Z",
         "page_id": "w58858w0sjxx",
         "incident_updates": [
           {
             "id": "j8sr0rbc5b1k",
             "status": "scheduled",
-            "body": "On Saturday, Oct 31st, 2026, between 3:00 am to 6:00 am UTC, users may experience interruptions or limited availability while we upgrade our databases. During this maintenance window, Asana web and mobile applications and API may be affected. Thank you for your understanding and patience. Please contact support for any questions.",
+            "body": "On Saturday, Nov 7th, 2026, between 4:00 AM and 7:00 AM UTC, users may experience interruptions or limited availability while we upgrade our databases. During this maintenance window, Asana web and mobile applications and API may be affected. Thank you for your understanding and patience. Please contact support for any questions.",
             "incident_id": "w6n8t25k3yq6",
             "created_at": "2026-10-15T23:33:04.093Z",
-            "updated_at": "2026-10-17T00:38:44.213Z",
-            "display_at": "2026-10-31T03:00:04.093Z",
+            "updated_at": "2026-10-19T17:45:33.586Z",
+            "display_at": "2026-11-07T04:00:04.093Z",
             "affected_components": [
               {
                 "code": "27w8th2c08v6",
@@ -1429,15 +1429,15 @@
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-10-31T03:00:00.000Z",
-        "scheduled_until": "2026-10-31T06:00:00.000Z"
+        "scheduled_for": "2026-11-07T04:00:00.000Z",
+        "scheduled_until": "2026-11-07T07:00:00.000Z"
       }
     ],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-19T17:24:41Z"
+    "updated": "2026-10-19T21:42:04Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-19T09:14:32.126-07:00"
+      "updated_at": "2026-10-19T13:44:24.529-07:00"
     },
     "components": [
       {
@@ -8236,6 +8236,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-10-19T17:24:41Z"
+    "updated": "2026-10-19T21:42:04Z"
   }
 }
