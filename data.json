@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-19T21:42:06Z"
+    "updated": "2026-10-20T00:44:21Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Threads Not Loading",
-    "updated": "2026-10-19T21:42:06Z"
+    "updated": "2026-10-20T00:44:21Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-19T16:44:19.946-04:00"
+      "updated_at": "2026-10-19T20:09:27.311-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-19T21:42:04Z"
+    "updated": "2026-10-20T00:44:19Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-19T20:44:24.799Z"
+      "updated_at": "2026-10-20T00:09:33.238Z"
     },
     "components": [
       {
@@ -1437,7 +1437,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-19T21:42:04Z"
+    "updated": "2026-10-20T00:44:19Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-19T13:44:24.529-07:00"
+      "updated_at": "2026-10-19T17:20:41.702-07:00"
     },
     "components": [
       {
@@ -5523,9 +5523,9 @@
       {
         "id": "576m25cw4prj",
         "name": "Zoom Canvas",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2024-08-07T20:19:58.046-07:00",
-        "updated_at": "2026-09-28T16:23:30.755-07:00",
+        "updated_at": "2026-10-19T16:27:43.302-07:00",
         "position": 13,
         "description": null,
         "showcase": false,
@@ -6888,50 +6888,50 @@
     ],
     "incidents": [
       {
-        "id": "jbl3clyk91xs",
-        "name": "Service Degradation Affecting Zoom Website in UK region",
-        "status": "monitoring",
-        "created_at": "2026-10-19T06:32:56.021-07:00",
-        "updated_at": "2026-10-19T07:00:17.899-07:00",
-        "monitoring_at": "2026-10-19T06:44:04.585-07:00",
+        "id": "bk0hqxnhy3w8",
+        "name": "Service Degradation Affecting Meeting Summaries Via Email.",
+        "status": "identified",
+        "created_at": "2026-10-19T16:27:43.257-07:00",
+        "updated_at": "2026-10-19T16:30:35.970-07:00",
+        "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
-        "shortlink": "https://stspg.io/n49f0v00l95f",
-        "started_at": "2026-10-19T06:32:56.013-07:00",
+        "shortlink": "https://stspg.io/b071sw22zjsd",
+        "started_at": "2026-10-19T16:27:43.000-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "v6hkzp30b41q",
-            "status": "monitoring",
-            "body": "The service degradation affecting Zoom Website in UK region has been successfully resolved.\n\nOur team will continue to monitor the situation closely and will keep you informed of any further updates.",
-            "incident_id": "jbl3clyk91xs",
-            "created_at": "2026-10-19T06:44:04.585-07:00",
-            "updated_at": "2026-10-19T06:44:04.585-07:00",
-            "display_at": "2026-10-19T06:44:04.585-07:00",
+            "id": "6jxwj32mwml5",
+            "status": "identified",
+            "body": "We are continuing to work on a fix for this issue.",
+            "incident_id": "bk0hqxnhy3w8",
+            "created_at": "2026-10-19T16:30:35.968-07:00",
+            "updated_at": "2026-10-19T16:30:35.968-07:00",
+            "display_at": "2026-10-19T16:30:35.968-07:00",
             "affected_components": [
               {
-                "code": "wm1bsqy8d9jv",
-                "name": "Zoom Website - Zoom Website",
+                "code": "576m25cw4prj",
+                "name": "Zoom Canvas",
                 "old_status": "degraded_performance",
-                "new_status": "operational"
+                "new_status": "degraded_performance"
               }
             ],
-            "deliver_notifications": true,
+            "deliver_notifications": false,
             "custom_tweet": null,
             "tweet_id": null
           },
           {
-            "id": "l74tzk683d27",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation affecting Zoom Website in UK region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "jbl3clyk91xs",
-            "created_at": "2026-10-19T06:32:56.271-07:00",
-            "updated_at": "2026-10-19T06:32:56.271-07:00",
-            "display_at": "2026-10-19T06:32:56.271-07:00",
+            "id": "6w9bgnwqk7xn",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting a subset of users with meeting summary email delivery when they have selected via email only.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "bk0hqxnhy3w8",
+            "created_at": "2026-10-19T16:27:43.363-07:00",
+            "updated_at": "2026-10-19T16:30:16.107-07:00",
+            "display_at": "2026-10-19T16:27:43.000-07:00",
             "affected_components": [
               {
-                "code": "wm1bsqy8d9jv",
-                "name": "Zoom Website - Zoom Website",
+                "code": "576m25cw4prj",
+                "name": "Zoom Canvas",
                 "old_status": "operational",
                 "new_status": "degraded_performance"
               }
@@ -6943,16 +6943,16 @@
         ],
         "components": [
           {
-            "id": "wm1bsqy8d9jv",
-            "name": "Zoom Website",
-            "status": "operational",
-            "created_at": "2025-11-19T23:33:20.249-08:00",
-            "updated_at": "2026-10-19T06:44:04.532-07:00",
-            "position": 9,
+            "id": "576m25cw4prj",
+            "name": "Zoom Canvas",
+            "status": "degraded_performance",
+            "created_at": "2024-08-07T20:19:58.046-07:00",
+            "updated_at": "2026-10-19T16:27:43.302-07:00",
+            "position": 13,
             "description": null,
             "showcase": false,
-            "start_date": "2025-11-19",
-            "group_id": "1ndlrnp6r9js",
+            "start_date": "2024-08-07",
+            "group_id": null,
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
@@ -8233,9 +8233,9 @@
       }
     ],
     "status": {
-      "indicator": "maintenance",
-      "description": "Service Under Maintenance"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-10-19T21:42:04Z"
+    "updated": "2026-10-20T00:44:19Z"
   }
 }
