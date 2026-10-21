@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-20T22:33:29Z"
+    "updated": "2026-10-21T00:56:38Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users May Not Receive Notifications on Slack Thread Replies",
-    "updated": "2026-10-20T22:33:29Z"
+    "updated": "2026-10-21T00:56:38Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-20T18:19:03.055-04:00"
+      "updated_at": "2026-10-20T20:49:16.637-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-20T22:33:27Z"
+    "updated": "2026-10-21T00:56:35Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-20T22:19:09.101Z"
+      "updated_at": "2026-10-21T00:55:08.142Z"
     },
     "components": [
       {
@@ -304,7 +304,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-10-17T19:08:35.000Z",
+        "updated_at": "2026-10-21T00:54:55.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -342,7 +342,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T18:04:15.542Z",
-        "updated_at": "2026-10-17T19:08:34.000Z",
+        "updated_at": "2026-10-21T00:55:07.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -357,7 +357,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:57:20.666Z",
-        "updated_at": "2026-10-17T19:08:37.000Z",
+        "updated_at": "2026-10-21T00:55:01.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -372,7 +372,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:59:03.964Z",
-        "updated_at": "2026-10-17T19:08:38.000Z",
+        "updated_at": "2026-10-21T00:54:36.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -387,7 +387,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-10-17T19:08:34.000Z",
+        "updated_at": "2026-10-21T00:54:42.000Z",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -1058,7 +1058,7 @@
             "name": "API",
             "status": "operational",
             "created_at": "2017-09-19T23:35:56.553Z",
-            "updated_at": "2026-10-17T19:08:35.000Z",
+            "updated_at": "2026-10-21T00:54:55.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1073,7 +1073,7 @@
             "name": "API",
             "status": "operational",
             "created_at": "2023-02-09T18:04:15.542Z",
-            "updated_at": "2026-10-17T19:08:34.000Z",
+            "updated_at": "2026-10-21T00:55:07.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1088,7 +1088,7 @@
             "name": "API",
             "status": "operational",
             "created_at": "2023-02-09T21:57:20.666Z",
-            "updated_at": "2026-10-17T19:08:37.000Z",
+            "updated_at": "2026-10-21T00:55:01.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1103,7 +1103,7 @@
             "name": "API",
             "status": "operational",
             "created_at": "2023-02-09T21:59:03.964Z",
-            "updated_at": "2026-10-17T19:08:38.000Z",
+            "updated_at": "2026-10-21T00:54:36.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1118,7 +1118,7 @@
             "name": "API",
             "status": "operational",
             "created_at": "2026-01-20T19:00:18.706Z",
-            "updated_at": "2026-10-17T19:08:34.000Z",
+            "updated_at": "2026-10-21T00:54:42.000Z",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -1437,7 +1437,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-20T22:33:27Z"
+    "updated": "2026-10-21T00:56:35Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-20T15:19:08.866-07:00"
+      "updated_at": "2026-10-20T17:49:20.454-07:00"
     },
     "components": [
       {
@@ -8162,6 +8162,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-10-20T22:33:27Z"
+    "updated": "2026-10-21T00:56:35Z"
   }
 }
