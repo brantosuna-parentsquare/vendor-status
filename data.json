@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-21T11:35:10Z"
+    "updated": "2026-10-21T16:06:40Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users May Not Receive Notifications on Slack Thread Replies",
-    "updated": "2026-10-21T11:35:10Z"
+    "updated": "2026-10-21T16:06:40Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-21T05:28:59.961-04:00"
+      "updated_at": "2026-10-21T11:42:22.658-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-21T11:35:08Z"
+    "updated": "2026-10-21T16:05:55Z"
   },
   "asana": {
     "page": {
@@ -198,15 +198,15 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-21T09:29:04.654Z"
+      "updated_at": "2026-10-21T15:53:24.450Z"
     },
     "components": [
       {
         "id": "27w8th2c08v6",
         "name": "App",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2017-09-19T23:35:45.317Z",
-        "updated_at": "2026-09-17T15:13:16.310Z",
+        "updated_at": "2026-10-21T15:16:33.000Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -219,7 +219,7 @@
       {
         "id": "pw3rpxcrq9j5",
         "name": "US",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T17:46:42.487Z",
         "updated_at": "2025-06-27T19:56:36.684Z",
         "position": 1,
@@ -242,9 +242,9 @@
       {
         "id": "8yllr704tq9n",
         "name": "App",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T18:04:01.236Z",
-        "updated_at": "2026-09-24T08:08:03.000Z",
+        "updated_at": "2026-10-21T15:24:30.000Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -259,7 +259,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2023-02-09T21:56:52.156Z",
-        "updated_at": "2026-09-26T00:05:03.000Z",
+        "updated_at": "2026-10-21T15:26:28.000Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -302,9 +302,9 @@
       {
         "id": "yg4058k03s50",
         "name": "API",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-10-21T07:52:10.066Z",
+        "updated_at": "2026-10-21T15:26:44.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -317,7 +317,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -340,9 +340,9 @@
       {
         "id": "vb5rnz4gj7p8",
         "name": "API",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T18:04:15.542Z",
-        "updated_at": "2026-10-21T00:55:07.000Z",
+        "updated_at": "2026-10-21T15:26:46.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -355,9 +355,9 @@
       {
         "id": "m1gvj42drxdc",
         "name": "API",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T21:57:20.666Z",
-        "updated_at": "2026-10-21T00:55:01.000Z",
+        "updated_at": "2026-10-21T15:26:43.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -370,9 +370,9 @@
       {
         "id": "7dvw8j11nzyx",
         "name": "API",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T21:59:03.964Z",
-        "updated_at": "2026-10-21T00:54:36.000Z",
+        "updated_at": "2026-10-21T15:26:42.000Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -385,9 +385,9 @@
       {
         "id": "km6jrkp0m2vk",
         "name": "API",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-10-21T00:54:42.000Z",
+        "updated_at": "2026-10-21T15:18:48.000Z",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -400,9 +400,9 @@
       {
         "id": "0tlyr3w5wwtv",
         "name": "Mobile",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2017-10-11T17:33:59.640Z",
-        "updated_at": "2026-09-30T15:21:10.732Z",
+        "updated_at": "2026-10-21T15:20:49.000Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -417,7 +417,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-10-06T09:10:04.000Z",
+        "updated_at": "2026-10-21T15:33:46.683Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -430,7 +430,7 @@
       {
         "id": "3c6vvpy5cjf5",
         "name": "Japan",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T21:56:52.127Z",
         "updated_at": "2025-06-27T19:56:36.707Z",
         "position": 3,
@@ -498,9 +498,9 @@
       {
         "id": "5pzgfbsllb5y",
         "name": "Automations and Background Actions",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2020-07-13T15:37:24.240Z",
-        "updated_at": "2026-09-24T14:59:22.000Z",
+        "updated_at": "2026-10-21T15:27:49.000Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -543,7 +543,7 @@
       {
         "id": "rmx1t3dwwq0t",
         "name": "Australia",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2023-02-09T21:58:54.108Z",
         "updated_at": "2025-02-06T22:35:34.314Z",
         "position": 4,
@@ -596,9 +596,9 @@
       {
         "id": "72r2f6764450",
         "name": "Webhooks and Event Streams",
-        "status": "operational",
+        "status": "major_outage",
         "created_at": "2021-02-01T22:04:27.238Z",
-        "updated_at": "2026-09-30T14:52:19.000Z",
+        "updated_at": "2026-10-21T15:53:23.000Z",
         "position": 5,
         "description": "This component tracks the health of public API webhooks and event stream endpoints.",
         "showcase": true,
@@ -656,7 +656,7 @@
       {
         "id": "m172ltsc49p0",
         "name": "Middle East",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2026-01-20T18:59:32.456Z",
         "updated_at": "2026-01-20T18:59:32.456Z",
         "position": 5,
@@ -767,7 +767,486 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "hmnfnm98zvy4",
+        "name": "Asana downtime",
+        "status": "identified",
+        "created_at": "2026-10-21T15:33:46.448Z",
+        "updated_at": "2026-10-21T15:51:47.655Z",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "major",
+        "shortlink": "https://stspg.io/flc98gjg9wdn",
+        "started_at": "2026-10-21T15:33:46.415Z",
+        "page_id": "w58858w0sjxx",
+        "incident_updates": [
+          {
+            "id": "9p4tfyqdl5ln",
+            "status": "identified",
+            "body": "We have identified the cause of this outage and have initiated changes to address this. We are seeing some signs of recovery, and will post an update once we've confirmed recovery.",
+            "incident_id": "hmnfnm98zvy4",
+            "created_at": "2026-10-21T15:51:47.652Z",
+            "updated_at": "2026-10-21T15:51:47.652Z",
+            "display_at": "2026-10-21T15:51:47.652Z",
+            "affected_components": [
+              {
+                "code": "27w8th2c08v6",
+                "name": "US - App",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "yg4058k03s50",
+                "name": "US - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "0tlyr3w5wwtv",
+                "name": "US - Mobile",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "5pzgfbsllb5y",
+                "name": "US - Automations and Background Actions",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "8yllr704tq9n",
+                "name": "EU - App",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "vb5rnz4gj7p8",
+                "name": "EU - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "xkbfplxg5q8p",
+                "name": "EU - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "39d07v7xt70h",
+                "name": "EU - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "06hpq0rll70p",
+                "name": "Japan - App",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "m1gvj42drxdc",
+                "name": "Japan - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "rtg6j3dykmqj",
+                "name": "Japan - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "5j7zdk265c0x",
+                "name": "Japan - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "m4dj1p6nkzbp",
+                "name": "Australia - App",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "7dvw8j11nzyx",
+                "name": "Australia - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "h6ncz3kqdjmp",
+                "name": "Australia - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "vgztx3m93w0b",
+                "name": "Australia - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "xnnb8tw58tsd",
+            "status": "identified",
+            "body": "Asana services are currently experiencing a major service disruption. We have identified a likely cause and are working on applying a fix. This affects all services and all regions.",
+            "incident_id": "hmnfnm98zvy4",
+            "created_at": "2026-10-21T15:33:46.720Z",
+            "updated_at": "2026-10-21T15:33:46.720Z",
+            "display_at": "2026-10-21T15:33:46.720Z",
+            "affected_components": [
+              {
+                "code": "27w8th2c08v6",
+                "name": "US - App",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "yg4058k03s50",
+                "name": "US - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "0tlyr3w5wwtv",
+                "name": "US - Mobile",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "5pzgfbsllb5y",
+                "name": "US - Automations and Background Actions",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "8yllr704tq9n",
+                "name": "EU - App",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "vb5rnz4gj7p8",
+                "name": "EU - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "xkbfplxg5q8p",
+                "name": "EU - Mobile",
+                "old_status": "partial_outage",
+                "new_status": "operational"
+              },
+              {
+                "code": "39d07v7xt70h",
+                "name": "EU - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "06hpq0rll70p",
+                "name": "Japan - App",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "m1gvj42drxdc",
+                "name": "Japan - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "rtg6j3dykmqj",
+                "name": "Japan - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "5j7zdk265c0x",
+                "name": "Japan - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "m4dj1p6nkzbp",
+                "name": "Australia - App",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "7dvw8j11nzyx",
+                "name": "Australia - API",
+                "old_status": "major_outage",
+                "new_status": "major_outage"
+              },
+              {
+                "code": "h6ncz3kqdjmp",
+                "name": "Australia - Mobile",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "vgztx3m93w0b",
+                "name": "Australia - Automations and Background Actions",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "27w8th2c08v6",
+            "name": "App",
+            "status": "major_outage",
+            "created_at": "2017-09-19T23:35:45.317Z",
+            "updated_at": "2026-10-21T15:16:33.000Z",
+            "position": 1,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "8yllr704tq9n",
+            "name": "App",
+            "status": "major_outage",
+            "created_at": "2023-02-09T18:04:01.236Z",
+            "updated_at": "2026-10-21T15:24:30.000Z",
+            "position": 1,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "6l7nv2dwk8d9",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "06hpq0rll70p",
+            "name": "App",
+            "status": "operational",
+            "created_at": "2023-02-09T21:56:52.156Z",
+            "updated_at": "2026-10-21T15:26:28.000Z",
+            "position": 1,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "3c6vvpy5cjf5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "m4dj1p6nkzbp",
+            "name": "App",
+            "status": "operational",
+            "created_at": "2023-02-09T21:58:54.215Z",
+            "updated_at": "2026-09-26T00:51:04.000Z",
+            "position": 1,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "rmx1t3dwwq0t",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "yg4058k03s50",
+            "name": "API",
+            "status": "major_outage",
+            "created_at": "2017-09-19T23:35:56.553Z",
+            "updated_at": "2026-10-21T15:26:44.000Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "vb5rnz4gj7p8",
+            "name": "API",
+            "status": "major_outage",
+            "created_at": "2023-02-09T18:04:15.542Z",
+            "updated_at": "2026-10-21T15:26:46.000Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "6l7nv2dwk8d9",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "m1gvj42drxdc",
+            "name": "API",
+            "status": "major_outage",
+            "created_at": "2023-02-09T21:57:20.666Z",
+            "updated_at": "2026-10-21T15:26:43.000Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "3c6vvpy5cjf5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "7dvw8j11nzyx",
+            "name": "API",
+            "status": "major_outage",
+            "created_at": "2023-02-09T21:59:03.964Z",
+            "updated_at": "2026-10-21T15:26:42.000Z",
+            "position": 2,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "rmx1t3dwwq0t",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "0tlyr3w5wwtv",
+            "name": "Mobile",
+            "status": "major_outage",
+            "created_at": "2017-10-11T17:33:59.640Z",
+            "updated_at": "2026-10-21T15:20:49.000Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "xkbfplxg5q8p",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2023-02-09T18:04:35.516Z",
+            "updated_at": "2026-10-21T15:33:46.683Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "6l7nv2dwk8d9",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "rtg6j3dykmqj",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2023-02-09T21:57:37.036Z",
+            "updated_at": "2026-10-15T18:18:44.934Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "3c6vvpy5cjf5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "h6ncz3kqdjmp",
+            "name": "Mobile",
+            "status": "operational",
+            "created_at": "2023-02-09T21:59:17.187Z",
+            "updated_at": "2026-07-24T22:07:00.186Z",
+            "position": 3,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "rmx1t3dwwq0t",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "5pzgfbsllb5y",
+            "name": "Automations and Background Actions",
+            "status": "major_outage",
+            "created_at": "2020-07-13T15:37:24.240Z",
+            "updated_at": "2026-10-21T15:27:49.000Z",
+            "position": 4,
+            "description": null,
+            "showcase": true,
+            "start_date": null,
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "39d07v7xt70h",
+            "name": "Automations and Background Actions",
+            "status": "operational",
+            "created_at": "2023-02-09T18:04:50.001Z",
+            "updated_at": "2026-09-21T16:34:08.709Z",
+            "position": 4,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "6l7nv2dwk8d9",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "5j7zdk265c0x",
+            "name": "Automations and Background Actions",
+            "status": "operational",
+            "created_at": "2023-02-09T21:57:55.572Z",
+            "updated_at": "2026-07-24T22:07:00.226Z",
+            "position": 4,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "3c6vvpy5cjf5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "vgztx3m93w0b",
+            "name": "Automations and Background Actions",
+            "status": "operational",
+            "created_at": "2023-02-09T21:59:32.427Z",
+            "updated_at": "2026-07-24T22:07:00.247Z",
+            "position": 4,
+            "description": null,
+            "showcase": true,
+            "start_date": "2023-02-09",
+            "group_id": "rmx1t3dwwq0t",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "w6n8t25k3yq6",
@@ -981,9 +1460,9 @@
           {
             "id": "27w8th2c08v6",
             "name": "App",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2017-09-19T23:35:45.317Z",
-            "updated_at": "2026-09-17T15:13:16.310Z",
+            "updated_at": "2026-10-21T15:16:33.000Z",
             "position": 1,
             "description": null,
             "showcase": true,
@@ -996,9 +1475,9 @@
           {
             "id": "8yllr704tq9n",
             "name": "App",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2023-02-09T18:04:01.236Z",
-            "updated_at": "2026-09-24T08:08:03.000Z",
+            "updated_at": "2026-10-21T15:24:30.000Z",
             "position": 1,
             "description": null,
             "showcase": true,
@@ -1013,7 +1492,7 @@
             "name": "App",
             "status": "operational",
             "created_at": "2023-02-09T21:56:52.156Z",
-            "updated_at": "2026-09-26T00:05:03.000Z",
+            "updated_at": "2026-10-21T15:26:28.000Z",
             "position": 1,
             "description": null,
             "showcase": true,
@@ -1056,9 +1535,9 @@
           {
             "id": "yg4058k03s50",
             "name": "API",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2017-09-19T23:35:56.553Z",
-            "updated_at": "2026-10-21T07:52:10.066Z",
+            "updated_at": "2026-10-21T15:26:44.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1071,9 +1550,9 @@
           {
             "id": "vb5rnz4gj7p8",
             "name": "API",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2023-02-09T18:04:15.542Z",
-            "updated_at": "2026-10-21T00:55:07.000Z",
+            "updated_at": "2026-10-21T15:26:46.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1086,9 +1565,9 @@
           {
             "id": "m1gvj42drxdc",
             "name": "API",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2023-02-09T21:57:20.666Z",
-            "updated_at": "2026-10-21T00:55:01.000Z",
+            "updated_at": "2026-10-21T15:26:43.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1101,9 +1580,9 @@
           {
             "id": "7dvw8j11nzyx",
             "name": "API",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2023-02-09T21:59:03.964Z",
-            "updated_at": "2026-10-21T00:54:36.000Z",
+            "updated_at": "2026-10-21T15:26:42.000Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1116,9 +1595,9 @@
           {
             "id": "km6jrkp0m2vk",
             "name": "API",
-            "status": "operational",
+            "status": "partial_outage",
             "created_at": "2026-01-20T19:00:18.706Z",
-            "updated_at": "2026-10-21T00:54:42.000Z",
+            "updated_at": "2026-10-21T15:18:48.000Z",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -1131,9 +1610,9 @@
           {
             "id": "0tlyr3w5wwtv",
             "name": "Mobile",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2017-10-11T17:33:59.640Z",
-            "updated_at": "2026-09-30T15:21:10.732Z",
+            "updated_at": "2026-10-21T15:20:49.000Z",
             "position": 3,
             "description": null,
             "showcase": true,
@@ -1148,7 +1627,7 @@
             "name": "Mobile",
             "status": "operational",
             "created_at": "2023-02-09T18:04:35.516Z",
-            "updated_at": "2026-10-06T09:10:04.000Z",
+            "updated_at": "2026-10-21T15:33:46.683Z",
             "position": 3,
             "description": null,
             "showcase": true,
@@ -1206,9 +1685,9 @@
           {
             "id": "5pzgfbsllb5y",
             "name": "Automations and Background Actions",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2020-07-13T15:37:24.240Z",
-            "updated_at": "2026-09-24T14:59:22.000Z",
+            "updated_at": "2026-10-21T15:27:49.000Z",
             "position": 4,
             "description": null,
             "showcase": true,
@@ -1281,9 +1760,9 @@
           {
             "id": "72r2f6764450",
             "name": "Webhooks and Event Streams",
-            "status": "operational",
+            "status": "major_outage",
             "created_at": "2021-02-01T22:04:27.238Z",
-            "updated_at": "2026-09-30T14:52:19.000Z",
+            "updated_at": "2026-10-21T15:53:23.000Z",
             "position": 5,
             "description": "This component tracks the health of public API webhooks and event stream endpoints.",
             "showcase": true,
@@ -1434,10 +1913,10 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "major",
+      "description": "Partial System Outage"
     },
-    "updated": "2026-10-21T11:35:08Z"
+    "updated": "2026-10-21T16:05:55Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1924,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-21T02:29:04.163-07:00"
+      "updated_at": "2026-10-21T08:42:30.388-07:00"
     },
     "components": [
       {
@@ -4887,7 +5366,7 @@
         "name": "Zoom Learning Center",
         "status": "operational",
         "created_at": "2026-08-07T02:44:20.168-07:00",
-        "updated_at": "2026-08-07T02:44:20.168-07:00",
+        "updated_at": "2026-10-21T08:08:12.184-07:00",
         "position": 9,
         "description": null,
         "showcase": false,
@@ -6886,7 +7365,101 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "27cv8n1w352d",
+        "name": "Service Degradation Affecting Zoom Learning Webpage",
+        "status": "monitoring",
+        "created_at": "2026-10-21T07:43:51.063-07:00",
+        "updated_at": "2026-10-21T08:08:12.263-07:00",
+        "monitoring_at": "2026-10-21T08:08:12.236-07:00",
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/qq5lbtd49j77",
+        "started_at": "2026-10-21T07:43:51.052-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "7k8ll5fc6v15",
+            "status": "monitoring",
+            "body": "A service degradation affecting Zoom Learning Webpage has been successfully resolved.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "27cv8n1w352d",
+            "created_at": "2026-10-21T08:08:12.236-07:00",
+            "updated_at": "2026-10-21T08:08:12.236-07:00",
+            "display_at": "2026-10-21T08:08:12.236-07:00",
+            "affected_components": [
+              {
+                "code": "6mf5j0clgl2k",
+                "name": "Zoom Support - Zoom Learning Center",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "xwsdw311tlhf",
+            "status": "identified",
+            "body": "We have identified an issue with our external vendor where users are experiencing issues with Zoom Learning Webpage.\n\nWe are actively working with our vendor partner to resolve this issue.\n\nWe will share updates as soon as they become available.",
+            "incident_id": "27cv8n1w352d",
+            "created_at": "2026-10-21T07:53:56.853-07:00",
+            "updated_at": "2026-10-21T07:53:56.853-07:00",
+            "display_at": "2026-10-21T07:53:56.853-07:00",
+            "affected_components": [
+              {
+                "code": "6mf5j0clgl2k",
+                "name": "Zoom Support - Zoom Learning Center",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "67r98gy0gfmt",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting Zoom Learning Webpage.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "27cv8n1w352d",
+            "created_at": "2026-10-21T07:43:51.203-07:00",
+            "updated_at": "2026-10-21T07:43:51.203-07:00",
+            "display_at": "2026-10-21T07:43:51.203-07:00",
+            "affected_components": [
+              {
+                "code": "6mf5j0clgl2k",
+                "name": "Zoom Support - Zoom Learning Center",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "6mf5j0clgl2k",
+            "name": "Zoom Learning Center",
+            "status": "operational",
+            "created_at": "2026-08-07T02:44:20.168-07:00",
+            "updated_at": "2026-10-21T08:08:12.184-07:00",
+            "position": 9,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-08-07",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "rzyh3q1mjy28",
@@ -8162,6 +8735,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-10-21T11:35:08Z"
+    "updated": "2026-10-21T16:05:55Z"
   }
 }
