@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-23T02:01:34Z"
+    "updated": "2026-10-23T07:27:24Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users May Not Receive Notifications on Slack Thread Replies",
-    "updated": "2026-10-23T02:01:34Z"
+    "updated": "2026-10-23T07:27:24Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-22T21:44:11.677-04:00"
+      "updated_at": "2026-10-23T01:29:11.242-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-23T02:01:32Z"
+    "updated": "2026-10-23T07:27:22Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-23T01:44:16.686Z"
+      "updated_at": "2026-10-23T05:29:16.776Z"
     },
     "components": [
       {
@@ -259,7 +259,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2023-02-09T21:56:52.156Z",
-        "updated_at": "2026-10-22T23:22:24.000Z",
+        "updated_at": "2026-10-23T05:22:44.768Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -274,7 +274,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2023-02-09T21:58:54.215Z",
-        "updated_at": "2026-09-26T00:51:04.000Z",
+        "updated_at": "2026-10-23T05:25:07.897Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -304,7 +304,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-10-22T03:51:42.000Z",
+        "updated_at": "2026-10-23T05:18:50.281Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -342,7 +342,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T18:04:15.542Z",
-        "updated_at": "2026-10-22T03:51:54.000Z",
+        "updated_at": "2026-10-23T05:20:27.253Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -417,7 +417,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-10-21T15:33:46.683Z",
+        "updated_at": "2026-10-23T05:20:55.324Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -455,7 +455,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T21:57:37.036Z",
-        "updated_at": "2026-10-15T18:18:44.934Z",
+        "updated_at": "2026-10-23T05:23:30.516Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -470,7 +470,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T21:59:17.187Z",
-        "updated_at": "2026-07-24T22:07:00.186Z",
+        "updated_at": "2026-10-23T05:25:51.102Z",
         "position": 3,
         "description": null,
         "showcase": true,
@@ -515,7 +515,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2023-02-09T18:04:50.001Z",
-        "updated_at": "2026-09-21T16:34:08.709Z",
+        "updated_at": "2026-10-23T05:21:37.009Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -530,7 +530,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2023-02-09T21:57:55.572Z",
-        "updated_at": "2026-07-24T22:07:00.226Z",
+        "updated_at": "2026-10-23T05:23:58.573Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -568,7 +568,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2023-02-09T21:59:32.427Z",
-        "updated_at": "2026-07-24T22:07:00.247Z",
+        "updated_at": "2026-10-23T05:26:13.839Z",
         "position": 4,
         "description": null,
         "showcase": true,
@@ -598,7 +598,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2021-02-01T22:04:27.238Z",
-        "updated_at": "2026-10-21T16:06:31.000Z",
+        "updated_at": "2026-10-23T05:19:36.443Z",
         "position": 5,
         "description": "This component tracks the health of public API webhooks and event stream endpoints.",
         "showcase": true,
@@ -613,7 +613,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T18:05:05.907Z",
-        "updated_at": "2026-09-17T15:12:10.210Z",
+        "updated_at": "2026-10-23T05:22:00.750Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -628,7 +628,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T21:58:36.622Z",
-        "updated_at": "2026-08-06T17:28:36.904Z",
+        "updated_at": "2026-10-23T05:24:23.318Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -643,7 +643,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T21:59:50.695Z",
-        "updated_at": "2026-08-06T17:30:37.213Z",
+        "updated_at": "2026-10-23T05:26:35.722Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": true,
@@ -1013,7 +1013,7 @@
             "name": "App",
             "status": "operational",
             "created_at": "2023-02-09T21:56:52.156Z",
-            "updated_at": "2026-10-22T23:22:24.000Z",
+            "updated_at": "2026-10-23T05:22:44.768Z",
             "position": 1,
             "description": null,
             "showcase": true,
@@ -1028,7 +1028,7 @@
             "name": "App",
             "status": "operational",
             "created_at": "2023-02-09T21:58:54.215Z",
-            "updated_at": "2026-09-26T00:51:04.000Z",
+            "updated_at": "2026-10-23T05:25:07.897Z",
             "position": 1,
             "description": null,
             "showcase": true,
@@ -1058,7 +1058,7 @@
             "name": "API",
             "status": "operational",
             "created_at": "2017-09-19T23:35:56.553Z",
-            "updated_at": "2026-10-22T03:51:42.000Z",
+            "updated_at": "2026-10-23T05:18:50.281Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1073,7 +1073,7 @@
             "name": "API",
             "status": "operational",
             "created_at": "2023-02-09T18:04:15.542Z",
-            "updated_at": "2026-10-22T03:51:54.000Z",
+            "updated_at": "2026-10-23T05:20:27.253Z",
             "position": 2,
             "description": null,
             "showcase": true,
@@ -1148,7 +1148,7 @@
             "name": "Mobile",
             "status": "operational",
             "created_at": "2023-02-09T18:04:35.516Z",
-            "updated_at": "2026-10-21T15:33:46.683Z",
+            "updated_at": "2026-10-23T05:20:55.324Z",
             "position": 3,
             "description": null,
             "showcase": true,
@@ -1163,7 +1163,7 @@
             "name": "Mobile",
             "status": "operational",
             "created_at": "2023-02-09T21:57:37.036Z",
-            "updated_at": "2026-10-15T18:18:44.934Z",
+            "updated_at": "2026-10-23T05:23:30.516Z",
             "position": 3,
             "description": null,
             "showcase": true,
@@ -1178,7 +1178,7 @@
             "name": "Mobile",
             "status": "operational",
             "created_at": "2023-02-09T21:59:17.187Z",
-            "updated_at": "2026-07-24T22:07:00.186Z",
+            "updated_at": "2026-10-23T05:25:51.102Z",
             "position": 3,
             "description": null,
             "showcase": true,
@@ -1223,7 +1223,7 @@
             "name": "Automations and Background Actions",
             "status": "operational",
             "created_at": "2023-02-09T18:04:50.001Z",
-            "updated_at": "2026-09-21T16:34:08.709Z",
+            "updated_at": "2026-10-23T05:21:37.009Z",
             "position": 4,
             "description": null,
             "showcase": true,
@@ -1238,7 +1238,7 @@
             "name": "Automations and Background Actions",
             "status": "operational",
             "created_at": "2023-02-09T21:57:55.572Z",
-            "updated_at": "2026-07-24T22:07:00.226Z",
+            "updated_at": "2026-10-23T05:23:58.573Z",
             "position": 4,
             "description": null,
             "showcase": true,
@@ -1253,7 +1253,7 @@
             "name": "Automations and Background Actions",
             "status": "operational",
             "created_at": "2023-02-09T21:59:32.427Z",
-            "updated_at": "2026-07-24T22:07:00.247Z",
+            "updated_at": "2026-10-23T05:26:13.839Z",
             "position": 4,
             "description": null,
             "showcase": true,
@@ -1283,7 +1283,7 @@
             "name": "Webhooks and Event Streams",
             "status": "operational",
             "created_at": "2021-02-01T22:04:27.238Z",
-            "updated_at": "2026-10-21T16:06:31.000Z",
+            "updated_at": "2026-10-23T05:19:36.443Z",
             "position": 5,
             "description": "This component tracks the health of public API webhooks and event stream endpoints.",
             "showcase": true,
@@ -1298,7 +1298,7 @@
             "name": "Webhooks and Event Streams",
             "status": "operational",
             "created_at": "2023-02-09T18:05:05.907Z",
-            "updated_at": "2026-09-17T15:12:10.210Z",
+            "updated_at": "2026-10-23T05:22:00.750Z",
             "position": 5,
             "description": "This component tracks the health of Asana's public API webhooks and event streams.",
             "showcase": true,
@@ -1313,7 +1313,7 @@
             "name": "Webhooks and Event Streams",
             "status": "operational",
             "created_at": "2023-02-09T21:58:36.622Z",
-            "updated_at": "2026-08-06T17:28:36.904Z",
+            "updated_at": "2026-10-23T05:24:23.318Z",
             "position": 5,
             "description": "This component tracks the health of Asana's public API webhooks and event streams.",
             "showcase": true,
@@ -1328,7 +1328,7 @@
             "name": "Webhooks and Event Streams",
             "status": "operational",
             "created_at": "2023-02-09T21:59:50.695Z",
-            "updated_at": "2026-08-06T17:30:37.213Z",
+            "updated_at": "2026-10-23T05:26:35.722Z",
             "position": 5,
             "description": "This component tracks the health of Asana's public API webhooks and event streams.",
             "showcase": true,
@@ -1437,7 +1437,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-23T02:01:32Z"
+    "updated": "2026-10-23T07:27:22Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-22T18:44:16.063-07:00"
+      "updated_at": "2026-10-22T22:29:16.416-07:00"
     },
     "components": [
       {
@@ -8182,6 +8182,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-23T02:01:32Z"
+    "updated": "2026-10-23T07:27:22Z"
   }
 }
