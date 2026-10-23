@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-23T12:49:00Z"
+    "updated": "2026-10-23T17:36:12Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Users May Not Receive Notifications on Slack Thread Replies",
-    "updated": "2026-10-23T12:49:00Z"
+    "updated": "2026-10-23T17:36:12Z"
   },
   "hubspot": {
     "page": {
@@ -15,15 +15,15 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-23T05:04:16.630-04:00"
+      "updated_at": "2026-10-23T12:32:58.747-04:00"
     },
     "components": [
       {
         "id": "wd2vk60brf48",
         "name": "CRM",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2019-11-06T11:21:24.567-05:00",
-        "updated_at": "2026-10-02T19:22:48.953-04:00",
+        "updated_at": "2026-10-23T12:32:58.282-04:00",
         "position": 1,
         "description": "Loading and processing of HubSpot CRM objects like contacts, companies, deals, and tasks",
         "showcase": false,
@@ -36,9 +36,9 @@
       {
         "id": "vq3xl1yxlv6w",
         "name": "Marketing Tools",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2019-11-06T11:21:51.531-05:00",
-        "updated_at": "2026-10-08T12:20:32.172-04:00",
+        "updated_at": "2026-10-23T12:32:58.311-04:00",
         "position": 2,
         "description": "Loading and data processing of Marketing tools like Ads, Email, Social, Forms and Lists.",
         "showcase": false,
@@ -51,9 +51,9 @@
       {
         "id": "dgj0tf6pvh46",
         "name": "Website",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2019-11-06T11:22:36.096-05:00",
-        "updated_at": "2026-07-21T13:50:47.658-04:00",
+        "updated_at": "2026-10-23T12:32:58.337-04:00",
         "position": 3,
         "description": "Rendering of CMS and form submission processing",
         "showcase": false,
@@ -66,9 +66,9 @@
       {
         "id": "pmyfnq1w532l",
         "name": "Sales Tools",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2019-11-06T11:22:07.103-05:00",
-        "updated_at": "2026-07-22T07:13:40.812-04:00",
+        "updated_at": "2026-10-23T12:32:58.362-04:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -81,9 +81,9 @@
       {
         "id": "3mg3gm1jsdr0",
         "name": "Service Tools",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2019-11-06T11:22:22.900-05:00",
-        "updated_at": "2026-04-06T15:08:12.025-04:00",
+        "updated_at": "2026-10-23T12:32:58.389-04:00",
         "position": 5,
         "description": null,
         "showcase": false,
@@ -96,9 +96,9 @@
       {
         "id": "j7jxwhzfxbld",
         "name": "Chat & Automation",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2019-11-06T11:22:55.706-05:00",
-        "updated_at": "2026-10-02T19:22:49.004-04:00",
+        "updated_at": "2026-10-23T12:32:58.417-04:00",
         "position": 6,
         "description": "Loading and processing of data in Chatflows, Inbox, Feedback Surveys and Workflows",
         "showcase": false,
@@ -111,9 +111,9 @@
       {
         "id": "1l51z2b3c1tk",
         "name": "Reports",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2019-11-06T11:23:11.497-05:00",
-        "updated_at": "2026-10-08T12:20:32.200-04:00",
+        "updated_at": "2026-10-23T12:32:58.445-04:00",
         "position": 7,
         "description": "Loading of reports, dashboards, and analytics event processing.",
         "showcase": false,
@@ -126,9 +126,9 @@
       {
         "id": "56ktwf7k5yrk",
         "name": "HubSpot APIs",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2015-01-22T14:03:21.570-05:00",
-        "updated_at": "2025-12-05T04:33:37.494-05:00",
+        "updated_at": "2026-10-23T12:32:58.477-04:00",
         "position": 8,
         "description": "The HubSpot APIs include connections to Contacts, Analytics, Workflows, Reports, Forms, and more.",
         "showcase": false,
@@ -141,9 +141,9 @@
       {
         "id": "xmv0ypc21z1n",
         "name": "Integrations",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2015-01-22T13:20:22.438-05:00",
-        "updated_at": "2026-09-24T17:26:38.466-04:00",
+        "updated_at": "2026-10-23T12:32:58.505-04:00",
         "position": 9,
         "description": "Third-party tools integrated into your HubSpot account.",
         "showcase": false,
@@ -156,9 +156,9 @@
       {
         "id": "72fr2qpd5z0d",
         "name": "Mobile",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2019-04-15T11:27:37.788-04:00",
-        "updated_at": "2026-04-06T15:08:12.082-04:00",
+        "updated_at": "2026-10-23T12:32:58.536-04:00",
         "position": 10,
         "description": "HubSpot's mobile application on iOS and Android",
         "showcase": false,
@@ -171,9 +171,9 @@
       {
         "id": "zdlqz8253lz3",
         "name": "Developer Tools",
-        "status": "operational",
+        "status": "partial_outage",
         "created_at": "2025-07-30T16:49:19.802-04:00",
-        "updated_at": "2025-12-05T04:33:37.538-05:00",
+        "updated_at": "2026-10-23T12:32:58.566-04:00",
         "position": 11,
         "description": "HubSpot developer tools include our CLI, build and deploy, test accounts, Projects, logging and runtime tooling, and more.",
         "showcase": false,
@@ -184,13 +184,290 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "3kvm7m9d8f9n",
+        "name": "Some HubSpot tools may be unavailable for some users",
+        "status": "monitoring",
+        "created_at": "2026-10-23T12:07:44.180-04:00",
+        "updated_at": "2026-10-23T12:32:58.744-04:00",
+        "monitoring_at": "2026-10-23T12:32:58.631-04:00",
+        "resolved_at": null,
+        "impact": "none",
+        "shortlink": "https://stspg.io/vcmpcdsbxl9f",
+        "started_at": "2026-10-23T12:07:44.174-04:00",
+        "page_id": "8b9w1wwq3g7d",
+        "incident_updates": [
+          {
+            "id": "sxkchr3f6gdk",
+            "status": "monitoring",
+            "body": "We've addressed the issue that caused HubSpot to be unavailable to users in North America since 11:28 AM EDT (UTC -04:00). We're monitoring performance closely to ensure the tools recover properly.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
+            "incident_id": "3kvm7m9d8f9n",
+            "created_at": "2026-10-23T12:32:58.631-04:00",
+            "updated_at": "2026-10-23T12:32:58.631-04:00",
+            "display_at": "2026-10-23T12:32:58.631-04:00",
+            "affected_components": [
+              {
+                "code": "xmv0ypc21z1n",
+                "name": "Integrations",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "56ktwf7k5yrk",
+                "name": "HubSpot APIs",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "72fr2qpd5z0d",
+                "name": "Mobile",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "wd2vk60brf48",
+                "name": "CRM",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "vq3xl1yxlv6w",
+                "name": "Marketing Tools",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "pmyfnq1w532l",
+                "name": "Sales Tools",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "3mg3gm1jsdr0",
+                "name": "Service Tools",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "dgj0tf6pvh46",
+                "name": "Website",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "j7jxwhzfxbld",
+                "name": "Chat & Automation",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "1l51z2b3c1tk",
+                "name": "Reports",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              },
+              {
+                "code": "zdlqz8253lz3",
+                "name": "Developer Tools",
+                "old_status": "operational",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "8z483ns72n4l",
+            "status": "investigating",
+            "body": "HubSpot is currently unavailable for users in North America due to a Cloudflare outage - https://www.cloudflarestatus.com/incidents/sufgcbe8rrwt\n\nWe are working with Cloudflare to resolve the issue, and we'll update this page when we have more information. We will be back with an update within 30 minutes.",
+            "incident_id": "3kvm7m9d8f9n",
+            "created_at": "2026-10-23T12:07:44.228-04:00",
+            "updated_at": "2026-10-23T12:17:51.064-04:00",
+            "display_at": "2026-10-23T12:07:44.228-04:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "wd2vk60brf48",
+            "name": "CRM",
+            "status": "partial_outage",
+            "created_at": "2019-11-06T11:21:24.567-05:00",
+            "updated_at": "2026-10-23T12:32:58.282-04:00",
+            "position": 1,
+            "description": "Loading and processing of HubSpot CRM objects like contacts, companies, deals, and tasks",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "vq3xl1yxlv6w",
+            "name": "Marketing Tools",
+            "status": "partial_outage",
+            "created_at": "2019-11-06T11:21:51.531-05:00",
+            "updated_at": "2026-10-23T12:32:58.311-04:00",
+            "position": 2,
+            "description": "Loading and data processing of Marketing tools like Ads, Email, Social, Forms and Lists.",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "dgj0tf6pvh46",
+            "name": "Website",
+            "status": "partial_outage",
+            "created_at": "2019-11-06T11:22:36.096-05:00",
+            "updated_at": "2026-10-23T12:32:58.337-04:00",
+            "position": 3,
+            "description": "Rendering of CMS and form submission processing",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "pmyfnq1w532l",
+            "name": "Sales Tools",
+            "status": "partial_outage",
+            "created_at": "2019-11-06T11:22:07.103-05:00",
+            "updated_at": "2026-10-23T12:32:58.362-04:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "3mg3gm1jsdr0",
+            "name": "Service Tools",
+            "status": "partial_outage",
+            "created_at": "2019-11-06T11:22:22.900-05:00",
+            "updated_at": "2026-10-23T12:32:58.389-04:00",
+            "position": 5,
+            "description": null,
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "j7jxwhzfxbld",
+            "name": "Chat & Automation",
+            "status": "partial_outage",
+            "created_at": "2019-11-06T11:22:55.706-05:00",
+            "updated_at": "2026-10-23T12:32:58.417-04:00",
+            "position": 6,
+            "description": "Loading and processing of data in Chatflows, Inbox, Feedback Surveys and Workflows",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "1l51z2b3c1tk",
+            "name": "Reports",
+            "status": "partial_outage",
+            "created_at": "2019-11-06T11:23:11.497-05:00",
+            "updated_at": "2026-10-23T12:32:58.445-04:00",
+            "position": 7,
+            "description": "Loading of reports, dashboards, and analytics event processing.",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "56ktwf7k5yrk",
+            "name": "HubSpot APIs",
+            "status": "partial_outage",
+            "created_at": "2015-01-22T14:03:21.570-05:00",
+            "updated_at": "2026-10-23T12:32:58.477-04:00",
+            "position": 8,
+            "description": "The HubSpot APIs include connections to Contacts, Analytics, Workflows, Reports, Forms, and more.",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "xmv0ypc21z1n",
+            "name": "Integrations",
+            "status": "partial_outage",
+            "created_at": "2015-01-22T13:20:22.438-05:00",
+            "updated_at": "2026-10-23T12:32:58.505-04:00",
+            "position": 9,
+            "description": "Third-party tools integrated into your HubSpot account.",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "72fr2qpd5z0d",
+            "name": "Mobile",
+            "status": "partial_outage",
+            "created_at": "2019-04-15T11:27:37.788-04:00",
+            "updated_at": "2026-10-23T12:32:58.536-04:00",
+            "position": 10,
+            "description": "HubSpot's mobile application on iOS and Android",
+            "showcase": false,
+            "start_date": null,
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "zdlqz8253lz3",
+            "name": "Developer Tools",
+            "status": "partial_outage",
+            "created_at": "2025-07-30T16:49:19.802-04:00",
+            "updated_at": "2026-10-23T12:32:58.566-04:00",
+            "position": 11,
+            "description": "HubSpot developer tools include our CLI, build and deploy, test accounts, Projects, logging and runtime tooling, and more.",
+            "showcase": false,
+            "start_date": "2025-07-30",
+            "group_id": null,
+            "page_id": "8b9w1wwq3g7d",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "major",
+      "description": "Partial System Outage"
     },
-    "updated": "2026-10-23T12:48:59Z"
+    "updated": "2026-10-23T17:36:11Z"
   },
   "asana": {
     "page": {
@@ -198,7 +475,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-23T09:04:21.528Z"
+      "updated_at": "2026-10-23T13:59:13.367Z"
     },
     "components": [
       {
@@ -1437,7 +1714,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-23T12:48:59Z"
+    "updated": "2026-10-23T17:36:11Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1722,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-23T02:04:20.814-07:00"
+      "updated_at": "2026-10-23T10:35:00.622-07:00"
     },
     "components": [
       {
@@ -1453,7 +1730,7 @@
         "name": "Zoom Meetings",
         "status": "operational",
         "created_at": "2015-01-26T15:04:39.101-08:00",
-        "updated_at": "2026-10-22T13:05:21.605-07:00",
+        "updated_at": "2026-10-23T09:24:27.592-07:00",
         "position": 1,
         "description": "Access to meetings",
         "showcase": false,
@@ -1468,7 +1745,7 @@
         "name": "Zoom Chat",
         "status": "operational",
         "created_at": "2015-01-26T15:08:19.770-08:00",
-        "updated_at": "2026-06-01T07:04:56.340-07:00",
+        "updated_at": "2026-10-23T09:24:27.620-07:00",
         "position": 1,
         "description": "Access to Group Chats",
         "showcase": false,
@@ -1798,7 +2075,7 @@
         "name": "Zoom Contact Center",
         "status": "operational",
         "created_at": "2024-03-21T13:14:33.314-07:00",
-        "updated_at": "2026-05-21T18:00:07.341-07:00",
+        "updated_at": "2026-10-23T09:24:27.649-07:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -6830,7 +7107,7 @@
         "name": "ZoomMate",
         "status": "operational",
         "created_at": "2026-06-22T09:29:03.520-07:00",
-        "updated_at": "2026-10-05T15:04:58.029-07:00",
+        "updated_at": "2026-10-23T09:24:27.676-07:00",
         "position": 53,
         "description": null,
         "showcase": false,
@@ -6886,101 +7163,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "dl0gnrg0pz68",
-        "name": "Service Degradation Affecting Zoom Meetings Services in the US.",
-        "status": "monitoring",
-        "created_at": "2026-10-22T12:16:27.700-07:00",
-        "updated_at": "2026-10-22T13:05:21.706-07:00",
-        "monitoring_at": "2026-10-22T13:05:21.672-07:00",
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/813b5nbpsxdf",
-        "started_at": "2026-10-22T12:16:27.688-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "s1w2ynlgk408",
-            "status": "monitoring",
-            "body": "The service degradation affecting a subset of users, causing intermittent meeting disconnects in the US region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
-            "incident_id": "dl0gnrg0pz68",
-            "created_at": "2026-10-22T13:05:21.672-07:00",
-            "updated_at": "2026-10-22T13:05:21.672-07:00",
-            "display_at": "2026-10-22T13:05:21.672-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "x8pbd5n11818",
-            "status": "identified",
-            "body": "We have successfully identified the root cause of intermittent meeting disconnects affecting a subset of users in the US region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "dl0gnrg0pz68",
-            "created_at": "2026-10-22T12:32:34.208-07:00",
-            "updated_at": "2026-10-22T12:32:34.208-07:00",
-            "display_at": "2026-10-22T12:32:34.208-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "bggjgq0cxdzw",
-            "status": "investigating",
-            "body": "We are currently investigating a service degradation affecting a subset of users, causing intermittent meeting disconnects in the US region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "dl0gnrg0pz68",
-            "created_at": "2026-10-22T12:16:27.847-07:00",
-            "updated_at": "2026-10-22T12:16:27.847-07:00",
-            "display_at": "2026-10-22T12:16:27.847-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-10-22T13:05:21.605-07:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "rzyh3q1mjy28",
@@ -7354,7 +7537,7 @@
             "name": "Zoom Meetings",
             "status": "operational",
             "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-10-22T13:05:21.605-07:00",
+            "updated_at": "2026-10-23T09:24:27.592-07:00",
             "position": 1,
             "description": "Access to meetings",
             "showcase": false,
@@ -7369,7 +7552,7 @@
             "name": "Zoom Contact Center",
             "status": "operational",
             "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-21T18:00:07.341-07:00",
+            "updated_at": "2026-10-23T09:24:27.649-07:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7776,7 +7959,7 @@
             "name": "Zoom Chat",
             "status": "operational",
             "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-06-01T07:04:56.340-07:00",
+            "updated_at": "2026-10-23T09:24:27.620-07:00",
             "position": 1,
             "description": "Access to Group Chats",
             "showcase": false,
@@ -7789,419 +7972,12 @@
         ],
         "scheduled_for": "2026-10-16T09:00:00.000-07:00",
         "scheduled_until": "2026-11-14T08:00:00.000-08:00"
-      },
-      {
-        "id": "nlwgjdlq22kz",
-        "name": "Zoom Push Notification Service Release: October, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-10-13T06:11:34.074-07:00",
-        "updated_at": "2026-10-15T09:00:10.802-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/dy7y1j20cdj5",
-        "started_at": "2026-10-13T06:11:34.013-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "3dd6v9vyq7m4",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "nlwgjdlq22kz",
-            "created_at": "2026-10-15T09:00:10.737-07:00",
-            "updated_at": "2026-10-15T09:00:10.737-07:00",
-            "display_at": "2026-10-15T09:00:10.737-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "b2ngsd3w845n",
-            "status": "scheduled",
-            "body": "We will be performing maintenance for Zoom Push Notification Service. No operational impact is expected.\n\nThis maintenance includes the following enhancements and improvements:\n- Activity center enhancement\n- Presence enhancement\n- Bug fix\n\nAll services are expected to operate normally during the maintenance window.",
-            "incident_id": "nlwgjdlq22kz",
-            "created_at": "2026-10-13T06:11:34.380-07:00",
-            "updated_at": "2026-10-13T06:11:34.380-07:00",
-            "display_at": "2026-10-13T06:11:34.380-07:00",
-            "affected_components": [
-              {
-                "code": "8gftm750nwzm",
-                "name": "Zoom Website - Web Portal",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "503cqbhcpvzx",
-                "name": "Zoom Website - Web Client",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "rmphw6f34qk9",
-                "name": "Zoom Developer Platform - Marketplace",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "3mgjlwf5953y",
-                "name": "Zoom Events",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "q4msk5dl4bhm",
-                "name": "Zoom Meetings - Zoom Webinars",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "0842bncf5q9f",
-                "name": "Zoom Phone - Global - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "xtgr15yv6hbn",
-                "name": "Zoom Rooms - Zoom Rooms",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "hybzp260h3n2",
-                "name": "Zoom Mail - Calendar",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "03szj78zknyt",
-                "name": "Zoom Mail - Mail",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-10-22T13:05:21.605-07:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-06-01T07:04:56.340-07:00",
-            "position": 1,
-            "description": "Access to Group Chats",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "xtgr15yv6hbn",
-            "name": "Zoom Rooms",
-            "status": "operational",
-            "created_at": "2021-05-18T07:12:19.400-07:00",
-            "updated_at": "2026-10-12T02:00:14.040-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2021-05-18",
-            "group_id": "xxngg08dxtpq",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "hybzp260h3n2",
-            "name": "Calendar",
-            "status": "operational",
-            "created_at": "2023-03-23T09:35:24.809-07:00",
-            "updated_at": "2026-10-06T20:46:22.591-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-23",
-            "group_id": "thrn29k311lc",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-05-21T18:00:07.341-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "03szj78zknyt",
-            "name": "Mail",
-            "status": "operational",
-            "created_at": "2023-03-23T09:35:58.650-07:00",
-            "updated_at": "2026-06-21T10:52:58.340-07:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-03-23",
-            "group_id": "thrn29k311lc",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "rmphw6f34qk9",
-            "name": "Marketplace",
-            "status": "operational",
-            "created_at": "2020-04-06T15:25:48.555-07:00",
-            "updated_at": "2026-05-20T14:13:54.716-07:00",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "dhtlfcvrh3qh",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "8gftm750nwzm",
-            "name": "Web Portal",
-            "status": "operational",
-            "created_at": "2020-03-17T15:28:43.573-07:00",
-            "updated_at": "2026-06-24T23:44:32.512-07:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "503cqbhcpvzx",
-            "name": "Web Client",
-            "status": "operational",
-            "created_at": "2022-05-03T11:23:21.561-07:00",
-            "updated_at": "2025-11-23T00:00:21.372-08:00",
-            "position": 5,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "08fp2rr1spx0",
-            "name": "Integrations/Calendar/Plug-In/Add-In",
-            "status": "operational",
-            "created_at": "2023-01-31T21:55:23.273-08:00",
-            "updated_at": "2026-10-01T09:05:26.928-07:00",
-            "position": 7,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-31",
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "0842bncf5q9f",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2024-09-30T13:36:13.230-07:00",
-            "updated_at": "2026-09-20T02:00:07.620-07:00",
-            "position": 12,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-09-30",
-            "group_id": "fs7vxs27n4pn",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "3mgjlwf5953y",
-            "name": "Zoom Events",
-            "status": "operational",
-            "created_at": "2021-07-21T08:43:31.354-07:00",
-            "updated_at": "2026-05-20T14:13:54.748-07:00",
-            "position": 14,
-            "description": "Access to Events at zoomevents.com",
-            "showcase": false,
-            "start_date": "2021-07-21",
-            "group_id": null,
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "q4msk5dl4bhm",
-            "name": "Zoom Webinars",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.115-08:00",
-            "updated_at": "2026-10-12T02:00:35.197-07:00",
-            "position": 20,
-            "description": "Access to video webinars",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-10-15T09:00:00.000-07:00",
-        "scheduled_until": "2026-10-23T09:00:00.000-07:00"
-      },
-      {
-        "id": "wc683vmmf5dy",
-        "name": "Zoom Chat Update: October 06, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-09-22T20:08:42.531-07:00",
-        "updated_at": "2026-10-06T09:00:07.543-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/rjs57r3bw2c6",
-        "started_at": "2026-09-22T20:08:42.517-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "k06j8mw90z4s",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "wc683vmmf5dy",
-            "created_at": "2026-10-06T09:00:07.535-07:00",
-            "updated_at": "2026-10-06T09:00:07.535-07:00",
-            "display_at": "2026-10-06T09:00:07.535-07:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "qlf52grjf5mp",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Chat Backend Service. There will be no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "wc683vmmf5dy",
-            "created_at": "2026-09-22T20:08:42.639-07:00",
-            "updated_at": "2026-09-22T20:08:42.639-07:00",
-            "display_at": "2026-09-22T20:08:42.639-07:00",
-            "affected_components": [
-              {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-06-01T07:04:56.340-07:00",
-            "position": 1,
-            "description": "Access to Group Chats",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-10-06T09:00:00.000-07:00",
-        "scheduled_until": "2026-10-23T09:00:00.000-07:00"
       }
     ],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-23T12:48:59Z"
+    "updated": "2026-10-23T17:36:11Z"
   }
 }
