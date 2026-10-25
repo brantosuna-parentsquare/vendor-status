@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-24T23:23:36Z"
+    "updated": "2026-10-25T01:29:46Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slack Search Feature Disruption - Japan region",
-    "updated": "2026-10-24T23:23:36Z"
+    "updated": "2026-10-25T01:29:46Z"
   },
   "hubspot": {
     "page": {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-24T23:23:35Z"
+    "updated": "2026-10-25T01:29:45Z"
   },
   "asana": {
     "page": {
@@ -1437,7 +1437,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-24T23:23:35Z"
+    "updated": "2026-10-25T01:29:45Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-24T16:22:51.346-07:00"
+      "updated_at": "2026-10-24T17:21:42.695-07:00"
     },
     "components": [
       {
@@ -6890,10 +6890,10 @@
     "scheduled_maintenances": [
       {
         "id": "6pj2z72n78n4",
-        "name": "Zoom Pardot Integration - Hotfix: October 26,2026",
+        "name": "Zoom Pardot Integration - Hotfix: October 26, 2026",
         "status": "scheduled",
         "created_at": "2026-10-24T16:22:51.233-07:00",
-        "updated_at": "2026-10-24T16:22:51.342-07:00",
+        "updated_at": "2026-10-24T16:25:15.099-07:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -6939,8 +6939,8 @@
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-10-25T00:15:00.000-07:00",
-        "scheduled_until": "2026-10-27T12:15:00.000-07:00"
+        "scheduled_for": "2026-10-25T06:00:00.000-07:00",
+        "scheduled_until": "2026-10-27T18:00:00.000-07:00"
       },
       {
         "id": "rzyh3q1mjy28",
@@ -7755,6 +7755,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-24T23:23:35Z"
+    "updated": "2026-10-25T01:29:45Z"
   }
 }
