@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-10-28T11:38:20Z"
+    "updated": "2026-10-28T17:24:27Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Slow behaviour in Slack",
-    "updated": "2026-10-28T11:38:20Z"
+    "updated": "2026-10-28T17:24:27Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-10-28T07:15:08.666-04:00"
+      "updated_at": "2026-10-28T13:09:07.339-04:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-28T11:38:18Z"
+    "updated": "2026-10-28T17:24:24Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-10-28T11:11:07.796Z"
+      "updated_at": "2026-10-28T17:09:16.524Z"
     },
     "components": [
       {
@@ -1437,7 +1437,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-10-28T11:38:18Z"
+    "updated": "2026-10-28T17:24:24Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-10-28T04:15:40.309-07:00"
+      "updated_at": "2026-10-28T10:09:16.096-07:00"
     },
     "components": [
       {
@@ -6750,9 +6750,9 @@
       {
         "id": "7nqbtwsrd6lm",
         "name": "Zoom Quality Management",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-03-12T23:18:53.728-07:00",
-        "updated_at": "2026-03-12T23:18:53.728-07:00",
+        "updated_at": "2026-10-28T07:31:21.759-07:00",
         "position": 47,
         "description": null,
         "showcase": false,
@@ -6886,7 +6886,61 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "chd978s7g6p9",
+        "name": "Service Degradation Affecting the Evaluations Acknowledge Button in Zoom Quality Management in the US Region",
+        "status": "identified",
+        "created_at": "2026-10-28T07:31:21.716-07:00",
+        "updated_at": "2026-10-28T07:31:21.814-07:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/3wdnhf87gqwg",
+        "started_at": "2026-10-28T07:31:21.710-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "p6wbj60p38xl",
+            "status": "identified",
+            "body": "We have successfully identified the root cause of the missing evaluations acknowledge button in Zoom Quality Management reports in the US region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "chd978s7g6p9",
+            "created_at": "2026-10-28T07:31:21.812-07:00",
+            "updated_at": "2026-10-28T07:31:21.812-07:00",
+            "display_at": "2026-10-28T07:31:21.812-07:00",
+            "affected_components": [
+              {
+                "code": "7nqbtwsrd6lm",
+                "name": "Zoom Quality Management",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "7nqbtwsrd6lm",
+            "name": "Zoom Quality Management",
+            "status": "degraded_performance",
+            "created_at": "2026-03-12T23:18:53.728-07:00",
+            "updated_at": "2026-10-28T07:31:21.759-07:00",
+            "position": 47,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-03-12",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "rzyh3q1mjy28",
@@ -7698,9 +7752,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-10-28T11:38:18Z"
+    "updated": "2026-10-28T17:24:24Z"
   }
 }
