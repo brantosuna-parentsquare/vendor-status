@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-03T16:28:34Z"
+    "updated": "2026-11-03T21:55:46Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Scheduled Grid Migrations are experiencing extended downtime",
-    "updated": "2026-11-03T16:28:34Z"
+    "updated": "2026-11-03T21:55:46Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-03T10:59:12.300-05:00"
+      "updated_at": "2026-11-03T13:09:20.567-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-03T16:28:32Z"
+    "updated": "2026-11-03T21:55:45Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-03T15:59:20.273Z"
+      "updated_at": "2026-11-03T20:21:02.449Z"
     },
     "components": [
       {
@@ -236,7 +236,8 @@
           "0tlyr3w5wwtv",
           "5pzgfbsllb5y",
           "72r2f6764450",
-          "v7hcrjtr3zmm"
+          "v7hcrjtr3zmm",
+          "ghmv9sdqp79z"
         ]
       },
       {
@@ -334,7 +335,8 @@
           "xkbfplxg5q8p",
           "39d07v7xt70h",
           "xk6m3fzxd961",
-          "114pdw4p01xz"
+          "114pdw4p01xz",
+          "h1nlm84k22c6"
         ]
       },
       {
@@ -447,7 +449,8 @@
           "rtg6j3dykmqj",
           "5j7zdk265c0x",
           "34hnvm512p05",
-          "78rst0tkkkxn"
+          "78rst0tkkkxn",
+          "zvn112876kfd"
         ]
       },
       {
@@ -560,7 +563,8 @@
           "h6ncz3kqdjmp",
           "vgztx3m93w0b",
           "7bdsmnby2rqd",
-          "ldt346pmqdb9"
+          "ldt346pmqdb9",
+          "pdldx9rv6vj4"
         ]
       },
       {
@@ -673,7 +677,8 @@
           "mr04m1rysj65",
           "pgl7q570g5np",
           "wclgzqxnt8qd",
-          "1wc2v8r6wnhc"
+          "1wc2v8r6wnhc",
+          "bk3x34b0nkyv"
         ]
       },
       {
@@ -761,6 +766,81 @@
         "description": null,
         "showcase": false,
         "start_date": "2026-01-20",
+        "group_id": "m172ltsc49p0",
+        "page_id": "w58858w0sjxx",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "ghmv9sdqp79z",
+        "name": "AI Meetings",
+        "status": "operational",
+        "created_at": "2026-11-03T19:36:56.194Z",
+        "updated_at": "2026-11-03T19:36:56.194Z",
+        "position": 7,
+        "description": null,
+        "showcase": true,
+        "start_date": "2026-11-03",
+        "group_id": "pw3rpxcrq9j5",
+        "page_id": "w58858w0sjxx",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "h1nlm84k22c6",
+        "name": "AI Meetings",
+        "status": "operational",
+        "created_at": "2026-11-03T19:38:08.383Z",
+        "updated_at": "2026-11-03T19:38:08.383Z",
+        "position": 7,
+        "description": null,
+        "showcase": true,
+        "start_date": "2026-11-03",
+        "group_id": "6l7nv2dwk8d9",
+        "page_id": "w58858w0sjxx",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "zvn112876kfd",
+        "name": "AI Meetings",
+        "status": "operational",
+        "created_at": "2026-11-03T19:38:23.967Z",
+        "updated_at": "2026-11-03T19:38:23.967Z",
+        "position": 7,
+        "description": null,
+        "showcase": true,
+        "start_date": "2026-11-03",
+        "group_id": "3c6vvpy5cjf5",
+        "page_id": "w58858w0sjxx",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "pdldx9rv6vj4",
+        "name": "AI Meetings",
+        "status": "operational",
+        "created_at": "2026-11-03T19:38:38.619Z",
+        "updated_at": "2026-11-03T19:38:38.619Z",
+        "position": 7,
+        "description": null,
+        "showcase": true,
+        "start_date": "2026-11-03",
+        "group_id": "rmx1t3dwwq0t",
+        "page_id": "w58858w0sjxx",
+        "group": false,
+        "only_show_if_degraded": false
+      },
+      {
+        "id": "bk3x34b0nkyv",
+        "name": "AI Meetings",
+        "status": "operational",
+        "created_at": "2026-11-03T19:40:11.091Z",
+        "updated_at": "2026-11-03T19:40:11.091Z",
+        "position": 7,
+        "description": null,
+        "showcase": true,
+        "start_date": "2026-11-03",
         "group_id": "m172ltsc49p0",
         "page_id": "w58858w0sjxx",
         "group": false,
@@ -1437,7 +1517,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-03T16:28:32Z"
+    "updated": "2026-11-03T21:55:45Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1525,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-03T07:59:19.724-08:00"
+      "updated_at": "2026-11-03T11:55:46.265-08:00"
     },
     "components": [
       {
@@ -1571,9 +1651,9 @@
       {
         "id": "773zkp1jzkgl",
         "name": "Zoom Phone",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:43:27.197-07:00",
-        "updated_at": "2026-10-21T21:30:07.366-07:00",
+        "updated_at": "2026-11-03T09:00:13.047-08:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -2451,9 +2531,9 @@
       {
         "id": "5vvw5njz8qg5",
         "name": "SMS/MMS (Inbound/Outbound)",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:40:19.412-07:00",
-        "updated_at": "2026-05-22T16:27:39.563-07:00",
+        "updated_at": "2026-11-03T09:18:52.127-08:00",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -6102,7 +6182,7 @@
       {
         "id": "8sq44v6xhj9v",
         "name": "Zoom Phone - EMEA",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:43:27.170-07:00",
         "updated_at": "2024-08-14T13:40:39.026-07:00",
         "position": 21,
@@ -6276,7 +6356,7 @@
       {
         "id": "gwtd6dbkck60",
         "name": "Zoom Phone - NORTH AMERICA",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:37:27.877-07:00",
         "updated_at": "2024-08-14T13:40:39.076-07:00",
         "position": 25,
@@ -6886,35 +6966,74 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
-    "scheduled_maintenances": [
+    "incidents": [
       {
-        "id": "rzyh3q1mjy28",
-        "name": "Zoom Phone maintenance - AMS5 Data Center: November 3, 2026",
-        "status": "scheduled",
-        "created_at": "2026-10-01T17:57:54.973-07:00",
-        "updated_at": "2026-10-08T10:31:40.358-07:00",
+        "id": "rbz47jx96k44",
+        "name": "Service Degradation Affecting Outbound MMS Services in the US region",
+        "status": "identified",
+        "created_at": "2026-11-03T09:18:52.073-08:00",
+        "updated_at": "2026-11-03T11:55:46.250-08:00",
         "monitoring_at": null,
         "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/xkw54fw1hfl0",
-        "started_at": "2026-10-01T17:57:54.964-07:00",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/d46nxybl90r5",
+        "started_at": "2026-11-03T09:18:52.062-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "5wz7vdzbxkfd",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at our AMS5 Data Center starting at 9:00 AM Pacific on November 03, 2026. Zoom Phone users registered to the those sip zones will be automatically registered in the FRA3 sip zone sequentially. During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
-            "incident_id": "rzyh3q1mjy28",
-            "created_at": "2026-10-01T17:57:55.121-07:00",
-            "updated_at": "2026-10-08T10:29:38.908-07:00",
-            "display_at": "2026-10-01T17:57:55.121-07:00",
+            "id": "j7gmzpxgh3j5",
+            "status": "identified",
+            "body": "We continue to work with our underlying carrier in the US region where a subset of users are experiencing issues with outbound MMS services.\n\nWe will provide an update as soon as more information becomes available.",
+            "incident_id": "rbz47jx96k44",
+            "created_at": "2026-11-03T11:55:46.247-08:00",
+            "updated_at": "2026-11-03T11:55:46.247-08:00",
+            "display_at": "2026-11-03T11:55:46.247-08:00",
             "affected_components": [
               {
-                "code": "773zkp1jzkgl",
-                "name": "Zoom Phone - EMEA - Zoom Phone",
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "bx216qx9bf2j",
+            "status": "identified",
+            "body": "We have identified an issue with our underlying carrier in US region where a subset of users are experiencing issues with outbound MMS services.\n\nWe are actively working with our carrier partner to resolve the issue. We will provide an update as soon as more information becomes available.",
+            "incident_id": "rbz47jx96k44",
+            "created_at": "2026-11-03T09:27:01.168-08:00",
+            "updated_at": "2026-11-03T09:27:01.168-08:00",
+            "display_at": "2026-11-03T09:27:01.168-08:00",
+            "affected_components": [
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "71txtc87qq5s",
+            "status": "investigating",
+            "body": "We are currently investigating service degradation affecting outbound MMS Services for a subset of users in the US region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "rbz47jx96k44",
+            "created_at": "2026-11-03T09:18:52.191-08:00",
+            "updated_at": "2026-11-03T09:18:52.191-08:00",
+            "display_at": "2026-11-03T09:18:52.191-08:00",
+            "affected_components": [
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
                 "old_status": "operational",
-                "new_status": "operational"
+                "new_status": "degraded_performance"
               }
             ],
             "deliver_notifications": true,
@@ -6924,24 +7043,25 @@
         ],
         "components": [
           {
-            "id": "773zkp1jzkgl",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:43:27.197-07:00",
-            "updated_at": "2026-10-21T21:30:07.366-07:00",
-            "position": 1,
+            "id": "5vvw5njz8qg5",
+            "name": "SMS/MMS (Inbound/Outbound)",
+            "status": "degraded_performance",
+            "created_at": "2022-05-03T10:40:19.412-07:00",
+            "updated_at": "2026-11-03T09:18:52.127-08:00",
+            "position": 3,
             "description": null,
             "showcase": false,
             "start_date": "2022-05-03",
-            "group_id": "8sq44v6xhj9v",
+            "group_id": "gwtd6dbkck60",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-11-03T09:00:00.000-08:00",
-        "scheduled_until": "2026-11-05T21:30:00.000-08:00"
-      },
+        "reminder_intervals": null
+      }
+    ],
+    "scheduled_maintenances": [
       {
         "id": "lc7zlsp6zcq0",
         "name": "Zoom FileServer Release: November 03, 2026 (No Operational Impact)",
@@ -7548,9 +7668,9 @@
           {
             "id": "773zkp1jzkgl",
             "name": "Zoom Phone",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T10:43:27.197-07:00",
-            "updated_at": "2026-10-21T21:30:07.366-07:00",
+            "updated_at": "2026-11-03T09:00:13.047-08:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7730,9 +7850,9 @@
           {
             "id": "773zkp1jzkgl",
             "name": "Zoom Phone",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T10:43:27.197-07:00",
-            "updated_at": "2026-10-21T21:30:07.366-07:00",
+            "updated_at": "2026-11-03T09:00:13.047-08:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7892,9 +8012,9 @@
           {
             "id": "773zkp1jzkgl",
             "name": "Zoom Phone",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T10:43:27.197-07:00",
-            "updated_at": "2026-10-21T21:30:07.366-07:00",
+            "updated_at": "2026-11-03T09:00:13.047-08:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7961,6 +8081,80 @@
         ],
         "scheduled_for": "2026-12-04T04:00:00.000-08:00",
         "scheduled_until": "2026-12-05T10:00:00.000-08:00"
+      },
+      {
+        "id": "rzyh3q1mjy28",
+        "name": "Zoom Phone maintenance - AMS5 Data Center: November 3, 2026",
+        "status": "in_progress",
+        "created_at": "2026-10-01T17:57:54.973-07:00",
+        "updated_at": "2026-11-03T09:00:19.143-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/xkw54fw1hfl0",
+        "started_at": "2026-10-01T17:57:54.964-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "dxk573c1mbb4",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "rzyh3q1mjy28",
+            "created_at": "2026-11-03T09:00:18.962-08:00",
+            "updated_at": "2026-11-03T09:00:18.962-08:00",
+            "display_at": "2026-11-03T09:00:18.962-08:00",
+            "affected_components": [
+              {
+                "code": "773zkp1jzkgl",
+                "name": "Zoom Phone - EMEA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "5wz7vdzbxkfd",
+            "status": "scheduled",
+            "body": "Zoom will perform service maintenance at our AMS5 Data Center starting at 9:00 AM Pacific on November 03, 2026. Zoom Phone users registered to the those sip zones will be automatically registered in the FRA3 sip zone sequentially. During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
+            "incident_id": "rzyh3q1mjy28",
+            "created_at": "2026-10-01T17:57:55.121-07:00",
+            "updated_at": "2026-10-08T10:29:38.908-07:00",
+            "display_at": "2026-10-01T17:57:55.121-07:00",
+            "affected_components": [
+              {
+                "code": "773zkp1jzkgl",
+                "name": "Zoom Phone - EMEA - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "773zkp1jzkgl",
+            "name": "Zoom Phone",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T10:43:27.197-07:00",
+            "updated_at": "2026-11-03T09:00:13.047-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "8sq44v6xhj9v",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-03T09:00:00.000-08:00",
+        "scheduled_until": "2026-11-05T21:30:00.000-08:00"
       },
       {
         "id": "v5w5rpvqj35f",
@@ -8031,9 +8225,9 @@
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-11-03T16:28:32Z"
+    "updated": "2026-11-03T21:55:45Z"
   }
 }
