@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-03T01:24:28Z"
+    "updated": "2026-11-03T08:28:48Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Scheduled Grid Migrations are experiencing extended downtime",
-    "updated": "2026-11-03T01:24:28Z"
+    "updated": "2026-11-03T08:28:48Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-02T17:44:30.560-05:00"
+      "updated_at": "2026-11-03T01:34:12.796-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-03T01:24:27Z"
+    "updated": "2026-11-03T08:28:46Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-02T22:44:36.407Z"
+      "updated_at": "2026-11-03T06:34:17.196Z"
     },
     "components": [
       {
@@ -1437,7 +1437,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-03T01:24:27Z"
+    "updated": "2026-11-03T08:28:46Z"
   },
   "zoom": {
     "page": {
@@ -1445,7 +1445,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-02T14:44:36.265-08:00"
+      "updated_at": "2026-11-02T22:34:16.908-08:00"
     },
     "components": [
       {
@@ -8034,6 +8034,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-03T01:24:27Z"
+    "updated": "2026-11-03T08:28:46Z"
   }
 }
