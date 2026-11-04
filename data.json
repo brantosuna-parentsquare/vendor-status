@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-04T17:14:36Z"
+    "updated": "2026-11-04T22:41:34Z"
   },
   "slack": {
     "status": "ok",
-    "latest_title": "Incident: EKM customers were previously experiencing issues with channel loading and message delivery",
-    "updated": "2026-11-04T17:14:36Z"
+    "latest_title": "Incident: Issues affecting file uploads, message edits, channel renames, and channel creations",
+    "updated": "2026-11-04T22:41:34Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-04T10:34:12.205-05:00"
+      "updated_at": "2026-11-04T17:29:12.880-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-04T17:14:35Z"
+    "updated": "2026-11-04T22:41:32Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-04T15:34:16.757Z"
+      "updated_at": "2026-11-04T22:29:18.695Z"
     },
     "components": [
       {
@@ -1517,7 +1517,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-04T17:14:35Z"
+    "updated": "2026-11-04T22:41:32Z"
   },
   "zoom": {
     "page": {
@@ -1525,7 +1525,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-04T07:34:16.157-08:00"
+      "updated_at": "2026-11-04T14:29:17.569-08:00"
     },
     "components": [
       {
@@ -8160,6 +8160,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-11-04T17:14:35Z"
+    "updated": "2026-11-04T22:41:32Z"
   }
 }
