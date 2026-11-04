@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-03T21:55:46Z"
+    "updated": "2026-11-04T02:05:43Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Scheduled Grid Migrations are experiencing extended downtime",
-    "updated": "2026-11-03T21:55:46Z"
+    "updated": "2026-11-04T02:05:43Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-03T13:09:20.567-05:00"
+      "updated_at": "2026-11-03T20:24:17.784-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-03T21:55:45Z"
+    "updated": "2026-11-04T02:05:42Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-03T20:21:02.449Z"
+      "updated_at": "2026-11-04T01:24:22.439Z"
     },
     "components": [
       {
@@ -1517,7 +1517,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-03T21:55:45Z"
+    "updated": "2026-11-04T02:05:42Z"
   },
   "zoom": {
     "page": {
@@ -1525,7 +1525,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-03T11:55:46.265-08:00"
+      "updated_at": "2026-11-03T17:24:22.103-08:00"
     },
     "components": [
       {
@@ -2531,9 +2531,9 @@
       {
         "id": "5vvw5njz8qg5",
         "name": "SMS/MMS (Inbound/Outbound)",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:40:19.412-07:00",
-        "updated_at": "2026-11-03T09:18:52.127-08:00",
+        "updated_at": "2026-11-03T16:57:23.479-08:00",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -6356,7 +6356,7 @@
       {
         "id": "gwtd6dbkck60",
         "name": "Zoom Phone - NORTH AMERICA",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2022-05-03T10:37:27.877-07:00",
         "updated_at": "2024-08-14T13:40:39.076-07:00",
         "position": 25,
@@ -6966,101 +6966,7 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "rbz47jx96k44",
-        "name": "Service Degradation Affecting Outbound MMS Services in the US region",
-        "status": "identified",
-        "created_at": "2026-11-03T09:18:52.073-08:00",
-        "updated_at": "2026-11-03T11:55:46.250-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/d46nxybl90r5",
-        "started_at": "2026-11-03T09:18:52.062-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "j7gmzpxgh3j5",
-            "status": "identified",
-            "body": "We continue to work with our underlying carrier in the US region where a subset of users are experiencing issues with outbound MMS services.\n\nWe will provide an update as soon as more information becomes available.",
-            "incident_id": "rbz47jx96k44",
-            "created_at": "2026-11-03T11:55:46.247-08:00",
-            "updated_at": "2026-11-03T11:55:46.247-08:00",
-            "display_at": "2026-11-03T11:55:46.247-08:00",
-            "affected_components": [
-              {
-                "code": "5vvw5njz8qg5",
-                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "bx216qx9bf2j",
-            "status": "identified",
-            "body": "We have identified an issue with our underlying carrier in US region where a subset of users are experiencing issues with outbound MMS services.\n\nWe are actively working with our carrier partner to resolve the issue. We will provide an update as soon as more information becomes available.",
-            "incident_id": "rbz47jx96k44",
-            "created_at": "2026-11-03T09:27:01.168-08:00",
-            "updated_at": "2026-11-03T09:27:01.168-08:00",
-            "display_at": "2026-11-03T09:27:01.168-08:00",
-            "affected_components": [
-              {
-                "code": "5vvw5njz8qg5",
-                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "71txtc87qq5s",
-            "status": "investigating",
-            "body": "We are currently investigating service degradation affecting outbound MMS Services for a subset of users in the US region.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-            "incident_id": "rbz47jx96k44",
-            "created_at": "2026-11-03T09:18:52.191-08:00",
-            "updated_at": "2026-11-03T09:18:52.191-08:00",
-            "display_at": "2026-11-03T09:18:52.191-08:00",
-            "affected_components": [
-              {
-                "code": "5vvw5njz8qg5",
-                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "5vvw5njz8qg5",
-            "name": "SMS/MMS (Inbound/Outbound)",
-            "status": "degraded_performance",
-            "created_at": "2022-05-03T10:40:19.412-07:00",
-            "updated_at": "2026-11-03T09:18:52.127-08:00",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gwtd6dbkck60",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
       {
         "id": "lc7zlsp6zcq0",
@@ -8225,9 +8131,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "maintenance",
+      "description": "Service Under Maintenance"
     },
-    "updated": "2026-11-03T21:55:45Z"
+    "updated": "2026-11-04T02:05:42Z"
   }
 }
