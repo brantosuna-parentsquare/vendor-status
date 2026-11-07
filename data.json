@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-07T03:08:37Z"
+    "updated": "2026-11-07T10:13:06Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues affecting file uploads, message edits, channel renames, and channel creations",
-    "updated": "2026-11-07T03:08:37Z"
+    "updated": "2026-11-07T10:13:06Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-06T21:43:24.813-05:00"
+      "updated_at": "2026-11-07T02:19:12.372-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-07T03:08:36Z"
+    "updated": "2026-11-07T10:13:05Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-07T03:00:30.249Z"
+      "updated_at": "2026-11-07T07:19:17.057Z"
     },
     "components": [
       {
@@ -206,7 +206,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2017-09-19T23:35:45.317Z",
-        "updated_at": "2026-10-21T16:10:33.262Z",
+        "updated_at": "2026-11-07T07:00:07.221Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -245,7 +245,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2023-02-09T18:04:01.236Z",
-        "updated_at": "2026-10-21T16:10:33.287Z",
+        "updated_at": "2026-11-07T07:00:07.279Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -260,7 +260,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2023-02-09T21:56:52.156Z",
-        "updated_at": "2026-10-23T05:22:44.768Z",
+        "updated_at": "2026-11-07T07:00:07.331Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -275,7 +275,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2023-02-09T21:58:54.215Z",
-        "updated_at": "2026-11-06T03:14:26.000Z",
+        "updated_at": "2026-11-07T07:00:07.381Z",
         "position": 1,
         "description": null,
         "showcase": true,
@@ -290,7 +290,7 @@
         "name": "App",
         "status": "operational",
         "created_at": "2026-01-20T18:59:32.511Z",
-        "updated_at": "2026-07-24T22:07:00.085Z",
+        "updated_at": "2026-11-07T07:00:07.431Z",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -305,7 +305,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2017-09-19T23:35:56.553Z",
-        "updated_at": "2026-10-29T17:23:48.092Z",
+        "updated_at": "2026-11-07T07:00:07.488Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -344,7 +344,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T18:04:15.542Z",
-        "updated_at": "2026-10-29T17:31:18.350Z",
+        "updated_at": "2026-11-07T07:00:07.560Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -359,7 +359,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:57:20.666Z",
-        "updated_at": "2026-10-29T17:25:37.916Z",
+        "updated_at": "2026-11-07T07:00:07.632Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -374,7 +374,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2023-02-09T21:59:03.964Z",
-        "updated_at": "2026-10-29T17:28:24.396Z",
+        "updated_at": "2026-11-07T07:00:07.717Z",
         "position": 2,
         "description": null,
         "showcase": true,
@@ -389,7 +389,7 @@
         "name": "API",
         "status": "operational",
         "created_at": "2026-01-20T19:00:18.706Z",
-        "updated_at": "2026-10-22T04:06:01.000Z",
+        "updated_at": "2026-11-07T07:00:07.797Z",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -404,7 +404,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2017-10-11T17:33:59.640Z",
-        "updated_at": "2026-10-29T17:10:49.978Z",
+        "updated_at": "2026-11-07T07:00:07.929Z",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -419,7 +419,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T18:04:35.516Z",
-        "updated_at": "2026-10-29T17:11:58.928Z",
+        "updated_at": "2026-11-07T07:00:07.996Z",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -458,7 +458,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T21:57:37.036Z",
-        "updated_at": "2026-10-29T17:13:22.059Z",
+        "updated_at": "2026-11-07T07:00:08.273Z",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -473,7 +473,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2023-02-09T21:59:17.187Z",
-        "updated_at": "2026-10-29T17:14:24.980Z",
+        "updated_at": "2026-11-07T07:00:08.344Z",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -488,7 +488,7 @@
         "name": "Mobile",
         "status": "operational",
         "created_at": "2026-01-20T19:02:01.991Z",
-        "updated_at": "2026-07-24T22:07:00.205Z",
+        "updated_at": "2026-11-07T07:00:08.544Z",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -503,7 +503,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2020-07-13T15:37:24.240Z",
-        "updated_at": "2026-10-29T17:11:07.393Z",
+        "updated_at": "2026-11-07T07:00:08.623Z",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -518,7 +518,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2023-02-09T18:04:50.001Z",
-        "updated_at": "2026-10-29T17:12:14.342Z",
+        "updated_at": "2026-11-07T07:00:08.727Z",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -533,7 +533,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2023-02-09T21:57:55.572Z",
-        "updated_at": "2026-10-29T17:13:40.913Z",
+        "updated_at": "2026-11-07T07:00:08.794Z",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -572,7 +572,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2023-02-09T21:59:32.427Z",
-        "updated_at": "2026-10-29T17:14:42.414Z",
+        "updated_at": "2026-11-07T07:00:08.993Z",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -587,7 +587,7 @@
         "name": "Automations and Background Actions",
         "status": "operational",
         "created_at": "2026-01-20T19:02:29.583Z",
-        "updated_at": "2026-07-24T22:07:00.267Z",
+        "updated_at": "2026-11-07T07:00:09.187Z",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -602,7 +602,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2021-02-01T22:04:27.238Z",
-        "updated_at": "2026-10-29T17:11:25.977Z",
+        "updated_at": "2026-11-07T07:00:09.394Z",
         "position": 5,
         "description": "This component tracks the health of public API webhooks and event stream endpoints.",
         "showcase": false,
@@ -617,7 +617,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T18:05:05.907Z",
-        "updated_at": "2026-10-29T17:12:43.875Z",
+        "updated_at": "2026-11-07T07:00:09.635Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": false,
@@ -632,7 +632,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T21:58:36.622Z",
-        "updated_at": "2026-10-29T17:13:55.139Z",
+        "updated_at": "2026-11-07T07:00:09.732Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": false,
@@ -647,7 +647,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2023-02-09T21:59:50.695Z",
-        "updated_at": "2026-10-29T17:15:16.397Z",
+        "updated_at": "2026-11-07T07:00:10.003Z",
         "position": 5,
         "description": "This component tracks the health of Asana's public API webhooks and event streams.",
         "showcase": false,
@@ -686,7 +686,7 @@
         "name": "Webhooks and Event Streams",
         "status": "operational",
         "created_at": "2026-01-20T19:03:00.779Z",
-        "updated_at": "2026-07-24T22:07:00.328Z",
+        "updated_at": "2026-11-07T07:00:10.203Z",
         "position": 5,
         "description": null,
         "showcase": false,
@@ -701,7 +701,7 @@
         "name": "Notifications",
         "status": "operational",
         "created_at": "2025-03-18T00:20:15.273Z",
-        "updated_at": "2026-10-29T17:11:44.638Z",
+        "updated_at": "2026-11-07T07:00:10.363Z",
         "position": 6,
         "description": "This component tracks timely delivery of emails, push notifications, and inbox notifications.",
         "showcase": false,
@@ -716,7 +716,7 @@
         "name": "Notifications",
         "status": "operational",
         "created_at": "2025-03-26T21:18:40.037Z",
-        "updated_at": "2026-10-29T17:12:58.962Z",
+        "updated_at": "2026-11-07T07:00:10.645Z",
         "position": 6,
         "description": null,
         "showcase": false,
@@ -731,7 +731,7 @@
         "name": "Notifications",
         "status": "operational",
         "created_at": "2025-03-26T21:19:45.892Z",
-        "updated_at": "2026-10-29T17:14:11.129Z",
+        "updated_at": "2026-11-07T07:00:10.785Z",
         "position": 6,
         "description": null,
         "showcase": false,
@@ -746,7 +746,7 @@
         "name": "Notifications",
         "status": "operational",
         "created_at": "2025-03-26T21:20:00.214Z",
-        "updated_at": "2026-10-29T17:15:35.219Z",
+        "updated_at": "2026-11-07T07:00:10.855Z",
         "position": 6,
         "description": null,
         "showcase": false,
@@ -761,7 +761,7 @@
         "name": "Notifications",
         "status": "operational",
         "created_at": "2026-01-20T19:03:20.610Z",
-        "updated_at": "2026-07-24T22:07:00.392Z",
+        "updated_at": "2026-11-07T07:00:10.974Z",
         "position": 6,
         "description": null,
         "showcase": false,
@@ -848,689 +848,12 @@
       }
     ],
     "incidents": [],
-    "scheduled_maintenances": [
-      {
-        "id": "w6n8t25k3yq6",
-        "name": "Planned Maintenance",
-        "status": "scheduled",
-        "created_at": "2026-10-15T23:33:03.619Z",
-        "updated_at": "2026-11-07T03:00:30.196Z",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/hss89yvfvngp",
-        "started_at": "2026-10-31T03:00:04.093Z",
-        "page_id": "w58858w0sjxx",
-        "incident_updates": [
-          {
-            "id": "rb8lbx341pzw",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "w6n8t25k3yq6",
-            "created_at": "2026-11-07T03:00:29.297Z",
-            "updated_at": "2026-11-07T03:00:29.297Z",
-            "display_at": "2026-11-07T03:00:29.297Z",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "j8sr0rbc5b1k",
-            "status": "scheduled",
-            "body": "On Saturday, Nov 7th, 2026, between 4:00 AM and 7:00 AM UTC, users may experience interruptions or limited availability while we upgrade our databases. During this maintenance window, Asana web and mobile applications and API may be affected. Thank you for your understanding and patience. Please contact support for any questions.",
-            "incident_id": "w6n8t25k3yq6",
-            "created_at": "2026-10-15T23:33:04.093Z",
-            "updated_at": "2026-10-19T17:45:33.586Z",
-            "display_at": "2026-11-07T04:00:04.093Z",
-            "affected_components": [
-              {
-                "code": "27w8th2c08v6",
-                "name": "US - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "yg4058k03s50",
-                "name": "US - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "0tlyr3w5wwtv",
-                "name": "US - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "5pzgfbsllb5y",
-                "name": "US - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "72r2f6764450",
-                "name": "US - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "v7hcrjtr3zmm",
-                "name": "US - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "8yllr704tq9n",
-                "name": "EU - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vb5rnz4gj7p8",
-                "name": "EU - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "xkbfplxg5q8p",
-                "name": "EU - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "39d07v7xt70h",
-                "name": "EU - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "xk6m3fzxd961",
-                "name": "EU - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "114pdw4p01xz",
-                "name": "EU - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "06hpq0rll70p",
-                "name": "Japan - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "m1gvj42drxdc",
-                "name": "Japan - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "rtg6j3dykmqj",
-                "name": "Japan - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "5j7zdk265c0x",
-                "name": "Japan - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "34hnvm512p05",
-                "name": "Japan - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "78rst0tkkkxn",
-                "name": "Japan - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "m4dj1p6nkzbp",
-                "name": "Australia - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "7dvw8j11nzyx",
-                "name": "Australia - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "h6ncz3kqdjmp",
-                "name": "Australia - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vgztx3m93w0b",
-                "name": "Australia - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "7bdsmnby2rqd",
-                "name": "Australia - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "ldt346pmqdb9",
-                "name": "Australia - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "vzp40jhw9t4k",
-                "name": "Middle East - App",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "km6jrkp0m2vk",
-                "name": "Middle East - API",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "mr04m1rysj65",
-                "name": "Middle East - Mobile",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "pgl7q570g5np",
-                "name": "Middle East - Automations and Background Actions",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "wclgzqxnt8qd",
-                "name": "Middle East - Webhooks and Event Streams",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "1wc2v8r6wnhc",
-                "name": "Middle East - Notifications",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "27w8th2c08v6",
-            "name": "App",
-            "status": "operational",
-            "created_at": "2017-09-19T23:35:45.317Z",
-            "updated_at": "2026-10-21T16:10:33.262Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "8yllr704tq9n",
-            "name": "App",
-            "status": "operational",
-            "created_at": "2023-02-09T18:04:01.236Z",
-            "updated_at": "2026-10-21T16:10:33.287Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "06hpq0rll70p",
-            "name": "App",
-            "status": "operational",
-            "created_at": "2023-02-09T21:56:52.156Z",
-            "updated_at": "2026-10-23T05:22:44.768Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "m4dj1p6nkzbp",
-            "name": "App",
-            "status": "operational",
-            "created_at": "2023-02-09T21:58:54.215Z",
-            "updated_at": "2026-11-06T03:14:26.000Z",
-            "position": 1,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "vzp40jhw9t4k",
-            "name": "App",
-            "status": "operational",
-            "created_at": "2026-01-20T18:59:32.511Z",
-            "updated_at": "2026-07-24T22:07:00.085Z",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "yg4058k03s50",
-            "name": "API",
-            "status": "operational",
-            "created_at": "2017-09-19T23:35:56.553Z",
-            "updated_at": "2026-10-29T17:23:48.092Z",
-            "position": 2,
-            "description": null,
-            "showcase": true,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "vb5rnz4gj7p8",
-            "name": "API",
-            "status": "operational",
-            "created_at": "2023-02-09T18:04:15.542Z",
-            "updated_at": "2026-10-29T17:31:18.350Z",
-            "position": 2,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "m1gvj42drxdc",
-            "name": "API",
-            "status": "operational",
-            "created_at": "2023-02-09T21:57:20.666Z",
-            "updated_at": "2026-10-29T17:25:37.916Z",
-            "position": 2,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "7dvw8j11nzyx",
-            "name": "API",
-            "status": "operational",
-            "created_at": "2023-02-09T21:59:03.964Z",
-            "updated_at": "2026-10-29T17:28:24.396Z",
-            "position": 2,
-            "description": null,
-            "showcase": true,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "km6jrkp0m2vk",
-            "name": "API",
-            "status": "operational",
-            "created_at": "2026-01-20T19:00:18.706Z",
-            "updated_at": "2026-10-22T04:06:01.000Z",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "0tlyr3w5wwtv",
-            "name": "Mobile",
-            "status": "operational",
-            "created_at": "2017-10-11T17:33:59.640Z",
-            "updated_at": "2026-10-29T17:10:49.978Z",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "xkbfplxg5q8p",
-            "name": "Mobile",
-            "status": "operational",
-            "created_at": "2023-02-09T18:04:35.516Z",
-            "updated_at": "2026-10-29T17:11:58.928Z",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "rtg6j3dykmqj",
-            "name": "Mobile",
-            "status": "operational",
-            "created_at": "2023-02-09T21:57:37.036Z",
-            "updated_at": "2026-10-29T17:13:22.059Z",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "h6ncz3kqdjmp",
-            "name": "Mobile",
-            "status": "operational",
-            "created_at": "2023-02-09T21:59:17.187Z",
-            "updated_at": "2026-10-29T17:14:24.980Z",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "mr04m1rysj65",
-            "name": "Mobile",
-            "status": "operational",
-            "created_at": "2026-01-20T19:02:01.991Z",
-            "updated_at": "2026-07-24T22:07:00.205Z",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "5pzgfbsllb5y",
-            "name": "Automations and Background Actions",
-            "status": "operational",
-            "created_at": "2020-07-13T15:37:24.240Z",
-            "updated_at": "2026-10-29T17:11:07.393Z",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": null,
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "39d07v7xt70h",
-            "name": "Automations and Background Actions",
-            "status": "operational",
-            "created_at": "2023-02-09T18:04:50.001Z",
-            "updated_at": "2026-10-29T17:12:14.342Z",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "5j7zdk265c0x",
-            "name": "Automations and Background Actions",
-            "status": "operational",
-            "created_at": "2023-02-09T21:57:55.572Z",
-            "updated_at": "2026-10-29T17:13:40.913Z",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "vgztx3m93w0b",
-            "name": "Automations and Background Actions",
-            "status": "operational",
-            "created_at": "2023-02-09T21:59:32.427Z",
-            "updated_at": "2026-10-29T17:14:42.414Z",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "pgl7q570g5np",
-            "name": "Automations and Background Actions",
-            "status": "operational",
-            "created_at": "2026-01-20T19:02:29.583Z",
-            "updated_at": "2026-07-24T22:07:00.267Z",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "72r2f6764450",
-            "name": "Webhooks and Event Streams",
-            "status": "operational",
-            "created_at": "2021-02-01T22:04:27.238Z",
-            "updated_at": "2026-10-29T17:11:25.977Z",
-            "position": 5,
-            "description": "This component tracks the health of public API webhooks and event stream endpoints.",
-            "showcase": false,
-            "start_date": "2021-01-01",
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "xk6m3fzxd961",
-            "name": "Webhooks and Event Streams",
-            "status": "operational",
-            "created_at": "2023-02-09T18:05:05.907Z",
-            "updated_at": "2026-10-29T17:12:43.875Z",
-            "position": 5,
-            "description": "This component tracks the health of Asana's public API webhooks and event streams.",
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "34hnvm512p05",
-            "name": "Webhooks and Event Streams",
-            "status": "operational",
-            "created_at": "2023-02-09T21:58:36.622Z",
-            "updated_at": "2026-10-29T17:13:55.139Z",
-            "position": 5,
-            "description": "This component tracks the health of Asana's public API webhooks and event streams.",
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "7bdsmnby2rqd",
-            "name": "Webhooks and Event Streams",
-            "status": "operational",
-            "created_at": "2023-02-09T21:59:50.695Z",
-            "updated_at": "2026-10-29T17:15:16.397Z",
-            "position": 5,
-            "description": "This component tracks the health of Asana's public API webhooks and event streams.",
-            "showcase": false,
-            "start_date": "2023-02-09",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "wclgzqxnt8qd",
-            "name": "Webhooks and Event Streams",
-            "status": "operational",
-            "created_at": "2026-01-20T19:03:00.779Z",
-            "updated_at": "2026-07-24T22:07:00.328Z",
-            "position": 5,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "v7hcrjtr3zmm",
-            "name": "Notifications",
-            "status": "operational",
-            "created_at": "2025-03-18T00:20:15.273Z",
-            "updated_at": "2026-10-29T17:11:44.638Z",
-            "position": 6,
-            "description": "This component tracks timely delivery of emails, push notifications, and inbox notifications.",
-            "showcase": false,
-            "start_date": "2024-10-27",
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "114pdw4p01xz",
-            "name": "Notifications",
-            "status": "operational",
-            "created_at": "2025-03-26T21:18:40.037Z",
-            "updated_at": "2026-10-29T17:12:58.962Z",
-            "position": 6,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-12-01",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "78rst0tkkkxn",
-            "name": "Notifications",
-            "status": "operational",
-            "created_at": "2025-03-26T21:19:45.892Z",
-            "updated_at": "2026-10-29T17:14:11.129Z",
-            "position": 6,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-12-01",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "ldt346pmqdb9",
-            "name": "Notifications",
-            "status": "operational",
-            "created_at": "2025-03-26T21:20:00.214Z",
-            "updated_at": "2026-10-29T17:15:35.219Z",
-            "position": 6,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-12-01",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "1wc2v8r6wnhc",
-            "name": "Notifications",
-            "status": "operational",
-            "created_at": "2026-01-20T19:03:20.610Z",
-            "updated_at": "2026-07-24T22:07:00.392Z",
-            "position": 6,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-01-20",
-            "group_id": "m172ltsc49p0",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-07T04:00:00.000Z",
-        "scheduled_until": "2026-11-07T07:00:00.000Z"
-      }
-    ],
+    "scheduled_maintenances": [],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-07T03:08:36Z"
+    "updated": "2026-11-07T10:13:05Z"
   },
   "zoom": {
     "page": {
@@ -1538,7 +861,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-06T18:43:45.035-08:00"
+      "updated_at": "2026-11-07T00:00:09.108-08:00"
     },
     "components": [
       {
@@ -6982,123 +6305,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "sbpj2ncfcfhc",
-        "name": "Announcing IP Address Changes: November 6, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-10-07T12:18:59.874-07:00",
-        "updated_at": "2026-10-07T12:18:59.986-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/llf9hp31zx1l",
-        "started_at": "2026-10-07T12:18:59.856-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "6817wjms17r0",
-            "status": "scheduled",
-            "body": "The published IP ranges for Zoom Meetings and Webinars, Contact Center, and Phone services have been updated, including the removal of decommissioned entries and mask changes. We recommend that network administrators with Zoom-specific firewall or network rules update their systems as soon as possible.\n\nRemoved IPv4 addresses for Zoom Meetings and Webinars:\n3.235.96.0/23\n69.174.108.0/22\n\nNew IPv4 addresses for Zoom Meetings and Webinars:\n3.235.96.26/31\n3.235.96.158/31\n69.174.110.0/23\n\nRemoved IPv4 addresses for Zoom Phone:\n8.5.128.0/24\n69.174.108.0/22\n\nNew IPv4 addresses for Zoom Phone:\n69.174.110.0/23\n\nRemoved IPv4 addresses for Zoom Contact Center:\n3.235.96.0/23\n\nNew IPv4 addresses for Zoom Contact Center:\n3.235.96.26/31\n3.235.96.158/31\n\nFor a complete list, please see: \nhttps://assets.zoom.us/docs/ipranges/Zoom.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomMeetings.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone-TCP443.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomPhone-TCP5091.txt\nhttps://assets.zoom.us/docs/ipranges/ZoomCC.txt\nhttps://assets.zoom.us/docs/ipranges/ZCCFlowScriptCallWidget.txt\n\nA complete list of network firewall IP ranges and domains for Zoom can be found on the Zoom Support site at:\n\nhttps://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060548",
-            "incident_id": "sbpj2ncfcfhc",
-            "created_at": "2026-10-07T12:18:59.983-07:00",
-            "updated_at": "2026-10-07T12:18:59.983-07:00",
-            "display_at": "2026-10-07T12:18:59.983-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "q4msk5dl4bhm",
-                "name": "Zoom Meetings - Zoom Webinars",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "0842bncf5q9f",
-                "name": "Zoom Phone - Global - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3z7b6jks10hm",
-            "name": "Zoom Meetings",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.101-08:00",
-            "updated_at": "2026-10-23T09:24:27.592-07:00",
-            "position": 1,
-            "description": "Access to meetings",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "operational",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-11-06T17:00:09.831-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "0842bncf5q9f",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2024-09-30T13:36:13.230-07:00",
-            "updated_at": "2026-09-20T02:00:07.620-07:00",
-            "position": 12,
-            "description": null,
-            "showcase": false,
-            "start_date": "2024-09-30",
-            "group_id": "fs7vxs27n4pn",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "q4msk5dl4bhm",
-            "name": "Zoom Webinars",
-            "status": "operational",
-            "created_at": "2015-01-26T15:04:39.115-08:00",
-            "updated_at": "2026-10-12T02:00:35.197-07:00",
-            "position": 20,
-            "description": "Access to video webinars",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-06T23:59:00.000-08:00",
-        "scheduled_until": "2026-11-07T00:00:00.000-08:00"
-      },
-      {
         "id": "kpydr3mnd191",
         "name": "Scheduled Zoom Software Quarterly Lifecycle Update (11/7/2026)",
         "status": "scheduled",
@@ -7679,99 +6885,6 @@
         "scheduled_until": "2027-02-06T18:00:00.000-08:00"
       },
       {
-        "id": "k58w17tzq96z",
-        "name": "Decommissioning Numbers for Zoom Audio Conferencing: November 6, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-10-08T16:44:41.329-07:00",
-        "updated_at": "2026-11-06T17:00:07.386-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/nxmrnqj5ldwm",
-        "started_at": "2026-10-08T16:44:41.318-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "6syj6xy6wltm",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "k58w17tzq96z",
-            "created_at": "2026-11-06T17:00:07.381-08:00",
-            "updated_at": "2026-11-06T17:00:07.381-08:00",
-            "display_at": "2026-11-06T17:00:07.381-08:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "vchdn31n7cl6",
-            "status": "scheduled",
-            "body": "We will be undergoing scheduled maintenance during this time.",
-            "incident_id": "k58w17tzq96z",
-            "created_at": "2026-10-08T16:46:34.368-07:00",
-            "updated_at": "2026-10-08T16:46:34.368-07:00",
-            "display_at": "2026-10-08T16:46:34.368-07:00",
-            "affected_components": [
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "5j7d27vs2jz1",
-            "status": "scheduled",
-            "body": "Due to a change with our phone carrier(s), the following Toll-Free or Toll numbers are being decommissioned from Audio Conferencing on 11/6/2026.\n\n \n\nAngola +244 XXXX255009\n\nBahrain +973 XXXX6238\n\nBrunei +673 XXXX309\n\nCosta Rica +506 XXXX425510\n\nEcuador +593 XXXX000785\n\nEgypt +20 XXXX0009608\n\nGhana +233 XXXX84860\n\nKazakhstan +7 XXXX0808315\n\nMacau +853 XXXX1604\n\nQatar +974 XXXX00059\n\nSouth Africa +27 XXXX64584\n\nTaiwan +886 XXXX17473, +886 XXXX99864\n\nUAE +971 XXXX4910899\n\n \n\nAccounts will still have other Toll-Free or Toll numbers available for use.\n\n \n\nPlease make sure to make any necessary updates in your Admin Portal (https://zoom.us/account/setting?tab=telephony) to ensure availability for use of the remaining Toll-Free or Toll numbers on your account. If you are not already using the remaining numbers, meetings currently scheduled for 11/6/2026 and onward may need to be rescheduled to ensure the updated Toll-Free or Toll numbers are reflected in the newly scheduled meetings. If meeting invites are not updated to reflect the additional Toll-Free or Toll numbers, participants dialing in will not be able to join using the decommissioned numbers after 11/6/2026. Any newly created meetings scheduled after you’ve updated the numbers in your portal will be automatically updated with the remaining Toll-Free or Toll numbers for future invites.\n\nTo view your current and new numbers in order to make the above changes, please visit your Admin Portal. There you will be able to find all Toll-Free or Toll numbers that will remain supported.",
-            "incident_id": "k58w17tzq96z",
-            "created_at": "2026-10-08T16:44:41.436-07:00",
-            "updated_at": "2026-10-08T16:44:41.436-07:00",
-            "display_at": "2026-10-08T16:44:41.436-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "ntdt65v1f9rv",
-            "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-10-12T02:00:27.364-07:00",
-            "position": 13,
-            "description": "Access to Telephony Services",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-06T17:00:00.000-08:00",
-        "scheduled_until": "2026-11-06T20:00:00.000-08:00"
-      },
-      {
         "id": "fws7gsrrqsdf",
         "name": "Zoom Team Chat Update",
         "status": "in_progress",
@@ -8053,6 +7166,6 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-07T03:08:36Z"
+    "updated": "2026-11-07T10:13:05Z"
   }
 }
