@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-06T23:28:14Z"
+    "updated": "2026-11-07T03:08:37Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Issues affecting file uploads, message edits, channel renames, and channel creations",
-    "updated": "2026-11-06T23:28:14Z"
+    "updated": "2026-11-07T03:08:37Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-06T17:04:16.418-05:00"
+      "updated_at": "2026-11-06T21:43:24.813-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-06T23:28:13Z"
+    "updated": "2026-11-07T03:08:36Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-06T22:04:21.215Z"
+      "updated_at": "2026-11-07T03:00:30.249Z"
     },
     "components": [
       {
@@ -854,7 +854,7 @@
         "name": "Planned Maintenance",
         "status": "scheduled",
         "created_at": "2026-10-15T23:33:03.619Z",
-        "updated_at": "2026-10-19T17:46:26.316Z",
+        "updated_at": "2026-11-07T03:00:30.196Z",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
@@ -862,6 +862,19 @@
         "started_at": "2026-10-31T03:00:04.093Z",
         "page_id": "w58858w0sjxx",
         "incident_updates": [
+          {
+            "id": "rb8lbx341pzw",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "w6n8t25k3yq6",
+            "created_at": "2026-11-07T03:00:29.297Z",
+            "updated_at": "2026-11-07T03:00:29.297Z",
+            "display_at": "2026-11-07T03:00:29.297Z",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "j8sr0rbc5b1k",
             "status": "scheduled",
@@ -1517,7 +1530,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-06T23:28:13Z"
+    "updated": "2026-11-07T03:08:36Z"
   },
   "zoom": {
     "page": {
@@ -1525,7 +1538,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-06T15:00:14.339-08:00"
+      "updated_at": "2026-11-06T18:43:45.035-08:00"
     },
     "components": [
       {
@@ -1876,9 +1889,9 @@
       {
         "id": "s5s5m6flk56z",
         "name": "Zoom Contact Center",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2024-03-21T13:14:33.314-07:00",
-        "updated_at": "2026-11-06T15:00:08.903-08:00",
+        "updated_at": "2026-11-06T17:00:09.831-08:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -3401,7 +3414,7 @@
       {
         "id": "1bmg0stx4mk0",
         "name": "Zoom CX - Global",
-        "status": "under_maintenance",
+        "status": "operational",
         "created_at": "2022-05-03T11:19:29.476-07:00",
         "updated_at": "2025-07-10T17:09:19.228-07:00",
         "position": 5,
@@ -6969,86 +6982,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "k58w17tzq96z",
-        "name": "Decommissioning Numbers for Zoom Audio Conferencing: November 6, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-10-08T16:44:41.329-07:00",
-        "updated_at": "2026-10-08T16:46:34.371-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/nxmrnqj5ldwm",
-        "started_at": "2026-10-08T16:44:41.318-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "vchdn31n7cl6",
-            "status": "scheduled",
-            "body": "We will be undergoing scheduled maintenance during this time.",
-            "incident_id": "k58w17tzq96z",
-            "created_at": "2026-10-08T16:46:34.368-07:00",
-            "updated_at": "2026-10-08T16:46:34.368-07:00",
-            "display_at": "2026-10-08T16:46:34.368-07:00",
-            "affected_components": [
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "5j7d27vs2jz1",
-            "status": "scheduled",
-            "body": "Due to a change with our phone carrier(s), the following Toll-Free or Toll numbers are being decommissioned from Audio Conferencing on 11/6/2026.\n\n \n\nAngola +244 XXXX255009\n\nBahrain +973 XXXX6238\n\nBrunei +673 XXXX309\n\nCosta Rica +506 XXXX425510\n\nEcuador +593 XXXX000785\n\nEgypt +20 XXXX0009608\n\nGhana +233 XXXX84860\n\nKazakhstan +7 XXXX0808315\n\nMacau +853 XXXX1604\n\nQatar +974 XXXX00059\n\nSouth Africa +27 XXXX64584\n\nTaiwan +886 XXXX17473, +886 XXXX99864\n\nUAE +971 XXXX4910899\n\n \n\nAccounts will still have other Toll-Free or Toll numbers available for use.\n\n \n\nPlease make sure to make any necessary updates in your Admin Portal (https://zoom.us/account/setting?tab=telephony) to ensure availability for use of the remaining Toll-Free or Toll numbers on your account. If you are not already using the remaining numbers, meetings currently scheduled for 11/6/2026 and onward may need to be rescheduled to ensure the updated Toll-Free or Toll numbers are reflected in the newly scheduled meetings. If meeting invites are not updated to reflect the additional Toll-Free or Toll numbers, participants dialing in will not be able to join using the decommissioned numbers after 11/6/2026. Any newly created meetings scheduled after you’ve updated the numbers in your portal will be automatically updated with the remaining Toll-Free or Toll numbers for future invites.\n\nTo view your current and new numbers in order to make the above changes, please visit your Admin Portal. There you will be able to find all Toll-Free or Toll numbers that will remain supported.",
-            "incident_id": "k58w17tzq96z",
-            "created_at": "2026-10-08T16:44:41.436-07:00",
-            "updated_at": "2026-10-08T16:44:41.436-07:00",
-            "display_at": "2026-10-08T16:44:41.436-07:00",
-            "affected_components": [
-              {
-                "code": "3z7b6jks10hm",
-                "name": "Zoom Meetings - Zoom Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "ntdt65v1f9rv",
-                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "ntdt65v1f9rv",
-            "name": "Meeting Dial-in/Telephony",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:50.964-08:00",
-            "updated_at": "2026-10-12T02:00:27.364-07:00",
-            "position": 13,
-            "description": "Access to Telephony Services",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-06T17:00:00.000-08:00",
-        "scheduled_until": "2026-11-06T20:00:00.000-08:00"
-      },
-      {
         "id": "sbpj2ncfcfhc",
         "name": "Announcing IP Address Changes: November 6, 2026 (No Operational Impact)",
         "status": "scheduled",
@@ -7119,9 +7052,9 @@
           {
             "id": "s5s5m6flk56z",
             "name": "Zoom Contact Center",
-            "status": "under_maintenance",
+            "status": "operational",
             "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-11-06T15:00:08.903-08:00",
+            "updated_at": "2026-11-06T17:00:09.831-08:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -7746,63 +7679,69 @@
         "scheduled_until": "2027-02-06T18:00:00.000-08:00"
       },
       {
-        "id": "rc9rf9h1hw4q",
-        "name": "Scheduled Maintenance – Contact Center Services: November 06, 2026",
+        "id": "k58w17tzq96z",
+        "name": "Decommissioning Numbers for Zoom Audio Conferencing: November 6, 2026 (No Operational Impact)",
         "status": "in_progress",
-        "created_at": "2026-11-06T01:28:04.493-08:00",
-        "updated_at": "2026-11-06T15:00:12.455-08:00",
+        "created_at": "2026-10-08T16:44:41.329-07:00",
+        "updated_at": "2026-11-06T17:00:07.386-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
-        "shortlink": "https://stspg.io/384j4q2stpcm",
-        "started_at": "2026-11-06T01:28:04.482-08:00",
+        "shortlink": "https://stspg.io/nxmrnqj5ldwm",
+        "started_at": "2026-10-08T16:44:41.318-07:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "xw7l87c4y8j7",
+            "id": "6syj6xy6wltm",
             "status": "in_progress",
             "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "rc9rf9h1hw4q",
-            "created_at": "2026-11-06T15:00:12.279-08:00",
-            "updated_at": "2026-11-06T15:00:12.279-08:00",
-            "display_at": "2026-11-06T15:00:12.279-08:00",
-            "affected_components": [
-              {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
-                "old_status": "operational",
-                "new_status": "under_maintenance"
-              }
-            ],
+            "incident_id": "k58w17tzq96z",
+            "created_at": "2026-11-06T17:00:07.381-08:00",
+            "updated_at": "2026-11-06T17:00:07.381-08:00",
+            "display_at": "2026-11-06T17:00:07.381-08:00",
+            "affected_components": null,
             "deliver_notifications": false,
             "custom_tweet": null,
             "tweet_id": null
           },
           {
-            "id": "twh4tdkw6p80",
+            "id": "vchdn31n7cl6",
             "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "rc9rf9h1hw4q",
-            "created_at": "2026-11-06T14:00:16.052-08:00",
-            "updated_at": "2026-11-06T14:00:16.052-08:00",
-            "display_at": "2026-11-06T14:00:16.052-08:00",
-            "affected_components": null,
+            "body": "We will be undergoing scheduled maintenance during this time.",
+            "incident_id": "k58w17tzq96z",
+            "created_at": "2026-10-08T16:46:34.368-07:00",
+            "updated_at": "2026-10-08T16:46:34.368-07:00",
+            "display_at": "2026-10-08T16:46:34.368-07:00",
+            "affected_components": [
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
             "deliver_notifications": true,
             "custom_tweet": null,
             "tweet_id": null
           },
           {
-            "id": "2yhlh67crv7c",
+            "id": "5j7d27vs2jz1",
             "status": "scheduled",
-            "body": "We are currently performing scheduled maintenance on our Contact Center infrastructure. During this window, support calls will continue to be accepted and handled as normal; however, response times may be slower than usual as our team works through the maintenance activities.\n\nWe appreciate your patience and apologize for any inconvenience. We will provide an update once maintenance is complete.",
-            "incident_id": "rc9rf9h1hw4q",
-            "created_at": "2026-11-06T01:28:04.604-08:00",
-            "updated_at": "2026-11-06T01:28:04.604-08:00",
-            "display_at": "2026-11-06T01:28:04.604-08:00",
+            "body": "Due to a change with our phone carrier(s), the following Toll-Free or Toll numbers are being decommissioned from Audio Conferencing on 11/6/2026.\n\n \n\nAngola +244 XXXX255009\n\nBahrain +973 XXXX6238\n\nBrunei +673 XXXX309\n\nCosta Rica +506 XXXX425510\n\nEcuador +593 XXXX000785\n\nEgypt +20 XXXX0009608\n\nGhana +233 XXXX84860\n\nKazakhstan +7 XXXX0808315\n\nMacau +853 XXXX1604\n\nQatar +974 XXXX00059\n\nSouth Africa +27 XXXX64584\n\nTaiwan +886 XXXX17473, +886 XXXX99864\n\nUAE +971 XXXX4910899\n\n \n\nAccounts will still have other Toll-Free or Toll numbers available for use.\n\n \n\nPlease make sure to make any necessary updates in your Admin Portal (https://zoom.us/account/setting?tab=telephony) to ensure availability for use of the remaining Toll-Free or Toll numbers on your account. If you are not already using the remaining numbers, meetings currently scheduled for 11/6/2026 and onward may need to be rescheduled to ensure the updated Toll-Free or Toll numbers are reflected in the newly scheduled meetings. If meeting invites are not updated to reflect the additional Toll-Free or Toll numbers, participants dialing in will not be able to join using the decommissioned numbers after 11/6/2026. Any newly created meetings scheduled after you’ve updated the numbers in your portal will be automatically updated with the remaining Toll-Free or Toll numbers for future invites.\n\nTo view your current and new numbers in order to make the above changes, please visit your Admin Portal. There you will be able to find all Toll-Free or Toll numbers that will remain supported.",
+            "incident_id": "k58w17tzq96z",
+            "created_at": "2026-10-08T16:44:41.436-07:00",
+            "updated_at": "2026-10-08T16:44:41.436-07:00",
+            "display_at": "2026-10-08T16:44:41.436-07:00",
             "affected_components": [
               {
-                "code": "s5s5m6flk56z",
-                "name": "Zoom CX - Global - Zoom Contact Center",
+                "code": "3z7b6jks10hm",
+                "name": "Zoom Meetings - Zoom Meetings",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "ntdt65v1f9rv",
+                "name": "Zoom Meetings - Meeting Dial-in/Telephony",
                 "old_status": "operational",
                 "new_status": "operational"
               }
@@ -7814,23 +7753,23 @@
         ],
         "components": [
           {
-            "id": "s5s5m6flk56z",
-            "name": "Zoom Contact Center",
-            "status": "under_maintenance",
-            "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-11-06T15:00:08.903-08:00",
-            "position": 1,
-            "description": null,
+            "id": "ntdt65v1f9rv",
+            "name": "Meeting Dial-in/Telephony",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:50.964-08:00",
+            "updated_at": "2026-10-12T02:00:27.364-07:00",
+            "position": 13,
+            "description": "Access to Telephony Services",
             "showcase": false,
-            "start_date": "2024-03-21",
-            "group_id": "1bmg0stx4mk0",
+            "start_date": null,
+            "group_id": "6np407v7v25g",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-11-06T15:00:00.000-08:00",
-        "scheduled_until": "2026-11-06T17:00:00.000-08:00"
+        "scheduled_for": "2026-11-06T17:00:00.000-08:00",
+        "scheduled_until": "2026-11-06T20:00:00.000-08:00"
       },
       {
         "id": "fws7gsrrqsdf",
@@ -8011,9 +7950,9 @@
           {
             "id": "s5s5m6flk56z",
             "name": "Zoom Contact Center",
-            "status": "under_maintenance",
+            "status": "operational",
             "created_at": "2024-03-21T13:14:33.314-07:00",
-            "updated_at": "2026-11-06T15:00:08.903-08:00",
+            "updated_at": "2026-11-06T17:00:09.831-08:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -8111,9 +8050,9 @@
       }
     ],
     "status": {
-      "indicator": "maintenance",
-      "description": "Service Under Maintenance"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-11-06T23:28:13Z"
+    "updated": "2026-11-07T03:08:36Z"
   }
 }
