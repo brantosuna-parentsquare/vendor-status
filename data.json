@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-11T02:14:20Z"
+    "updated": "2026-11-11T09:35:18Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Huddle AI summaries not being generated",
-    "updated": "2026-11-11T02:14:20Z"
+    "updated": "2026-11-11T09:35:18Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-10T21:09:08.076-05:00"
+      "updated_at": "2026-11-11T04:19:32.130-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-11T02:14:18Z"
+    "updated": "2026-11-11T09:35:17Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-11T02:09:11.586Z"
+      "updated_at": "2026-11-11T09:19:36.712Z"
     },
     "components": [
       {
@@ -853,7 +853,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-11T02:14:18Z"
+    "updated": "2026-11-11T09:35:17Z"
   },
   "zoom": {
     "page": {
@@ -861,7 +861,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-10T18:09:11.347-08:00"
+      "updated_at": "2026-11-11T01:19:36.339-08:00"
     },
     "components": [
       {
@@ -6359,6 +6359,60 @@
         "scheduled_until": "2026-11-12T02:00:00.000-08:00"
       },
       {
+        "id": "slwzp4q0qyb6",
+        "name": "Zoom Virtual Agent Update: November 13, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-11-10T18:47:21.412-08:00",
+        "updated_at": "2026-11-10T18:47:21.513-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/34r7j5019nnc",
+        "started_at": "2026-11-10T18:47:21.401-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "gtz87w1ktpcl",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes time zone selection in the Virtual Agent usage report.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "slwzp4q0qyb6",
+            "created_at": "2026-11-10T18:47:21.510-08:00",
+            "updated_at": "2026-11-10T18:47:21.510-08:00",
+            "display_at": "2026-11-10T18:47:21.510-08:00",
+            "affected_components": [
+              {
+                "code": "880tc1scvmp2",
+                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "880tc1scvmp2",
+            "name": "Zoom Virtual Agent",
+            "status": "operational",
+            "created_at": "2023-01-25T04:56:01.486-08:00",
+            "updated_at": "2026-01-17T02:00:21.300-08:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-01-25",
+            "group_id": "58cfzcvm6j00",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-12T17:00:00.000-08:00",
+        "scheduled_until": "2026-11-13T02:00:00.000-08:00"
+      },
+      {
         "id": "cp1r0qjyv83m",
         "name": "Zoom Support EU Maintenance : November 13, 2026",
         "status": "scheduled",
@@ -6689,6 +6743,114 @@
         ],
         "scheduled_for": "2026-11-13T22:00:00.000-08:00",
         "scheduled_until": "2026-11-14T00:00:00.000-08:00"
+      },
+      {
+        "id": "fbp7l7hk2vtv",
+        "name": "Zoom Phone Update: November 15, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-11-10T20:38:40.508-08:00",
+        "updated_at": "2026-11-10T20:38:40.613-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/mf4dlsbbmtwm",
+        "started_at": "2026-11-10T20:38:40.497-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "dv6qkwhgwc7r",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Phone. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. This update includes virtual streams for custom music on hold management.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "fbp7l7hk2vtv",
+            "created_at": "2026-11-10T20:38:40.610-08:00",
+            "updated_at": "2026-11-10T20:38:40.610-08:00",
+            "display_at": "2026-11-10T20:38:40.610-08:00",
+            "affected_components": [
+              {
+                "code": "0842bncf5q9f",
+                "name": "Zoom Phone - Global - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "0842bncf5q9f",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2024-09-30T13:36:13.230-07:00",
+            "updated_at": "2026-09-20T02:00:07.620-07:00",
+            "position": 12,
+            "description": null,
+            "showcase": false,
+            "start_date": "2024-09-30",
+            "group_id": "fs7vxs27n4pn",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-14T17:00:00.000-08:00",
+        "scheduled_until": "2026-11-15T02:00:00.000-08:00"
+      },
+      {
+        "id": "7vlfx1xbc8ch",
+        "name": "Zoom Phone Update - Japan SIP Zones: November 15, 2026 (No Operational Impact)",
+        "status": "scheduled",
+        "created_at": "2026-11-10T21:09:55.239-08:00",
+        "updated_at": "2026-11-10T21:09:55.353-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/z5wvk6vcrmh9",
+        "started_at": "2026-11-10T21:09:55.226-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "4xv111vlbmxd",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Phone - Japan SIP zones in Tokyo and Osaka. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details. This update includes virtual streams for custom music on hold management.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "7vlfx1xbc8ch",
+            "created_at": "2026-11-10T21:09:55.350-08:00",
+            "updated_at": "2026-11-10T21:09:55.350-08:00",
+            "display_at": "2026-11-10T21:09:55.350-08:00",
+            "affected_components": [
+              {
+                "code": "yrt9l9s4twjl",
+                "name": "Zoom Phone - JAPAN - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yrt9l9s4twjl",
+            "name": "Zoom Phone",
+            "status": "operational",
+            "created_at": "2022-05-03T10:50:25.396-07:00",
+            "updated_at": "2026-10-06T23:30:08.304-07:00",
+            "position": 1,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "r6hzm1tntmq3",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-15T08:00:00.000-08:00",
+        "scheduled_until": "2026-11-15T10:00:00.000-08:00"
       },
       {
         "id": "5l69p57ndml8",
@@ -7424,6 +7586,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-11-11T02:14:18Z"
+    "updated": "2026-11-11T09:35:17Z"
   }
 }
