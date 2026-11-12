@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-11T23:39:18Z"
+    "updated": "2026-11-12T04:19:32Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Huddle AI summaries not being generated",
-    "updated": "2026-11-11T23:39:18Z"
+    "updated": "2026-11-12T04:19:32Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-11T17:04:29.057-05:00"
+      "updated_at": "2026-11-11T23:09:10.291-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-11T23:39:17Z"
+    "updated": "2026-11-12T04:19:30Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-11T22:04:37.644Z"
+      "updated_at": "2026-11-12T04:09:14.096Z"
     },
     "components": [
       {
@@ -853,7 +853,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-11T23:39:17Z"
+    "updated": "2026-11-12T04:19:30Z"
   },
   "zoom": {
     "page": {
@@ -861,7 +861,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-11T14:04:37.342-08:00"
+      "updated_at": "2026-11-11T20:09:13.800-08:00"
     },
     "components": [
       {
@@ -1869,7 +1869,7 @@
         "name": "SMS/MMS (Inbound/Outbound)",
         "status": "operational",
         "created_at": "2022-05-03T10:40:19.412-07:00",
-        "updated_at": "2026-11-03T16:57:23.479-08:00",
+        "updated_at": "2026-11-11T20:04:10.946-08:00",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -2724,7 +2724,7 @@
         "name": "SMS/MMS (Inbound/Outbound)",
         "status": "operational",
         "created_at": "2022-05-03T11:18:19.779-07:00",
-        "updated_at": "2026-05-21T01:38:45.262-07:00",
+        "updated_at": "2026-11-11T20:04:10.975-08:00",
         "position": 5,
         "description": null,
         "showcase": false,
@@ -5601,7 +5601,7 @@
         "name": "SMS (Send meeting invite via SMS)",
         "status": "operational",
         "created_at": "2022-08-30T09:45:30.790-07:00",
-        "updated_at": "2026-04-18T00:12:19.725-07:00",
+        "updated_at": "2026-11-11T20:04:11.003-08:00",
         "position": 22,
         "description": null,
         "showcase": false,
@@ -6302,35 +6302,136 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
-    "scheduled_maintenances": [
+    "incidents": [
       {
-        "id": "vzxyk24dmzl1",
-        "name": "Zoom Workforce Management Update: November 12, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-11-10T09:39:15.369-08:00",
-        "updated_at": "2026-11-10T09:39:15.583-08:00",
-        "monitoring_at": null,
+        "id": "1mgtnfzf421k",
+        "name": "Service Degradation Affecting Outbound SMS Messages for a subset of users in the US region",
+        "status": "monitoring",
+        "created_at": "2026-11-11T18:21:49.265-08:00",
+        "updated_at": "2026-11-11T20:04:11.078-08:00",
+        "monitoring_at": "2026-11-11T20:04:11.053-08:00",
         "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/cn2h7nnj7z8q",
-        "started_at": "2026-11-10T09:39:15.359-08:00",
+        "impact": "minor",
+        "shortlink": "https://stspg.io/4p9rlpt9fv4v",
+        "started_at": "2026-11-11T18:21:49.251-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "l0h3vfnk34zv",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Workforce Management. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068337 for more details. This update includes report filtering with the My Reports tab.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "vzxyk24dmzl1",
-            "created_at": "2026-11-10T09:39:15.581-08:00",
-            "updated_at": "2026-11-10T09:39:15.581-08:00",
-            "display_at": "2026-11-10T09:39:15.581-08:00",
+            "id": "29b8lsd4d92n",
+            "status": "monitoring",
+            "body": "The service degradation affecting outbound SMS messages for a subset of users in the US region has been successfully resolved by our underlying carrier.\n\nWe will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "1mgtnfzf421k",
+            "created_at": "2026-11-11T20:04:11.053-08:00",
+            "updated_at": "2026-11-11T20:04:11.053-08:00",
+            "display_at": "2026-11-11T20:04:11.053-08:00",
             "affected_components": [
               {
-                "code": "7lvp52xc051q",
-                "name": "Zoom Workforce Management",
-                "old_status": "operational",
+                "code": "9qv6bp63zynp",
+                "name": "Zoom Meetings - SMS (Send meeting invite via SMS)",
+                "old_status": "degraded_performance",
                 "new_status": "operational"
+              },
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              },
+              {
+                "code": "rkgptw5lc3pw",
+                "name": "Zoom CX - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "zs0tvndpzffh",
+            "status": "identified",
+            "body": "We are continuing to work with our underlying carrier for the service degradation affecting outbound SMS messages for a subset of users in the US region.\n\nWe will keep you informed with timely updates as progress is made.",
+            "incident_id": "1mgtnfzf421k",
+            "created_at": "2026-11-11T19:24:30.604-08:00",
+            "updated_at": "2026-11-11T19:25:08.664-08:00",
+            "display_at": "2026-11-11T19:24:30.000-08:00",
+            "affected_components": [
+              {
+                "code": "9qv6bp63zynp",
+                "name": "Zoom Meetings - SMS (Send meeting invite via SMS)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "rkgptw5lc3pw",
+                "name": "Zoom CX - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "vv11l5s320pc",
+            "status": "identified",
+            "body": "We are continuing to work on a fix for this issue.",
+            "incident_id": "1mgtnfzf421k",
+            "created_at": "2026-11-11T18:40:53.967-08:00",
+            "updated_at": "2026-11-11T18:40:53.967-08:00",
+            "display_at": "2026-11-11T18:40:53.967-08:00",
+            "affected_components": [
+              {
+                "code": "9qv6bp63zynp",
+                "name": "Zoom Meetings - SMS (Send meeting invite via SMS)",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "rkgptw5lc3pw",
+                "name": "Zoom CX - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "5lq6p7tpmk23",
+            "status": "identified",
+            "body": "We are currently investigating a service degradation affecting outbound SMS messages for a subset of users in the US region.\nInbound SMS remains operational and unaffected. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "1mgtnfzf421k",
+            "created_at": "2026-11-11T18:21:49.421-08:00",
+            "updated_at": "2026-11-11T18:21:49.421-08:00",
+            "display_at": "2026-11-11T18:21:49.421-08:00",
+            "affected_components": [
+              {
+                "code": "5vvw5njz8qg5",
+                "name": "Zoom Phone - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "rkgptw5lc3pw",
+                "name": "Zoom CX - NORTH AMERICA - SMS/MMS (Inbound/Outbound)",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
               }
             ],
             "deliver_notifications": true,
@@ -6340,24 +6441,55 @@
         ],
         "components": [
           {
-            "id": "7lvp52xc051q",
-            "name": "Zoom Workforce Management",
+            "id": "5vvw5njz8qg5",
+            "name": "SMS/MMS (Inbound/Outbound)",
             "status": "operational",
-            "created_at": "2023-08-01T15:44:46.131-07:00",
-            "updated_at": "2026-01-18T02:00:21.169-08:00",
-            "position": 31,
+            "created_at": "2022-05-03T10:40:19.412-07:00",
+            "updated_at": "2026-11-11T20:04:10.946-08:00",
+            "position": 3,
             "description": null,
             "showcase": false,
-            "start_date": "2023-08-01",
-            "group_id": null,
+            "start_date": "2022-05-03",
+            "group_id": "gwtd6dbkck60",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "rkgptw5lc3pw",
+            "name": "SMS/MMS (Inbound/Outbound)",
+            "status": "operational",
+            "created_at": "2022-05-03T11:18:19.779-07:00",
+            "updated_at": "2026-11-11T20:04:10.975-08:00",
+            "position": 5,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "pdcbftj9pg7j",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "9qv6bp63zynp",
+            "name": "SMS (Send meeting invite via SMS)",
+            "status": "operational",
+            "created_at": "2022-08-30T09:45:30.790-07:00",
+            "updated_at": "2026-11-11T20:04:11.003-08:00",
+            "position": 22,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-08-30",
+            "group_id": "6np407v7v25g",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-11-11T17:00:00.000-08:00",
-        "scheduled_until": "2026-11-12T02:00:00.000-08:00"
-      },
+        "reminder_intervals": null
+      }
+    ],
+    "scheduled_maintenances": [
       {
         "id": "slwzp4q0qyb6",
         "name": "Zoom Virtual Agent Update: November 13, 2026 (No Operational Impact)",
@@ -7231,6 +7363,86 @@
         "scheduled_until": "2027-02-06T18:00:00.000-08:00"
       },
       {
+        "id": "vzxyk24dmzl1",
+        "name": "Zoom Workforce Management Update: November 12, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-11-10T09:39:15.369-08:00",
+        "updated_at": "2026-11-11T17:00:08.100-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/cn2h7nnj7z8q",
+        "started_at": "2026-11-10T09:39:15.359-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "gtcb72kfvw4f",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "vzxyk24dmzl1",
+            "created_at": "2026-11-11T17:00:07.979-08:00",
+            "updated_at": "2026-11-11T17:00:07.979-08:00",
+            "display_at": "2026-11-11T17:00:07.979-08:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "xj8v16znv5mb",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "vzxyk24dmzl1",
+            "created_at": "2026-11-11T16:00:12.105-08:00",
+            "updated_at": "2026-11-11T16:00:12.105-08:00",
+            "display_at": "2026-11-11T16:00:12.105-08:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "l0h3vfnk34zv",
+            "status": "scheduled",
+            "body": "We will be providing an update to Zoom Workforce Management. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068337 for more details. This update includes report filtering with the My Reports tab.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+            "incident_id": "vzxyk24dmzl1",
+            "created_at": "2026-11-10T09:39:15.581-08:00",
+            "updated_at": "2026-11-10T09:39:15.581-08:00",
+            "display_at": "2026-11-10T09:39:15.581-08:00",
+            "affected_components": [
+              {
+                "code": "7lvp52xc051q",
+                "name": "Zoom Workforce Management",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "7lvp52xc051q",
+            "name": "Zoom Workforce Management",
+            "status": "operational",
+            "created_at": "2023-08-01T15:44:46.131-07:00",
+            "updated_at": "2026-01-18T02:00:21.169-08:00",
+            "position": 31,
+            "description": null,
+            "showcase": false,
+            "start_date": "2023-08-01",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-11T17:00:00.000-08:00",
+        "scheduled_until": "2026-11-12T02:00:00.000-08:00"
+      },
+      {
         "id": "7c48nb5502q9",
         "name": "Zoom Phone Maintenance - EU01 - FRA2 Data Center: November 09, 2026",
         "status": "in_progress",
@@ -7586,6 +7798,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-11-11T23:39:17Z"
+    "updated": "2026-11-12T04:19:30Z"
   }
 }
