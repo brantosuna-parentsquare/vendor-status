@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-13T08:45:01Z"
+    "updated": "2026-11-13T16:47:29Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Huddle AI summaries not being generated",
-    "updated": "2026-11-13T08:45:01Z"
+    "updated": "2026-11-13T16:47:29Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-13T02:39:19.664-05:00"
+      "updated_at": "2026-11-13T11:28:28.939-05:00"
     },
     "components": [
       {
@@ -188,16 +188,36 @@
       {
         "id": "1bnzcx15m9nc",
         "name": "HubSpot is experiencing issues",
-        "status": "identified",
+        "status": "monitoring",
         "created_at": "2026-11-12T14:05:21.813-05:00",
-        "updated_at": "2026-11-12T22:03:47.042-05:00",
-        "monitoring_at": null,
+        "updated_at": "2026-11-13T10:06:29.639-05:00",
+        "monitoring_at": "2026-11-13T10:06:29.599-05:00",
         "resolved_at": null,
         "impact": "none",
         "shortlink": "https://stspg.io/lswp5p2mdmh0",
         "started_at": "2026-11-12T14:05:21.717-05:00",
         "page_id": "8b9w1wwq3g7d",
         "incident_updates": [
+          {
+            "id": "7bk0j3qmqzxk",
+            "status": "monitoring",
+            "body": "Outlook inboxes & calendar are now fully operational following an issue with Microsoft 365. We're carefully monitoring our systems to make sure they stay available.",
+            "incident_id": "1bnzcx15m9nc",
+            "created_at": "2026-11-13T10:06:29.599-05:00",
+            "updated_at": "2026-11-13T10:06:29.599-05:00",
+            "display_at": "2026-11-13T10:06:29.599-05:00",
+            "affected_components": [
+              {
+                "code": "pmyfnq1w532l",
+                "name": "Sales Tools",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "ckghkqlvfnvd",
             "status": "identified",
@@ -304,7 +324,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-11-13T08:45:00Z"
+    "updated": "2026-11-13T16:47:28Z"
   },
   "asana": {
     "page": {
@@ -312,7 +332,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-13T07:09:13.761Z"
+      "updated_at": "2026-11-13T16:28:51.459Z"
     },
     "components": [
       {
@@ -333,7 +353,7 @@
       {
         "id": "pw3rpxcrq9j5",
         "name": "US",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-02-09T17:46:42.487Z",
         "updated_at": "2025-06-27T19:56:36.684Z",
         "position": 1,
@@ -432,7 +452,7 @@
       {
         "id": "6l7nv2dwk8d9",
         "name": "EU",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-02-09T18:04:01.181Z",
         "updated_at": "2025-06-27T19:56:36.696Z",
         "position": 2,
@@ -546,7 +566,7 @@
       {
         "id": "3c6vvpy5cjf5",
         "name": "Japan",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-02-09T21:56:52.127Z",
         "updated_at": "2025-06-27T19:56:36.707Z",
         "position": 3,
@@ -660,7 +680,7 @@
       {
         "id": "rmx1t3dwwq0t",
         "name": "Australia",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2023-02-09T21:58:54.108Z",
         "updated_at": "2025-02-06T22:35:34.314Z",
         "position": 4,
@@ -888,9 +908,9 @@
       {
         "id": "ghmv9sdqp79z",
         "name": "AI Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-11-03T19:36:56.194Z",
-        "updated_at": "2026-11-03T19:36:56.194Z",
+        "updated_at": "2026-11-13T10:03:38.751Z",
         "position": 7,
         "description": null,
         "showcase": true,
@@ -903,9 +923,9 @@
       {
         "id": "h1nlm84k22c6",
         "name": "AI Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-11-03T19:38:08.383Z",
-        "updated_at": "2026-11-03T19:38:08.383Z",
+        "updated_at": "2026-11-13T10:03:38.802Z",
         "position": 7,
         "description": null,
         "showcase": true,
@@ -918,9 +938,9 @@
       {
         "id": "zvn112876kfd",
         "name": "AI Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-11-03T19:38:23.967Z",
-        "updated_at": "2026-11-03T19:38:23.967Z",
+        "updated_at": "2026-11-13T10:03:38.830Z",
         "position": 7,
         "description": null,
         "showcase": true,
@@ -933,9 +953,9 @@
       {
         "id": "pdldx9rv6vj4",
         "name": "AI Meetings",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-11-03T19:38:38.619Z",
-        "updated_at": "2026-11-03T19:38:38.619Z",
+        "updated_at": "2026-11-13T10:03:38.858Z",
         "position": 7,
         "description": null,
         "showcase": true,
@@ -961,13 +981,168 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "zpft1xbpwrg8",
+        "name": "Integrations with Outlook are unavailable or degraded",
+        "status": "monitoring",
+        "created_at": "2026-11-13T10:03:38.685Z",
+        "updated_at": "2026-11-13T10:04:42.667Z",
+        "monitoring_at": "2026-11-13T10:04:42.645Z",
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/6qwxt3g9j110",
+        "started_at": "2026-11-13T10:03:38.667Z",
+        "page_id": "w58858w0sjxx",
+        "incident_updates": [
+          {
+            "id": "0bxd6mcmhdcc",
+            "status": "monitoring",
+            "body": "We are monitoring the situation.",
+            "incident_id": "zpft1xbpwrg8",
+            "created_at": "2026-11-13T10:04:42.645Z",
+            "updated_at": "2026-11-13T10:04:42.645Z",
+            "display_at": "2026-11-13T10:04:42.645Z",
+            "affected_components": [
+              {
+                "code": "ghmv9sdqp79z",
+                "name": "US - AI Meetings",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "h1nlm84k22c6",
+                "name": "EU - AI Meetings",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "zvn112876kfd",
+                "name": "Japan - AI Meetings",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "pdldx9rv6vj4",
+                "name": "Australia - AI Meetings",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "mlwxby5vfwy8",
+            "status": "investigating",
+            "body": "Microsoft Outlook is experiencing a global outage. Certain components that rely on or interact with Outlook, such as AI meetings or AI teammates are seeing degraded performance when trying to interact with Outlook. We are waiting on Microsoft to resolve on their end and will post an update once Outlook is operational again.",
+            "incident_id": "zpft1xbpwrg8",
+            "created_at": "2026-11-13T10:03:38.918Z",
+            "updated_at": "2026-11-13T10:03:38.918Z",
+            "display_at": "2026-11-13T10:03:38.918Z",
+            "affected_components": [
+              {
+                "code": "ghmv9sdqp79z",
+                "name": "US - AI Meetings",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "h1nlm84k22c6",
+                "name": "EU - AI Meetings",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "zvn112876kfd",
+                "name": "Japan - AI Meetings",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "pdldx9rv6vj4",
+                "name": "Australia - AI Meetings",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "ghmv9sdqp79z",
+            "name": "AI Meetings",
+            "status": "degraded_performance",
+            "created_at": "2026-11-03T19:36:56.194Z",
+            "updated_at": "2026-11-13T10:03:38.751Z",
+            "position": 7,
+            "description": null,
+            "showcase": true,
+            "start_date": "2026-11-03",
+            "group_id": "pw3rpxcrq9j5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "h1nlm84k22c6",
+            "name": "AI Meetings",
+            "status": "degraded_performance",
+            "created_at": "2026-11-03T19:38:08.383Z",
+            "updated_at": "2026-11-13T10:03:38.802Z",
+            "position": 7,
+            "description": null,
+            "showcase": true,
+            "start_date": "2026-11-03",
+            "group_id": "6l7nv2dwk8d9",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "zvn112876kfd",
+            "name": "AI Meetings",
+            "status": "degraded_performance",
+            "created_at": "2026-11-03T19:38:23.967Z",
+            "updated_at": "2026-11-13T10:03:38.830Z",
+            "position": 7,
+            "description": null,
+            "showcase": true,
+            "start_date": "2026-11-03",
+            "group_id": "3c6vvpy5cjf5",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "pdldx9rv6vj4",
+            "name": "AI Meetings",
+            "status": "degraded_performance",
+            "created_at": "2026-11-03T19:38:38.619Z",
+            "updated_at": "2026-11-13T10:03:38.858Z",
+            "position": 7,
+            "description": null,
+            "showcase": true,
+            "start_date": "2026-11-03",
+            "group_id": "rmx1t3dwwq0t",
+            "page_id": "w58858w0sjxx",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-11-13T08:45:00Z"
+    "updated": "2026-11-13T16:47:28Z"
   },
   "zoom": {
     "page": {
@@ -975,7 +1150,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-13T00:00:11.266-08:00"
+      "updated_at": "2026-11-13T08:28:49.241-08:00"
     },
     "components": [
       {
@@ -1583,7 +1758,7 @@
         "name": "Calling (Inbound/Outbound)",
         "status": "operational",
         "created_at": "2022-05-03T10:53:01.001-07:00",
-        "updated_at": "2026-09-15T21:29:50.386-07:00",
+        "updated_at": "2026-11-13T06:21:04.314-08:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -6418,11 +6593,104 @@
     ],
     "incidents": [
       {
+        "id": "n1xq1w9wh418",
+        "name": "Service Degradation Affecting Zoom Phone Calls in China Region",
+        "status": "monitoring",
+        "created_at": "2026-11-13T01:45:37.000-08:00",
+        "updated_at": "2026-11-13T06:21:04.402-08:00",
+        "monitoring_at": "2026-11-13T06:21:04.375-08:00",
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/7s0ygj0dbwms",
+        "started_at": "2026-11-13T01:45:37.000-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "6mr6b3298dcx",
+            "status": "monitoring",
+            "body": "The issue affecting Zoom Phone calls in China region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+            "incident_id": "n1xq1w9wh418",
+            "created_at": "2026-11-13T06:21:04.375-08:00",
+            "updated_at": "2026-11-13T06:21:04.375-08:00",
+            "display_at": "2026-11-13T06:21:04.375-08:00",
+            "affected_components": [
+              {
+                "code": "ck8c8cm0yhrd",
+                "name": "Zoom Phone - HONG KONG/CHINA - Calling (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "vl62pg5xt4xf",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting Zoom Phone calls for users with phone numbers that have a specific prefix in Shanghai China.\n\nOur team is actively working with our underlying carrier on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "n1xq1w9wh418",
+            "created_at": "2026-11-13T03:30:14.230-08:00",
+            "updated_at": "2026-11-13T03:30:14.230-08:00",
+            "display_at": "2026-11-13T03:30:14.230-08:00",
+            "affected_components": [
+              {
+                "code": "ck8c8cm0yhrd",
+                "name": "Zoom Phone - HONG KONG/CHINA - Calling (Inbound/Outbound)",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "1m227wh7sxpp",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting Zoom Phone calls for users with phone numbers that have a specific prefix in Shanghai China.\n\nOur team is actively working with our underlying carrier on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "n1xq1w9wh418",
+            "created_at": "2026-11-13T01:45:37.628-08:00",
+            "updated_at": "2026-11-13T02:02:12.175-08:00",
+            "display_at": "2026-11-13T01:45:37.000-08:00",
+            "affected_components": [
+              {
+                "code": "ck8c8cm0yhrd",
+                "name": "Zoom Phone - HONG KONG/CHINA - Calling (Inbound/Outbound)",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "ck8c8cm0yhrd",
+            "name": "Calling (Inbound/Outbound)",
+            "status": "operational",
+            "created_at": "2022-05-03T10:53:01.001-07:00",
+            "updated_at": "2026-11-13T06:21:04.314-08:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "dzyc0515xm7f",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      },
+      {
         "id": "8n4n9nsqcl33",
         "name": "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.",
         "status": "identified",
         "created_at": "2026-11-12T11:24:50.506-08:00",
-        "updated_at": "2026-11-13T00:00:11.244-08:00",
+        "updated_at": "2026-11-13T04:00:06.455-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -6430,6 +6698,38 @@
         "started_at": "2026-11-12T11:24:50.493-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "gwxn8015z804",
+            "status": "identified",
+            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "8n4n9nsqcl33",
+            "created_at": "2026-11-13T04:00:06.453-08:00",
+            "updated_at": "2026-11-13T04:00:06.453-08:00",
+            "display_at": "2026-11-13T04:00:06.453-08:00",
+            "affected_components": [
+              {
+                "code": "08fp2rr1spx0",
+                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "h1rqwzs3zwm0",
+                "name": "Zoom Mail - Zoom Scheduler",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "6x4l2076whdn",
+                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "dd4pv0mfjc7s",
             "status": "identified",
@@ -7429,86 +7729,6 @@
         "scheduled_until": "2027-02-06T18:00:00.000-08:00"
       },
       {
-        "id": "slwzp4q0qyb6",
-        "name": "Zoom Virtual Agent Update: November 13, 2026 (No Operational Impact)",
-        "status": "in_progress",
-        "created_at": "2026-11-10T18:47:21.412-08:00",
-        "updated_at": "2026-11-12T17:00:07.642-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/34r7j5019nnc",
-        "started_at": "2026-11-10T18:47:21.401-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "5g084xnk4cdb",
-            "status": "in_progress",
-            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "slwzp4q0qyb6",
-            "created_at": "2026-11-12T17:00:07.616-08:00",
-            "updated_at": "2026-11-12T17:00:07.616-08:00",
-            "display_at": "2026-11-12T17:00:07.616-08:00",
-            "affected_components": null,
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "t4c1cd9bl8ys",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "slwzp4q0qyb6",
-            "created_at": "2026-11-12T16:00:22.519-08:00",
-            "updated_at": "2026-11-12T16:00:22.519-08:00",
-            "display_at": "2026-11-12T16:00:22.519-08:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "gtz87w1ktpcl",
-            "status": "scheduled",
-            "body": "We will be providing an update to Zoom Virtual Agent. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details. This update includes time zone selection in the Virtual Agent usage report.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-            "incident_id": "slwzp4q0qyb6",
-            "created_at": "2026-11-10T18:47:21.510-08:00",
-            "updated_at": "2026-11-10T18:47:21.510-08:00",
-            "display_at": "2026-11-10T18:47:21.510-08:00",
-            "affected_components": [
-              {
-                "code": "880tc1scvmp2",
-                "name": "Zoom Virtual Agent - Global - Zoom Virtual Agent",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "880tc1scvmp2",
-            "name": "Zoom Virtual Agent",
-            "status": "operational",
-            "created_at": "2023-01-25T04:56:01.486-08:00",
-            "updated_at": "2026-01-17T02:00:21.300-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-25",
-            "group_id": "58cfzcvm6j00",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-12T17:00:00.000-08:00",
-        "scheduled_until": "2026-11-13T02:00:00.000-08:00"
-      },
-      {
         "id": "fws7gsrrqsdf",
         "name": "Zoom Team Chat Update",
         "status": "in_progress",
@@ -7790,6 +8010,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-11-13T08:45:00Z"
+    "updated": "2026-11-13T16:47:28Z"
   }
 }
