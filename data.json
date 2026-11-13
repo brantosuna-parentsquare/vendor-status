@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-13T01:31:12Z"
+    "updated": "2026-11-13T08:45:01Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Huddle AI summaries not being generated",
-    "updated": "2026-11-13T01:31:12Z"
+    "updated": "2026-11-13T08:45:01Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-12T20:20:16.202-05:00"
+      "updated_at": "2026-11-13T02:39:19.664-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
         "name": "HubSpot is experiencing issues",
         "status": "identified",
         "created_at": "2026-11-12T14:05:21.813-05:00",
-        "updated_at": "2026-11-12T19:21:06.992-05:00",
+        "updated_at": "2026-11-12T22:03:47.042-05:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "none",
@@ -198,6 +198,26 @@
         "started_at": "2026-11-12T14:05:21.717-05:00",
         "page_id": "8b9w1wwq3g7d",
         "incident_updates": [
+          {
+            "id": "ckghkqlvfnvd",
+            "status": "identified",
+            "body": "Outlook inboxes & calendar have been partially unavailable in North America, Europe, the Asian Pacific since 12:30 AM EST (UTC -05:00). This is related to the outage described at https://status.cloud.microsoft/. We are working with Microsoft 365 to resolve the issue.\n\nThe information on this page reflects our understanding of the incident and impact at the time of the update.",
+            "incident_id": "1bnzcx15m9nc",
+            "created_at": "2026-11-12T22:03:47.040-05:00",
+            "updated_at": "2026-11-12T22:03:47.040-05:00",
+            "display_at": "2026-11-12T22:03:47.040-05:00",
+            "affected_components": [
+              {
+                "code": "pmyfnq1w532l",
+                "name": "Sales Tools",
+                "old_status": "partial_outage",
+                "new_status": "partial_outage"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "8cbdk7zsjmtg",
             "status": "identified",
@@ -284,7 +304,7 @@
       "indicator": "minor",
       "description": "Minor Service Outage"
     },
-    "updated": "2026-11-13T01:31:10Z"
+    "updated": "2026-11-13T08:45:00Z"
   },
   "asana": {
     "page": {
@@ -292,7 +312,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-13T01:20:20.688Z"
+      "updated_at": "2026-11-13T07:09:13.761Z"
     },
     "components": [
       {
@@ -947,7 +967,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-13T01:31:10Z"
+    "updated": "2026-11-13T08:45:00Z"
   },
   "zoom": {
     "page": {
@@ -955,7 +975,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-12T17:20:20.196-08:00"
+      "updated_at": "2026-11-13T00:00:11.266-08:00"
     },
     "components": [
       {
@@ -6402,7 +6422,7 @@
         "name": "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.",
         "status": "identified",
         "created_at": "2026-11-12T11:24:50.506-08:00",
-        "updated_at": "2026-11-12T15:54:37.880-08:00",
+        "updated_at": "2026-11-13T00:00:11.244-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "minor",
@@ -6410,6 +6430,70 @@
         "started_at": "2026-11-12T11:24:50.493-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
+          {
+            "id": "dd4pv0mfjc7s",
+            "status": "identified",
+            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "8n4n9nsqcl33",
+            "created_at": "2026-11-13T00:00:11.241-08:00",
+            "updated_at": "2026-11-13T00:00:11.241-08:00",
+            "display_at": "2026-11-13T00:00:11.241-08:00",
+            "affected_components": [
+              {
+                "code": "08fp2rr1spx0",
+                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "h1rqwzs3zwm0",
+                "name": "Zoom Mail - Zoom Scheduler",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "6x4l2076whdn",
+                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "7whx6dsvlk7f",
+            "status": "identified",
+            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+            "incident_id": "8n4n9nsqcl33",
+            "created_at": "2026-11-12T20:02:54.274-08:00",
+            "updated_at": "2026-11-12T20:02:54.274-08:00",
+            "display_at": "2026-11-12T20:02:54.274-08:00",
+            "affected_components": [
+              {
+                "code": "08fp2rr1spx0",
+                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "h1rqwzs3zwm0",
+                "name": "Zoom Mail - Zoom Scheduler",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              },
+              {
+                "code": "6x4l2076whdn",
+                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
           {
             "id": "rbk3f86pmfvb",
             "status": "identified",
@@ -7706,6 +7790,6 @@
       "indicator": "minor",
       "description": "Partially Degraded Service"
     },
-    "updated": "2026-11-13T01:31:10Z"
+    "updated": "2026-11-13T08:45:00Z"
   }
 }
