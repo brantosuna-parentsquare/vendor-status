@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-14T02:30:31Z"
+    "updated": "2026-11-14T09:24:17Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Huddle AI summaries not being generated",
-    "updated": "2026-11-14T02:30:31Z"
+    "updated": "2026-11-14T09:24:17Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-13T19:29:15.842-05:00"
+      "updated_at": "2026-11-14T00:54:18.155-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-14T02:30:30Z"
+    "updated": "2026-11-14T09:24:16Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-14T00:29:19.932Z"
+      "updated_at": "2026-11-14T05:54:22.422Z"
     },
     "components": [
       {
@@ -847,282 +847,13 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "zpft1xbpwrg8",
-        "name": "Integrations with Outlook are unavailable or degraded",
-        "status": "monitoring",
-        "created_at": "2026-11-13T10:03:38.685Z",
-        "updated_at": "2026-11-13T22:08:25.012Z",
-        "monitoring_at": "2026-11-13T10:04:42.645Z",
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/6qwxt3g9j110",
-        "started_at": "2026-11-13T10:03:38.667Z",
-        "page_id": "w58858w0sjxx",
-        "incident_updates": [
-          {
-            "id": "0kl4g619vf6t",
-            "status": "monitoring",
-            "body": "We are continuing to monitor for any further issues.",
-            "incident_id": "zpft1xbpwrg8",
-            "created_at": "2026-11-13T22:08:25.010Z",
-            "updated_at": "2026-11-13T22:08:25.010Z",
-            "display_at": "2026-11-13T22:08:25.010Z",
-            "affected_components": [
-              {
-                "code": "ghmv9sdqp79z",
-                "name": "US - AI Meetings",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "h1nlm84k22c6",
-                "name": "EU - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              },
-              {
-                "code": "zvn112876kfd",
-                "name": "Japan - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              },
-              {
-                "code": "pdldx9rv6vj4",
-                "name": "Australia - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "4sgb03psykhx",
-            "status": "monitoring",
-            "body": "Update – We’re no longer seeing issues with Asana Meetings, and service looks restored on our side. Microsoft is still reporting a service degradation affecting Microsoft 365 connectivity, so we’re keeping this notice open until they confirm it’s resolved. If you still have trouble with meetings connected to Microsoft 365, please try again shortly. We’ll post another update at 10pm UTC.\n\nhttps://status.cloud.microsoft/m365/referrer=serviceStatusRedirect",
-            "incident_id": "zpft1xbpwrg8",
-            "created_at": "2026-11-13T18:30:09.259Z",
-            "updated_at": "2026-11-13T18:30:09.259Z",
-            "display_at": "2026-11-13T18:30:09.259Z",
-            "affected_components": [
-              {
-                "code": "ghmv9sdqp79z",
-                "name": "US - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1nlm84k22c6",
-                "name": "EU - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "zvn112876kfd",
-                "name": "Japan - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "pdldx9rv6vj4",
-                "name": "Australia - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "fb5smj9w83f9",
-            "status": "monitoring",
-            "body": "We are continuing to monitor for any further issues.",
-            "incident_id": "zpft1xbpwrg8",
-            "created_at": "2026-11-13T18:29:22.862Z",
-            "updated_at": "2026-11-13T18:29:22.862Z",
-            "display_at": "2026-11-13T18:29:22.862Z",
-            "affected_components": [
-              {
-                "code": "ghmv9sdqp79z",
-                "name": "US - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1nlm84k22c6",
-                "name": "EU - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "zvn112876kfd",
-                "name": "Japan - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "pdldx9rv6vj4",
-                "name": "Australia - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "0bxd6mcmhdcc",
-            "status": "monitoring",
-            "body": "We are monitoring the situation.",
-            "incident_id": "zpft1xbpwrg8",
-            "created_at": "2026-11-13T10:04:42.645Z",
-            "updated_at": "2026-11-13T10:04:42.645Z",
-            "display_at": "2026-11-13T10:04:42.645Z",
-            "affected_components": [
-              {
-                "code": "ghmv9sdqp79z",
-                "name": "US - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1nlm84k22c6",
-                "name": "EU - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "zvn112876kfd",
-                "name": "Japan - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "pdldx9rv6vj4",
-                "name": "Australia - AI Meetings",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": false,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "mlwxby5vfwy8",
-            "status": "investigating",
-            "body": "Microsoft Outlook is experiencing a global outage. Certain components that rely on or interact with Outlook, such as AI meetings or AI teammates are seeing degraded performance when trying to interact with Outlook. We are waiting on Microsoft to resolve on their end and will post an update once Outlook is operational again.",
-            "incident_id": "zpft1xbpwrg8",
-            "created_at": "2026-11-13T10:03:38.918Z",
-            "updated_at": "2026-11-13T10:03:38.918Z",
-            "display_at": "2026-11-13T10:03:38.918Z",
-            "affected_components": [
-              {
-                "code": "ghmv9sdqp79z",
-                "name": "US - AI Meetings",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1nlm84k22c6",
-                "name": "EU - AI Meetings",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "zvn112876kfd",
-                "name": "Japan - AI Meetings",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "pdldx9rv6vj4",
-                "name": "Australia - AI Meetings",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "ghmv9sdqp79z",
-            "name": "AI Meetings",
-            "status": "operational",
-            "created_at": "2026-11-03T19:36:56.194Z",
-            "updated_at": "2026-11-13T22:08:04.861Z",
-            "position": 7,
-            "description": null,
-            "showcase": true,
-            "start_date": "2026-11-03",
-            "group_id": "pw3rpxcrq9j5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "h1nlm84k22c6",
-            "name": "AI Meetings",
-            "status": "operational",
-            "created_at": "2026-11-03T19:38:08.383Z",
-            "updated_at": "2026-11-13T22:08:24.926Z",
-            "position": 7,
-            "description": null,
-            "showcase": true,
-            "start_date": "2026-11-03",
-            "group_id": "6l7nv2dwk8d9",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "zvn112876kfd",
-            "name": "AI Meetings",
-            "status": "operational",
-            "created_at": "2026-11-03T19:38:23.967Z",
-            "updated_at": "2026-11-13T22:08:24.952Z",
-            "position": 7,
-            "description": null,
-            "showcase": true,
-            "start_date": "2026-11-03",
-            "group_id": "3c6vvpy5cjf5",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "pdldx9rv6vj4",
-            "name": "AI Meetings",
-            "status": "operational",
-            "created_at": "2026-11-03T19:38:38.619Z",
-            "updated_at": "2026-11-13T22:08:24.974Z",
-            "position": 7,
-            "description": null,
-            "showcase": true,
-            "start_date": "2026-11-03",
-            "group_id": "rmx1t3dwwq0t",
-            "page_id": "w58858w0sjxx",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [],
     "status": {
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-14T02:30:30Z"
+    "updated": "2026-11-14T09:24:16Z"
   },
   "zoom": {
     "page": {
@@ -1130,7 +861,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-13T17:00:08.118-08:00"
+      "updated_at": "2026-11-14T01:12:49.357-08:00"
     },
     "components": [
       {
@@ -1883,7 +1614,7 @@
         "name": "Knowledge Base",
         "status": "operational",
         "created_at": "2022-05-03T11:26:39.112-07:00",
-        "updated_at": "2026-11-13T16:00:07.773-08:00",
+        "updated_at": "2026-11-14T00:00:07.799-08:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -2406,9 +2137,9 @@
       {
         "id": "h1rqwzs3zwm0",
         "name": "Zoom Scheduler",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-06-21T17:29:07.648-07:00",
-        "updated_at": "2026-11-12T11:24:50.562-08:00",
+        "updated_at": "2026-11-14T00:56:15.913-08:00",
         "position": 3,
         "description": null,
         "showcase": false,
@@ -2678,7 +2409,7 @@
         "name": "Ticketing",
         "status": "operational",
         "created_at": "2022-05-03T11:27:52.285-07:00",
-        "updated_at": "2026-11-13T16:00:07.956-08:00",
+        "updated_at": "2026-11-14T00:00:08.293-08:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -3553,9 +3284,9 @@
       {
         "id": "6x4l2076whdn",
         "name": "Microsoft OneDrive for Organizations",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-02-05T00:56:15.245-08:00",
-        "updated_at": "2026-11-12T11:24:50.588-08:00",
+        "updated_at": "2026-11-14T00:56:15.947-08:00",
         "position": 6,
         "description": null,
         "showcase": false,
@@ -3718,9 +3449,9 @@
       {
         "id": "08fp2rr1spx0",
         "name": "Integrations/Calendar/Plug-In/Add-In",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-01-31T21:55:23.273-08:00",
-        "updated_at": "2026-11-12T11:24:50.619-08:00",
+        "updated_at": "2026-11-14T00:56:15.977-08:00",
         "position": 7,
         "description": null,
         "showcase": false,
@@ -5403,7 +5134,7 @@
       {
         "id": "thrn29k311lc",
         "name": "Zoom Mail",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2023-03-23T09:35:24.792-07:00",
         "updated_at": "2024-08-14T13:40:38.950-07:00",
         "position": 15,
@@ -6133,7 +5864,7 @@
       {
         "id": "1ndlrnp6r9js",
         "name": "Zoom Website",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2020-03-17T15:25:42.214-07:00",
         "updated_at": "2026-01-08T10:55:09.952-08:00",
         "position": 30,
@@ -6376,7 +6107,7 @@
       {
         "id": "qc3jmtft3wbx",
         "name": "Apps by Zoom",
-        "status": "degraded_performance",
+        "status": "operational",
         "created_at": "2026-02-02T21:36:12.700-08:00",
         "updated_at": "2026-02-02T21:36:12.700-08:00",
         "position": 44,
@@ -6571,499 +6302,8 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [
-      {
-        "id": "8n4n9nsqcl33",
-        "name": "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.",
-        "status": "identified",
-        "created_at": "2026-11-12T11:24:50.506-08:00",
-        "updated_at": "2026-11-13T16:00:10.646-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "minor",
-        "shortlink": "https://stspg.io/jth16cll1kcf",
-        "started_at": "2026-11-12T11:24:50.493-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "q27v3gm2vhnz",
-            "status": "identified",
-            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "8n4n9nsqcl33",
-            "created_at": "2026-11-13T16:00:10.643-08:00",
-            "updated_at": "2026-11-13T16:00:10.643-08:00",
-            "display_at": "2026-11-13T16:00:10.643-08:00",
-            "affected_components": [
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1rqwzs3zwm0",
-                "name": "Zoom Mail - Zoom Scheduler",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "6x4l2076whdn",
-                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "pjppzm2kcsqg",
-            "status": "identified",
-            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "8n4n9nsqcl33",
-            "created_at": "2026-11-13T10:00:05.290-08:00",
-            "updated_at": "2026-11-13T10:00:05.290-08:00",
-            "display_at": "2026-11-13T10:00:05.290-08:00",
-            "affected_components": [
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1rqwzs3zwm0",
-                "name": "Zoom Mail - Zoom Scheduler",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "6x4l2076whdn",
-                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "gwxn8015z804",
-            "status": "identified",
-            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "8n4n9nsqcl33",
-            "created_at": "2026-11-13T04:00:06.453-08:00",
-            "updated_at": "2026-11-13T04:00:06.453-08:00",
-            "display_at": "2026-11-13T04:00:06.453-08:00",
-            "affected_components": [
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1rqwzs3zwm0",
-                "name": "Zoom Mail - Zoom Scheduler",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "6x4l2076whdn",
-                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "dd4pv0mfjc7s",
-            "status": "identified",
-            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "8n4n9nsqcl33",
-            "created_at": "2026-11-13T00:00:11.241-08:00",
-            "updated_at": "2026-11-13T00:00:11.241-08:00",
-            "display_at": "2026-11-13T00:00:11.241-08:00",
-            "affected_components": [
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1rqwzs3zwm0",
-                "name": "Zoom Mail - Zoom Scheduler",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "6x4l2076whdn",
-                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "7whx6dsvlk7f",
-            "status": "identified",
-            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-            "incident_id": "8n4n9nsqcl33",
-            "created_at": "2026-11-12T20:02:54.274-08:00",
-            "updated_at": "2026-11-12T20:02:54.274-08:00",
-            "display_at": "2026-11-12T20:02:54.274-08:00",
-            "affected_components": [
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1rqwzs3zwm0",
-                "name": "Zoom Mail - Zoom Scheduler",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "6x4l2076whdn",
-                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "rbk3f86pmfvb",
-            "status": "identified",
-            "body": "We continue to work with our underlying vendor affecting Microsoft Integrations.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "8n4n9nsqcl33",
-            "created_at": "2026-11-12T15:54:37.878-08:00",
-            "updated_at": "2026-11-12T15:54:37.878-08:00",
-            "display_at": "2026-11-12T15:54:37.878-08:00",
-            "affected_components": [
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1rqwzs3zwm0",
-                "name": "Zoom Mail - Zoom Scheduler",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "6x4l2076whdn",
-                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
-                "old_status": "degraded_performance",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "3qft35n91s2m",
-            "status": "identified",
-            "body": "We have successfully identified the root cause affecting Microsoft Integrations due to an underlying vendor issue. \n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-            "incident_id": "8n4n9nsqcl33",
-            "created_at": "2026-11-12T11:24:50.693-08:00",
-            "updated_at": "2026-11-12T11:24:50.693-08:00",
-            "display_at": "2026-11-12T11:24:50.693-08:00",
-            "affected_components": [
-              {
-                "code": "08fp2rr1spx0",
-                "name": "Zoom Website - Integrations/Calendar/Plug-In/Add-In",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "h1rqwzs3zwm0",
-                "name": "Zoom Mail - Zoom Scheduler",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              },
-              {
-                "code": "6x4l2076whdn",
-                "name": "Apps by Zoom - Microsoft OneDrive for Organizations",
-                "old_status": "operational",
-                "new_status": "degraded_performance"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "h1rqwzs3zwm0",
-            "name": "Zoom Scheduler",
-            "status": "degraded_performance",
-            "created_at": "2023-06-21T17:29:07.648-07:00",
-            "updated_at": "2026-11-12T11:24:50.562-08:00",
-            "position": 3,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-06-21",
-            "group_id": "thrn29k311lc",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "6x4l2076whdn",
-            "name": "Microsoft OneDrive for Organizations",
-            "status": "degraded_performance",
-            "created_at": "2026-02-05T00:56:15.245-08:00",
-            "updated_at": "2026-11-12T11:24:50.588-08:00",
-            "position": 6,
-            "description": null,
-            "showcase": false,
-            "start_date": "2026-02-05",
-            "group_id": "qc3jmtft3wbx",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "08fp2rr1spx0",
-            "name": "Integrations/Calendar/Plug-In/Add-In",
-            "status": "degraded_performance",
-            "created_at": "2023-01-31T21:55:23.273-08:00",
-            "updated_at": "2026-11-12T11:24:50.619-08:00",
-            "position": 7,
-            "description": null,
-            "showcase": false,
-            "start_date": "2023-01-31",
-            "group_id": "1ndlrnp6r9js",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "reminder_intervals": null
-      }
-    ],
+    "incidents": [],
     "scheduled_maintenances": [
-      {
-        "id": "ld4htx4mtmc2",
-        "name": "Zoom Conference Room Connector DNS Changes: November 14, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-10-09T10:27:26.042-07:00",
-        "updated_at": "2026-10-23T01:43:44.480-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/5kb0mvm451bs",
-        "started_at": "2026-10-09T10:27:26.172-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "xj788hq3s2h9",
-            "status": "scheduled",
-            "body": "We will be undergoing scheduled maintenance during this time.",
-            "incident_id": "ld4htx4mtmc2",
-            "created_at": "2026-10-23T01:37:39.182-07:00",
-            "updated_at": "2026-10-23T01:37:39.182-07:00",
-            "display_at": "2026-10-23T01:37:39.182-07:00",
-            "affected_components": [
-              {
-                "code": "3ml2fn8g0psv",
-                "name": "Zoom Meetings - Zoom Conference Room Connector",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "79wkk0sns8p9",
-            "status": "scheduled",
-            "body": "As part of ongoing service enhancements for the Cloud Room Connector (CRC) service, Zoom will be updating DNS records for SIP/H.323 endpoints in the Japan (Osaka and Tokyo), EU (France and Amsterdam), Australia (Melbourne and Sydney), Hong Kong, China, Canada (Toronto and Vancouver), and India (Mumbai and Hyderabad) regions.\n\nIn addition to the DNS record update, we will be decommissioning legacy DNS records in other regions that are no longer in use.\n\n<b>Effective Date</b>: November 14, 2026\n\n<b>Action Required</b>\nTo avoid service disruption, we recommend reviewing your CRC endpoint configurations as soon as possible, updating your DNS records with the new entries, and removing the older legacy records before November 14, 2026. \n\nIf you have any questions or issues, please contact Zoom Support.\n\n<b>DNS Record Updates</b>\n\n<b>Japan Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmjp.us >> jp.zoomcrc.com\nos.zmjp.us >> kix.zoomcrc.com\nty.zmjp.us >> nrt.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmjp.us:</b>\n\n_h323cs._tcp.zmjp.us\n_sip._tcp.zmjp.us\n_sips._tcp.zmjp.us\n_sip._udp.zmjp.us\n\n<b>os.zmjp.us:</b>\n\n_h323cs._tcp.os.zmjp.us\n_sip._tcp.os.zmjp.us\n_sips._tcp.os.zmjp.us\n_sip._udp.os.zmjp.us\n\n<b>ty.zmjp.us:</b>\n\n_h323cs._tcp.ty.zmjp.us\n_sip._tcp.ty.zmjp.us\n_sips._tcp.ty.zmjp.us\n_sip._udp.ty.zmjp.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>jp.zoomcrc.com:</b>\n\n_h323cs._tcp.jp.zoomcrc.com\n_sip._tcp.jp.zoomcrc.com\n_sips._tcp.jp.zoomcrc.com\n_sip._udp.jp.zoomcrc.com\n\n<b>kix.zoomcrc.com:</b>\n\n_h323cs._tcp.kix.zoomcrc.com\n_sip._tcp.kix.zoomcrc.com\n_sips._tcp.kix.zoomcrc.com\n_sip._udp.kix.zoomcrc.com\n\n<b>nrt.zoomcrc.com:</b>\n\n_h323cs._tcp.nrt.zoomcrc.com\n_sip._tcp.nrt.zoomcrc.com\n_sips._tcp.nrt.zoomcrc.com\n_sip._udp.nrt.zoomcrc.com\n\n<b>Canada Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmca.us >> ca.zoomcrc.com\ntr.zmca.us >> yyz.zoomcrc.com\nvn.zmca.us >> yvr.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmca.us:</b>\n\n_h323cs._tcp.zmca.us\n_sip._tcp.zmca.us\n_sips._tcp.zmca.us\n_sip._udp.zmca.us\n\n<b>tr.zmca.us:</b>\n\n_h323cs._tcp.tr.zmca.us\n_sip._tcp.tr.zmca.us\n_sips._tcp.tr.zmca.us\n_sip._udp.tr.zmca.us\n\n<b>vn.zmca.us:</b>\n\n_h323cs._tcp.vn.zmca.us\n_sip._tcp.vn.zmca.us\n_sips._tcp.vn.zmca.us\n_sip._udp.vn.zmca.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>ca.zoomcrc.com:</b>\n\n_h323cs._tcp.ca.zoomcrc.com\n_sip._tcp.ca.zoomcrc.com\n_sips._tcp.ca.zoomcrc.com\n_sip._udp.ca.zoomcrc.com\n\n<b>yyz.zoomcrc.com:</b>\n\n_h323cs._tcp.yyz.zoomcrc.com\n_sip._tcp.yyz.zoomcrc.com\n_sips._tcp.yyz.zoomcrc.com\n_sip._udp.yyz.zoomcrc.com\n\n<b>yvr.zoomcrc.com:</b>\n\n_h323cs._tcp.yvr.zoomcrc.com\n_sip._tcp.yvr.zoomcrc.com\n_sips._tcp.yvr.zoomcrc.com\n_sip._udp.yvr.zoomcrc.com\n\n<b>EU Region</b>\nWe will update the data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nam.zmeu.us >> ams.zoomcrc.com\nfr.zmeu.us >> fra.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>am.zmeu.us:</b>\n\n_h323cs._tcp.am.zmeu.us\n_sip._tcp.am.zmeu.us\n_sips._tcp.am.zmeu.us\n_sip._udp.am.zmeu.us\n\n<b>fr.zmeu.us:</b>\n\n_h323cs._tcp.fr.zmeu.us\n_sip._tcp.fr.zmeu.us\n_sips._tcp.fr.zmeu.us\n_sip._udp.fr.zmeu.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>ams.zoomcrc.com:</b>\n\n_h323cs._tcp.ams.zoomcrc.com\n_sip._tcp.ams.zoomcrc.com\n_sips._tcp.ams.zoomcrc.com\n_sip._udp.ams.zoomcrc.com\n\n<b>fra.zoomcrc.com:</b>\n\n_h323cs._tcp.fra.zoomcrc.com\n_sip._tcp.fra.zoomcrc.com\n_sips._tcp.fra.zoomcrc.com\n_sip._udp.fra.zoomcrc.com\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmeu.us\n\n<b>A-Records:</b>\n\n<b>sip.zmeu.us</b>\n\nvip2.zmeu.us\nsip2.zmeu.us\nudp2.zmeu.us\nudp.zmeu.us\n\n<b>SRV-Records:</b>\n\n_h323cs._tcp.vip2.zmeu.us\n_sip._tcp.vip2.zmeu.us\n_sips._tcp.vip2.zmeu.us\n_sip._udp.vip2.zmeu.us\n\n<b>Australia Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmau.us >> au.zoomcrc.com\nme.zmau.us >> mel.zoomcrc.com\nsy.zmau.us >> syd.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmau.us:</b>\n\n_h323cs._tcp.zmau.us\n_sip._tcp.zmau.us\n_sips._tcp.zmau.us\n_sip._udp.zmau.us\n\n<b>me.zmau.us:</b>\n\n_h323cs._tcp.me.zmau.us\n_sip._tcp.me.zmau.us\n_sips._tcp.me.zmau.us\n_sip._udp.me.zmau.us\n\n<b>sy.zmau.us:</b>\n\n_h323cs._tcp.sy.zmau.us\n_sip._tcp.sy.zmau.us\n_sips._tcp.sy.zmau.us\n_sip._udp.sy.zmau.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>au.zoomcrc.com:</b>\n\n_h323cs._tcp.au.zoomcrc.com\n_sip._tcp.au.zoomcrc.com\n_sips._tcp.au.zoomcrc.com\n_sip._udp.au.zoomcrc.com\n\n<b>mel.zoomcrc.com:</b>\n\n_h323cs._tcp.mel.zoomcrc.com\n_sip._tcp.mel.zoomcrc.com\n_sips._tcp.mel.zoomcrc.com\n_sip._udp.mel.zoomcrc.com\n\n<b>syd.zoomcrc.com:</b>\n_h323cs._tcp.syd.zoomcrc.com\n_sip._tcp.syd.zoomcrc.com\n_sips._tcp.syd.zoomcrc.com\n_sip._udp.syd.zoomcrc.com\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmau.us\n\n<b>SRV-Records:</b>\n\n_h323cs._tcp.vip2.zmau.us\n_sip._tcp.vip2.zmau.us\n_sip._tcp.vip2.zmau.us\n_sip._udp.vip2.zmau.us\n_sips._udp.vip2.zmau.us\n\n<b>China Region</b>\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmcn.us\n\n<b>A-Records:</b>\n\nudp.zmcn.us\nudp2.zmcn.us\nvip2.zmcn.us\nsip2.zmcn.us\nsip.zmcn.us\n\n<b>SRV-Records:</b>\n\n_h323cs._tcp.vip2.zmcn.us\n_sip._tcp.vip2.zmcn.us\n_sips._tcp.vip2.zmcn.us\n_sip._udp.vip2.zmcn.us\n\n<b>Hong Kong Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmhk.us >> hkg.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmhk.us:</b>\n\n_h323cs._tcp.zmhk.us\n_sip._tcp.zmhk.us\n_sips._tcp.zmhk.us\n_sip._udp.zmhk.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>hkg.zoomcrc.com:</b>\n\n_h323cs._tcp.hkg.zoomcrc.com\n_sip._tcp.hkg.zoomcrc.com\n_sips._tcp.hkg.zoomcrc.com\n_sip._udp.hkg.zoomcrc.com\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmhk.us\n\n<b>A-Records:</b>\n\nvip2.zmhk.us\nudp2.zmhk.us\nsip2.zmhk.us\nudp.zmhk.us\nsip.zmhk.us\n\n<b>SRV-Records:</b>\n\n_sip._tcp.vip2.zmhk.us\n_sip._udp.vip2.zmhk.us\n_sips._tcp.vip2.zmhk.us\n_h323cs._tcp.vip2.zmhk.us\n\n<b>India Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmin.us >> in.zoomcrc.com\nhy.zmin.us >> hy2.zoomcrc.com\nmb.zmin.us >> mb2.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmin.us:</b>\n\n_h323cs._tcp.zmin.us\n_sip._tcp.zmin.us\n_sips._tcp.zmin.us\n_sip._udp.zmin.us\n\n<b>hy.zmin.us:</b>\n\n_h323cs._tcp.hy.zmin.us\n_sip._tcp.hy.zmin.us\n_sips._tcp.hy.zmin.us\n_sip._udp.hy.zmin.us\n\n<b>mb.zmin.us:</b>\n\n_h323cs._tcp.mb.zmin.us\n_sip._tcp.mb.zmin.us\n_sips._tcp.mb.zmin.us\n_sip._udp.mb.zmin.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>in.zoomcrc.com:</b>\n\n_h323cs._tcp.in.zoomcrc.com\n_sip._tcp.in.zoomcrc.com\n_sips._tcp.in.zoomcrc.com\n_sip._udp.in.zoomcrc.com\n\n<b>hy2.zoomcrc.com:</b>\n\n_h323cs._tcp.hy2.zoomcrc.com\n_sip._tcp.hy2.zoomcrc.com\n_sips._tcp.hy2.zoomcrc.com\n_sip._udp.hy2.zoomcrc.com\n\n<b>mb2.zoomcrc.com:</b>\n\n_h323cs._tcp.mb2.zoomcrc.com\n_sip._tcp.mb2.zoomcrc.com\n_sips._tcp.mb2.zoomcrc.com\n_sip._udp.mb2.zoomcrc.com\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmin.us\n\n<b>A-Records:</b>\n\nvip2.zmin.us\nudp2.zmin.us\nudp.zmin.us\nsip2.zmin.us\nsip.zmin.us\n\n<b>SRV-Records:</b>\n\n_sips._tcp.vip2.zmin.us\n_sip._udp.vip2.zmin.us\n_sip._tcp.vip2.zmin.us\n_h323cs._tcp.vip2.zmin.us",
-            "incident_id": "ld4htx4mtmc2",
-            "created_at": "2026-10-09T10:27:26.172-07:00",
-            "updated_at": "2026-10-23T01:43:44.367-07:00",
-            "display_at": "2026-10-09T10:27:26.172-07:00",
-            "affected_components": [
-              {
-                "code": "3ml2fn8g0psv",
-                "name": "Zoom Meetings - Zoom Conference Room Connector",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3ml2fn8g0psv",
-            "name": "Zoom Conference Room Connector",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-11-10T14:36:51.615-08:00",
-            "position": 14,
-            "description": "Access for H.323/SIP endpoints",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-13T19:30:00.000-08:00",
-        "scheduled_until": "2026-11-14T11:30:00.000-08:00"
-      },
-      {
-        "id": "ymm174sxzcsm",
-        "name": "Zoom Conference Room Connector DNS Changes in Saudi Arabia Region: November 13, 2026 (No Operational Impact)",
-        "status": "scheduled",
-        "created_at": "2026-10-16T11:15:46.364-07:00",
-        "updated_at": "2026-10-16T11:18:35.142-07:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/p0n0zr9sfdb6",
-        "started_at": "2026-10-16T11:15:46.353-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "hwqxvn9g1jh9",
-            "status": "scheduled",
-            "body": "As part of ongoing service enhancements for the Cloud Room Connector (CRC) service, Zoom will be updating DNS records for SIP/H.323  and IP endpoints in Saudi Arabia region  .\n\nEffective Date: November 14, 2026\n\nAction Required\n\nTo avoid service disruption, we recommend reviewing your CRC endpoint configurations as soon as possible, updating your DNS records and Destination ip with the new entries, and removing the older legacy records before November 14, 2026. \n\nIf you have any questions or issues, please contact Zoom Support.\n\nDNS Record Updates\n\nSaudi Arabia Region\n\nWe will update the data-center (DC) domains , along with their respective SRV-Records. An example of the change is as follows:\n\njed.zmvc.us >> sau.zoomcrc.com\n\nRecords to be replaced (A-Record and SRV-Record):\n\njed.zmvc.us:\n\n_h323cs._tcp.jed.zmvc.us\n\n_sip._tcp.jed.zmvc.us\n\n_sips._tcp.jed.zmvc.us\n\n_sip._udp.jed.zmvc.us\n\nNew records (A-Record and SRV-Record):\n\nsau.zoomcrc.com:\n\n_h323cs._tcp.sau.zoomcrc.com\n\n_sip._tcp.sau.zoomcrc.com\n\n_sips._tcp.sau.zoomcrc.com\n\n_sip._udp.sau.zoomcrc.com\n\n \n\n \n\nIP address to be updated Saudi Arabia Region\n\nWe will update the cloud room connector IP address for Jeddah .\n\n170.114.55.1 >> 159.124.226.235",
-            "incident_id": "ymm174sxzcsm",
-            "created_at": "2026-10-16T11:15:46.477-07:00",
-            "updated_at": "2026-10-16T11:18:35.138-07:00",
-            "display_at": "2026-10-16T11:15:46.477-07:00",
-            "affected_components": [
-              {
-                "code": "3ml2fn8g0psv",
-                "name": "Zoom Meetings - Zoom Conference Room Connector",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "3ml2fn8g0psv",
-            "name": "Zoom Conference Room Connector",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:04.212-08:00",
-            "updated_at": "2026-11-10T14:36:51.615-08:00",
-            "position": 14,
-            "description": "Access for H.323/SIP endpoints",
-            "showcase": false,
-            "start_date": null,
-            "group_id": "6np407v7v25g",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-13T19:30:00.000-08:00",
-        "scheduled_until": "2026-11-14T11:30:00.000-08:00"
-      },
-      {
-        "id": "mcqc5n0cw2dm",
-        "name": "Zoom Support Maintenance : November 13, 2026",
-        "status": "scheduled",
-        "created_at": "2026-11-09T20:37:56.345-08:00",
-        "updated_at": "2026-11-09T20:37:56.464-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/mbc08z5gm3gy",
-        "started_at": "2026-11-09T20:37:56.329-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "6j6tbw48hdy9",
-            "status": "scheduled",
-            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base. Users may experience degraded performance and up to 30 minutes of downtime for Zoom Support’s Knowledge Base and Ticketing during the maintenance window.",
-            "incident_id": "mcqc5n0cw2dm",
-            "created_at": "2026-11-09T20:37:56.460-08:00",
-            "updated_at": "2026-11-09T20:37:56.460-08:00",
-            "display_at": "2026-11-09T20:37:56.460-08:00",
-            "affected_components": [
-              {
-                "code": "yvbblg5f0rdt",
-                "name": "Zoom Support - Knowledge Base",
-                "old_status": "operational",
-                "new_status": "operational"
-              },
-              {
-                "code": "9mhsm7sbmhnr",
-                "name": "Zoom Support - Ticketing",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "yvbblg5f0rdt",
-            "name": "Knowledge Base",
-            "status": "operational",
-            "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-11-13T16:00:07.773-08:00",
-            "position": 2,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          },
-          {
-            "id": "9mhsm7sbmhnr",
-            "name": "Ticketing",
-            "status": "operational",
-            "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-11-13T16:00:07.956-08:00",
-            "position": 4,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "gvz9h6tj2fg7",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-13T22:00:00.000-08:00",
-        "scheduled_until": "2026-11-14T00:00:00.000-08:00"
-      },
       {
         "id": "fbp7l7hk2vtv",
         "name": "Zoom Phone Update: November 15, 2026 (No Operational Impact)",
@@ -7551,6 +6791,173 @@
         "scheduled_until": "2027-02-06T18:00:00.000-08:00"
       },
       {
+        "id": "ld4htx4mtmc2",
+        "name": "Zoom Conference Room Connector DNS Changes: November 14, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-10-09T10:27:26.042-07:00",
+        "updated_at": "2026-11-13T19:30:08.747-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/5kb0mvm451bs",
+        "started_at": "2026-10-09T10:27:26.172-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "jh8mqm0b6p10",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "ld4htx4mtmc2",
+            "created_at": "2026-11-13T19:30:08.739-08:00",
+            "updated_at": "2026-11-13T19:30:08.739-08:00",
+            "display_at": "2026-11-13T19:30:08.739-08:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "217xs3fjb8jn",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "ld4htx4mtmc2",
+            "created_at": "2026-11-13T18:30:12.282-08:00",
+            "updated_at": "2026-11-13T18:30:12.282-08:00",
+            "display_at": "2026-11-13T18:30:12.282-08:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "xj788hq3s2h9",
+            "status": "scheduled",
+            "body": "We will be undergoing scheduled maintenance during this time.",
+            "incident_id": "ld4htx4mtmc2",
+            "created_at": "2026-10-23T01:37:39.182-07:00",
+            "updated_at": "2026-10-23T01:37:39.182-07:00",
+            "display_at": "2026-10-23T01:37:39.182-07:00",
+            "affected_components": [
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "79wkk0sns8p9",
+            "status": "scheduled",
+            "body": "As part of ongoing service enhancements for the Cloud Room Connector (CRC) service, Zoom will be updating DNS records for SIP/H.323 endpoints in the Japan (Osaka and Tokyo), EU (France and Amsterdam), Australia (Melbourne and Sydney), Hong Kong, China, Canada (Toronto and Vancouver), and India (Mumbai and Hyderabad) regions.\n\nIn addition to the DNS record update, we will be decommissioning legacy DNS records in other regions that are no longer in use.\n\n<b>Effective Date</b>: November 14, 2026\n\n<b>Action Required</b>\nTo avoid service disruption, we recommend reviewing your CRC endpoint configurations as soon as possible, updating your DNS records with the new entries, and removing the older legacy records before November 14, 2026. \n\nIf you have any questions or issues, please contact Zoom Support.\n\n<b>DNS Record Updates</b>\n\n<b>Japan Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmjp.us >> jp.zoomcrc.com\nos.zmjp.us >> kix.zoomcrc.com\nty.zmjp.us >> nrt.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmjp.us:</b>\n\n_h323cs._tcp.zmjp.us\n_sip._tcp.zmjp.us\n_sips._tcp.zmjp.us\n_sip._udp.zmjp.us\n\n<b>os.zmjp.us:</b>\n\n_h323cs._tcp.os.zmjp.us\n_sip._tcp.os.zmjp.us\n_sips._tcp.os.zmjp.us\n_sip._udp.os.zmjp.us\n\n<b>ty.zmjp.us:</b>\n\n_h323cs._tcp.ty.zmjp.us\n_sip._tcp.ty.zmjp.us\n_sips._tcp.ty.zmjp.us\n_sip._udp.ty.zmjp.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>jp.zoomcrc.com:</b>\n\n_h323cs._tcp.jp.zoomcrc.com\n_sip._tcp.jp.zoomcrc.com\n_sips._tcp.jp.zoomcrc.com\n_sip._udp.jp.zoomcrc.com\n\n<b>kix.zoomcrc.com:</b>\n\n_h323cs._tcp.kix.zoomcrc.com\n_sip._tcp.kix.zoomcrc.com\n_sips._tcp.kix.zoomcrc.com\n_sip._udp.kix.zoomcrc.com\n\n<b>nrt.zoomcrc.com:</b>\n\n_h323cs._tcp.nrt.zoomcrc.com\n_sip._tcp.nrt.zoomcrc.com\n_sips._tcp.nrt.zoomcrc.com\n_sip._udp.nrt.zoomcrc.com\n\n<b>Canada Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmca.us >> ca.zoomcrc.com\ntr.zmca.us >> yyz.zoomcrc.com\nvn.zmca.us >> yvr.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmca.us:</b>\n\n_h323cs._tcp.zmca.us\n_sip._tcp.zmca.us\n_sips._tcp.zmca.us\n_sip._udp.zmca.us\n\n<b>tr.zmca.us:</b>\n\n_h323cs._tcp.tr.zmca.us\n_sip._tcp.tr.zmca.us\n_sips._tcp.tr.zmca.us\n_sip._udp.tr.zmca.us\n\n<b>vn.zmca.us:</b>\n\n_h323cs._tcp.vn.zmca.us\n_sip._tcp.vn.zmca.us\n_sips._tcp.vn.zmca.us\n_sip._udp.vn.zmca.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>ca.zoomcrc.com:</b>\n\n_h323cs._tcp.ca.zoomcrc.com\n_sip._tcp.ca.zoomcrc.com\n_sips._tcp.ca.zoomcrc.com\n_sip._udp.ca.zoomcrc.com\n\n<b>yyz.zoomcrc.com:</b>\n\n_h323cs._tcp.yyz.zoomcrc.com\n_sip._tcp.yyz.zoomcrc.com\n_sips._tcp.yyz.zoomcrc.com\n_sip._udp.yyz.zoomcrc.com\n\n<b>yvr.zoomcrc.com:</b>\n\n_h323cs._tcp.yvr.zoomcrc.com\n_sip._tcp.yvr.zoomcrc.com\n_sips._tcp.yvr.zoomcrc.com\n_sip._udp.yvr.zoomcrc.com\n\n<b>EU Region</b>\nWe will update the data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nam.zmeu.us >> ams.zoomcrc.com\nfr.zmeu.us >> fra.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>am.zmeu.us:</b>\n\n_h323cs._tcp.am.zmeu.us\n_sip._tcp.am.zmeu.us\n_sips._tcp.am.zmeu.us\n_sip._udp.am.zmeu.us\n\n<b>fr.zmeu.us:</b>\n\n_h323cs._tcp.fr.zmeu.us\n_sip._tcp.fr.zmeu.us\n_sips._tcp.fr.zmeu.us\n_sip._udp.fr.zmeu.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>ams.zoomcrc.com:</b>\n\n_h323cs._tcp.ams.zoomcrc.com\n_sip._tcp.ams.zoomcrc.com\n_sips._tcp.ams.zoomcrc.com\n_sip._udp.ams.zoomcrc.com\n\n<b>fra.zoomcrc.com:</b>\n\n_h323cs._tcp.fra.zoomcrc.com\n_sip._tcp.fra.zoomcrc.com\n_sips._tcp.fra.zoomcrc.com\n_sip._udp.fra.zoomcrc.com\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmeu.us\n\n<b>A-Records:</b>\n\n<b>sip.zmeu.us</b>\n\nvip2.zmeu.us\nsip2.zmeu.us\nudp2.zmeu.us\nudp.zmeu.us\n\n<b>SRV-Records:</b>\n\n_h323cs._tcp.vip2.zmeu.us\n_sip._tcp.vip2.zmeu.us\n_sips._tcp.vip2.zmeu.us\n_sip._udp.vip2.zmeu.us\n\n<b>Australia Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmau.us >> au.zoomcrc.com\nme.zmau.us >> mel.zoomcrc.com\nsy.zmau.us >> syd.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmau.us:</b>\n\n_h323cs._tcp.zmau.us\n_sip._tcp.zmau.us\n_sips._tcp.zmau.us\n_sip._udp.zmau.us\n\n<b>me.zmau.us:</b>\n\n_h323cs._tcp.me.zmau.us\n_sip._tcp.me.zmau.us\n_sips._tcp.me.zmau.us\n_sip._udp.me.zmau.us\n\n<b>sy.zmau.us:</b>\n\n_h323cs._tcp.sy.zmau.us\n_sip._tcp.sy.zmau.us\n_sips._tcp.sy.zmau.us\n_sip._udp.sy.zmau.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>au.zoomcrc.com:</b>\n\n_h323cs._tcp.au.zoomcrc.com\n_sip._tcp.au.zoomcrc.com\n_sips._tcp.au.zoomcrc.com\n_sip._udp.au.zoomcrc.com\n\n<b>mel.zoomcrc.com:</b>\n\n_h323cs._tcp.mel.zoomcrc.com\n_sip._tcp.mel.zoomcrc.com\n_sips._tcp.mel.zoomcrc.com\n_sip._udp.mel.zoomcrc.com\n\n<b>syd.zoomcrc.com:</b>\n_h323cs._tcp.syd.zoomcrc.com\n_sip._tcp.syd.zoomcrc.com\n_sips._tcp.syd.zoomcrc.com\n_sip._udp.syd.zoomcrc.com\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmau.us\n\n<b>SRV-Records:</b>\n\n_h323cs._tcp.vip2.zmau.us\n_sip._tcp.vip2.zmau.us\n_sip._tcp.vip2.zmau.us\n_sip._udp.vip2.zmau.us\n_sips._udp.vip2.zmau.us\n\n<b>China Region</b>\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmcn.us\n\n<b>A-Records:</b>\n\nudp.zmcn.us\nudp2.zmcn.us\nvip2.zmcn.us\nsip2.zmcn.us\nsip.zmcn.us\n\n<b>SRV-Records:</b>\n\n_h323cs._tcp.vip2.zmcn.us\n_sip._tcp.vip2.zmcn.us\n_sips._tcp.vip2.zmcn.us\n_sip._udp.vip2.zmcn.us\n\n<b>Hong Kong Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmhk.us >> hkg.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmhk.us:</b>\n\n_h323cs._tcp.zmhk.us\n_sip._tcp.zmhk.us\n_sips._tcp.zmhk.us\n_sip._udp.zmhk.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>hkg.zoomcrc.com:</b>\n\n_h323cs._tcp.hkg.zoomcrc.com\n_sip._tcp.hkg.zoomcrc.com\n_sips._tcp.hkg.zoomcrc.com\n_sip._udp.hkg.zoomcrc.com\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmhk.us\n\n<b>A-Records:</b>\n\nvip2.zmhk.us\nudp2.zmhk.us\nsip2.zmhk.us\nudp.zmhk.us\nsip.zmhk.us\n\n<b>SRV-Records:</b>\n\n_sip._tcp.vip2.zmhk.us\n_sip._udp.vip2.zmhk.us\n_sips._tcp.vip2.zmhk.us\n_h323cs._tcp.vip2.zmhk.us\n\n<b>India Region</b>\nWe will update the country-level domain and data-center (DC) domains, along with their respective SRV-Records. An example of the change is as follows:\n\nzmin.us >> in.zoomcrc.com\nhy.zmin.us >> hy2.zoomcrc.com\nmb.zmin.us >> mb2.zoomcrc.com\n\n<b>Records to be replaced (A-Record and SRV-Record):</b>\n<b>zmin.us:</b>\n\n_h323cs._tcp.zmin.us\n_sip._tcp.zmin.us\n_sips._tcp.zmin.us\n_sip._udp.zmin.us\n\n<b>hy.zmin.us:</b>\n\n_h323cs._tcp.hy.zmin.us\n_sip._tcp.hy.zmin.us\n_sips._tcp.hy.zmin.us\n_sip._udp.hy.zmin.us\n\n<b>mb.zmin.us:</b>\n\n_h323cs._tcp.mb.zmin.us\n_sip._tcp.mb.zmin.us\n_sips._tcp.mb.zmin.us\n_sip._udp.mb.zmin.us\n\n<b>New records (A-Record and SRV-Record):</b>\n<b>in.zoomcrc.com:</b>\n\n_h323cs._tcp.in.zoomcrc.com\n_sip._tcp.in.zoomcrc.com\n_sips._tcp.in.zoomcrc.com\n_sip._udp.in.zoomcrc.com\n\n<b>hy2.zoomcrc.com:</b>\n\n_h323cs._tcp.hy2.zoomcrc.com\n_sip._tcp.hy2.zoomcrc.com\n_sips._tcp.hy2.zoomcrc.com\n_sip._udp.hy2.zoomcrc.com\n\n<b>mb2.zoomcrc.com:</b>\n\n_h323cs._tcp.mb2.zoomcrc.com\n_sip._tcp.mb2.zoomcrc.com\n_sips._tcp.mb2.zoomcrc.com\n_sip._udp.mb2.zoomcrc.com\n\n<b>Decommisioned Legacy Records</b>\n<b>Hosted Zone:</b> zmin.us\n\n<b>A-Records:</b>\n\nvip2.zmin.us\nudp2.zmin.us\nudp.zmin.us\nsip2.zmin.us\nsip.zmin.us\n\n<b>SRV-Records:</b>\n\n_sips._tcp.vip2.zmin.us\n_sip._udp.vip2.zmin.us\n_sip._tcp.vip2.zmin.us\n_h323cs._tcp.vip2.zmin.us",
+            "incident_id": "ld4htx4mtmc2",
+            "created_at": "2026-10-09T10:27:26.172-07:00",
+            "updated_at": "2026-10-23T01:43:44.367-07:00",
+            "display_at": "2026-10-09T10:27:26.172-07:00",
+            "affected_components": [
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-11-10T14:36:51.615-08:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-13T19:30:00.000-08:00",
+        "scheduled_until": "2026-11-14T11:30:00.000-08:00"
+      },
+      {
+        "id": "ymm174sxzcsm",
+        "name": "Zoom Conference Room Connector DNS Changes in Saudi Arabia Region: November 13, 2026 (No Operational Impact)",
+        "status": "in_progress",
+        "created_at": "2026-10-16T11:15:46.364-07:00",
+        "updated_at": "2026-11-13T19:30:08.131-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/p0n0zr9sfdb6",
+        "started_at": "2026-10-16T11:15:46.353-07:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "wjjpf61z6x9v",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "ymm174sxzcsm",
+            "created_at": "2026-11-13T19:30:08.127-08:00",
+            "updated_at": "2026-11-13T19:30:08.127-08:00",
+            "display_at": "2026-11-13T19:30:08.127-08:00",
+            "affected_components": null,
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "hwqxvn9g1jh9",
+            "status": "scheduled",
+            "body": "As part of ongoing service enhancements for the Cloud Room Connector (CRC) service, Zoom will be updating DNS records for SIP/H.323  and IP endpoints in Saudi Arabia region  .\n\nEffective Date: November 14, 2026\n\nAction Required\n\nTo avoid service disruption, we recommend reviewing your CRC endpoint configurations as soon as possible, updating your DNS records and Destination ip with the new entries, and removing the older legacy records before November 14, 2026. \n\nIf you have any questions or issues, please contact Zoom Support.\n\nDNS Record Updates\n\nSaudi Arabia Region\n\nWe will update the data-center (DC) domains , along with their respective SRV-Records. An example of the change is as follows:\n\njed.zmvc.us >> sau.zoomcrc.com\n\nRecords to be replaced (A-Record and SRV-Record):\n\njed.zmvc.us:\n\n_h323cs._tcp.jed.zmvc.us\n\n_sip._tcp.jed.zmvc.us\n\n_sips._tcp.jed.zmvc.us\n\n_sip._udp.jed.zmvc.us\n\nNew records (A-Record and SRV-Record):\n\nsau.zoomcrc.com:\n\n_h323cs._tcp.sau.zoomcrc.com\n\n_sip._tcp.sau.zoomcrc.com\n\n_sips._tcp.sau.zoomcrc.com\n\n_sip._udp.sau.zoomcrc.com\n\n \n\n \n\nIP address to be updated Saudi Arabia Region\n\nWe will update the cloud room connector IP address for Jeddah .\n\n170.114.55.1 >> 159.124.226.235",
+            "incident_id": "ymm174sxzcsm",
+            "created_at": "2026-10-16T11:15:46.477-07:00",
+            "updated_at": "2026-10-16T11:18:35.138-07:00",
+            "display_at": "2026-10-16T11:15:46.477-07:00",
+            "affected_components": [
+              {
+                "code": "3ml2fn8g0psv",
+                "name": "Zoom Meetings - Zoom Conference Room Connector",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "3ml2fn8g0psv",
+            "name": "Zoom Conference Room Connector",
+            "status": "operational",
+            "created_at": "2015-01-26T15:08:04.212-08:00",
+            "updated_at": "2026-11-10T14:36:51.615-08:00",
+            "position": 14,
+            "description": "Access for H.323/SIP endpoints",
+            "showcase": false,
+            "start_date": null,
+            "group_id": "6np407v7v25g",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-13T19:30:00.000-08:00",
+        "scheduled_until": "2026-11-14T11:30:00.000-08:00"
+      },
+      {
         "id": "l8n4b82zvbl9",
         "name": "Zoom Contact Center Update: November 14, 2026 (No Operational Impact)",
         "status": "in_progress",
@@ -7909,9 +7316,9 @@
       }
     ],
     "status": {
-      "indicator": "minor",
-      "description": "Partially Degraded Service"
+      "indicator": "none",
+      "description": "All Systems Operational"
     },
-    "updated": "2026-11-14T02:30:30Z"
+    "updated": "2026-11-14T09:24:16Z"
   }
 }
