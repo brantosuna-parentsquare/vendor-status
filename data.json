@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-16T23:51:47Z"
+    "updated": "2026-11-17T07:38:07Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-11-16T23:51:47Z"
+    "updated": "2026-11-17T07:38:07Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-16T18:14:22.386-05:00"
+      "updated_at": "2026-11-17T02:04:30.435-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-16T23:51:45Z"
+    "updated": "2026-11-17T07:38:06Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-16T23:14:27.172Z"
+      "updated_at": "2026-11-17T07:04:37.162Z"
     },
     "components": [
       {
@@ -853,7 +853,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-16T23:51:45Z"
+    "updated": "2026-11-17T07:38:06Z"
   },
   "zoom": {
     "page": {
@@ -861,7 +861,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-16T15:14:26.577-08:00"
+      "updated_at": "2026-11-16T23:33:40.283-08:00"
     },
     "components": [
       {
@@ -1422,9 +1422,9 @@
       {
         "id": "jsk0584rpghr",
         "name": "Calling (Inbound/Outbound)",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:46:24.019-07:00",
-        "updated_at": "2026-09-24T06:14:35.616-07:00",
+        "updated_at": "2026-11-16T23:33:40.174-08:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -3930,7 +3930,7 @@
         "name": "SMS/MMS (Inbound/Outbound)",
         "status": "operational",
         "created_at": "2024-05-24T18:35:00.980-07:00",
-        "updated_at": "2026-11-08T16:56:17.984-08:00",
+        "updated_at": "2026-11-16T18:21:46.928-08:00",
         "position": 8,
         "description": null,
         "showcase": false,
@@ -4851,7 +4851,7 @@
         "name": "SMS (Inbound/Outbound)",
         "status": "operational",
         "created_at": "2026-01-13T21:50:52.516-08:00",
-        "updated_at": "2026-11-08T16:56:18.013-08:00",
+        "updated_at": "2026-11-16T18:21:46.957-08:00",
         "position": 12,
         "description": null,
         "showcase": false,
@@ -5419,7 +5419,7 @@
       {
         "id": "k4ymzkwr5c5f",
         "name": "Zoom Phone - APAC",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2022-05-03T10:45:58.944-07:00",
         "updated_at": "2024-08-14T13:40:38.999-07:00",
         "position": 19,
@@ -6151,9 +6151,9 @@
       {
         "id": "2twszjk8b2jy",
         "name": "Zoom Hub",
-        "status": "operational",
+        "status": "degraded_performance",
         "created_at": "2026-02-26T09:22:48.103-08:00",
-        "updated_at": "2026-08-22T02:21:57.837-07:00",
+        "updated_at": "2026-11-16T23:08:43.398-08:00",
         "position": 46,
         "description": null,
         "showcase": false,
@@ -6302,7 +6302,134 @@
         "only_show_if_degraded": false
       }
     ],
-    "incidents": [],
+    "incidents": [
+      {
+        "id": "t0wkzg9j0b08",
+        "name": "Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India",
+        "status": "investigating",
+        "created_at": "2026-11-16T23:33:40.121-08:00",
+        "updated_at": "2026-11-16T23:33:40.279-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/3hk2mmfjxlp7",
+        "started_at": "2026-11-16T23:33:40.111-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "lxfbljp1md58",
+            "status": "investigating",
+            "body": "We are currently investigating a service degradation affecting Zoom Phone Inbound calls for subset of Jio subscribers in India.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "t0wkzg9j0b08",
+            "created_at": "2026-11-16T23:33:40.276-08:00",
+            "updated_at": "2026-11-16T23:33:40.276-08:00",
+            "display_at": "2026-11-16T23:33:40.276-08:00",
+            "affected_components": [
+              {
+                "code": "jsk0584rpghr",
+                "name": "Zoom Phone - APAC - Calling (Inbound/Outbound)",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "jsk0584rpghr",
+            "name": "Calling (Inbound/Outbound)",
+            "status": "degraded_performance",
+            "created_at": "2022-05-03T10:46:24.019-07:00",
+            "updated_at": "2026-11-16T23:33:40.174-08:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "k4ymzkwr5c5f",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      },
+      {
+        "id": "w32cwc1kp2h9",
+        "name": "Service Degradation Affecting My Files Functionality in Zoom Hub in US Region",
+        "status": "identified",
+        "created_at": "2026-11-16T23:08:43.247-08:00",
+        "updated_at": "2026-11-16T23:24:58.649-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "minor",
+        "shortlink": "https://stspg.io/75bkr1786wml",
+        "started_at": "2026-11-16T23:08:43.238-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "md643s58tys1",
+            "status": "identified",
+            "body": "We have successfully identified the root cause affecting My Files functionality in Zoom Hub.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+            "incident_id": "w32cwc1kp2h9",
+            "created_at": "2026-11-16T23:24:58.645-08:00",
+            "updated_at": "2026-11-16T23:24:58.645-08:00",
+            "display_at": "2026-11-16T23:24:58.645-08:00",
+            "affected_components": [
+              {
+                "code": "2twszjk8b2jy",
+                "name": "Zoom Hub",
+                "old_status": "degraded_performance",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "mx1sr8pym2dh",
+            "status": "investigating",
+            "body": "We are currently investigating an intermittent issue in the US region, where users are experiencing permission related errors when attempting to access my files in Zoom Hub.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+            "incident_id": "w32cwc1kp2h9",
+            "created_at": "2026-11-16T23:08:43.476-08:00",
+            "updated_at": "2026-11-16T23:08:43.476-08:00",
+            "display_at": "2026-11-16T23:08:43.476-08:00",
+            "affected_components": [
+              {
+                "code": "2twszjk8b2jy",
+                "name": "Zoom Hub",
+                "old_status": "operational",
+                "new_status": "degraded_performance"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "2twszjk8b2jy",
+            "name": "Zoom Hub",
+            "status": "degraded_performance",
+            "created_at": "2026-02-26T09:22:48.103-08:00",
+            "updated_at": "2026-11-16T23:08:43.398-08:00",
+            "position": 46,
+            "description": null,
+            "showcase": false,
+            "start_date": "2026-02-26",
+            "group_id": null,
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "reminder_intervals": null
+      }
+    ],
     "scheduled_maintenances": [
       {
         "id": "59cn8pc21nsy",
@@ -6771,9 +6898,9 @@
       }
     ],
     "status": {
-      "indicator": "maintenance",
-      "description": "Service Under Maintenance"
+      "indicator": "minor",
+      "description": "Partially Degraded Service"
     },
-    "updated": "2026-11-16T23:51:45Z"
+    "updated": "2026-11-17T07:38:06Z"
   }
 }
