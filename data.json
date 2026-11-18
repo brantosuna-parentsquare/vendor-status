@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-17T23:49:58Z"
+    "updated": "2026-11-18T05:27:52Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-11-17T23:49:58Z"
+    "updated": "2026-11-18T05:27:52Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-17T16:07:31.037-05:00"
+      "updated_at": "2026-11-18T00:08:00.917-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-17T23:49:56Z"
+    "updated": "2026-11-18T05:27:51Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-17T21:07:36.756Z"
+      "updated_at": "2026-11-18T05:08:24.935Z"
     },
     "components": [
       {
@@ -853,7 +853,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-17T23:49:56Z"
+    "updated": "2026-11-18T05:27:51Z"
   },
   "zoom": {
     "page": {
@@ -861,7 +861,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-17T15:22:18.675-08:00"
+      "updated_at": "2026-11-17T21:08:21.886-08:00"
     },
     "components": [
       {
@@ -6575,6 +6575,81 @@
         "scheduled_until": "2026-12-05T10:00:00.000-08:00"
       },
       {
+        "id": "ywdylq9cmymt",
+        "name": "Zoom Support Maintenance: December 11, 2026",
+        "status": "scheduled",
+        "created_at": "2026-11-17T17:05:23.311-08:00",
+        "updated_at": "2026-11-17T17:05:23.417-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/gz5x8m5jmj9d",
+        "started_at": "2026-11-17T17:05:23.206-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "djsn68tcjkql",
+            "status": "scheduled",
+            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base.  Users may experience degraded performance and up to 30 minutes of downtime for Zoom Support’s Knowledge Base and Ticketing during the maintenance window.",
+            "incident_id": "ywdylq9cmymt",
+            "created_at": "2026-11-17T17:05:23.415-08:00",
+            "updated_at": "2026-11-17T17:05:23.415-08:00",
+            "display_at": "2026-11-17T17:05:23.415-08:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yvbblg5f0rdt",
+            "name": "Knowledge Base",
+            "status": "operational",
+            "created_at": "2022-05-03T11:26:39.112-07:00",
+            "updated_at": "2026-11-14T00:00:07.799-08:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "9mhsm7sbmhnr",
+            "name": "Ticketing",
+            "status": "operational",
+            "created_at": "2022-05-03T11:27:52.285-07:00",
+            "updated_at": "2026-11-14T00:00:08.293-08:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-12-11T16:00:00.000-08:00",
+        "scheduled_until": "2026-12-11T20:30:00.000-08:00"
+      },
+      {
         "id": "l5qcg1bm3z2z",
         "name": "Scheduled Zoom Software Quarterly Lifecycle Update: February 06, 2027",
         "status": "scheduled",
@@ -6774,6 +6849,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-11-17T23:49:56Z"
+    "updated": "2026-11-18T05:27:51Z"
   }
 }
