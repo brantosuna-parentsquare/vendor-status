@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-20T09:55:13Z"
+    "updated": "2026-11-20T18:27:52Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-11-20T09:55:13Z"
+    "updated": "2026-11-20T18:27:52Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-20T03:54:02.061-05:00"
+      "updated_at": "2026-11-20T09:24:10.432-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-20T09:55:12Z"
+    "updated": "2026-11-20T18:27:51Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-20T08:54:07.012Z"
+      "updated_at": "2026-11-20T18:03:27.300Z"
     },
     "components": [
       {
@@ -853,7 +853,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-20T09:55:12Z"
+    "updated": "2026-11-20T18:27:51Z"
   },
   "zoom": {
     "page": {
@@ -861,7 +861,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-20T01:01:11.645-08:00"
+      "updated_at": "2026-11-20T10:03:26.867-08:00"
     },
     "components": [
       {
@@ -1002,9 +1002,9 @@
       {
         "id": "glcgf4v63241",
         "name": "Zoom Phone",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:45:58.970-07:00",
-        "updated_at": "2026-10-09T21:30:09.059-07:00",
+        "updated_at": "2026-11-20T04:00:07.321-08:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -1064,7 +1064,7 @@
         "name": "Zoom Phone",
         "status": "operational",
         "created_at": "2022-05-03T10:54:38.233-07:00",
-        "updated_at": "2025-12-16T17:56:26.522-08:00",
+        "updated_at": "2026-11-20T10:00:07.474-08:00",
         "position": 1,
         "description": null,
         "showcase": false,
@@ -5419,7 +5419,7 @@
       {
         "id": "k4ymzkwr5c5f",
         "name": "Zoom Phone - APAC",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T10:45:58.944-07:00",
         "updated_at": "2024-08-14T13:40:38.999-07:00",
         "position": 19,
@@ -6305,127 +6305,6 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "59cn8pc21nsy",
-        "name": "Zoom Phone Maintenance (Sydney Data Center): November 20, 2026",
-        "status": "scheduled",
-        "created_at": "2026-10-29T08:07:22.958-07:00",
-        "updated_at": "2026-11-20T01:01:11.636-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/zfx0qnmsrnv3",
-        "started_at": "2026-10-29T08:07:22.947-07:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "nb281hbzqmk3",
-            "status": "scheduled",
-            "body": "Maintenance will begin as scheduled in 60 minutes.",
-            "incident_id": "59cn8pc21nsy",
-            "created_at": "2026-11-20T01:01:11.380-08:00",
-            "updated_at": "2026-11-20T01:01:11.380-08:00",
-            "display_at": "2026-11-20T01:01:11.380-08:00",
-            "affected_components": null,
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          },
-          {
-            "id": "99wx0t94jynz",
-            "status": "scheduled",
-            "body": "Zoom will perform service maintenance at our SYD1 Data Center starting at 2:00 AM Pacific (or 9:00 PM Sydney) on November 20, 2026. Zoom Phone users registered to those sip zones will be automatically registered in the MEL1 sip zone sequentially.\n\nDuring the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically.",
-            "incident_id": "59cn8pc21nsy",
-            "created_at": "2026-10-29T08:07:23.176-07:00",
-            "updated_at": "2026-10-29T08:07:23.176-07:00",
-            "display_at": "2026-10-29T08:07:23.176-07:00",
-            "affected_components": [
-              {
-                "code": "cwqgbrdl34rr",
-                "name": "Zoom Phone - AUSTRALIA - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "cwqgbrdl34rr",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:54:38.233-07:00",
-            "updated_at": "2025-12-16T17:56:26.522-08:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "k615kpnl7cb8",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-20T02:00:00.000-08:00",
-        "scheduled_until": "2026-11-20T10:00:00.000-08:00"
-      },
-      {
-        "id": "w05z6850q9l1",
-        "name": "Zoom Phone India Maintenance (Hyderabad Data Center): November 20, 2026",
-        "status": "scheduled",
-        "created_at": "2026-11-01T21:23:35.739-08:00",
-        "updated_at": "2026-11-01T21:23:35.838-08:00",
-        "monitoring_at": null,
-        "resolved_at": null,
-        "impact": "maintenance",
-        "shortlink": "https://stspg.io/1yqvsf7kfbpw",
-        "started_at": "2026-11-01T21:23:35.729-08:00",
-        "page_id": "14qjgk812kgk",
-        "incident_updates": [
-          {
-            "id": "y6q8cc61fj13",
-            "status": "scheduled",
-            "body": "Zoom Phone users registered to the India (Hyderabad) Data Center will be automatically registered in an alternative Data Center (Mumbai) starting at 20th November 2026 04:00 AM PST (5:30 PM IST on 20th November 2026). During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically. \n\nIf you are a BYOC (Bring Your Own Carrier) customer, please ensure that your Session Border Controller (SBC) is configured with alternate routing to alternate India (Mumbai) Data Center in addition to the India (Hyderabad) Data Center. During the maintenance window, connectivity to Zoom’s Hyderabad Data Center will be blocked which will force calls from the Session Border Controller (SBC) to failover to Zoom’s India (Mumbai) Data Center. Traffic will continue to be routed through the Zoom's India (Hyderabad) Data Center once the maintenance is completed. \n\nFor customers that use hardware phones, refer to this link for the devices support the alternative datacenter process as described above: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061373#h_01GNZ783VT6YXHES8NSXBA5M9A",
-            "incident_id": "w05z6850q9l1",
-            "created_at": "2026-11-01T21:23:35.836-08:00",
-            "updated_at": "2026-11-01T21:23:35.836-08:00",
-            "display_at": "2026-11-01T21:23:35.836-08:00",
-            "affected_components": [
-              {
-                "code": "glcgf4v63241",
-                "name": "Zoom Phone - APAC - Zoom Phone",
-                "old_status": "operational",
-                "new_status": "operational"
-              }
-            ],
-            "deliver_notifications": true,
-            "custom_tweet": null,
-            "tweet_id": null
-          }
-        ],
-        "components": [
-          {
-            "id": "glcgf4v63241",
-            "name": "Zoom Phone",
-            "status": "operational",
-            "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-10-09T21:30:09.059-07:00",
-            "position": 1,
-            "description": null,
-            "showcase": false,
-            "start_date": "2022-05-03",
-            "group_id": "k4ymzkwr5c5f",
-            "page_id": "14qjgk812kgk",
-            "group": false,
-            "only_show_if_degraded": false
-          }
-        ],
-        "scheduled_for": "2026-11-20T04:00:00.000-08:00",
-        "scheduled_until": "2026-11-21T10:00:00.000-08:00"
-      },
-      {
         "id": "83pk65b0692c",
         "name": "Scheduled Maintenance – Contact Center Services: November 20, 2026",
         "status": "scheduled",
@@ -6700,9 +6579,9 @@
           {
             "id": "glcgf4v63241",
             "name": "Zoom Phone",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T10:45:58.970-07:00",
-            "updated_at": "2026-10-09T21:30:09.059-07:00",
+            "updated_at": "2026-11-20T04:00:07.321-08:00",
             "position": 1,
             "description": null,
             "showcase": false,
@@ -6846,43 +6725,50 @@
         "scheduled_until": "2027-02-06T18:00:00.000-08:00"
       },
       {
-        "id": "fws7gsrrqsdf",
-        "name": "Zoom Team Chat Update",
+        "id": "w05z6850q9l1",
+        "name": "Zoom Phone India Maintenance (Hyderabad Data Center): November 20, 2026",
         "status": "in_progress",
-        "created_at": "2026-11-05T07:01:42.454-08:00",
-        "updated_at": "2026-11-05T08:00:12.368-08:00",
+        "created_at": "2026-11-01T21:23:35.739-08:00",
+        "updated_at": "2026-11-20T04:00:07.447-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
-        "shortlink": "https://stspg.io/810scg1gfh9t",
-        "started_at": "2026-11-05T07:01:42.445-08:00",
+        "shortlink": "https://stspg.io/1yqvsf7kfbpw",
+        "started_at": "2026-11-01T21:23:35.729-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "46wy2ldg1rk6",
+            "id": "jsm63by1xrw3",
             "status": "in_progress",
             "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-            "incident_id": "fws7gsrrqsdf",
-            "created_at": "2026-11-05T08:00:12.317-08:00",
-            "updated_at": "2026-11-05T08:00:12.317-08:00",
-            "display_at": "2026-11-05T08:00:12.317-08:00",
-            "affected_components": null,
+            "incident_id": "w05z6850q9l1",
+            "created_at": "2026-11-20T04:00:07.442-08:00",
+            "updated_at": "2026-11-20T04:00:07.442-08:00",
+            "display_at": "2026-11-20T04:00:07.442-08:00",
+            "affected_components": [
+              {
+                "code": "glcgf4v63241",
+                "name": "Zoom Phone - APAC - Zoom Phone",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
             "deliver_notifications": false,
             "custom_tweet": null,
             "tweet_id": null
           },
           {
-            "id": "wwg9y1nr6k3c",
+            "id": "y6q8cc61fj13",
             "status": "scheduled",
-            "body": "We will be providing an update to Zoom Team Chat. There will be no operational impact. All services will be available during this scheduled update (ZR status might be displayed as offline in the service logs but no operational impact).",
-            "incident_id": "fws7gsrrqsdf",
-            "created_at": "2026-11-05T07:01:42.559-08:00",
-            "updated_at": "2026-11-05T07:01:42.559-08:00",
-            "display_at": "2026-11-05T07:01:42.559-08:00",
+            "body": "Zoom Phone users registered to the India (Hyderabad) Data Center will be automatically registered in an alternative Data Center (Mumbai) starting at 20th November 2026 04:00 AM PST (5:30 PM IST on 20th November 2026). During the maintenance window, a brief disconnection may be experienced and notifications may be missed. If you get disconnected, the system will attempt to reconnect you automatically. \n\nIf you are a BYOC (Bring Your Own Carrier) customer, please ensure that your Session Border Controller (SBC) is configured with alternate routing to alternate India (Mumbai) Data Center in addition to the India (Hyderabad) Data Center. During the maintenance window, connectivity to Zoom’s Hyderabad Data Center will be blocked which will force calls from the Session Border Controller (SBC) to failover to Zoom’s India (Mumbai) Data Center. Traffic will continue to be routed through the Zoom's India (Hyderabad) Data Center once the maintenance is completed. \n\nFor customers that use hardware phones, refer to this link for the devices support the alternative datacenter process as described above: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061373#h_01GNZ783VT6YXHES8NSXBA5M9A",
+            "incident_id": "w05z6850q9l1",
+            "created_at": "2026-11-01T21:23:35.836-08:00",
+            "updated_at": "2026-11-01T21:23:35.836-08:00",
+            "display_at": "2026-11-01T21:23:35.836-08:00",
             "affected_components": [
               {
-                "code": "t2jk6yrqbp4j",
-                "name": "Zoom Chat - Zoom Chat",
+                "code": "glcgf4v63241",
+                "name": "Zoom Phone - APAC - Zoom Phone",
                 "old_status": "operational",
                 "new_status": "operational"
               }
@@ -6894,29 +6780,29 @@
         ],
         "components": [
           {
-            "id": "t2jk6yrqbp4j",
-            "name": "Zoom Chat",
-            "status": "operational",
-            "created_at": "2015-01-26T15:08:19.770-08:00",
-            "updated_at": "2026-10-23T09:24:27.620-07:00",
+            "id": "glcgf4v63241",
+            "name": "Zoom Phone",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T10:45:58.970-07:00",
+            "updated_at": "2026-11-20T04:00:07.321-08:00",
             "position": 1,
-            "description": "Access to Group Chats",
+            "description": null,
             "showcase": false,
-            "start_date": null,
-            "group_id": "6zvc1tw9rpfm",
+            "start_date": "2022-05-03",
+            "group_id": "k4ymzkwr5c5f",
             "page_id": "14qjgk812kgk",
             "group": false,
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-11-05T08:00:00.000-08:00",
-        "scheduled_until": "2026-11-20T08:00:00.000-08:00"
+        "scheduled_for": "2026-11-20T04:00:00.000-08:00",
+        "scheduled_until": "2026-11-21T10:00:00.000-08:00"
       }
     ],
     "status": {
-      "indicator": "none",
-      "description": "All Systems Operational"
+      "indicator": "maintenance",
+      "description": "Service Under Maintenance"
     },
-    "updated": "2026-11-20T09:55:12Z"
+    "updated": "2026-11-20T18:27:51Z"
   }
 }
