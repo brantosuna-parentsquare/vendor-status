@@ -2,12 +2,12 @@
   "parentsquare": {
     "status": "ok",
     "latest_title": "ParentSquare Status - Incident History",
-    "updated": "2026-11-20T18:27:52Z"
+    "updated": "2026-11-21T00:07:51Z"
   },
   "slack": {
     "status": "ok",
     "latest_title": "Incident: Trouble with Slack - General Slack functionality issues",
-    "updated": "2026-11-20T18:27:52Z"
+    "updated": "2026-11-21T00:07:51Z"
   },
   "hubspot": {
     "page": {
@@ -15,7 +15,7 @@
       "name": "HubSpot",
       "url": "https://status.hubspot.com",
       "time_zone": "America/New_York",
-      "updated_at": "2026-11-20T09:24:10.432-05:00"
+      "updated_at": "2026-11-20T18:41:35.733-05:00"
     },
     "components": [
       {
@@ -190,7 +190,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-20T18:27:51Z"
+    "updated": "2026-11-21T00:07:49Z"
   },
   "asana": {
     "page": {
@@ -198,7 +198,7 @@
       "name": "Asana",
       "url": "https://status.asana.com",
       "time_zone": "Etc/UTC",
-      "updated_at": "2026-11-20T18:03:27.300Z"
+      "updated_at": "2026-11-20T23:41:40.809Z"
     },
     "components": [
       {
@@ -853,7 +853,7 @@
       "indicator": "none",
       "description": "All Systems Operational"
     },
-    "updated": "2026-11-20T18:27:51Z"
+    "updated": "2026-11-21T00:07:49Z"
   },
   "zoom": {
     "page": {
@@ -861,7 +861,7 @@
       "name": "Zoom",
       "url": "https://www.zoomstatus.com",
       "time_zone": "America/Los_Angeles",
-      "updated_at": "2026-11-20T10:03:26.867-08:00"
+      "updated_at": "2026-11-20T15:41:40.140-08:00"
     },
     "components": [
       {
@@ -1612,9 +1612,9 @@
       {
         "id": "yvbblg5f0rdt",
         "name": "Knowledge Base",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T11:26:39.112-07:00",
-        "updated_at": "2026-11-14T00:00:07.799-08:00",
+        "updated_at": "2026-11-20T15:00:08.778-08:00",
         "position": 2,
         "description": null,
         "showcase": false,
@@ -2407,9 +2407,9 @@
       {
         "id": "9mhsm7sbmhnr",
         "name": "Ticketing",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T11:27:52.285-07:00",
-        "updated_at": "2026-11-14T00:00:08.293-08:00",
+        "updated_at": "2026-11-20T15:00:09.230-08:00",
         "position": 4,
         "description": null,
         "showcase": false,
@@ -5839,7 +5839,7 @@
       {
         "id": "gvz9h6tj2fg7",
         "name": "Zoom Support",
-        "status": "operational",
+        "status": "under_maintenance",
         "created_at": "2022-05-03T11:26:07.797-07:00",
         "updated_at": "2024-08-14T13:40:39.125-07:00",
         "position": 29,
@@ -6305,26 +6305,26 @@
     "incidents": [],
     "scheduled_maintenances": [
       {
-        "id": "83pk65b0692c",
-        "name": "Scheduled Maintenance – Contact Center Services: November 20, 2026",
+        "id": "ytshhsy07cvp",
+        "name": "Zoom Support Maintenance: November 20, 2026",
         "status": "scheduled",
-        "created_at": "2026-11-19T18:25:46.692-08:00",
-        "updated_at": "2026-11-19T18:25:46.796-08:00",
+        "created_at": "2026-11-20T14:05:46.733-08:00",
+        "updated_at": "2026-11-20T14:05:46.846-08:00",
         "monitoring_at": null,
         "resolved_at": null,
         "impact": "maintenance",
-        "shortlink": "https://stspg.io/gjhhplyft1n3",
-        "started_at": "2026-11-19T18:25:46.681-08:00",
+        "shortlink": "https://stspg.io/ygww4v3s91t0",
+        "started_at": "2026-11-20T14:05:46.721-08:00",
         "page_id": "14qjgk812kgk",
         "incident_updates": [
           {
-            "id": "44k393wz362g",
+            "id": "kl9hhfdjfb9y",
             "status": "scheduled",
-            "body": "We are currently performing scheduled maintenance on our Contact Center infrastructure. During this window, support calls will continue to be accepted and handled as normal; however, response times may be slower than usual as our team works through the maintenance activities. We appreciate your patience and apologize for any inconvenience. We will provide an update once maintenance is complete.",
-            "incident_id": "83pk65b0692c",
-            "created_at": "2026-11-19T18:25:46.793-08:00",
-            "updated_at": "2026-11-19T18:25:46.793-08:00",
-            "display_at": "2026-11-19T18:25:46.793-08:00",
+            "body": "We will be performing maintenance on Zoom Support Ticketing and Knowledge Base.  Users may experience degraded performance and up to 30 minutes of downtime for Zoom Support’s Knowledge Base and Ticketing during the maintenance window.",
+            "incident_id": "ytshhsy07cvp",
+            "created_at": "2026-11-20T14:05:46.841-08:00",
+            "updated_at": "2026-11-20T14:05:46.841-08:00",
+            "display_at": "2026-11-20T14:05:46.841-08:00",
             "affected_components": [
               {
                 "code": "yvbblg5f0rdt",
@@ -6348,9 +6348,9 @@
           {
             "id": "yvbblg5f0rdt",
             "name": "Knowledge Base",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-11-14T00:00:07.799-08:00",
+            "updated_at": "2026-11-20T15:00:08.778-08:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -6363,9 +6363,9 @@
           {
             "id": "9mhsm7sbmhnr",
             "name": "Ticketing",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-11-14T00:00:08.293-08:00",
+            "updated_at": "2026-11-20T15:00:09.230-08:00",
             "position": 4,
             "description": null,
             "showcase": false,
@@ -6376,8 +6376,8 @@
             "only_show_if_degraded": false
           }
         ],
-        "scheduled_for": "2026-11-20T15:00:00.000-08:00",
-        "scheduled_until": "2026-11-20T17:00:00.000-08:00"
+        "scheduled_for": "2026-11-20T18:00:00.000-08:00",
+        "scheduled_until": "2026-11-20T22:00:00.000-08:00"
       },
       {
         "id": "n10fslrsj1np",
@@ -6639,9 +6639,9 @@
           {
             "id": "yvbblg5f0rdt",
             "name": "Knowledge Base",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T11:26:39.112-07:00",
-            "updated_at": "2026-11-14T00:00:07.799-08:00",
+            "updated_at": "2026-11-20T15:00:08.778-08:00",
             "position": 2,
             "description": null,
             "showcase": false,
@@ -6654,9 +6654,9 @@
           {
             "id": "9mhsm7sbmhnr",
             "name": "Ticketing",
-            "status": "operational",
+            "status": "under_maintenance",
             "created_at": "2022-05-03T11:27:52.285-07:00",
-            "updated_at": "2026-11-14T00:00:08.293-08:00",
+            "updated_at": "2026-11-20T15:00:09.230-08:00",
             "position": 4,
             "description": null,
             "showcase": false,
@@ -6723,6 +6723,120 @@
         ],
         "scheduled_for": "2027-02-06T17:00:00.000-08:00",
         "scheduled_until": "2027-02-06T18:00:00.000-08:00"
+      },
+      {
+        "id": "83pk65b0692c",
+        "name": "Scheduled Maintenance – Contact Center Services: November 20, 2026",
+        "status": "in_progress",
+        "created_at": "2026-11-19T18:25:46.692-08:00",
+        "updated_at": "2026-11-20T15:00:09.784-08:00",
+        "monitoring_at": null,
+        "resolved_at": null,
+        "impact": "maintenance",
+        "shortlink": "https://stspg.io/gjhhplyft1n3",
+        "started_at": "2026-11-19T18:25:46.681-08:00",
+        "page_id": "14qjgk812kgk",
+        "incident_updates": [
+          {
+            "id": "dwrtfhqmjvt9",
+            "status": "in_progress",
+            "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+            "incident_id": "83pk65b0692c",
+            "created_at": "2026-11-20T15:00:09.770-08:00",
+            "updated_at": "2026-11-20T15:00:09.770-08:00",
+            "display_at": "2026-11-20T15:00:09.770-08:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "operational",
+                "new_status": "under_maintenance"
+              }
+            ],
+            "deliver_notifications": false,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "hgqpbtv6jt8c",
+            "status": "scheduled",
+            "body": "Maintenance will begin as scheduled in 60 minutes.",
+            "incident_id": "83pk65b0692c",
+            "created_at": "2026-11-20T14:00:07.538-08:00",
+            "updated_at": "2026-11-20T14:00:07.538-08:00",
+            "display_at": "2026-11-20T14:00:07.538-08:00",
+            "affected_components": null,
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          },
+          {
+            "id": "44k393wz362g",
+            "status": "scheduled",
+            "body": "We are currently performing scheduled maintenance on our Contact Center infrastructure. During this window, support calls will continue to be accepted and handled as normal; however, response times may be slower than usual as our team works through the maintenance activities. We appreciate your patience and apologize for any inconvenience. We will provide an update once maintenance is complete.",
+            "incident_id": "83pk65b0692c",
+            "created_at": "2026-11-19T18:25:46.793-08:00",
+            "updated_at": "2026-11-19T18:25:46.793-08:00",
+            "display_at": "2026-11-19T18:25:46.793-08:00",
+            "affected_components": [
+              {
+                "code": "yvbblg5f0rdt",
+                "name": "Zoom Support - Knowledge Base",
+                "old_status": "operational",
+                "new_status": "operational"
+              },
+              {
+                "code": "9mhsm7sbmhnr",
+                "name": "Zoom Support - Ticketing",
+                "old_status": "operational",
+                "new_status": "operational"
+              }
+            ],
+            "deliver_notifications": true,
+            "custom_tweet": null,
+            "tweet_id": null
+          }
+        ],
+        "components": [
+          {
+            "id": "yvbblg5f0rdt",
+            "name": "Knowledge Base",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T11:26:39.112-07:00",
+            "updated_at": "2026-11-20T15:00:08.778-08:00",
+            "position": 2,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          },
+          {
+            "id": "9mhsm7sbmhnr",
+            "name": "Ticketing",
+            "status": "under_maintenance",
+            "created_at": "2022-05-03T11:27:52.285-07:00",
+            "updated_at": "2026-11-20T15:00:09.230-08:00",
+            "position": 4,
+            "description": null,
+            "showcase": false,
+            "start_date": "2022-05-03",
+            "group_id": "gvz9h6tj2fg7",
+            "page_id": "14qjgk812kgk",
+            "group": false,
+            "only_show_if_degraded": false
+          }
+        ],
+        "scheduled_for": "2026-11-20T15:00:00.000-08:00",
+        "scheduled_until": "2026-11-20T17:00:00.000-08:00"
       },
       {
         "id": "w05z6850q9l1",
@@ -6803,6 +6917,6 @@
       "indicator": "maintenance",
       "description": "Service Under Maintenance"
     },
-    "updated": "2026-11-20T18:27:51Z"
+    "updated": "2026-11-21T00:07:49Z"
   }
 }
